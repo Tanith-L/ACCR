@@ -1,0 +1,73 @@
+disease:
+  id: psa
+  name: Psoriatic arthritis
+topics:
+- id: overview
+  name: Understanding PsA
+  order: 1
+  icon: tbd
+  subtopics:
+  - id: overview-basics
+    name: PsA basics
+    order: 1
+    lessons:
+    - psa-overview-01
+    - psa-overview-02
+- id: dx
+  name: Understanding diagnosis
+  order: 2
+  icon: tbd
+  subtopics:
+  - id: dx-caspar
+    name: CASPAR criteria
+    order: 1
+    lessons:
+    - psa-dx-01
+    - psa-dx-02
+- id: symptoms
+  name: Symptoms and progression
+  order: 3
+  icon: tbd
+  subtopics:
+  - id: symptoms-domains
+    name: Where PsA appears
+    order: 1
+    lessons:
+    - psa-symptoms-01
+    - psa-symptoms-02
+    - psa-symptoms-03
+- id: treatment
+  name: Treatment and flares
+  order: 4
+  icon: tbd
+  subtopics:
+  - id: treatment-framework
+    name: How treatment is organized
+    order: 1
+    lessons:
+    - psa-treatment-01
+    - psa-treatment-02
+    - psa-treatment-03
+- id: education
+  name: Patient education
+  order: 5
+  icon: tbd
+  subtopics:
+  - id: education-pillars
+    name: Four pillars framework
+    order: 1
+    lessons:
+    - psa-education-01
+    - psa-education-02
+    - psa-education-03
+- id: contact
+  name: When to contact care team
+  order: 6
+  icon: tbd
+  subtopics:
+  - id: contact-symptoms
+    name: Symptoms to report
+    order: 1
+    lessons:
+    - psa-contact-01
+    - psa-contact-02

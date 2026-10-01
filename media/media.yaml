@@ -1,0 +1,40 @@
+- file: psa-one-pager.jpg
+  alt_text: PsA overview showing CASPAR criteria, GRAPPA domains, and clinical manifestations
+  credit: RheumNotes / Frederick T. Murphy
+  source: PsA One-Pager Intro p.1
+  used_in:
+  - psa-overview-02
+  - psa-dx-01
+  - psa-dx-02
+  - psa-treatment-01
+  - psa-contact-02
+- file: psa-clinical-manifestations.jpg
+  alt_text: Body diagram showing PsA manifestations in skin, eyes, joints, gut, and feet
+  credit: RheumNotes / Frederick T. Murphy
+  source: clinical manifestations of PSA written at an 8th grade level p.1
+  used_in:
+  - psa-overview-01
+  - psa-symptoms-02
+  - psa-contact-01
+  - psa-contact-02
+- file: psa-grappa-domains.jpg
+  alt_text: Body diagram showing six GRAPPA PsA treatment domains
+  credit: RheumNotes / Frederick T. Murphy
+  source: GRAPPA domains in PSA which guide treatment decisions p.1
+  used_in:
+  - psa-symptoms-01
+  - psa-treatment-01
+- file: psa-comorbidities.jpg
+  alt_text: Poster listing ten common comorbidities reported with psoriatic arthritis
+  credit: RheumNotes / Frederick T. Murphy
+  source: poster of the comorbidities seen in PSA (top 10) p.1
+  used_in:
+  - psa-symptoms-03
+- file: psa-body-areas.jpg
+  alt_text: Body map showing areas where PsA and ankylosing spondylitis symptoms can appear
+  credit: AbbVie, 2019
+  source: PsA & AS Symptoms p.1
+  used_in:
+  - psa-overview-02
+  - psa-symptoms-02
+  - psa-contact-01

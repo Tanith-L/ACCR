@@ -1,0 +1,494 @@
+- id: psa-overview-01-q1
+  lesson_id: psa-overview-01
+  question: PsA is strongly linked to which skin condition?
+  options:
+  - Eczema
+  - Psoriasis
+  - Hives
+  answer: 1
+  feedback: PsA is psoriatic arthritis, and the source says it is strongly linked to psoriasis.
+  source: Top Autoimmune Diseases p.2
+  status: draft
+- id: psa-overview-01-q2
+  lesson_id: psa-overview-01
+  question: Which body areas can PsA inflammation affect?
+  options:
+  - Only knees
+  - Joints, skin, nails, eyes, and gut
+  - Only skin
+  answer: 1
+  feedback: The clinical-manifestations poster includes joints, skin, nails, eyes, and the gut.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
+- id: psa-overview-01-q3
+  lesson_id: psa-overview-01
+  question: What can untreated inflammation lead to, according to the poster?
+  options:
+  - Lasting damage
+  - Stronger nails
+  - No change
+  answer: 0
+  feedback: The poster says PsA inflammation may lead to lasting damage if left untreated.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
+- id: psa-overview-02-q1
+  lesson_id: psa-overview-02
+  question: Which area appears on the PsA body map?
+  options:
+  - Spine
+  - Hair only
+  - Teeth only
+  answer: 0
+  feedback: The body map includes the spine along with many joints and other body areas.
+  source: PsA & AS Symptoms p.1
+  status: draft
+- id: psa-overview-02-q2
+  lesson_id: psa-overview-02
+  question: Which non-joint areas are shown in the PsA materials?
+  options:
+  - Eyes and gut
+  - Only ears
+  - Only lungs
+  answer: 0
+  feedback: The source posters include the eyes and gut among areas affected by inflammation.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-overview-02-q3
+  lesson_id: psa-overview-02
+  question: Why does the source use a whole-body map?
+  options:
+  - PsA can appear in many areas
+  - PsA affects one joint only
+  - To show medication doses
+  answer: 0
+  feedback: The map emphasizes that PsA manifestations can occur throughout the body.
+  source: PsA & AS Symptoms p.1
+  status: draft
+- id: psa-dx-01-q1
+  lesson_id: psa-dx-01
+  question: What must be present before CASPAR points are counted?
+  options:
+  - Inflammatory articular disease
+  - A fever
+  - High blood pressure
+  answer: 0
+  feedback: The CASPAR box starts with established inflammatory articular disease.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-dx-01-q2
+  lesson_id: psa-dx-01
+  question: The CASPAR entry disease can involve which structures?
+  options:
+  - Joint, spine, or enthesis
+  - Only skin
+  - Only the heart
+  answer: 0
+  feedback: The source lists joint, spine, or entheseal inflammatory disease.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-dx-01-q3
+  lesson_id: psa-dx-01
+  question: What is an enthesis?
+  options:
+  - Where a tendon or ligament attaches to bone
+  - A blood vessel
+  - A skin scale
+  answer: 0
+  feedback: The source materials describe enthesitis at tendon or ligament attachment sites.
+  source: GRAPPA domains in PSA poster p.1
+  status: draft
+- id: psa-dx-02-q1
+  lesson_id: psa-dx-02
+  question: How many CASPAR points are required in the source after the entry criterion?
+  options:
+  - At least 1
+  - At least 3
+  - At least 10
+  answer: 1
+  feedback: The one-pager says CASPAR is positive at 3 or more points after the entry requirement.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-dx-02-q2
+  lesson_id: psa-dx-02
+  question: Which CASPAR feature is worth 2 points when current?
+  options:
+  - Current psoriasis
+  - Negative RF
+  - Dactylitis
+  answer: 0
+  feedback: Current skin or scalp psoriasis is shown as a 2-point feature.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-dx-02-q3
+  lesson_id: psa-dx-02
+  question: Which is a 1-point CASPAR feature?
+  options:
+  - Negative rheumatoid factor
+  - Normal nails
+  - No joint symptoms
+  answer: 0
+  feedback: The source lists a negative rheumatoid factor as one CASPAR point.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-symptoms-01-q1
+  lesson_id: psa-symptoms-01
+  question: Which is one of the six GRAPPA domains?
+  options:
+  - Dactylitis
+  - Migraine
+  - Dental disease
+  answer: 0
+  feedback: Dactylitis is one of the six core domains shown in the source.
+  source: GRAPPA domains in PSA poster p.1
+  status: draft
+- id: psa-symptoms-01-q2
+  lesson_id: psa-symptoms-01
+  question: What is dactylitis?
+  options:
+  - Whole-finger or whole-toe swelling
+  - A skin bruise
+  - Dry mouth
+  answer: 0
+  feedback: The source describes dactylitis as uniform swelling of an entire digit.
+  source: GRAPPA domains in PSA poster p.1
+  status: draft
+- id: psa-symptoms-01-q3
+  lesson_id: psa-symptoms-01
+  question: Where does enthesitis occur?
+  options:
+  - Where tendons or ligaments attach to bone
+  - Inside a tooth
+  - Only on the scalp
+  answer: 0
+  feedback: Enthesitis is inflammation at tendon or ligament attachment sites.
+  source: GRAPPA domains in PSA poster p.1
+  status: draft
+- id: psa-symptoms-02-q1
+  lesson_id: psa-symptoms-02
+  question: Which eye condition is listed in the poster?
+  options:
+  - Anterior uveitis
+  - Cataract only
+  - Near-sightedness
+  answer: 0
+  feedback: The clinical-manifestations poster lists anterior uveitis.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
+- id: psa-symptoms-02-q2
+  lesson_id: psa-symptoms-02
+  question: Which gut symptoms are listed?
+  options:
+  - Pain, bloating, or bowel-habit changes
+  - Only thirst
+  - Only cough
+  answer: 0
+  feedback: The poster lists pain, bloating, or changes in bowel habits.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
+- id: psa-symptoms-02-q3
+  lesson_id: psa-symptoms-02
+  question: Which foot area is commonly linked to enthesitis in the source?
+  options:
+  - Achilles tendon
+  - Toenail color only
+  - Heel skin only
+  answer: 0
+  feedback: The poster highlights the Achilles tendon and plantar fascia.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
+- id: psa-symptoms-03-q1
+  lesson_id: psa-symptoms-03
+  question: What does comorbidity mean in this lesson?
+  options:
+  - Another condition present with PsA
+  - A medication dose
+  - A joint count
+  answer: 0
+  feedback: A comorbidity is another health condition that occurs along with PsA.
+  source: poster of the comorbidities seen in PSA p.1
+  status: draft
+- id: psa-symptoms-03-q2
+  lesson_id: psa-symptoms-03
+  question: Which condition has the highest percentage on the poster?
+  options:
+  - Hypertension
+  - Thyroid disease
+  - Gastrointestinal disease
+  answer: 0
+  feedback: Hypertension is shown at 34%, the highest percentage on the poster.
+  source: poster of the comorbidities seen in PSA p.1
+  status: draft
+- id: psa-symptoms-03-q3
+  lesson_id: psa-symptoms-03
+  question: Which mood condition appears on the poster?
+  options:
+  - Depression
+  - Insomnia
+  - Panic disorder
+  answer: 0
+  feedback: Depression is listed at 12% on the provided poster.
+  source: poster of the comorbidities seen in PSA p.1
+  status: draft
+- id: psa-treatment-01-q1
+  lesson_id: psa-treatment-01
+  question: Why does the one-pager assess every GRAPPA domain?
+  options:
+  - Domains can change treatment choices
+  - To count calories
+  - To measure height
+  answer: 0
+  feedback: The source says each active domain can influence therapy selection.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-treatment-01-q2
+  lesson_id: psa-treatment-01
+  question: Which domain does the source say csDMARDs do not treat?
+  options:
+  - Axial spine disease
+  - Nail disease only
+  - Skin psoriasis only
+  answer: 0
+  feedback: The one-pager states that conventional synthetic DMARDs do not treat the spine.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-treatment-01-q3
+  lesson_id: psa-treatment-01
+  question: Which pathways are linked with skin psoriasis in the source?
+  options:
+  - IL-17 and IL-23
+  - Insulin only
+  - Calcium only
+  answer: 0
+  feedback: The one-pager says skin burden can steer treatment toward IL-17 and IL-23 pathways.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-treatment-02-q1
+  lesson_id: psa-treatment-02
+  question: What does DMARD stand for?
+  options:
+  - Disease-modifying antirheumatic drug
+  - Daily movement and rest dose
+  - Diagnostic marker and radiology data
+  answer: 0
+  feedback: DMARD means disease-modifying antirheumatic drug.
+  source: Management Guidelines of Arthritis and Autoimmune Diseases p.9
+  status: draft
+- id: psa-treatment-02-q2
+  lesson_id: psa-treatment-02
+  question: How does the source describe biologic therapies?
+  options:
+  - Engineered proteins aimed at specific targets
+  - Vitamins only
+  - Exercise plans
+  answer: 0
+  feedback: The chapter describes biologics as engineered proteins that intercept specific messengers or cell targets.
+  source: Management Guidelines of Arthritis and Autoimmune Diseases p.12
+  status: draft
+- id: psa-treatment-02-q3
+  lesson_id: psa-treatment-02
+  question: Where do JAK and TYK2 medicines act in the source framework?
+  options:
+  - Inside-cell signaling pathways
+  - Only the skin surface
+  - Inside bones only
+  answer: 0
+  feedback: The chapter describes JAK and TYK2 as targeted intracellular signaling approaches.
+  source: Management Guidelines of Arthritis and Autoimmune Diseases pp.15-16
+  status: draft
+- id: psa-treatment-03-q1
+  lesson_id: psa-treatment-03
+  question: What does MDA stand for in the PsA source?
+  options:
+  - Minimal disease activity
+  - Maximum drug amount
+  - Medical diagnosis alone
+  answer: 0
+  feedback: The source uses MDA for minimal disease activity.
+  source: mindmap p.1
+  status: draft
+- id: psa-treatment-03-q2
+  lesson_id: psa-treatment-03
+  question: How many MDA criteria does the mind map say should be met?
+  options:
+  - 5 of 7
+  - 1 of 7
+  - 7 of 20
+  answer: 0
+  feedback: The handwritten PsA mind map notes meeting 5 of 7 criteria.
+  source: mindmap p.1
+  status: draft
+- id: psa-treatment-03-q3
+  lesson_id: psa-treatment-03
+  question: Which item is part of the MDA framework shown?
+  options:
+  - Tender-joint count
+  - Hair color
+  - Blood type
+  answer: 0
+  feedback: The mind map includes tender-joint count among the seven MDA areas.
+  source: mindmap p.1
+  status: draft
+- id: psa-education-01-q1
+  lesson_id: psa-education-01
+  question: Which four pillars are named in the source?
+  options:
+  - Nutrition, movement, mind, sleep
+  - Weather, work, travel, money
+  - Skin, hair, teeth, hearing
+  answer: 0
+  feedback: The Four Pillars chapter centers on nourishment, movement, the mind, and sleep.
+  source: The Four Pillars of Arthritis pp.1-3
+  status: draft
+- id: psa-education-01-q2
+  lesson_id: psa-education-01
+  question: How does the source describe the four pillars?
+  options:
+  - Connected parts of one system
+  - Unrelated medical tests
+  - A drug-ranking system
+  answer: 0
+  feedback: The source presents the pillars as reinforcing one another.
+  source: The Four Pillars of Arthritis p.2
+  status: draft
+- id: psa-education-01-q3
+  lesson_id: psa-education-01
+  question: Does the four-pillar framework replace PsA treatment?
+  options:
+  - 'No'
+  - Yes, always
+  answer: 0
+  feedback: The project and source materials use the pillars as education, not as a replacement for medical care.
+  source: The Four Pillars of Arthritis pp.1-3
+  status: draft
+- id: psa-education-02-q1
+  lesson_id: psa-education-02
+  question: Which activity is discussed in the movement section?
+  options:
+  - Tai Chi
+  - Skydiving
+  - Motor racing
+  answer: 0
+  feedback: The source discusses Tai Chi among movement approaches studied in arthritis.
+  source: The Four Pillars of Arthritis pp.17-24
+  status: draft
+- id: psa-education-02-q2
+  lesson_id: psa-education-02
+  question: What is the third pillar called in the chapter?
+  options:
+  - Mastery
+  - Medication
+  - Measurement
+  answer: 0
+  feedback: The chapter calls the third pillar Mastery and focuses on the mind.
+  source: The Four Pillars of Arthritis p.25
+  status: draft
+- id: psa-education-02-q3
+  lesson_id: psa-education-02
+  question: Which practice appears in the mind section?
+  options:
+  - Mindfulness
+  - Smoking
+  - Fasting only
+  answer: 0
+  feedback: The source discusses mindfulness and other reflective practices in the mastery section.
+  source: The Four Pillars of Arthritis pp.25-28
+  status: draft
+- id: psa-education-03-q1
+  lesson_id: psa-education-03
+  question: Which is the first pillar?
+  options:
+  - Nourishment
+  - Sleep
+  - Imaging
+  answer: 0
+  feedback: The chapter begins its four-pillar discussion with nourishment.
+  source: The Four Pillars of Arthritis p.3
+  status: draft
+- id: psa-education-03-q2
+  lesson_id: psa-education-03
+  question: Which is the fourth pillar?
+  options:
+  - Sleep
+  - Blood testing
+  - X-rays
+  answer: 0
+  feedback: The chapter identifies sleep as the fourth pillar.
+  source: The Four Pillars of Arthritis p.29
+  status: draft
+- id: psa-education-03-q3
+  lesson_id: psa-education-03
+  question: What does the source say about single supplements?
+  options:
+  - They are not disease-modifying drugs
+  - They cure PsA
+  - They replace all food
+  answer: 0
+  feedback: The chapter states that individual micronutrients or supplements are not disease-modifying drugs.
+  source: The Four Pillars of Arthritis p.10
+  status: draft
+- id: psa-contact-01-q1
+  lesson_id: psa-contact-01
+  question: What does the PsA symptoms poster tell patients to do?
+  options:
+  - Talk to a healthcare provider about symptoms
+  - Ignore new symptoms
+  - Change medicine without asking
+  answer: 0
+  feedback: The poster says to talk to a healthcare provider if symptoms appear in the highlighted areas.
+  source: PsA & AS Symptoms p.1
+  status: draft
+- id: psa-contact-01-q2
+  lesson_id: psa-contact-01
+  question: Which area is highlighted for reporting?
+  options:
+  - Eyes
+  - Hair
+  - Teeth
+  answer: 0
+  feedback: The source body map includes the eyes among areas where symptoms may appear.
+  source: PsA & AS Symptoms p.1
+  status: draft
+- id: psa-contact-01-q3
+  lesson_id: psa-contact-01
+  question: Which hand finding is described in the source?
+  options:
+  - Whole-finger swelling
+  - Blue fingernails only
+  - No hand symptoms
+  answer: 0
+  feedback: The materials describe dactylitis, or swelling of an entire finger or toe.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
+- id: psa-contact-02-q1
+  lesson_id: psa-contact-02
+  question: Which eye symptoms are listed for anterior uveitis?
+  options:
+  - Redness, pain, and light sensitivity
+  - Only dry skin
+  - Only sneezing
+  answer: 0
+  feedback: The clinical-manifestations poster lists redness, pain, and sensitivity to light.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
+- id: psa-contact-02-q2
+  lesson_id: psa-contact-02
+  question: Which specialty does the one-pager mention for uveitis?
+  options:
+  - Ophthalmology
+  - Dentistry
+  - Dermatology only
+  answer: 0
+  feedback: The one-pager says uveitis should be coordinated with ophthalmology.
+  source: PsA One-Pager Intro p.1
+  status: draft
+- id: psa-contact-02-q3
+  lesson_id: psa-contact-02
+  question: Which gut changes are listed in the source?
+  options:
+  - Pain, bloating, or bowel-habit changes
+  - Only headache
+  - Only ankle swelling
+  answer: 0
+  feedback: The source lists pain, bloating, or changes in bowel habits.
+  source: clinical manifestations of PSA poster p.1
+  status: draft
