@@ -1,0 +1,73 @@
+// Screen 2: the learning path for one topic (subtopics -> ordered lessons).
+import { router, Stack, useLocalSearchParams } from 'expo-router';
+import { StyleSheet, Text, View } from 'react-native';
+
+import { Button } from '@/components/Button';
+import { LessonRow } from '@/components/LessonRow';
+import { ProgressBar } from '@/components/ProgressBar';
+import { Screen } from '@/components/Screen';
+import { AsyncContent, EmptyState } from '@/components/StateViews';
+import { contentService } from '@/content';
+import { useAsync } from '@/hooks/useAsync';
+import { useProgress } from '@/progress/ProgressContext';
+import { spacing, type } from '@/theme';
+
+export default function LearningPathScreen() {
+  const { topicId } = useLocalSearchParams<{ topicId: string }>();
+  const path = useAsync(() => contentService.getLearningPath(topicId), topicId);
+  const { isCompleted, countCompleted } = useProgress();
+
+  const openLesson = (lessonId: string) =>
+    router.push({ pathname: '/lesson/[lessonId]', params: { lessonId } });
+
+  return (
+    <>
+      <Stack.Screen options={{ title: path.data?.topic.name ?? 'Learning path' }} />
+      <AsyncContent
+        state={path}
+        isEmpty={(p) => p.lessonIds.length === 0}
+        empty={<EmptyState title="No lessons in this topic yet" />}
+      >
+        {(p) => {
+          const done = countCompleted(p.lessonIds);
+          const next = p.lessonIds.find((id) => !isCompleted(id));
+          let position = 0;
+          return (
+            <Screen onRefresh={path.reload}>
+              <View style={styles.header}>
+                <Text style={type.title}>{p.topic.name}</Text>
+                {p.topic.description ? <Text style={type.caption}>{p.topic.description}</Text> : null}
+                <ProgressBar done={done} total={p.lessonIds.length} />
+                {next && (
+                  <Button
+                    label={done === 0 ? 'Start learning' : 'Continue'}
+                    onPress={() => openLesson(next)}
+                  />
+                )}
+              </View>
+              {p.subtopics.map((sub) => (
+                <View key={sub.id} style={styles.section}>
+                  <Text style={type.label}>{sub.name.toUpperCase()}</Text>
+                  {sub.lessons.map((lesson) => (
+                    <LessonRow
+                      key={lesson.id}
+                      lesson={lesson}
+                      position={++position}
+                      completed={isCompleted(lesson.id)}
+                      onPress={() => openLesson(lesson.id)}
+                    />
+                  ))}
+                </View>
+              ))}
+            </Screen>
+          );
+        }}
+      </AsyncContent>
+    </>
+  );
+}
+
+const styles = StyleSheet.create({
+  header: { gap: spacing.md },
+  section: { gap: spacing.sm },
+});

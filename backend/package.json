@@ -1,0 +1,11 @@
+{
+  "name": "rheumnotes-backend-sql-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:sql": "node --test tests/sql/*.test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0"
+  }
+}

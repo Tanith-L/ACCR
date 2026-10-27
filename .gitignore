@@ -1,0 +1,22 @@
+# Secrets: never commit keys (see backend/.env.example, frontend/.env.example)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+
+# Review sheets contain unpublished drafts; share them directly, don't commit
+backend/review_sheets/*
+!backend/review_sheets/.gitkeep
+
+# Pipeline traces and eval reports are regenerated per run
+data/output/*.trace.json
+
+.DS_Store

@@ -1,0 +1,7 @@
+# Concepts a person identified by hand in the source documents for one topic.
+# Used by `python -m rheumnotes_data evaluate --manual-concepts` to report coverage.
+# TODO(data): fill in after reading the sources for the Week 9 topic.
+topic: overview
+sources: []
+concepts:
+  - Example concept name
