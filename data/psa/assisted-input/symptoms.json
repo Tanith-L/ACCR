@@ -1,0 +1,631 @@
+{
+  "version": 1,
+  "mode": "interactive_assistant",
+  "model": "Codex interactive assistant (API model snapshot unavailable)",
+  "prompt_version": "psa-interactive-v1",
+  "authorship": "Drafted and assessed by the assistant in the current conversation after visually reading the two supplied posters. This is not a successful API run, an independent model evaluation, or a human/clinical review.",
+  "correction_log": [],
+  "source_hashes": {
+    "src-grappa-domains-in-psa-poster": "675096e0569e0a40861fb267f201e954033ac4cb2d1d99f03da894b060e0b4ae",
+    "src-clinical-manifestations-of-psa-poster": "d8c3a7b4615ddb631d6f307d61d124bb2701d51f3468979517df0f4abc8f247a"
+  },
+  "pages": [
+    {
+      "source_id": "src-grappa-domains-in-psa-poster",
+      "source_page": 1,
+      "method": "Interactive assistant visual transcription of the supplied original image",
+      "human_verified": false,
+      "uncertain_regions": [],
+      "text": "RHEUMNOTES\nPSORIATIC ARTHRITIS\nThe GRAPPA Treatment Domains\nSKIN PSORIASIS\nWell-demarcated erythematous plaques with silvery scale. A core GRAPPA domain that drives treatment choice.\nNAIL PSORIASIS\nNail-matrix and nail-bed disease: pitting, onycholysis, oil-drop change, and subungual hyperkeratosis.\nDACTYLITIS\nUniform swelling of an entire digit from synovitis, tenosynovitis, and soft-tissue inflammation.\nPERIPHERAL ARTHRITIS\nInflammatory synovitis of peripheral joints; oligo- or polyarticular, often asymmetric.\nAXIAL DISEASE\nInflammation of the spine and sacroiliac joints causing inflammatory back pain and stiffness.\nENTHESITIS\nInflammation where tendons or ligaments insert into bone; commonly Achilles and plantar fascia.",
+      "concepts": [
+        {
+          "label": "Skin patches",
+          "quote": "Well-demarcated erythematous plaques with silvery scale."
+        },
+        {
+          "label": "Nail changes",
+          "quote": "Nail-matrix and nail-bed disease: pitting, onycholysis, oil-drop change, and subungual hyperkeratosis."
+        },
+        {
+          "label": "Whole-digit swelling",
+          "quote": "Uniform swelling of an entire digit from synovitis, tenosynovitis, and soft-tissue inflammation."
+        },
+        {
+          "label": "Joint involvement",
+          "quote": "Inflammatory synovitis of peripheral joints; oligo- or polyarticular, often asymmetric."
+        },
+        {
+          "label": "Back pain and stiffness",
+          "quote": "Inflammation of the spine and sacroiliac joints causing inflammatory back pain and stiffness."
+        },
+        {
+          "label": "Tendon and ligament attachment sites",
+          "quote": "Inflammation where tendons or ligaments insert into bone; commonly Achilles and plantar fascia."
+        }
+      ]
+    },
+    {
+      "source_id": "src-clinical-manifestations-of-psa-poster",
+      "source_page": 1,
+      "method": "Interactive assistant visual transcription of the supplied original image",
+      "human_verified": false,
+      "uncertain_regions": [],
+      "text": "RHEUMNOTES\nPSORIATIC ARTHRITIS\nPsA inflammation can affect joints, skin, nails, eyes, and the gut — and may lead to lasting damage if left untreated.\nSkin / Psoriasis\nPlaque psoriasis with silvery scale and underlying inflammation.\nEyes\nAnterior uveitis with redness, pain, and sensitivity to light.\nGut\nInflammation in the gut, similar to IBD, with pain, bloating, or changes in bowel habits.\nShoulders\nShoulder joint and surrounding tissues can become inflamed and painful.\nWrists, Hands & Nails\nDactylitis (sausage finger), joint swelling, nail pitting, and onycholysis.\nFeet / Enthesitis\nInflammation where tendons attach to bone, especially at the Achilles and plantar fascia.\nSpine & SI Joints\nInflammation in the spine and sacroiliac joints can cause pain and stiffness.\nElbows\nElbow joints and surrounding tendons can become inflamed and tender.\nHips\nHip joints can be affected, leading to pain and reduced mobility.\nKnees\nKnee inflammation with swelling, warmth, and stiffness.\nAnkles\nAnkle and midfoot joints can become inflamed, causing pain and walking difficulty.",
+      "concepts": [
+        {
+          "label": "Eye symptoms",
+          "quote": "Anterior uveitis with redness, pain, and sensitivity to light."
+        },
+        {
+          "label": "Gut symptoms",
+          "quote": "Inflammation in the gut, similar to IBD, with pain, bloating, or changes in bowel habits."
+        },
+        {
+          "label": "Shoulder symptoms",
+          "quote": "Shoulder joint and surrounding tissues can become inflamed and painful."
+        },
+        {
+          "label": "Hip symptoms",
+          "quote": "Hip joints can be affected, leading to pain and reduced mobility."
+        },
+        {
+          "label": "Knee symptoms",
+          "quote": "Knee inflammation with swelling, warmth, and stiffness."
+        },
+        {
+          "label": "Ankle symptoms",
+          "quote": "Ankle and midfoot joints can become inflamed, causing pain and walking difficulty."
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "psa-symptoms-01",
+      "draft": {
+        "title": "Changes in skin, nails, and joints",
+        "pages": [
+          {
+            "sentences": [
+              {
+                "text": "Psoriatic arthritis, or PsA, can affect your skin, nails, and joints.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "PSORIATIC ARTHRITIS\nPsA inflammation can affect joints, skin, nails, eyes, and the gut"
+              },
+              {
+                "text": "Skin patches may have silvery scales.",
+                "source_id": "src-grappa-domains-in-psa-poster",
+                "source_page": 1,
+                "source_quote": "Well-demarcated erythematous plaques with silvery scale."
+              },
+              {
+                "text": "Your nails may have small pits.",
+                "source_id": "src-grappa-domains-in-psa-poster",
+                "source_page": 1,
+                "source_quote": "Nail-matrix and nail-bed disease: pitting, onycholysis, oil-drop change, and subungual hyperkeratosis."
+              },
+              {
+                "text": "A whole finger or toe may swell.",
+                "source_id": "src-grappa-domains-in-psa-poster",
+                "source_page": 1,
+                "source_quote": "Uniform swelling of an entire digit from synovitis, tenosynovitis, and soft-tissue inflammation."
+              },
+              {
+                "text": "Your hands may have swollen joints.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Wrists, Hands & Nails\nDactylitis (sausage finger), joint swelling, nail pitting, and onycholysis."
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "PsA can cause back pain and stiffness.",
+                "source_id": "src-grappa-domains-in-psa-poster",
+                "source_page": 1,
+                "source_quote": "Inflammation of the spine and sacroiliac joints causing inflammatory back pain and stiffness."
+              },
+              {
+                "text": "The places where tendons or ligaments attach to bone can become inflamed.",
+                "source_id": "src-grappa-domains-in-psa-poster",
+                "source_page": 1,
+                "source_quote": "Inflammation where tendons or ligaments insert into bone; commonly Achilles and plantar fascia."
+              },
+              {
+                "text": "In the feet, this can happen where tendons attach to bone.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Feet / Enthesitis\nInflammation where tendons attach to bone, especially at the Achilles and plantar fascia."
+              },
+              {
+                "text": "Ankles can become painful, and walking may be hard.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Ankle and midfoot joints can become inflamed, causing pain and walking difficulty."
+              },
+              {
+                "text": "Knees can feel swollen, warm, and stiff.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Knee inflammation with swelling, warmth, and stiffness."
+              }
+            ]
+          }
+        ],
+        "key_takeaway_indices": [
+          4,
+          6,
+          7
+        ],
+        "quizzes": [
+          {
+            "question": "Which skin change can happen with PsA?",
+            "options": [
+              "A swollen finger.",
+              "Patches with silvery scales.",
+              "A stiff back."
+            ],
+            "answer": 1,
+            "feedback": "Skin patches may have silvery scales.",
+            "source_id": "src-grappa-domains-in-psa-poster",
+            "source_page": 1,
+            "source_quote": "Well-demarcated erythematous plaques with silvery scale."
+          },
+          {
+            "question": "Which change can affect a whole finger or toe?",
+            "options": [
+              "Swelling.",
+              "Small pits in a nail.",
+              "Pain in the back."
+            ],
+            "answer": 0,
+            "feedback": "A whole finger or toe may swell.",
+            "source_id": "src-grappa-domains-in-psa-poster",
+            "source_page": 1,
+            "source_quote": "Uniform swelling of an entire digit from synovitis, tenosynovitis, and soft-tissue inflammation."
+          },
+          {
+            "question": "The lesson describes inflammation where tendons attach to what?",
+            "options": [
+              "Skin scales.",
+              "The end of a nail.",
+              "Bone."
+            ],
+            "answer": 2,
+            "feedback": "The places where tendons attach to bone can become inflamed.",
+            "source_id": "src-grappa-domains-in-psa-poster",
+            "source_page": 1,
+            "source_quote": "Inflammation where tendons or ligaments insert into bone; commonly Achilles and plantar fascia."
+          }
+        ]
+      },
+      "assessment": {
+        "title_supported": true,
+        "safety_flags": [],
+        "plain_language_flags": [],
+        "claims": [
+          {
+            "id": "psa-symptoms-01-c1",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The title and introduction identify PsA and name skin, nails and joints. The draft retains possibility rather than inevitability."
+          },
+          {
+            "id": "psa-symptoms-01-c2",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The skin panel explicitly describes plaques with silvery scale; patches and scales preserve its meaning."
+          },
+          {
+            "id": "psa-symptoms-01-c3",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The nail panel lists pitting. Small pits describes this without adding other nail conditions."
+          },
+          {
+            "id": "psa-symptoms-01-c4",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The dactylitis panel says uniform swelling of an entire digit; finger or toe translates digit without adding a new symptom."
+          },
+          {
+            "id": "psa-symptoms-01-c5",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The clinical panel headed Wrists, Hands & Nails explicitly lists joint swelling."
+          },
+          {
+            "id": "psa-symptoms-01-c6",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The axial panel links inflammation to back pain and stiffness. The draft describes a possible symptom."
+          },
+          {
+            "id": "psa-symptoms-01-c7",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The enthesitis panel identifies inflammation where tendons or ligaments insert into bone. Attach is a plain-language equivalent of insert here."
+          },
+          {
+            "id": "psa-symptoms-01-c8",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The Feet / Enthesitis panel locates inflammation at tendon attachments in the feet. This refers to the preceding sentence's inflamed attachment sites."
+          },
+          {
+            "id": "psa-symptoms-01-c9",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The ankle panel explicitly lists pain and walking difficulty; the draft adds no treatment or urgency advice."
+          },
+          {
+            "id": "psa-symptoms-01-c10",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The knee panel lists swelling, warmth and stiffness; the draft makes no diagnosis or progression prediction."
+          }
+        ],
+        "quizzes": [
+          {
+            "id": "psa-symptoms-01-q1",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "Silvery scales are the unique skin answer; the other options describe different body areas. The skin panel supports the feedback."
+          },
+          {
+            "id": "psa-symptoms-01-q2",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "Whole-digit swelling is explicit in the lesson and source. Nail pits and back pain do not answer the whole-digit question."
+          },
+          {
+            "id": "psa-symptoms-01-q3",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "Source and lesson name bone as the attachment site; the other options do not match. Feedback adds no new claim."
+          }
+        ],
+        "coverage": [
+          {
+            "id": "skin",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-01-c2"
+            ],
+            "reason": "Silvery skin scales are explicitly taught."
+          },
+          {
+            "id": "nails",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-01-c3"
+            ],
+            "reason": "Nail pitting is taught; lifting is an alternative example in the reference concept."
+          },
+          {
+            "id": "digits",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-01-c4"
+            ],
+            "reason": "Whole-finger or whole-toe swelling is explicit."
+          },
+          {
+            "id": "joints",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-01-c5"
+            ],
+            "reason": "Swollen hand joints are an example of joints away from the spine."
+          },
+          {
+            "id": "back",
+            "covered": false,
+            "claim_ids": [
+              "psa-symptoms-01-c6"
+            ],
+            "reason": "Back pain and stiffness are taught, but the draft does not separately teach nearby joint involvement."
+          },
+          {
+            "id": "attachments",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-01-c7",
+              "psa-symptoms-01-c8"
+            ],
+            "reason": "Inflamed tendon or ligament attachments and a foot example are taught."
+          }
+        ]
+      }
+    },
+    {
+      "id": "psa-symptoms-02",
+      "draft": {
+        "title": "Eyes, gut, and movement",
+        "pages": [
+          {
+            "sentences": [
+              {
+                "text": "PsA can affect the eyes and gut as well as the joints.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "PsA inflammation can affect joints, skin, nails, eyes, and the gut"
+              },
+              {
+                "text": "Eye changes can include redness, pain, and being sensitive to light.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Anterior uveitis with redness, pain, and sensitivity to light."
+              },
+              {
+                "text": "Your gut may feel painful or bloated.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Inflammation in the gut, similar to IBD, with pain, bloating, or changes in bowel habits."
+              },
+              {
+                "text": "You may also notice a change in your bowel habits.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Inflammation in the gut, similar to IBD, with pain, bloating, or changes in bowel habits."
+              },
+              {
+                "text": "The shoulder joint and the tissues around it can become sore and inflamed.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Shoulder joint and surrounding tissues can become inflamed and painful."
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "PsA can cause pain in the hips and make it harder to move.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Hip joints can be affected, leading to pain and reduced mobility."
+              },
+              {
+                "text": "Knees can become swollen, warm, and stiff.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Knee inflammation with swelling, warmth, and stiffness."
+              },
+              {
+                "text": "The ankle and the middle of the foot can become inflamed.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Ankle and midfoot joints can become inflamed, causing pain and walking difficulty."
+              },
+              {
+                "text": "This can cause pain and make walking hard.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Ankle and midfoot joints can become inflamed, causing pain and walking difficulty."
+              },
+              {
+                "text": "Elbow joints and nearby tendons can become inflamed and tender.",
+                "source_id": "src-clinical-manifestations-of-psa-poster",
+                "source_page": 1,
+                "source_quote": "Elbow joints and surrounding tendons can become inflamed and tender."
+              }
+            ]
+          }
+        ],
+        "key_takeaway_indices": [
+          1,
+          6,
+          7
+        ],
+        "quizzes": [
+          {
+            "question": "Which eye changes does the lesson describe?",
+            "options": [
+              "Dryness and itching.",
+              "Redness, pain, and sensitivity to light.",
+              "Cloudy sight only."
+            ],
+            "answer": 1,
+            "feedback": "Eyes can be red and painful, and light may bother them.",
+            "source_id": "src-clinical-manifestations-of-psa-poster",
+            "source_page": 1,
+            "source_quote": "Anterior uveitis with redness, pain, and sensitivity to light."
+          },
+          {
+            "question": "What may happen when the hips are affected?",
+            "options": [
+              "Movement becomes easier.",
+              "Only the skin changes.",
+              "There may be pain and less movement."
+            ],
+            "answer": 2,
+            "feedback": "The hips can hurt and be harder to move.",
+            "source_id": "src-clinical-manifestations-of-psa-poster",
+            "source_page": 1,
+            "source_quote": "Hip joints can be affected, leading to pain and reduced mobility."
+          },
+          {
+            "question": "Which knee changes does the lesson describe?",
+            "options": [
+              "Swelling, warmth, and stiffness.",
+              "Small pits and silvery scales.",
+              "Redness and sensitivity to light."
+            ],
+            "answer": 0,
+            "feedback": "Knees can become swollen, warm, and stiff.",
+            "source_id": "src-clinical-manifestations-of-psa-poster",
+            "source_page": 1,
+            "source_quote": "Knee inflammation with swelling, warmth, and stiffness."
+          }
+        ]
+      },
+      "assessment": {
+        "title_supported": true,
+        "safety_flags": [],
+        "plain_language_flags": [],
+        "claims": [
+          {
+            "id": "psa-symptoms-02-c1",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The introduction names eyes, gut and joints; can preserves uncertainty and does not predict individual symptoms."
+          },
+          {
+            "id": "psa-symptoms-02-c2",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The eye panel lists redness, pain and sensitivity to light. The draft describes symptoms without diagnosing uveitis."
+          },
+          {
+            "id": "psa-symptoms-02-c3",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The gut panel lists pain and bloating; painful and bloated preserve these meanings without diagnosing IBD."
+          },
+          {
+            "id": "psa-symptoms-02-c4",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "Changes in bowel habits are explicitly present in the gut panel."
+          },
+          {
+            "id": "psa-symptoms-02-c5",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The shoulder panel names the joint and surrounding tissues as inflamed and painful. Sore preserves painful."
+          },
+          {
+            "id": "psa-symptoms-02-c6",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The hip panel states pain and reduced mobility. Harder to move translates reduced mobility without adding treatment."
+          },
+          {
+            "id": "psa-symptoms-02-c7",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "Swelling, warmth and stiffness are listed in the knee panel."
+          },
+          {
+            "id": "psa-symptoms-02-c8",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The ankle panel includes ankle and midfoot inflammation. Middle of the foot translates midfoot."
+          },
+          {
+            "id": "psa-symptoms-02-c9",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The preceding sentence identifies ankle/midfoot inflammation; the same source explicitly states pain and walking difficulty."
+          },
+          {
+            "id": "psa-symptoms-02-c10",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The elbow panel describes inflamed and tender joints and surrounding tendons. Nearby preserves that location."
+          }
+        ],
+        "quizzes": [
+          {
+            "id": "psa-symptoms-02-q1",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "Only the second option matches the eye symptoms taught in the lesson and source. Feedback restates light sensitivity and pain."
+          },
+          {
+            "id": "psa-symptoms-02-q2",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "Pain and less movement match the hip panel and lesson; the other choices do not. Feedback is a direct paraphrase."
+          },
+          {
+            "id": "psa-symptoms-02-q3",
+            "support": "supported",
+            "source_quote_verified": true,
+            "numbers_ok": true,
+            "reason": "The first option matches the knee symptoms; the others refer to skin/nails or eyes, so the answer is unique."
+          }
+        ],
+        "coverage": [
+          {
+            "id": "eyes",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-02-c2"
+            ],
+            "reason": "All three eye symptoms are taught."
+          },
+          {
+            "id": "gut",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-02-c3",
+              "psa-symptoms-02-c4"
+            ],
+            "reason": "Pain, bloating and changed bowel habits are taught."
+          },
+          {
+            "id": "shoulder",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-02-c5"
+            ],
+            "reason": "Shoulder pain and inflammation are taught."
+          },
+          {
+            "id": "hip",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-02-c6"
+            ],
+            "reason": "Hip pain and limited movement are taught."
+          },
+          {
+            "id": "knee",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-02-c7"
+            ],
+            "reason": "All three knee symptoms are taught."
+          },
+          {
+            "id": "ankle",
+            "covered": true,
+            "claim_ids": [
+              "psa-symptoms-02-c8",
+              "psa-symptoms-02-c9"
+            ],
+            "reason": "Ankle/midfoot symptoms and walking difficulty are taught."
+          }
+        ]
+      }
+    }
+  ]
+}

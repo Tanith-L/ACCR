@@ -2,20 +2,9 @@ disease:
   id: psa
   name: Psoriatic arthritis
 topics:
-- id: overview
-  name: Understanding PsA
-  order: 1
-  icon: tbd
-  subtopics:
-  - id: overview-basics
-    name: PsA basics
-    order: 1
-    lessons:
-    - psa-overview-01
-    - psa-overview-02
 - id: dx
   name: Understanding diagnosis
-  order: 2
+  order: 1
   icon: tbd
   subtopics:
   - id: dx-caspar
@@ -24,8 +13,19 @@ topics:
     lessons:
     - psa-dx-01
     - psa-dx-02
+- id: overview
+  name: Understanding Psoriatic Arthritis
+  order: 2
+  icon: tbd
+  subtopics:
+  - id: overview-basics
+    name: PsA basics
+    order: 1
+    lessons:
+    - psa-overview-01
+    - psa-overview-02
 - id: symptoms
-  name: Symptoms and progression
+  name: Symptoms and disease progression
   order: 3
   icon: tbd
   subtopics:
@@ -37,7 +37,7 @@ topics:
     - psa-symptoms-02
     - psa-symptoms-03
 - id: treatment
-  name: Treatment and flares
+  name: Treatment options & flare management
   order: 4
   icon: tbd
   subtopics:

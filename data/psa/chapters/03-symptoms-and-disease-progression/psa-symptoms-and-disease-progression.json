@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "run_id": "psa-20261028-102126-assisted",
+    "model": "Codex interactive assistant (API model snapshot unavailable)",
+    "prompt_version": "psa-interactive-v1",
+    "generated_at": "2026-10-28T10:21:26.273022+00:00"
+  },
+  "disease": {
+    "id": "psa",
+    "name": "Psoriatic arthritis"
+  },
+  "sources": [
+    {
+      "id": "src-grappa-domains-in-psa-poster",
+      "title": "GRAPPA domains in PsA",
+      "type": "image",
+      "file_hash": "675096e0569e0a40861fb267f201e954033ac4cb2d1d99f03da894b060e0b4ae",
+      "provided_by": "ACCR capstone reference archive supplied by the project team"
+    },
+    {
+      "id": "src-clinical-manifestations-of-psa-poster",
+      "title": "Clinical manifestations of PsA",
+      "type": "image",
+      "file_hash": "d8c3a7b4615ddb631d6f307d61d124bb2701d51f3468979517df0f4abc8f247a",
+      "provided_by": "ACCR capstone reference archive supplied by the project team"
+    }
+  ],
+  "topics": [
+    {
+      "id": "symptoms",
+      "name": "Symptoms and disease progression",
+      "order": 3,
+      "subtopics": [
+        {
+          "id": "symptoms-domains",
+          "name": "Where PsA appears",
+          "order": 1,
+          "lesson_ids": [
+            "psa-symptoms-01",
+            "psa-symptoms-02"
+          ]
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "psa-symptoms-01",
+      "topic_id": "symptoms",
+      "subtopic_id": "symptoms-domains",
+      "title": "Changes in skin, nails, and joints",
+      "est_minutes": 1,
+      "pages": [
+        {
+          "order": 1,
+          "body": "Psoriatic arthritis, or PsA, can affect your skin, nails, and joints. Skin patches may have silvery scales. Your nails may have small pits. A whole finger or toe may swell. Your hands may have swollen joints."
+        },
+        {
+          "order": 2,
+          "body": "PsA can cause back pain and stiffness. The places where tendons or ligaments attach to bone can become inflamed. In the feet, this can happen where tendons attach to bone. Ankles can become painful, and walking may be hard. Knees can feel swollen, warm, and stiff."
+        }
+      ],
+      "key_takeaways": [
+        "A whole finger or toe may swell.",
+        "PsA can cause back pain and stiffness.",
+        "The places where tendons or ligaments attach to bone can become inflamed."
+      ],
+      "claims": [
+        {
+          "id": "psa-symptoms-01-c1",
+          "page": 1,
+          "text": "Psoriatic arthritis, or PsA, can affect your skin, nails, and joints.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "PSORIATIC ARTHRITIS\nPsA inflammation can affect joints, skin, nails, eyes, and the gut",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c2",
+          "page": 1,
+          "text": "Skin patches may have silvery scales.",
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "source_page": 1,
+          "source_quote": "Well-demarcated erythematous plaques with silvery scale.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c3",
+          "page": 1,
+          "text": "Your nails may have small pits.",
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "source_page": 1,
+          "source_quote": "Nail-matrix and nail-bed disease: pitting, onycholysis, oil-drop change, and subungual hyperkeratosis.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c4",
+          "page": 1,
+          "text": "A whole finger or toe may swell.",
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "source_page": 1,
+          "source_quote": "Uniform swelling of an entire digit from synovitis, tenosynovitis, and soft-tissue inflammation.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c5",
+          "page": 1,
+          "text": "Your hands may have swollen joints.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Wrists, Hands & Nails\nDactylitis (sausage finger), joint swelling, nail pitting, and onycholysis.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c6",
+          "page": 2,
+          "text": "PsA can cause back pain and stiffness.",
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "source_page": 1,
+          "source_quote": "Inflammation of the spine and sacroiliac joints causing inflammatory back pain and stiffness.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c7",
+          "page": 2,
+          "text": "The places where tendons or ligaments attach to bone can become inflamed.",
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "source_page": 1,
+          "source_quote": "Inflammation where tendons or ligaments insert into bone; commonly Achilles and plantar fascia.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c8",
+          "page": 2,
+          "text": "In the feet, this can happen where tendons attach to bone.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Feet / Enthesitis\nInflammation where tendons attach to bone, especially at the Achilles and plantar fascia.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c9",
+          "page": 2,
+          "text": "Ankles can become painful, and walking may be hard.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Ankle and midfoot joints can become inflamed, causing pain and walking difficulty.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-01-c10",
+          "page": 2,
+          "text": "Knees can feel swollen, warm, and stiff.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Knee inflammation with swelling, warmth, and stiffness.",
+          "support": "supported",
+          "quote_match": 1.0
+        }
+      ],
+      "checks": {
+        "schema_valid": true,
+        "citation_accuracy": 1.0,
+        "claims_total": 10,
+        "supported": 10,
+        "unsupported": 0,
+        "contradicted": 0,
+        "numbers_ok": true,
+        "safety_flags": [],
+        "fk_grade": 4.964,
+        "smog": 7.554,
+        "coverage": null
+      },
+      "generated_by": "llm",
+      "status": "draft"
+    },
+    {
+      "id": "psa-symptoms-02",
+      "topic_id": "symptoms",
+      "subtopic_id": "symptoms-domains",
+      "title": "Eyes, gut, and movement",
+      "est_minutes": 1,
+      "pages": [
+        {
+          "order": 1,
+          "body": "PsA can affect the eyes and gut as well as the joints. Eye changes can include redness, pain, and being sensitive to light. Your gut may feel painful or bloated. You may also notice a change in your bowel habits. The shoulder joint and the tissues around it can become sore and inflamed."
+        },
+        {
+          "order": 2,
+          "body": "PsA can cause pain in the hips and make it harder to move. Knees can become swollen, warm, and stiff. The ankle and the middle of the foot can become inflamed. This can cause pain and make walking hard. Elbow joints and nearby tendons can become inflamed and tender."
+        }
+      ],
+      "key_takeaways": [
+        "PsA can affect the eyes and gut as well as the joints.",
+        "PsA can cause pain in the hips and make it harder to move.",
+        "Knees can become swollen, warm, and stiff."
+      ],
+      "claims": [
+        {
+          "id": "psa-symptoms-02-c1",
+          "page": 1,
+          "text": "PsA can affect the eyes and gut as well as the joints.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "PsA inflammation can affect joints, skin, nails, eyes, and the gut",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c2",
+          "page": 1,
+          "text": "Eye changes can include redness, pain, and being sensitive to light.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Anterior uveitis with redness, pain, and sensitivity to light.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c3",
+          "page": 1,
+          "text": "Your gut may feel painful or bloated.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Inflammation in the gut, similar to IBD, with pain, bloating, or changes in bowel habits.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c4",
+          "page": 1,
+          "text": "You may also notice a change in your bowel habits.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Inflammation in the gut, similar to IBD, with pain, bloating, or changes in bowel habits.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c5",
+          "page": 1,
+          "text": "The shoulder joint and the tissues around it can become sore and inflamed.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Shoulder joint and surrounding tissues can become inflamed and painful.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c6",
+          "page": 2,
+          "text": "PsA can cause pain in the hips and make it harder to move.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Hip joints can be affected, leading to pain and reduced mobility.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c7",
+          "page": 2,
+          "text": "Knees can become swollen, warm, and stiff.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Knee inflammation with swelling, warmth, and stiffness.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c8",
+          "page": 2,
+          "text": "The ankle and the middle of the foot can become inflamed.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Ankle and midfoot joints can become inflamed, causing pain and walking difficulty.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c9",
+          "page": 2,
+          "text": "This can cause pain and make walking hard.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Ankle and midfoot joints can become inflamed, causing pain and walking difficulty.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-symptoms-02-c10",
+          "page": 2,
+          "text": "Elbow joints and nearby tendons can become inflamed and tender.",
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "source_page": 1,
+          "source_quote": "Elbow joints and surrounding tendons can become inflamed and tender.",
+          "support": "supported",
+          "quote_match": 1.0
+        }
+      ],
+      "checks": {
+        "schema_valid": true,
+        "citation_accuracy": 1.0,
+        "claims_total": 10,
+        "supported": 10,
+        "unsupported": 0,
+        "contradicted": 0,
+        "numbers_ok": true,
+        "safety_flags": [],
+        "fk_grade": 4.352,
+        "smog": 6.742,
+        "coverage": null
+      },
+      "generated_by": "llm",
+      "status": "draft"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "psa-symptoms-01-q1",
+      "lesson_id": "psa-symptoms-01",
+      "question": "Which skin change can happen with PsA?",
+      "options": [
+        "A swollen finger.",
+        "Patches with silvery scales.",
+        "A stiff back."
+      ],
+      "answer": 1,
+      "feedback": "Skin patches may have silvery scales.",
+      "source_id": "src-grappa-domains-in-psa-poster",
+      "source_page": 1,
+      "source_quote": "Well-demarcated erythematous plaques with silvery scale.",
+      "status": "draft"
+    },
+    {
+      "id": "psa-symptoms-01-q2",
+      "lesson_id": "psa-symptoms-01",
+      "question": "Which change can affect a whole finger or toe?",
+      "options": [
+        "Swelling.",
+        "Small pits in a nail.",
+        "Pain in the back."
+      ],
+      "answer": 0,
+      "feedback": "A whole finger or toe may swell.",
+      "source_id": "src-grappa-domains-in-psa-poster",
+      "source_page": 1,
+      "source_quote": "Uniform swelling of an entire digit from synovitis, tenosynovitis, and soft-tissue inflammation.",
+      "status": "draft"
+    },
+    {
+      "id": "psa-symptoms-01-q3",
+      "lesson_id": "psa-symptoms-01",
+      "question": "The lesson describes inflammation where tendons attach to what?",
+      "options": [
+        "Skin scales.",
+        "The end of a nail.",
+        "Bone."
+      ],
+      "answer": 2,
+      "feedback": "The places where tendons attach to bone can become inflamed.",
+      "source_id": "src-grappa-domains-in-psa-poster",
+      "source_page": 1,
+      "source_quote": "Inflammation where tendons or ligaments insert into bone; commonly Achilles and plantar fascia.",
+      "status": "draft"
+    },
+    {
+      "id": "psa-symptoms-02-q1",
+      "lesson_id": "psa-symptoms-02",
+      "question": "Which eye changes does the lesson describe?",
+      "options": [
+        "Dryness and itching.",
+        "Redness, pain, and sensitivity to light.",
+        "Cloudy sight only."
+      ],
+      "answer": 1,
+      "feedback": "Eyes can be red and painful, and light may bother them.",
+      "source_id": "src-clinical-manifestations-of-psa-poster",
+      "source_page": 1,
+      "source_quote": "Anterior uveitis with redness, pain, and sensitivity to light.",
+      "status": "draft"
+    },
+    {
+      "id": "psa-symptoms-02-q2",
+      "lesson_id": "psa-symptoms-02",
+      "question": "What may happen when the hips are affected?",
+      "options": [
+        "Movement becomes easier.",
+        "Only the skin changes.",
+        "There may be pain and less movement."
+      ],
+      "answer": 2,
+      "feedback": "The hips can hurt and be harder to move.",
+      "source_id": "src-clinical-manifestations-of-psa-poster",
+      "source_page": 1,
+      "source_quote": "Hip joints can be affected, leading to pain and reduced mobility.",
+      "status": "draft"
+    },
+    {
+      "id": "psa-symptoms-02-q3",
+      "lesson_id": "psa-symptoms-02",
+      "question": "Which knee changes does the lesson describe?",
+      "options": [
+        "Swelling, warmth, and stiffness.",
+        "Small pits and silvery scales.",
+        "Redness and sensitivity to light."
+      ],
+      "answer": 0,
+      "feedback": "Knees can become swollen, warm, and stiff.",
+      "source_id": "src-clinical-manifestations-of-psa-poster",
+      "source_page": 1,
+      "source_quote": "Knee inflammation with swelling, warmth, and stiffness.",
+      "status": "draft"
+    }
+  ],
+  "media": []
+}
