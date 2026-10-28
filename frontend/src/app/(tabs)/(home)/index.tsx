@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Screen } from '@/components/Screen';
 import { AsyncContent } from '@/components/StateViews';
 import { TopicCard } from '@/components/TopicCard';
-import { contentService, contentSource } from '@/content';
+import { contentService } from '@/content';
 import { useAsync } from '@/hooks/useAsync';
 import { useProgress } from '@/progress/ProgressContext';
 import { colors, fonts, radius, spacing, type } from '@/theme';
@@ -56,8 +56,6 @@ export default function HomeScreen() {
                 }
               />
             ))}
-
-            {contentSource === 'mock' && <Text style={styles.mode}>Mock mode: sample data from the backend fixtures.</Text>}
           </Screen>
         );
       }}
@@ -76,5 +74,4 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primarySoft,
   },
   summaryText: { fontFamily: fonts.semibold, fontSize: 19, color: colors.primary },
-  mode: { ...type.caption, fontSize: 13, textAlign: 'center' },
 });

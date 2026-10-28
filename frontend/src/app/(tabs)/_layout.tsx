@@ -1,5 +1,5 @@
 import { Redirect, Tabs } from 'expo-router';
-import { View } from 'react-native';
+import { ActivityIndicator, View } from 'react-native';
 
 import { TabBar } from '@/components/TabBar';
 import { usePreferences } from '@/preferences/PreferencesContext';
@@ -11,7 +11,13 @@ export const unstable_settings = { initialRouteName: '(home)' };
 export default function TabsLayout() {
   const { ready, onboarded } = usePreferences();
 
-  if (!ready) return <View style={{ flex: 1, backgroundColor: colors.background }} />;
+  if (!ready) {
+    return (
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.background }}>
+        <ActivityIndicator color={colors.primary} />
+      </View>
+    );
+  }
   if (!onboarded) return <Redirect href="/welcome" />;
 
   return (

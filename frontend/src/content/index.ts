@@ -3,11 +3,17 @@ import { createApiService, type Transport } from './api';
 import { ContentError, type ContentService } from './ContentService';
 import { createHttpTransport } from './httpTransport';
 import { createMockTransport, type MockFailure } from './mockTransport';
+import { createPreviewTransport } from './previewTransport';
 
-export type ContentSource = 'mock' | 'supabase';
+/**
+ * mock: the backend's sample API responses. preview: the Data pipeline's real
+ * exports, drafts included. supabase: the live API (published content only).
+ */
+export type ContentSource = 'mock' | 'preview' | 'supabase';
 
-export const contentSource: ContentSource =
-  process.env.EXPO_PUBLIC_CONTENT_SOURCE === 'supabase' ? 'supabase' : 'mock';
+const SOURCES: ContentSource[] = ['mock', 'preview', 'supabase'];
+const requested = process.env.EXPO_PUBLIC_CONTENT_SOURCE as ContentSource;
+export const contentSource: ContentSource = SOURCES.includes(requested) ? requested : 'mock';
 
 export const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL ?? '';
 
@@ -21,10 +27,11 @@ function createTransport(): Transport {
     }
   }
   const fail = process.env.EXPO_PUBLIC_MOCK_FAIL;
-  return createMockTransport({
+  const options = {
     delayMs: Number(process.env.EXPO_PUBLIC_MOCK_DELAY_MS ?? 400),
     fail: fail === 'network' || fail === '400' || fail === '401' ? (fail as MockFailure) : undefined,
-  });
+  };
+  return contentSource === 'preview' ? createPreviewTransport(options) : createMockTransport(options);
 }
 
 export const contentService: ContentService = createApiService(createTransport());

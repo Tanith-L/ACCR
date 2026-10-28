@@ -4,6 +4,7 @@ import { ContentError } from '@/content/ContentService';
 import { createHttpTransport } from '@/content/httpTransport';
 import { storageUrl } from '@/content/media';
 import { createMockTransport } from '@/content/mockTransport';
+import { createPreviewTransport } from '@/content/previewTransport';
 import { numberWord, percent, plural } from '@/utils/format';
 
 describe('mock mode (backend/fixtures/mock_responses)', () => {
@@ -47,6 +48,35 @@ describe('mock mode (backend/fixtures/mock_responses)', () => {
   ] as const)('can simulate %s failures', async (fail, code) => {
     const failing = createApiService(createMockTransport({ fail }));
     await expect(failing.getTopics()).rejects.toMatchObject({ code });
+  });
+});
+
+describe('preview mode (data/psa pipeline exports)', () => {
+  const service = createApiService(createPreviewTransport());
+
+  it('serves the exported topic and its lessons in subtopic order', async () => {
+    const topics = await service.getTopics();
+    expect(topics.map((t) => t.id)).toContain('symptoms');
+    const path = await service.getLearningPath('symptoms');
+    expect(path.lessonIds).toEqual(['psa-symptoms-01', 'psa-symptoms-02']);
+  });
+
+  it('serves draft lessons shaped like v_lessons', async () => {
+    const lesson = await service.getLesson('psa-symptoms-01');
+    expect(lesson?.title).toBe('Changes in skin, nails, and joints');
+    expect(lesson?.pages.length).toBeGreaterThan(0);
+    expect(lesson?.sortOrder).toBe(1);
+  });
+
+  it('serves quiz items without the internal source fields', async () => {
+    const quiz = await service.getQuiz('psa-symptoms-01');
+    expect(quiz.length).toBeGreaterThan(0);
+    expect(Object.keys(quiz[0]).sort()).toEqual(['answer', 'feedback', 'id', 'lessonId', 'options', 'question']);
+  });
+
+  it('answers unknown ids with empty results', async () => {
+    expect(await service.getLesson('nope')).toBeNull();
+    expect((await service.getLearningPath('nope')).subtopics).toEqual([]);
   });
 });
 

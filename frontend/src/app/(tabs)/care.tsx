@@ -6,8 +6,9 @@ import { InfoCard } from '@/components/Card';
 import { Screen } from '@/components/Screen';
 import { type } from '@/theme';
 
-// TODO(frontend): replace with the clinic's approved phone number and hours.
-const CLINIC_CONTACT = 'Clinic-approved phone and hours to be added';
+// TODO(frontend): the clinic's approved phone number and hours, e.g. '(814) 555-0100 · Mon–Fri 8am–5pm'.
+// Shown under the clinic name once filled in.
+const CLINIC_CONTACT: string | null = null;
 
 export default function CareScreen() {
   return (
@@ -26,8 +27,8 @@ export default function CareScreen() {
         Use the emergency instructions provided by the clinic. Do not wait for an in-app response.
       </InfoCard>
       <Text style={styles.clinic}>
-        Altoona Center for Clinical Research{'\n'}
-        {CLINIC_CONTACT}
+        Altoona Center for Clinical Research
+        {CLINIC_CONTACT ? `\n${CLINIC_CONTACT}` : ''}
       </Text>
     </Screen>
   );

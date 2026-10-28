@@ -16,10 +16,8 @@ export default function AboutScreen() {
           team.
         </Text>
       </Card>
-      {/* TODO(data): list the approved source documents once the content pipeline provides them. */}
-      <Card title="Citations">
-        <Text style={type.lead}>The sources behind each lesson will be listed here.</Text>
-      </Card>
+      {/* TODO(data): add a "Citations" card listing the approved source documents once the content
+          pipeline provides them (Figma: About screen). */}
       <InfoCard>This educational app supports conversations with your care team. It does not replace medical advice.</InfoCard>
       <Text style={type.caption}>Version {Constants.expoConfig?.version ?? '1.0'}</Text>
     </Screen>

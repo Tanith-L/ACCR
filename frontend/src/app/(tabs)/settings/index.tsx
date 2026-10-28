@@ -25,10 +25,10 @@ export default function SettingsScreen() {
       <Text style={type.display}>Settings</Text>
       <Text style={type.lead}>Manage your profile and choose how learning activities appear.</Text>
 
-      {/* No sign-in in Week 9 and no PHI on the device (project guide §3), so no name or email yet. */}
+      {/* TODO(frontend): add name and email rows once sign-in exists (Phase 3). Until then there is
+          no account and no PHI on the device (project guide §3). */}
       <Card title="User information">
         <Row label="Care clinic" value="ACCR" />
-        <Row label="Account" value="Coming soon" />
       </Card>
 
       <Card title="Preferences">

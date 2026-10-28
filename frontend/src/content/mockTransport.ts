@@ -29,7 +29,22 @@ export interface MockOptions {
   fail?: MockFailure;
 }
 
-const eqValue = (request: ApiRequest, key: string) => request.query?.[key]?.replace(/^eq\./, '');
+export const eqValue = (request: ApiRequest, key: string) => request.query?.[key]?.replace(/^eq\./, '');
+
+/**
+ * Wraps an offline answer function with the simulated latency and failures
+ * (EXPO_PUBLIC_MOCK_DELAY_MS / EXPO_PUBLIC_MOCK_FAIL). `answer` returns the
+ * 200 body, or null for a request the contract doesn't allow (answered 400).
+ */
+export function simulated(answer: (request: ApiRequest) => unknown, { delayMs = 0, fail }: MockOptions = {}): Transport {
+  return async (request) => {
+    if (delayMs) await new Promise((r) => setTimeout(r, delayMs));
+    if (fail === 'network') throw new TypeError('Mock network failure (EXPO_PUBLIC_MOCK_FAIL=network)');
+    if (fail === '401') return { status: 401, body: error401 };
+    const body = fail === '400' ? null : answer(request);
+    return body === null ? { status: 400, body: error400 } : { status: 200, body };
+  };
+}
 
 /** Fixture name for a request, or null for one the contract doesn't allow. */
 function fixtureFor(request: ApiRequest): string | null {
@@ -47,14 +62,10 @@ function fixtureFor(request: ApiRequest): string | null {
   }
 }
 
-export function createMockTransport({ delayMs = 0, fail }: MockOptions = {}): Transport {
-  return async (request) => {
-    if (delayMs) await new Promise((r) => setTimeout(r, delayMs));
-    if (fail === 'network') throw new TypeError('Mock network failure (EXPO_PUBLIC_MOCK_FAIL=network)');
-    if (fail === '401') return { status: 401, body: error401 };
+export function createMockTransport(options: MockOptions = {}): Transport {
+  return simulated((request) => {
     const name = fixtureFor(request);
-    if (fail === '400' || !name) return { status: 400, body: error400 };
     // Unknown or unpublished ids answer 200 with [] (empty.json), like the real API.
-    return { status: 200, body: RESPONSES[name] ?? [] };
-  };
+    return name ? (RESPONSES[name] ?? []) : null;
+  }, options);
 }

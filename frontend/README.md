@@ -29,6 +29,7 @@ Screens follow the Figma prototype ("ACCR Prototype"): a welcome screen, then th
 ## Content source
 
 - `EXPO_PUBLIC_CONTENT_SOURCE=mock` answers every request from `backend/fixtures/mock_responses/` (topic `dx`, lessons `psa-dx-01`/`02`). When the backend adds a fixture, add an import line in `src/content/mockTransport.ts` (and `src/content/media.ts` for images).
+- `EXPO_PUBLIC_CONTENT_SOURCE=preview` shows the Data pipeline's real lessons from `data/psa/**/*.json` (`schema/content.schema.json` format), answered the way the backend views would. It includes **drafts** that have not been clinically reviewed, and nothing in the app marks them as such: team review only, never a patient build. When the pipeline writes a new export, add an import line to `EXPORTS` in `src/content/previewTransport.ts`.
 - `EXPO_PUBLIC_CONTENT_SOURCE=supabase` calls the live project. Switching needs only `EXPO_PUBLIC_SUPABASE_URL` and `EXPO_PUBLIC_SUPABASE_ANON_KEY`, no code change.
 - `EXPO_PUBLIC_MOCK_FAIL=network|400|401` makes every mock request fail that way, to check the error states.
 
