@@ -1,52 +1,49 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-import type { TopicSummary } from '@/content';
+import type { Topic } from '@/content';
 import { colors, radius, spacing, type } from '@/theme';
 
-import { ProgressBar } from './ProgressBar';
-
 interface Props {
-  topic: TopicSummary;
+  topic: Topic;
+  /** 1-based position in the list; shown until topic icons are agreed. */
+  position: number;
   completed: number;
   onPress: () => void;
 }
 
-export function TopicCard({ topic, completed, onPress }: Props) {
+export function TopicCard({ topic, position, completed, onPress }: Props) {
+  const status = completed > 0 ? `${completed} ${completed === 1 ? 'lesson' : 'lessons'} completed` : 'Not started';
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={`${topic.name}, ${topic.lessonCount} lessons, ${completed} completed`}
+      accessibilityLabel={`${topic.name}, ${status}`}
       onPress={onPress}
       style={({ pressed }) => [styles.card, pressed && styles.pressed]}
     >
-      <View style={styles.header}>
-        <View style={styles.badge}>
-          <Text style={styles.badgeText}>{topic.order}</Text>
-        </View>
-        <View style={styles.titles}>
-          <Text style={type.heading}>{topic.name}</Text>
-          <Text style={type.caption}>
-            {topic.lessonCount} lessons · about {topic.totalMinutes} min
-          </Text>
-        </View>
+      <View style={styles.badge}>
+        <Text style={styles.badgeText}>{position}</Text>
       </View>
-      {topic.description ? <Text style={styles.description}>{topic.description}</Text> : null}
-      <ProgressBar done={completed} total={topic.lessonCount} showLabel={false} />
+      <View style={styles.titles}>
+        <Text style={type.heading}>{topic.name}</Text>
+        <Text style={type.caption}>{status}</Text>
+      </View>
+      <Text style={styles.chevron}>›</Text>
     </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
   card: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
     backgroundColor: colors.surface,
     borderRadius: radius.lg,
     padding: spacing.lg,
-    gap: spacing.md,
     borderWidth: 1,
     borderColor: colors.border,
   },
   pressed: { opacity: 0.85 },
-  header: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
   badge: {
     width: 40,
     height: 40,
@@ -57,5 +54,5 @@ const styles = StyleSheet.create({
   },
   badgeText: { color: colors.primary, fontWeight: '700', fontSize: 17 },
   titles: { flex: 1, gap: 2 },
-  description: { ...type.body, color: colors.textMuted },
+  chevron: { fontSize: 28, color: colors.textMuted },
 });

@@ -17,7 +17,7 @@ export function LoadingState({ label = 'Loading…' }: { label?: string }) {
 }
 
 export function ErrorState({ error, onRetry }: { error: unknown; onRetry?: () => void }) {
-  if (__DEV__) console.warn(error);
+  console.warn(error); // contract §4: a 400 is an app bug and should be logged
   return (
     <View style={styles.center} accessibilityRole="alert">
       <Text style={styles.title}>Couldn’t load this</Text>

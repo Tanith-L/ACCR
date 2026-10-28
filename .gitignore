@@ -1,22 +1,21 @@
-# Secrets: never commit keys (see backend/.env.example, frontend/.env.example)
+# Secrets
 .env
-.env.*
-!.env.example
 
 # Python
-.venv/
 __pycache__/
-*.egg-info/
-.pytest_cache/
+.venv/
 
-# Node
+# Supabase CLI
+supabase/.temp/
+
+# Generated exports (may hold content that is not ready to share)
+backend/exports/
+
+# Local publish log (one per machine)
+backend/logs/
+
+# Node (frontend/ has its own .gitignore too)
 node_modules/
 
-# Review sheets contain unpublished drafts; share them directly, don't commit
-backend/review_sheets/*
-!backend/review_sheets/.gitkeep
-
-# Pipeline traces and eval reports are regenerated per run
-data/output/*.trace.json
-
+# macOS
 .DS_Store

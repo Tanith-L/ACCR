@@ -13,20 +13,21 @@ import { useProgress } from '@/progress/ProgressContext';
 import { spacing, type } from '@/theme';
 
 export default function LearningPathScreen() {
-  const { topicId } = useLocalSearchParams<{ topicId: string }>();
+  // `name` comes from the topic list; the learning path endpoint doesn't return it.
+  const { topicId, name } = useLocalSearchParams<{ topicId: string; name?: string }>();
   const path = useAsync(() => contentService.getLearningPath(topicId), topicId);
   const { isCompleted, countCompleted } = useProgress();
 
   const openLesson = (lessonId: string) =>
-    router.push({ pathname: '/lesson/[lessonId]', params: { lessonId } });
+    router.push({ pathname: '/lesson/[lessonId]', params: { lessonId, topicId } });
 
   return (
     <>
-      <Stack.Screen options={{ title: path.data?.topic.name ?? 'Learning path' }} />
+      <Stack.Screen options={{ title: name ?? 'Learning path' }} />
       <AsyncContent
         state={path}
         isEmpty={(p) => p.lessonIds.length === 0}
-        empty={<EmptyState title="No lessons in this topic yet" />}
+        empty={<EmptyState title="No lessons in this topic yet" message="Check back soon." />}
       >
         {(p) => {
           const done = countCompleted(p.lessonIds);
@@ -35,14 +36,10 @@ export default function LearningPathScreen() {
           return (
             <Screen onRefresh={path.reload}>
               <View style={styles.header}>
-                <Text style={type.title}>{p.topic.name}</Text>
-                {p.topic.description ? <Text style={type.caption}>{p.topic.description}</Text> : null}
+                {name ? <Text style={type.title}>{name}</Text> : null}
                 <ProgressBar done={done} total={p.lessonIds.length} />
                 {next && (
-                  <Button
-                    label={done === 0 ? 'Start learning' : 'Continue'}
-                    onPress={() => openLesson(next)}
-                  />
+                  <Button label={done === 0 ? 'Start learning' : 'Continue'} onPress={() => openLesson(next)} />
                 )}
               </View>
               {p.subtopics.map((sub) => (

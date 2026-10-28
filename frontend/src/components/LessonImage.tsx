@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
 import type { LessonImage as LessonImageData } from '@/content';
-import { resolveImage } from '@/content/localMedia';
+import { resolveImage } from '@/content/media';
 import { colors, radius, spacing, type } from '@/theme';
 
 /** Image with alt text and credit; a placeholder box when it can't be loaded. */
 export function LessonImage({ image }: { image: LessonImageData }) {
-  const source = resolveImage(image.file);
+  const source = resolveImage(image.path);
   const [failed, setFailed] = useState(false);
   const [width, setWidth] = useState(0);
   const [remoteRatio, setRemoteRatio] = useState<number>();

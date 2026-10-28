@@ -26,16 +26,19 @@ export default function TopicsScreen() {
             <Text style={type.title}>Learn about psoriatic arthritis</Text>
             <Text style={type.caption}>Choose a topic. Lessons take a few minutes each.</Text>
           </View>
-          {list.map((topic) => (
+          {list.map((topic, i) => (
             <TopicCard
               key={topic.id}
               topic={topic}
+              position={i + 1}
               completed={countCompletedInTopic(topic.id)}
-              onPress={() => router.push({ pathname: '/topic/[topicId]', params: { topicId: topic.id } })}
+              onPress={() =>
+                router.push({ pathname: '/topic/[topicId]', params: { topicId: topic.id, name: topic.name } })
+              }
             />
           ))}
           {contentSource === 'mock' && (
-            <Text style={styles.mode}>Preview mode: showing local content, including unreviewed drafts.</Text>
+            <Text style={styles.mode}>Mock mode: sample responses from backend/fixtures/mock_responses.</Text>
           )}
         </Screen>
       )}

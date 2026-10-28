@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Tanith-L/ACCR/schema/content.schema.json",
+  "title": "RheumNotes content export (Data -> Backend contract)",
+  "description": "One file per export run. Cross-references (every *_id exists, no duplicate IDs, subtopic lesson_ids exist) and the checked gate are verified by the import script, not by this schema. Word-count limits (title, topic names, page bodies, questions, alt text) are guidance in docs/content-json-schema.md and are not enforced here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run", "disease", "sources", "topics", "lessons", "quizzes", "media"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["run_id", "model", "prompt_version", "generated_at"],
+      "properties": {
+        "run_id": { "type": "string", "minLength": 1 },
+        "model": { "type": "string", "minLength": 1 },
+        "prompt_version": { "type": "string", "minLength": 1 },
+        "generated_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "disease": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 }
+      }
+    },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } },
+    "topics": { "type": "array", "items": { "$ref": "#/$defs/topic" } },
+    "lessons": { "type": "array", "items": { "$ref": "#/$defs/lesson" } },
+    "quizzes": { "type": "array", "items": { "$ref": "#/$defs/quiz" } },
+    "media": { "type": "array", "items": { "$ref": "#/$defs/media" } }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "draftOrChecked": {
+      "description": "The pipeline may only export draft or checked. reviewed and published are set by the review import.",
+      "enum": ["draft", "checked"]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "type", "provided_by", "file_hash"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["pdf", "docx", "image", "web"] },
+        "provided_by": { "type": "string", "minLength": 1 },
+        "file_hash": { "type": "string", "pattern": "^[0-9a-fA-F]{64}$", "description": "SHA-256 of the source file." }
+      }
+    },
+    "topic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "order", "subtopics"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "order": { "type": "integer", "minimum": 1 },
+        "icon": { "type": ["string", "null"] },
+        "subtopics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "name", "order", "lesson_ids"],
+            "properties": {
+              "id": { "$ref": "#/$defs/id" },
+              "name": { "type": "string", "minLength": 1 },
+              "order": { "type": "integer", "minimum": 1 },
+              "lesson_ids": { "type": "array", "items": { "$ref": "#/$defs/id" } }
+            }
+          }
+        }
+      }
+    },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "topic_id", "subtopic_id", "title", "est_minutes", "pages", "key_takeaways", "claims", "checks", "generated_by", "status"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id", "description": "psa-<topic>-<nn>, e.g. psa-dx-01" },
+        "topic_id": { "$ref": "#/$defs/id" },
+        "subtopic_id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1 },
+        "est_minutes": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "pages": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["order", "body"],
+            "properties": {
+              "order": { "type": "integer", "minimum": 1 },
+              "body": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "key_takeaways": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["media_id", "page"],
+            "properties": {
+              "media_id": { "$ref": "#/$defs/id" },
+              "page": { "type": "integer", "minimum": 1 }
+            }
+          }
+        },
+        "claims": { "type": "array", "items": { "$ref": "#/$defs/claim" } },
+        "checks": { "$ref": "#/$defs/checks" },
+        "generated_by": { "enum": ["llm", "human", "llm+edited"] },
+        "status": { "$ref": "#/$defs/draftOrChecked" }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text", "page", "source_id", "source_page", "source_quote", "support", "quote_match"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+-c[0-9]+$", "description": "<lesson id>-c<n>" },
+        "text": { "type": "string", "minLength": 1 },
+        "page": { "type": "integer", "minimum": 1 },
+        "source_id": { "$ref": "#/$defs/id" },
+        "source_page": { "type": "integer", "minimum": 1 },
+        "source_quote": { "type": "string", "minLength": 1 },
+        "support": { "enum": ["supported", "unsupported", "contradicted"] },
+        "quote_match": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "checks": {
+      "description": "Credibility check results. Only schema_valid is required so that existing human-written content with readability scores only can be exported; missing gate fields keep a lesson at draft on import. checked requires: schema_valid, contradicted = 0, unsupported = 0, citation_accuracy = 1.0, numbers_ok, empty safety_flags, fk_grade <= 8.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_valid"],
+      "properties": {
+        "schema_valid": { "type": "boolean" },
+        "citation_accuracy": { "type": "number", "minimum": 0, "maximum": 1 },
+        "claims_total": { "type": "integer", "minimum": 0 },
+        "supported": { "type": "integer", "minimum": 0 },
+        "unsupported": { "type": "integer", "minimum": 0 },
+        "contradicted": { "type": "integer", "minimum": 0 },
+        "numbers_ok": { "type": "boolean" },
+        "safety_flags": { "type": "array", "items": { "type": "string" } },
+        "fk_grade": { "type": "number" },
+        "smog": { "type": "number" },
+        "coverage": { "type": ["number", "null"], "minimum": 0, "maximum": 1 }
+      }
+    },
+    "quiz": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "lesson_id", "question", "options", "answer", "feedback", "source_id", "source_page", "source_quote", "status"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+-q[0-9]+$", "description": "<lesson id>-q<n>" },
+        "lesson_id": { "$ref": "#/$defs/id" },
+        "question": { "type": "string", "minLength": 1 },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 4,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "answer": { "type": "integer", "minimum": 0, "maximum": 3, "description": "Index of the correct option; the import script checks it is less than len(options)." },
+        "feedback": { "type": "string", "minLength": 1 },
+        "source_id": { "$ref": "#/$defs/id" },
+        "source_page": { "type": "integer", "minimum": 1 },
+        "source_quote": { "type": "string", "minLength": 1 },
+        "status": { "$ref": "#/$defs/draftOrChecked" }
+      }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "file", "alt_text", "credit", "source_id"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "file": { "type": "string", "pattern": "\\.(png|jpe?g)$", "description": "PNG/JPG shipped next to the JSON." },
+        "alt_text": { "type": "string", "minLength": 1 },
+        "credit": { "type": "string", "minLength": 1 },
+        "source_id": { "$ref": "#/$defs/id" }
+      }
+    }
+  }
+}

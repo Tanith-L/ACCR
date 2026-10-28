@@ -1,5 +1,5 @@
-// Minimal renderer for lesson bodies: paragraphs, "- " / "1. " lists, **bold**.
-// That is all the pipeline emits (see prompts/draft_lesson.md). Swap for a
+// Minimal renderer for lesson pages: paragraphs, "- " / "1. " lists, **bold**.
+// The contract allows "plain text or simple Markdown" per page. Swap for a
 // library if lessons ever need headings, links or tables.
 import { Fragment } from 'react';
 import { StyleSheet, Text, View } from 'react-native';

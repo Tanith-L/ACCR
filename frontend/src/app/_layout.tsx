@@ -20,6 +20,7 @@ export default function RootLayout() {
         <Stack.Screen name="index" options={{ title: 'RheumNotes' }} />
         <Stack.Screen name="topic/[topicId]" options={{ title: 'Learning path' }} />
         <Stack.Screen name="lesson/[lessonId]" options={{ title: 'Lesson' }} />
+        <Stack.Screen name="quiz/[lessonId]" options={{ title: 'Quiz' }} />
       </Stack>
     </ProgressProvider>
   );

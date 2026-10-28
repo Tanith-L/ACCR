@@ -1,0 +1,34 @@
+[
+  {
+    "id": "psa-dx-01",
+    "version": 1,
+    "subtopic_id": "dx-criteria",
+    "sort_order": 1,
+    "title": "How doctors diagnose PsA",
+    "est_minutes": 3,
+    "pages": [
+      {
+        "order": 1,
+        "body": "There is no single test for PsA. Doctors look at your joints, skin, nails and X-rays together."
+      },
+      {
+        "order": 2,
+        "body": "Your doctor may also ask if anyone in your family has psoriasis. Blood tests can help rule out other kinds of arthritis."
+      }
+    ],
+    "key_takeaways": [
+      "There is no single test for PsA.",
+      "Doctors combine exams, family history and tests."
+    ],
+    "images": [
+      {
+        "media_id": "mock-joints",
+        "page": 1,
+        "path": "mock-joints.png",
+        "alt_text": "Plain test image used in backend tests",
+        "credit": "Test fixture"
+      }
+    ],
+    "updated_at": "2026-10-28T15:00:00+00:00"
+  }
+]

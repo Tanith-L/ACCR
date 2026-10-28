@@ -1,13 +1,9 @@
-// The mock content service imports the Data pipeline's bundle (../data/output)
-// and lesson images (../media) directly, so Metro must watch those folders.
+// Mock mode imports the backend's sample API responses and test image
+// (../backend/fixtures) directly, so Metro must watch that folder.
 const path = require('path');
 const { getDefaultConfig } = require('expo/metro-config');
 
 const config = getDefaultConfig(__dirname);
-config.watchFolders = [
-  ...(config.watchFolders ?? []),
-  path.resolve(__dirname, '../data/output'),
-  path.resolve(__dirname, '../media'),
-];
+config.watchFolders = [...(config.watchFolders ?? []), path.resolve(__dirname, '../backend/fixtures')];
 
 module.exports = config;

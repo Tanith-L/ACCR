@@ -1,71 +1,166 @@
-# RheumNotes
+# RheumNotes PsA: Backend
 
-Patient education app for psoriatic arthritis (PsA), built for ACCR / Dr. Murphy.
+Backend for a proof-of-concept iOS app (React Native / Expo) that teaches patients with Psoriatic Arthritis using clinician-approved content. Built for the Altoona Center for Clinical Research (CMU Heinz capstone).
+
+The backend stores content in Supabase (Postgres + Storage), tracks each lesson through review, and serves **only published lessons** to the app. There is no custom server.
+
+> New to the project? Read [docs/project-guide.md](docs/project-guide.md) first. It explains how Data, Backend and Frontend fit together and what each person delivers. [CLAUDE.md](CLAUDE.md) is the context file for Claude Code.
+
+## How it works in one minute
 
 ```
-Educational materials ──► AI pipeline ──► content bundle JSON ──► Supabase ──► patient app
-   data/sources/            data/            data/output/           backend/      frontend/
-                                  └── validated against shared/schema/content-bundle.schema.json
+export JSON ──► import_content.py ──► Supabase ──► review_import.py ──► publish.py ──► app (anon key)
+(Data Lead)     validate, gate,        draft /       Dr. Murphy's          reviewed →     reads published
+                version, load          checked       scores                published      rows only
 ```
 
-The four parts only meet at two contracts. If you change either one, tell the other leads and update the doc in the same PR.
-
-| Contract | Between | Defined in | Explained in |
-|---|---|---|---|
-| Content bundle JSON | Data → Backend (and the frontend mock) | [shared/schema/content-bundle.schema.json](shared/schema/content-bundle.schema.json) | [docs/content-schema.md](docs/content-schema.md) |
-| Patient API (`v_*` views) | Backend → Frontend | [backend/supabase/migrations/](backend/supabase/migrations/) | [docs/api-contract.md](docs/api-contract.md) |
-
-## Repository layout
-
-| Path | Owner | What's in it |
-|---|---|---|
-| `topics.yaml`, `lessons/`, `quizzes.yaml`, `media/` | Data | Hand-written PsA content and images (the knowledge structure the pipeline follows) |
-| `data/` | Data Lead | Python pipeline: ingest → extract concepts → plan → draft → verify → check → export; validation; evaluation |
-| `data/output/psa_legacy.json` | Data Lead | The hand-written content converted to a bundle. The frontend mock reads this file, so keep it committed and valid |
-| `shared/` | Data + Backend | JSON Schema for bundles; `fixtures/test_bundle.json` with obviously fake content for tests |
-| `backend/` | Backend Lead | Supabase migration (tables, status lifecycle, views, RLS); import / review / publish / evaluation scripts |
-| `frontend/` | Frontend Lead | Expo (React Native) app: topic list, learning path, lesson screens |
-| `docs/` | Documentation Lead | Architecture, contracts, integration checklist, report templates |
+Lesson status moves `draft → checked → reviewed → published` (`archived` for replaced versions). Only SQL functions change it, and the app can read nothing but published rows.
 
 ## Setup
 
-Requirements: Python 3.10+, Node 22 (`nvm use` reads `.nvmrc`), and for the backend a Supabase project.
+**You need:** Python 3.11+, and a Supabase project. (Docker and the Supabase CLI are optional.)
 
 ```bash
-# Data pipeline
-cd data && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m rheumnotes_data convert-legacy        # rebuild data/output/psa_legacy.json
-.venv/bin/python -m pytest                                # 9 tests, no API key needed
-
-# Backend
-cd backend && python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-cp .env.example .env                                      # fill in Supabase URL + keys
-.venv/bin/python -m pytest                                # mapping tests, offline
-npm install && npm run test:sql                           # RLS + status tests in in-memory Postgres
-
-# Frontend
-cd frontend && npm install
-cp .env.example .env.local                                # mock mode works with no changes
-npx expo start                                            # press i / a / w for iOS, Android, web
-npm test && npm run typecheck && npm run lint
+pip install -r backend/requirements.txt
+cp .env.example .env        # then fill in the four values
 ```
 
-## Content status lifecycle
+`.env` (git-ignored; never commit it):
+
+| Variable | Used by | Where to find it |
+|---|---|---|
+| `SUPABASE_URL` | import (image upload), the app | Dashboard → Project Settings → API |
+| `SUPABASE_ANON_KEY` | the app and API checks | Same page. Safe to give to Frontend. |
+| `SUPABASE_SERVICE_KEY` | image upload only | Same page. **Backend only.** |
+| `SUPABASE_DB_URL` | every script | Dashboard → Connect → connection string (Postgres) |
+
+The service key and database URL give full access to the data. Keep them out of code, tests, fixtures, the app, chat and commits.
+
+### Create the database
+Apply the migrations in order, either with the Supabase CLI (`supabase db push`) or by pasting each file into the dashboard's SQL editor:
+
+| File | What it does |
+|---|---|
+| `backend/supabase/migrations/0001_content_schema.sql` | Tables, constraints, versioned lessons |
+| `0002_published_access.sql` | Row-level security, grants, the published views, `get_learning_path` |
+| `0003_review_publish.sql` | `apply_review`, `publish_lesson`, `rollback_lesson` |
+| `0004_import_support.sql` | `lessons.evidence_hash` and the public `media` Storage bucket |
+
+Never edit a migration that has been applied. Add a new numbered one.
+
+### Frontend (the patient app)
+The Expo app in `frontend/` reads only the API in [backend/docs/api-contract.md](backend/docs/api-contract.md). It runs with no backend by answering requests from `backend/fixtures/mock_responses/`; switching to the live project needs only the URL and anon key. See [frontend/README.md](frontend/README.md).
+
+```bash
+nvm use                      # Node 22, from .nvmrc
+cd frontend && npm install && cp .env.example .env.local && npx expo start
+```
+
+## Everyday commands
+
+Run these from the repository root. Every script supports `--dry-run`, prints a summary, and fails without writing anything partial.
+
+**Convert the existing repo content into an export** (`topics.yaml`, `lessons/*.md`, `quizzes.yaml`, `media/`; read-only input):
+```bash
+python backend/scripts/convert_repo_content.py --out backend/exports/export_psa_real.json
+```
+
+**Import an export** (checks the file, then uploads images and writes all rows in one transaction):
+```bash
+python backend/scripts/import_content.py <export.json> --media-dir <folder with the images> --dry-run
+python backend/scripts/import_content.py <export.json> --media-dir <folder with the images> --dry-run --from-db   # compare with what is stored
+python backend/scripts/import_content.py <export.json> --media-dir <folder with the images>                      # the real import
+```
+
+**Review** (Dr. Murphy scores Rubric B; the pass rule is computed in SQL, so the sheet's `decision` column is ignored):
+```bash
+python backend/scripts/review_import.py --make-sheet backend/exports/review_sheet.csv    # checked lessons only
+python backend/scripts/review_import.py scores.csv --reviewer "Dr. Murphy" --dry-run
+python backend/scripts/review_import.py scores.csv --reviewer "Dr. Murphy"
+```
+
+**Publish and roll back** (a deliberate step, run after the review):
+```bash
+python backend/scripts/publish.py --lesson psa-dx-01 --dry-run
+python backend/scripts/publish.py --lesson psa-dx-01 [--version 2]
+python backend/scripts/publish.py --all-reviewed
+python backend/scripts/publish.py --rollback psa-dx-01
+```
+Changes are appended to `backend/logs/publish_log.jsonl` (local to the machine that ran them).
+
+**Demo content** (invented lessons with their own IDs so they never touch real content):
+```bash
+python backend/scripts/make_demo_export.py          # writes backend/exports/export_psa_demo.json
+```
+
+## Tests
+
+```bash
+pytest backend/tests -q
+```
+
+- Tests that need no database always run.
+- Database tests use the project in `.env`, but every one runs inside a transaction that is **always rolled back**, with its own `zzt-` IDs, so nothing is ever committed. They skip when `SUPABASE_DB_URL` is not set or migration 0004 is not applied.
+- Tests that act as the app use the anon key only.
+
+## How content changes are handled
+
+| Situation | What the importer does |
+|---|---|
+| New lesson | Inserts version 1 |
+| Same content again | Skips (safe to re-run) |
+| `draft` / `checked` lesson, text changed | Updates in place |
+| `draft` / `checked` lesson, same text but new claims, checks or status | Updates in place (a draft can become `checked`) |
+| `reviewed` / `published` lesson, text changed | Inserts **version + 1**; patients keep seeing the old version until the new one is reviewed and published |
+| Topic or subtopic name or order, lesson placement, image caption | Updates in place with no new version |
+| Any error in the file | Rejects the whole file; nothing is written |
+
+A `checked` lesson that fails the credibility gate (`citation_accuracy = 1`, no unsupported or contradicted claims, `numbers_ok`, no safety flags, `fk_grade ≤ 8`) is imported as `draft`.
+
+## What the app can access
+
+With the anon key the app can read only four things (details in [backend/docs/api-contract.md](backend/docs/api-contract.md)):
+
+| Screen | Request |
+|---|---|
+| Topics | `GET /rest/v1/v_topics` |
+| Learning path | `POST /rest/v1/rpc/get_learning_path` |
+| Lesson | `GET /rest/v1/v_lessons?id=eq.<id>` |
+| Quiz | `GET /rest/v1/v_quiz_items?lesson_id=eq.<id>` |
+| Images | `GET /storage/v1/object/public/media/<path>` |
+
+Base tables are locked (row-level security with no policies, no grants), and the review and publish functions cannot be called with the anon key. Example responses live in `backend/fixtures/mock_responses/` so the app can be built before the backend is live.
+
+## Repository layout
 
 ```
-draft ──(fix + re-export as new version)──► checked ──(Rubric B pass)──► reviewed ──(publish)──► published
-  ▲ failed an automatic check                 │ passed all checks            Dr. Murphy               visible to patients
-  └──────────── "revise" comment ─────────────┘ (stays checked; the fix arrives as a new version)
+schema/content.schema.json     the Data → Backend contract (JSON Schema 2020-12)
+backend/
+  supabase/migrations/         database changes, numbered
+  scripts/                     import_content, review_import, publish,
+                               convert_repo_content, make_demo_export
+  tests/                       pytest
+  fixtures/                    mock_export.json, mock_responses/
+  docs/api-contract.md         Backend ↔ Frontend contract
+  exports/                     generated files (git-ignored)
+  logs/                        publish log
+docs/                          Week 9 plan, architecture, pipeline design, schema doc, project guide
 ```
 
-- The pipeline exports only `draft` or `checked`. The schema rejects anything else.
-- Only `checked` lessons go on Dr. Murphy's review sheet.
-- A database trigger enforces the transitions, so a script bug can't skip a step. Reviewed and published content can't be edited; fixes are new versions.
-- The app's anon key can read only `published` rows through the `v_*` views. RLS and column grants enforce this on the server.
+## Working agreement
+- Feature branches and pull requests; small commits.
+- Tell the Data Lead before changing `schema/content.schema.json` (bump `schema_version`). Tell Frontend before changing `backend/docs/api-contract.md`.
+- No PHI anywhere: no names, emails, symptoms or free text from patients.
+- Do not move or edit the Data Lead's content files without agreement.
 
-## Team workflow
+## Troubleshooting
 
-- Branch per feature (`data/…`, `backend/…`, `frontend/…`, `docs/…`), PR into `main`, one reviewer.
-- Contract changes (schema, migration, views) need a reviewer from the other side of the contract.
-- Never commit keys or patient information. Only the anon key goes in the app; the service key stays in `backend/.env` or GitHub secrets.
-- Include tests and setup notes with each feature.
+| Symptom | Likely cause |
+|---|---|
+| `missing settings ... SUPABASE_DB_URL` | `.env` not found or the variable is empty. Scripts search upward from `backend/scripts`; environment variables override `.env`. |
+| Database tests all skipped | No `SUPABASE_DB_URL`, or migration 0004 is not applied. |
+| `file rejected (n problems)` | The export failed validation. Every problem is listed; fix them all and re-run with `--dry-run`. |
+| `media ... not found` | Pass `--media-dir` pointing at the folder with the image files. |
+| `only reviewed lessons can be published` | The lesson is still `draft` or `checked`. Run the review import first. |
+| App gets `[]` | The lesson, or its topic, is not published. This is expected for drafts. |
+| App gets `401` | Wrong or missing API key, or the app is asking for a base table. |

@@ -1,14 +1,29 @@
-import type { ReactNode } from 'react';
-import { RefreshControl, ScrollView, StyleSheet } from 'react-native';
+import { useEffect, useRef, type ReactNode } from 'react';
+import { RefreshControl, ScrollView, StyleSheet, type ScrollViewInstance } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { colors, spacing } from '@/theme';
 
-/** Scrollable page body under the stack header. Pass onRefresh for pull-to-reload. */
-export function Screen({ children, onRefresh }: { children: ReactNode; onRefresh?: () => void }) {
+interface Props {
+  children: ReactNode;
+  /** Pass for pull-to-refresh. */
+  onRefresh?: () => void;
+  /** Scrolls back to the top whenever this changes (e.g. the lesson page). */
+  scrollKey?: string | number;
+}
+
+/** Scrollable page body under the stack header. */
+export function Screen({ children, onRefresh, scrollKey }: Props) {
   const insets = useSafeAreaInsets();
+  const scroll = useRef<ScrollViewInstance>(null);
+
+  useEffect(() => {
+    scroll.current?.scrollTo({ y: 0, animated: false });
+  }, [scrollKey]);
+
   return (
     <ScrollView
+      ref={scroll}
       style={styles.scroll}
       contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + spacing.xxl }]}
       refreshControl={onRefresh ? <RefreshControl refreshing={false} onRefresh={onRefresh} /> : undefined}

@@ -1,72 +1,71 @@
-// App-side content model. Mirrors the API contract in docs/api-contract.md:
-// the Supabase views return snake_case rows, and src/content/mappers.ts turns
+// App-side content model. Mirrors the API in backend/docs/api-contract.md:
+// the endpoints return snake_case rows, and src/content/mappers.ts turns
 // them into these types. Screens only ever see these types.
+// Everything the API returns is published; drafts never reach the app.
 
-export type ContentStatus = 'draft' | 'checked' | 'reviewed' | 'published';
-
-export interface TopicSummary {
+export interface Topic {
   id: string;
-  diseaseId: string;
   name: string;
-  description: string | null;
+  /** Icon names aren't agreed yet (project guide §11 #8); null until they are. */
   icon: string | null;
-  order: number;
-  lessonCount: number;
-  totalMinutes: number;
+  sortOrder: number;
 }
 
-export interface LessonSummary {
+export interface PathLesson {
   id: string;
-  topicId: string;
-  subtopicId: string;
-  order: number;
   title: string;
-  summary: string;
   estMinutes: number;
-  /** Always 'published' from Supabase; mock/review mode can show earlier statuses. */
-  status: ContentStatus;
+  sortOrder: number;
 }
 
-export interface SubtopicPath {
+export interface PathSubtopic {
   id: string;
   name: string;
-  order: number;
-  lessons: LessonSummary[];
+  sortOrder: number;
+  lessons: PathLesson[];
 }
 
 export interface LearningPath {
-  topic: TopicSummary;
-  subtopics: SubtopicPath[];
+  subtopics: PathSubtopic[];
   /** All lessons in reading order, flattened across subtopics. */
   lessonIds: string[];
 }
 
+export interface LessonPage {
+  order: number;
+  /** Plain text or simple Markdown. */
+  body: string;
+}
+
 export interface LessonImage {
-  file: string;
+  mediaId: string;
+  /** The lesson page (`LessonPage.order`) the image belongs to. */
+  page: number;
+  /** Path in the public `media` Storage bucket. */
+  path: string;
   altText: string;
   credit: string | null;
 }
 
-export interface SourceReference {
-  sourceId: string;
-  title: string;
-  url: string | null;
-  pages: number[];
-}
-
-export interface QuizQuestion {
+export interface Lesson {
   id: string;
-  question: string;
-  options: string[];
-  answer: number;
-  feedback: string | null;
-}
-
-export interface Lesson extends LessonSummary {
   version: number;
-  bodyMarkdown: string;
+  subtopicId: string;
+  sortOrder: number;
+  title: string;
+  estMinutes: number;
+  pages: LessonPage[];
   keyTakeaways: string[];
   images: LessonImage[];
-  references: SourceReference[];
-  quiz: QuizQuestion[];
+  updatedAt: string;
+}
+
+export interface QuizItem {
+  id: string;
+  lessonId: string;
+  question: string;
+  options: string[];
+  /** 0-based index into `options`. */
+  answer: number;
+  feedback: string | null;
 }

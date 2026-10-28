@@ -1,10 +1,10 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-import type { LessonSummary } from '@/content';
+import type { PathLesson } from '@/content';
 import { colors, radius, spacing, type } from '@/theme';
 
 interface Props {
-  lesson: LessonSummary;
+  lesson: PathLesson;
   position: number;
   completed: boolean;
   onPress: () => void;
@@ -23,9 +23,6 @@ export function LessonRow({ lesson, position, completed, onPress }: Props) {
       </View>
       <View style={styles.text}>
         <Text style={styles.title}>{lesson.title}</Text>
-        <Text style={type.caption} numberOfLines={2}>
-          {lesson.summary}
-        </Text>
         <Text style={styles.meta}>{lesson.estMinutes} min read</Text>
       </View>
     </Pressable>

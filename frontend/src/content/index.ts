@@ -1,36 +1,33 @@
 // Picks the content source from EXPO_PUBLIC_CONTENT_SOURCE (see .env.example).
+import { createApiService, type Transport } from './api';
 import { ContentError, type ContentService } from './ContentService';
-import { createMockService } from './mockService';
-import { createSupabaseService } from './supabaseService';
+import { createHttpTransport } from './httpTransport';
+import { createMockTransport, type MockFailure } from './mockTransport';
 
 export type ContentSource = 'mock' | 'supabase';
 
 export const contentSource: ContentSource =
   process.env.EXPO_PUBLIC_CONTENT_SOURCE === 'supabase' ? 'supabase' : 'mock';
 
-function create(): ContentService {
+export const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL ?? '';
+
+function createTransport(): Transport {
   if (contentSource === 'supabase') {
     try {
-      return createSupabaseService({
-        url: process.env.EXPO_PUBLIC_SUPABASE_URL ?? '',
-        anonKey: process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ?? '',
-      });
+      return createHttpTransport({ url: supabaseUrl, anonKey: process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY ?? '' });
     } catch (e) {
       // Surface config problems through the normal error UI instead of crashing at startup.
-      const fail = () => Promise.reject(e instanceof ContentError ? e : new ContentError('CONFIG', String(e)));
-      return { getTopics: fail, getLearningPath: fail, getLesson: fail };
+      return async () => ({ status: 401, body: { message: String(e instanceof ContentError ? e.message : e) } });
     }
   }
-  return createMockService({
+  const fail = process.env.EXPO_PUBLIC_MOCK_FAIL;
+  return createMockTransport({
     delayMs: Number(process.env.EXPO_PUBLIC_MOCK_DELAY_MS ?? 400),
-    fail: process.env.EXPO_PUBLIC_MOCK_FAIL === '1',
+    fail: fail === 'network' || fail === '400' || fail === '401' ? (fail as MockFailure) : undefined,
   });
 }
 
-export const contentService: ContentService = create();
-
-/** Base URL for lesson images in Supabase mode (public Storage bucket). */
-export const mediaBaseUrl = process.env.EXPO_PUBLIC_MEDIA_BASE_URL ?? '';
+export const contentService: ContentService = createApiService(createTransport());
 
 export * from './ContentService';
 export type * from './types';

@@ -1,105 +1,98 @@
-// snake_case rows from the Supabase views (docs/api-contract.md) -> app types.
-import type {
-  ContentStatus,
-  LearningPath,
-  Lesson,
-  LessonSummary,
-  SubtopicPath,
-  TopicSummary,
-} from './types';
+// snake_case rows from the API (backend/docs/api-contract.md §3) -> app types.
+// Lists are sorted by sort_order / order here, never by arrival order.
+import type { LearningPath, Lesson, PathSubtopic, QuizItem, Topic } from './types';
 
 export interface TopicRow {
   id: string;
-  disease_id: string;
   name: string;
-  description: string | null;
   icon: string | null;
-  order_index: number;
-  lesson_count: number;
-  total_minutes: number;
+  sort_order: number;
 }
 
-export interface SubtopicRow {
+export interface PathLessonRow {
   id: string;
-  topic_id: string;
-  name: string;
-  order_index: number;
-}
-
-export interface LessonSummaryRow {
-  id: string;
-  topic_id: string;
-  subtopic_id: string;
-  order_index: number;
   title: string;
-  summary: string;
   est_minutes: number;
-  status?: ContentStatus;
+  sort_order: number;
 }
 
-export interface LessonRow extends LessonSummaryRow {
+export interface PathSubtopicRow {
+  id: string;
+  name: string;
+  sort_order: number;
+  lessons: PathLessonRow[];
+}
+
+export interface LessonRow {
+  id: string;
   version: number;
-  body_markdown: string;
+  subtopic_id: string;
+  sort_order: number;
+  title: string;
+  est_minutes: number;
+  pages: { order: number; body: string }[];
   key_takeaways: string[];
-  images: { file: string; alt_text: string; credit?: string | null }[];
-  references: { source_id: string; title: string | null; url: string | null; pages: number[] }[];
-  quiz: { id: string; question: string; options: string[]; answer: number; feedback?: string | null }[];
+  images: { media_id: string; page: number; path: string; alt_text: string; credit: string | null }[];
+  updated_at: string;
 }
 
-export const toTopic = (r: TopicRow): TopicSummary => ({
-  id: r.id,
-  diseaseId: r.disease_id,
-  name: r.name,
-  description: r.description,
-  icon: r.icon,
-  order: r.order_index,
-  lessonCount: r.lesson_count,
-  totalMinutes: r.total_minutes,
-});
+export interface QuizRow {
+  id: string;
+  lesson_id: string;
+  question: string;
+  options: string[];
+  answer: number;
+  feedback: string | null;
+}
 
-export const toLessonSummary = (r: LessonSummaryRow): LessonSummary => ({
-  id: r.id,
-  topicId: r.topic_id,
-  subtopicId: r.subtopic_id,
-  order: r.order_index,
-  title: r.title,
-  summary: r.summary,
-  estMinutes: r.est_minutes,
-  status: r.status ?? 'published',
-});
+const bySortOrder = <T extends { sort_order: number }>(rows: T[]) =>
+  [...rows].sort((a, b) => a.sort_order - b.sort_order);
 
-export const toLesson = (r: LessonRow): Lesson => ({
-  ...toLessonSummary(r),
-  version: r.version,
-  bodyMarkdown: r.body_markdown,
-  keyTakeaways: r.key_takeaways ?? [],
-  images: (r.images ?? []).map((i) => ({ file: i.file, altText: i.alt_text, credit: i.credit ?? null })),
-  references: (r.references ?? []).map((s) => ({
-    sourceId: s.source_id,
-    title: s.title ?? s.source_id,
-    url: s.url,
-    pages: s.pages ?? [],
-  })),
-  quiz: (r.quiz ?? []).map((q) => ({ ...q, feedback: q.feedback ?? null })),
-});
+export const toTopics = (rows: TopicRow[]): Topic[] =>
+  bySortOrder(rows).map((r) => ({ id: r.id, name: r.name, icon: r.icon, sortOrder: r.sort_order }));
 
-/** Order is decided by the backend data, never hard-coded in screens. */
-export function buildLearningPath(
-  topic: TopicSummary,
-  subtopics: SubtopicRow[],
-  lessons: LessonSummaryRow[],
-): LearningPath {
-  const paths: SubtopicPath[] = [...subtopics]
-    .sort((a, b) => a.order_index - b.order_index)
+export function toLearningPath(rows: PathSubtopicRow[]): LearningPath {
+  const subtopics: PathSubtopic[] = bySortOrder(rows)
     .map((s) => ({
       id: s.id,
       name: s.name,
-      order: s.order_index,
-      lessons: lessons
-        .filter((l) => l.subtopic_id === s.id)
-        .sort((a, b) => a.order_index - b.order_index)
-        .map(toLessonSummary),
+      sortOrder: s.sort_order,
+      lessons: bySortOrder(s.lessons ?? []).map((l) => ({
+        id: l.id,
+        title: l.title,
+        estMinutes: l.est_minutes,
+        sortOrder: l.sort_order,
+      })),
     }))
     .filter((s) => s.lessons.length > 0);
-  return { topic, subtopics: paths, lessonIds: paths.flatMap((s) => s.lessons.map((l) => l.id)) };
+  return { subtopics, lessonIds: subtopics.flatMap((s) => s.lessons.map((l) => l.id)) };
 }
+
+export const toLesson = (r: LessonRow): Lesson => ({
+  id: r.id,
+  version: r.version,
+  subtopicId: r.subtopic_id,
+  sortOrder: r.sort_order,
+  title: r.title,
+  estMinutes: r.est_minutes,
+  pages: [...(r.pages ?? [])].sort((a, b) => a.order - b.order),
+  keyTakeaways: r.key_takeaways ?? [],
+  images: (r.images ?? []).map((i) => ({
+    mediaId: i.media_id,
+    page: i.page,
+    path: i.path,
+    altText: i.alt_text,
+    credit: i.credit ?? null,
+  })),
+  updatedAt: r.updated_at,
+});
+
+export const toQuiz = (rows: QuizRow[]): QuizItem[] =>
+  rows.map((q) => ({
+    id: q.id,
+    lessonId: q.lesson_id,
+    question: q.question,
+    options: q.options,
+    answer: q.answer,
+    feedback: q.feedback ?? null,
+  }));
