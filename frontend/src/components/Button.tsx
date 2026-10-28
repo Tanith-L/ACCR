@@ -1,38 +1,48 @@
 import { Pressable, StyleSheet, Text } from 'react-native';
 
-import { colors, radius, spacing } from '@/theme';
+import { colors, fonts, radius, spacing } from '@/theme';
 
 interface Props {
   label: string;
   onPress: () => void;
-  variant?: 'primary' | 'secondary';
+  /** primary: filled teal. outline: white with a teal border. link: teal text only. */
+  variant?: 'primary' | 'outline' | 'link';
+  disabled?: boolean;
   accessibilityHint?: string;
 }
 
-export function Button({ label, onPress, variant = 'primary', accessibilityHint }: Props) {
-  const primary = variant === 'primary';
+export function Button({ label, onPress, variant = 'primary', disabled, accessibilityHint }: Props) {
   return (
     <Pressable
       accessibilityRole="button"
+      accessibilityState={{ disabled }}
       accessibilityHint={accessibilityHint}
+      disabled={disabled}
       onPress={onPress}
-      style={({ pressed }) => [styles.base, primary ? styles.primary : styles.secondary, pressed && styles.pressed]}
+      style={({ pressed }) => [
+        styles.base,
+        variant === 'primary' && {
+          backgroundColor: disabled ? colors.primaryDisabled : pressed ? colors.primaryPressed : colors.primary,
+        },
+        variant === 'outline' && [styles.outline, pressed && { backgroundColor: colors.primarySoft }],
+        variant === 'link' && pressed && { opacity: 0.6 },
+      ]}
     >
-      <Text style={[styles.label, { color: primary ? colors.primaryText : colors.primary }]}>{label}</Text>
+      <Text style={[styles.label, { color: variant === 'primary' ? colors.primaryText : colors.primary }]}>
+        {label}
+      </Text>
     </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
   base: {
-    minHeight: 48,
-    borderRadius: radius.md,
+    minHeight: 52,
+    borderRadius: radius.sm,
     paddingHorizontal: spacing.xl,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  primary: { backgroundColor: colors.primary },
-  secondary: { backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.primary },
-  pressed: { opacity: 0.8 },
-  label: { fontSize: 17, fontWeight: '600' },
+  outline: { backgroundColor: colors.surface, borderWidth: 1.5, borderColor: colors.primary },
+  label: { fontFamily: fonts.semibold, fontSize: 17 },
 });

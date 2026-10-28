@@ -4,7 +4,7 @@
 import { Fragment } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import { spacing, type } from '@/theme';
+import { fonts, spacing, type } from '@/theme';
 
 type Block = { kind: 'p'; text: string } | { kind: 'ul' | 'ol'; items: string[] };
 
@@ -67,7 +67,7 @@ export function Markdown({ source }: { source: string }) {
 
 const styles = StyleSheet.create({
   wrap: { gap: spacing.md },
-  bold: { fontWeight: '700' },
+  bold: { fontFamily: fonts.bold },
   list: { gap: spacing.xs },
   item: { flexDirection: 'row', gap: spacing.sm, paddingRight: spacing.lg },
   itemText: { flex: 1 },

@@ -10,17 +10,21 @@ npx expo start               # i / a / w
 npm test && npm run typecheck && npm run lint
 ```
 
+Screens follow the Figma prototype ("ACCR Prototype"): a welcome screen, then three tabs.
+
 | Path | Purpose |
 |---|---|
-| `src/app/index.tsx` | Topic selection (`GET v_topics`) |
-| `src/app/topic/[topicId].tsx` | Learning path (`POST rpc/get_learning_path`): subtopics → ordered lessons, progress, Start/Continue |
-| `src/app/lesson/[lessonId].tsx` | Lesson viewer (`GET v_lessons`): one page at a time, images by `page`, key takeaways on the last page, mark complete, next lesson |
-| `src/app/quiz/[lessonId].tsx` | Quiz (`GET v_quiz_items`): 0-based `answer`, feedback after each answer |
+| `src/app/welcome.tsx` | First launch: what the app is, include or skip quizzes |
+| `src/app/(tabs)/(home)/index.tsx` | Your learning topics (`GET v_topics` + each topic's learning path for the % complete) |
+| `src/app/(tabs)/(home)/topic/[topicId].tsx` | Topic: numbered lessons (`POST rpc/get_learning_path`), "Quiz is optional" note |
+| `src/app/(tabs)/(home)/lesson/[lessonId].tsx` | Lesson (`GET v_lessons`): one page at a time, images by `page`, key takeaways on the last page, Next lesson / Finish lesson |
+| `src/app/(tabs)/(home)/quiz/[topicId].tsx` | Knowledge check for a topic (`GET v_quiz_items` for each lesson): intro → question → answer review |
+| `src/app/(tabs)/care.tsx` | When to contact the care team (static clinic guidance) |
+| `src/app/(tabs)/settings/` | Settings (quiz preference) and About |
 | `src/content/` | The only place that fetches data. `api.ts` turns contract responses into app types and handles status codes; `httpTransport.ts` (Supabase) and `mockTransport.ts` (fixtures) send the requests |
-| `src/hooks/useAsync.ts` | Loading, error and reload state for every screen |
-| `src/components/` | Reusable UI, including `AsyncContent` (loading / error / empty states) |
-| `src/progress/` | Lesson completion stored on the device (AsyncStorage), behind one context so Phase 3 can swap in the backend |
-| `src/theme.ts` | Design tokens (replace with the Figma values) |
+| `src/components/` | Figma building blocks: `AppHeader`, `Card`/`InfoCard`, `Chip`, `Button`, `TabBar`, `Logo`, plus `AsyncContent` (loading / error / empty states) |
+| `src/progress/`, `src/preferences/` | Lesson completion and app preferences, stored on the device (AsyncStorage) |
+| `src/theme.ts` | Design tokens from Figma: teal palette, Inter type, spacing, radius |
 
 ## Content source
 
@@ -41,7 +45,9 @@ Every screen fetches on open and on pull-to-refresh. Lessons aren't cached, so a
 
 ## TODO
 
-- [ ] Match the screens to Figma (colors, type, icons, spacing in `theme.ts` and the components)
-- [ ] Topic icons once names are agreed with the Data Lead (project guide §11 #8); until then cards show their position
+- [ ] Topic descriptions under each topic name (Figma) need a `description` column in `v_topics`; until then cards show the lesson count
+- [ ] Clinic phone number and hours on the Care Team tab (`src/app/(tabs)/care.tsx`)
+- [ ] Citations on the About screen once the content pipeline lists its sources
+- [ ] Name and email in Settings once sign-in exists (Phase 3; no PHI on the device before that)
 - [ ] Switch to `supabase` once content is published; check images load from the `media` bucket
 - [ ] Usability test with 2–3 internal users

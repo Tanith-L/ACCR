@@ -1,31 +1,23 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
-import { colors, radius, spacing, type } from '@/theme';
+import { colors, radius } from '@/theme';
 
-export function ProgressBar({ done, total, showLabel = true }: { done: number; total: number; showLabel?: boolean }) {
-  const ratio = total > 0 ? Math.min(1, done / total) : 0;
+/** Thin teal bar, as on the quiz question screen. */
+export function ProgressBar({ value, label }: { value: number; label: string }) {
+  const ratio = Math.max(0, Math.min(1, value));
   return (
     <View
-      style={styles.wrap}
+      style={styles.track}
       accessibilityRole="progressbar"
-      accessibilityValue={{ min: 0, max: total, now: done }}
-      accessibilityLabel={`${done} of ${total} lessons completed`}
+      accessibilityLabel={label}
+      accessibilityValue={{ min: 0, max: 100, now: Math.round(ratio * 100) }}
     >
-      <View style={styles.track}>
-        <View style={[styles.fill, { width: `${ratio * 100}%` }]} />
-      </View>
-      {showLabel && (
-        <Text style={styles.label}>
-          {done} of {total} lessons completed
-        </Text>
-      )}
+      <View style={[styles.fill, { width: `${ratio * 100}%` }]} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  wrap: { gap: spacing.xs },
-  track: { height: 8, borderRadius: radius.pill, backgroundColor: colors.border, overflow: 'hidden' },
-  fill: { height: '100%', borderRadius: radius.pill, backgroundColor: colors.success },
-  label: type.caption,
+  track: { height: 8, borderRadius: radius.pill, backgroundColor: colors.primarySoft, overflow: 'hidden' },
+  fill: { height: '100%', borderRadius: radius.pill, backgroundColor: colors.primary },
 });

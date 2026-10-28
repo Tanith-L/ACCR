@@ -27,36 +27,35 @@ export function LessonImage({ image }: { image: LessonImageData }) {
 
   const aspectRatio = knownRatio ?? remoteRatio ?? 4 / 3;
   return (
-    <View style={styles.figure} onLayout={(e) => setWidth(e.nativeEvent.layout.width)}>
-      {source && !failed ? (
-        <Image
-          source={source}
-          style={[styles.image, width ? { width, height: width / aspectRatio } : { aspectRatio }]}
-          resizeMode="contain"
-          accessibilityLabel={image.altText}
-          onError={() => setFailed(true)}
-        />
-      ) : (
-        <View style={[styles.image, styles.placeholder]} accessibilityLabel={image.altText}>
-          <Text style={styles.placeholderText}>Image: {image.altText}</Text>
+    <View style={styles.figure}>
+      <View style={styles.panel}>
+        <View onLayout={(e) => setWidth(e.nativeEvent.layout.width)}>
+          {source && !failed ? (
+            <Image
+              source={source}
+              style={[styles.image, width ? { width, height: width / aspectRatio } : { aspectRatio }]}
+              resizeMode="contain"
+              accessibilityLabel={image.altText}
+              onError={() => setFailed(true)}
+            />
+          ) : (
+            <View style={[styles.image, styles.placeholder]} accessibilityLabel={image.altText}>
+              <Text style={styles.placeholderText}>{image.altText}</Text>
+            </View>
+          )}
         </View>
-      )}
-      {image.credit ? <Text style={styles.credit}>Credit: {image.credit}</Text> : null}
+      </View>
+      {image.credit ? <Text style={styles.credit}>Image: {image.credit}</Text> : null}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  figure: { gap: spacing.xs },
-  image: { width: '100%', aspectRatio: 4 / 3, borderRadius: radius.md, backgroundColor: colors.surface },
-  placeholder: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: spacing.lg,
-    borderWidth: 1,
-    borderStyle: 'dashed',
-    borderColor: colors.border,
-  },
+  figure: { gap: spacing.sm },
+  // Soft framed panel from the Figma lesson screens.
+  panel: { padding: spacing.xl, borderRadius: radius.lg, backgroundColor: colors.imagePanel },
+  image: { width: '100%', aspectRatio: 4 / 3, borderRadius: radius.sm },
+  placeholder: { alignItems: 'center', justifyContent: 'center', padding: spacing.lg },
   placeholderText: { ...type.caption, textAlign: 'center' },
-  credit: { ...type.caption, fontSize: 12 },
+  credit: { ...type.caption, fontSize: 13 },
 });

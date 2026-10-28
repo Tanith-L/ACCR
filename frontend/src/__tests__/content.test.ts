@@ -4,6 +4,7 @@ import { ContentError } from '@/content/ContentService';
 import { createHttpTransport } from '@/content/httpTransport';
 import { storageUrl } from '@/content/media';
 import { createMockTransport } from '@/content/mockTransport';
+import { numberWord, percent, plural } from '@/utils/format';
 
 describe('mock mode (backend/fixtures/mock_responses)', () => {
   const service = createApiService(createMockTransport());
@@ -129,5 +130,19 @@ describe('lesson markdown', () => {
       { kind: 'ul', items: ['a', 'b'] },
       { kind: 'ol', items: ['x', 'y'] },
     ]);
+  });
+});
+
+describe('format helpers', () => {
+  it('spells out small counts and pluralizes', () => {
+    expect(numberWord(2)).toBe('two');
+    expect(numberWord(12)).toBe('12');
+    expect(plural(1, 'question')).toBe('1 question');
+    expect(plural(3, 'topic', '2 of 3')).toBe('2 of 3 topics');
+  });
+
+  it('rounds percentages and handles empty topics', () => {
+    expect(percent(1, 3)).toBe(33);
+    expect(percent(0, 0)).toBe(0);
   });
 });

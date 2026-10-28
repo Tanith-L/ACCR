@@ -1,58 +1,44 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
-import type { Topic } from '@/content';
-import { colors, radius, spacing, type } from '@/theme';
+import { colors, fonts, spacing, type } from '@/theme';
+
+import { Card } from './Card';
 
 interface Props {
-  topic: Topic;
-  /** 1-based position in the list; shown until topic icons are agreed. */
-  position: number;
-  completed: number;
+  name: string;
+  /** Line under the name. The API has no topic description yet, so screens pass the lesson count. */
+  subtitle: string;
+  percent: number;
   onPress: () => void;
 }
 
-export function TopicCard({ topic, position, completed, onPress }: Props) {
-  const status = completed > 0 ? `${completed} ${completed === 1 ? 'lesson' : 'lessons'} completed` : 'Not started';
+export function TopicCard({ name, subtitle, percent, onPress }: Props) {
   return (
-    <Pressable
-      accessibilityRole="button"
-      accessibilityLabel={`${topic.name}, ${status}`}
-      onPress={onPress}
-      style={({ pressed }) => [styles.card, pressed && styles.pressed]}
-    >
-      <View style={styles.badge}>
-        <Text style={styles.badgeText}>{position}</Text>
+    <Card onPress={onPress} accessibilityLabel={`${name}, ${percent} percent complete`}>
+      <View style={styles.row}>
+        <View style={styles.text}>
+          <Text style={styles.name}>{name}</Text>
+          <Text style={type.caption}>{subtitle}</Text>
+        </View>
+        <View style={styles.badge}>
+          <Text style={styles.percent}>{percent}%</Text>
+        </View>
       </View>
-      <View style={styles.titles}>
-        <Text style={type.heading}>{topic.name}</Text>
-        <Text style={type.caption}>{status}</Text>
-      </View>
-      <Text style={styles.chevron}>›</Text>
-    </Pressable>
+    </Card>
   );
 }
 
 const styles = StyleSheet.create({
-  card: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.md,
-    backgroundColor: colors.surface,
-    borderRadius: radius.lg,
-    padding: spacing.lg,
-    borderWidth: 1,
-    borderColor: colors.border,
-  },
-  pressed: { opacity: 0.85 },
+  row: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
+  text: { flex: 1, gap: spacing.xs },
+  name: { fontFamily: fonts.semibold, fontSize: 19, lineHeight: 25, color: colors.text },
   badge: {
-    width: 40,
-    height: 40,
-    borderRadius: radius.pill,
+    width: 52,
+    height: 52,
+    borderRadius: 26,
     backgroundColor: colors.primarySoft,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  badgeText: { color: colors.primary, fontWeight: '700', fontSize: 17 },
-  titles: { flex: 1, gap: 2 },
-  chevron: { fontSize: 28, color: colors.textMuted },
+  percent: { fontFamily: fonts.medium, fontSize: 14, color: colors.primary },
 });

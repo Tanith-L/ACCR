@@ -1,7 +1,10 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 import type { PathLesson } from '@/content';
-import { colors, radius, spacing, type } from '@/theme';
+import { colors, fonts, spacing, type } from '@/theme';
+
+import { Card } from './Card';
+import { Icon } from './Icon';
 
 interface Props {
   lesson: PathLesson;
@@ -10,49 +13,42 @@ interface Props {
   onPress: () => void;
 }
 
+/** Numbered lesson card on the topic screen; the number turns into a check when done. */
 export function LessonRow({ lesson, position, completed, onPress }: Props) {
   return (
-    <Pressable
-      accessibilityRole="button"
-      accessibilityLabel={`Lesson ${position}: ${lesson.title}${completed ? ', completed' : ''}`}
+    <Card
       onPress={onPress}
-      style={({ pressed }) => [styles.row, pressed && styles.pressed]}
+      accessibilityLabel={`Lesson ${position}: ${lesson.title}, ${lesson.estMinutes} minute read${completed ? ', completed' : ''}`}
     >
-      <View style={[styles.marker, completed && styles.markerDone]}>
-        <Text style={[styles.markerText, completed && styles.markerTextDone]}>{completed ? '✓' : position}</Text>
+      <View style={styles.row}>
+        <View style={[styles.number, completed && styles.numberDone]}>
+          {completed ? (
+            <Icon name="check" size={18} color={colors.primaryText} />
+          ) : (
+            <Text style={styles.numberText}>{position}</Text>
+          )}
+        </View>
+        <View style={styles.text}>
+          <Text style={type.heading}>{lesson.title}</Text>
+          <Text style={type.caption}>{lesson.estMinutes} min read</Text>
+        </View>
+        <Icon name="chevron-right" size={20} color={colors.textMuted} />
       </View>
-      <View style={styles.text}>
-        <Text style={styles.title}>{lesson.title}</Text>
-        <Text style={styles.meta}>{lesson.estMinutes} min read</Text>
-      </View>
-    </Pressable>
+    </Card>
   );
 }
 
 const styles = StyleSheet.create({
-  row: {
-    flexDirection: 'row',
-    gap: spacing.md,
-    padding: spacing.lg,
-    backgroundColor: colors.surface,
-    borderRadius: radius.md,
-    borderWidth: 1,
-    borderColor: colors.border,
-  },
-  pressed: { opacity: 0.85 },
-  marker: {
-    width: 32,
-    height: 32,
-    borderRadius: radius.pill,
-    borderWidth: 2,
-    borderColor: colors.primary,
+  row: { flexDirection: 'row', alignItems: 'center', gap: spacing.md + 2 },
+  number: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: colors.primarySoft,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  markerDone: { backgroundColor: colors.success, borderColor: colors.success },
-  markerText: { color: colors.primary, fontWeight: '700' },
-  markerTextDone: { color: colors.primaryText },
-  text: { flex: 1, gap: spacing.xs },
-  title: { fontSize: 17, fontWeight: '600', color: colors.text },
-  meta: { ...type.caption, fontSize: 13 },
+  numberDone: { backgroundColor: colors.primary },
+  numberText: { fontFamily: fonts.regular, fontSize: 17, color: colors.primary },
+  text: { flex: 1, gap: 2 },
 });
