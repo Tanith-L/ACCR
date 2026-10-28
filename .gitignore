@@ -17,3 +17,8 @@ backend/logs/
 # Local educational source files and extracted text (rebuild from the supplied ZIP)
 data/psa/originals/
 data/psa/extracted/
+# Node (frontend/ has its own .gitignore too)
+node_modules/
+
+# macOS
+.DS_Store

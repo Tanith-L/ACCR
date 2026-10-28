@@ -50,6 +50,14 @@ Apply the migrations in order, either with the Supabase CLI (`supabase db push`)
 
 Never edit a migration that has been applied. Add a new numbered one.
 
+### Frontend (the patient app)
+The Expo app in `frontend/` reads only the API in [backend/docs/api-contract.md](backend/docs/api-contract.md). It runs with no backend by answering requests from `backend/fixtures/mock_responses/`; switching to the live project needs only the URL and anon key. See [frontend/README.md](frontend/README.md).
+
+```bash
+nvm use                      # Node 22, from .nvmrc
+cd frontend && npm install && cp .env.example .env.local && npx expo start
+```
+
 ## Everyday commands
 
 Run these from the repository root. Every script supports `--dry-run`, prints a summary, and fails without writing anything partial.
