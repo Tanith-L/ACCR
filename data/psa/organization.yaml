@@ -1,0 +1,391 @@
+version: 1
+disease_id: psa
+status: draft
+description: Source organization for the six PsA learning parts; editorial metadata, not a backend lesson export.
+sources:
+- id: src-psa-one-pager-intro
+  file: PsA One-Pager Intro.jpeg
+  title: PsA One-Pager Intro
+  role: educational_candidate
+  scope: PsA
+  note: Box A covers CASPAR; Box B covers domains and treatment considerations; Box C covers body areas. The supplied image obscures the bottom of the CASPAR table; use the mind map to locate the remaining feature, then verify with the clinician.
+- id: src-mindmap
+  file: mindmap.jpeg
+  title: Handwritten PsA mind map
+  role: educational_candidate
+  scope: PsA
+  note: CASPAR, GRAPPA domains, epidemiology, treatment classes and MDA. Handwriting needs transcription review; keep numerical thresholds and drug names out of new patient drafts until checked.
+- id: src-clinical-manifestations-of-psa-poster
+  file: clinical manifestations of PSA written at an 8th grade level.png
+  title: Clinical manifestations of PsA
+  role: educational_candidate
+  scope: PsA
+  note: Patient-facing body-area explanations and a brief long-term-damage statement. The filename's eighth-grade claim is not a measured readability result.
+- id: src-grappa-domains-in-psa-poster
+  file: GRAPPA domains in PSA which guide treatment decisions.png
+  title: GRAPPA domains in PsA
+  role: educational_candidate
+  scope: PsA
+  note: Six core domains; distinguish these from related conditions and comorbidities. Contains terminology that needs plain-language explanation.
+- id: src-poster-of-the-comorbidities-seen-in-psa
+  file: poster of the comorbidities seen in PSA (top 10).png
+  title: Common PsA comorbidities
+  role: educational_candidate
+  scope: PsA
+  note: Lists ten conditions and percentages. No study citation is visible on the supplied poster; percentages need provenance review and are not individual risk estimates.
+- id: src-psa-as-symptoms
+  file: PsA & AS Symptoms.jpeg
+  title: PsA & AS Symptoms
+  role: educational_candidate
+  scope: PsA and AS
+  note: AbbVie poster dated May 2019; body map plus an explicit instruction to talk to a healthcare provider. Does not give urgency thresholds or an ACCR contact protocol.
+- id: src-management-guidelines-of-arthritis-and-autoimmune-diseases
+  file: Management Guidelines of Arthritis and Autoimmune Diseases.docx
+  title: Management Guidelines of Arthritis and Autoimmune Diseases
+  role: educational_candidate
+  scope: General arthritis and autoimmune disease
+  note: Chapter 6, The Art of War. Use selected class definitions and PsA-specific passages; historical stories, other-disease treatments, doses, emerging therapies and regulatory claims require separate screening.
+- id: src-the-four-pillars-of-arthritis
+  file: The Four Pillars of Arthritis.docx
+  title: The Four Pillars of Arthritis
+  role: educational_candidate
+  scope: General arthritis
+  note: Chapter 8; Nourishment, Motion, Mastery and Repose. Much of the cited evidence concerns RA or OA; do not convert it into PsA-specific efficacy claims or an individualized diet/exercise plan.
+- id: src-murphys-laws-of-arthritis-preface
+  file: MURPHY’S LAWS OF ARTHRITIS  PREFACE.docx
+  title: Murphy’s Laws of Arthritis Preface
+  role: educational_candidate
+  scope: General arthritis
+  note: Preparation, monitoring, partnership and composite measures; paragraph 17 mentions PsA MDA. This is not a clinic-specific flare or triage protocol.
+- id: src-top-autoimmune-diseases
+  file: Top Autoimmune Diseases.pdf
+  title: Top Autoimmune Diseases
+  role: educational_candidate
+  scope: General autoimmune disease; PsA entry on PDF page 2
+  note: PDF page 1 explicitly calls the list AI-generated. Flag source authorship separately from lesson authorship; disease ranking and prevalence are unverified.
+- id: src-rheumnotes
+  file: Rheumnotes.pdf
+  title: RheumNotes reference collection
+  role: historical_background
+  scope: General rheumatology
+  note: 134 scanned PDF pages; copyright 2000 is visible in the contents. PDF pages 4-5 contain the contents and 8-10 general assessment diagrams. No standalone PsA chapter is listed there. Background for reviewer orientation, not current treatment or urgent-care guidance.
+- id: ref-ai-mindmap-tools
+  file: RheumNotesAImindmapsummary02OCT26.docx
+  title: AI software for whiteboard mind maps
+  role: workflow_reference
+  scope: Software selection
+  note: A comparison of mind-map tools, not a summary of PsA evidence. Do not use it as a clinical source.
+- id: ref-thoughts-1
+  file: thoughts1.png
+  title: App flow comments 1
+  role: ux_reference
+  scope: Navigation and learning flow
+  note: Annotated screens and learning-path flow; content shown in a mockup is not clinical evidence.
+- id: ref-thoughts-2
+  file: thoughts2.png
+  title: App flow comments 2
+  role: ux_reference
+  scope: Accessibility and optional quiz
+  note: Login, voice interaction and quiz presentation notes.
+- id: ref-thoughts-3
+  file: thoughts3.png
+  title: App flow comments 3
+  role: ux_reference
+  scope: Topic labels and clinical-manifestation cards
+  note: Annotated mobile content cards; reference for presentation only.
+- id: ref-thoughts-4
+  file: thoughts4.png
+  title: App flow comments 4
+  role: ux_reference
+  scope: Accessibility and navigation
+  note: Repeated/related screen comments; reference for presentation only.
+- id: asset-rheumy-portrait
+  file: rheumy_team_share/rheumy_branded_portrait.jpg
+  title: Rheumy branded portrait
+  role: prototype_asset
+  scope: Branding
+  note: Presentation asset; not clinical evidence.
+- id: asset-rheumy-chatbot
+  file: rheumy_team_share/rheumy_chatbot.html
+  title: Rheumy chatbot prototype
+  role: prototype_asset
+  scope: HTML prototype
+  note: Inventory only; not executed and not used to supply clinical answers.
+- id: asset-rheumy-video
+  file: rheumy_team_share/rheumy_chatbot_intro.mp4
+  title: Rheumy chatbot introduction video
+  role: prototype_asset
+  scope: Introductory media
+  note: Inventory only; not transcribed or clinically reviewed.
+- id: asset-rheumy-audio
+  file: rheumy_team_share/rheumy_voice_intro.mp3
+  title: Rheumy voice introduction
+  role: prototype_asset
+  scope: Introductory media
+  note: Inventory only; not transcribed or clinically reviewed.
+parts:
+- topic_id: dx
+  order: 1
+  folder: 01-understanding-diagnosis
+  name: Understanding diagnosis
+  purpose: Help patients understand the classification features in the materials and the topics that may be discussed during an appointment.
+  lessons: [psa-dx-01, psa-dx-02]
+  related_lessons: [psa-symptoms-01]
+  materials:
+  - source_id: src-psa-one-pager-intro
+    locator: Image 1, Box A (CASPAR criteria); lower rows partly obscured
+    use: CASPAR entry requirements and classification features involving skin, nails, RF and swollen fingers or toes.
+  - source_id: src-mindmap
+    locator: Image 1, right-hand CASPAR branch
+    use: Additional classification structure and the imaging feature; handwritten text needs verification.
+  - source_id: src-rheumnotes
+    locator: PDF pages 4-5 (contents), 8-10 (assessment diagrams)
+    use: Historical background for clinicians preparing explanations of examinations and differential diagnosis; requires review before informing a current diagnostic pathway.
+  cards:
+  - title: The CASPAR starting point
+    coverage: available
+    lesson_ids: [psa-dx-01]
+    content: The inflammatory articular disease entry requirement and definitions of joints, the spine, and tendon or ligament attachment sites.
+  - title: What counts in CASPAR
+    coverage: available
+    lesson_ids: [psa-dx-02]
+    content: Explain the features listed in the materials and distinguish classification criteria from self-diagnosis.
+  - title: What to expect during diagnosis
+    coverage: missing
+    lesson_ids: []
+    content: Await clinician-provided explanations of the appointment process, medical history, examination, blood tests and imaging.
+  gaps:
+  - Verify the original CASPAR imaging feature and scoring text; the partially obscured one-pager is insufficient on its own.
+  - Clinician-confirmed explanations of the diagnostic journey and the purposes of tests are missing.
+  - Do not present a CASPAR score as an automated diagnosis or self-test result.
+- topic_id: overview
+  order: 2
+  folder: 02-understanding-psoriatic-arthritis
+  name: Understanding Psoriatic Arthritis
+  purpose: Connect PsA, psoriasis and manifestations across the body, then guide readers to detailed symptom and treatment lessons.
+  lessons: [psa-overview-01, psa-overview-02]
+  related_lessons: [psa-symptoms-01, psa-symptoms-03]
+  materials:
+  - source_id: src-top-autoimmune-diseases
+    locator: PDF page 1 (AI authorship disclosure), page 2 (PsA entry)
+    use: The source's description of PsA and its association with psoriasis; the list itself is AI-generated and requires review.
+  - source_id: src-psa-one-pager-intro
+    locator: Image 1, central title and Box C
+    use: Disease overview and a visual guide to body areas.
+  - source_id: src-clinical-manifestations-of-psa-poster
+    locator: Image 1, opening statement and body map
+    use: Introduce manifestations beyond the joints using a patient-friendly illustration.
+  - source_id: src-grappa-domains-in-psa-poster
+    locator: Image 1, six domain labels
+    use: Organize the overview around six domains and link detailed explanations to the symptoms part.
+  - source_id: src-poster-of-the-comorbidities-seen-in-psa
+    locator: Image 1, ten comorbidity panels
+    use: Introduce coexisting health conditions by linking to psa-symptoms-03 without duplicating its lesson ID.
+  - source_id: src-mindmap
+    locator: Image 1, central PsA node and branch structure
+    use: Map conceptual relationships; epidemiological figures remain unverified.
+  - source_id: src-psa-as-symptoms
+    locator: Image 1, whole-body map
+    use: Provide a body-area overview while retaining the poster's scope covering both PsA and AS.
+  cards:
+  - title: What is PsA?
+    coverage: available
+    lesson_ids: [psa-overview-01]
+    content: The existing draft introduces the relationship between PsA and psoriasis, inflammation, and differences in presentation; sentence-level evidence is still needed.
+  - title: PsA across the body
+    coverage: available
+    lesson_ids: [psa-overview-02]
+    content: A body-area overview that introduces the subsequent disease-domain lessons.
+  - title: Related health conditions
+    coverage: available
+    lesson_ids: [psa-symptoms-03]
+    content: Link to the existing comorbidity lesson and clarify that these conditions are not inevitable stages of disease progression.
+  gaps:
+  - The AI-generated Top Autoimmune Diseases list needs clinician verification; its prevalence figures and rankings must not be marked as validated.
+  - The comorbidity poster has no visible study citations for its percentages; study and population context are needed.
+- topic_id: symptoms
+  order: 3
+  folder: 03-symptoms-and-disease-progression
+  name: Symptoms and disease progression
+  purpose: Explain the types of manifestations and body areas in the materials, and identify the limited coverage of changes over time.
+  lessons: [psa-symptoms-01, psa-symptoms-02, psa-symptoms-03]
+  related_lessons: [psa-overview-02, psa-treatment-03, psa-contact-02]
+  materials:
+  - source_id: src-grappa-domains-in-psa-poster
+    locator: Image 1, all six domains
+    use: The six domains of peripheral arthritis, axial disease, enthesitis, dactylitis, skin psoriasis and nail psoriasis.
+  - source_id: src-clinical-manifestations-of-psa-poster
+    locator: Image 1, body panels and opening long-term-damage statement
+    use: Symptom vocabulary organized by body area; progression is covered only by a brief opening statement.
+  - source_id: src-psa-as-symptoms
+    locator: Image 1, body map and long-term-damage statement
+    use: Locate symptoms across the body without inferring a progression timeline from the poster.
+  - source_id: src-poster-of-the-comorbidities-seen-in-psa
+    locator: Image 1, ten condition panels
+    use: Keep the existing comorbidity lesson in its primary part and cross-link it from the overview.
+  - source_id: src-psa-one-pager-intro
+    locator: Image 1, Boxes B and C
+    use: Compare the organization by disease domain with the organization by body area.
+  cards:
+  - title: Six core PsA domains
+    coverage: available
+    lesson_ids: [psa-symptoms-01]
+    content: Explain the names of the six domains and the manifestations described in the materials.
+  - title: Other areas PsA can affect
+    coverage: available
+    lesson_ids: [psa-symptoms-02]
+    content: Use a body map to organize eye, gut, spine and joint manifestations.
+  - title: Common PsA comorbidities
+    coverage: available
+    lesson_ids: [psa-symptoms-03]
+    content: Explain comorbidity and separately flag numerical figures for verification.
+  - title: Changes over time
+    coverage: partial
+    lesson_ids: []
+    content: General statements about long-term damage are available; a complete patient lesson on stable or worsening disease, functional changes and monitoring is missing.
+  gaps:
+  - Additional PsA-specific materials on disease progression and monitoring are needed.
+  - A comorbidity list does not replace progression content; MDA is a treatment-monitoring framework, not a disease stage.
+  - Fatigue is a concept to add when supported; general arthritis chapters cannot simply be rewritten as PsA-specific conclusions.
+- topic_id: treatment
+  order: 4
+  folder: 04-treatment-options-and-flare-management
+  name: Treatment options & Flare management
+  purpose: Distinguish treatment goals, medicine classes and the role of disease domains in treatment discussions, and identify the additional material needed for flare management.
+  lessons: [psa-treatment-01, psa-treatment-02, psa-treatment-03]
+  related_lessons: [psa-symptoms-01, psa-contact-01, psa-education-01]
+  materials:
+  - source_id: src-psa-one-pager-intro
+    locator: Image 1, Box B and related-conditions notes
+    use: Explain why domains and related conditions influence treatment discussions without recommending medicines for an individual.
+  - source_id: src-grappa-domains-in-psa-poster
+    locator: Image 1, six treatment domains
+    use: Provide a domain-based index for treatment content.
+  - source_id: src-management-guidelines-of-arthritis-and-autoimmune-diseases
+    locator: DOCX paragraphs 23-39 and 46-51; headings on conventional DMARDs, biologics, JAK/TYK2
+    use: Extract concepts about medicine classes and mechanisms from passages relevant to PsA education.
+  - source_id: src-mindmap
+    locator: Image 1, Tx and MDA branches
+    use: Treatment classes and the MDA monitoring structure; verify handwritten values separately.
+  - source_id: src-murphys-laws-of-arthritis-preface
+    locator: DOCX paragraphs 11, 16-17 and 21
+    use: Background on monitoring, shared planning and composite measures; paragraph 17 mentions PsA MDA.
+  - source_id: src-the-four-pillars-of-arthritis
+    locator: DOCX paragraphs 66, 76 and 82-85
+    use: General background on living with flares; not a step-by-step PsA flare-management plan.
+  cards:
+  - title: Why domains guide treatment
+    coverage: available
+    lesson_ids: [psa-treatment-01]
+    content: Connections between active disease domains and treatment discussions.
+  - title: Main treatment class ideas
+    coverage: available
+    lesson_ids: [psa-treatment-02]
+    content: Concepts of conventional, biologic and targeted synthetic DMARDs.
+  - title: Tracking disease activity
+    coverage: available
+    lesson_ids: [psa-treatment-03]
+    content: MDA, multiple measures and patient experience; this lesson does not cover flare management.
+  - title: Understanding a flare
+    coverage: partial
+    lesson_ids: []
+    content: General chapters mention flares but lack PsA-specific definitions, common signs and explanations of triggers.
+  - title: A care-team flare plan
+    coverage: missing
+    lesson_ids: []
+    content: Await ACCR guidance on actions to take, symptom recording, when to contact the team and how medicine concerns should be handled.
+  gaps:
+  - The clinical team needs to provide complete PsA flare-management materials.
+  - The treatment chapter includes other diseases, investigational therapies, doses and regulatory information; it cannot be imported wholesale as a PsA medicine-selection guide.
+  - Medicine indications, efficacy comparisons and safety conclusions require individual review; this organization task does not validate those clinical conclusions.
+- topic_id: education
+  order: 5
+  folder: 05-patient-education
+  name: Patient education
+  purpose: Organize daily-life education with separate modules for doctor's advice, do's and don'ts, and common patient questions.
+  lessons: [psa-education-01, psa-education-02, psa-education-03]
+  related_lessons: [psa-treatment-03, psa-contact-01]
+  materials:
+  - source_id: src-the-four-pillars-of-arthritis
+    locator: DOCX paragraphs 9-47 (overview/Nourishment), 48-64 (Motion), 65-74 (Mastery), 75-86 (Repose/integration)
+    use: The four-pillar framework and daily-life topics, retaining their general arthritis scope.
+  - source_id: src-murphys-laws-of-arthritis-preface
+    locator: DOCX paragraphs 11, 16-21
+    use: Background on monitoring, preparation and patient-clinician partnership.
+  - source_id: src-management-guidelines-of-arthritis-and-autoimmune-diseases
+    locator: DOCX paragraphs 93-100, Strategy for the long campaign
+    use: Select concepts about patient participation in treatment discussions; exclude medicine rankings, regimen simplification and medication instructions.
+  cards:
+  - title: The four pillars framework
+    coverage: available
+    lesson_ids: [psa-education-01]
+    content: The combined framework of Nourishment, Motion, Mastery and Repose.
+  - title: Movement and the mind
+    coverage: available
+    lesson_ids: [psa-education-02]
+    content: General educational concepts about movement and coping with chronic symptoms.
+  - title: Nourishment and sleep
+    coverage: available
+    lesson_ids: [psa-education-03]
+    content: General nutrition and sleep concepts without meal plans, supplement doses or individualized exercise prescriptions.
+  - title: Doctor's advice — Do's and Don'ts
+    coverage: missing
+    lesson_ids: []
+    content: Await a PsA-specific advice list provided and confirmed by Dr. Murphy, with clear sources and review records.
+  - title: Common patient questions
+    coverage: missing
+    lesson_ids: []
+    content: The questions below are editorial prompts awaiting review, not questions collected from clinic patients or approved answers.
+  faq_prompts:
+  - question: Is PsA the same as psoriasis?
+    related_lesson_ids: [psa-overview-01]
+  - question: Why does my care team ask about more than joint pain?
+    related_lesson_ids: [psa-symptoms-01, psa-contact-02]
+  - question: What is my care team tracking at follow-up visits?
+    related_lesson_ids: [psa-treatment-03]
+  - question: How do the four pillars fit with my medical care?
+    related_lesson_ids: [psa-education-01]
+  - question: What should I do if symptoms worsen or I have a medicine concern?
+    related_lesson_ids: []
+  gaps:
+  - The current four-pillar lessons cover daily-life education; doctor's advice and FAQ answers remain missing.
+  - Obtain an anonymous list of common questions from the clinical team; no patient information was collected during this task.
+  - Approved materials on appointment preparation, symptom tracking and medication habits are needed.
+- topic_id: contact
+  order: 6
+  folder: 06-when-to-contact-the-care-team
+  name: When to contact the care team
+  purpose: Extract symptom-communication topics from existing materials and identify gaps in contact timing, urgency and ACCR contact details.
+  lessons: [psa-contact-01, psa-contact-02]
+  related_lessons: [psa-symptoms-02, psa-treatment-03]
+  materials:
+  - source_id: src-psa-as-symptoms
+    locator: Image 1, bottom healthcare-provider message and body map
+    use: The poster's explicit message about discussing symptoms with a healthcare provider.
+  - source_id: src-clinical-manifestations-of-psa-poster
+    locator: Image 1, eye, gut and musculoskeletal panels
+    use: Vocabulary for describing changes; the poster does not specify urgency.
+  - source_id: src-psa-one-pager-intro
+    locator: Image 1, uveitis notes in Box B and Eyes in Box C
+    use: Source statements about ophthalmology coordination without inferring waiting times or emergency classifications.
+  cards:
+  - title: Symptoms to report
+    coverage: available
+    lesson_ids: [psa-contact-01]
+    content: The poster's symptom-communication message and list of body areas.
+  - title: Eye and gut changes
+    coverage: available
+    lesson_ids: [psa-contact-02]
+    content: Eye and gut manifestations and references to ophthalmology coordination in the existing materials.
+  - title: Flare and medicine concerns
+    coverage: missing
+    lesson_ids: []
+    content: Contact guidance is needed for worsening symptoms, possible flares, adverse medicine effects and medication questions.
+  - title: Routine and urgent contact
+    coverage: missing
+    lesson_ids: []
+    content: Await clinical-team guidance on routine and urgent situations, contact channels, after-hours arrangements and information to prepare before making contact.
+  gaps:
+  - A symptom list does not replace clinical triage criteria.
+  - Confirmed ACCR telephone numbers, office hours, urgent-contact procedures and medicine-concern guidance are missing.
+  - Meeting records and team contact lists are not patient contact instructions ready for publication.

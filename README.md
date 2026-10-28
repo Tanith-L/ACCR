@@ -6,6 +6,8 @@ The backend stores content in Supabase (Postgres + Storage), tracks each lesson 
 
 > New to the project? Read [docs/project-guide.md](docs/project-guide.md) first. It explains how Data, Backend and Frontend fit together and what each person delivers. [CLAUDE.md](CLAUDE.md) is the context file for Claude Code.
 
+The [PsA content directory](data/psa/README.md) is the entry point for source classifications, the two current lessons, the validated backend JSON and the evaluation report. See the [pipeline guide](docs/psa-lesson-pipeline.md) for generation and validation commands.
+
 ## How it works in one minute
 
 ```
@@ -52,7 +54,7 @@ Never edit a migration that has been applied. Add a new numbered one.
 
 Run these from the repository root. Every script supports `--dry-run`, prints a summary, and fails without writing anything partial.
 
-**Convert the existing repo content into an export** (`topics.yaml`, `lessons/*.md`, `quizzes.yaml`, `media/`; read-only input):
+**Legacy converter** (requires the former `lessons/` and `media/` inputs, which have been removed from this working tree; use the current export linked above for the Week 9 sample):
 ```bash
 python backend/scripts/convert_repo_content.py --out backend/exports/export_psa_real.json
 ```

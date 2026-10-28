@@ -1,0 +1,440 @@
+[
+  {
+    "id": "src-psa-one-pager-intro",
+    "file": "PsA One-Pager Intro.jpeg",
+    "title": "PsA One-Pager Intro",
+    "role": "educational_candidate",
+    "scope": "PsA",
+    "note": "Box A covers CASPAR; Box B covers domains and treatment considerations; Box C covers body areas. The supplied image obscures the bottom of the CASPAR table; use the mind map to locate the remaining feature, then verify with the clinician.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/PsA One-Pager Intro.jpeg",
+    "local_file": "data/psa/originals/PsA One-Pager Intro.jpeg",
+    "file_hash": "9a294c58050e54a8e7229ed2bf580b899c230f3a2820582bad1b8274c55c179f",
+    "bytes": 733338,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "dx",
+      "overview",
+      "symptoms",
+      "treatment",
+      "contact"
+    ],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "src-mindmap",
+    "file": "mindmap.jpeg",
+    "title": "Handwritten PsA mind map",
+    "role": "educational_candidate",
+    "scope": "PsA",
+    "note": "CASPAR, GRAPPA domains, epidemiology, treatment classes and MDA. Handwriting needs transcription review; keep numerical thresholds and drug names out of new patient drafts until checked.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/mindmap.jpeg",
+    "local_file": "data/psa/originals/mindmap.jpeg",
+    "file_hash": "e75813844e4c1edd0f37b689493fe633dc72f379fa964d3bcbdc44b0085d770b",
+    "bytes": 3254315,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "dx",
+      "overview",
+      "treatment"
+    ],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "src-clinical-manifestations-of-psa-poster",
+    "file": "clinical manifestations of PSA written at an 8th grade level.png",
+    "title": "Clinical manifestations of PsA",
+    "role": "educational_candidate",
+    "scope": "PsA",
+    "note": "Patient-facing body-area explanations and a brief long-term-damage statement. The filename's eighth-grade claim is not a measured readability result.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/clinical manifestations of PSA written at an 8th grade level.png",
+    "local_file": "data/psa/originals/clinical manifestations of PSA written at an 8th grade level.png",
+    "file_hash": "d8c3a7b4615ddb631d6f307d61d124bb2701d51f3468979517df0f4abc8f247a",
+    "bytes": 1776072,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "overview",
+      "symptoms",
+      "contact"
+    ],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "src-grappa-domains-in-psa-poster",
+    "file": "GRAPPA domains in PSA which guide treatment decisions.png",
+    "title": "GRAPPA domains in PsA",
+    "role": "educational_candidate",
+    "scope": "PsA",
+    "note": "Six core domains; distinguish these from related conditions and comorbidities. Contains terminology that needs plain-language explanation.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/GRAPPA domains in PSA which guide treatment decisions.png",
+    "local_file": "data/psa/originals/GRAPPA domains in PSA which guide treatment decisions.png",
+    "file_hash": "675096e0569e0a40861fb267f201e954033ac4cb2d1d99f03da894b060e0b4ae",
+    "bytes": 1752821,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "overview",
+      "symptoms",
+      "treatment"
+    ],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "src-poster-of-the-comorbidities-seen-in-psa",
+    "file": "poster of the comorbidities seen in PSA (top 10).png",
+    "title": "Common PsA comorbidities",
+    "role": "educational_candidate",
+    "scope": "PsA",
+    "note": "Lists ten conditions and percentages. No study citation is visible on the supplied poster; percentages need provenance review and are not individual risk estimates.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/poster of the comorbidities seen in PSA (top 10).png",
+    "local_file": "data/psa/originals/poster of the comorbidities seen in PSA (top 10).png",
+    "file_hash": "af444a09d74b72ef86b10bc8511d824bfe7a772341864b957c1c814d8ba31ae1",
+    "bytes": 1808955,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "overview",
+      "symptoms"
+    ],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "src-psa-as-symptoms",
+    "file": "PsA & AS Symptoms.jpeg",
+    "title": "PsA & AS Symptoms",
+    "role": "educational_candidate",
+    "scope": "PsA and AS",
+    "note": "AbbVie poster dated May 2019; body map plus an explicit instruction to talk to a healthcare provider. Does not give urgency thresholds or an ACCR contact protocol.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/PsA & AS Symptoms.jpeg",
+    "local_file": "data/psa/originals/PsA & AS Symptoms.jpeg",
+    "file_hash": "b7a94d1742cb985d3e29a8f2ed92bd6d4c4f30814ff7ab4189e72e30dc270718",
+    "bytes": 2227290,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "overview",
+      "symptoms",
+      "contact"
+    ],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+    "file": "Management Guidelines of Arthritis and Autoimmune Diseases.docx",
+    "title": "Management Guidelines of Arthritis and Autoimmune Diseases",
+    "role": "educational_candidate",
+    "scope": "General arthritis and autoimmune disease",
+    "note": "Chapter 6, The Art of War. Use selected class definitions and PsA-specific passages; historical stories, other-disease treatments, doses, emerging therapies and regulatory claims require separate screening.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/Management Guidelines of Arthritis and Autoimmune Diseases.docx",
+    "local_file": "data/psa/originals/Management Guidelines of Arthritis and Autoimmune Diseases.docx",
+    "file_hash": "1ecbf33e183eb9c88c0da64597ef70ab7b557a6a7604588ec91db955f6c9aa45",
+    "bytes": 68326,
+    "type": "docx",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "treatment",
+      "education"
+    ],
+    "extraction": {
+      "locator_kind": "docx_paragraph",
+      "paragraph_count": 137,
+      "cached_page_breaks": 42,
+      "page_numbers_verified": false
+    },
+    "extracted_file": "data/psa/extracted/src-management-guidelines-of-arthritis-and-autoimmune-diseases.txt"
+  },
+  {
+    "id": "src-the-four-pillars-of-arthritis",
+    "file": "The Four Pillars of Arthritis.docx",
+    "title": "The Four Pillars of Arthritis",
+    "role": "educational_candidate",
+    "scope": "General arthritis",
+    "note": "Chapter 8; Nourishment, Motion, Mastery and Repose. Much of the cited evidence concerns RA or OA; do not convert it into PsA-specific efficacy claims or an individualized diet/exercise plan.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/The Four Pillars of Arthritis.docx",
+    "local_file": "data/psa/originals/The Four Pillars of Arthritis.docx",
+    "file_hash": "ed2300a20b6e696af1d2971763ba9cac17e1f339d24e89c0d63191bc4d54f9fd",
+    "bytes": 73202,
+    "type": "docx",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "treatment",
+      "education"
+    ],
+    "extraction": {
+      "locator_kind": "docx_paragraph",
+      "paragraph_count": 147,
+      "cached_page_breaks": 35,
+      "page_numbers_verified": false
+    },
+    "extracted_file": "data/psa/extracted/src-the-four-pillars-of-arthritis.txt"
+  },
+  {
+    "id": "src-murphys-laws-of-arthritis-preface",
+    "file": "MURPHY’S LAWS OF ARTHRITIS  PREFACE.docx",
+    "title": "Murphy’s Laws of Arthritis Preface",
+    "role": "educational_candidate",
+    "scope": "General arthritis",
+    "note": "Preparation, monitoring, partnership and composite measures; paragraph 17 mentions PsA MDA. This is not a clinic-specific flare or triage protocol.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/MURPHY’S LAWS OF ARTHRITIS  PREFACE.docx",
+    "local_file": "data/psa/originals/MURPHY’S LAWS OF ARTHRITIS  PREFACE.docx",
+    "file_hash": "b0d5210022d0e27bec8b22b97d1ac220ccc68bb0c37790722b43b2074b32c2d3",
+    "bytes": 25291,
+    "type": "docx",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "treatment",
+      "education"
+    ],
+    "extraction": {
+      "locator_kind": "docx_paragraph",
+      "paragraph_count": 37,
+      "cached_page_breaks": 7,
+      "page_numbers_verified": false
+    },
+    "extracted_file": "data/psa/extracted/src-murphys-laws-of-arthritis-preface.txt"
+  },
+  {
+    "id": "src-top-autoimmune-diseases",
+    "file": "Top Autoimmune Diseases.pdf",
+    "title": "Top Autoimmune Diseases",
+    "role": "educational_candidate",
+    "scope": "General autoimmune disease; PsA entry on PDF page 2",
+    "note": "PDF page 1 explicitly calls the list AI-generated. Flag source authorship separately from lesson authorship; disease ranking and prevalence are unverified.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/Top Autoimmune Diseases.pdf",
+    "local_file": "data/psa/originals/Top Autoimmune Diseases.pdf",
+    "file_hash": "de13860491de237f710eaebbd4a8d815f518967cca83830359b6cc275b9f0bc7",
+    "bytes": 203437,
+    "type": "pdf",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "overview"
+    ],
+    "extraction": {
+      "locator_kind": "pdf_page",
+      "page_count": 4,
+      "pages_with_text": 4,
+      "text_quality": "unverified; a text layer can contain garbled characters",
+      "needs_transcription": false
+    },
+    "extracted_file": "data/psa/extracted/src-top-autoimmune-diseases.txt"
+  },
+  {
+    "id": "src-rheumnotes",
+    "file": "Rheumnotes.pdf",
+    "title": "RheumNotes reference collection",
+    "role": "historical_background",
+    "scope": "General rheumatology",
+    "note": "134 scanned PDF pages; copyright 2000 is visible in the contents. PDF pages 4-5 contain the contents and 8-10 general assessment diagrams. No standalone PsA chapter is listed there. Background for reviewer orientation, not current treatment or urgent-care guidance.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/Rheumnotes.pdf",
+    "local_file": "data/psa/originals/Rheumnotes.pdf",
+    "file_hash": "3cfe4a4811d8876890f156af658ec9aa12983b689e808a1492ed8fa9bce19cb5",
+    "bytes": 29527125,
+    "type": "pdf",
+    "clinical_approval": "not_recorded",
+    "part_ids": [
+      "dx"
+    ],
+    "extraction": {
+      "locator_kind": "pdf_page",
+      "page_count": 134,
+      "pages_with_text": 20,
+      "text_quality": "unverified; a text layer can contain garbled characters",
+      "needs_transcription": true
+    },
+    "extracted_file": "data/psa/extracted/src-rheumnotes.txt"
+  },
+  {
+    "id": "ref-ai-mindmap-tools",
+    "file": "RheumNotesAImindmapsummary02OCT26.docx",
+    "title": "AI software for whiteboard mind maps",
+    "role": "workflow_reference",
+    "scope": "Software selection",
+    "note": "A comparison of mind-map tools, not a summary of PsA evidence. Do not use it as a clinical source.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/RheumNotesAImindmapsummary02OCT26.docx",
+    "local_file": "data/psa/originals/RheumNotesAImindmapsummary02OCT26.docx",
+    "file_hash": "0f9462f400c07a0c239f72d88f8d14cbb07f3e76db9e8d9cd267ba4a37e40997",
+    "bytes": 25745,
+    "type": "docx",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "docx_paragraph",
+      "paragraph_count": 113,
+      "cached_page_breaks": 2,
+      "page_numbers_verified": false
+    },
+    "extracted_file": "data/psa/extracted/ref-ai-mindmap-tools.txt"
+  },
+  {
+    "id": "ref-thoughts-1",
+    "file": "thoughts1.png",
+    "title": "App flow comments 1",
+    "role": "ux_reference",
+    "scope": "Navigation and learning flow",
+    "note": "Annotated screens and learning-path flow; content shown in a mockup is not clinical evidence.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/thoughts1.png",
+    "local_file": "data/psa/originals/thoughts1.png",
+    "file_hash": "e74088a23e3b841ee67c4a2292440d7e55271cfefc20e0a6c3c18bead1347463",
+    "bytes": 845391,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "ref-thoughts-2",
+    "file": "thoughts2.png",
+    "title": "App flow comments 2",
+    "role": "ux_reference",
+    "scope": "Accessibility and optional quiz",
+    "note": "Login, voice interaction and quiz presentation notes.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/thoughts2.png",
+    "local_file": "data/psa/originals/thoughts2.png",
+    "file_hash": "81e94ecf331722df6219d4d96b4d2e365626f0bd58a05cb80fd83a7d39b3ae2a",
+    "bytes": 1492128,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "ref-thoughts-3",
+    "file": "thoughts3.png",
+    "title": "App flow comments 3",
+    "role": "ux_reference",
+    "scope": "Topic labels and clinical-manifestation cards",
+    "note": "Annotated mobile content cards; reference for presentation only.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/thoughts3.png",
+    "local_file": "data/psa/originals/thoughts3.png",
+    "file_hash": "f39ca48f3e1f7b240447e3ba6c9bf65adc996277d7bdc222e5543dbb84fb6a93",
+    "bytes": 1235857,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "ref-thoughts-4",
+    "file": "thoughts4.png",
+    "title": "App flow comments 4",
+    "role": "ux_reference",
+    "scope": "Accessibility and navigation",
+    "note": "Repeated/related screen comments; reference for presentation only.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/thoughts4.png",
+    "local_file": "data/psa/originals/thoughts4.png",
+    "file_hash": "76c621e11bae676d801c36e917547526ab34080bb8482a5183f629a1293e6e0e",
+    "bytes": 1253162,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "asset-rheumy-portrait",
+    "file": "rheumy_team_share/rheumy_branded_portrait.jpg",
+    "title": "Rheumy branded portrait",
+    "role": "prototype_asset",
+    "scope": "Branding",
+    "note": "Presentation asset; not clinical evidence.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/rheumy_team_share/rheumy_branded_portrait.jpg",
+    "local_file": "data/psa/originals/rheumy_team_share/rheumy_branded_portrait.jpg",
+    "file_hash": "14e6e961565b1fdb8144485f7c21c2c5555945ba879aea0a8ead0a73c3bb59fb",
+    "bytes": 312536,
+    "type": "image",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "image",
+      "needs_transcription": true
+    }
+  },
+  {
+    "id": "asset-rheumy-chatbot",
+    "file": "rheumy_team_share/rheumy_chatbot.html",
+    "title": "Rheumy chatbot prototype",
+    "role": "prototype_asset",
+    "scope": "HTML prototype",
+    "note": "Inventory only; not executed and not used to supply clinical answers.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/rheumy_team_share/rheumy_chatbot.html",
+    "local_file": "data/psa/originals/rheumy_team_share/rheumy_chatbot.html",
+    "file_hash": "fccd66549fb070ca20d727dd737a0bfa77dc5098f0772f2988c8c4712c70e4a0",
+    "bytes": 615268,
+    "type": "asset",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "asset",
+      "clinical_text_extracted": false
+    }
+  },
+  {
+    "id": "asset-rheumy-video",
+    "file": "rheumy_team_share/rheumy_chatbot_intro.mp4",
+    "title": "Rheumy chatbot introduction video",
+    "role": "prototype_asset",
+    "scope": "Introductory media",
+    "note": "Inventory only; not transcribed or clinically reviewed.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/rheumy_team_share/rheumy_chatbot_intro.mp4",
+    "local_file": "data/psa/originals/rheumy_team_share/rheumy_chatbot_intro.mp4",
+    "file_hash": "6db2f497930053b52f781bef7af8828bdf1488b86230c7e6cb0ac666030c39e4",
+    "bytes": 384496,
+    "type": "asset",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "asset",
+      "clinical_text_extracted": false
+    }
+  },
+  {
+    "id": "asset-rheumy-audio",
+    "file": "rheumy_team_share/rheumy_voice_intro.mp3",
+    "title": "Rheumy voice introduction",
+    "role": "prototype_asset",
+    "scope": "Introductory media",
+    "note": "Inventory only; not transcribed or clinically reviewed.",
+    "archive_member": "Fall 2026 ACCR Capstone Project/References/rheumy_team_share/rheumy_voice_intro.mp3",
+    "local_file": "data/psa/originals/rheumy_team_share/rheumy_voice_intro.mp3",
+    "file_hash": "025dbcc6b0b35a1e40e1fa86001444c1559ef3fac840fcf302008a3d15cb14ad",
+    "bytes": 145536,
+    "type": "asset",
+    "clinical_approval": "not_recorded",
+    "part_ids": [],
+    "extraction": {
+      "locator_kind": "asset",
+      "clinical_text_extracted": false
+    }
+  }
+]
