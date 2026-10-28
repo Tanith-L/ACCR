@@ -1,0 +1,6 @@
+PyYAML>=6.0
+pypdf==6.9.1
+httpx>=0.28,<1
+jsonschema>=4.23,<5
+textstat==0.7.13
+nltk==3.10.4

@@ -1,0 +1,42 @@
+version: 1
+topic_id: symptoms
+subtopic_id: symptoms-domains
+provided_by: ACCR capstone reference archive supplied by the project team
+source_ids:
+  - src-grappa-domains-in-psa-poster
+  - src-clinical-manifestations-of-psa-poster
+reference_concepts_authorship: AI-editorial reference list prepared before generation; human confirmation pending
+lessons:
+  - id: psa-symptoms-01
+    brief: >-
+      Explain the body areas used to describe PsA: skin patches, nail changes,
+      swelling of a whole finger or toe, swelling of joints in the arms or legs,
+      pain and stiffness in the back, and sore places where tendons attach to bone.
+      Use simple descriptions and avoid listing technical domain names. Do not
+      add treatments, statistics, or definitions absent from the source.
+    source_ids:
+      - src-grappa-domains-in-psa-poster
+      - src-clinical-manifestations-of-psa-poster
+    concepts:
+      - {id: skin, description: Skin patches with silvery scales}
+      - {id: nails, description: Nail changes including small pits or lifting}
+      - {id: digits, description: Swelling of a whole finger or toe}
+      - {id: joints, description: Swelling of joints away from the spine}
+      - {id: back, description: Pain and stiffness in the spine and nearby joints}
+      - {id: attachments, description: Inflammation where tendons or ligaments attach to bone}
+  - id: psa-symptoms-02
+    brief: >-
+      Explain possible eye and gut symptoms, then show examples of how PsA
+      affects movement: painful shoulders, hip movement limits, swollen warm
+      stiff knees, and ankle pain with difficulty walking. Do not imply everyone
+      gets these symptoms or diagnose another condition. Do not invent urgency,
+      contact instructions, or a disease-progression timeline.
+    source_ids:
+      - src-clinical-manifestations-of-psa-poster
+    concepts:
+      - {id: eyes, description: Eye redness, pain, and sensitivity to light}
+      - {id: gut, description: Gut pain, bloating, or changed bowel habits}
+      - {id: shoulder, description: Pain and inflammation in the shoulder area}
+      - {id: hip, description: Hip pain and reduced movement}
+      - {id: knee, description: Swelling, warmth, and stiffness in the knee}
+      - {id: ankle, description: Ankle or midfoot pain with difficulty walking}
