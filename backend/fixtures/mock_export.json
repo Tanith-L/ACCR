@@ -1,0 +1,315 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "run_id": "2026-10-28-mock",
+    "model": "mock-fixture",
+    "prompt_version": "draft-v1",
+    "generated_at": "2026-10-28T15:00:00Z"
+  },
+  "disease": {
+    "id": "psa",
+    "name": "Psoriatic arthritis"
+  },
+  "sources": [
+    {
+      "id": "src-mock-onepager",
+      "title": "Mock PsA One-Pager (test fixture)",
+      "type": "pdf",
+      "provided_by": "Dr. Murphy",
+      "file_hash": "1e5c46b322f898fc0dfae5e521495d4924b26255ee590d073425a73a916789d1"
+    }
+  ],
+  "topics": [
+    {
+      "id": "dx",
+      "name": "Understanding diagnosis",
+      "order": 2,
+      "icon": null,
+      "subtopics": [
+        {
+          "id": "dx-criteria",
+          "name": "How PsA is recognized",
+          "order": 1,
+          "lesson_ids": [
+            "psa-dx-01",
+            "psa-dx-02"
+          ]
+        },
+        {
+          "id": "dx-imaging",
+          "name": "Imaging",
+          "order": 2,
+          "lesson_ids": [
+            "psa-dx-03"
+          ]
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "psa-dx-01",
+      "topic_id": "dx",
+      "subtopic_id": "dx-criteria",
+      "title": "How doctors diagnose PsA",
+      "est_minutes": 3,
+      "pages": [
+        {
+          "order": 1,
+          "body": "There is no single test for PsA. Doctors look at your joints, skin, nails and X-rays together."
+        },
+        {
+          "order": 2,
+          "body": "Your doctor may also ask if anyone in your family has psoriasis. Blood tests can help rule out other kinds of arthritis."
+        }
+      ],
+      "key_takeaways": [
+        "There is no single test for PsA.",
+        "Doctors combine exams, family history and tests."
+      ],
+      "images": [
+        {
+          "media_id": "mock-joints",
+          "page": 1
+        }
+      ],
+      "claims": [
+        {
+          "id": "psa-dx-01-c1",
+          "text": "There is no single test for PsA.",
+          "page": 1,
+          "source_id": "src-mock-onepager",
+          "source_page": 1,
+          "source_quote": "There is no single test that confirms psoriatic arthritis.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-dx-01-c2",
+          "text": "Doctors look at joints, skin, nails and X-rays together.",
+          "page": 1,
+          "source_id": "src-mock-onepager",
+          "source_page": 1,
+          "source_quote": "Diagnosis combines the exam of joints, skin and nails with X-ray findings.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-dx-01-c3",
+          "text": "Doctors may ask about psoriasis in the family.",
+          "page": 2,
+          "source_id": "src-mock-onepager",
+          "source_page": 1,
+          "source_quote": "Family history of psoriasis is part of the assessment.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-dx-01-c4",
+          "text": "Blood tests can help rule out other kinds of arthritis.",
+          "page": 2,
+          "source_id": "src-mock-onepager",
+          "source_page": 2,
+          "source_quote": "Blood tests are used to help exclude other types of arthritis.",
+          "support": "supported",
+          "quote_match": 0.96
+        }
+      ],
+      "checks": {
+        "schema_valid": true,
+        "citation_accuracy": 1.0,
+        "claims_total": 4,
+        "supported": 4,
+        "unsupported": 0,
+        "contradicted": 0,
+        "numbers_ok": true,
+        "safety_flags": [],
+        "fk_grade": 4.6,
+        "smog": 8.8,
+        "coverage": 0.8
+      },
+      "generated_by": "llm",
+      "status": "checked"
+    },
+    {
+      "id": "psa-dx-02",
+      "topic_id": "dx",
+      "subtopic_id": "dx-criteria",
+      "title": "Nail and finger clues",
+      "est_minutes": 2,
+      "pages": [
+        {
+          "order": 1,
+          "body": "Some changes to the nails can be a clue to PsA. Small pits in the nail or a nail that lifts from the nail bed are examples."
+        },
+        {
+          "order": 2,
+          "body": "Dactylitis is a swollen finger or toe that looks like a sausage. It is common in PsA."
+        }
+      ],
+      "key_takeaways": [
+        "Nail changes can be a clue to PsA.",
+        "Dactylitis is a sausage-like swollen finger or toe."
+      ],
+      "images": [],
+      "claims": [
+        {
+          "id": "psa-dx-02-c1",
+          "text": "Pits in the nail or a nail that lifts from the nail bed can be clues to PsA.",
+          "page": 1,
+          "source_id": "src-mock-onepager",
+          "source_page": 2,
+          "source_quote": "Nail pitting and onycholysis (lifting of the nail) are common in psoriatic arthritis.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-dx-02-c2",
+          "text": "Dactylitis is a swollen finger or toe that looks like a sausage.",
+          "page": 2,
+          "source_id": "src-mock-onepager",
+          "source_page": 2,
+          "source_quote": "Dactylitis is a diffusely swollen digit, often called a sausage digit.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-dx-02-c3",
+          "text": "Dactylitis is common in PsA.",
+          "page": 2,
+          "source_id": "src-mock-onepager",
+          "source_page": 2,
+          "source_quote": "Dactylitis is a common feature of psoriatic arthritis.",
+          "support": "supported",
+          "quote_match": 1.0
+        }
+      ],
+      "checks": {
+        "schema_valid": true,
+        "citation_accuracy": 1.0,
+        "claims_total": 3,
+        "supported": 3,
+        "unsupported": 0,
+        "contradicted": 0,
+        "numbers_ok": true,
+        "safety_flags": [],
+        "fk_grade": 3.2,
+        "smog": 7.2,
+        "coverage": 0.8
+      },
+      "generated_by": "llm",
+      "status": "checked"
+    },
+    {
+      "id": "psa-dx-03",
+      "topic_id": "dx",
+      "subtopic_id": "dx-imaging",
+      "title": "What X-rays show",
+      "est_minutes": 2,
+      "pages": [
+        {
+          "order": 1,
+          "body": "X-rays can show changes in the joints. Your doctor may repeat them over time to see if the joints are changing."
+        }
+      ],
+      "key_takeaways": [
+        "X-rays can show joint changes."
+      ],
+      "images": [],
+      "claims": [
+        {
+          "id": "psa-dx-03-c1",
+          "text": "X-rays can show changes in the joints.",
+          "page": 1,
+          "source_id": "src-mock-onepager",
+          "source_page": 3,
+          "source_quote": "Plain X-rays can show joint changes in psoriatic arthritis.",
+          "support": "supported",
+          "quote_match": 1.0
+        },
+        {
+          "id": "psa-dx-03-c2",
+          "text": "An ultrasound is needed to confirm PsA.",
+          "page": 1,
+          "source_id": "src-mock-onepager",
+          "source_page": 3,
+          "source_quote": "Plain X-rays can show joint changes in psoriatic arthritis.",
+          "support": "unsupported",
+          "quote_match": 0.41
+        }
+      ],
+      "checks": {
+        "schema_valid": true,
+        "citation_accuracy": 0.5,
+        "claims_total": 2,
+        "supported": 1,
+        "unsupported": 1,
+        "contradicted": 0,
+        "numbers_ok": true,
+        "safety_flags": [],
+        "fk_grade": 3.1,
+        "smog": 3.1,
+        "coverage": 0.8
+      },
+      "generated_by": "llm",
+      "status": "draft"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "psa-dx-01-q1",
+      "lesson_id": "psa-dx-01",
+      "question": "Is there a single test that confirms PsA?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answer": 1,
+      "feedback": "No. Doctors combine the exam, family history and tests.",
+      "source_id": "src-mock-onepager",
+      "source_page": 1,
+      "source_quote": "There is no single test that confirms psoriatic arthritis.",
+      "status": "checked"
+    },
+    {
+      "id": "psa-dx-02-q1",
+      "lesson_id": "psa-dx-02",
+      "question": "What does a sausage-like swollen finger or toe describe?",
+      "options": [
+        "Dactylitis",
+        "Nail pitting",
+        "Psoriasis"
+      ],
+      "answer": 0,
+      "feedback": "Dactylitis is a swollen finger or toe that looks like a sausage.",
+      "source_id": "src-mock-onepager",
+      "source_page": 2,
+      "source_quote": "Dactylitis is a diffusely swollen digit, often called a sausage digit.",
+      "status": "checked"
+    },
+    {
+      "id": "psa-dx-03-q1",
+      "lesson_id": "psa-dx-03",
+      "question": "What can X-rays show in PsA?",
+      "options": [
+        "Joint changes",
+        "Blood sugar"
+      ],
+      "answer": 0,
+      "feedback": "X-rays can show changes in the joints.",
+      "source_id": "src-mock-onepager",
+      "source_page": 3,
+      "source_quote": "Plain X-rays can show joint changes in psoriatic arthritis.",
+      "status": "draft"
+    }
+  ],
+  "media": [
+    {
+      "id": "mock-joints",
+      "file": "mock-joints.png",
+      "alt_text": "Plain test image used in backend tests",
+      "credit": "Test fixture",
+      "source_id": "src-mock-onepager"
+    }
+  ]
+}

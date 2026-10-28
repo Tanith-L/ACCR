@@ -1,0 +1,21 @@
+[
+  {
+    "id": "dx-criteria",
+    "name": "How PsA is recognized",
+    "sort_order": 1,
+    "lessons": [
+      {
+        "id": "psa-dx-01",
+        "title": "How doctors diagnose PsA",
+        "est_minutes": 3,
+        "sort_order": 1
+      },
+      {
+        "id": "psa-dx-02",
+        "title": "Nail and finger clues",
+        "est_minutes": 2,
+        "sort_order": 2
+      }
+    ]
+  }
+]

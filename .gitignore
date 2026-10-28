@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+.venv/
+
+# Supabase CLI
+supabase/.temp/
+
+# Generated exports (may hold content that is not ready to share)
+backend/exports/
+
+# Local publish log (one per machine)
+backend/logs/

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "psa-dx-01-q1",
+    "lesson_id": "psa-dx-01",
+    "question": "Is there a single test that confirms PsA?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "answer": 1,
+    "feedback": "No. Doctors combine the exam, family history and tests."
+  }
+]

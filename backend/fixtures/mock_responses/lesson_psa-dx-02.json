@@ -1,0 +1,26 @@
+[
+  {
+    "id": "psa-dx-02",
+    "version": 1,
+    "subtopic_id": "dx-criteria",
+    "sort_order": 2,
+    "title": "Nail and finger clues",
+    "est_minutes": 2,
+    "pages": [
+      {
+        "order": 1,
+        "body": "Some changes to the nails can be a clue to PsA. Small pits in the nail or a nail that lifts from the nail bed are examples."
+      },
+      {
+        "order": 2,
+        "body": "Dactylitis is a swollen finger or toe that looks like a sausage. It is common in PsA."
+      }
+    ],
+    "key_takeaways": [
+      "Nail changes can be a clue to PsA.",
+      "Dactylitis is a sausage-like swollen finger or toe."
+    ],
+    "images": [],
+    "updated_at": "2026-10-28T15:00:00+00:00"
+  }
+]

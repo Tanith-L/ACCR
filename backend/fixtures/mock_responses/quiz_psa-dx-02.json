@@ -1,0 +1,14 @@
+[
+  {
+    "id": "psa-dx-02-q1",
+    "lesson_id": "psa-dx-02",
+    "question": "What does a sausage-like swollen finger or toe describe?",
+    "options": [
+      "Dactylitis",
+      "Nail pitting",
+      "Psoriasis"
+    ],
+    "answer": 0,
+    "feedback": "Dactylitis is a swollen finger or toe that looks like a sausage."
+  }
+]
