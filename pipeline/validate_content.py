@@ -98,7 +98,7 @@ def main():
         print("Validation failed:\n" + "\n".join(f"- {e}" for e in errors), file=sys.stderr)
         return 1
     print("PASS: schema, IDs/order, original hashes, quotes, assessment evidence, and reading level.")
-    print("All lessons remain drafts. Human and clinical reviews are pending.")
+    print("Lessons are draft or checked (automated checks only). Human and clinical reviews are pending.")
     return 0
 
 

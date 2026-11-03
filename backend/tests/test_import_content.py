@@ -340,11 +340,23 @@ def test_dry_run_leaves_input_untouched(tmp_path, mock):
 
 def test_converted_repo_content_imports_as_draft(tmp_path, schema, capsys):
     topics = conv.find_upwards(BACKEND, "topics.yaml")
-    if topics is None:
-        pytest.skip("repo content not found")
+    if topics is None or not (topics.parent / "lessons").is_dir() or not (topics.parent / "media" / "media.yaml").is_file():
+        pytest.skip("legacy root content (lessons/, media/) not found")
     data = conv.convert(topics.parent, "2026-10-28T15:00:00Z")
     path = write_export(tmp_path, data, with_media=False)
     assert run(path, "--dry-run", "--media-dir", str(topics.parent / "media")) == 0
     out = capsys.readouterr().out
     assert f"inserted {len(data['lessons'])}" in out and "downgraded to draft 0" in out
     assert {p["status"] for p in imp.plan_lessons(data, {})} == {"draft"}
+
+
+# --- the Data Lead's exports feed the importer -------------------------------
+
+def test_data_lead_exports_pass_the_importer(capsys):
+    topics = conv.find_upwards(BACKEND, "topics.yaml")
+    exports = sorted((topics.parent / "data" / "psa").rglob("*-and-*.json")) if topics else []
+    if not exports:
+        pytest.skip("no exports under data/psa")
+    for path in exports:
+        assert run(path, "--dry-run", "--media-dir", str(BACKEND / "fixtures")) == 0, path.name
+        assert "file rejected" not in capsys.readouterr().out

@@ -166,7 +166,7 @@ Your pipeline ends at **one validated export JSON** (plus `review_sheet.csv` and
 **Check your export before sending it:**
 `python backend/scripts/import_content.py <your export>.json --dry-run --media-dir <images folder>` prints exactly what the backend would do and lists every problem.
 
-**Your first existing files** (`topics.yaml`, `lessons/*.md`, `quizzes.yaml`, `media/`) are **read-only input** for the backend. They have no claims or quotes, so they can only be `draft` until the pipeline produces real claims.
+**Where your exports live:** the Data pipeline writes exports under `data/psa/` (for example `data/psa/chapters/03-symptoms-and-disease-progression/psa-symptoms-and-disease-progression.json`). The original root `lessons/`, `media/` and `quizzes.yaml` were replaced by this layout. Exports stay `draft` until clinical review, and re-importing an export updates the matching draft lessons in place.
 
 ### 7.3 Penelope (Frontend)
 | # | Deliverable | Done when |
@@ -188,8 +188,8 @@ schema/content.schema.json            shared contract (Data ↔ Backend)
 .gitignore
 backend/
   supabase/migrations/                0001–0004 (never edit an applied one; add 0005…)
-  scripts/                            import_content.py, convert_repo_content.py
-                                      (next: review_import.py, publish.py)
+  scripts/                            import_content.py, review_import.py, publish.py,
+                                      make_demo_export.py, convert_repo_content.py (legacy)
   tests/                              pytest; database tests run in rolled-back transactions
   fixtures/                           mock_export.json, mock-joints.png, mock_responses/
   docs/api-contract.md                Backend ↔ Frontend contract
@@ -197,7 +197,7 @@ docs/                                 week9 plan, architecture v5, pipeline desi
 CLAUDE.md                             context for Claude Code
 ```
 - Run tests: `pytest backend/tests -q` (database tests need `.env` and skip without it).
-- Convert the existing content: `python backend/scripts/convert_repo_content.py [--dry-run]`
+- Legacy converter (needs the former root `lessons/` and `media/`, now removed): `python backend/scripts/convert_repo_content.py [--dry-run]`
 - Dry-run an import: `python backend/scripts/import_content.py <export.json> --dry-run [--from-db] [--media-dir DIR]`
 - Real import (Backend only): the same command without `--dry-run`.
 

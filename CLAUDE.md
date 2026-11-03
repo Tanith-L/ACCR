@@ -20,8 +20,12 @@ CMU Heinz capstone for the Altoona Center for Clinical Research (Dr. Frederick M
 - The Data Lead's pipeline exports JSON; the backend only imports it. Don't build LLM code in `backend/`.
 - No PHI: no names, emails, symptoms or free text from patients.
 
-## Current repo state (github.com/Tanith-L/ACCR, Oct 27)
-- Repo root already holds the Data Lead's **first content set** (commit "Add initial PsA education content", Oct 1), in the earlier file format:
+## Update (Oct 28): the root content set was replaced
+- The Data Lead removed the root `lessons/`, `media/` and `quizzes.yaml`. Current exports are under `data/psa/` (schema-valid JSON; the first is `data/psa/chapters/03-symptoms-and-disease-progression/psa-symptoms-and-disease-progression.json`: 2 lessons, 6 quiz items, 20 claims, all `draft`). Import them directly with `import_content.py`.
+- `convert_repo_content.py` is now legacy. Its real-content tests skip when `lessons/` is absent. The notes below describe the original layout and are kept for history.
+
+## Original repo state (github.com/Tanith-L/ACCR, Oct 27)
+- Repo root originally held the Data Lead's **first content set** (commit "Add initial PsA education content", Oct 1), in the earlier file format:
   - `topics.yaml`: 6 topics → subtopics → lesson IDs
   - `lessons/*.md`: 16 lessons, YAML front matter + body
   - `quizzes.yaml`

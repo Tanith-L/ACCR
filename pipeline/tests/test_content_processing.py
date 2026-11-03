@@ -92,6 +92,39 @@ class EvidenceTests(unittest.TestCase):
         data["lessons"][0]["status"] = "published"
         self.assertTrue(validate_content(data, pages))
 
+    def test_reviewed_status_is_rejected(self):
+        *_, pages, judge, data = fixture()
+        data["lessons"][0]["status"] = "reviewed"
+        self.assertTrue(validate_content(data, pages))
+
+    def test_passing_lesson_and_quizzes_are_checked(self):
+        *_, lesson, quizzes, pages, judge, data = fixture()
+        self.assertEqual("checked", lesson["status"])
+        self.assertTrue(all(q["status"] == "checked" for q in quizzes))
+
+    def test_failing_evidence_keeps_lesson_and_quizzes_draft(self):
+        _, _, _, lesson, quizzes, pages, judge, _ = fixture()
+        judge["claims"][0]["support"] = "unsupported"
+        evaluate(lesson, quizzes, pages, judge)
+        self.assertEqual("draft", lesson["status"])
+        self.assertTrue(all(q["status"] == "draft" for q in quizzes))
+
+    def test_safety_flag_keeps_lesson_draft(self):
+        _, _, _, lesson, quizzes, pages, judge, _ = fixture()
+        judge["safety_flags"] = ["Needs clinician wording check."]
+        evaluate(lesson, quizzes, pages, judge)
+        self.assertEqual("draft", lesson["status"])
+
+    def test_checked_lesson_that_fails_the_gate_is_rejected(self):
+        *_, pages, judge, data = fixture()
+        data["lessons"][0]["checks"]["fk_grade"] = 9.5
+        self.assertTrue(any("fails the gate" in e for e in validate_content(data, pages)))
+
+    def test_quiz_status_must_match_its_lesson(self):
+        *_, pages, judge, data = fixture()
+        data["quizzes"][0]["status"] = "draft"
+        self.assertTrue(any("match its lesson" in e for e in validate_content(data, pages)))
+
     def test_duplicate_or_missing_judge_ids_are_rejected(self):
         _, spec, _, lesson, quizzes, _, judge, _ = fixture()
         judge["claims"][1] = judge["claims"][0]

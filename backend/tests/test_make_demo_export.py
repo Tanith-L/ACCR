@@ -56,12 +56,28 @@ def test_no_old_mock_ids_remain():
         assert old not in text
 
 
-@pytest.mark.skipif(TOPICS is None, reason="repo content not found")
+def real_exports():
+    """The Data Lead's exports under data/psa (files shaped like content.schema.json)."""
+    if TOPICS is None:
+        return []
+    found = []
+    for path in sorted((TOPICS.parent / "data" / "psa").rglob("*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except ValueError:
+            continue
+        if isinstance(data, dict) and {"lessons", "topics", "sources", "quizzes"} <= data.keys():
+            found.append(data)
+    return found
+
+
+@pytest.mark.skipif(not real_exports(), reason="no exports under data/psa")
 def test_demo_does_not_collide_with_real_content():
-    real = ids(conv.convert(TOPICS.parent, "2026-10-28T15:00:00Z"))
     mine = ids(demo.build_demo())
-    for kind in real:
-        assert real[kind].isdisjoint(mine[kind]), kind
+    for export in real_exports():
+        real = ids({**export, "media": export.get("media", [])})
+        for kind in real:
+            assert real[kind].isdisjoint(mine[kind]), kind
 
 
 def test_demo_imports_cleanly_in_a_dry_run(tmp_path, capsys):

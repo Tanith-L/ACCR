@@ -71,7 +71,7 @@ def render_deliverables(out, data, audit):
               "Scores cover each lesson page, the takeaways and each quiz. The values below are maxima across those units; source quotations are reviewer evidence and are excluded. Titles are checked for length and plain language.", "",
               "| Lesson | Maximum FK | Maximum available SMOG | Status |", "|---|---:|---:|---|"]
     for lesson in data["lessons"]:
-        report.append(f"| {lesson['id']} | {lesson['checks']['fk_grade']:.2f} | {lesson['checks']['smog']:.2f} | draft |")
+        report.append(f"| {lesson['id']} | {lesson['checks']['fk_grade']:.2f} | {lesson['checks']['smog']:.2f} | {lesson['status']} |")
     report += ["", "SMOG on 3-29 sentences is approximate; samples below 3 sentences are not scored. Formula scores do not prove comprehension or clinical safety.", "",
                "## Concept coverage", "", "| Lesson | Concept | Covered | Evidence or gap |", "|---|---|---|---|"]
     for result in evaluations:
@@ -174,7 +174,7 @@ def run(args):
     write_json(args.out / "evidence.json", {"export_sha256": digest(data), "manifest": plan,
                                           "sources": sources, "calls": client.calls})
     render_deliverables(args.out, data, audit)
-    print(f"Validated export: {args.out / filename}\n{len(data['lessons'])} draft lessons; clinical review pending.")
+    print(f"Validated export: {args.out / filename}\n{len(data['lessons'])} lessons ({', '.join(l['status'] for l in data['lessons'])}); clinical review pending.")
 
 
 def main():

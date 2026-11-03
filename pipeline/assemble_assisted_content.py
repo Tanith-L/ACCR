@@ -94,7 +94,8 @@ def run(args):
     write_json(args.out / filename, data)
     render_deliverables(args.out, data, audit)
     print(f"Validated export: {args.out / filename}")
-    print(f"{len(data['lessons'])} interactive-AI draft lessons; no API calls or clinical approval.")
+    print(f"{len(data['lessons'])} interactive-AI lessons ({', '.join(l['status'] for l in data['lessons'])}); "
+          "no API calls or clinical approval.")
 
 
 def main():

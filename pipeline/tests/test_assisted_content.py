@@ -25,7 +25,9 @@ class AssistedContentTests(unittest.TestCase):
         data, evaluations = self.export(self.bundle)
         self.assertEqual(2, len(data["lessons"]))
         self.assertEqual(6, len(data["quizzes"]))
-        self.assertTrue(all(l["status"] == "draft" for l in data["lessons"]))
+        # The real sample passes every automated check, so lessons and their quizzes are `checked`.
+        self.assertTrue(all(l["status"] == "checked" for l in data["lessons"]))
+        self.assertTrue(all(q["status"] == "checked" for q in data["quizzes"]))
         self.assertTrue(all(l["checks"]["coverage"] is None for l in data["lessons"]))
         concepts = [c for e in evaluations for c in e["judge"]["coverage"]]
         self.assertEqual(11, sum(c["covered"] for c in concepts))

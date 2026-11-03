@@ -26,6 +26,7 @@ PROMPTS = Path(__file__).parent / "prompts"
 PROMPT_VERSION = "psa-source-grounded-v1"
 sys.path.insert(0, str(ROOT / "backend" / "scripts"))
 from convert_repo_content import validate_export  # Read-only backend contract validator.
+from import_content import gate_failures  # The backend's `checked` gate, so both sides use one rule.
 
 
 def read_json(path):
@@ -335,6 +336,11 @@ def evaluate(lesson, quizzes, pages, judge):
                         "fk_grade": max(s["fk_grade"] for s in scores),
                         "smog": max(s["smog"] for s in scores if s["smog"] is not None),
                         "coverage": None}  # Human baseline is not available.
+    # `checked` means the automated checks passed; clinical review (reviewed/published) is not ours to set.
+    status = "checked" if not problems and not flags and not gate_failures(lesson["checks"]) else "draft"
+    lesson["status"] = status
+    for quiz in quizzes:
+        quiz["status"] = status
     return scores, problems + flags
 
 
@@ -347,8 +353,10 @@ def validate_content(data, pages, topic=None):
     if topic is not None and data["topics"] != [topic]:
         errors.append("Topic membership or ordering differs from the manifest and topics.yaml.")
     for lesson in data["lessons"]:
-        if lesson["status"] != "draft":
-            errors.append(f"{lesson['id']}: this pipeline exports drafts only.")
+        if lesson["status"] not in ("draft", "checked"):
+            errors.append(f"{lesson['id']}: this pipeline exports draft or checked only.")
+        elif lesson["status"] == "checked" and (failures := gate_failures(lesson["checks"])):
+            errors.append(f"{lesson['id']}: marked checked but fails the gate: {'; '.join(failures)}.")
         for page in lesson["pages"]:
             text = " ".join(c["text"].strip() for c in lesson["claims"] if c["page"] == page["order"])
             if normalized(text) != normalized(page["body"]):
@@ -362,9 +370,10 @@ def validate_content(data, pages, topic=None):
         counts = Counter(c["support"] for c in lesson["claims"])
         if any(lesson["checks"].get(k) != counts[k] for k in ("supported", "unsupported", "contradicted")):
             errors.append(f"{lesson['id']}: claim support counts disagree.")
+    lesson_status = {l["id"]: l["status"] for l in data["lessons"]}
     for quiz in data["quizzes"]:
         if not quote_matches(quiz, pages):
             errors.append(f"{quiz['id']}: quote absent from cited source page.")
-        if quiz["status"] != "draft":
-            errors.append(f"{quiz['id']}: quiz must remain draft.")
+        if quiz["status"] != lesson_status.get(quiz["lesson_id"]):
+            errors.append(f"{quiz['id']}: quiz status must match its lesson's status.")
     return errors

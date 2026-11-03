@@ -12,12 +12,14 @@ import convert_repo_content as conv  # noqa: E402
 
 SCHEMA_PATH = conv.find_upwards(BACKEND, "schema/content.schema.json")
 _topics = conv.find_upwards(BACKEND, "topics.yaml")
-REPO_ROOT = _topics.parent if _topics else None
+# The converter reads the original root layout (lessons/, media/). The Data Lead
+# has since replaced it with data/psa exports, so these tests skip without it.
+REPO_ROOT = _topics.parent if _topics and (_topics.parent / "lessons").is_dir() and (_topics.parent / "media" / "media.yaml").is_file() else None
 MOCK = BACKEND / "fixtures" / "mock_export.json"
 NOW = "2026-10-28T15:00:00Z"
 
 needs_schema = pytest.mark.skipif(SCHEMA_PATH is None, reason="schema/content.schema.json not found")
-needs_repo = pytest.mark.skipif(REPO_ROOT is None, reason="repo content (topics.yaml) not found")
+needs_repo = pytest.mark.skipif(REPO_ROOT is None, reason="legacy root content (lessons/, media/) not found")
 
 
 @pytest.fixture(scope="session")
