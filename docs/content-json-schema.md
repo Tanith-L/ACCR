@@ -1,7 +1,41 @@
-# Content JSON Schema: Data → Backend Contract (v1)
+# Content JSON Schema: Data → Backend Contract (v1.2, with v1.0/v1.1 compatibility)
 
 Owners: Lyra (Data Lead, produces), Vanshika (Backend Lead, imports) · v1 · Oct 25, 2026 · Status: **draft; agree before any Week 9 code**
 Related: `content-pipeline-design.md` (v7), `backend-architecture.md` (v5)
+
+## Schema 1.1: image-based topic navigation
+
+The validator accepts `schema_version: "1.0"`, `"1.1"` and `"1.2"`. Topic image maps require 1.1 or later; course overview maps require 1.2.
+Version 1.0 files must not contain `image_map`; existing lesson, quiz, source, and media definitions are retained.
+This extension is prepared in the repository; it has not been deployed to Supabase.
+
+An optional `topics[].image_map` contains:
+
+| Field | Rule |
+|---|---|
+| `media_id` | Reference an image in the export's existing `media[]` |
+| `image_width`, `image_height` | Positive intrinsic pixel dimensions of the final image |
+| `image_sha256` | SHA-256 of that exact deployed image, binding coordinates to its bytes |
+| `hotspots[]` | One or more clickable regions, ordered for keyboard/list navigation |
+| `hotspots[].id` | Unique within this topic map |
+| `hotspots[].label` | Nonempty accessible label and equivalent list-link text |
+| `hotspots[].lesson_id` | Existing lesson in the same topic; several regions may target one lesson |
+| `hotspots[].shape` | `rect` or `polygon` |
+| `hotspots[].bounds` | Rect only: normalized `x`, `y`, `width`, `height`; positive size and fully inside the image |
+| `hotspots[].points` | Polygon only: at least three normalized `{x,y}` vertices, without repeating the closing vertex |
+
+Coordinates use the full, uncropped, upright image, top-left origin, in the range 0..1.
+Render with the original aspect ratio. Convert normalized coordinates into the actual displayed image rectangle, including any letterbox offsets; do not crop with a cover layout.
+Never copy one map's coordinates to another image. Replacing the image requires rechecking regions and updating its hash and, preferably, its media ID.
+
+The JSON schema handles shapes and numeric ranges. `validate_export` checks unique region IDs, media and lesson references, topic ownership, rectangles staying inside the image, and distinct/nonzero-area polygon vertices.
+The importer also checks the file's actual dimensions and SHA-256. A topic without `image_map` keeps the existing list presentation.
+
+Migration `0005_topic_image_maps.sql` stores maps and adds `get_topic_image_map`.
+The importer inserts maps as draft and resets a changed map to draft; legacy exports without maps leave stored maps alone.
+Maps require separate clinical/content approval before publication. The public RPC hides unpublished maps and filters targets to published lessons in their own topic.
+
+See `data/psa/chapter/` for 24 draft lessons (12 Symptoms lessons), source correspondence, and an offline preview. Home and five topics use the existing topic/subtopic/lesson structure with no navigation image. Only Symptoms supplies an image map, with one distinct lesson per region. Lesson illustrations remain independent of navigation images.
 
 ## 1. Purpose
 This is the single format that the Data Lead's Python pipeline **exports** and the backend import script **loads** into Supabase. If both sides follow it, content imports with no manual restructuring (Week 9 plan §1–2).
@@ -133,3 +167,17 @@ This is the single format that the Data Lead's Python pipeline **exports** and t
 - The **pipeline** validates every record before export (Week 9 target: 100% valid).
 - The **import script** validates again and rejects the whole file on any error, so nothing is ever half-imported.
 - Cross-reference checks on both sides: every `*_id` points to an existing object, every subtopic lesson exists, no duplicate IDs.
+
+## Schema 1.2: course overview
+
+Optional root `course_map` uses the same image dimensions, hash, rect/polygon geometry as topic maps, but every hotspot requires `topic_id` and forbids `lesson_id`. It must cover every exported topic exactly once. Versions 1.0 and 1.1 cannot include this field. Existing topic maps still require lesson targets within their topic. The full navigation is course -> topic -> lesson; GRAPPA describes disease domains inside a lesson.
+
+Current preview: `data/psa/chapter/overview.html`. Text generation rejects any page/takeaway maximum FK score >= 8. Original-poster text is preserved and not included in this text metric.
+
+## Optional-image framework
+
+No placeholder image, blank media ID, or null image map is needed. Omit `course_map` for the normal six-topic home. Omit `topics[].image_map` for a topic list. `lessons[].images` is also optional; `media` may be an empty array when no images are used. Map internals remain required whenever a map is provided. This remains schema 1.2; no new database migration is needed for omission.
+
+The current Symptoms map keeps its image bytes and geometry. Its 12 regions have 12 distinct lessons: skin (01), eyes (02), changes over time (03), gut (04), shoulders (05), hands/nails (06), feet/attachments (07), spine/SI (08), elbows (09), hips (10), knees (11), ankles (12). Existing draft 01 and 02 were narrowed; their other material moved into the new lessons. No live lesson records, user progress or published content were migrated.
+
+Importer omission preserves any previously stored map; removing a map already published to a database needs an explicit unpublish/remove operation. This task changes local exports and preview only.

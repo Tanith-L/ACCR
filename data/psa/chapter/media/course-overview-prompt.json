@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Six-topic course overview, simplified at user request",
+  "prompt": "Redesign this course overview as an extremely simple clean digital navigation mind map. Keep the six topic labels exactly, but REMOVE all people, photographs, medical/anatomical illustrations, objects, decorative textures, numbers and shaded backgrounds. Plain white background, navy sans-serif text, thin teal lines, subtle flat very pale teal cards. Portrait layout. At top a modest heading \"PsA Learning Overview\". A small central hub below reads \"Choose a topic\". Connect that hub to SIX identical large rounded rectangular cards in a two-column three-row grid. Large readable sans-serif labels are the only content inside cards. Precise text row-major: \"Understanding diagnosis\"; \"Understanding Psoriatic Arthritis\"; \"Symptoms and disease progression\"; \"Treatment options and flare management\"; \"Patient education\"; \"When to contact the care team\". Wrap labels with generous spacing. No card should touch another. Minimize decoration and empty header space. Use straight/right-angle thin connectors in the gutters only. No illustrations or icons. Flat white and pale teal, with navy text. This is an image asset for a clickable six-TOPIC overview, NOT GRAPPA disease domains.",
+  "status": "superseded",
+  "note": "Generation history only. Current course home and non-Symptoms topic navigation use schema data without images."
+}

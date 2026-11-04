@@ -54,24 +54,25 @@ describe('mock mode (backend/fixtures/mock_responses)', () => {
 describe('preview mode (data/psa pipeline exports)', () => {
   const service = createApiService(createPreviewTransport());
 
-  it('serves the exported topic and its lessons in subtopic order', async () => {
+  it('serves all exported topics and their lessons in subtopic order', async () => {
     const topics = await service.getTopics();
-    expect(topics.map((t) => t.id)).toContain('symptoms');
+    expect(topics.map((t) => t.id)).toEqual(['dx', 'overview', 'symptoms', 'treatment', 'education', 'contact']);
+    const paths = await Promise.all(topics.map((t) => service.getLearningPath(t.id)));
+    expect(paths.flatMap((p) => p.lessonIds)).toHaveLength(24);
     const path = await service.getLearningPath('symptoms');
-    expect(path.lessonIds).toEqual(['psa-symptoms-01', 'psa-symptoms-02']);
+    expect(path.lessonIds).toEqual(Array.from({ length: 12 }, (_, i) => `psa-symptoms-${String(i + 1).padStart(2, '0')}`));
   });
 
   it('serves draft lessons shaped like v_lessons', async () => {
     const lesson = await service.getLesson('psa-symptoms-01');
-    expect(lesson?.title).toBe('Changes in skin, nails, and joints');
+    expect(lesson?.title).toBe("Skin and psoriasis");
     expect(lesson?.pages.length).toBeGreaterThan(0);
     expect(lesson?.sortOrder).toBe(1);
   });
 
-  it('serves quiz items without the internal source fields', async () => {
+  it('returns an empty quiz for the text-only draft library', async () => {
     const quiz = await service.getQuiz('psa-symptoms-01');
-    expect(quiz.length).toBeGreaterThan(0);
-    expect(Object.keys(quiz[0]).sort()).toEqual(['answer', 'feedback', 'id', 'lessonId', 'options', 'question']);
+    expect(quiz).toEqual([]);
   });
 
   it('answers unknown ids with empty results', async () => {

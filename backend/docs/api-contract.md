@@ -106,3 +106,42 @@ The two error files show the usual shape. The exact text of `message` and `hint`
 
 ## 6. Changing this contract
 Tell the Backend Lead before relying on a field not listed here. The Backend Lead tells Frontend before changing any shape above.
+
+## 7. Prepared extension: topic image maps (schema 1.1)
+
+Requires migration `0005_topic_image_maps.sql`; it has not been applied by the content-generation task.
+Existing topic/path/lesson responses remain unchanged. A map-aware client can additionally call:
+
+```text
+POST /rpc/get_topic_image_map
+{"p_topic_id":"symptoms"}
+```
+
+Unlike the existing list endpoints, this RPC returns **one object or null**, not an array:
+
+```json
+{
+  "topic_id": "symptoms",
+  "media": {"id":"psa-symptoms-body-map", "path":"psa-symptoms-body-map.jpg", "alt_text":"...", "credit":"..."},
+  "image_width": 1152,
+  "image_height": 1712,
+  "image_sha256": "<64 lowercase hex characters>",
+  "hotspots": [
+    {"id":"skin", "label":"Skin", "lesson_id":"psa-symptoms-01", "shape":"rect", "bounds":{"x":0.027778,"y":0.24007,"width":0.297743,"height":0.119743}}
+  ],
+  "updated_at": "<timestamp>"
+}
+```
+
+`null` means no approved map with available targets; fall back to the ordinary learning-path list.
+Imports do not publish maps. Map approval is separate from lesson approval, and changing the map returns it to draft.
+Only hotspots targeting currently published lessons in the same topic are returned.
+The image is independently reviewable educational content and must be approved as a whole before map publication.
+
+Use normalized coordinates against the uncropped image, preserving its aspect ratio. `polygon` regions use `points: [{x,y}, ...]` instead of `bounds`.
+Use hotspot labels for accessibility and provide equivalent lesson links. On activation, open the existing lesson endpoint by `lesson_id`.
+The repository's `data/psa/chapter/overview.html` demonstrates the coordinate mapping locally; the mobile app has not been wired to this new RPC by this task.
+
+### Course overview navigation (schema 1.2, migration prepared)
+
+After migration `0006_course_image_maps.sql`, `POST /rpc/get_course_image_map` with `{"p_disease_id":"psa"}` returns one object or null. Its image fields match the topic-map response; the owner field is `disease_id` and hotspots use `topic_id` instead of `lesson_id`. Select a topic, then fetch its learning path or topic map. The public response includes only approved course maps and published topics of that disease with published lessons. Imports reset changed maps to draft and never publish them. Neither migration nor the Expo navigation integration has been executed by this data task.

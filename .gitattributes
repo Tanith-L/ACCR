@@ -1,0 +1,2 @@
+# Preserve supplied source bytes so recorded SHA-256 hashes survive checkout.
+data/psa/originals/** -text

@@ -17,6 +17,7 @@ import hashlib
 import json
 import mimetypes
 import os
+import struct
 import sys
 from collections import Counter
 from pathlib import Path
@@ -143,6 +144,34 @@ def plan_lessons(data: dict, existing: dict[str, dict]) -> list[dict]:
 
 # --- §5.1 / §5.5 file checks ------------------------------------------------
 
+def image_dimensions(path: Path) -> tuple[int, int]:
+    """Read PNG/JPEG dimensions without adding an image-processing dependency."""
+    raw = path.read_bytes()
+    if raw.startswith(b"\x89PNG\r\n\x1a\n") and raw[12:16] == b"IHDR":
+        return struct.unpack(">II", raw[16:24])
+    if raw.startswith(b"\xff\xd8"):
+        pos = 2
+        while pos < len(raw):
+            if raw[pos] != 0xFF:
+                raise ValueError("Invalid JPEG marker")
+            while pos < len(raw) and raw[pos] == 0xFF:
+                pos += 1
+            marker = raw[pos]
+            pos += 1
+            if marker in (0xD8, 0xD9, 0x01) or 0xD0 <= marker <= 0xD7:
+                continue
+            length = struct.unpack(">H", raw[pos:pos + 2])[0]
+            if length < 2:
+                raise ValueError("Invalid JPEG segment length")
+            if marker in (0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF):
+                height, width = struct.unpack(">HH", raw[pos + 3:pos + 7])
+                return width, height
+            if marker == 0xDA:
+                break
+            pos += length
+    raise ValueError("No PNG/JPEG image dimensions found")
+
+
 def media_errors(data: dict, media_dir: Path) -> list[str]:
     errors = []
     for m in data["media"]:
@@ -151,6 +180,23 @@ def media_errors(data: dict, media_dir: Path) -> list[str]:
             errors.append(f"media {m['id']}: file {m['file']} not found in {media_dir}")
         elif path.stat().st_size >= MAX_MEDIA_BYTES:
             errors.append(f"media {m['id']}: {m['file']} is {path.stat().st_size} bytes (limit < {MAX_MEDIA_BYTES})")
+    media = {m["id"]: m for m in data["media"]}
+    maps = [(f"topic {t['id']}", t.get("image_map")) for t in data["topics"]]
+    maps.append(("course_map", data.get("course_map")))
+    for label, image_map in maps:
+        if not image_map or image_map["media_id"] not in media:
+            continue
+        path = media_dir / media[image_map["media_id"]]["file"]
+        if not path.is_file():
+            continue
+        try:
+            actual = image_dimensions(path)
+            if actual != (image_map["image_width"], image_map["image_height"]):
+                errors.append(f"{label}: image_map dimensions do not match actual image {actual}")
+            if hashlib.sha256(path.read_bytes()).hexdigest() != image_map["image_sha256"]:
+                errors.append(f"{label}: image_map image hash mismatch; recheck hotspots after replacing an image")
+        except (ValueError, IndexError, struct.error) as error:
+            errors.append(f"{label}: invalid image_map image ({error})")
     return errors
 
 
@@ -326,6 +372,34 @@ def write_import(conn, data: dict, plan: list[dict], file_name: str) -> dict:
                     "values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
                     (q["id"], lesson["id"], p["version"], q["question"], Jsonb(q["options"]), q["answer"],
                      q["feedback"], q["source_id"], q["source_page"], q["source_quote"], q_status))
+        # Map payloads are independent of lesson bodies. Changed maps go back to
+        # draft rather than silently replacing an approved public navigation image.
+        for topic in data["topics"]:
+            image_map = topic.get("image_map")
+            if image_map is None:
+                continue  # Legacy 1.0 imports leave any existing map untouched.
+            map_hash = hashlib.sha256(json.dumps(image_map, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+            conn.execute(
+                "insert into topic_image_maps (topic_id, media_id, image_width, image_height, image_sha256, hotspots, content_hash) "
+                "values (%s,%s,%s,%s,%s,%s,%s) on conflict (topic_id) do update set "
+                "media_id=excluded.media_id, image_width=excluded.image_width, image_height=excluded.image_height, "
+                "image_sha256=excluded.image_sha256, hotspots=excluded.hotspots, content_hash=excluded.content_hash, "
+                "status=case when topic_image_maps.content_hash is distinct from excluded.content_hash "
+                "then 'draft'::content_status else topic_image_maps.status end, updated_at=now()",
+                (topic["id"], image_map["media_id"], image_map["image_width"], image_map["image_height"], image_map["image_sha256"],
+                 Jsonb(image_map["hotspots"]), map_hash))
+        course_map = data.get("course_map")
+        if course_map:
+            map_hash = hashlib.sha256(json.dumps(course_map, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+            conn.execute(
+                "insert into course_image_maps (disease_id, media_id, image_width, image_height, image_sha256, hotspots, content_hash) "
+                "values (%s,%s,%s,%s,%s,%s,%s) on conflict (disease_id) do update set "
+                "media_id=excluded.media_id, image_width=excluded.image_width, image_height=excluded.image_height, "
+                "image_sha256=excluded.image_sha256, hotspots=excluded.hotspots, content_hash=excluded.content_hash, "
+                "status=case when course_image_maps.content_hash is distinct from excluded.content_hash "
+                "then 'draft'::content_status else course_image_maps.status end, updated_at=now()",
+                (data["disease"]["id"], course_map["media_id"], course_map["image_width"], course_map["image_height"],
+                 course_map["image_sha256"], Jsonb(course_map["hotspots"]), map_hash))
     return {"run_id": run_id, "notes": notes}
 
 

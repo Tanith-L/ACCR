@@ -1,0 +1,156 @@
+{
+  "topics": {
+    "symptoms": {
+      "media_id": "psa-symptoms-body-map",
+      "image_width": 1152,
+      "image_height": 1712,
+      "image_sha256": "5a0a924d379e433351ee5126e698c095d09afae688609acdf7736e4a2c43b510",
+      "hotspots": [
+        {
+          "id": "changes-over-time",
+          "label": "Lasting damage, changes over time and related health",
+          "lesson_id": "psa-symptoms-03",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.177083,
+            "y": 0.181075,
+            "width": 0.649306,
+            "height": 0.045561
+          }
+        },
+        {
+          "id": "skin",
+          "label": "Skin / psoriasis",
+          "lesson_id": "psa-symptoms-01",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.027778,
+            "y": 0.24007,
+            "width": 0.297743,
+            "height": 0.119743
+          }
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "lesson_id": "psa-symptoms-02",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.027778,
+            "y": 0.367991,
+            "width": 0.297743,
+            "height": 0.113902
+          }
+        },
+        {
+          "id": "gut",
+          "label": "Gut",
+          "lesson_id": "psa-symptoms-04",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.027778,
+            "y": 0.490654,
+            "width": 0.297743,
+            "height": 0.122664
+          }
+        },
+        {
+          "id": "shoulders",
+          "label": "Shoulders",
+          "lesson_id": "psa-symptoms-05",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.027778,
+            "y": 0.621495,
+            "width": 0.297743,
+            "height": 0.110981
+          }
+        },
+        {
+          "id": "hands",
+          "label": "Wrists, hands and nails",
+          "lesson_id": "psa-symptoms-06",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.027778,
+            "y": 0.738902,
+            "width": 0.297743,
+            "height": 0.108645
+          }
+        },
+        {
+          "id": "feet",
+          "label": "Feet / enthesitis",
+          "lesson_id": "psa-symptoms-07",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.027778,
+            "y": 0.854556,
+            "width": 0.297743,
+            "height": 0.119743
+          }
+        },
+        {
+          "id": "spine",
+          "label": "Spine and SI joints",
+          "lesson_id": "psa-symptoms-08",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.670139,
+            "y": 0.242407,
+            "width": 0.292535,
+            "height": 0.125584
+          }
+        },
+        {
+          "id": "elbows",
+          "label": "Elbows",
+          "lesson_id": "psa-symptoms-09",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.670139,
+            "y": 0.395444,
+            "width": 0.292535,
+            "height": 0.125
+          }
+        },
+        {
+          "id": "hips",
+          "label": "Hips",
+          "lesson_id": "psa-symptoms-10",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.670139,
+            "y": 0.544977,
+            "width": 0.292535,
+            "height": 0.123248
+          }
+        },
+        {
+          "id": "knees",
+          "label": "Knees",
+          "lesson_id": "psa-symptoms-11",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.670139,
+            "y": 0.691589,
+            "width": 0.292535,
+            "height": 0.121495
+          }
+        },
+        {
+          "id": "ankles",
+          "label": "Ankles",
+          "lesson_id": "psa-symptoms-12",
+          "shape": "rect",
+          "bounds": {
+            "x": 0.670139,
+            "y": 0.83528,
+            "width": 0.292535,
+            "height": 0.136098
+          }
+        }
+      ]
+    }
+  }
+}

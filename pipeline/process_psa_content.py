@@ -102,7 +102,7 @@ def run(args):
     init_readability()
     plan, disease, topic = load_plan(args.manifest)
     chapter_folder, filename = chapter_output_names(disease, topic)
-    args.out = args.out or ROOT / "data/psa/chapters" / chapter_folder
+    args.out = args.out or ROOT / ".venv/psa-runs" / chapter_folder
     records = source_records(plan)
     if args.out.exists():
         raise ValueError("Output directory already exists. Choose a new directory to preserve prior evidence.")
@@ -180,7 +180,7 @@ def run(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--manifest", type=Path, default=ROOT / "data/psa/week9-sample.yaml")
-    parser.add_argument("--out", type=Path, help="Output directory; defaults to data/psa/chapters/<chapter-number>-<chapter-name>.")
+    parser.add_argument("--out", type=Path, help="Output directory; defaults to .venv/psa-runs/<chapter-number>-<chapter-name>.")
     parser.add_argument("--model", default="gpt-5.4-mini")
     parser.add_argument("--temperature", type=float, default=None, help="Use 0 for models supporting temperature; omit otherwise.")
     parser.add_argument("--reuse-sources", type=Path, help="Reuse source pages from a prior evidence.json after verifying original hashes.")

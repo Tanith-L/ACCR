@@ -1,0 +1,1500 @@
+{
+  "version": 1,
+  "authorship": "English lesson drafts authored by the interactive Codex assistant from the supplied reference library, with authoritative web checks. Not an independent clinical assessment.",
+  "review_status": "draft; per-claim source verification and clinical review pending",
+  "references": {
+    "niams-overview": {
+      "title": "NIAMS: Psoriatic Arthritis",
+      "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+    },
+    "niams-care": {
+      "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+      "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+    },
+    "nhs-psa": {
+      "title": "NHS: Psoriatic arthritis",
+      "url": "https://www.nhs.uk/conditions/psoriatic-arthritis/"
+    },
+    "nhs-uveitis": {
+      "title": "NHS: Uveitis",
+      "url": "https://www.nhs.uk/conditions/uveitis/"
+    },
+    "nice-eye": {
+      "title": "NICE NG65, recommendation 1.1.12: same-day eye assessment",
+      "url": "https://www.nice.org.uk/guidance/ng65/chapter/recommendations"
+    },
+    "npf-flares": {
+      "title": "National Psoriasis Foundation: Care Path, Keep Thriving",
+      "url": "https://www.psoriasis.org/care-path-thrive/"
+    },
+    "npf-related": {
+      "title": "National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis",
+      "url": "https://www.psoriasis.org/psa-related-conditions/"
+    },
+    "caspar-original": {
+      "title": "Taylor et al. (2006): original CASPAR classification study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16871531/"
+    },
+    "grappa-2021": {
+      "title": "GRAPPA 2021 domain-based treatment recommendations (published 2022)",
+      "url": "https://www.nature.com/articles/s41584-022-00798-0"
+    }
+  },
+  "lessons": [
+    {
+      "id": "psa-dx-01",
+      "title": "How doctors assess possible PsA",
+      "pages": [
+        "A diagnosis starts with your story and an exam. A rheumatologist is a doctor who treats joint and immune system diseases. The doctor asks which joints hurt, when stiffness starts, and how symptoms affect daily tasks. They also ask about psoriasis and family history. There is no single test that proves someone has PsA. The whole pattern matters. Bring a short list of changes, even if they come and go. Note how long stiffness lasts after you wake up.",
+        "The exam may include joints, the back, skin, nails, and places where tendons attach to bone. Blood tests can help check for other causes of symptoms. Images, such as X-rays, ultrasound, or MRI, may help show inflammation or damage. Not everyone needs every test. A normal result on one test does not explain the whole picture. Tell the team about changes outside the joints, too."
+      ],
+      "key_takeaways": [
+        "There is no single test that proves someone has PsA.",
+        "The whole pattern matters."
+      ],
+      "source_ids": [
+        "src-psa-one-pager-intro",
+        "src-murphys-laws-of-arthritis-preface"
+      ],
+      "references": [
+        "niams-care",
+        "nhs-psa"
+      ],
+      "review_notes": "Source-faithfulness review must cover the diagnostic pathway, including the limits of single test results.",
+      "source_usage": [
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs",
+          "contribution": "Which findings a clinician checks; psoriasis history and multi-area examination.",
+          "limits": "The testing workflow and no-single-test statement come from NIAMS, not this poster."
+        },
+        {
+          "source_id": "src-murphys-laws-of-arthritis-preface",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Paragraph 11: preparation and proactive monitoring",
+          "contribution": "Bring a concise symptom history to the visit.",
+          "limits": "The morning-stiffness question is an editorial visit-preparation example; diagnostic shortcuts in paragraphs 16-18 are not taught."
+        }
+      ]
+    },
+    {
+      "id": "psa-dx-02",
+      "title": "Understanding the CASPAR framework",
+      "pages": [
+        "CASPAR is a way to group findings for PsA. First, there must be signs of inflammation. These may be in a joint, the spine, or a tendon attachment. Other features are then considered. They include psoriasis now or in the past, or psoriasis in the family. Nail changes and swelling of a whole finger or toe are also part of the framework.",
+        "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team. The picture below is an AI-made example of a heel spur. It is not a scan from a patient. It helps show why an image needs a doctor's review."
+      ],
+      "key_takeaways": [
+        "First, there must be signs of inflammation.",
+        "A heel spur alone is not that finding."
+      ],
+      "source_ids": [
+        "src-mindmap",
+        "src-psa-one-pager-intro",
+        "src-heel-spur-illustration"
+      ],
+      "references": [
+        "niams-care",
+        "caspar-original"
+      ],
+      "review_notes": "Handwritten CASPAR branch and the obscured One-Pager require clinical confirmation. No numerical score or self-diagnosis tool is implemented.",
+      "images": [
+        {
+          "media_id": "psa-heel-spur",
+          "page": 2
+        }
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-mindmap",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Right-hand CASPAR branch: entry criterion and five feature groups",
+          "contribution": "Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone.",
+          "limits": "Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Box A: CASPAR table",
+          "contribution": "Explains current/past/family psoriasis, nails, RF and dactylitis.",
+          "limits": "Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature."
+        },
+        {
+          "source_id": "src-heel-spur-illustration",
+          "pages": [
+            2
+          ],
+          "kind": "image",
+          "locator": "PSA4 caption and underside of heel in the illustration",
+          "contribution": "Visual example of a heel spur accompanying the explanation of imaging limits.",
+          "limits": "AI-generated illustration, not a real scan; the image does not establish a CASPAR feature."
+        }
+      ]
+    },
+    {
+      "id": "psa-overview-01",
+      "title": "What PsA is",
+      "pages": [
+        "Psoriatic arthritis, or PsA, is a long-term condition linked to inflammation. The immune system becomes overactive. This can cause pain and swelling in joints and where tendons attach to bone. Psoriasis is a related skin condition that can cause scaly patches. Psoriasis and PsA are linked, but they are not the same condition. Many people have skin psoriasis before joint symptoms begin. Some notice joint symptoms first.",
+        "The next lesson groups PsA into six areas, called domains. These are skin, nails, joints away from the spine, the spine, swollen fingers or toes, and tendon attachment sites. You may have changes in some areas and not others. Not everyone has changes in all six areas. Skin and joint changes may follow different patterns. These areas describe the disease. They are not the six topics in this course."
+      ],
+      "key_takeaways": [
+        "Psoriasis and PsA are linked, but they are not the same condition.",
+        "Not everyone has changes in all six areas."
+      ],
+      "source_ids": [
+        "src-psa-one-pager-intro",
+        "src-clinical-manifestations-of-psa-poster",
+        "src-grappa-domains-in-psa-poster"
+      ],
+      "references": [
+        "niams-overview"
+      ],
+      "review_notes": "Course overview links to six topics. This lesson introduces PsA; the GRAPPA illustration is inside overview-02 and describes disease domains, not the course topics.",
+      "source_usage": [
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Central PsA title and Box B six core domains",
+          "contribution": "Introduces PsA and separates the disease domains from the six course topics.",
+          "limits": "Immune-system explanation and timing of skin/joint symptoms are supplemented by NIAMS."
+        },
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Subtitle and body-area cards",
+          "contribution": "Inflammation may involve several body areas.",
+          "limits": "Do not imply everyone has every manifestation."
+        },
+        {
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "All six domain headings",
+          "contribution": "Names the six domains in plain language.",
+          "limits": "Domain labels are not course topic labels."
+        }
+      ]
+    },
+    {
+      "id": "psa-overview-02",
+      "title": "PsA across the body",
+      "pages": [
+        "The six card labels describe different parts of PsA. Skin psoriasis means scaly skin patches. Nail psoriasis can cause pits or lifting of the nail. Peripheral arthritis affects joints away from the spine, such as those in the hands or knees. Axial disease affects the spine and may involve the joints that join the spine to the pelvis. These are called sacroiliac, or SI, joints.",
+        "Dactylitis means swelling of a whole finger or toe. Enthesitis means inflammation where a tendon or ligament joins bone. The back or bottom of the heel may be affected. These six domains can help guide treatment discussions. They do not name a drug that is right for you. Eye or bowel inflammation can also occur alongside PsA. These are separate from the six domains. Heart health, blood sugar, weight, and mood can also matter in care. The symptoms topic covers these concerns and changes over time."
+      ],
+      "key_takeaways": [
+        "Dactylitis means swelling of a whole finger or toe.",
+        "These six domains can help guide treatment discussions."
+      ],
+      "source_ids": [
+        "src-grappa-domains-in-psa-poster",
+        "src-psa-one-pager-intro",
+        "src-poster-of-the-comorbidities-seen-in-psa"
+      ],
+      "references": [
+        "npf-related",
+        "niams-overview"
+      ],
+      "review_notes": "The GRAPPA poster is a lesson illustration, not the course overview navigation. Six disease domains are distinct from six course topics. Eye/gut conditions and other comorbidities remain separate.",
+      "images": [
+        {
+          "media_id": "psa-overview-grappa-domains",
+          "page": 1
+        }
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text_and_image",
+          "locator": "Six domain cards, including axial disease, dactylitis and enthesitis",
+          "contribution": "Defines the six disease domains; displayed on page 1.",
+          "limits": "Technical poster wording is explained in the lesson; not a drug selection tool."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Box B: related conditions and comorbidities below six core domains",
+          "contribution": "Separates eye/bowel conditions and broader health needs from core domains.",
+          "limits": "Drug preferences in the poster are not copied into a personal treatment plan."
+        },
+        {
+          "source_id": "src-poster-of-the-comorbidities-seen-in-psa",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Card headings: cardiovascular disease, diabetes, obesity, depression",
+          "contribution": "Introduces heart health, blood sugar, weight and mood.",
+          "limits": "Numerical prevalence claims are not used; no study population is identified on the image."
+        }
+      ]
+    },
+    {
+      "id": "psa-symptoms-01",
+      "title": "Skin and psoriasis",
+      "pages": [
+        "Psoriasis can cause raised skin patches with scales. The skin card on the map shows one example. Patches may appear on the elbows or other parts of the body. Skin changes are one part of PsA care. A skin patch alone cannot show whether a person has joint disease.",
+        "The photo below shows scales on an elbow. Use it to learn what the source means by a skin patch. Your skin may look different. Tell your care team about new or changing patches and any joint symptoms. Skin and joint changes do not always happen at the same time."
+      ],
+      "key_takeaways": [
+        "Skin changes are one part of PsA care.",
+        "Your skin may look different."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-grappa-domains-in-psa-poster",
+        "src-psa-as-symptoms",
+        "src-skin-psoriasis-illustration"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "skin card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "skin / corresponding core domain card",
+          "contribution": "Defines the disease domain in plain words.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "skin body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-skin-psoriasis-illustration",
+          "pages": [
+            2
+          ],
+          "kind": "image",
+          "locator": "PSA1 caption and elbow",
+          "contribution": "Skin patches and scales.",
+          "limits": "Supplied educational illustration; does not diagnose a patient."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the skin card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "images": [
+        {
+          "media_id": "psa-skin-psoriasis",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "psa-symptoms-02",
+      "title": "Eyes and symptoms that need prompt care",
+      "pages": [
+        "The eyes card describes inflammation inside the eye. One name for this is uveitis. It can cause eye pain, redness, blurred sight, or trouble with bright light. These symptoms can have other causes, too. A body map cannot tell which cause is present.",
+        "New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment. Possible acute eye inflammation needs a same-day eye assessment. Seek emergency care for a loss of vision. Do not wait for your next routine visit or a reply in the app. An eye exam is needed to find the cause."
+      ],
+      "key_takeaways": [
+        "A body map cannot tell which cause is present.",
+        "Seek emergency care for a loss of vision."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-one-pager-intro",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "eyes card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Box B and Box C: eyes",
+          "contribution": "Cross-checks domain or related-condition terminology.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "eyes body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "nhs-uveitis",
+        "nice-eye"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the eyes card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-symptoms-03",
+      "title": "Related health and changes over time",
+      "pages": [
+        "The statement above the body map says PsA may lead to lasting damage. Disease activity can rise and fall. A flare is a time when symptoms return or worsen. A flare and lasting joint damage are different. A flare describes activity now; damage refers to changes that may persist. There is no fixed sequence that everyone follows. Treatment aims to control symptoms and limit harm. Tell the team about changes in pain, swelling, fatigue, or daily tasks.",
+        "A comorbidity means another health condition alongside PsA. This is not the same as joint damage. Your team may discuss heart health, blood pressure, blood sugar, cholesterol, weight, or mood. Some people also have eye or bowel inflammation. Ask which health checks fit your history. A higher risk does not mean you will get another condition. A number on a general poster does not tell you your own risk. Share concerns so the care plan can address your whole health."
+      ],
+      "key_takeaways": [
+        "A flare and lasting joint damage are different.",
+        "A number on a general poster does not tell you your own risk."
+      ],
+      "source_ids": [
+        "src-poster-of-the-comorbidities-seen-in-psa",
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-as-symptoms"
+      ],
+      "references": [
+        "npf-related",
+        "npf-flares",
+        "niams-overview"
+      ],
+      "review_notes": "The body-map subtitle hotspot opens this lesson; the visible lesson list also names related health and changes over time. The comorbidity poster is reference-only: its uncited percentages and top-ten ranking are not reproduced. PsA/AS poster supports only broad location/damage context, not an inevitable progression.",
+      "source_usage": [
+        {
+          "source_id": "src-poster-of-the-comorbidities-seen-in-psa",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Blood pressure, metabolic, heart disease, obesity and depression headings",
+          "contribution": "Names related health concerns to discuss with the care team.",
+          "limits": "Do not reproduce percentages, rankings, or imply these are inevitable. Lung, thyroid and non-IBD gut statistics await evidence review."
+        },
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Subtitle: possible lasting damage",
+          "contribution": "Introduces possible long-term harm.",
+          "limits": "Flare definition and activity-versus-damage distinction require the separate NPF/NIAMS references."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Subtitle: possible long-term damage",
+          "contribution": "Cross-checks that the source discusses possible damage, not a fixed progression.",
+          "limits": "Does not support a timetable, stages or an individual prediction."
+        }
+      ]
+    },
+    {
+      "id": "psa-symptoms-04",
+      "title": "Gut and bowel changes",
+      "pages": [
+        "The gut card describes pain, bloating, and changes in bowel habits. Inflammatory bowel disease, or IBD, can occur alongside PsA. This is a condition that causes inflammation in the gut. A bowel change does not prove that you have IBD or that PsA is the cause.",
+        "Tell your care team about gut symptoms that keep happening. Note what changed, when it started, and how it affects your day. Your team may ask about your medicines and decide whether you need more tests. If symptoms are severe or you feel acutely unwell, seek urgent medical help."
+      ],
+      "key_takeaways": [
+        "A bowel change does not prove that you have IBD or that PsA is the cause.",
+        "Tell your care team about gut symptoms that keep happening."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-one-pager-intro",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "gut card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Box B and Box C: gut",
+          "contribution": "Cross-checks domain or related-condition terminology.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "gut body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "npf-related"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the gut card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-symptoms-05",
+      "title": "Shoulders and reaching",
+      "pages": [
+        "The shoulders card shows that PsA can affect a shoulder joint and nearby tissues. Pain may make it hard to reach up or put on a shirt. A sore shoulder can have more than one cause. The body map shows a place to discuss, not a diagnosis.",
+        "Tell your team which shoulder hurts and when the pain began. Describe a task that has become harder, such as reaching a shelf. Mention stiffness, swelling, or a change in how far you can move. Your team can check the joint and the tissues around it."
+      ],
+      "key_takeaways": [
+        "A sore shoulder can have more than one cause.",
+        "Describe a task that has become harder, such as reaching a shelf."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "shoulders card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "shoulders body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the shoulders card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-symptoms-06",
+      "title": "Wrists, hands, fingers, and nails",
+      "pages": [
+        "This card groups several changes in the hands. A wrist or finger joint may hurt, swell, or feel stiff. Swelling of a whole finger is called dactylitis. It is different from swelling around just one joint. These changes can make tasks such as holding a cup or using buttons harder.",
+        "Nail psoriasis may cause small pits, yellow spots, or a nail lifting from its bed. The photo shows examples of nail changes. Nail changes and joint symptoms do not always happen together. Tell your team whether the change is in a nail, a joint, or the whole finger. Mention any trouble with daily tasks."
+      ],
+      "key_takeaways": [
+        "Swelling of a whole finger is called dactylitis.",
+        "Nail changes and joint symptoms do not always happen together."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-grappa-domains-in-psa-poster",
+        "src-psa-one-pager-intro",
+        "src-psa-as-symptoms",
+        "src-nail-psoriasis-illustration"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "hands card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "hands / corresponding core domain card",
+          "contribution": "Defines the disease domain in plain words.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Box B and Box C: hands",
+          "contribution": "Cross-checks domain or related-condition terminology.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "hands body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-nail-psoriasis-illustration",
+          "pages": [
+            2
+          ],
+          "kind": "image",
+          "locator": "PSA2 caption and nails",
+          "contribution": "Pits, yellow spots and nail lifting.",
+          "limits": "Supplied educational illustration; does not diagnose a patient."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the hands card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "images": [
+        {
+          "media_id": "psa-nail-psoriasis",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "psa-symptoms-07",
+      "title": "Feet, heel pain, and tendon attachments",
+      "pages": [
+        "Enthesitis means inflammation where a tendon or ligament joins bone. The feet card shows this type of change. The Achilles tendon joins the back of the heel. The plantar fascia attaches at the bottom of the heel. These sites can feel sore or tender. The two pictures show the difference in location.",
+        "Tell your team if pain is at the back or bottom of the heel, in a toe, or elsewhere in the foot. Mention whether walking has become harder. Heel pain can have several causes. A symptom picture cannot tell you the cause on its own. Your team can examine the area and decide what to check next."
+      ],
+      "key_takeaways": [
+        "Heel pain can have several causes.",
+        "A symptom picture cannot tell you the cause on its own."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-grappa-domains-in-psa-poster",
+        "src-psa-one-pager-intro",
+        "src-psa-as-symptoms",
+        "src-achilles-enthesitis-illustration",
+        "src-plantar-fasciitis-illustration"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "feet card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "feet / corresponding core domain card",
+          "contribution": "Defines the disease domain in plain words.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Box B and Box C: feet",
+          "contribution": "Cross-checks domain or related-condition terminology.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "feet body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-achilles-enthesitis-illustration",
+          "pages": [
+            1
+          ],
+          "kind": "image",
+          "locator": "PSA3 caption and heel backs",
+          "contribution": "Back-of-heel tendon attachment location.",
+          "limits": "Supplied educational illustration; does not diagnose a patient."
+        },
+        {
+          "source_id": "src-plantar-fasciitis-illustration",
+          "pages": [
+            1
+          ],
+          "kind": "image",
+          "locator": "PSA5 caption and sole",
+          "contribution": "Bottom-of-heel attachment location.",
+          "limits": "Supplied educational illustration; does not diagnose a patient."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the feet card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "images": [
+        {
+          "media_id": "psa-achilles-enthesitis",
+          "page": 1
+        },
+        {
+          "media_id": "psa-plantar-fasciitis",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "psa-symptoms-08",
+      "title": "Spine and SI joints",
+      "pages": [
+        "Axial disease means PsA affects the spine. It may also affect the sacroiliac, or SI, joints. These joints link the lower spine to the pelvis. Inflammation in these areas can cause back pain and stiffness. The spine card shows where these changes may occur.",
+        "Tell your care team where your back feels sore or stiff. Note when it happens and how it affects sleep or movement. Back pain can have many causes. This map cannot show which cause you have. A clinician uses your story, an exam, and sometimes tests to understand the pattern."
+      ],
+      "key_takeaways": [
+        "Back pain can have many causes.",
+        "These joints link the lower spine to the pelvis."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-grappa-domains-in-psa-poster",
+        "src-psa-one-pager-intro",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "spine card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "spine / corresponding core domain card",
+          "contribution": "Defines the disease domain in plain words.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Box B and Box C: spine",
+          "contribution": "Cross-checks domain or related-condition terminology.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "spine body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the spine card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-symptoms-09",
+      "title": "Elbows and nearby tendons",
+      "pages": [
+        "PsA can cause pain or tenderness in an elbow joint or nearby tendons. The elbow card shows these areas. Bending your arm or lifting an object may feel harder. Pain near an elbow and a skin patch on the elbow are different types of change.",
+        "Tell your team whether the problem is in the skin, inside the joint, or around it. You do not have to know the medical name. Describe where it hurts, when it started, and what you find hard to do. An exam can help the team work out which tissues are involved."
+      ],
+      "key_takeaways": [
+        "You do not have to know the medical name.",
+        "Pain near an elbow and a skin patch on the elbow are different types of change."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "elbows card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "elbows body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the elbows card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-symptoms-10",
+      "title": "Hips and daily movement",
+      "pages": [
+        "The hips card shows that a hip joint can be affected by PsA. Pain or stiffness may limit movement. You may notice that steps, walking, or getting up from a chair are harder. These examples help you describe a problem; they do not prove that PsA is the cause.",
+        "Tell your team which side hurts and what has changed. Explain how the pain affects your daily routine. Mention a new limp or trouble doing a task you could do before. The team can check the hip and nearby areas. Do not use the map to decide the cause on your own."
+      ],
+      "key_takeaways": [
+        "Pain or stiffness may limit movement.",
+        "Tell your team which side hurts and what has changed."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "hips card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "hips body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the hips card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-symptoms-11",
+      "title": "Knees, swelling, and stiffness",
+      "pages": [
+        "The knees card describes swelling, warmth, and stiffness from inflammation. A knee may also hurt. Bending the knee, using stairs, or getting out of a chair may be harder. Knee symptoms can have more than one cause. A picture is only a guide to the area.",
+        "Tell your care team when the knee problem began and whether one or both knees are affected. Note any swelling and the tasks that have changed. The team may examine how the knee moves and check for other causes. Seek urgent medical help if symptoms are severe or you feel acutely unwell."
+      ],
+      "key_takeaways": [
+        "Knee symptoms can have more than one cause.",
+        "A picture is only a guide to the area."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "knees card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "knees body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the knees card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-symptoms-12",
+      "title": "Ankles and the middle of the foot",
+      "pages": [
+        "The ankles card describes inflammation in the ankle and middle of the foot. Pain or swelling here can make walking harder. This is different from pain where a tendon joins the heel bone. The Feet and heel lesson explains those attachment sites.",
+        "Use the map to show where the problem is. Tell your team if it is around the ankle, across the middle of the foot, or at the heel. Mention when it began and any change in walking. The location helps guide an exam. It does not show the cause by itself."
+      ],
+      "key_takeaways": [
+        "Pain or swelling here can make walking harder.",
+        "It does not show the cause by itself."
+      ],
+      "source_ids": [
+        "src-clinical-manifestations-of-psa-poster",
+        "src-psa-as-symptoms"
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "ankles card on the clinical manifestations body map",
+          "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+          "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+        },
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "ankles body label",
+          "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+          "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        }
+      ],
+      "references": [
+        "niams-overview",
+        "niams-care"
+      ],
+      "review_notes": "Split from the former combined symptom lessons to match the ankles card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+    },
+    {
+      "id": "psa-treatment-01",
+      "title": "How treatment goals are chosen",
+      "pages": [
+        "Treatment discussions start with what is active and what matters to you. The six disease domains help describe this. They include skin, nails, joints away from the spine, the spine, whole-digit swelling, and attachment sites. The care team considers these domains together. The image is a guide to what needs attention. It is not a list of medicines or a treatment order.",
+        "Goals may include easing symptoms, protecting joints, and making daily tasks easier. Eye or bowel disease and other health conditions also matter. The team asks what you have tried before. They review your other medicines, side effects, and what matters to you. A treatment plan is chosen for a person, rather than from one symptom alone. A medicine that helps one domain may not cover every concern equally. Ask which parts of your disease the plan addresses and how progress will be checked."
+      ],
+      "key_takeaways": [
+        "The care team considers these domains together.",
+        "A treatment plan is chosen for a person, rather than from one symptom alone."
+      ],
+      "source_ids": [
+        "src-psa-one-pager-intro",
+        "src-grappa-domains-in-psa-poster",
+        "src-management-guidelines-of-arthritis-and-autoimmune-diseases"
+      ],
+      "references": [
+        "niams-care",
+        "grappa-2021"
+      ],
+      "review_notes": "Uses the GRAPPA poster as a domain framework, not as a treatment algorithm. No image-only drug selection, dose advice, or claims that all medicines cover all domains.",
+      "images": [
+        {
+          "media_id": "psa-overview-grappa-domains",
+          "page": 1
+        }
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Box B domains; related conditions; comorbidities that steer the drug",
+          "contribution": "Choice considers active domains plus eye, bowel and other health needs.",
+          "limits": "Do not copy the abbreviated drug rules as patient instructions."
+        },
+        {
+          "source_id": "src-grappa-domains-in-psa-poster",
+          "pages": [
+            1
+          ],
+          "kind": "text_and_image",
+          "locator": "Six GRAPPA treatment domain cards",
+          "contribution": "Shows the six areas considered in goal setting.",
+          "limits": "Domain overview only, not a ranked treatment pathway."
+        },
+        {
+          "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership",
+          "contribution": "Individual response, other illnesses and follow-up shape the plan.",
+          "limits": "This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance."
+        }
+      ]
+    },
+    {
+      "id": "psa-treatment-02",
+      "title": "Understanding treatment groups",
+      "pages": [
+        "Medicines have different jobs. Some help ease pain and swelling. Others aim to control the disease process. These are called DMARDs. Conventional DMARDs act broadly on the immune system. Biologic drugs target selected immune signals. Targeted synthetic drugs act on pathways inside cells. These are names for groups. They do not rank drugs from good to bad. Some drugs are pills. Others are given by a shot or through a vein. How a drug enters the body does not tell you how well it will work for you.",
+        "A drug is not right for every person or every disease domain. Some plans also include skin care, physical therapy, or help with daily tasks. The benefits, risks, and checks depend on the drug. This lesson does not give doses or tell you to start, stop, or change a medicine. Ask the prescribing team what your drug is for. Ask which checks go with it, too. Make a list of all your drugs and supplements. Ask about blood tests, infection checks, and vaccines that may go with your plan. Keep follow-up visits even when you feel better."
+      ],
+      "key_takeaways": [
+        "Medicines have different jobs.",
+        "They do not rank drugs from good to bad."
+      ],
+      "source_ids": [
+        "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+        "src-psa-one-pager-intro",
+        "src-mindmap"
+      ],
+      "references": [
+        "niams-care",
+        "grappa-2021"
+      ],
+      "review_notes": "DOCX class definitions are background only. Doses, brands, regulatory claims, comparative efficacy, and investigational treatments are omitted.",
+      "source_usage": [
+        {
+          "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Paragraphs 29, 38-39, 47 and 51: DMARDs, biologics, targeted oral drugs and monitoring",
+          "contribution": "Explains drug group roles, routes and questions about follow-up checks.",
+          "limits": "No doses, new approval claims, investigational therapies or RA/OA treatments imported."
+        },
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Box B: why domains and related conditions change therapy",
+          "contribution": "Explains why a drug is not right for every domain or person.",
+          "limits": "No individual drug choice is inferred from one poster row."
+        },
+        {
+          "source_id": "src-mindmap",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Bottom treatment branches: DMARDs, biologic DMARDs, PDE4 and JAK pathways",
+          "contribution": "Connects the original treatment map to the three plain-language group descriptions.",
+          "limits": "Do not reproduce brand lists, truncated TYK2 branch or a prescribing sequence."
+        }
+      ]
+    },
+    {
+      "id": "psa-treatment-03",
+      "title": "Tracking progress and planning for flares",
+      "pages": [
+        "Follow-up visits look at more than one sign of disease activity. The team may check sore or swollen joints, skin, and tendon sites. They also ask about daily tasks. Your view of pain and health matters, too. Minimal disease activity, or MDA, uses several measures together. It helps track care. It is not a stage of disease. A quiet skin patch alone does not show the whole picture.",
+        "If symptoms return or worsen, discuss a flare plan with the care team. A short record can note what changed, when it began, and how it affects daily tasks. Ask which changes need a call, which contact route to use, and what to do outside office hours. Repeated flares may mean the plan needs review. Use instructions agreed with your prescribing team for medicine questions. This general lesson does not replace your own flare plan. A useful record can include pain, sleep, energy, mood, and one task that was hard that day. Share patterns at follow-up visits. This can help the team see changes that a single visit may miss."
+      ],
+      "key_takeaways": [
+        "Follow-up visits look at more than one sign of disease activity.",
+        "If symptoms return or worsen, discuss a flare plan with the care team."
+      ],
+      "source_ids": [
+        "src-mindmap",
+        "src-murphys-laws-of-arthritis-preface",
+        "src-the-four-pillars-of-arthritis"
+      ],
+      "references": [
+        "npf-flares"
+      ],
+      "review_notes": "MDA numerical thresholds from handwriting are not reproduced. Clinic-specific flare actions and contact details remain to be supplied.",
+      "source_usage": [
+        {
+          "source_id": "src-mindmap",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "Lower-middle MDA branch: joints, entheses, skin, pain, patient view and function",
+          "contribution": "Explains multi-measure follow-up rather than judging control from skin alone.",
+          "limits": "No self-scoring cutoffs; does not represent a disease stage."
+        },
+        {
+          "source_id": "src-murphys-laws-of-arthritis-preface",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Paragraphs 11 and 17: contingency plans and PsA MDA",
+          "contribution": "Preparation for flares and clinician-led disease activity review.",
+          "limits": "Does not supply exact clinic response times or a personal flare plan."
+        },
+        {
+          "source_id": "src-the-four-pillars-of-arthritis",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Paragraph 85: tracking pain, energy, mood, sleep and daily tasks",
+          "contribution": "Adds a practical multi-part symptom record.",
+          "limits": "No fasting advice or guaranteed symptom improvement."
+        }
+      ]
+    },
+    {
+      "id": "psa-education-01",
+      "title": "The four pillars of daily care",
+      "pages": [
+        "Four pillars can help organize daily life with arthritis: Nourishment, Motion, Mastery, and Repose. In plain words, these mean food, movement, coping, and rest. They are a way to plan a discussion about everyday needs. They do not replace medical treatment. This framework is a guide to daily habits. It is not a test of how well your disease is controlled.",
+        "Think about which part of daily life is hardest right now. Food choices, activity, mood, and sleep may each raise different questions. A practical plan can focus on a small change that fits your needs and abilities. The care team can help tailor it. Bring up barriers such as pain, cost, fatigue, or poor sleep. Daily care works best as part of a shared plan, rather than as a test of willpower. Start with one small step you choose with your team. For example, plan a short walk that fits your joints, or set aside time to wind down before bed. Notice how the step fits into your day. You can adjust it as your needs change."
+      ],
+      "key_takeaways": [
+        "They do not replace medical treatment.",
+        "The care team can help tailor it."
+      ],
+      "source_ids": [
+        "src-the-four-pillars-of-arthritis",
+        "src-murphys-laws-of-arthritis-preface"
+      ],
+      "references": [
+        "niams-care"
+      ],
+      "review_notes": "Framework from DOCX headings and paragraphs 9, 10, 48, 65, 75, 82. No PsA-specific efficacy is inferred from RA or OA studies.",
+      "source_usage": [
+        {
+          "source_id": "src-the-four-pillars-of-arthritis",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Paragraph 8; headings at 10, 48, 65, 75; synthesis 83-85",
+          "contribution": "Four named pillars, plain-language meanings and choosing one small step.",
+          "limits": "A daily-care framework, not validated PsA disease scoring or a replacement for treatment."
+        },
+        {
+          "source_id": "src-murphys-laws-of-arthritis-preface",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Paragraphs 11, 18 and 21: preparation, foundations and partnership",
+          "contribution": "Simple habits and shared planning.",
+          "limits": "Historical anecdotes and diagnostic parsimony are not taught as clinical rules."
+        }
+      ]
+    },
+    {
+      "id": "psa-education-02",
+      "title": "Movement, coping, and support",
+      "pages": [
+        "Motion means finding ways to move that fit your joints and current health. Activity plans may include gentle movement, strength, and daily tasks. A physical therapist can help adapt a plan when pain or reduced movement gets in the way. An occupational therapist can suggest ways to protect joints during tasks. Ask your team how to balance activity and rest when symptoms change. Walking, swimming, or cycling may be options. Ask your team which activities fit you before you start. The source also describes strength work and tai chi. You do not need to try every type of exercise.",
+        "Mastery means building ways to cope with the demands of a long-term condition. It does not mean controlling every symptom by thinking differently. Pain, fatigue, and uncertainty can affect mood and confidence. Support from trusted people, a support group, or a trained counselor may help. Tell the care team when worry or low mood affects daily life. Asking for support is part of care, not a sign of failure. A quiet pause or slow breathing may help you make space for stress. These are coping tools. They do not mean that pain is your fault or that you should skip medical care."
+      ],
+      "key_takeaways": [
+        "Ask your team how to balance activity and rest when symptoms change.",
+        "Asking for support is part of care, not a sign of failure."
+      ],
+      "source_ids": [
+        "src-the-four-pillars-of-arthritis"
+      ],
+      "references": [
+        "niams-care"
+      ],
+      "review_notes": "General movement and coping education only; no exercise dose, activity target, or claim that stress control treats PsA.",
+      "source_usage": [
+        {
+          "source_id": "src-the-four-pillars-of-arthritis",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Motion paragraphs 49-50, 61-63; Mastery paragraphs 67-68 and 74",
+          "contribution": "Adapting movement, water/cycling options, strength and coping practices.",
+          "limits": "Many study claims concern RA/OA, not PsA; do not promise equal benefits or prescribe an exercise dose. NIAMS corroborates general PsA activity options."
+        }
+      ]
+    },
+    {
+      "id": "psa-education-03",
+      "title": "Food, sleep, and recovery",
+      "pages": [
+        "Nourishment focuses on food and nutrition needs. Food choices need to fit your own health and life. Food does not replace your prescribed PsA care. A dietitian can help with choices that fit your health, budget, and preferences. Ask about supplements or major diet changes before adding them to your care plan. The food chapter discusses vegetables, fruit, and sources of protein. Use these as topics to discuss with your team. It does not mean one food can switch off PsA. The lesson does not ask you to fast or follow a strict diet.",
+        "Repose focuses on rest and sleep. Pain or worry may make sleep harder, and poor sleep can make the next day feel harder to manage. Bring ongoing sleep problems to the care team. Describe whether pain, waking at night, or daytime tiredness is the main concern. Plans for meals, movement, coping, and rest should fit together. The aim is a manageable routine, rather than a strict rule for every day. Try to keep a steady time for bed and waking. A quiet, dark room and a calm wind-down routine may help. Let the team know if pain keeps waking you. Ask for help with sleep rather than changing your medicine on your own."
+      ],
+      "key_takeaways": [
+        "Food does not replace your prescribed PsA care.",
+        "Bring ongoing sleep problems to the care team."
+      ],
+      "source_ids": [
+        "src-the-four-pillars-of-arthritis"
+      ],
+      "references": [],
+      "review_notes": "General framework only. Fasting, elimination diets, alcohol advice, supplement doses, and disease-treatment claims are omitted.",
+      "source_usage": [
+        {
+          "source_id": "src-the-four-pillars-of-arthritis",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Nourishment paragraphs 10-38; Repose paragraphs 76-80; practical steps 85",
+          "contribution": "Food discussions, steady sleep timing and a calm bedtime routine.",
+          "limits": "No fasting, supplement doses, food-cure claims or extrapolated RA/OA treatment effects."
+        }
+      ]
+    },
+    {
+      "id": "psa-contact-01",
+      "title": "Sharing changes with your care team",
+      "pages": [
+        "Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder. The picture includes both PsA and a related condition called AS. Use the labels to name a place on your body. It does not mean you have both conditions.",
+        "A body map cannot tell you how urgent a symptom is. The next lesson explains eye and gut changes to report. Medicine concerns and repeated flares are also reasons to contact the prescribing team. Ask your clinic for its phone number and office hours. Ask about expected response times and how to get help when it is closed. Keep your own care plan available. For urgent symptoms, use urgent medical services rather than waiting for a routine app message."
+      ],
+      "key_takeaways": [
+        "A useful message says where the problem is, when it began, and what has changed.",
+        "A body map cannot tell you how urgent a symptom is."
+      ],
+      "source_ids": [
+        "src-psa-as-symptoms",
+        "src-clinical-manifestations-of-psa-poster",
+        "src-murphys-laws-of-arthritis-preface"
+      ],
+      "references": [
+        "nhs-psa",
+        "npf-flares"
+      ],
+      "review_notes": "The supplied May 2019 PsA/AS poster supports naming symptom locations and talking with a healthcare provider. It does not define urgency, distinguish causes, or provide an ACCR protocol. No invented local contacts or response times.",
+      "images": [
+        {
+          "media_id": "psa-reporting-body-map",
+          "page": 1
+        }
+      ],
+      "source_usage": [
+        {
+          "source_id": "src-psa-as-symptoms",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text_and_image",
+          "locator": "Body labels and footer: talk to your healthcare provider if you notice symptoms",
+          "contribution": "Actual body-map illustration for describing symptom location and reporting changes.",
+          "limits": "Explicitly label that the poster covers both PsA and AS; not an urgency scale."
+        },
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1
+          ],
+          "kind": "text",
+          "locator": "All body-area cards",
+          "contribution": "Alternative readable body-area labels for a symptom message.",
+          "limits": "Specific message examples are editorial teaching aids."
+        },
+        {
+          "source_id": "src-murphys-laws-of-arthritis-preface",
+          "pages": [
+            2
+          ],
+          "kind": "text",
+          "locator": "Paragraph 11: monitoring and contingency plans",
+          "contribution": "Ask for contact routes and an out-of-hours plan.",
+          "limits": "Clinic phone numbers, hours and response times must come from the patient's clinic."
+        }
+      ]
+    },
+    {
+      "id": "psa-contact-02",
+      "title": "Eye and gut changes to report",
+      "pages": [
+        "Eye symptoms can need prompt attention. New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment. Guidance for possible acute eye inflammation calls for a same-day eye assessment. Seek emergency care for a loss of vision. These symptoms have several possible causes. An examination is needed to find the cause; the app cannot diagnose uveitis from symptoms.",
+        "Tell the care team about ongoing gut pain, bloating, or changes in bowel habits. Inflammatory bowel disease can occur alongside PsA, but a bowel change does not prove that it is the cause. Describe what changed and when. Your team can decide whether another assessment is needed. If symptoms are severe or you feel acutely unwell, seek urgent medical help. Do not wait for a routine visit to discuss an urgent eye problem."
+      ],
+      "key_takeaways": [
+        "New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment.",
+        "Seek emergency care for a loss of vision."
+      ],
+      "source_ids": [
+        "src-psa-one-pager-intro",
+        "src-clinical-manifestations-of-psa-poster"
+      ],
+      "references": [
+        "nhs-uveitis",
+        "nice-eye"
+      ],
+      "review_notes": "Generic urgency education based on NHS/NICE, adapted without UK telephone numbers. ACCR clinical review and local routing are still required.",
+      "source_usage": [
+        {
+          "source_id": "src-psa-one-pager-intro",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Box B related conditions; Box C eyes and gut",
+          "contribution": "Identifies eye and bowel concerns alongside PsA.",
+          "limits": "Same-day assessment and emergency advice come from NHS/NICE, not the source poster."
+        },
+        {
+          "source_id": "src-clinical-manifestations-of-psa-poster",
+          "pages": [
+            1,
+            2
+          ],
+          "kind": "text",
+          "locator": "Eyes and gut cards",
+          "contribution": "Plain-language eye and bowel symptoms to describe.",
+          "limits": "Symptoms have multiple causes; poster cannot diagnose uveitis or IBD."
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "psa-overview-grappa-domains",
+      "file": "media/overview-grappa-domains.jpg",
+      "alt_text": "Six areas of PsA: skin, nails, joints, back, swollen fingers or toes, and tendon sites.",
+      "credit": "Source: supplied RHEUMNOTES poster.",
+      "source_id": "src-grappa-domains-in-psa-poster"
+    },
+    {
+      "id": "psa-symptoms-body-map",
+      "file": "media/symptoms-body-map.jpg",
+      "alt_text": "Body areas where symptoms may appear.",
+      "credit": "Source: supplied RHEUMNOTES poster.",
+      "source_id": "src-clinical-manifestations-of-psa-poster"
+    },
+    {
+      "id": "psa-skin-psoriasis",
+      "file": "media/skin-psoriasis.jpg",
+      "alt_text": "Raised patches with scales on an elbow.",
+      "credit": "Supplied educational illustration.",
+      "source_id": "src-skin-psoriasis-illustration"
+    },
+    {
+      "id": "psa-nail-psoriasis",
+      "file": "media/nail-psoriasis.jpg",
+      "alt_text": "Small pits and yellow spots on the nails.",
+      "credit": "Supplied educational illustration.",
+      "source_id": "src-nail-psoriasis-illustration"
+    },
+    {
+      "id": "psa-achilles-enthesitis",
+      "file": "media/achilles-enthesitis.jpg",
+      "alt_text": "Swelling at the back of a heel.",
+      "credit": "Supplied educational illustration.",
+      "source_id": "src-achilles-enthesitis-illustration"
+    },
+    {
+      "id": "psa-plantar-fasciitis",
+      "file": "media/plantar-fasciitis.jpg",
+      "alt_text": "Pain at the bottom of a heel.",
+      "credit": "Supplied educational illustration.",
+      "source_id": "src-plantar-fasciitis-illustration"
+    },
+    {
+      "id": "psa-heel-spur",
+      "file": "media/heel-spur-illustration.jpg",
+      "alt_text": "AI-made example of a heel spur. This picture cannot prove that someone has PsA.",
+      "credit": "Supplied image labeled illustrative and AI-generated.",
+      "source_id": "src-heel-spur-illustration"
+    },
+    {
+      "id": "psa-reporting-body-map",
+      "file": "media/symptom-reporting-body-map.jpg",
+      "alt_text": "Use the body labels to describe where symptoms occur. The poster covers PsA and AS; they are different conditions.",
+      "credit": "Supplied AbbVie educational poster, May 2019. Original labels and attribution retained.",
+      "source_id": "src-psa-as-symptoms"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "id": "src-skin-psoriasis-illustration",
+      "file": "Plaque psoriasis of the elbow.jpg",
+      "title": "Plaque psoriasis of the elbow",
+      "role": "educational_candidate",
+      "scope": "PsA",
+      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
+      "local_file": "data/psa/originals/Plaque psoriasis of the elbow.jpg",
+      "file_hash": "f8b2f56cc64d9d5ac639da39902aca08252d915ae9020d03b96e8c17f3867e52",
+      "bytes": 1348286,
+      "type": "image",
+      "clinical_approval": "not_recorded",
+      "part_ids": [
+        "symptoms"
+      ],
+      "extraction": {
+        "locator_kind": "image",
+        "needs_transcription": true
+      }
+    },
+    {
+      "id": "src-nail-psoriasis-illustration",
+      "file": "Nail psoriasis.jpg",
+      "title": "Nail psoriasis",
+      "role": "educational_candidate",
+      "scope": "PsA",
+      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
+      "local_file": "data/psa/originals/Nail psoriasis.jpg",
+      "file_hash": "5f79a6f17a6d2c71e7a931b8e4eb35d768510b1e6587fc2929c7000c8ef22260",
+      "bytes": 900999,
+      "type": "image",
+      "clinical_approval": "not_recorded",
+      "part_ids": [
+        "symptoms"
+      ],
+      "extraction": {
+        "locator_kind": "image",
+        "needs_transcription": true
+      }
+    },
+    {
+      "id": "src-achilles-enthesitis-illustration",
+      "file": "Achilles enthesitis.jpg",
+      "title": "Achilles enthesitis",
+      "role": "educational_candidate",
+      "scope": "PsA",
+      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
+      "local_file": "data/psa/originals/Achilles enthesitis.jpg",
+      "file_hash": "07292a32f40684ae16705551092fcc6a85dfa44e75aa040f24ad8933dfcba12b",
+      "bytes": 946168,
+      "type": "image",
+      "clinical_approval": "not_recorded",
+      "part_ids": [
+        "symptoms"
+      ],
+      "extraction": {
+        "locator_kind": "image",
+        "needs_transcription": true
+      }
+    },
+    {
+      "id": "src-plantar-fasciitis-illustration",
+      "file": "Plantar fasciitis.jpg",
+      "title": "Plantar fasciitis",
+      "role": "educational_candidate",
+      "scope": "PsA",
+      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
+      "local_file": "data/psa/originals/Plantar fasciitis.jpg",
+      "file_hash": "0e94af17561900f3dbdccef33c54633cca1a9677a241a84f5bf30b52024463bf",
+      "bytes": 689454,
+      "type": "image",
+      "clinical_approval": "not_recorded",
+      "part_ids": [
+        "symptoms"
+      ],
+      "extraction": {
+        "locator_kind": "image",
+        "needs_transcription": true
+      }
+    },
+    {
+      "id": "src-heel-spur-illustration",
+      "title": "Heel X-ray with a bony spur (illustrative, AI-generated)",
+      "type": "image",
+      "local_file": "data/psa/originals/Heel X-ray with a bony spur (illustrative, AI-generated).jpg",
+      "file_hash": "88b0f1371866d66a37515caaff289e95becec9a33cb1d43edbcfc3124617fc05",
+      "provided_by": "Supplied AI-generated illustration; not a patient scan or diagnostic evidence"
+    }
+  ]
+}

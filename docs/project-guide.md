@@ -166,7 +166,7 @@ Your pipeline ends at **one validated export JSON** (plus `review_sheet.csv` and
 **Check your export before sending it:**
 `python backend/scripts/import_content.py <your export>.json --dry-run --media-dir <images folder>` prints exactly what the backend would do and lists every problem.
 
-**Where your exports live:** the Data pipeline writes exports under `data/psa/` (for example `data/psa/chapters/03-symptoms-and-disease-progression/psa-symptoms-and-disease-progression.json`). The original root `lessons/`, `media/` and `quizzes.yaml` were replaced by this layout. Exports stay `draft` until clinical review, and re-importing an export updates the matching draft lessons in place.
+**Where your exports live:** the Data pipeline writes exports under `data/psa/` (for example `data/psa/chapter/psa-content.json`). The original root `lessons/`, `media/` and `quizzes.yaml` were replaced by this layout. Exports stay `draft` until clinical review, and re-importing an export updates the matching draft lessons in place.
 
 ### 7.3 Penelope (Frontend)
 | # | Deliverable | Done when |
