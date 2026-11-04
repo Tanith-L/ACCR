@@ -230,6 +230,21 @@ def _dupes(label: str, ids: list[str]) -> list[str]:
     return [f"duplicate {label} id: {i}" for i, n in Counter(ids).items() if n > 1]
 
 
+def _hotspot_geometry_errors(hotspot: dict, prefix: str) -> list[str]:
+    errors = []
+    if hotspot["shape"] == "rect":
+        b = hotspot["bounds"]
+        if b["x"] + b["width"] > 1 + 1e-9 or b["y"] + b["height"] > 1 + 1e-9:
+            errors.append(f"{prefix}: rectangle extends outside the image")
+    else:
+        points = hotspot["points"]
+        pairs = [(p["x"], p["y"]) for p in points]
+        area = sum(a[0] * b[1] - b[0] * a[1] for a, b in zip(pairs, pairs[1:] + pairs[:1]))
+        if len(set(pairs)) != len(pairs) or abs(area) < 1e-12:
+            errors.append(f"{prefix}: polygon must have distinct vertices and nonzero area")
+    return errors
+
+
 def validate_export(data: dict, schema: dict) -> list[str]:
     """Schema errors plus the cross-reference checks. Empty list = valid."""
     errors = [
@@ -253,8 +268,33 @@ def validate_export(data: dict, schema: dict) -> list[str]:
     errors += _dupes("source", [s["id"] for s in data["sources"]])
     errors += _dupes("claim", [c["id"] for l in data["lessons"] for c in l["claims"]])
 
+    course_map = data.get("course_map")
+    if course_map:
+        if course_map["media_id"] not in media_ids:
+            errors.append("course_map: unknown media_id")
+        errors += _dupes("course hotspot", [h["id"] for h in course_map["hotspots"]])
+        targets = [h["topic_id"] for h in course_map["hotspots"]]
+        errors += _dupes("course target topic", targets)
+        if set(targets) != {t["id"] for t in data["topics"]}:
+            errors.append("course_map: targets must cover every exported topic exactly once")
+        for h in course_map["hotspots"]:
+            errors += _hotspot_geometry_errors(h, f"course hotspot {h['id']}")
+
     listed = Counter(i for _, s in subtopics.values() for i in s["lesson_ids"])
     for t in data["topics"]:
+        image_map = t.get("image_map")
+        if image_map is not None:
+            if image_map["media_id"] not in media_ids:
+                errors.append(f"topic {t['id']}: unknown image_map media_id {image_map['media_id']}")
+            errors += _dupes(f"topic {t['id']} hotspot", [h["id"] for h in image_map["hotspots"]])
+            for hotspot in image_map["hotspots"]:
+                target = lessons.get(hotspot["lesson_id"])
+                prefix = f"topic {t['id']} hotspot {hotspot['id']}"
+                if target is None:
+                    errors.append(f"{prefix}: unknown lesson_id {hotspot['lesson_id']}")
+                elif target["topic_id"] != t["id"]:
+                    errors.append(f"{prefix}: target lesson belongs to a different topic")
+                errors += _hotspot_geometry_errors(hotspot, prefix)
         for s in t["subtopics"]:
             for i in s["lesson_ids"]:
                 if i not in lessons:

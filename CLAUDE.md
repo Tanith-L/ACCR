@@ -21,7 +21,7 @@ CMU Heinz capstone for the Altoona Center for Clinical Research (Dr. Frederick M
 - No PHI: no names, emails, symptoms or free text from patients.
 
 ## Update (Oct 28): the root content set was replaced
-- The Data Lead removed the root `lessons/`, `media/` and `quizzes.yaml`. Current exports are under `data/psa/` (schema-valid JSON; the first is `data/psa/chapters/03-symptoms-and-disease-progression/psa-symptoms-and-disease-progression.json`: 2 lessons, 6 quiz items, 20 claims, all `draft`). Import them directly with `import_content.py`.
+- The Data Lead removed the root `lessons/`, `media/` and `quizzes.yaml`. Current exports are under `data/psa/` (schema-valid JSON; the current library is `data/psa/chapter/psa-content.json`: 24 lessons, 1 optional Symptoms image map, no quizzes or per-claim verification yet, all `draft`). Import them directly with `import_content.py`.
 - `convert_repo_content.py` is now legacy. Its real-content tests skip when `lessons/` is absent. The notes below describe the original layout and are kept for history.
 
 ## Original repo state (github.com/Tanith-L/ACCR, Oct 27)

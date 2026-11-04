@@ -73,7 +73,7 @@ def run(args):
     init_readability()
     plan, disease, topic = load_plan(args.manifest)
     chapter_folder, filename = chapter_output_names(disease, topic)
-    args.out = args.out or ROOT / "data/psa/chapters" / chapter_folder
+    args.out = args.out or ROOT / ".venv/psa-runs" / chapter_folder
     records = source_records(plan)
     bundle = read_json(args.input)
     data, evaluations = assemble_bundle(bundle, plan, disease, topic, records)
@@ -102,7 +102,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, default=ROOT / "data/psa/assisted-input/symptoms.json")
     parser.add_argument("--manifest", type=Path, default=ROOT / "data/psa/week9-sample.yaml")
-    parser.add_argument("--out", type=Path, help="Output directory; defaults to data/psa/chapters/<chapter-number>-<chapter-name>.")
+    parser.add_argument("--out", type=Path, help="Output directory; defaults to .venv/psa-runs/<chapter-number>-<chapter-name>.")
     args = parser.parse_args()
     try:
         run(args)

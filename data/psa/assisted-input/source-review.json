@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-11-03",
+  "scope": "File disposition and lesson-level editorial correspondence, not per-claim verification or clinical approval. DOCX paragraph numbers are 1-based w:p order in word/document.xml, including empty paragraphs. PDF page numbers are physical PDF pages.",
+  "files": [
+    {
+      "file": "Achilles enthesitis.jpg",
+      "source_id": "src-achilles-enthesitis-illustration",
+      "sha256": "07292a32f40684ae16705551092fcc6a85dfa44e75aa040f24ad8933dfcba12b",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "clinical manifestations of PSA written at an 8th grade level.png",
+      "source_id": "src-clinical-manifestations-of-psa-poster",
+      "sha256": "d8c3a7b4615ddb631d6f307d61d124bb2701d51f3468979517df0f4abc8f247a",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "generated/archived-assets/overview-mindmap-v1.jpg",
+      "source_id": null,
+      "sha256": "6053a1cdb8bdceb61c4f4a52febb5df374e4c69cca45d28883a5648cbf28f34e",
+      "status": "superseded_asset",
+      "candidate_lessons": [],
+      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
+      "review_scope": "Checked file identity and absence from active media/map references."
+    },
+    {
+      "file": "generated/archived-assets/symptoms-mindmap-v1.jpg",
+      "source_id": null,
+      "sha256": "bf614f8a674b9300dcc333cb8dcadd0a508a8eeae9123f391dda2c88fdb66cb9",
+      "status": "superseded_asset",
+      "candidate_lessons": [],
+      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
+      "review_scope": "Checked file identity and absence from active media/map references."
+    },
+    {
+      "file": "generated/course-overview-simple-v1.png",
+      "source_id": null,
+      "sha256": "615f6ae3740a070e6225fc395c77733b5bfc19d3a737bc104cb430bdec183f38",
+      "status": "superseded_asset",
+      "candidate_lessons": [],
+      "decision": "Previous six-topic course image. The current home screen uses topic data and text cards; no navigation image is supplied.",
+      "review_scope": "Checked removal from active media and map references."
+    },
+    {
+      "file": "generated/overview-mindmap-v1.png",
+      "source_id": null,
+      "sha256": "fd6e50aac7a82cc60a3b0af4004e6c61307f08aba91263e993ca4d20877971a7",
+      "status": "superseded_asset",
+      "candidate_lessons": [],
+      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
+      "review_scope": "Checked file identity and absence from active media/map references."
+    },
+    {
+      "file": "generated/symptoms-mindmap-v1.png",
+      "source_id": null,
+      "sha256": "a0fad3f7b3b165e0c81c5e1111a325a645f10f4158edfbe49ab603aa966d0261",
+      "status": "superseded_asset",
+      "candidate_lessons": [],
+      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
+      "review_scope": "Checked file identity and absence from active media/map references."
+    },
+    {
+      "file": "GRAPPA domains in PSA which guide treatment decisions.png",
+      "source_id": "src-grappa-domains-in-psa-poster",
+      "sha256": "675096e0569e0a40861fb267f201e954033ac4cb2d1d99f03da894b060e0b4ae",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Heel X-ray with a bony spur (illustrative, AI-generated).jpg",
+      "source_id": "src-heel-spur-illustration",
+      "sha256": "88b0f1371866d66a37515caaff289e95becec9a33cb1d43edbcfc3124617fc05",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Management Guidelines of Arthritis and Autoimmune Diseases.docx",
+      "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+      "sha256": "1ecbf33e183eb9c88c0da64597ef70ab7b557a6a7604588ec91db955f6c9aa45",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified."
+    },
+    {
+      "file": "mindmap.jpeg",
+      "source_id": "src-mindmap",
+      "sha256": "e75813844e4c1edd0f37b689493fe633dc72f379fa964d3bcbdc44b0085d770b",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "MURPHY’S LAWS OF ARTHRITIS  PREFACE.docx",
+      "source_id": "src-murphys-laws-of-arthritis-preface",
+      "sha256": "b0d5210022d0e27bec8b22b97d1ac220ccc68bb0c37790722b43b2074b32c2d3",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified."
+    },
+    {
+      "file": "Nail psoriasis.jpg",
+      "source_id": "src-nail-psoriasis-illustration",
+      "sha256": "5f79a6f17a6d2c71e7a931b8e4eb35d768510b1e6587fc2929c7000c8ef22260",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Plantar fasciitis.jpg",
+      "source_id": "src-plantar-fasciitis-illustration",
+      "sha256": "0e94af17561900f3dbdccef33c54633cca1a9677a241a84f5bf30b52024463bf",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Plaque psoriasis of the elbow.jpg",
+      "source_id": "src-skin-psoriasis-illustration",
+      "sha256": "f8b2f56cc64d9d5ac639da39902aca08252d915ae9020d03b96e8c17f3867e52",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "poster of the comorbidities seen in PSA (top 10).png",
+      "source_id": "src-poster-of-the-comorbidities-seen-in-psa",
+      "sha256": "af444a09d74b72ef86b10bc8511d824bfe7a772341864b957c1c814d8ba31ae1",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "PsA & AS Symptoms.jpeg",
+      "source_id": "src-psa-as-symptoms",
+      "sha256": "b7a94d1742cb985d3e29a8f2ed92bd6d4c4f30814ff7ab4189e72e30dc270718",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "PsA One-Pager Intro.jpeg",
+      "source_id": "src-psa-one-pager-intro",
+      "sha256": "9a294c58050e54a8e7229ed2bf580b899c230f3a2820582bad1b8274c55c179f",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "references.zip",
+      "source_id": null,
+      "sha256": "4438fd8214d4325a19b082f7f220a79415541209309a33c84fef9ddbb65990ee",
+      "status": "archive_container",
+      "candidate_lessons": [],
+      "decision": "Delivery archive containing 25 file entries (including auxiliary archive entries). It is not an additional independent lesson source; match extracted original documents individually.",
+      "review_scope": "Read ZIP member list without executing any contents."
+    },
+    {
+      "file": "Rheumnotes.pdf",
+      "source_id": "src-rheumnotes",
+      "sha256": "3cfe4a4811d8876890f156af658ec9aa12983b689e808a1492ed8fa9bce19cb5",
+      "status": "background_only",
+      "candidate_lessons": [
+        "psa-dx-01"
+      ],
+      "decision": "Closest fit is the clinical-exam lesson. Keep as historical clinician background; do not insert the 2000 diagnostic algorithms or old drug information into current patient guidance. Current exam/testing explanation uses NIAMS.",
+      "review_scope": "134-page scanned PDF: checked contents on PDF pages 4-5 and examination/differential diagrams on pages 8-10. Not a full clinical audit of all 134 pages."
+    },
+    {
+      "file": "RheumNotesAImindmapsummary02OCT26.docx",
+      "source_id": "ref-ai-mindmap-tools",
+      "sha256": "0f9462f400c07a0c239f72d88f8d14cbb07f3e76db9e8d9cd267ba4a37e40997",
+      "status": "design_reference",
+      "candidate_lessons": [],
+      "decision": "Mindmap software comparison belongs to authoring workflow, not any clinical lesson. Tool pricing and product claims are not used.",
+      "review_scope": "DOCX text: software comparison and authoring recommendations."
+    },
+    {
+      "file": "rheumy_team_share/rheumy_branded_portrait.jpg",
+      "source_id": "asset-rheumy-portrait",
+      "sha256": "14e6e961565b1fdb8144485f7c21c2c5555945ba879aea0a8ead0a73c3bb59fb",
+      "status": "prototype_asset",
+      "candidate_lessons": [],
+      "decision": "Rheumy welcome/branding prototype; no current lesson evidence or illustration role. Keep with the original prototype assets.",
+      "review_scope": "File-role and HTML linkage review only. Audio/video speech has not been transcribed or clinically reviewed in this audit."
+    },
+    {
+      "file": "rheumy_team_share/rheumy_chatbot.html",
+      "source_id": "asset-rheumy-chatbot",
+      "sha256": "fccd66549fb070ca20d727dd737a0bfa77dc5098f0772f2988c8c4712c70e4a0",
+      "status": "prototype_asset",
+      "candidate_lessons": [],
+      "decision": "Rheumy welcome/branding prototype; no current lesson evidence or illustration role. Keep with the original prototype assets.",
+      "review_scope": "File-role and HTML linkage review only. Audio/video speech has not been transcribed or clinically reviewed in this audit."
+    },
+    {
+      "file": "rheumy_team_share/rheumy_chatbot_intro.mp4",
+      "source_id": "asset-rheumy-video",
+      "sha256": "6db2f497930053b52f781bef7af8828bdf1488b86230c7e6cb0ac666030c39e4",
+      "status": "prototype_asset",
+      "candidate_lessons": [],
+      "decision": "Rheumy welcome/branding prototype; no current lesson evidence or illustration role. Keep with the original prototype assets.",
+      "review_scope": "File-role and HTML linkage review only. Audio/video speech has not been transcribed or clinically reviewed in this audit."
+    },
+    {
+      "file": "rheumy_team_share/rheumy_voice_intro.mp3",
+      "source_id": "asset-rheumy-audio",
+      "sha256": "025dbcc6b0b35a1e40e1fa86001444c1559ef3fac840fcf302008a3d15cb14ad",
+      "status": "prototype_asset",
+      "candidate_lessons": [],
+      "decision": "Rheumy welcome/branding prototype; no current lesson evidence or illustration role. Keep with the original prototype assets.",
+      "review_scope": "File-role and HTML linkage review only. Audio/video speech has not been transcribed or clinically reviewed in this audit."
+    },
+    {
+      "file": "The Four Pillars of Arthritis.docx",
+      "source_id": "src-the-four-pillars-of-arthritis",
+      "sha256": "ed2300a20b6e696af1d2971763ba9cac17e1f339d24e89c0d63191bc4d54f9fd",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified."
+    },
+    {
+      "file": "thoughts1.png",
+      "source_id": "ref-thoughts-1",
+      "sha256": "e74088a23e3b841ee67c4a2292440d7e55271cfefc20e0a6c3c18bead1347463",
+      "status": "design_reference",
+      "candidate_lessons": [],
+      "decision": "Course-to-topic-to-lesson flow, optional quiz and progress. These are app design annotations, not medical lesson evidence.",
+      "review_scope": "Visually reviewed screenshot and annotations; embedded notes are reference material, not new instructions."
+    },
+    {
+      "file": "thoughts2.png",
+      "source_id": "ref-thoughts-2",
+      "sha256": "81e94ecf331722df6219d4d96b4d2e365626f0bd58a05cb80fd83a7d39b3ae2a",
+      "status": "design_reference",
+      "candidate_lessons": [],
+      "decision": "Login, voice access for hand limitations and optional quiz notes. These are app design annotations, not medical lesson evidence.",
+      "review_scope": "Visually reviewed screenshot and annotations; embedded notes are reference material, not new instructions."
+    },
+    {
+      "file": "thoughts3.png",
+      "source_id": "ref-thoughts-3",
+      "sha256": "f39ca48f3e1f7b240447e3ba6c9bf65adc996277d7bdc222e5543dbb84fb6a93",
+      "status": "design_reference",
+      "candidate_lessons": [],
+      "decision": "Rename topic/subtopic labels and clarify clinical manifestations. These are app design annotations, not medical lesson evidence.",
+      "review_scope": "Visually reviewed screenshot and annotations; embedded notes are reference material, not new instructions."
+    },
+    {
+      "file": "thoughts4.png",
+      "source_id": "ref-thoughts-4",
+      "sha256": "76c621e11bae676d801c36e917547526ab34080bb8482a5183f629a1293e6e0e",
+      "status": "design_reference",
+      "candidate_lessons": [],
+      "decision": "Repeated navigation/login mockups and voice access notes. These are app design annotations, not medical lesson evidence.",
+      "review_scope": "Visually reviewed screenshot and annotations; embedded notes are reference material, not new instructions."
+    },
+    {
+      "file": "Top Autoimmune Diseases.pdf",
+      "source_id": "src-top-autoimmune-diseases",
+      "sha256": "de13860491de237f710eaebbd4a8d815f518967cca83830359b6cc275b9f0bc7",
+      "status": "background_only",
+      "candidate_lessons": [
+        "psa-overview-01"
+      ],
+      "decision": "PsA entry fits the introduction as background. The AI-generated ranking and approximate prevalence estimates are not used as clinical evidence or patient risk figures.",
+      "review_scope": "Read extracted text of all four pages: page 1 AI disclosure; page 2 PsA entry; remaining pages list other conditions."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # PsA lesson pipeline
 
-Start with [data/psa/README.md](../data/psa/README.md) for the sources, classifications, two retained lessons and backend export.
+Start with [data/psa/README.md](../data/psa/README.md) for the sources, classifications, twenty-four draft lessons, image maps and backend export.
 
 ## Setup
 
@@ -14,11 +14,23 @@ python -m venv .venv/content-pipeline
 
 Restore the source originals from the supplied archive if needed. PDF extraction and reading-measurement dependencies are pinned for reproducibility.
 
-## Assemble the existing AI-assisted sample
+## Build the current chapter library
+
+The current output is `data/psa/chapter/`: twenty-four lesson texts, a schema 1.2 export, one optional Symptoms image map and their clickable preview.
 
 ```powershell
-.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/assemble_assisted_content.py --out data/psa/chapters/03-symptoms-and-disease-progression-rebuild
-.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/validate_content.py data/psa/chapters/03-symptoms-and-disease-progression-rebuild
+.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/build_psa_library.py
+.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/build_psa_library.py --validate
+```
+
+This library uses `assisted-input/all-topics.json` and `assisted-input/image-maps.json`. Per-claim verification and clinical review remain pending.
+The earlier two-lesson output directory has been removed. The workflows below retain its inputs and use ignored temporary output to avoid overwriting the current library.
+
+## Assemble the earlier AI-assisted sample
+
+```powershell
+.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/assemble_assisted_content.py --out .venv/psa-runs/03-symptoms-and-disease-progression-rebuild
+.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/validate_content.py .venv/psa-runs/03-symptoms-and-disease-progression-rebuild
 ```
 
 The canonical input is [symptoms.json](../data/psa/assisted-input/symptoms.json): image transcriptions, drafted sentences, exact quotes, quizzes and explicitly authored AI assessments.
@@ -35,8 +47,8 @@ Set `OPENAI_API_KEY` in the process environment. Never commit it.
 This command sends selected educational images/text to OpenAI; use sources authorized for that processing.
 
 ```powershell
-.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/process_psa_content.py --manifest data/psa/week9-sample.yaml --out data/psa/chapters/03-symptoms-and-disease-progression-api
-.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/validate_content.py data/psa/chapters/03-symptoms-and-disease-progression-api
+.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/process_psa_content.py --manifest data/psa/week9-sample.yaml --out .venv/psa-runs/03-symptoms-and-disease-progression-api
+.venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/validate_content.py .venv/psa-runs/03-symptoms-and-disease-progression-api
 ```
 
 The default model is `gpt-5.4-mini`; `--model` selects another compatible model.
@@ -51,7 +63,7 @@ It replaces separate source, audit, call and attempt files and is needed to reva
 
 ## Core output
 
-Directories are named `<chapter-number>-<chapter-name>` under `data/psa/chapters/`, for example `03-symptoms-and-disease-progression`. JSON files are named `psa-<chapter-name>.json`. Both generation commands use these names automatically; `--out` overrides the directory when rebuilding or keeping another version. Run timestamps remain inside the JSON metadata.
+Directories are named `<chapter-number>-<chapter-name>` under `.venv/psa-runs/`, for example `03-symptoms-and-disease-progression`. JSON files are named `psa-<chapter-name>.json`. Both generation commands use these names automatically; `--out` overrides the directory when rebuilding or keeping another version. Run timestamps remain inside the JSON metadata.
 
 For the existing two-lesson sample, the output directory contains only:
 
@@ -81,7 +93,7 @@ All content remains `draft`. Clinical approval, human concept identification, ju
 
 ## Backend contract
 
-The unchanged contract is [content.schema.json](../schema/content.schema.json), version 1.0.
+The shared contract is [content.schema.json](../schema/content.schema.json), supporting versions 1.0, 1.1 and 1.2. The sample workflow below retains version 1.0; the chapter library uses 1.2 for course and topic image maps.
 Its full field documentation is [content-json-schema.md](content-json-schema.md).
 
 | Content | Contract field |

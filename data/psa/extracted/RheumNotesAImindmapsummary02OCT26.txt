@@ -1,0 +1,225 @@
+[paragraph 1] BRIEFING
+
+[paragraph 2] AI software for whiteboard mind maps
+
+[paragraph 3] A short synthesis of the best current tools, how automation actually works, and which app to install first.
+
+[paragraph 4] Bottom line
+
+[paragraph 5] Xmind is the best everyday AI mind-map app. It is a real editor with desktop apps, multiple layouts, exports, presentation mode, and a copilot that drafts and refines a map. Pro is about $5 a month billed yearly. Heavier file-and-link AI sits on Premium.
+
+[paragraph 6] Mapify, from the same company, is the better pick when the map has to be built from a PDF, webpage, YouTube video, audio file, or prompt. It is also the only tool in this set with a clear unattended automation path (Zapier, n8n, API key, and an MCP server).
+
+[paragraph 7] Install Xmind if you only keep one app. Add Mapify when you start feeding source material. Use Miro only if the map has to live on a team whiteboard next to stickies and flows.
+
+[paragraph 8] Whiteboard tools versus mind-map tools
+
+[paragraph 9] Mind-map apps such as Xmind enforce a hierarchy that radiates from a central idea. Whiteboard apps such as Miro give an infinite canvas where a mind map is one object among stickies, timelines, and diagrams. AI quality and automation depth are not the same in the two categories.
+
+[paragraph 10] Infinite canvas with AI mind maps
+
+[paragraph 11] Tool
+
+[paragraph 12] Best for
+
+[paragraph 13] What the AI does
+
+[paragraph 14] Approx. price
+
+[paragraph 15] Miro
+
+[paragraph 16] Team workshops
+
+[paragraph 17] Prompt-to-diagram, node expand, sticky clustering, board summaries
+
+[paragraph 18] Free (3 boards); from ~$8/user/mo
+
+[paragraph 19] Whimsical
+
+[paragraph 20] Fast, clean maps
+
+[paragraph 21] Text-to-map that auto-layouts
+
+[paragraph 22] Free (3 boards); ~$10–12/editor/mo
+
+[paragraph 23] FigJam
+
+[paragraph 24] Teams already in Figma
+
+[paragraph 25] Jambot generates and sorts stickies; summarizes boards
+
+[paragraph 26] Free tier; seats from ~$3/user/mo
+
+[paragraph 27] Lucidspark
+
+[paragraph 28] Structured workshops
+
+[paragraph 29] AI diagram and ideation assist
+
+[paragraph 30] Free limited; from ~$9/user/mo
+
+[paragraph 31] Mural
+
+[paragraph 32] Facilitated sessions
+
+[paragraph 33] Summaries, clustering, idea generation
+
+[paragraph 34] Free limited; from ~$10/user/mo
+
+[paragraph 35] Miro is the default team canvas. AI can build a mind map from a prompt and expand a selected node with ideas, topics, or questions, but the layout often needs a cleanup pass. Whimsical is faster to a tidy diagram and less of a workshop board. FigJam wins only if the team already lives in Figma.
+
+[paragraph 36] AI that builds the map from a source
+
+[paragraph 37] Tool
+
+[paragraph 38] Best for
+
+[paragraph 39] Notes
+
+[paragraph 40] Approx. price
+
+[paragraph 41] Xmind
+
+[paragraph 42] Everyday editor
+
+[paragraph 43] Desktop apps, layouts, Pitch mode, copilot. Best single install.
+
+[paragraph 44] Free limited; Pro ~$5/mo
+
+[paragraph 45] Mapify
+
+[paragraph 46] Source to map
+
+[paragraph 47] PDF, URL, YouTube, audio, prompt. Opens in Xmind. Best automation.
+
+[paragraph 48] Free credits; ~$6–10/mo
+
+[paragraph 49] MindMap AI
+
+[paragraph 50] Same-map copilot
+
+[paragraph 51] Edits the existing map; PDF, audio, video, web. MCP into chat tools.
+
+[paragraph 52] Free maps + credits; ~$5/mo
+
+[paragraph 53] GitMind
+
+[paragraph 54] Budget file-to-map
+
+[paragraph 55] Usable free tier; flowcharts as well as maps.
+
+[paragraph 56] Free limited; ~$5/mo
+
+[paragraph 57] EdrawMind
+
+[paragraph 58] Templates and slides
+
+[paragraph 59] Often regenerates a new map rather than editing the current one.
+
+[paragraph 60] From ~$5–8/mo
+
+[paragraph 61] Rankings from 2026 roundups consistently put Xmind first for polished mapping and Mapify or MindMap AI first when the input is a document or recording. Prices were checked against public pages in mid-to-late 2026 and move often.
+
+[paragraph 62] How automation actually works
+
+[paragraph 63] Most “AI mind map” features stop at a first draft you start by hand. Unattended automation is narrower: turn an incoming source into a structured map, store the link, and edit only the maps you will reuse.
+
+[paragraph 64] Three levels
+
+[paragraph 65] In-app generation. Paste a prompt, PDF, or link and the tool builds the draft. Miro, Whimsical, Xmind, and Mapify all do this. You still start the job.
+
+[paragraph 66] Event-driven generation. A trigger in another app creates the map. Mapify is the clearest product for this.
+
+[paragraph 67] Agent-driven generation. Claude, ChatGPT, or Cursor calls the tool through MCP and returns an editable link. Mapify and Miro both support this. MindMap AI also exposes an MCP connector.
+
+[paragraph 68] What can run unattended
+
+[paragraph 69] Mapify exposes generation as Zapier actions, an n8n community node, an API key, and the MCP server @xmindltd/mapify-mcp-server. Inputs it can map without opening the app include raw text or email threads, a public web URL, a YouTube or other video URL, an audio file URL, a document file URL, and a research question (it searches, then maps). Each run returns Markdown, an image URL, and a share link. Published patterns include a new YouTube video becoming a map, and a Notion page update regenerating a map from that page’s text.
+
+[paragraph 70] Miro automates the board, not source ingest. Create with AI builds a map from a prompt; Sidekicks can turn a finished map into a doc or OKRs using Slack or Jira context. Miro’s MCP server lets agents both read boards and write diagrams onto them. It does not natively watch a folder of PDFs.
+
+[paragraph 71] Xmind is the editor after generation. A Mapify map can open in Xmind for layout, icons, task lists, and Pitch mode. Xmind’s own copilot is interactive, not a webhook.
+
+[paragraph 72] Workflows worth building
+
+[paragraph 73] Trigger
+
+[paragraph 74] Action
+
+[paragraph 75] Where the map lands
+
+[paragraph 76] New YouTube video or podcast URL
+
+[paragraph 77] Mapify summarizes into branches
+
+[paragraph 78] Notion page or email with share link
+
+[paragraph 79] Transcript in Drive or Notion
+
+[paragraph 80] Mapify from text
+
+[paragraph 81] Shared map plus action-item outline
+
+[paragraph 82] Saved article or RSS item
+
+[paragraph 83] Mapify from URL
+
+[paragraph 84] Research database
+
+[paragraph 85] Weekly research question
+
+[paragraph 86] Mapify “ask anything”
+
+[paragraph 87] Standing topic map
+
+[paragraph 88] Workshop stickies on Miro
+
+[paragraph 89] Cluster, then generate mind map
+
+[paragraph 90] Same board, then a strategy doc
+
+[paragraph 91] Practical stack: Mapify for the automatic first draft, Xmind when the map has to look finished or become a presentation, and Miro only if the map has to sit on a team canvas.
+
+[paragraph 92] Limits
+
+[paragraph 93] Credits cap unattended runs. Mapify’s free tier is about 30 one-time credits; paid plans meter monthly credits, so a channel that posts daily will burn them.
+
+[paragraph 94] Generated maps are summaries, not source-faithful outlines. They drop nuance and sometimes invent tidy branches that were not in the source.
+
+[paragraph 95] Most tools regenerate a new map rather than patch the one you already edited. A Zap that “updates” a page usually creates a second map.
+
+[paragraph 96] Layout is good enough to read and weak enough that a human pass still matters before a client or committee sees it.
+
+[paragraph 97] Free tiers are enough to test whether the AI output is editable or just a picture you then have to rebuild.
+
+[paragraph 98] Recommendation
+
+[paragraph 99] Job
+
+[paragraph 100] Use
+
+[paragraph 101] One app for personal maps you will keep editing
+
+[paragraph 102] Xmind
+
+[paragraph 103] A PDF, paper, video, or link should become the map
+
+[paragraph 104] Mapify, then Xmind to finish
+
+[paragraph 105] Unattended source-to-map (Zapier, n8n, or an agent)
+
+[paragraph 106] Mapify
+
+[paragraph 107] Team whiteboard sessions next to stickies
+
+[paragraph 108] Miro
+
+[paragraph 109] A clean map from a one-line prompt in seconds
+
+[paragraph 110] Whimsical
+
+[paragraph 111] Chat that keeps editing the same map
+
+[paragraph 112] MindMap AI
+
+[paragraph 113] The highest-leverage automation is source-to-map, not an AI that rearranges a whiteboard every night. Wire inbound content to Mapify, store the share link, and edit only the maps you will reuse.

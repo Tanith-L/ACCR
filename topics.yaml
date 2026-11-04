@@ -36,6 +36,15 @@ topics:
     - psa-symptoms-01
     - psa-symptoms-02
     - psa-symptoms-03
+    - psa-symptoms-04
+    - psa-symptoms-05
+    - psa-symptoms-06
+    - psa-symptoms-07
+    - psa-symptoms-08
+    - psa-symptoms-09
+    - psa-symptoms-10
+    - psa-symptoms-11
+    - psa-symptoms-12
 - id: treatment
   name: Treatment options & flare management
   order: 4

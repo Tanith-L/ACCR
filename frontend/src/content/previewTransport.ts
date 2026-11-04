@@ -5,7 +5,7 @@
 // Unlike the real API it includes draft and checked lessons, which have not
 // been clinically reviewed: use this mode for team review only.
 // Metro needs static imports: add a line to EXPORTS for each new export file.
-import symptoms from '../../../data/psa/chapters/03-symptoms-and-disease-progression/psa-symptoms-and-disease-progression.json';
+import library from '../../../data/psa/chapter/psa-content.json';
 
 import type { ApiRequest, Transport } from './api';
 import type { LessonRow, PathSubtopicRow, QuizRow, TopicRow } from './mappers';
@@ -34,7 +34,7 @@ export interface ContentExport {
   media: { id: string; file: string; alt_text: string; credit: string }[];
 }
 
-export const EXPORTS = [symptoms] as ContentExport[];
+export const EXPORTS = [library] as ContentExport[];
 
 /** Builds the four API responses from a set of exports. */
 export function exportResponder(exports: ContentExport[]) {
