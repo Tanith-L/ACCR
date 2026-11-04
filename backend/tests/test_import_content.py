@@ -235,6 +235,31 @@ def test_valid_mock_dry_run(capsys):
     assert "psa-dx-03 v1: insert as draft" in out
 
 
+def test_skip_lesson_removes_it_and_its_quiz_items(mock):
+    ids = [l["id"] for l in mock["lessons"]]
+    imp.skip_lessons(mock, [ids[0]])
+    assert ids[0] not in [l["id"] for l in mock["lessons"]]
+    assert ids[0] not in [q["lesson_id"] for q in mock["quizzes"]]
+    assert [l["id"] for l in mock["lessons"]] == ids[1:]
+
+
+def test_skip_lesson_rejects_unknown_id(mock):
+    with pytest.raises(ValueError, match="no-such-lesson"):
+        imp.skip_lessons(mock, ["no-such-lesson"])
+
+
+def test_skip_lesson_dry_run_reports_and_plans_the_rest(capsys):
+    assert run(MOCK, "--dry-run", "--skip-lesson", "psa-dx-01") == 0
+    out = capsys.readouterr().out
+    assert "skipped by request, left untouched: psa-dx-01" in out
+    assert "inserted 2" in out and "psa-dx-01 v1" not in out
+
+
+def test_skip_lesson_unknown_id_is_an_error_and_writes_nothing(capsys):
+    assert run(MOCK, "--dry-run", "--skip-lesson", "nope") == 2
+    assert "not in the export: nope" in capsys.readouterr().err
+
+
 def test_real_import_needs_settings(capsys):
     assert run(MOCK) == 2
     err = capsys.readouterr().err

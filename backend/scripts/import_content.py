@@ -6,7 +6,8 @@ The file is validated first and any error rejects all of it. Images are uploaded
 Storage, then every row is written in ONE database transaction; if anything fails,
 nothing is written. --dry-run runs the same checks and versioning decisions and prints
 the report without uploading or writing (add --from-db to compare against the stored
-versions, read-only).
+versions, read-only). --skip-lesson ID (repeatable) leaves that lesson untouched in the
+database, for a lesson whose incoming evidence must not replace what is stored.
 
 Settings (environment or .env): SUPABASE_DB_URL, SUPABASE_URL, SUPABASE_SERVICE_KEY.
 """
@@ -198,6 +199,16 @@ def media_errors(data: dict, media_dir: Path) -> list[str]:
         except (ValueError, IndexError, struct.error) as error:
             errors.append(f"{label}: invalid image_map image ({error})")
     return errors
+
+
+def skip_lessons(data: dict, lesson_ids: list[str]) -> None:
+    """Drop the named lessons and their quiz items from the export, so the import leaves the
+    stored versions (claims and quiz items included) exactly as they are."""
+    if unknown := sorted(set(lesson_ids) - {l["id"] for l in data["lessons"]}):
+        raise ValueError("not in the export: " + ", ".join(unknown))
+    drop = set(lesson_ids)
+    data["lessons"] = [l for l in data["lessons"] if l["id"] not in drop]
+    data["quizzes"] = [q for q in data["quizzes"] if q["lesson_id"] not in drop]
 
 
 def load_and_validate(path: Path, schema: dict, media_dir: Path) -> dict:
@@ -445,6 +456,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="check and report only; upload and write nothing")
     ap.add_argument("--from-db", action="store_true",
                     help="dry run only: compare with the versions stored in the database (read-only)")
+    ap.add_argument("--skip-lesson", action="append", default=[], metavar="ID",
+                    help="leave this lesson untouched in the database (repeatable); it must be in the export")
     ap.add_argument("--schema", type=Path, help="content.schema.json (default: searched upwards)")
     ap.add_argument("--media-dir", type=Path, help="folder holding the image files (default: next to the JSON)")
     ap.add_argument("--existing", type=Path,
@@ -477,6 +490,14 @@ def main(argv: list[str] | None = None) -> int:
     except ImportRejected as e:
         _fail(f"file rejected ({len(e.errors)} problems); nothing written", e.errors)
         return 1
+
+    if args.skip_lesson:
+        try:
+            skip_lessons(data, args.skip_lesson)
+        except ValueError as e:
+            _fail(f"--skip-lesson {e}")
+            return 2
+        print("skipped by request, left untouched: " + ", ".join(sorted(set(args.skip_lesson))))
 
     if args.dry_run and not args.from_db:
         plan = plan_lessons(data, existing)

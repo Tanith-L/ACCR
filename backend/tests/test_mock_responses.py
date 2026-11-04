@@ -16,6 +16,7 @@ IMAGE_KEYS = {"media_id", "page", "path", "alt_text", "credit"}
 QUIZ_KEYS = {"id", "lesson_id", "question", "options", "answer", "feedback"}
 PATH_SUBTOPIC_KEYS = {"id", "name", "sort_order", "lessons"}
 PATH_LESSON_KEYS = {"id", "title", "est_minutes", "sort_order"}
+MAP_KEYS = {"id", "parent_id", "kind", "label", "sort_order", "lesson_id"}  # get_mind_map (0007)
 PUBLISHED = ["psa-dx-01", "psa-dx-02"]  # psa-dx-03 is a draft in the mock export
 
 
@@ -58,6 +59,28 @@ def test_learning_path_only_has_published_lessons_in_order(mock):
     for s in path:
         for l in s["lessons"]:
             assert (l["title"], l["est_minutes"]) == (lessons[l["id"]]["title"], lessons[l["id"]]["est_minutes"])
+
+
+def test_mind_map_matches_the_published_hierarchy(mock):
+    nodes = load("mind_map_dx.json")
+    assert all(set(n) == MAP_KEYS for n in nodes)
+    by_id = {n["id"]: n for n in nodes}
+    assert len(by_id) == len(nodes) and [n["kind"] for n in nodes].count("root") == 1
+    assert all(n["parent_id"] is None or n["parent_id"] in by_id for n in nodes)
+    assert by_id["root"]["label"] == mock["disease"]["name"]
+    lessons = {l["id"]: l for l in mock["lessons"]}
+    shown = [n["lesson_id"] for n in nodes if n["kind"] == "lesson"]
+    assert shown == PUBLISHED and "psa-dx-03" not in shown
+    for n in nodes:
+        assert (n["lesson_id"] is not None) == (n["kind"] == "lesson")
+        if n["kind"] == "lesson":
+            assert n["label"] == lessons[n["lesson_id"]]["title"]
+            assert n["parent_id"] == f"subtopic:{lessons[n['lesson_id']]['subtopic_id']}"
+    assert "subtopic:dx-imaging" not in by_id  # only a draft lesson, so not shown
+    path_orders = {l["id"]: l["sort_order"] for s in load("learning_path_dx.json") for l in s["lessons"]}
+    for n in nodes:
+        if n["kind"] == "lesson":
+            assert n["sort_order"] == path_orders[n["lesson_id"]]
 
 
 @pytest.mark.parametrize("lesson_id", PUBLISHED)
@@ -126,5 +149,5 @@ def test_contract_lists_every_endpoint_and_mock_file():
 
 def test_contract_mentions_every_response_field():
     doc = CONTRACT.read_text(encoding="utf-8")
-    for field in LESSON_KEYS | IMAGE_KEYS | QUIZ_KEYS | PATH_SUBTOPIC_KEYS | PATH_LESSON_KEYS | TOPIC_KEYS:
+    for field in LESSON_KEYS | IMAGE_KEYS | QUIZ_KEYS | PATH_SUBTOPIC_KEYS | PATH_LESSON_KEYS | TOPIC_KEYS | MAP_KEYS:
         assert field in doc, field

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "root",
+    "parent_id": null,
+    "kind": "root",
+    "label": "Psoriatic arthritis",
+    "sort_order": 0,
+    "lesson_id": null
+  },
+  {
+    "id": "topic:dx",
+    "parent_id": "root",
+    "kind": "topic",
+    "label": "Understanding diagnosis",
+    "sort_order": 2,
+    "lesson_id": null
+  },
+  {
+    "id": "subtopic:dx-criteria",
+    "parent_id": "topic:dx",
+    "kind": "subtopic",
+    "label": "How PsA is recognized",
+    "sort_order": 1,
+    "lesson_id": null
+  },
+  {
+    "id": "lesson:psa-dx-01",
+    "parent_id": "subtopic:dx-criteria",
+    "kind": "lesson",
+    "label": "How doctors diagnose PsA",
+    "sort_order": 1,
+    "lesson_id": "psa-dx-01"
+  },
+  {
+    "id": "lesson:psa-dx-02",
+    "parent_id": "subtopic:dx-criteria",
+    "kind": "lesson",
+    "label": "Nail and finger clues",
+    "sort_order": 2,
+    "lesson_id": "psa-dx-02"
+  }
+]

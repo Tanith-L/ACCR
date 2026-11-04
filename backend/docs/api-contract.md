@@ -145,3 +145,31 @@ The repository's `data/psa/chapter/overview.html` demonstrates the coordinate ma
 ### Course overview navigation (schema 1.2, migration prepared)
 
 After migration `0006_course_image_maps.sql`, `POST /rpc/get_course_image_map` with `{"p_disease_id":"psa"}` returns one object or null. Its image fields match the topic-map response; the owner field is `disease_id` and hotspots use `topic_id` instead of `lesson_id`. Select a topic, then fetch its learning path or topic map. The public response includes only approved course maps and published topics of that disease with published lessons. Imports reset changed maps to draft and never publish them. Neither migration nor the Expo navigation integration has been executed by this data task.
+
+## 8. Topic map (migration `0007_mind_map.sql`)
+
+Not applied to the project until the Backend Lead confirms; the app should treat a failed or empty response as "no map" and fall back to the topic list. Existing endpoints are unchanged.
+
+```text
+POST /rpc/get_mind_map
+{"p_disease_id":"psa"}          (body optional; defaults to "psa")
+```
+
+Mock response: `mind_map_dx.json`. The backend decides every node and every parent link; the app only draws the list and handles tapping and expanding. It does not build or reorder the hierarchy.
+
+```json
+[
+  { "id": "root", "parent_id": null, "kind": "root", "label": "Psoriatic arthritis", "sort_order": 0, "lesson_id": null },
+  { "id": "topic:dx", "parent_id": "root", "kind": "topic", "label": "Understanding diagnosis", "sort_order": 2, "lesson_id": null },
+  { "id": "subtopic:dx-criteria", "parent_id": "topic:dx", "kind": "subtopic", "label": "How PsA is recognized", "sort_order": 1, "lesson_id": null },
+  { "id": "lesson:psa-dx-01", "parent_id": "subtopic:dx-criteria", "kind": "lesson", "label": "How doctors diagnose PsA", "sort_order": 1, "lesson_id": "psa-dx-01" }
+]
+```
+
+- The response is one flat array. It is a tree: each node has one `parent_id`, and only `root` has `null`.
+- `kind` is `root`, `topic`, `subtopic` or `lesson`. Node `id` values are prefixed (`topic:`, `subtopic:`, `lesson:`), so they never collide across kinds.
+- `lesson_id` is set only on `lesson` nodes. Open the lesson with the existing lesson endpoint (3.3) using that value.
+- The list is ordered root, topics, subtopics, lessons. Group the children of a node by `parent_id` and show them in `sort_order`.
+- Only published content appears: a subtopic or topic with no published lessons is left out, and nodes appear and disappear as lessons are published or rolled back.
+- `[]` means nothing is published for that disease (`empty.json`). There is no `root` node in that case.
+- There are no nodes other than the content hierarchy. The map shows no clinical text beyond the topic, subtopic and lesson names.
