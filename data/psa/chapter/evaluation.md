@@ -45,8 +45,8 @@ Home and five topics have no navigation image. The unchanged Symptoms image has 
 The mixed PsA/AS photo is labeled and used for symptom reporting. Uncited comorbidity percentages are omitted. See source-review.md for all file dispositions and lesson locators.
 The preview uses normalized coordinates and preserves image aspect ratio. Native mobile device verification and clinical approval remain pending.
 
-Draft input SHA-256: `2a3d0598cff2d4411a3396714a5a7fd66f6112e77af9e61f64ef1003ccea20f0`
-Hotspot input SHA-256: `9acf0fb8dead430e32b70bafd040154edbcf151d2a9c2fd38d4f4e61f596a9ca`
+Draft input SHA-256: `abe295ddfe6977658ec7839c4e4fe770dfb1c67d556faacd88e5e2cd4744f85a`
+Hotspot input SHA-256: `0b0b2daf57de5c27ec4fc2ff2df7a57530bfd2c9ea9cd6e446e6665b8ac2dba9`
 
 Image `psa-overview-grappa-domains` SHA-256: `b9a2917f7da29f60c824a2f44712218a5bfcf1ad722e5b71011f0764944f6137`
 Image `psa-symptoms-body-map` SHA-256: `5a0a924d379e433351ee5126e698c095d09afae688609acdf7736e4a2c43b510`
@@ -54,5 +54,3 @@ Image `psa-skin-psoriasis` SHA-256: `62268b5cdd634545e3abb60df12ad9cbefb596c781b
 Image `psa-nail-psoriasis` SHA-256: `afbb7f3172ec8740b8dd1e005095d16de686e4e7761f8e4a21a51c7a9f6353e2`
 Image `psa-achilles-enthesitis` SHA-256: `0b0e5b633dece1f8156abdf173e46378d4f5e3716be32b0ce9022757bbc98790`
 Image `psa-plantar-fasciitis` SHA-256: `29fad40d627a800b023eb85e074d0576703e84ec6cade5ba17b54ecfacd33651`
-Image `psa-heel-spur` SHA-256: `530b0d81c43118cf355e8d0b0bfda41c3240058814bf4ca3a2e26e66b3c397d6`
-Image `psa-reporting-body-map` SHA-256: `4a55a384d8e4a7b355ce06a000d399428d870095699143451a511fe78702cf5d`

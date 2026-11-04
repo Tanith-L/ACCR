@@ -1,7 +1,7 @@
 import { router } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-import { colors, fonts } from '@/theme';
+import { colors, fonts, minTouch } from '@/theme';
 
 import { Icon } from './Icon';
 
@@ -20,7 +20,7 @@ export function AppHeader({ backLabel, onBack = goBack, title }: Props) {
   return (
     <View style={styles.row}>
       {title ? (
-        <Text style={styles.title} numberOfLines={1} accessibilityRole="header">
+        <Text style={styles.title} numberOfLines={1} maxFontSizeMultiplier={1.3} accessibilityRole="header">
           {title}
         </Text>
       ) : null}
@@ -33,7 +33,9 @@ export function AppHeader({ backLabel, onBack = goBack, title }: Props) {
           style={({ pressed }) => [styles.back, pressed && { opacity: 0.6 }]}
         >
           <Icon name="chevron-left" size={22} color={colors.primary} />
-          <Text style={styles.backLabel}>{backLabel}</Text>
+          <Text style={styles.backLabel} maxFontSizeMultiplier={1.3}>
+            {backLabel}
+          </Text>
         </Pressable>
       ) : null}
     </View>
@@ -41,7 +43,7 @@ export function AppHeader({ backLabel, onBack = goBack, title }: Props) {
 }
 
 const styles = StyleSheet.create({
-  row: { height: 44, justifyContent: 'center' },
+  row: { minHeight: minTouch, justifyContent: 'center' },
   back: { flexDirection: 'row', alignItems: 'center', alignSelf: 'flex-start', marginLeft: -6 },
   backLabel: { fontFamily: fonts.medium, fontSize: 17, color: colors.primary },
   title: {

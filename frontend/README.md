@@ -10,7 +10,7 @@ npx expo start               # i / a / w
 npm test && npm run typecheck && npm run lint
 ```
 
-Screens follow the Figma prototype ("ACCR Prototype"): a welcome screen, then three tabs.
+Screen structure follows the Figma prototype ("ACCR Prototype"), with a different color palette from the prototype's teal: a welcome screen, then three tabs.
 
 | Path | Purpose |
 |---|---|
@@ -19,12 +19,17 @@ Screens follow the Figma prototype ("ACCR Prototype"): a welcome screen, then th
 | `src/app/(tabs)/(home)/topic/[topicId].tsx` | Topic: numbered lessons (`POST rpc/get_learning_path`), "Quiz is optional" note |
 | `src/app/(tabs)/(home)/lesson/[lessonId].tsx` | Lesson (`GET v_lessons`): one page at a time, images by `page`, key takeaways on the last page, Next lesson / Finish lesson |
 | `src/app/(tabs)/(home)/quiz/[topicId].tsx` | Knowledge check for a topic (`GET v_quiz_items` for each lesson): intro → question → answer review |
-| `src/app/(tabs)/care.tsx` | When to contact the care team (static clinic guidance) |
+| `src/app/(tabs)/(home)/mind-map.tsx` | Knowledge map: a radial mind map of how PsA fits together, following Dr. Murphy's mind map and One-Pager. The tree is in `content/knowledgeMap.ts`; each end point opens a lesson and a test checks it against that lesson's wording. Layout in `components/MindMap.tsx`, `utils/mindMapLayout.ts` |
+| `src/components/BodyMap.tsx` | On a topic with an image map (`POST rpc/get_topic_image_map`, contract §7): the supplied woman and man posters, where the cards and the body parts on the figure open the matching lesson. Body parts (`components/posterRegions.ts`) match the map's hotspots by id and only apply to the exact images they were measured on. The man's poster is not in the map yet, so its details are held there too. If the map is missing or fails, the topic still shows its lesson list |
+| `src/components/AfterHoursNotice.tsx` | The After-Hours Notice, word for word from `RheumNotes_After_Hours_Disclaimer.pdf` (final legal review pending). Shown on the Care Team tab. Change it only when that document changes |
+| `src/app/(tabs)/care.tsx` | The After-Hours Notice and when to contact the care team. Practice-neutral: no clinic name or hours |
 | `src/app/(tabs)/settings/` | Settings (quiz preference) and About |
 | `src/content/` | The only place that fetches data. `api.ts` turns contract responses into app types and handles status codes; `httpTransport.ts` (Supabase) and `mockTransport.ts` (fixtures) send the requests |
 | `src/components/` | Figma building blocks: `AppHeader`, `Card`/`InfoCard`, `Chip`, `Button`, `TabBar`, `Logo`, plus `AsyncContent` (loading / error / empty states) |
 | `src/progress/`, `src/preferences/` | Lesson completion and app preferences, stored on the device (AsyncStorage) |
-| `src/theme.ts` | Design tokens from Figma: teal palette, Inter type, spacing, radius |
+| `src/theme.ts` | Design tokens: fresh green with a warm apricot accent on warm off-white (text pairs checked against WCAG AA in the tests), a color family per knowledge map branch, serif titles with Inter body text, spacing, radius, shadows, minimum touch size |
+| `src/hooks/useReducedMotion.ts` | The system's reduce-motion setting; every animation checks it |
+| `src/components/Toast.tsx`, `ImageViewer.tsx` | Gentle "lesson finished" message, also announced to screen readers; full-screen view for enlarging images |
 
 ## Content source
 

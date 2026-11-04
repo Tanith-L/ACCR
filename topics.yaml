@@ -58,7 +58,7 @@ topics:
     - psa-treatment-02
     - psa-treatment-03
 - id: education
-  name: Patient education
+  name: Daily life with PsA
   order: 5
   icon: tbd
   subtopics:
@@ -70,7 +70,7 @@ topics:
     - psa-education-02
     - psa-education-03
 - id: contact
-  name: When to contact care team
+  name: Talking with your care team
   order: 6
   icon: tbd
   subtopics:

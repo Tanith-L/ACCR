@@ -8,7 +8,7 @@
 import library from '../../../data/psa/chapter/psa-content.json';
 
 import type { ApiRequest, Transport } from './api';
-import type { LessonRow, PathSubtopicRow, QuizRow, TopicRow } from './mappers';
+import type { HotspotRow, LessonRow, PathSubtopicRow, QuizRow, TopicImageMapRow, TopicRow } from './mappers';
 import { eqValue, simulated, type MockOptions } from './mockTransport';
 
 /** The parts of an export the preview reads. */
@@ -19,6 +19,7 @@ export interface ContentExport {
     name: string;
     order: number;
     icon?: string | null;
+    image_map?: { media_id: string; image_width: number; image_height: number; image_sha256: string; hotspots: HotspotRow[] };
     subtopics: { id: string; name: string; order: number; lesson_ids: string[] }[];
   }[];
   lessons: {
@@ -36,7 +37,10 @@ export interface ContentExport {
 
 export const EXPORTS = [library] as ContentExport[];
 
-/** Builds the four API responses from a set of exports. */
+/** The path the importer gives an image in the media bucket (storage_path in import_content.py). */
+const storagePath = (m: { id: string; file: string }) => `${m.id}${m.file.slice(m.file.lastIndexOf('.')).toLowerCase()}`;
+
+/** Builds the API responses from a set of exports. */
 export function exportResponder(exports: ContentExport[]) {
   const lessons = new Map(exports.flatMap((e) => e.lessons.map((l) => [l.id, { lesson: l, run: e.run }] as const)));
   const media = new Map(exports.flatMap((e) => e.media.map((m) => [m.id, m] as const)));
@@ -89,7 +93,7 @@ export function exportResponder(exports: ContentExport[]) {
         key_takeaways: l.key_takeaways,
         images: (l.images ?? []).flatMap((img) => {
           const m = media.get(img.media_id);
-          return m ? [{ media_id: m.id, page: img.page, path: m.file, alt_text: m.alt_text, credit: m.credit }] : [];
+          return m ? [{ media_id: m.id, page: img.page, path: storagePath(m), alt_text: m.alt_text, credit: m.credit }] : [];
         }),
         updated_at: run.generated_at,
       },
@@ -102,6 +106,20 @@ export function exportResponder(exports: ContentExport[]) {
       .sort((a, b) => a.id.localeCompare(b.id))
       .map(({ id, lesson_id, question, options, answer, feedback }) => ({ id, lesson_id, question, options, answer, feedback }));
 
+  const imageMap = (topicId: string): TopicImageMapRow | null => {
+    const map = exports.flatMap((e) => e.topics).find((t) => t.id === topicId)?.image_map;
+    const m = map && media.get(map.media_id);
+    if (!map || !m) return null;
+    return {
+      topic_id: topicId,
+      media: { id: m.id, path: storagePath(m), alt_text: m.alt_text, credit: m.credit },
+      image_width: map.image_width,
+      image_height: map.image_height,
+      image_sha256: map.image_sha256,
+      hotspots: map.hotspots.filter((h) => lessons.has(h.lesson_id)),
+    };
+  };
+
   return (request: ApiRequest): unknown => {
     switch (request.path) {
       case 'v_topics':
@@ -112,8 +130,10 @@ export function exportResponder(exports: ContentExport[]) {
         return lessonRow(eqValue(request, 'id') ?? '');
       case 'v_quiz_items':
         return quizRows(eqValue(request, 'lesson_id') ?? '');
+      case 'rpc/get_topic_image_map':
+        return imageMap((request.body as { p_topic_id?: string } | undefined)?.p_topic_id ?? '');
       default:
-        return null;
+        return undefined;
     }
   };
 }

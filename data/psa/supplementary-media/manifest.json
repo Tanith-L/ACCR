@@ -1,0 +1,436 @@
+{
+  "status": "candidates_pending_review",
+  "note": "Not part of psa-content.json and not shown in the app. Needs Data Lead selection and clinical review first.",
+  "checked_on": "2026-11-04",
+  "images": [
+    {
+      "id": "supp-synovial-joint",
+      "file": "images/synovial-joint.jpg",
+      "alt_text": "Diagram of a joint: two bones, the cartilage on their ends, and the lining and fluid around them.",
+      "credit": "OpenStax College, Anatomy & Physiology. CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:907_Synovial_Joints.jpg",
+      "sha256": "53da20a1b907fe5e49c60af6049c628c2f7248c14df20a67d699245f83e11c1b",
+      "width": 903,
+      "height": 1000,
+      "suggested_lessons": [
+        "psa-overview-01"
+      ],
+      "why": "Shows what a joint is before explaining inflammation in it."
+    },
+    {
+      "id": "supp-doctor-patient",
+      "file": "images/doctor-patient.jpg",
+      "alt_text": "A doctor talking with a patient in a clinic room.",
+      "credit": "National Cancer Institute, National Institutes of Health. Public domain, via Wikimedia Commons. Resized.",
+      "license": "Public domain",
+      "license_url": null,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Doctor_talking_with_a_patient.jpg",
+      "sha256": "11eac03fc4101b392f71779b70e054355af50022207dc872bf532978a7934163",
+      "width": 1000,
+      "height": 740,
+      "suggested_lessons": [
+        "psa-dx-01",
+        "psa-treatment-01",
+        "psa-contact-01"
+      ],
+      "why": "Friendly picture for lessons about talking with the care team."
+    },
+    {
+      "id": "supp-mri-scan",
+      "file": "images/mri-scan.jpg",
+      "alt_text": "Picture of a person lying on the table of an MRI scanner.",
+      "credit": "Blausen Medical Communications, Inc. CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0654_MRI_01.png",
+      "sha256": "fd96f46f480d3956f621edadf3f2771f70b56af0c82363784a49bb9a2eb9a4a7",
+      "width": 1000,
+      "height": 750,
+      "suggested_lessons": [
+        "psa-dx-01"
+      ],
+      "why": "Shows what one of the imaging tests looks like."
+    },
+    {
+      "id": "supp-eye-uveitis",
+      "file": "images/eye-uveitis.jpg",
+      "alt_text": "Diagram of the eye with the part called the uvea labeled.",
+      "credit": "Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). Public domain, via Wikimedia Commons. Resized.",
+      "license": "Public domain",
+      "license_url": null,
+      "source_page": "https://commons.wikimedia.org/wiki/File:EyeDiagramUveitis_0.jpg",
+      "sha256": "85925d895e9e59135bdc1e1245cf0e4afe7cfac074e1e9e80262d469622b5399",
+      "width": 550,
+      "height": 483,
+      "suggested_lessons": [
+        "psa-symptoms-02",
+        "psa-contact-02"
+      ],
+      "why": "Shows the part of the eye where uveitis happens."
+    },
+    {
+      "id": "supp-digestive-system",
+      "file": "images/digestive-system.jpg",
+      "alt_text": "Diagram of the digestive system, including the small and large intestine.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0316_DigestiveSystem.png",
+      "sha256": "4f88c4b1e63d0473bb4b16e46dd9bf43a563db38907a347be0114745fd52af7a",
+      "width": 1000,
+      "height": 1000,
+      "suggested_lessons": [
+        "psa-symptoms-04",
+        "psa-contact-02"
+      ],
+      "why": "Shows where the gut is for lessons on bowel changes."
+    },
+    {
+      "id": "supp-shoulder-joint",
+      "file": "images/shoulder-joint.jpg",
+      "alt_text": "Diagram of the shoulder joint with its bones and lining labeled.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0797_ShoulderJoint.png",
+      "sha256": "aee5c356978b6584a877fbdfe9e8035ea718c45842070ea0129b539f765affa9",
+      "width": 1000,
+      "height": 1000,
+      "suggested_lessons": [
+        "psa-symptoms-05"
+      ],
+      "why": "Shows the shoulder joint."
+    },
+    {
+      "id": "supp-hand-bones",
+      "file": "images/hand-bones.jpg",
+      "alt_text": "Diagram of the bones of the hand and wrist.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0440_HandBones.png",
+      "sha256": "bd81550c16ea006a77c8a0978f8a4be99408d875170f939255e3a8654e5ac95b",
+      "width": 1000,
+      "height": 1000,
+      "suggested_lessons": [
+        "psa-symptoms-06"
+      ],
+      "why": "Shows the small joints of the hand and wrist."
+    },
+    {
+      "id": "supp-finger-nail",
+      "file": "images/finger-nail.jpg",
+      "alt_text": "Diagram of a fingertip showing the parts of the nail.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0406_FingerNailAnatomy.png",
+      "sha256": "bcd19cf660cb2c63f2d82dcd89cb9e3e495f932f2ae6f7731f542b26bcf94e9e",
+      "width": 500,
+      "height": 1000,
+      "suggested_lessons": [
+        "psa-symptoms-06"
+      ],
+      "why": "Shows the nail parts behind nail changes."
+    },
+    {
+      "id": "supp-foot-anatomy",
+      "file": "images/foot-anatomy.jpg",
+      "alt_text": "Diagram of the foot and ankle, with the Achilles tendon and ankle joint labeled.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0411_FootAnatomy.png",
+      "sha256": "aac70fd9a625fa0f6d2a86a394b01fcddb539815f42a8a63813cc87d19393e3e",
+      "width": 569,
+      "height": 1000,
+      "suggested_lessons": [
+        "psa-symptoms-07",
+        "psa-symptoms-12"
+      ],
+      "why": "Shows the heel, Achilles tendon, ankle and mid-foot."
+    },
+    {
+      "id": "supp-lumbar-spine",
+      "file": "images/lumbar-spine.jpg",
+      "alt_text": "Diagram of a person’s back with the lower spine highlighted.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0618_LumbarSpine.png",
+      "sha256": "689aedbfc96677a2098276b8cdf22133ba19f08f159d38c506d400878ec5866e",
+      "width": 750,
+      "height": 1000,
+      "suggested_lessons": [
+        "psa-symptoms-08"
+      ],
+      "why": "Shows where the lower spine is."
+    },
+    {
+      "id": "supp-si-joint",
+      "file": "images/si-joint.jpg",
+      "alt_text": "Drawing of the pelvis with the two sacroiliac joints outlined in red.",
+      "credit": "Henry Vandyke Carter, Gray’s Anatomy (1918). Public domain, via Wikimedia Commons. Resized.",
+      "license": "Public domain",
+      "license_url": null,
+      "source_page": "https://commons.wikimedia.org/wiki/File:SI_joint.png",
+      "sha256": "9b5743f74570bb6d6612525db4012e8756e97cd2e14d4e301f404937cb622877",
+      "width": 450,
+      "height": 321,
+      "suggested_lessons": [
+        "psa-symptoms-08"
+      ],
+      "why": "Shows where the SI joints are."
+    },
+    {
+      "id": "supp-hip-anatomy",
+      "file": "images/hip-anatomy.jpg",
+      "alt_text": "Diagram of the hip showing the ball of the thigh bone in the pelvis.",
+      "credit": "BruceBlaus, Blausen Medical. CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0488_HipAnatomy.png",
+      "sha256": "cd6e47bf10a759fb158f701c89ce89c8b4e1115435098ced3407bb9636db2a05",
+      "width": 1000,
+      "height": 750,
+      "suggested_lessons": [
+        "psa-symptoms-10"
+      ],
+      "why": "Shows the hip joint."
+    },
+    {
+      "id": "supp-knee-side",
+      "file": "images/knee-side.jpg",
+      "alt_text": "Side view diagram of the knee with its bones and ligaments labeled.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blausen_0597_KneeAnatomy_Side.png",
+      "sha256": "b97b18dc3425f3a1d33c6acbf84111200073e32b748b6c9644220ec72acf8c1b",
+      "width": 1000,
+      "height": 750,
+      "suggested_lessons": [
+        "psa-symptoms-11"
+      ],
+      "why": "Shows the knee joint."
+    }
+  ],
+  "videos": [
+    {
+      "title": "Psoriatic Arthritis – Disease Overview",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/psoriatic-arthritis-disease-overview/",
+      "presenter": "Dr. Ana-Maria Orbai",
+      "suggested_lessons": [
+        "psa-overview-01",
+        "psa-overview-02"
+      ],
+      "scope": "PsA-specific",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Psoriatic Arthritis – Signs and Symptoms",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/psoriatic-arthritis-signs-and-symptoms/",
+      "presenter": "Dr. Ana-Maria Orbai",
+      "suggested_lessons": [
+        "psa-symptoms-01",
+        "psa-symptoms-02",
+        "psa-symptoms-03",
+        "psa-symptoms-04",
+        "psa-symptoms-05",
+        "psa-symptoms-06",
+        "psa-symptoms-07",
+        "psa-symptoms-08",
+        "psa-symptoms-09",
+        "psa-symptoms-10",
+        "psa-symptoms-11",
+        "psa-symptoms-12"
+      ],
+      "scope": "PsA-specific; general, not one per body area",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Diagnosing Psoriatic Arthritis",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/diagnosing-psoriatic-arthritis/",
+      "presenter": "Dr. Ana-Maria Orbai",
+      "suggested_lessons": [
+        "psa-dx-01",
+        "psa-dx-02"
+      ],
+      "scope": "PsA-specific",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Treating Psoriatic Arthritis",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/treating-psoriatic-arthritis/",
+      "presenter": "Dr. Ana-Maria Orbai",
+      "suggested_lessons": [
+        "psa-treatment-01",
+        "psa-treatment-02"
+      ],
+      "scope": "PsA-specific; check for drug names and how current it is",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Living with Psoriatic Arthritis",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/living-with-psoriatic-arthritis/",
+      "presenter": "Dr. Ana-Maria Orbai",
+      "suggested_lessons": [
+        "psa-education-01"
+      ],
+      "scope": "PsA-specific",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Using Mind and Body Practices to Improve Day-to-Day Living with Psoriatic Arthritis",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/psoriatic-arthritis-mind-body-practices-johns-hopkins-rheumatology/",
+      "presenter": "Dr. Dana DiRenzo",
+      "suggested_lessons": [
+        "psa-education-02"
+      ],
+      "scope": "PsA-specific; covers yoga, tai chi, meditation and acupuncture",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Preventing Anxiety and Depression when Living with Psoriasis and Psoriatic Arthritis",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/psoriatic-arthritis-anxiety-depression/",
+      "presenter": "Dr. Dana DiRenzo",
+      "suggested_lessons": [
+        "psa-symptoms-03",
+        "psa-education-02"
+      ],
+      "scope": "PsA-specific",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Tips to Manage Sleep Related Issues in Psoriatic Arthritis",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/psoriatic-arthritis-sleep-problems/",
+      "presenter": "Victoria Ruffing, RN, BC",
+      "suggested_lessons": [
+        "psa-education-03"
+      ],
+      "scope": "PsA-specific",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Will Exercise Cause Damage to my Joints or Cause an Arthritis Flare?",
+      "producer": "Johns Hopkins Arthritis Center (RheumTV)",
+      "url": "https://rheum.tv/rheumtv/will-exercise-cause-damage-joints-cause-arthritis-flare/",
+      "presenter": "Dr. Rebecca Manno",
+      "suggested_lessons": [
+        "psa-education-02"
+      ],
+      "scope": "General arthritis, not PsA-specific",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "A Hitchhiker’s Guide to Inflammatory Arthritis",
+      "producer": "Oxford University Hospitals NHS Foundation Trust",
+      "url": "https://youtu.be/mZN-juGGcSw",
+      "presenter": null,
+      "suggested_lessons": [
+        "psa-overview-01"
+      ],
+      "scope": "Inflammatory arthritis in general, including PsA; UK care setting",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Rheumatology Specialist Nurses and self management",
+      "producer": "Oxford University Hospitals NHS Foundation Trust",
+      "url": "https://youtu.be/u_dAK50ABbo",
+      "presenter": null,
+      "suggested_lessons": [
+        "psa-treatment-03",
+        "psa-contact-01"
+      ],
+      "scope": "Inflammatory arthritis in general; UK services may differ",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Treatments for inflammatory arthritis",
+      "producer": "Oxford University Hospitals NHS Foundation Trust",
+      "url": "https://youtu.be/W5OjhaZZBXE",
+      "presenter": null,
+      "suggested_lessons": [
+        "psa-treatment-02"
+      ],
+      "scope": "Inflammatory arthritis in general; UK setting; check how current it is",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Physiotherapy for Inflammatory Arthritis",
+      "producer": "Oxford University Hospitals NHS Foundation Trust",
+      "url": "https://youtu.be/tzjvXyMuaKY",
+      "presenter": null,
+      "suggested_lessons": [
+        "psa-education-02"
+      ],
+      "scope": "Inflammatory arthritis in general; UK setting",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    },
+    {
+      "title": "Occupational Therapy for Inflammatory Arthritis",
+      "producer": "Oxford University Hospitals NHS Foundation Trust",
+      "url": "https://youtu.be/FpE2S3x6YcM",
+      "presenter": null,
+      "suggested_lessons": [
+        "psa-education-02"
+      ],
+      "scope": "Inflammatory arthritis in general; UK setting",
+      "use": "link_only",
+      "watched_by_reviewer": false
+    }
+  ],
+  "excluded": [
+    {
+      "what": "National Psoriasis Foundation content",
+      "why": "Its site terms prohibit reuse without written permission. The items checked were podcasts, with pharma-funded programs."
+    },
+    {
+      "what": "RheumTV \"How to Inject ...\" videos",
+      "why": "Brand-specific medicine instructions, which the lessons deliberately avoid."
+    },
+    {
+      "what": "Photos on NIAMS, NHS and MedlinePlus pages",
+      "why": "NIAMS says many of its photos are purchased and copyrighted; the NHS PsA photo is Alamy stock; MedlinePlus says images may be copyright protected."
+    },
+    {
+      "what": "Merck/MSD Manual and stock-library images",
+      "why": "Not openly licensed."
+    },
+    {
+      "what": "USDA MyPlate portion chart",
+      "why": "Public domain, but the table is for children aged 2 to 5."
+    },
+    {
+      "what": "Commons psoriatic arthritis photos and hand X-ray",
+      "why": "Uncertain provenance or a share-alike license, and less suitable for patients."
+    },
+    {
+      "what": "Gray’s Anatomy elbow drawings",
+      "why": "Public domain, but old engravings with Latin terms are not easy to understand."
+    }
+  ]
+}

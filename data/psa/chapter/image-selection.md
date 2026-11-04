@@ -27,15 +27,12 @@ Navigation images and lesson illustrations are independent optional fields. The 
 
 | Lesson | Original-derived image | Purpose |
 |---|---|---|
-| psa-dx-02, page 2 | AI-generated heel-spur example | Explain that a picture of a heel spur does not establish PsA or a CASPAR feature |
 | psa-overview-02, page 1 | GRAPPA domains poster | Explain the six disease domains |
-| psa-treatment-01, page 1 | GRAPPA domains poster | Connect treatment goals to active domains |
 | psa-symptoms-01, page 2 | Elbow skin psoriasis | Illustrate skin patches and scales |
 | psa-symptoms-06, page 2 | Nail psoriasis | Illustrate nail changes |
 | psa-symptoms-07, page 1 | Achilles and plantar heel pictures | Distinguish back-of-heel and bottom-of-heel locations |
-| psa-contact-01, page 1 | PsA & AS symptom-location poster | Practice describing a location; caption explicitly distinguishes PsA and AS |
 
-The full Symptoms body map is displayed at topic level only. There are eight active JPG assets: one topic image and seven lesson illustrations. GRAPPA is reused by two lessons.
+The full Symptoms body map is displayed at topic level only. There are six active JPG assets: one topic image and five lesson illustrations.
 
 The old generated course JPG has been removed from chapter/media. Its original remains in originals/generated; the old generation prompt is marked superseded and is not a current requirement.
 

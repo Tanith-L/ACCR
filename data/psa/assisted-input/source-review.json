@@ -77,11 +77,11 @@
     },
     {
       "file": "Heel X-ray with a bony spur (illustrative, AI-generated).jpg",
-      "source_id": "src-heel-spur-illustration",
+      "source_id": null,
       "sha256": "88b0f1371866d66a37515caaff289e95becec9a33cb1d43edbcfc3124617fc05",
-      "status": "lesson_source",
+      "status": "superseded_asset",
       "candidate_lessons": [],
-      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "decision": "Removed from psa-dx-02 at the frontend lead's request: the lesson says a heel spur alone is not the CASPAR finding, so the picture did not illustrate the framework. AI-generated. Retained as an original history asset.",
       "review_scope": "Visual review of the source image and caption."
     },
     {

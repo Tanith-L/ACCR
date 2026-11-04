@@ -43,8 +43,8 @@ Detailed card-level classifications and source notes are maintained in organizat
 | 2 | Understanding Psoriatic Arthritis | overview | One-Pager, clinical manifestations, GRAPPA, body map | Verify source claims and figures |
 | 3 | Symptoms and disease progression | symptoms | GRAPPA, clinical manifestations, symptom body map, comorbidity poster | Disease progression; nearby spinal-joint detail in the sample |
 | 4 | Treatment options and flare management | treatment | Selected Management Guidelines, One-Pager, mind-map treatment/MDA, Preface | Flare definitions and an approved management plan |
-| 5 | Patient education | education | Four Pillars, Preface, selected Management Guidelines | Doctor's do's/don'ts and confirmed FAQ answers |
-| 6 | When to contact the care team | contact | Symptom body map, clinical manifestations, One-Pager | Routine/urgent criteria, medicine concerns and ACCR contact channels |
+| 5 | Daily life with PsA | education | Four Pillars, Preface, selected Management Guidelines | Doctor's do's/don'ts and confirmed FAQ answers |
+| 6 | Talking with your care team | contact | Symptom body map, clinical manifestations, One-Pager | Routine/urgent criteria, medicine concerns and ACCR contact channels |
 
 The hierarchy in [topics.yaml](../../topics.yaml) preserves 15 registered lesson IDs.
 All 15 registered lesson IDs now have text drafts in the complete library linked above.
@@ -72,7 +72,7 @@ See [the pipeline guide](../../../docs/psa-lesson-pipeline.md) for dependency se
 ```
 
 The importer dry run checks the local contract without reading or writing live database state.
-Backend can import the JSON without restructuring it. The export includes seven referenced images for course navigation, symptoms navigation and lesson illustrations.
+Backend can import the JSON without restructuring it. The export includes six referenced images for course navigation, symptoms navigation and lesson illustrations.
 
 To restore originals and extracted text:
 

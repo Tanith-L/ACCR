@@ -1,10 +1,10 @@
 {
   "schema_version": "1.2",
   "run": {
-    "run_id": "psa-20261104-043235-complete-drafts",
+    "run_id": "psa-20261104-182438-complete-drafts",
     "model": "Codex interactive assistant; no independent judge",
     "prompt_version": "psa-all-topics-v4-optional-maps",
-    "generated_at": "2026-11-04T04:32:35.682042+00:00"
+    "generated_at": "2026-11-04T18:24:38.569782+00:00"
   },
   "disease": {
     "id": "psa",
@@ -31,13 +31,6 @@
       "type": "image",
       "file_hash": "675096e0569e0a40861fb267f201e954033ac4cb2d1d99f03da894b060e0b4ae",
       "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
-    },
-    {
-      "id": "src-heel-spur-illustration",
-      "title": "Heel X-ray with a bony spur (illustrative, AI-generated)",
-      "type": "image",
-      "file_hash": "88b0f1371866d66a37515caaff289e95becec9a33cb1d43edbcfc3124617fc05",
-      "provided_by": "Supplied AI-generated illustration; not a patient scan or diagnostic evidence"
     },
     {
       "id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
@@ -340,7 +333,7 @@
     },
     {
       "id": "education",
-      "name": "Patient education",
+      "name": "Daily life with PsA",
       "order": 5,
       "subtopics": [
         {
@@ -357,7 +350,7 @@
     },
     {
       "id": "contact",
-      "name": "When to contact care team",
+      "name": "Talking with your care team",
       "order": 6,
       "subtopics": [
         {
@@ -410,7 +403,7 @@
       "topic_id": "dx",
       "subtopic_id": "dx-caspar",
       "title": "Understanding the CASPAR framework",
-      "est_minutes": 2,
+      "est_minutes": 1,
       "pages": [
         {
           "order": 1,
@@ -418,7 +411,7 @@
         },
         {
           "order": 2,
-          "body": "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team. The picture below is an AI-made example of a heel spur. It is not a scan from a patient. It helps show why an image needs a doctor's review."
+          "body": "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team."
         }
       ],
       "key_takeaways": [
@@ -435,13 +428,7 @@
         "fk_grade": 5.188
       },
       "generated_by": "llm",
-      "status": "draft",
-      "images": [
-        {
-          "media_id": "psa-heel-spur",
-          "page": 2
-        }
-      ]
+      "status": "draft"
     },
     {
       "id": "psa-overview-01",
@@ -928,7 +915,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "Treatment discussions start with what is active and what matters to you. The six disease domains help describe this. They include skin, nails, joints away from the spine, the spine, whole-digit swelling, and attachment sites. The care team considers these domains together. The image is a guide to what needs attention. It is not a list of medicines or a treatment order."
+          "body": "Treatment discussions start with what is active and what matters to you. The six disease domains help describe this. They include skin, nails, joints away from the spine, the spine, whole-digit swelling, and attachment sites. The care team considers these domains together."
         },
         {
           "order": 2,
@@ -949,13 +936,7 @@
         "fk_grade": 6.805
       },
       "generated_by": "llm",
-      "status": "draft",
-      "images": [
-        {
-          "media_id": "psa-overview-grappa-domains",
-          "page": 1
-        }
-      ]
+      "status": "draft"
     },
     {
       "id": "psa-treatment-02",
@@ -1126,7 +1107,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder. The picture includes both PsA and a related condition called AS. Use the labels to name a place on your body. It does not mean you have both conditions."
+          "body": "Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder."
         },
         {
           "order": 2,
@@ -1147,13 +1128,7 @@
         "fk_grade": 6.586
       },
       "generated_by": "llm",
-      "status": "draft",
-      "images": [
-        {
-          "media_id": "psa-reporting-body-map",
-          "page": 1
-        }
-      ]
+      "status": "draft"
     },
     {
       "id": "psa-contact-02",
@@ -1231,20 +1206,6 @@
       "alt_text": "Pain at the bottom of a heel.",
       "credit": "Supplied educational illustration.",
       "source_id": "src-plantar-fasciitis-illustration"
-    },
-    {
-      "id": "psa-heel-spur",
-      "file": "media/heel-spur-illustration.jpg",
-      "alt_text": "AI-made example of a heel spur. This picture cannot prove that someone has PsA.",
-      "credit": "Supplied image labeled illustrative and AI-generated.",
-      "source_id": "src-heel-spur-illustration"
-    },
-    {
-      "id": "psa-reporting-body-map",
-      "file": "media/symptom-reporting-body-map.jpg",
-      "alt_text": "Use the body labels to describe where symptoms occur. The poster covers PsA and AS; they are different conditions.",
-      "credit": "Supplied AbbVie educational poster, May 2019. Original labels and attribution retained.",
-      "source_id": "src-psa-as-symptoms"
     }
   ]
 }

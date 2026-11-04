@@ -69,3 +69,23 @@ export interface QuizItem {
   answer: number;
   feedback: string | null;
 }
+
+export interface ImageHotspot {
+  id: string;
+  label: string;
+  lessonId: string;
+  /** Normalized 0-1 box against the uncropped image. A polygon is reduced to its bounding box. */
+  bounds: { x: number; y: number; width: number; height: number };
+}
+
+/** A tappable topic image (api-contract §7). */
+export interface TopicImageMap {
+  topicId: string;
+  image: { id: string; path: string; altText: string; credit: string | null };
+  imageWidth: number;
+  imageHeight: number;
+  /** Identifies the exact image, since coordinates only fit the file they were made for. */
+  imageSha256: string;
+  /** Only hotspots whose lesson is published. */
+  hotspots: ImageHotspot[];
+}

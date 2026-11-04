@@ -34,15 +34,15 @@ export const eqValue = (request: ApiRequest, key: string) => request.query?.[key
 /**
  * Wraps an offline answer function with the simulated latency and failures
  * (EXPO_PUBLIC_MOCK_DELAY_MS / EXPO_PUBLIC_MOCK_FAIL). `answer` returns the
- * 200 body, or null for a request the contract doesn't allow (answered 400).
+ * 200 body, or undefined for a request the contract doesn't allow (answered 400).
  */
 export function simulated(answer: (request: ApiRequest) => unknown, { delayMs = 0, fail }: MockOptions = {}): Transport {
   return async (request) => {
     if (delayMs) await new Promise((r) => setTimeout(r, delayMs));
     if (fail === 'network') throw new TypeError('Mock network failure (EXPO_PUBLIC_MOCK_FAIL=network)');
     if (fail === '401') return { status: 401, body: error401 };
-    const body = fail === '400' ? null : answer(request);
-    return body === null ? { status: 400, body: error400 } : { status: 200, body };
+    const body = fail === '400' ? undefined : answer(request);
+    return body === undefined ? { status: 400, body: error400 } : { status: 200, body };
   };
 }
 
@@ -64,8 +64,10 @@ function fixtureFor(request: ApiRequest): string | null {
 
 export function createMockTransport(options: MockOptions = {}): Transport {
   return simulated((request) => {
+    // The fixtures have no image maps; the real API answers null for those.
+    if (request.path === 'rpc/get_topic_image_map') return null;
     const name = fixtureFor(request);
     // Unknown or unpublished ids answer 200 with [] (empty.json), like the real API.
-    return name ? (RESPONSES[name] ?? []) : null;
+    return name ? (RESPONSES[name] ?? []) : undefined;
   }, options);
 }

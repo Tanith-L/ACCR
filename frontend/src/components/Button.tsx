@@ -5,7 +5,7 @@ import { colors, fonts, radius, spacing } from '@/theme';
 interface Props {
   label: string;
   onPress: () => void;
-  /** primary: filled teal. outline: white with a teal border. link: teal text only. */
+  /** primary: filled. outline: light with a colored border. link: colored text only. */
   variant?: 'primary' | 'outline' | 'link';
   disabled?: boolean;
   accessibilityHint?: string;
@@ -21,6 +21,7 @@ export function Button({ label, onPress, variant = 'primary', disabled, accessib
       onPress={onPress}
       style={({ pressed }) => [
         styles.base,
+        pressed && !disabled && styles.pressed,
         variant === 'primary' && {
           backgroundColor: disabled ? colors.primaryDisabled : pressed ? colors.primaryPressed : colors.primary,
         },
@@ -37,12 +38,14 @@ export function Button({ label, onPress, variant = 'primary', disabled, accessib
 
 const styles = StyleSheet.create({
   base: {
-    minHeight: 52,
-    borderRadius: radius.sm,
-    paddingHorizontal: spacing.xl,
+    minHeight: 54,
+    borderRadius: radius.md,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: spacing.sm,
     alignItems: 'center',
     justifyContent: 'center',
   },
+  pressed: { transform: [{ scale: 0.98 }] },
   outline: { backgroundColor: colors.surface, borderWidth: 1.5, borderColor: colors.primary },
-  label: { fontFamily: fonts.semibold, fontSize: 17 },
+  label: { fontFamily: fonts.semibold, fontSize: 17, textAlign: 'center' },
 });

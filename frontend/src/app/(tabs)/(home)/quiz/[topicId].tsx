@@ -142,15 +142,16 @@ function Quiz({ items, topicId, topicName, onDone }: QuizProps) {
         </>
       }
     >
-      <Bubble icon={correct ? 'check' : 'x'} tone={correct ? 'success' : 'danger'} />
-      <Text style={[type.display, { color: correct ? colors.success : colors.danger }]} accessibilityRole="alert">
-        {correct ? 'Correct' : 'Not quite yet'}
+      <Bubble icon={correct ? 'check' : 'refresh-cw'} tone={correct ? 'success' : 'gentle'} />
+      <Text style={[type.display, { color: correct ? colors.success : colors.accentText }]} accessibilityRole="alert">
+        {correct ? 'That’s right!' : 'Not quite yet'}
       </Text>
+      {!correct && <Text style={type.lead}>That’s okay. Learning takes practice, and you can try again.</Text>}
       <Text style={type.body}>
         {correct ? (item.feedback ?? 'That’s the best answer.') : `The best answer is: ${item.options[item.answer]}`}
       </Text>
       {/* The API has one feedback text per question; it explains the answer when the pick was wrong. */}
-      {!correct && item.feedback ? <InfoCard title="Why this matters">{item.feedback}</InfoCard> : null}
+      {!correct && item.feedback ? <InfoCard icon="bookmark" title="Why this matters">{item.feedback}</InfoCard> : null}
       <SourceLine />
       {correct && isLast && (
         <Text style={type.lead}>

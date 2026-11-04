@@ -3,7 +3,7 @@ import type { ComponentProps } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { colors, fonts, radius, spacing } from '@/theme';
+import { colors, fonts, minTouch, radius, spacing } from '@/theme';
 
 import { Icon, type IconName } from './Icon';
 
@@ -15,7 +15,7 @@ const TABS: Record<string, { label: string; icon: IconName }> = {
   settings: { label: 'Settings', icon: 'settings' },
 };
 
-/** Care Team · Home · Settings, with a soft teal pill behind the active tab. */
+/** Care Team · Home · Settings, with a soft pill behind the active tab. */
 export function TabBar({ state, navigateToTab }: TabBarProps) {
   const insets = useSafeAreaInsets();
   return (
@@ -40,7 +40,9 @@ export function TabBar({ state, navigateToTab }: TabBarProps) {
             style={[styles.tab, focused && styles.active]}
           >
             <Icon name={tab.icon} size={22} color={tint} />
-            <Text style={[styles.label, { color: tint }]}>{tab.label}</Text>
+            <Text style={[styles.label, { color: tint }]} maxFontSizeMultiplier={1.3}>
+              {tab.label}
+            </Text>
           </Pressable>
         );
       })}
@@ -58,7 +60,7 @@ const styles = StyleSheet.create({
     borderTopWidth: StyleSheet.hairlineWidth,
     borderTopColor: colors.border,
   },
-  tab: { flex: 1, alignItems: 'center', gap: 3, paddingVertical: spacing.sm, borderRadius: radius.md },
+  tab: { flex: 1, minHeight: minTouch, alignItems: 'center', gap: 3, paddingVertical: spacing.sm, borderRadius: radius.md },
   active: { backgroundColor: colors.primarySoft },
   label: { fontFamily: fonts.medium, fontSize: 13 },
 });

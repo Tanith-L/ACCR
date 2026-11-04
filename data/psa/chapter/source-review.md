@@ -18,7 +18,7 @@ Text use does not require embedding the entire original image. Background candid
 | [generated/overview-mindmap-v1.png](../originals/generated/overview-mindmap-v1.png) | superseded_asset | None | Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map. Review scope: Checked file identity and absence from active media/map references. |
 | [generated/symptoms-mindmap-v1.png](../originals/generated/symptoms-mindmap-v1.png) | superseded_asset | None | Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map. Review scope: Checked file identity and absence from active media/map references. |
 | [GRAPPA domains in PSA which guide treatment decisions.png](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png) | lesson_source | psa-overview-01, psa-overview-02, psa-symptoms-01, psa-symptoms-06, psa-symptoms-07, psa-symptoms-08, psa-treatment-01 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
-| [Heel X-ray with a bony spur (illustrative, AI-generated).jpg](../originals/Heel%20X-ray%20with%20a%20bony%20spur%20%28illustrative%2C%20AI-generated%29.jpg) | lesson_source | psa-dx-02 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
+| [Heel X-ray with a bony spur (illustrative, AI-generated).jpg](../originals/Heel%20X-ray%20with%20a%20bony%20spur%20%28illustrative%2C%20AI-generated%29.jpg) | superseded_asset | None | Removed from psa-dx-02 at the frontend lead's request: the lesson says a heel spur alone is not the CASPAR finding, so the picture did not illustrate the framework. AI-generated. Retained as an original history asset. Review scope: Visual review of the source image and caption. |
 | [Management Guidelines of Arthritis and Autoimmune Diseases.docx](../originals/Management%20Guidelines%20of%20Arthritis%20and%20Autoimmune%20Diseases.docx) | lesson_source | psa-treatment-01, psa-treatment-02 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified. |
 | [mindmap.jpeg](../originals/mindmap.jpeg) | lesson_source | psa-dx-02, psa-treatment-02, psa-treatment-03 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [MURPHY’S LAWS OF ARTHRITIS  PREFACE.docx](../originals/MURPHY%E2%80%99S%20LAWS%20OF%20ARTHRITIS%20%20PREFACE.docx) | lesson_source | psa-dx-01, psa-treatment-03, psa-education-01, psa-contact-01 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified. |
@@ -62,7 +62,6 @@ External references supplement these originals:
 
 - [Handwritten PsA mind map](../originals/mindmap.jpeg): Pages 1, 2; text. Source location: Right-hand CASPAR branch: entry criterion and five feature groups. Use: Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone. Limits: Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score.
 - [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1, 2; text. Source location: Box A: CASPAR table. Use: Explains current/past/family psoriasis, nails, RF and dactylitis. Limits: Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature.
-- [Heel X-ray with a bony spur (illustrative, AI-generated)](../originals/Heel%20X-ray%20with%20a%20bony%20spur%20%28illustrative%2C%20AI-generated%29.jpg): Pages 2; image. Source location: PSA4 caption and underside of heel in the illustration. Use: Visual example of a heel spur accompanying the explanation of imaging limits. Limits: AI-generated illustration, not a real scan; the image does not establish a CASPAR feature.
 
 External references supplement these originals:
 
@@ -258,7 +257,7 @@ External references supplement these originals:
 [Open lesson](overview.html#lesson=psa-treatment-01)
 
 - [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1, 2; text. Source location: Box B domains; related conditions; comorbidities that steer the drug. Use: Choice considers active domains plus eye, bowel and other health needs. Limits: Do not copy the abbreviated drug rules as patient instructions.
-- [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1; text_and_image. Source location: Six GRAPPA treatment domain cards. Use: Shows the six areas considered in goal setting. Limits: Domain overview only, not a ranked treatment pathway.
+- [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1; text. Source location: Six GRAPPA treatment domain cards. Use: Names the six areas considered in goal setting; the poster is not displayed. Limits: Domain overview only, not a ranked treatment pathway.
 - [Management Guidelines of Arthritis and Autoimmune Diseases](../originals/Management%20Guidelines%20of%20Arthritis%20and%20Autoimmune%20Diseases.docx): Pages 2; text. Source location: Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership. Use: Individual response, other illnesses and follow-up shape the plan. Limits: This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance.
 
 External references supplement these originals:
@@ -325,7 +324,7 @@ External references supplement these originals:
 
 [Open lesson](overview.html#lesson=psa-contact-01)
 
-- [PsA & AS Symptoms](../originals/PsA%20%26%20AS%20Symptoms.jpeg): Pages 1, 2; text_and_image. Source location: Body labels and footer: talk to your healthcare provider if you notice symptoms. Use: Actual body-map illustration for describing symptom location and reporting changes. Limits: Explicitly label that the poster covers both PsA and AS; not an urgency scale.
+- [PsA & AS Symptoms](../originals/PsA%20%26%20AS%20Symptoms.jpeg): Pages 1, 2; text. Source location: Body labels and footer: talk to your healthcare provider if you notice symptoms. Use: Body-map labels as a reference for describing symptom location and reporting changes; the poster is not displayed. Limits: Explicitly label that the poster covers both PsA and AS; not an urgency scale.
 - [Clinical manifestations of PsA](../originals/clinical%20manifestations%20of%20PSA%20written%20at%20an%208th%20grade%20level.png): Pages 1; text. Source location: All body-area cards. Use: Alternative readable body-area labels for a symptom message. Limits: Specific message examples are editorial teaching aids.
 - [Murphy’s Laws of Arthritis Preface](../originals/MURPHY%E2%80%99S%20LAWS%20OF%20ARTHRITIS%20%20PREFACE.docx): Pages 2; text. Source location: Paragraph 11: monitoring and contingency plans. Use: Ask for contact routes and an out-of-hours plan. Limits: Clinic phone numbers, hours and response times must come from the patient's clinic.
 
@@ -351,6 +350,6 @@ External references supplement these originals:
 - archive_container: 1
 - background_only: 2
 - design_reference: 5
-- lesson_source: 14
+- lesson_source: 13
 - prototype_asset: 4
-- superseded_asset: 5
+- superseded_asset: 6

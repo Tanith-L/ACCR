@@ -5,6 +5,8 @@ import type { LessonImage as LessonImageData } from '@/content';
 import { resolveImage } from '@/content/media';
 import { colors, radius, spacing, type } from '@/theme';
 
+import { ImageViewer } from './ImageViewer';
+
 /** Image with alt text and credit; a placeholder box when it can't be loaded. */
 export function LessonImage({ image }: { image: LessonImageData }) {
   const source = resolveImage(image.path);
@@ -45,15 +47,16 @@ export function LessonImage({ image }: { image: LessonImageData }) {
           )}
         </View>
       </View>
-      {image.credit ? <Text style={styles.credit}>Image: {image.credit}</Text> : null}
+      {source && !failed && <ImageViewer source={source} altText={image.altText} ratio={aspectRatio} />}
+      {image.credit ? <Text style={styles.credit}>{image.credit}</Text> : null}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   figure: { gap: spacing.sm },
-  // Soft framed panel from the Figma lesson screens.
-  panel: { padding: spacing.xl, borderRadius: radius.lg, backgroundColor: colors.imagePanel },
+  // Soft framed panel, tighter on the sides so posters stay readable.
+  panel: { padding: spacing.md, borderRadius: radius.lg, backgroundColor: colors.imagePanel },
   image: { width: '100%', aspectRatio: 4 / 3, borderRadius: radius.sm },
   placeholder: { alignItems: 'center', justifyContent: 'center', padding: spacing.lg },
   placeholderText: { ...type.caption, textAlign: 'center' },

@@ -1,23 +1,28 @@
-// Home: the learning topics with progress per topic.
+// Home: a friendly welcome, overall progress, the knowledge map and the topics.
 import { router } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native';
 
+import { Card } from '@/components/Card';
+import { Icon } from '@/components/Icon';
+import { ProgressBar } from '@/components/ProgressBar';
 import { Screen } from '@/components/Screen';
 import { AsyncContent } from '@/components/StateViews';
-import { TopicCard } from '@/components/TopicCard';
+import { topicIcon, TopicCard } from '@/components/TopicCard';
 import { contentService } from '@/content';
+import { getCourse } from '@/content/course';
 import { useAsync } from '@/hooks/useAsync';
 import { useProgress } from '@/progress/ProgressContext';
 import { colors, fonts, radius, spacing, type } from '@/theme';
-import { percent, plural } from '@/utils/format';
+
+/** Encouraging, never a score to worry about. */
+function encouragement(done: number, total: number): string {
+  if (done === 0) return 'Start with any topic, whenever you feel ready.';
+  if (done === total) return 'You finished every lesson. You can come back anytime.';
+  return 'Nice work. Pick up wherever you like.';
+}
 
 export default function HomeScreen() {
-  // Percentages need each topic's lesson list; v_topics has no lesson count.
-  const state = useAsync(async () => {
-    const topics = await contentService.getTopics();
-    const paths = await Promise.all(topics.map((t) => contentService.getLearningPath(t.id).catch(() => null)));
-    return topics.map((topic, i) => ({ topic, lessonIds: paths[i]?.lessonIds ?? [] }));
-  }, 'home');
+  const state = useAsync(() => getCourse(contentService), 'home');
   const { countCompleted } = useProgress();
 
   return (
@@ -27,30 +32,42 @@ export default function HomeScreen() {
       empty={{ title: 'No lessons yet', message: 'New lessons will appear here soon.' }}
     >
       {(list) => {
-        const totals = list.map(({ lessonIds }) => ({ done: countCompleted(lessonIds), total: lessonIds.length }));
-        const started = totals.filter((t) => t.done > 0).length;
-        const overall = percent(
-          totals.reduce((s, t) => s + t.done, 0),
-          totals.reduce((s, t) => s + t.total, 0),
-        );
+        const done = list.reduce((sum, { path }) => sum + countCompleted(path.lessonIds), 0);
+        const total = list.reduce((sum, { path }) => sum + path.lessonIds.length, 0);
         return (
           <Screen onRefresh={state.reload}>
-            <Text style={type.title}>Your learning topics</Text>
-            <Text style={type.lead}>Start with the recommended topic or choose what matters to you today.</Text>
+            <Text style={type.display}>Welcome</Text>
+            <Text style={type.lead}>Short, simple lessons about living with psoriatic arthritis, at your own pace.</Text>
 
-            <View style={styles.summary} accessibilityLabel={`${started} of ${list.length} topics started, ${overall} percent complete`}>
-              <Text style={styles.summaryText}>
-                {plural(list.length, 'topic', `${started} of ${list.length}`)} started
+            <View style={styles.summary}>
+              <Text style={styles.summaryTitle}>
+                {done} of {total} lessons finished
               </Text>
-              <Text style={styles.summaryText}>{overall}%</Text>
+              <ProgressBar value={total ? done / total : 0} label={`${done} of ${total} lessons finished`} trackColor={colors.surface} />
+              <Text style={styles.summaryText}>{encouragement(done, total)}</Text>
             </View>
 
-            {list.map(({ topic, lessonIds }, i) => (
+            <Card onPress={() => router.push('/mind-map')} accessibilityLabel="Open the knowledge map">
+              <View style={styles.mapRow}>
+                <Icon name="share-2" size={24} color={colors.primary} />
+                <View style={styles.mapText}>
+                  <Text style={type.heading}>Knowledge map</Text>
+                  <Text style={type.caption}>See how PsA fits together, on one screen.</Text>
+                </View>
+                <Icon name="chevron-right" size={22} color={colors.textMuted} />
+              </View>
+            </Card>
+
+            <Text style={type.heading} accessibilityRole="header">
+              Topics
+            </Text>
+            {list.map(({ topic, path }) => (
               <TopicCard
                 key={topic.id}
                 name={topic.name}
-                subtitle={plural(lessonIds.length, 'short lesson')}
-                percent={percent(totals[i].done, totals[i].total)}
+                icon={topicIcon(topic.id, topic.icon)}
+                done={countCompleted(path.lessonIds)}
+                total={path.lessonIds.length}
                 onPress={() =>
                   router.push({ pathname: '/topic/[topicId]', params: { topicId: topic.id, name: topic.name } })
                 }
@@ -64,14 +81,9 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  summary: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    paddingHorizontal: spacing.xl,
-    paddingVertical: spacing.lg + 4,
-    borderRadius: radius.md,
-    backgroundColor: colors.primarySoft,
-  },
-  summaryText: { fontFamily: fonts.semibold, fontSize: 19, color: colors.primary },
+  summary: { gap: spacing.sm + 2, padding: spacing.lg + 2, borderRadius: radius.lg, backgroundColor: colors.primarySoft },
+  summaryTitle: { fontFamily: fonts.semibold, fontSize: 18, lineHeight: 24, color: colors.primary },
+  summaryText: { ...type.caption, color: colors.primary },
+  mapRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
+  mapText: { flex: 1, gap: 2 },
 });

@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { colors, fonts, radius, spacing, type } from '@/theme';
 
-/** The RHEUMNOTES© wordmark in small caps. `badge` sits on a teal tile (Welcome screen). */
+/** The RHEUMNOTES© wordmark in small caps. `badge` sits on a colored tile (Welcome screen). */
 export function Logo({ variant = 'badge' }: { variant?: 'badge' | 'inline' }) {
   const badge = variant === 'badge';
   const color = badge ? colors.primaryText : colors.text;

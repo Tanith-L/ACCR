@@ -442,7 +442,7 @@ parts:
 - topic_id: education
   order: 5
   folder: 05-patient-education
-  name: Patient education
+  name: Daily life with PsA
   purpose: Organize daily-life education with separate modules for doctor's advice,
     do's and don'ts, and common patient questions.
   lessons:
@@ -518,7 +518,7 @@ parts:
 - topic_id: contact
   order: 6
   folder: 06-when-to-contact-the-care-team
-  name: When to contact the care team
+  name: Talking with your care team
   purpose: Extract symptom-communication topics from existing materials and identify
     gaps in contact timing, urgency and ACCR contact details.
   lessons:

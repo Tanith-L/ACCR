@@ -1,25 +1,35 @@
-import { StyleSheet, View } from 'react-native';
+import { useEffect, useState } from 'react';
+import { Animated, StyleSheet } from 'react-native';
 
+import { useReducedMotion } from '@/hooks/useReducedMotion';
 import { colors } from '@/theme';
 
 import { Icon, type IconName } from './Icon';
 
-/** Large round badge at the top of the quiz screens ("?", ✓, ✗). */
+/** Large round badge at the top of the quiz and state screens. Pops in gently unless motion is reduced. */
 export function Bubble({
   icon,
   tone = 'soft',
   size = 104,
 }: {
   icon: IconName;
-  tone?: 'soft' | 'success' | 'danger';
+  tone?: 'soft' | 'success' | 'gentle';
   size?: number;
 }) {
-  const bg = tone === 'danger' ? colors.danger : colors.primarySoft;
-  const fg = tone === 'danger' ? colors.primaryText : tone === 'success' ? colors.success : colors.primary;
+  const reducedMotion = useReducedMotion();
+  const [scale] = useState(() => new Animated.Value(1));
+  useEffect(() => {
+    if (reducedMotion) return;
+    scale.setValue(0.85);
+    Animated.spring(scale, { toValue: 1, friction: 6, useNativeDriver: true }).start();
+  }, [icon, reducedMotion, scale]);
+
+  const bg = tone === 'gentle' ? colors.accentSoft : colors.primarySoft;
+  const fg = tone === 'gentle' ? colors.accentText : tone === 'success' ? colors.success : colors.primary;
   return (
-    <View style={[styles.bubble, { width: size, height: size, backgroundColor: bg }]}>
+    <Animated.View style={[styles.bubble, { width: size, height: size, backgroundColor: bg, transform: [{ scale }] }]}>
       <Icon name={icon} size={size * 0.42} color={fg} />
-    </View>
+    </Animated.View>
   );
 }
 

@@ -6,7 +6,7 @@ import { usePreferences } from '@/preferences/PreferencesContext';
 import { colors } from '@/theme';
 
 // Open on Home, the middle tab, rather than the first one (Care Team).
-export const unstable_settings = { initialRouteName: '(home)' };
+export const unstable_settings = { anchor: '(home)' };
 
 export default function TabsLayout() {
   const { ready, onboarded } = usePreferences();
@@ -22,6 +22,7 @@ export default function TabsLayout() {
 
   return (
     <Tabs
+      backBehavior="initialRoute"
       tabBar={(props) => <TabBar {...props} />}
       screenOptions={{ headerShown: false, sceneStyle: { backgroundColor: colors.background } }}
     >

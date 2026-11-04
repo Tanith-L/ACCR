@@ -6,10 +6,12 @@ import {
   toLearningPath,
   toLesson,
   toQuiz,
+  toTopicImageMap,
   toTopics,
   type LessonRow,
   type PathSubtopicRow,
   type QuizRow,
+  type TopicImageMapRow,
   type TopicRow,
 } from './mappers';
 
@@ -38,7 +40,7 @@ function errorFor(status: number, path: string): ContentError {
 }
 
 export function createApiService(transport: Transport): ContentService {
-  async function call<T>(request: ApiRequest): Promise<T[]> {
+  async function send(request: ApiRequest): Promise<unknown> {
     let response: ApiResponse;
     try {
       response = await transport(request);
@@ -51,10 +53,15 @@ export function createApiService(transport: Transport): ContentService {
       }
     }
     if (response.status < 200 || response.status >= 300) throw errorFor(response.status, request.path);
-    if (!Array.isArray(response.body)) {
+    return response.body;
+  }
+
+  async function call<T>(request: ApiRequest): Promise<T[]> {
+    const body = await send(request);
+    if (!Array.isArray(body)) {
       throw new ContentError('UNKNOWN', `${request.path} did not return an array`);
     }
-    return response.body as T[];
+    return body as T[];
   }
 
   return {
@@ -88,6 +95,12 @@ export function createApiService(transport: Transport): ContentService {
         query: { lesson_id: `eq.${lessonId}`, order: 'id' },
       });
       return toQuiz(rows);
+    },
+
+    async getTopicImageMap(topicId) {
+      // Unlike the list endpoints this returns one object or null (contract §7).
+      const row = await send({ method: 'POST', path: 'rpc/get_topic_image_map', body: { p_topic_id: topicId } });
+      return row ? toTopicImageMap(row as TopicImageMapRow) : null;
     },
   };
 }

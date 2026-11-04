@@ -90,7 +90,7 @@
       "title": "Understanding the CASPAR framework",
       "pages": [
         "CASPAR is a way to group findings for PsA. First, there must be signs of inflammation. These may be in a joint, the spine, or a tendon attachment. Other features are then considered. They include psoriasis now or in the past, or psoriasis in the family. Nail changes and swelling of a whole finger or toe are also part of the framework.",
-        "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team. The picture below is an AI-made example of a heel spur. It is not a scan from a patient. It helps show why an image needs a doctor's review."
+        "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team."
       ],
       "key_takeaways": [
         "First, there must be signs of inflammation.",
@@ -98,20 +98,14 @@
       ],
       "source_ids": [
         "src-mindmap",
-        "src-psa-one-pager-intro",
-        "src-heel-spur-illustration"
+        "src-psa-one-pager-intro"
       ],
       "references": [
         "niams-care",
         "caspar-original"
       ],
       "review_notes": "Handwritten CASPAR branch and the obscured One-Pager require clinical confirmation. No numerical score or self-diagnosis tool is implemented.",
-      "images": [
-        {
-          "media_id": "psa-heel-spur",
-          "page": 2
-        }
-      ],
+      "images": [],
       "source_usage": [
         {
           "source_id": "src-mindmap",
@@ -134,16 +128,6 @@
           "locator": "Box A: CASPAR table",
           "contribution": "Explains current/past/family psoriasis, nails, RF and dactylitis.",
           "limits": "Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature."
-        },
-        {
-          "source_id": "src-heel-spur-illustration",
-          "pages": [
-            2
-          ],
-          "kind": "image",
-          "locator": "PSA4 caption and underside of heel in the illustration",
-          "contribution": "Visual example of a heel spur accompanying the explanation of imaging limits.",
-          "limits": "AI-generated illustration, not a real scan; the image does not establish a CASPAR feature."
         }
       ]
     },
@@ -971,7 +955,7 @@
       "id": "psa-treatment-01",
       "title": "How treatment goals are chosen",
       "pages": [
-        "Treatment discussions start with what is active and what matters to you. The six disease domains help describe this. They include skin, nails, joints away from the spine, the spine, whole-digit swelling, and attachment sites. The care team considers these domains together. The image is a guide to what needs attention. It is not a list of medicines or a treatment order.",
+        "Treatment discussions start with what is active and what matters to you. The six disease domains help describe this. They include skin, nails, joints away from the spine, the spine, whole-digit swelling, and attachment sites. The care team considers these domains together.",
         "Goals may include easing symptoms, protecting joints, and making daily tasks easier. Eye or bowel disease and other health conditions also matter. The team asks what you have tried before. They review your other medicines, side effects, and what matters to you. A treatment plan is chosen for a person, rather than from one symptom alone. A medicine that helps one domain may not cover every concern equally. Ask which parts of your disease the plan addresses and how progress will be checked."
       ],
       "key_takeaways": [
@@ -988,12 +972,7 @@
         "grappa-2021"
       ],
       "review_notes": "Uses the GRAPPA poster as a domain framework, not as a treatment algorithm. No image-only drug selection, dose advice, or claims that all medicines cover all domains.",
-      "images": [
-        {
-          "media_id": "psa-overview-grappa-domains",
-          "page": 1
-        }
-      ],
+      "images": [],
       "source_usage": [
         {
           "source_id": "src-psa-one-pager-intro",
@@ -1011,9 +990,9 @@
           "pages": [
             1
           ],
-          "kind": "text_and_image",
+          "kind": "text",
           "locator": "Six GRAPPA treatment domain cards",
-          "contribution": "Shows the six areas considered in goal setting.",
+          "contribution": "Names the six areas considered in goal setting; the poster is not displayed.",
           "limits": "Domain overview only, not a ranked treatment pathway."
         },
         {
@@ -1246,7 +1225,7 @@
       "id": "psa-contact-01",
       "title": "Sharing changes with your care team",
       "pages": [
-        "Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder. The picture includes both PsA and a related condition called AS. Use the labels to name a place on your body. It does not mean you have both conditions.",
+        "Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder.",
         "A body map cannot tell you how urgent a symptom is. The next lesson explains eye and gut changes to report. Medicine concerns and repeated flares are also reasons to contact the prescribing team. Ask your clinic for its phone number and office hours. Ask about expected response times and how to get help when it is closed. Keep your own care plan available. For urgent symptoms, use urgent medical services rather than waiting for a routine app message."
       ],
       "key_takeaways": [
@@ -1263,12 +1242,6 @@
         "npf-flares"
       ],
       "review_notes": "The supplied May 2019 PsA/AS poster supports naming symptom locations and talking with a healthcare provider. It does not define urgency, distinguish causes, or provide an ACCR protocol. No invented local contacts or response times.",
-      "images": [
-        {
-          "media_id": "psa-reporting-body-map",
-          "page": 1
-        }
-      ],
       "source_usage": [
         {
           "source_id": "src-psa-as-symptoms",
@@ -1276,9 +1249,9 @@
             1,
             2
           ],
-          "kind": "text_and_image",
+          "kind": "text",
           "locator": "Body labels and footer: talk to your healthcare provider if you notice symptoms",
-          "contribution": "Actual body-map illustration for describing symptom location and reporting changes.",
+          "contribution": "Body-map labels as a reference for describing symptom location and reporting changes; the poster is not displayed.",
           "limits": "Explicitly label that the poster covers both PsA and AS; not an urgency scale."
         },
         {
@@ -1391,20 +1364,6 @@
       "alt_text": "Pain at the bottom of a heel.",
       "credit": "Supplied educational illustration.",
       "source_id": "src-plantar-fasciitis-illustration"
-    },
-    {
-      "id": "psa-heel-spur",
-      "file": "media/heel-spur-illustration.jpg",
-      "alt_text": "AI-made example of a heel spur. This picture cannot prove that someone has PsA.",
-      "credit": "Supplied image labeled illustrative and AI-generated.",
-      "source_id": "src-heel-spur-illustration"
-    },
-    {
-      "id": "psa-reporting-body-map",
-      "file": "media/symptom-reporting-body-map.jpg",
-      "alt_text": "Use the body labels to describe where symptoms occur. The poster covers PsA and AS; they are different conditions.",
-      "credit": "Supplied AbbVie educational poster, May 2019. Original labels and attribution retained.",
-      "source_id": "src-psa-as-symptoms"
     }
   ],
   "supplemental_sources": [
@@ -1487,14 +1446,6 @@
         "locator_kind": "image",
         "needs_transcription": true
       }
-    },
-    {
-      "id": "src-heel-spur-illustration",
-      "title": "Heel X-ray with a bony spur (illustrative, AI-generated)",
-      "type": "image",
-      "local_file": "data/psa/originals/Heel X-ray with a bony spur (illustrative, AI-generated).jpg",
-      "file_hash": "88b0f1371866d66a37515caaff289e95becec9a33cb1d43edbcfc3124617fc05",
-      "provided_by": "Supplied AI-generated illustration; not a patient scan or diagnostic evidence"
     }
   ]
 }

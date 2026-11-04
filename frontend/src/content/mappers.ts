@@ -1,6 +1,6 @@
 // snake_case rows from the API (backend/docs/api-contract.md §3) -> app types.
 // Lists are sorted by sort_order / order here, never by arrival order.
-import type { LearningPath, Lesson, PathSubtopic, QuizItem, Topic } from './types';
+import type { ImageHotspot, LearningPath, Lesson, PathSubtopic, QuizItem, Topic, TopicImageMap } from './types';
 
 export interface TopicRow {
   id: string;
@@ -43,6 +43,24 @@ export interface QuizRow {
   options: string[];
   answer: number;
   feedback: string | null;
+}
+
+export interface HotspotRow {
+  id: string;
+  label: string;
+  lesson_id: string;
+  shape: 'rect' | 'polygon';
+  bounds?: { x: number; y: number; width: number; height: number };
+  points?: { x: number; y: number }[];
+}
+
+export interface TopicImageMapRow {
+  topic_id: string;
+  media: { id: string; path: string; alt_text: string; credit: string | null };
+  image_width: number;
+  image_height: number;
+  image_sha256: string;
+  hotspots: HotspotRow[];
 }
 
 const bySortOrder = <T extends { sort_order: number }>(rows: T[]) =>
@@ -96,3 +114,21 @@ export const toQuiz = (rows: QuizRow[]): QuizItem[] =>
     answer: q.answer,
     feedback: q.feedback ?? null,
   }));
+
+function hotspotBounds(row: HotspotRow): ImageHotspot['bounds'] {
+  if (row.bounds) return row.bounds;
+  const xs = (row.points ?? []).map((p) => p.x);
+  const ys = (row.points ?? []).map((p) => p.y);
+  const x = Math.min(...xs);
+  const y = Math.min(...ys);
+  return { x, y, width: Math.max(...xs) - x, height: Math.max(...ys) - y };
+}
+
+export const toTopicImageMap = (r: TopicImageMapRow): TopicImageMap => ({
+  topicId: r.topic_id,
+  image: { id: r.media.id, path: r.media.path, altText: r.media.alt_text, credit: r.media.credit ?? null },
+  imageWidth: r.image_width,
+  imageHeight: r.image_height,
+  imageSha256: r.image_sha256,
+  hotspots: r.hotspots.map((h) => ({ id: h.id, label: h.label, lessonId: h.lesson_id, bounds: hotspotBounds(h) })),
+});

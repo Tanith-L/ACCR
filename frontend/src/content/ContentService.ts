@@ -1,4 +1,4 @@
-import type { LearningPath, Lesson, QuizItem, Topic } from './types';
+import type { LearningPath, Lesson, QuizItem, Topic, TopicImageMap } from './types';
 
 /** The only way screens get content. Built in src/content/index.ts. */
 export interface ContentService {
@@ -10,6 +10,8 @@ export interface ContentService {
   getLesson(lessonId: string): Promise<Lesson | null>;
   /** Quiz items for a lesson; empty when it has none. */
   getQuiz(lessonId: string): Promise<QuizItem[]>;
+  /** The topic's tappable image, or null when it has no approved map. */
+  getTopicImageMap(topicId: string): Promise<TopicImageMap | null>;
 }
 
 /**

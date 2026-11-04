@@ -1,6 +1,7 @@
 import Constants from 'expo-constants';
 import { Text } from 'react-native';
 
+import { GENERAL_INFORMATION_NOTICE } from '@/components/AfterHoursNotice';
 import { AppHeader } from '@/components/AppHeader';
 import { Card, InfoCard } from '@/components/Card';
 import { Screen } from '@/components/Screen';
@@ -16,9 +17,17 @@ export default function AboutScreen() {
           team.
         </Text>
       </Card>
+      <Card title="About ACCR">
+        <Text style={type.body}>
+          The Altoona Center for Clinical Research (ACCR) is a clinical research center in Pennsylvania focused on
+          arthritis and related conditions. RheumNotes was built for ACCR by a student team at Carnegie Mellon
+          University, to help people with psoriatic arthritis understand their condition. The lessons draw on education
+          materials from Dr. Frederick Murphy, a rheumatologist with ACCR.
+        </Text>
+      </Card>
       {/* TODO(data): add a "Citations" card listing the approved source documents once the content
           pipeline provides them (Figma: About screen). */}
-      <InfoCard>This educational app supports conversations with your care team. It does not replace medical advice.</InfoCard>
+      <InfoCard>{GENERAL_INFORMATION_NOTICE}</InfoCard>
       <Text style={type.caption}>Version {Constants.expoConfig?.version ?? '1.0'}</Text>
     </Screen>
   );

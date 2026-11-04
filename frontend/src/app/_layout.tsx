@@ -3,6 +3,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { ActivityIndicator, View } from 'react-native';
 
+import { ToastProvider } from '@/components/Toast';
 import { PreferencesProvider } from '@/preferences/PreferencesContext';
 import { ProgressProvider } from '@/progress/ProgressContext';
 import { colors } from '@/theme';
@@ -23,11 +24,13 @@ export default function RootLayout() {
   return (
     <PreferencesProvider>
       <ProgressProvider>
-        <StatusBar style="dark" />
-        <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.background } }}>
-          <Stack.Screen name="(tabs)" />
-          <Stack.Screen name="welcome" options={{ gestureEnabled: false }} />
-        </Stack>
+        <ToastProvider>
+          <StatusBar style="dark" />
+          <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.background } }}>
+            <Stack.Screen name="(tabs)" />
+            <Stack.Screen name="welcome" options={{ gestureEnabled: false }} />
+          </Stack>
+        </ToastProvider>
       </ProgressProvider>
     </PreferencesProvider>
   );
