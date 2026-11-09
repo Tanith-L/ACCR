@@ -8,7 +8,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "backend/scripts"))
-from convert_repo_content import validate_export
+from contract import validate_export
 from import_content import image_dimensions, media_errors
 
 

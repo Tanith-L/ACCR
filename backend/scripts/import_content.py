@@ -23,7 +23,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from convert_repo_content import find_upwards, validate_export
+from contract import find_upwards, validate_export
 
 MAX_MEDIA_BYTES = 500 * 1024
 FK_GRADE_MAX = 8

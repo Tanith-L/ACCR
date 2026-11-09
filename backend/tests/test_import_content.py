@@ -8,10 +8,10 @@ import pytest
 BACKEND = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BACKEND / "scripts"))
 
-import convert_repo_content as conv  # noqa: E402
+import contract  # noqa: E402
 import import_content as imp  # noqa: E402
 
-SCHEMA_PATH = conv.find_upwards(BACKEND, "schema/content.schema.json")
+SCHEMA_PATH = contract.find_upwards(BACKEND, "schema/content.schema.json")
 MOCK = BACKEND / "fixtures" / "mock_export.json"
 
 pytestmark = pytest.mark.skipif(SCHEMA_PATH is None, reason="schema/content.schema.json not found")
@@ -361,24 +361,10 @@ def test_dry_run_leaves_input_untouched(tmp_path, mock):
     assert sorted(p.name for p in tmp_path.iterdir()) == ["export.json", "mock-joints.png"]
 
 
-# --- converter output feeds the importer ------------------------------------
-
-def test_converted_repo_content_imports_as_draft(tmp_path, schema, capsys):
-    topics = conv.find_upwards(BACKEND, "topics.yaml")
-    if topics is None or not (topics.parent / "lessons").is_dir() or not (topics.parent / "media" / "media.yaml").is_file():
-        pytest.skip("legacy root content (lessons/, media/) not found")
-    data = conv.convert(topics.parent, "2026-10-28T15:00:00Z")
-    path = write_export(tmp_path, data, with_media=False)
-    assert run(path, "--dry-run", "--media-dir", str(topics.parent / "media")) == 0
-    out = capsys.readouterr().out
-    assert f"inserted {len(data['lessons'])}" in out and "downgraded to draft 0" in out
-    assert {p["status"] for p in imp.plan_lessons(data, {})} == {"draft"}
-
-
 # --- the Data Lead's exports feed the importer -------------------------------
 
 def test_data_lead_exports_pass_the_importer(capsys):
-    topics = conv.find_upwards(BACKEND, "topics.yaml")
+    topics = contract.find_upwards(BACKEND, "topics.yaml")
     exports = sorted((topics.parent / "data" / "psa").rglob("*-and-*.json")) if topics else []
     if not exports:
         pytest.skip("no exports under data/psa")

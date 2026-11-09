@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PROMPTS = Path(__file__).parent / "prompts"
 PROMPT_VERSION = "psa-source-grounded-v1"
 sys.path.insert(0, str(ROOT / "backend" / "scripts"))
-from convert_repo_content import validate_export  # Read-only backend contract validator.
+from contract import validate_export  # Read-only backend contract validator.
 from import_content import gate_failures  # The backend's `checked` gate, so both sides use one rule.
 
 

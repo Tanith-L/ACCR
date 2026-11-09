@@ -7,12 +7,12 @@ import pytest
 BACKEND = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BACKEND / "scripts"))
 
-import convert_repo_content as conv  # noqa: E402
+import contract  # noqa: E402
 import import_content as imp  # noqa: E402
 import make_demo_export as demo  # noqa: E402
 
-SCHEMA_PATH = conv.find_upwards(BACKEND, "schema/content.schema.json")
-TOPICS = conv.find_upwards(BACKEND, "topics.yaml")
+SCHEMA_PATH = contract.find_upwards(BACKEND, "schema/content.schema.json")
+TOPICS = contract.find_upwards(BACKEND, "topics.yaml")
 
 pytestmark = pytest.mark.skipif(SCHEMA_PATH is None, reason="schema not found")
 
@@ -36,7 +36,7 @@ def ids(data):
 
 def test_demo_export_is_valid_and_keeps_the_gate_outcomes(schema):
     data = demo.build_demo()
-    assert conv.validate_export(data, schema) == []
+    assert contract.validate_export(data, schema) == []
     status = {l["id"]: l["status"] for l in data["lessons"]}
     assert status == {"psa-demo-01": "checked", "psa-demo-02": "checked", "psa-demo-03": "draft"}
     for lesson in data["lessons"]:

@@ -22,7 +22,7 @@ CMU Heinz capstone for the Altoona Center for Clinical Research (Dr. Frederick M
 
 ## Update (Oct 28): the root content set was replaced
 - The Data Lead removed the root `lessons/`, `media/` and `quizzes.yaml`. Current exports are under `data/psa/` (schema-valid JSON; the current library is `data/psa/chapter/psa-content.json`: 24 lessons, 1 optional Symptoms image map, no quizzes or per-claim verification yet, all `draft`). Import them directly with `import_content.py`.
-- `convert_repo_content.py` is now legacy. Its real-content tests skip when `lessons/` is absent. The notes below describe the original layout and are kept for history.
+- `convert_repo_content.py` has been removed. Its shared export validator (`validate_export`, `find_upwards`) now lives in `backend/scripts/contract.py`. The notes below describe the original layout and are kept for history.
 
 ## Original repo state (github.com/Tanith-L/ACCR, Oct 27)
 - Repo root originally held the Data Lead's **first content set** (commit "Add initial PsA education content", Oct 1), in the earlier file format:
@@ -39,7 +39,7 @@ CMU Heinz capstone for the Altoona Center for Clinical Research (Dr. Frederick M
 ```
 backend/
   supabase/migrations/   0001_content_schema.sql, 0002_published_access.sql, 0003_review_publish.sql
-  scripts/               import_content.py (B1), review_import.py (B2), publish.py (B3)
+  scripts/               import_content.py (B1), review_import.py (B2), publish.py (B3), contract.py (shared validator)
   tests/                 pytest
   perf/latency.py
   fixtures/              mock_export.json, mock_responses/
@@ -47,13 +47,8 @@ backend/
 schema/content.schema.json   (shared with Data Lead; JSON Schema 2020-12)
 ```
 
-## Week 9 bridge for the existing content
-- `backend/scripts/convert_repo_content.py` reads the root YAML/MD files and writes a schema-valid export JSON:
-  - each body becomes one page, or several split at `---page---` if present;
-  - `source` text → `sources[]` entries with generated IDs;
-  - `claims: []`, `checks` with only the readability numbers;
-  - `generated_by: "human"`, `status: "draft"`.
-- That lets the import, database and app be tested on **real content**, which stays `draft` (invisible to the app).
+## Testing on real and demo content
+- Real content: import the Data Lead's exports under `data/psa/` directly. They stay `draft` (invisible to the app).
 - To demo the review → publish flow, use `backend/fixtures/mock_export.json`, which has claims and passes the gate, or wait for the Data Lead's pipeline export with claims.
 
 ## Conventions

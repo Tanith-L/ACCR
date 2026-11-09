@@ -189,7 +189,7 @@ schema/content.schema.json            shared contract (Data ↔ Backend)
 backend/
   supabase/migrations/                0001–0004 (never edit an applied one; add 0005…)
   scripts/                            import_content.py, review_import.py, publish.py,
-                                      make_demo_export.py, convert_repo_content.py (legacy)
+                                      make_demo_export.py, contract.py (shared export validator)
   tests/                              pytest; database tests run in rolled-back transactions
   fixtures/                           mock_export.json, mock-joints.png, mock_responses/
   docs/api-contract.md                Backend ↔ Frontend contract
@@ -197,7 +197,6 @@ docs/                                 week9 plan, architecture v5, pipeline desi
 CLAUDE.md                             context for Claude Code
 ```
 - Run tests: `pytest backend/tests -q` (database tests need `.env` and skip without it).
-- Legacy converter (needs the former root `lessons/` and `media/`, now removed): `python backend/scripts/convert_repo_content.py [--dry-run]`
 - Dry-run an import: `python backend/scripts/import_content.py <export.json> --dry-run [--from-db] [--media-dir DIR]`
 - Real import (Backend only): the same command without `--dry-run`.
 

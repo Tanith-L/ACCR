@@ -19,7 +19,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from pipeline.content_processing import init_readability, readability
-from convert_repo_content import validate_export
+from contract import validate_export
 from import_content import media_errors
 from pipeline.library_preview import render_preview
 from pipeline.source_correspondence import validate_correspondence, review_documents, lesson_source_rows

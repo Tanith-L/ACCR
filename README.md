@@ -62,11 +62,6 @@ cd frontend && npm install && cp .env.example .env.local && npx expo start
 
 Run these from the repository root. Every script supports `--dry-run`, prints a summary, and fails without writing anything partial.
 
-**Legacy converter** (requires the former `lessons/` and `media/` inputs, which have been removed from this working tree; use the current chapter export linked above):
-```bash
-python backend/scripts/convert_repo_content.py --out backend/exports/export_psa_real.json
-```
-
 **Import an export** (checks the file, then uploads images and writes all rows in one transaction):
 ```bash
 python backend/scripts/import_content.py <export.json> --media-dir <folder with the images> --dry-run
@@ -140,7 +135,7 @@ schema/content.schema.json     the Data → Backend contract (JSON Schema 2020-1
 backend/
   supabase/migrations/         database changes, numbered
   scripts/                     import_content, review_import, publish,
-                               convert_repo_content, make_demo_export
+                               contract (shared export validator), make_demo_export
   tests/                       pytest
   fixtures/                    mock_export.json, mock_responses/
   docs/api-contract.md         Backend ↔ Frontend contract
