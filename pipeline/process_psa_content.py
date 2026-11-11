@@ -22,7 +22,6 @@ from pipeline.content_processing import (
 
 def render_deliverables(out, data, audit):
     """Write only readable lessons and the evaluation report."""
-    interactive = audit.get("execution_mode") == "interactive_assistant"
     lesson_dir = out / "lessons"
     lesson_dir.mkdir(exist_ok=True)
     for lesson in data["lessons"]:
@@ -47,16 +46,12 @@ def render_deliverables(out, data, audit):
     claims = sum(len(l["claims"]) for l in data["lessons"])
     unsupported = sum(l["checks"]["unsupported"] for l in data["lessons"])
     contradicted = sum(l["checks"]["contradicted"] for l in data["lessons"])
-    method = ("Drafted and assessed by the same interactive assistant, then assembled and validated locally."
-              if interactive else "Drafted and judged in separate API requests using the same model.")
-    timing = ("Local Python assembly and validation only; interactive drafting was not timed."
-              if interactive else "Includes extraction, API calls, checks and retries; excludes setup and human review.")
-    request_time = ("Not measured; no successful generation API calls" if interactive else
-                    f"{audit['api_seconds']:.3f} seconds across {audit['api_calls']} calls")
-    corrections = (f"{len(audit['correction_log'])} recorded interactive content corrections" if interactive else
-                   f"{sum(r['revision_count'] for r in evaluations)} automated revisions")
-    report = ["# Week 9 content processing evaluation", "", f"Run: `{data['run']['run_id']}`", "", method, "",
-              "Scope: one PsA topic, two draft lessons and six questions. Clinical approval is not recorded.", "",
+    method = "Drafted and judged in separate API requests using the same model."
+    timing = "Includes extraction, API calls, checks and retries; excludes setup and human review."
+    request_time = f"{audit['api_seconds']:.3f} seconds across {audit['api_calls']} calls"
+    corrections = f"{sum(r['revision_count'] for r in evaluations)} automated revisions"
+    report = ["# Content processing evaluation", "", f"Run: `{data['run']['run_id']}`", "", method, "",
+              f"Scope: {len(data['lessons'])} lessons and {len(data['quizzes'])} questions. Clinical approval is not recorded.", "",
               "| Dimension | Result | Interpretation |", "|---|---|---|",
               "| Schema validity | 100% of exported records valid | Existing backend schema and references validated |",
               f"| Source-faithfulness | {claims} claims; {unsupported} unsupported, {contradicted} contradicted | AI assessment against supplied sources, not independent clinical review |",
@@ -82,8 +77,7 @@ def render_deliverables(out, data, audit):
                f"- Model provenance: {', '.join(audit['models'])}",
                f"- Prompt version: {data['run']['prompt_version']}",
                f"- Python: {audit['python']}; packages: {json.dumps(audit['packages'])}",
-               ("- Source transcriptions, drafted text and individual assessments are maintained in data/psa/assisted-input/symptoms.json. This run does not claim independent judge calls."
-                if interactive else "- Source transcriptions and API call evidence are consolidated in evidence.json."),
+               "- Source transcriptions and API call evidence are consolidated in evidence.json.",
                "- Source IDs, original file hashes and exact quotes are preserved. For an image, source page 1 means that single original image.",
                "- Human concept identification, source approval, clinical Rubric B scores, judge calibration and manual timing are still pending. Backend checks.coverage remains null until a human reference set exists.",
                "- For a manual comparison, separately record editor, task, active minutes and correction count for manual structuring and AI-draft correction.",
@@ -179,7 +173,7 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--manifest", type=Path, default=ROOT / "data/psa/week9-sample.yaml")
+    parser.add_argument("--manifest", type=Path, required=True, help="Source-grounded generation plan; the retired sample is no longer bundled.")
     parser.add_argument("--out", type=Path, help="Output directory; defaults to .venv/psa-runs/<chapter-number>-<chapter-name>.")
     parser.add_argument("--model", default="gpt-5.4-mini")
     parser.add_argument("--temperature", type=float, default=None, help="Use 0 for models supporting temperature; omit otherwise.")

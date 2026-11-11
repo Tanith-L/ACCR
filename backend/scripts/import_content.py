@@ -64,6 +64,8 @@ def effective_status(lesson: dict) -> tuple[str, list[str]]:
     if lesson["status"] != "checked":
         return "draft", []
     failures = gate_failures(lesson["checks"])
+    if any(c.get("kind") == "provenance" for c in lesson.get("claims", [])):
+        failures.append("editorial provenance is not verified assertion evidence")
     return ("draft", failures) if failures else ("checked", [])
 
 
@@ -138,7 +140,9 @@ def plan_lessons(data: dict, existing: dict[str, dict]) -> list[dict]:
             "evidence_hash": e,
             "downgraded": bool(failures), "gate_failures": failures,
             "content_hash": h, "sort_order": sort_order[lesson["id"]],
-            "claims": len(lesson["claims"]), "quizzes": len(quizzes.get(lesson["id"], [])),
+            "claims": sum(c.get("kind") != "provenance" for c in lesson["claims"]),
+            "provenance": sum(c.get("kind") == "provenance" for c in lesson["claims"]),
+            "quizzes": len(quizzes.get(lesson["id"], [])),
         })
     return plan
 
@@ -238,6 +242,7 @@ def build_report(data: dict, plan: list[dict]) -> dict:
         "topics": len(data["topics"]),
         "subtopics": sum(len(t["subtopics"]) for t in data["topics"]),
         "claims": sum(p["claims"] for p in plan if p["action"] != "skip"),
+        "provenance": sum(p["provenance"] for p in plan if p["action"] != "skip"),
         "quiz_items": sum(p["quizzes"] for p in plan if p["action"] != "skip"),
         "media_uploads": len(data["media"]),
     }
@@ -249,7 +254,7 @@ def format_report(report: dict, plan: list[dict]) -> str:
         f"({report['updated_evidence_only']} evidence only), "
         f"skipped {report['skipped']}, downgraded to draft {report['downgraded']}",
         f"topics {report['topics']}, subtopics {report['subtopics']}, claims {report['claims']}, "
-        f"quiz items {report['quiz_items']}, media uploads {report['media_uploads']}",
+        f"provenance {report['provenance']}, quiz items {report['quiz_items']}, media uploads {report['media_uploads']}",
     ]
     for p in plan:
         note = " (claims/checks/status only)" if p["evidence_only"] else ""
@@ -298,6 +303,11 @@ def write_import(conn, data: dict, plan: list[dict], file_name: str) -> dict:
     notes += [f"{p['id']}: v{p['version']} updated, claims/checks/status only" for p in plan if p["evidence_only"]]
 
     with conn.transaction():
+        has_provenance = conn.execute(
+            "select 1 from information_schema.columns where table_schema = current_schema() "
+            "and table_name = 'lessons' and column_name = 'provenance'").fetchone() is not None
+        if data["schema_version"] == "1.3" and not has_provenance:
+            raise ImportRejected(["Schema 1.3 requires migration 0008_lesson_provenance.sql before import"])
         run_id = unique_run_id(conn, data["run"]["run_id"])
         conn.execute(
             "insert into import_runs (run_id, file_name, schema_version, model, prompt_version, "
@@ -365,7 +375,15 @@ def write_import(conn, data: dict, plan: list[dict], file_name: str) -> dict:
                 for table in ("lesson_claims", "lesson_media", "quiz_items"):
                     conn.execute(f"delete from {table} where lesson_id=%s and lesson_version=%s",
                                  (lesson["id"], p["version"]))
+            # Also clear previous provenance when importing an older export on
+            # a migrated database; metadata must match this version's evidence hash.
+            if has_provenance:
+                conn.execute("update lessons set provenance=%s where id=%s and version=%s",
+                             (Jsonb([c for c in lesson["claims"] if c.get("kind") == "provenance"]),
+                              lesson["id"], p["version"]))
             for c in lesson["claims"]:
+                if c.get("kind") == "provenance":
+                    continue
                 conn.execute(
                     "insert into lesson_claims (id, lesson_id, lesson_version, text, page, source_id, "
                     "source_page, source_quote, support, quote_match) values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",

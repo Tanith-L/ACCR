@@ -1,11 +1,11 @@
-# Content JSON Schema: Data → Backend Contract (v1.2, with v1.0/v1.1 compatibility)
+# Content JSON Schema: Data → Backend Contract (v1.3, with v1.0–v1.2 compatibility)
 
 Owners: Lyra (Data Lead, produces), Vanshika (Backend Lead, imports) · v1 · Oct 25, 2026 · Status: **draft; agree before any Week 9 code**
 Related: `content-pipeline-design.md` (v7), `backend-architecture.md` (v5)
 
 ## Schema 1.1: image-based topic navigation
 
-The validator accepts `schema_version: "1.0"`, `"1.1"` and `"1.2"`. Topic image maps require 1.1 or later; course overview maps require 1.2.
+The validator accepts `schema_version: "1.0"`, `"1.1"`, `"1.2"` and `"1.3"`. Topic image maps require 1.1 or later; course overview maps require 1.2 or later. Typed provenance inside `claims` requires 1.3.
 Version 1.0 files must not contain `image_map`; existing lesson, quiz, source, and media definitions are retained.
 This extension is prepared in the repository; it has not been deployed to Supabase.
 
@@ -92,12 +92,14 @@ This is the single format that the Data Lead's Python pipeline **exports** and t
 | `pages[]` | `{order, body}` | ✅ | 1–4 pages; `body` ≤ ~150 words, plain text / simple markdown |
 | `key_takeaways` | string[] | ✅ | 1–3 items |
 | `images[]` | `{media_id, page}` | ⬜ | `media_id` must exist in `media` |
-| `claims[]` | see below | ✅ | Every factual statement in the lesson |
+| `claims[]` | see below | ✅ | Factual assertions, or explicitly typed editorial provenance in schema 1.3 |
 | `checks` | see below | ✅ | Results of the credibility checks |
 | `generated_by` | enum | ✅ | `llm` · `human` · `llm+edited` |
 | `status` | enum | ✅ | `draft` · `checked` |
 
 ### `lessons[].claims[]`: the basis of the credibility check
+
+The following assertion format is unchanged. Schema 1.3 additionally permits the provenance format below; it does not count as checked assertion evidence.
 | Field | Type | Req | Rule |
 |---|---|---|---|
 | `id` | string | ✅ | `<lesson id>-c<n>` |
@@ -108,6 +110,29 @@ This is the single format that the Data Lead's Python pipeline **exports** and t
 | `source_quote` | string | ✅ | Exact sentence(s) from the source that support it |
 | `support` | enum | ✅ | Judge label: `supported` · `unsupported` · `contradicted` |
 | `quote_match` | number | ✅ | 0–1 fuzzy-match score of `source_quote` against the source text |
+
+### Schema 1.3: editorial provenance in `lessons[].claims[]`
+
+The current library exports one record per lesson:
+
+```json
+{
+  "id": "psa-dx-01-c1",
+  "kind": "provenance",
+  "references": [
+    {"id": "niams-care", "title": "NIAMS: Diagnosis, Treatment, and Steps to Take", "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"}
+  ],
+  "source_usage": [
+    {"source_id": "src-psa-one-pager-intro", "pages": [1, 2], "kind": "text", "locator": "Box A and Box B", "contribution": "Which findings a clinician checks.", "limits": "Not a standalone diagnostic rule."}
+  ]
+}
+```
+
+`references` resolves canonical reference IDs into titles and URLs; it may be empty. `source_usage` preserves every canonical source-use record. Its `pages` are **lesson pages**, not physical source pages. `locator` can identify a heading or DOCX paragraph; `contribution` and `limits` are editorial explanations, not verbatim quotations. Reference IDs belong to the bibliographic list, while source-use IDs must resolve to export `sources`.
+
+Provenance records intentionally omit assertion `text`, `source_page`, `source_quote`, `support` and `quote_match`. They cannot promote a lesson to `checked`, even when its numeric checks are set to passing values. References and source usage alone do not verify every factual statement.
+
+Apply `backend/supabase/migrations/0008_lesson_provenance.sql` before importing schema 1.3. The importer stores typed records losslessly in private `lessons.provenance` JSONB; assertion rows remain in `lesson_claims`. Both participate in the existing evidence hash through the export's `claims` array. Old exports still import without migration 0008; on migrated databases, updating with an old export clears prior provenance. The public API is unchanged.
 
 ### `lessons[].checks`
 | Field | Type | Rule |

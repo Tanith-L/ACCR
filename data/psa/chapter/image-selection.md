@@ -34,7 +34,7 @@ Navigation images and lesson illustrations are independent optional fields. The 
 
 The full Symptoms body map is displayed at topic level only. There are six active JPG assets: one topic image and five lesson illustrations.
 
-The old generated course JPG has been removed from chapter/media. Its original remains in originals/generated; the old generation prompt is marked superseded and is not a current requirement.
+The old generated course JPG and its superseded generation prompt have been removed from chapter/media. Its original remains in originals/generated.
 
 ## Source use and limits
 

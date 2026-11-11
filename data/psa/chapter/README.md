@@ -34,8 +34,8 @@ Bibliographic references and source locators below support editorial review; no 
 
 ## Files and rebuild
 
-- `psa-content.json`: schema 1.2 export for backend import.
-- `media/`: Symptoms navigation and original-derived lesson illustrations. No active home navigation image. The older course-overview prompt is retained as inactive generation history.
+- `psa-content.json`: schema 1.3 export for backend import. Each lesson's claims includes a provenance record with resolved references and complete source_usage; these are not verified factual assertions.
+- `media/`: Symptoms navigation and original-derived lesson illustrations. No active home navigation image.
 - `image-selection.md`: navigation and lesson-image choices. `source-review.md` / `source-review.html`: every original file and its lesson-level use, location and limits.
 - `overview.html`: full course preview (course overview -> topic -> lesson); `hotspot-preview.html` redirects here. Local visual preview with real lesson navigation and a hotspot debug toggle.
 - `evaluation.md`: measured checks and remaining review.
