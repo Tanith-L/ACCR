@@ -1,4 +1,7 @@
-"""Validate core exports against original sources and their authored evidence."""
+"""Validate API exports against original sources and recorded API evidence.
+
+For the current authored library, use build_psa_library.py --validate.
+"""
 from __future__ import annotations
 
 import argparse
@@ -13,23 +16,19 @@ from pipeline.content_processing import (
     ROOT, assemble, check_judge, digest, evaluate, init_readability, read_json, validate_content,
 )
 
-DEFAULT_INPUT = ROOT / "data/psa/assisted-input/symptoms.json"
-DEFAULT_MANIFEST = ROOT / "data/psa/week9-sample.yaml"
-
-
-def validate_run(directory, input_path=DEFAULT_INPUT, manifest_path=DEFAULT_MANIFEST):
+def validate_run(directory):
     directory = Path(directory)
     exports = [path for path in directory.glob("*.json") if path.name != "evidence.json"]
     if len(exports) != 1:
         return ["Expected exactly one export JSON in the run directory."]
     data = read_json(exports[0])
     evidence_path = directory / "evidence.json"
-    api = evidence_path.exists()
-    evidence = read_json(evidence_path) if api else read_json(input_path)
-    manifest = evidence["manifest"] if api else yaml.safe_load(Path(manifest_path).read_text(encoding="utf-8"))
-    sources = evidence["sources"] if api else {"source_hashes": evidence["source_hashes"], "pages": evidence["pages"]}
+    if not evidence_path.is_file():
+        return ["API run requires evidence.json; validate the current library with build_psa_library.py --validate."]
+    evidence = read_json(evidence_path)
+    manifest, sources = evidence["manifest"], evidence["sources"]
     errors = []
-    if api and digest(data) != evidence["export_sha256"]:
+    if digest(data) != evidence["export_sha256"]:
         errors.append("export changed since the recorded API run.")
     inventory = {s["id"]: s for s in read_json(ROOT / "data/psa/source-inventory.json")}
     expected_hashes = {sid: inventory[sid]["file_hash"] for sid in manifest["source_ids"]}
@@ -53,45 +52,35 @@ def validate_run(directory, input_path=DEFAULT_INPUT, manifest_path=DEFAULT_MANI
     errors += validate_content(data, sources["pages"], expected)
     if data["disease"] != taxonomy["disease"]:
         errors.append("Disease differs from topics.yaml.")
+    if [l["id"] for l in data["lessons"]] != selected:
+        errors.append("Export lesson order differs from the manifest.")
     if errors:
         return errors
     init_readability()
-    if not api:
-        from pipeline.assemble_assisted_content import assemble_bundle
-        rebuilt, _ = assemble_bundle(evidence, manifest, taxonomy["disease"], expected, records)
-        if any(rebuilt[k] != data[k] for k in data if k != "run"):
-            errors.append("Export differs from the current assisted input; rebuild after editing content or assessments.")
-        if any(rebuilt["run"][k] != data["run"][k] for k in ("model", "prompt_version")):
-            errors.append("Export model/prompt provenance differs from assisted input.")
-    else:
-        if [l["id"] for l in data["lessons"]] != selected:
-            errors.append("Export lesson order differs from the manifest.")
-        for spec, exported in zip(manifest["lessons"], data["lessons"], strict=True):
-            drafts = [c for c in evidence["calls"] if c["stage"].startswith(f"draft-{spec['id']}-")]
-            judges = [c for c in evidence["calls"] if c["stage"].startswith(f"judge-{spec['id']}-")]
-            if not drafts or not judges:
-                errors.append(f"{spec['id']}: missing API drafting or assessment evidence.")
-                continue
-            lesson, quizzes = assemble(drafts[-1]["result"], spec, manifest)
-            judge = judges[-1]["result"]
-            check_judge(judge, lesson, quizzes, spec["concepts"])
-            pages = [p for p in sources["pages"] if p["source_id"] in spec["source_ids"]]
-            _, problems = evaluate(lesson, quizzes, pages, judge)
-            errors += problems
-            exported_quizzes = [q for q in data["quizzes"] if q["lesson_id"] == lesson["id"]]
-            if lesson != exported or quizzes != exported_quizzes:
-                errors.append(f"{spec['id']}: export differs from API drafts and assessments.")
+    for spec, exported in zip(manifest["lessons"], data["lessons"], strict=True):
+        drafts = [c for c in evidence["calls"] if c["stage"].startswith(f"draft-{spec['id']}-")]
+        judges = [c for c in evidence["calls"] if c["stage"].startswith(f"judge-{spec['id']}-")]
+        if not drafts or not judges:
+            errors.append(f"{spec['id']}: missing API drafting or assessment evidence.")
+            continue
+        lesson, quizzes = assemble(drafts[-1]["result"], spec, manifest)
+        judge = judges[-1]["result"]
+        check_judge(judge, lesson, quizzes, spec["concepts"])
+        pages = [p for p in sources["pages"] if p["source_id"] in spec["source_ids"]]
+        _, problems = evaluate(lesson, quizzes, pages, judge)
+        errors += problems
+        exported_quizzes = [q for q in data["quizzes"] if q["lesson_id"] == lesson["id"]]
+        if lesson != exported or quizzes != exported_quizzes:
+            errors.append(f"{spec['id']}: export differs from API drafts and assessments.")
     return errors
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("run_directory", type=Path)
-    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT, help="Canonical interactive-AI input, when no API evidence file exists.")
-    parser.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
     args = parser.parse_args()
     try:
-        errors = validate_run(args.run_directory, args.input, args.manifest)
+        errors = validate_run(args.run_directory)
     except Exception as error:
         errors = [f"{type(error).__name__}: {error}"]
     if errors:

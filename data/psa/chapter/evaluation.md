@@ -8,7 +8,8 @@
 | Maps | symptoms: 12 regions; every topic lesson reachable |
 | Source originals | SHA-256 checked against source-inventory.json and authored supplemental_sources |
 | Original-to-lesson correspondence | Every original has a disposition; every lesson source has a locator, page, contribution and limits; image uses match media references |
-| Per-claim support / citation accuracy | Not assessed in this drafting pass; claims arrays intentionally empty |
+| Exported provenance | Every lesson has a claims record with kind=provenance, resolved references and complete source_usage |
+| Per-claim support / citation accuracy | Not assessed; provenance records do not supply source quotes or verified assertions |
 | Clinical review | Pending; all lessons remain draft |
 | Quizzes | Not generated in this text-and-map task |
 
@@ -45,8 +46,8 @@ Home and five topics have no navigation image. The unchanged Symptoms image has 
 The mixed PsA/AS photo is labeled and used for symptom reporting. Uncited comorbidity percentages are omitted. See source-review.md for all file dispositions and lesson locators.
 The preview uses normalized coordinates and preserves image aspect ratio. Native mobile device verification and clinical approval remain pending.
 
-Draft input SHA-256: `abe295ddfe6977658ec7839c4e4fe770dfb1c67d556faacd88e5e2cd4744f85a`
-Hotspot input SHA-256: `0b0b2daf57de5c27ec4fc2ff2df7a57530bfd2c9ea9cd6e446e6665b8ac2dba9`
+Draft input SHA-256: `b16d24fc329186e5529ec96c97b1c105f5cc270618312f429eb3059bad97f9e0`
+Hotspot input SHA-256: `9acf0fb8dead430e32b70bafd040154edbcf151d2a9c2fd38d4f4e61f596a9ca`
 
 Image `psa-overview-grappa-domains` SHA-256: `b9a2917f7da29f60c824a2f44712218a5bfcf1ad722e5b71011f0764944f6137`
 Image `psa-symptoms-body-map` SHA-256: `5a0a924d379e433351ee5126e698c095d09afae688609acdf7736e4a2c43b510`

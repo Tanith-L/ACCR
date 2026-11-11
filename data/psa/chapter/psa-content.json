@@ -1,10 +1,10 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "run": {
-    "run_id": "psa-20261104-182438-complete-drafts",
+    "run_id": "psa-20261110-201909-complete-drafts",
     "model": "Codex interactive assistant; no independent judge",
-    "prompt_version": "psa-all-topics-v4-optional-maps",
-    "generated_at": "2026-11-04T18:24:38.569782+00:00"
+    "prompt_version": "psa-all-topics-v5-provenance",
+    "generated_at": "2026-11-10T20:19:09.019101+00:00"
   },
   "disease": {
     "id": "psa",
@@ -386,7 +386,47 @@
         "There is no single test that proves someone has PsA.",
         "The whole pattern matters."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-dx-01-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            },
+            {
+              "id": "nhs-psa",
+              "title": "NHS: Psoriatic arthritis",
+              "url": "https://www.nhs.uk/conditions/psoriatic-arthritis/"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs",
+              "contribution": "Which findings a clinician checks; psoriasis history and multi-area examination.",
+              "limits": "The testing workflow and no-single-test statement come from NIAMS, not this poster."
+            },
+            {
+              "source_id": "src-murphys-laws-of-arthritis-preface",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Paragraph 11: preparation and proactive monitoring",
+              "contribution": "Bring a concise symptom history to the visit.",
+              "limits": "The morning-stiffness question is an editorial visit-preparation example; diagnostic shortcuts in paragraphs 16-18 are not taught."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -418,7 +458,48 @@
         "First, there must be signs of inflammation.",
         "A heel spur alone is not that finding."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-dx-02-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            },
+            {
+              "id": "caspar-original",
+              "title": "Taylor et al. (2006): original CASPAR classification study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16871531/"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-mindmap",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Right-hand CASPAR branch: entry criterion and five feature groups",
+              "contribution": "Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone.",
+              "limits": "Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Box A: CASPAR table",
+              "contribution": "Explains current/past/family psoriasis, nails, RF and dactylitis.",
+              "limits": "Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -450,7 +531,53 @@
         "Psoriasis and PsA are linked, but they are not the same condition.",
         "Not everyone has changes in all six areas."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-overview-01-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Central PsA title and Box B six core domains",
+              "contribution": "Introduces PsA and separates the disease domains from the six course topics.",
+              "limits": "Immune-system explanation and timing of skin/joint symptoms are supplemented by NIAMS."
+            },
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Subtitle and body-area cards",
+              "contribution": "Inflammation may involve several body areas.",
+              "limits": "Do not imply everyone has every manifestation."
+            },
+            {
+              "source_id": "src-grappa-domains-in-psa-poster",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "All six domain headings",
+              "contribution": "Names the six domains in plain language.",
+              "limits": "Domain labels are not course topic labels."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -482,7 +609,57 @@
         "Dactylitis means swelling of a whole finger or toe.",
         "These six domains can help guide treatment discussions."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-overview-02-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "npf-related",
+              "title": "National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis",
+              "url": "https://www.psoriasis.org/psa-related-conditions/"
+            },
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-grappa-domains-in-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text_and_image",
+              "locator": "Six domain cards, including axial disease, dactylitis and enthesitis",
+              "contribution": "Defines the six disease domains; displayed on page 1.",
+              "limits": "Technical poster wording is explained in the lesson; not a drug selection tool."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Box B: related conditions and comorbidities below six core domains",
+              "contribution": "Separates eye/bowel conditions and broader health needs from core domains.",
+              "limits": "Drug preferences in the poster are not copied into a personal treatment plan."
+            },
+            {
+              "source_id": "src-poster-of-the-comorbidities-seen-in-psa",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Card headings: cardiovascular disease, diabetes, obesity, depression",
+              "contribution": "Introduces heart health, blood sugar, weight and mood.",
+              "limits": "Numerical prevalence claims are not used; no study population is identified on the image."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -520,7 +697,67 @@
         "Skin changes are one part of PsA care.",
         "Your skin may look different."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-01-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "skin card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-grappa-domains-in-psa-poster",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "skin / corresponding core domain card",
+              "contribution": "Defines the disease domain in plain words.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "skin body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-skin-psoriasis-illustration",
+              "pages": [
+                2
+              ],
+              "kind": "image",
+              "locator": "PSA1 caption and elbow",
+              "contribution": "Skin patches and scales.",
+              "limits": "Supplied educational illustration; does not diagnose a patient."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -558,7 +795,57 @@
         "A body map cannot tell which cause is present.",
         "Seek emergency care for a loss of vision."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-02-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "nhs-uveitis",
+              "title": "NHS: Uveitis",
+              "url": "https://www.nhs.uk/conditions/uveitis/"
+            },
+            {
+              "id": "nice-eye",
+              "title": "NICE NG65, recommendation 1.1.12: same-day eye assessment",
+              "url": "https://www.nice.org.uk/guidance/ng65/chapter/recommendations"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "eyes card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Box B and Box C: eyes",
+              "contribution": "Cross-checks domain or related-condition terminology.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "eyes body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -590,7 +877,61 @@
         "A flare and lasting joint damage are different.",
         "A number on a general poster does not tell you your own risk."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-03-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "npf-related",
+              "title": "National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis",
+              "url": "https://www.psoriasis.org/psa-related-conditions/"
+            },
+            {
+              "id": "npf-flares",
+              "title": "National Psoriasis Foundation: Care Path, Keep Thriving",
+              "url": "https://www.psoriasis.org/care-path-thrive/"
+            },
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-poster-of-the-comorbidities-seen-in-psa",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Blood pressure, metabolic, heart disease, obesity and depression headings",
+              "contribution": "Names related health concerns to discuss with the care team.",
+              "limits": "Do not reproduce percentages, rankings, or imply these are inevitable. Lung, thyroid and non-IBD gut statistics await evidence review."
+            },
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Subtitle: possible lasting damage",
+              "contribution": "Introduces possible long-term harm.",
+              "limits": "Flare definition and activity-versus-damage distinction require the separate NPF/NIAMS references."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Subtitle: possible long-term damage",
+              "contribution": "Cross-checks that the source discusses possible damage, not a fixed progression.",
+              "limits": "Does not support a timetable, stages or an individual prediction."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -622,7 +963,57 @@
         "A bowel change does not prove that you have IBD or that PsA is the cause.",
         "Tell your care team about gut symptoms that keep happening."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-04-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "npf-related",
+              "title": "National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis",
+              "url": "https://www.psoriasis.org/psa-related-conditions/"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "gut card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Box B and Box C: gut",
+              "contribution": "Cross-checks domain or related-condition terminology.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "gut body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -654,7 +1045,47 @@
         "A sore shoulder can have more than one cause.",
         "Describe a task that has become harder, such as reaching a shelf."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-05-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "shoulders card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "shoulders body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -686,7 +1117,77 @@
         "Swelling of a whole finger is called dactylitis.",
         "Nail changes and joint symptoms do not always happen together."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-06-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "hands card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-grappa-domains-in-psa-poster",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "hands / corresponding core domain card",
+              "contribution": "Defines the disease domain in plain words.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Box B and Box C: hands",
+              "contribution": "Cross-checks domain or related-condition terminology.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "hands body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-nail-psoriasis-illustration",
+              "pages": [
+                2
+              ],
+              "kind": "image",
+              "locator": "PSA2 caption and nails",
+              "contribution": "Pits, yellow spots and nail lifting.",
+              "limits": "Supplied educational illustration; does not diagnose a patient."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -724,7 +1225,87 @@
         "Heel pain can have several causes.",
         "A symptom picture cannot tell you the cause on its own."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-07-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "feet card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-grappa-domains-in-psa-poster",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "feet / corresponding core domain card",
+              "contribution": "Defines the disease domain in plain words.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Box B and Box C: feet",
+              "contribution": "Cross-checks domain or related-condition terminology.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "feet body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-achilles-enthesitis-illustration",
+              "pages": [
+                1
+              ],
+              "kind": "image",
+              "locator": "PSA3 caption and heel backs",
+              "contribution": "Back-of-heel tendon attachment location.",
+              "limits": "Supplied educational illustration; does not diagnose a patient."
+            },
+            {
+              "source_id": "src-plantar-fasciitis-illustration",
+              "pages": [
+                1
+              ],
+              "kind": "image",
+              "locator": "PSA5 caption and sole",
+              "contribution": "Bottom-of-heel attachment location.",
+              "limits": "Supplied educational illustration; does not diagnose a patient."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -766,7 +1347,67 @@
         "Back pain can have many causes.",
         "These joints link the lower spine to the pelvis."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-08-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "spine card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-grappa-domains-in-psa-poster",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "spine / corresponding core domain card",
+              "contribution": "Defines the disease domain in plain words.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Box B and Box C: spine",
+              "contribution": "Cross-checks domain or related-condition terminology.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "spine body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -798,7 +1439,47 @@
         "You do not have to know the medical name.",
         "Pain near an elbow and a skin patch on the elbow are different types of change."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-09-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "elbows card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "elbows body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -830,7 +1511,47 @@
         "Pain or stiffness may limit movement.",
         "Tell your team which side hurts and what has changed."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-10-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "hips card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "hips body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -862,7 +1583,47 @@
         "Knee symptoms can have more than one cause.",
         "A picture is only a guide to the area."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-11-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "knees card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "knees body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -894,7 +1655,47 @@
         "Pain or swelling here can make walking harder.",
         "It does not show the cause by itself."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-symptoms-12-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-overview",
+              "title": "NIAMS: Psoriatic Arthritis",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "ankles card on the clinical manifestations body map",
+              "contribution": "Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.",
+              "limits": "The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency."
+            },
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "ankles body label",
+              "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
+              "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -926,7 +1727,57 @@
         "The care team considers these domains together.",
         "A treatment plan is chosen for a person, rather than from one symptom alone."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-treatment-01-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            },
+            {
+              "id": "grappa-2021",
+              "title": "GRAPPA 2021 domain-based treatment recommendations (published 2022)",
+              "url": "https://www.nature.com/articles/s41584-022-00798-0"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Box B domains; related conditions; comorbidities that steer the drug",
+              "contribution": "Choice considers active domains plus eye, bowel and other health needs.",
+              "limits": "Do not copy the abbreviated drug rules as patient instructions."
+            },
+            {
+              "source_id": "src-grappa-domains-in-psa-poster",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Six GRAPPA treatment domain cards",
+              "contribution": "Names the six areas considered in goal setting; the poster is not displayed.",
+              "limits": "Domain overview only, not a ranked treatment pathway."
+            },
+            {
+              "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership",
+              "contribution": "Individual response, other illnesses and follow-up shape the plan.",
+              "limits": "This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -958,7 +1809,57 @@
         "Medicines have different jobs.",
         "They do not rank drugs from good to bad."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-treatment-02-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            },
+            {
+              "id": "grappa-2021",
+              "title": "GRAPPA 2021 domain-based treatment recommendations (published 2022)",
+              "url": "https://www.nature.com/articles/s41584-022-00798-0"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Paragraphs 29, 38-39, 47 and 51: DMARDs, biologics, targeted oral drugs and monitoring",
+              "contribution": "Explains drug group roles, routes and questions about follow-up checks.",
+              "limits": "No doses, new approval claims, investigational therapies or RA/OA treatments imported."
+            },
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Box B: why domains and related conditions change therapy",
+              "contribution": "Explains why a drug is not right for every domain or person.",
+              "limits": "No individual drug choice is inferred from one poster row."
+            },
+            {
+              "source_id": "src-mindmap",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Bottom treatment branches: DMARDs, biologic DMARDs, PDE4 and JAK pathways",
+              "contribution": "Connects the original treatment map to the three plain-language group descriptions.",
+              "limits": "Do not reproduce brand lists, truncated TYK2 branch or a prescribing sequence."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -990,7 +1891,52 @@
         "Follow-up visits look at more than one sign of disease activity.",
         "If symptoms return or worsen, discuss a flare plan with the care team."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-treatment-03-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "npf-flares",
+              "title": "National Psoriasis Foundation: Care Path, Keep Thriving",
+              "url": "https://www.psoriasis.org/care-path-thrive/"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-mindmap",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "Lower-middle MDA branch: joints, entheses, skin, pain, patient view and function",
+              "contribution": "Explains multi-measure follow-up rather than judging control from skin alone.",
+              "limits": "No self-scoring cutoffs; does not represent a disease stage."
+            },
+            {
+              "source_id": "src-murphys-laws-of-arthritis-preface",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Paragraphs 11 and 17: contingency plans and PsA MDA",
+              "contribution": "Preparation for flares and clinician-led disease activity review.",
+              "limits": "Does not supply exact clinic response times or a personal flare plan."
+            },
+            {
+              "source_id": "src-the-four-pillars-of-arthritis",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Paragraph 85: tracking pain, energy, mood, sleep and daily tasks",
+              "contribution": "Adds a practical multi-part symptom record.",
+              "limits": "No fasting advice or guaranteed symptom improvement."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -1022,7 +1968,42 @@
         "They do not replace medical treatment.",
         "The care team can help tailor it."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-education-01-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-the-four-pillars-of-arthritis",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Paragraph 8; headings at 10, 48, 65, 75; synthesis 83-85",
+              "contribution": "Four named pillars, plain-language meanings and choosing one small step.",
+              "limits": "A daily-care framework, not validated PsA disease scoring or a replacement for treatment."
+            },
+            {
+              "source_id": "src-murphys-laws-of-arthritis-preface",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Paragraphs 11, 18 and 21: preparation, foundations and partnership",
+              "contribution": "Simple habits and shared planning.",
+              "limits": "Historical anecdotes and diagnostic parsimony are not taught as clinical rules."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -1054,7 +2035,32 @@
         "Ask your team how to balance activity and rest when symptoms change.",
         "Asking for support is part of care, not a sign of failure."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-education-02-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-the-four-pillars-of-arthritis",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Motion paragraphs 49-50, 61-63; Mastery paragraphs 67-68 and 74",
+              "contribution": "Adapting movement, water/cycling options, strength and coping practices.",
+              "limits": "Many study claims concern RA/OA, not PsA; do not promise equal benefits or prescribe an exercise dose. NIAMS corroborates general PsA activity options."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -1086,7 +2092,26 @@
         "Food does not replace your prescribed PsA care.",
         "Bring ongoing sleep problems to the care team."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-education-03-c1",
+          "kind": "provenance",
+          "references": [],
+          "source_usage": [
+            {
+              "source_id": "src-the-four-pillars-of-arthritis",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Nourishment paragraphs 10-38; Repose paragraphs 76-80; practical steps 85",
+              "contribution": "Food discussions, steady sleep timing and a calm bedtime routine.",
+              "limits": "No fasting, supplement doses, food-cure claims or extrapolated RA/OA treatment effects."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -1118,7 +2143,57 @@
         "A useful message says where the problem is, when it began, and what has changed.",
         "A body map cannot tell you how urgent a symptom is."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-contact-01-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "nhs-psa",
+              "title": "NHS: Psoriatic arthritis",
+              "url": "https://www.nhs.uk/conditions/psoriatic-arthritis/"
+            },
+            {
+              "id": "npf-flares",
+              "title": "National Psoriasis Foundation: Care Path, Keep Thriving",
+              "url": "https://www.psoriasis.org/care-path-thrive/"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-psa-as-symptoms",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Body labels and footer: talk to your healthcare provider if you notice symptoms",
+              "contribution": "Body-map labels as a reference for describing symptom location and reporting changes; the poster is not displayed.",
+              "limits": "Explicitly label that the poster covers both PsA and AS; not an urgency scale."
+            },
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "All body-area cards",
+              "contribution": "Alternative readable body-area labels for a symptom message.",
+              "limits": "Specific message examples are editorial teaching aids."
+            },
+            {
+              "source_id": "src-murphys-laws-of-arthritis-preface",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "Paragraph 11: monitoring and contingency plans",
+              "contribution": "Ask for contact routes and an out-of-hours plan.",
+              "limits": "Clinic phone numbers, hours and response times must come from the patient's clinic."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,
@@ -1150,7 +2225,48 @@
         "New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment.",
         "Seek emergency care for a loss of vision."
       ],
-      "claims": [],
+      "claims": [
+        {
+          "id": "psa-contact-02-c1",
+          "kind": "provenance",
+          "references": [
+            {
+              "id": "nhs-uveitis",
+              "title": "NHS: Uveitis",
+              "url": "https://www.nhs.uk/conditions/uveitis/"
+            },
+            {
+              "id": "nice-eye",
+              "title": "NICE NG65, recommendation 1.1.12: same-day eye assessment",
+              "url": "https://www.nice.org.uk/guidance/ng65/chapter/recommendations"
+            }
+          ],
+          "source_usage": [
+            {
+              "source_id": "src-psa-one-pager-intro",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Box B related conditions; Box C eyes and gut",
+              "contribution": "Identifies eye and bowel concerns alongside PsA.",
+              "limits": "Same-day assessment and emergency advice come from NHS/NICE, not the source poster."
+            },
+            {
+              "source_id": "src-clinical-manifestations-of-psa-poster",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text",
+              "locator": "Eyes and gut cards",
+              "contribution": "Plain-language eye and bowel symptoms to describe.",
+              "limits": "Symptoms have multiple causes; poster cannot diagnose uveitis or IBD."
+            }
+          ]
+        }
+      ],
       "checks": {
         "schema_valid": true,
         "coverage": null,

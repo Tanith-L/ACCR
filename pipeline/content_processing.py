@@ -353,6 +353,9 @@ def validate_content(data, pages, topic=None):
     if topic is not None and data["topics"] != [topic]:
         errors.append("Topic membership or ordering differs from the manifest and topics.yaml.")
     for lesson in data["lessons"]:
+        if any(c.get("kind") == "provenance" for c in lesson["claims"]):
+            errors.append(f"{lesson['id']}: provenance has no verbatim assertion evidence; use build_psa_library.py --validate for editorial drafts.")
+            continue
         if lesson["status"] not in ("draft", "checked"):
             errors.append(f"{lesson['id']}: this pipeline exports draft or checked only.")
         elif lesson["status"] == "checked" and (failures := gate_failures(lesson["checks"])):

@@ -319,6 +319,15 @@ def validate_export(data: dict, schema: dict) -> list[str]:
             if img["page"] > len(l["pages"]):
                 errors.append(f"lesson {l['id']}: image on page {img['page']} but only {len(l['pages'])} pages")
         for c in l["claims"]:
+            if c.get("kind") == "provenance":
+                errors += _dupes(f"claim {c['id']} reference", [r["id"] for r in c["references"]])
+                errors += _dupes(f"claim {c['id']} source use", [u["source_id"] for u in c["source_usage"]])
+                for usage in c["source_usage"]:
+                    if usage["source_id"] not in source_ids:
+                        errors.append(f"claim {c['id']}: unknown source_id {usage['source_id']}")
+                    if any(page > len(l["pages"]) for page in usage["pages"]):
+                        errors.append(f"claim {c['id']}: lesson page out of range in source_usage")
+                continue
             if c["source_id"] not in source_ids:
                 errors.append(f"claim {c['id']}: unknown source_id {c['source_id']}")
             if c["page"] > len(l["pages"]):

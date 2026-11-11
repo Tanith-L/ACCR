@@ -1,12 +1,13 @@
 """Build all registered PsA lesson DRAFTS and topic image maps without live services.
 
 Bibliographic references are supplied for review; this drafting stage does not
-invent per-claim verification or clinical approval. The assessed Week 9 sample
-keeps its separate, stricter source-quote validation workflow.
+invent per-claim verification or clinical approval. References and source usage
+are exported as provenance records inside claims, not verified assertions.
 """
 from __future__ import annotations
 
 import argparse
+import copy
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -35,6 +36,13 @@ def read(path):
 
 def sha(raw):
     return hashlib.sha256(raw).hexdigest()
+
+
+def provenance_claim(draft, references):
+    """Preserve editorial evidence without inventing quotes or assertion support."""
+    return {"id": f"{draft['id']}-c1", "kind": "provenance",
+            "references": [{"id": rid, **references[rid]} for rid in draft["references"]],
+            "source_usage": copy.deepcopy(draft["source_usage"])}
 
 
 def build():
@@ -87,7 +95,8 @@ def build():
                   "title": draft["title"],
                   "est_minutes": max(1, min(5, math.ceil(sum(len(p.split()) for p in draft["pages"]) / 150))),
                   "pages": [{"order": n, "body": p} for n, p in enumerate(draft["pages"], 1)],
-                  "key_takeaways": draft["key_takeaways"], "claims": [],
+                  "key_takeaways": draft["key_takeaways"],
+                  "claims": [provenance_claim(draft, source["references"])],
                   "checks": {"schema_valid": True, "coverage": None,
                              "safety_flags": ["Per-claim source verification and clinical review pending"]},
                   "generated_by": "llm", "status": "draft"}
@@ -101,8 +110,8 @@ def build():
             raise ValueError(f"{lid}: reading level must be below US grade 8")
         lessons.append(lesson)
     stamp = datetime.now(timezone.utc)
-    data = {"schema_version": "1.2", "run": {"run_id": stamp.strftime("psa-%Y%m%d-%H%M%S-complete-drafts"),
-            "model": "Codex interactive assistant; no independent judge", "prompt_version": "psa-all-topics-v4-optional-maps",
+    data = {"schema_version": "1.3", "run": {"run_id": stamp.strftime("psa-%Y%m%d-%H%M%S-complete-drafts"),
+            "model": "Codex interactive assistant; no independent judge", "prompt_version": "psa-all-topics-v5-provenance",
             "generated_at": stamp.isoformat()}, "disease": taxonomy["disease"], "sources": sources,
             "topics": topics, "lessons": lessons, "quizzes": [], "media": media}
     if course_map:
@@ -152,8 +161,8 @@ def documents(data, authored, scores):
             text.append(f"- [{ref['title']}]({ref['url']})")
         docs[path] = "\n".join(text) + "\n"
         lines.append(f"| {lesson['topic_id']} | `{lesson['id']}` | [{lesson['title']}]({path}) |")
-    lines += ["", "## Files and rebuild", "", "- `psa-content.json`: schema 1.2 export for backend import.",
-              "- `media/`: Symptoms navigation and original-derived lesson illustrations. No active home navigation image. The older course-overview prompt is retained as inactive generation history.",
+    lines += ["", "## Files and rebuild", "", "- `psa-content.json`: schema 1.3 export for backend import. Each lesson's claims includes a provenance record with resolved references and complete source_usage; these are not verified factual assertions.",
+              "- `media/`: Symptoms navigation and original-derived lesson illustrations. No active home navigation image.",
               "- `image-selection.md`: navigation and lesson-image choices. `source-review.md` / `source-review.html`: every original file and its lesson-level use, location and limits.",
               "- `overview.html`: full course preview (course overview -> topic -> lesson); `hotspot-preview.html` redirects here. Local visual preview with real lesson navigation and a hotspot debug toggle.",
               "- `evaluation.md`: measured checks and remaining review.", "",
@@ -173,7 +182,8 @@ def documents(data, authored, scores):
               f"| Maps | {', '.join(f'{tid}: {count} regions' for tid, count in map_counts.items())}; every topic lesson reachable |",
               "| Source originals | SHA-256 checked against source-inventory.json and authored supplemental_sources |",
               "| Original-to-lesson correspondence | Every original has a disposition; every lesson source has a locator, page, contribution and limits; image uses match media references |",
-              "| Per-claim support / citation accuracy | Not assessed in this drafting pass; claims arrays intentionally empty |",
+              "| Exported provenance | Every lesson has a claims record with kind=provenance, resolved references and complete source_usage |",
+              "| Per-claim support / citation accuracy | Not assessed; provenance records do not supply source quotes or verified assertions |",
               "| Clinical review | Pending; all lessons remain draft |",
               "| Quizzes | Not generated in this text-and-map task |", "",
               "| Lesson | Maximum FK grade (pages and takeaways) |", "|---|---|"]

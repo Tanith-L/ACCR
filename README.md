@@ -47,6 +47,7 @@ Apply the migrations in order, either with the Supabase CLI (`supabase db push`)
 | `0002_published_access.sql` | Row-level security, grants, the published views, `get_learning_path` |
 | `0003_review_publish.sql` | `apply_review`, `publish_lesson`, `rollback_lesson` |
 | `0004_import_support.sql` | `lessons.evidence_hash` and the public `media` Storage bucket |
+| `0008_lesson_provenance.sql` | Private editorial references/source usage for schema 1.3 exports; apply preceding migrations first |
 
 Never edit a migration that has been applied. Add a new numbered one.
 
