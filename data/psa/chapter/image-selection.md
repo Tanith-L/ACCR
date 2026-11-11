@@ -25,14 +25,18 @@ The source image and normalized rectangles are unchanged. Targets now open separ
 
 Navigation images and lesson illustrations are independent optional fields. The earlier request for relevant original illustrations inside lessons remains in effect.
 
-| Lesson | Original-derived image | Purpose |
-|---|---|---|
-| psa-overview-02, page 1 | GRAPPA domains poster | Explain the six disease domains |
-| psa-symptoms-01, page 2 | Elbow skin psoriasis | Illustrate skin patches and scales |
-| psa-symptoms-06, page 2 | Nail psoriasis | Illustrate nail changes |
-| psa-symptoms-07, page 1 | Achilles and plantar heel pictures | Distinguish back-of-heel and bottom-of-heel locations |
+Lesson images are **real clinical photos only**, from `originals/RheumNotes_PsA_Clinical_Images.pdf` (Helliwell, Coates and Gladman, "Psoriatic Arthritis", in *A Clinician's Pearls & Myths in Rheumatology*, 2nd ed., Springer Nature 2023). The PDF marks the figures internal-only without publisher permission; the team confirmed permission on 2026-11-11. Each image shows the full citation as its credit.
 
-The full Symptoms body map is displayed at topic level only. There are six active JPG assets: one topic image and five lesson illustrations.
+| Lesson | Image (page) |
+|---|---|
+| psa-dx-01 | Spine X-ray (2), next to the sentence about X-rays |
+| psa-dx-02 | Nail changes and dactylitis (2), two signs CASPAR counts |
+| psa-symptoms-06 | Dactylitis (1), nail changes (2) |
+| psa-symptoms-08 | Spine X-ray (1) |
+
+Other lessons have no image: no other real image fits. The AI-generated posters, poster crops and Wikimedia diagrams are not used inside lessons.
+
+The body map stays as the Symptoms navigation image and the GRAPPA poster as the app's second clickable Symptoms poster (`app_posters` in all-topics.json).
 
 The old generated course JPG and its superseded generation prompt have been removed from chapter/media. Its original remains in originals/generated.
 

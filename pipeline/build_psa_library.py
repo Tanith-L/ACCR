@@ -66,6 +66,8 @@ def build():
     if course_map:
         used_media.add(course_map["media_id"])
     used_media |= {i["media_id"] for l in source["lessons"] for i in l.get("images", [])}
+    # Posters the app shows outside lessons (the clickable GRAPPA poster on the Symptoms screen).
+    used_media |= set(source.get("app_posters", []))
     if {m["id"] for m in media} != used_media:
         raise ValueError("Media must match the active topic maps")
     used = {sid for l in source["lessons"] for sid in l["source_ids"]} | {m["source_id"] for m in media}
@@ -128,6 +130,35 @@ def build():
     return data, source, scores
 
 
+VIDEO_SOURCE_LABELS = {"lesson-text": "Lesson text", "key-takeaway": "Key takeaway",
+                       "framing": "Framing, no medical content"}
+
+
+def video_script(draft, references, registry):
+    """Render the lesson video's narration script, images and AI-voice source as Markdown."""
+    video = draft.get("video")
+    if not video:
+        return []
+    voice = video["voice"]
+    text = ["## Video script", ""]
+    if video.get("file"):
+        minutes = f" ({video['duration_seconds'] / 60:.1f} min)" if video.get("duration_seconds") else ""
+        text += [f"Video: [{video['file']}](../{video['file']}){minutes} · captions: [{video['captions']}](../{video['captions']})", ""]
+    text += [f"Style: {video['style']}.", "",
+             f"AI voice: {voice['voice']}, {voice['settings']}. Source: {voice['engine']}. {voice['note']}", ""]
+    for n, scene in enumerate(video["scenes"], 1):
+        text += [f"### Scene {n}: {scene['name']}", ""]
+        for line in scene["lines"]:
+            sid = line["source"]
+            label = (VIDEO_SOURCE_LABELS.get(sid) or references.get(sid, {}).get("title")
+                     or registry.get(sid, {}).get("title") or sid)
+            text.append(f"- {line['text']} *({label})*")
+        if scene.get("images"):
+            text.append("- Images: " + "; ".join(f"`{i}`" for i in scene["images"]))
+        text.append("")
+    return text
+
+
 def documents(data, authored, scores):
     parts = yaml.safe_load((ROOT / "data/psa/organization.yaml").read_text(encoding="utf-8"))["parts"]
     folders = {p["topic_id"]: p["folder"] for p in parts}
@@ -152,8 +183,9 @@ def documents(data, authored, scores):
                 if illustration["page"] == p["order"]:
                     asset = next(m for m in data["media"] if m["id"] == illustration["media_id"])
                     text += [f"![{asset['alt_text']}](../../{asset['file']})", "", asset["credit"], ""]
-        text += ["## Key takeaways", "", *[f"- {t}" for t in lesson["key_takeaways"]], "",
-                 "## References and reviewer notes", "", draft["review_notes"], ""]
+        text += ["## Key takeaways", "", *[f"- {t}" for t in lesson["key_takeaways"]], ""]
+        text += video_script(draft, authored["references"], registry)
+        text += ["## References and reviewer notes", "", draft["review_notes"], ""]
         for row in lesson_source_rows(ROOT, draft, registry):
             text.append(f"- [{row['title']}]({row['lesson_href']}) ? {row['locator']} (lesson pages {row['pages']}; {row['kind']}). {row['contribution']} Limits: {row['limits']}")
         for rid in draft["references"]:

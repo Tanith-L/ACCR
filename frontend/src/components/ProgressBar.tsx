@@ -5,7 +5,18 @@ import { useReducedMotion } from '@/hooks/useReducedMotion';
 import { colors, radius } from '@/theme';
 
 /** Rounded bar that eases to its new value, or jumps there when motion is reduced. */
-export function ProgressBar({ value, label, trackColor }: { value: number; label: string; trackColor?: string }) {
+export function ProgressBar({
+  value,
+  label,
+  trackColor,
+  height,
+}: {
+  value: number;
+  label: string;
+  trackColor?: string;
+  /** Defaults to 10; the lesson's reading bar is thinner. */
+  height?: number;
+}) {
   const ratio = Math.max(0, Math.min(1, value));
   const reducedMotion = useReducedMotion();
   const [width] = useState(() => new Animated.Value(ratio));
@@ -17,7 +28,7 @@ export function ProgressBar({ value, label, trackColor }: { value: number; label
 
   return (
     <View
-      style={[styles.track, trackColor ? { backgroundColor: trackColor } : null]}
+      style={[styles.track, trackColor ? { backgroundColor: trackColor } : null, height ? { height } : null]}
       accessibilityRole="progressbar"
       accessibilityLabel={label}
       accessibilityValue={{ min: 0, max: 100, now: Math.round(ratio * 100) }}

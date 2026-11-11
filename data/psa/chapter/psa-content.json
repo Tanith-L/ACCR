@@ -1,23 +1,16 @@
 {
   "schema_version": "1.3",
   "run": {
-    "run_id": "psa-20261110-201909-complete-drafts",
+    "run_id": "psa-20261111-175425-complete-drafts",
     "model": "Codex interactive assistant; no independent judge",
     "prompt_version": "psa-all-topics-v5-provenance",
-    "generated_at": "2026-11-10T20:19:09.019101+00:00"
+    "generated_at": "2026-11-11T17:54:25.360555+00:00"
   },
   "disease": {
     "id": "psa",
     "name": "Psoriatic arthritis"
   },
   "sources": [
-    {
-      "id": "src-achilles-enthesitis-illustration",
-      "title": "Achilles enthesitis",
-      "type": "image",
-      "file_hash": "07292a32f40684ae16705551092fcc6a85dfa44e75aa040f24ad8933dfcba12b",
-      "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
-    },
     {
       "id": "src-clinical-manifestations-of-psa-poster",
       "title": "Clinical manifestations of PsA",
@@ -54,18 +47,11 @@
       "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
     },
     {
-      "id": "src-nail-psoriasis-illustration",
-      "title": "Nail psoriasis",
-      "type": "image",
-      "file_hash": "5f79a6f17a6d2c71e7a931b8e4eb35d768510b1e6587fc2929c7000c8ef22260",
-      "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
-    },
-    {
-      "id": "src-plantar-fasciitis-illustration",
-      "title": "Plantar fasciitis",
-      "type": "image",
-      "file_hash": "0e94af17561900f3dbdccef33c54633cca1a9677a241a84f5bf30b52024463bf",
-      "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
+      "id": "src-pearls-myths-psa-figures",
+      "title": "Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)",
+      "type": "pdf",
+      "file_hash": "5a434186f766562b07a2a6c86d69c0adc8242e5aa636eb2832799729a75f4cc7",
+      "provided_by": "© Springer Nature Switzerland AG 2023; used with permission (team-confirmed 2026-11-11)"
     },
     {
       "id": "src-poster-of-the-comorbidities-seen-in-psa",
@@ -86,13 +72,6 @@
       "title": "PsA One-Pager Intro",
       "type": "image",
       "file_hash": "9a294c58050e54a8e7229ed2bf580b899c230f3a2820582bad1b8274c55c179f",
-      "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
-    },
-    {
-      "id": "src-skin-psoriasis-illustration",
-      "title": "Plaque psoriasis of the elbow",
-      "type": "image",
-      "file_hash": "f8b2f56cc64d9d5ac639da39902aca08252d915ae9020d03b96e8c17f3867e52",
       "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
     },
     {
@@ -375,16 +354,16 @@
       "pages": [
         {
           "order": 1,
-          "body": "A diagnosis starts with your story and an exam. A rheumatologist is a doctor who treats joint and immune system diseases. The doctor asks which joints hurt, when stiffness starts, and how symptoms affect daily tasks. They also ask about psoriasis and family history. There is no single test that proves someone has PsA. The whole pattern matters. Bring a short list of changes, even if they come and go. Note how long stiffness lasts after you wake up."
+          "body": "There is no single test for PsA. A doctor looks at the whole pattern. This is often a rheumatologist, a doctor for joint and immune system diseases. They ask about your symptoms. They ask if psoriasis or PsA runs in your family. They check your joints, skin, and nails. Swollen or tender joints, psoriasis, and nail changes are important signs."
         },
         {
           "order": 2,
-          "body": "The exam may include joints, the back, skin, nails, and places where tendons attach to bone. Blood tests can help check for other causes of symptoms. Images, such as X-rays, ultrasound, or MRI, may help show inflammation or damage. Not everyone needs every test. A normal result on one test does not explain the whole picture. Tell the team about changes outside the joints, too."
+          "body": "Blood tests help rule out other conditions, such as rheumatoid arthritis. X-rays, ultrasound, or MRI can show changes in joints, the spine, or where tendons attach to bone. See a doctor if joint pain, stiffness, or swelling keeps coming back. Bring a short list of your changes to the visit."
         }
       ],
       "key_takeaways": [
-        "There is no single test that proves someone has PsA.",
-        "The whole pattern matters."
+        "There is no single test for PsA.",
+        "See a doctor if joint pain, stiffness, or swelling keeps coming back."
       ],
       "claims": [
         {
@@ -412,7 +391,7 @@
               "kind": "text",
               "locator": "Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs",
               "contribution": "Which findings a clinician checks; psoriasis history and multi-area examination.",
-              "limits": "The testing workflow and no-single-test statement come from NIAMS, not this poster."
+              "limits": "The testing workflow, the no-single-test statement, the blood-test purpose and the see-a-doctor advice come from NIAMS and NHS, not this poster."
             },
             {
               "source_id": "src-murphys-laws-of-arthritis-preface",
@@ -422,7 +401,17 @@
               "kind": "text",
               "locator": "Paragraph 11: preparation and proactive monitoring",
               "contribution": "Bring a concise symptom history to the visit.",
-              "limits": "The morning-stiffness question is an editorial visit-preparation example; diagnostic shortcuts in paragraphs 16-18 are not taught."
+              "limits": "Only the preparation idea is used. Diagnostic shortcuts in paragraphs 16-18 are not taught."
+            },
+            {
+              "source_id": "src-pearls-myths-psa-figures",
+              "pages": [
+                2
+              ],
+              "kind": "image",
+              "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+              "contribution": "Spine X-ray: shows what an X-ray of the spine looks like.",
+              "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
             }
           ]
         }
@@ -433,10 +422,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 5.438
+        "fk_grade": 5.333
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-spine-xray",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-dx-02",
@@ -447,16 +442,16 @@
       "pages": [
         {
           "order": 1,
-          "body": "CASPAR is a way to group findings for PsA. First, there must be signs of inflammation. These may be in a joint, the spine, or a tendon attachment. Other features are then considered. They include psoriasis now or in the past, or psoriasis in the family. Nail changes and swelling of a whole finger or toe are also part of the framework."
+          "body": "CASPAR is a set of rules doctors use to classify PsA. First, there must be inflammation in a joint, the spine, or a tendon attachment. Then other signs are added. Psoriasis you have now counts the most. Psoriasis in the past, or in your family, also counts."
         },
         {
           "order": 2,
-          "body": "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team."
+          "body": "Nail changes count. So does a whole finger or toe that is swollen, now or in the past. A negative test for rheumatoid factor (RF) counts. So does new bone next to a joint on an X-ray. A heel spur alone does not count. A score is not a home diagnosis."
         }
       ],
       "key_takeaways": [
-        "First, there must be signs of inflammation.",
-        "A heel spur alone is not that finding."
+        "First, there must be inflammation in a joint, the spine, or a tendon attachment.",
+        "A score is not a home diagnosis."
       ],
       "claims": [
         {
@@ -483,7 +478,7 @@
               ],
               "kind": "text",
               "locator": "Right-hand CASPAR branch: entry criterion and five feature groups",
-              "contribution": "Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone.",
+              "contribution": "Inflammation first (mandatory); then psoriasis (current weighted most; personal or family history), nail dystrophy, negative RF, dactylitis and juxta-articular new bone.",
               "limits": "Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score."
             },
             {
@@ -494,8 +489,18 @@
               ],
               "kind": "text",
               "locator": "Box A: CASPAR table",
-              "contribution": "Explains current/past/family psoriasis, nails, RF and dactylitis.",
+              "contribution": "Current, personal or family psoriasis; nail dystrophy (pitting, onycholysis, hyperkeratosis); negative RF; current or past dactylitis.",
               "limits": "Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature."
+            },
+            {
+              "source_id": "src-pearls-myths-psa-figures",
+              "pages": [
+                2
+              ],
+              "kind": "image",
+              "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+              "contribution": "Nail changes and dactylitis photos: two of the signs CASPAR counts.",
+              "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
             }
           ]
         }
@@ -506,10 +511,20 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 5.188
+        "fk_grade": 5.362
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-nail-changes",
+          "page": 2
+        },
+        {
+          "media_id": "psa-dactylitis",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-overview-01",
@@ -632,7 +647,7 @@
                 1,
                 2
               ],
-              "kind": "text_and_image",
+              "kind": "text",
               "locator": "Six domain cards, including axial disease, dactylitis and enthesitis",
               "contribution": "Defines the six disease domains; displayed on page 1.",
               "limits": "Technical poster wording is explained in the lesson; not a drug selection tool."
@@ -669,13 +684,7 @@
         "fk_grade": 5.337
       },
       "generated_by": "llm",
-      "status": "draft",
-      "images": [
-        {
-          "media_id": "psa-overview-grappa-domains",
-          "page": 1
-        }
-      ]
+      "status": "draft"
     },
     {
       "id": "psa-symptoms-01",
@@ -690,12 +699,12 @@
         },
         {
           "order": 2,
-          "body": "The photo below shows scales on an elbow. Use it to learn what the source means by a skin patch. Your skin may look different. Tell your care team about new or changing patches and any joint symptoms. Skin and joint changes do not always happen at the same time."
+          "body": "Tell your care team about new or changing patches and any joint symptoms. Skin and joint changes do not always happen at the same time."
         }
       ],
       "key_takeaways": [
         "Skin changes are one part of PsA care.",
-        "Your skin may look different."
+        "Skin and joint changes do not always happen at the same time."
       ],
       "claims": [
         {
@@ -744,16 +753,6 @@
               "locator": "skin body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
-            },
-            {
-              "source_id": "src-skin-psoriasis-illustration",
-              "pages": [
-                2
-              ],
-              "kind": "image",
-              "locator": "PSA1 caption and elbow",
-              "contribution": "Skin patches and scales.",
-              "limits": "Supplied educational illustration; does not diagnose a patient."
             }
           ]
         }
@@ -764,16 +763,10 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 4.126
+        "fk_grade": 4.861
       },
       "generated_by": "llm",
-      "status": "draft",
-      "images": [
-        {
-          "media_id": "psa-skin-psoriasis",
-          "page": 2
-        }
-      ]
+      "status": "draft"
     },
     {
       "id": "psa-symptoms-02",
@@ -1176,14 +1169,15 @@
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
             },
             {
-              "source_id": "src-nail-psoriasis-illustration",
+              "source_id": "src-pearls-myths-psa-figures",
               "pages": [
+                1,
                 2
               ],
               "kind": "image",
-              "locator": "PSA2 caption and nails",
-              "contribution": "Pits, yellow spots and nail lifting.",
-              "limits": "Supplied educational illustration; does not diagnose a patient."
+              "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+              "contribution": "Dactylitis photo (page 1) and nail-change photo (page 2).",
+              "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
             }
           ]
         }
@@ -1200,7 +1194,11 @@
       "status": "draft",
       "images": [
         {
-          "media_id": "psa-nail-psoriasis",
+          "media_id": "psa-dactylitis",
+          "page": 1
+        },
+        {
+          "media_id": "psa-nail-changes",
           "page": 2
         }
       ]
@@ -1282,26 +1280,6 @@
               "locator": "feet body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
-            },
-            {
-              "source_id": "src-achilles-enthesitis-illustration",
-              "pages": [
-                1
-              ],
-              "kind": "image",
-              "locator": "PSA3 caption and heel backs",
-              "contribution": "Back-of-heel tendon attachment location.",
-              "limits": "Supplied educational illustration; does not diagnose a patient."
-            },
-            {
-              "source_id": "src-plantar-fasciitis-illustration",
-              "pages": [
-                1
-              ],
-              "kind": "image",
-              "locator": "PSA5 caption and sole",
-              "contribution": "Bottom-of-heel attachment location.",
-              "limits": "Supplied educational illustration; does not diagnose a patient."
             }
           ]
         }
@@ -1315,17 +1293,7 @@
         "fk_grade": 4.809
       },
       "generated_by": "llm",
-      "status": "draft",
-      "images": [
-        {
-          "media_id": "psa-achilles-enthesitis",
-          "page": 1
-        },
-        {
-          "media_id": "psa-plantar-fasciitis",
-          "page": 1
-        }
-      ]
+      "status": "draft"
     },
     {
       "id": "psa-symptoms-08",
@@ -1404,6 +1372,16 @@
               "locator": "spine body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-pearls-myths-psa-figures",
+              "pages": [
+                1
+              ],
+              "kind": "image",
+              "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+              "contribution": "Spine X-ray with spondylitis changes.",
+              "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
             }
           ]
         }
@@ -1417,7 +1395,13 @@
         "fk_grade": 4.469
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-spine-xray",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-09",
@@ -2296,32 +2280,25 @@
       "source_id": "src-clinical-manifestations-of-psa-poster"
     },
     {
-      "id": "psa-skin-psoriasis",
-      "file": "media/skin-psoriasis.jpg",
-      "alt_text": "Raised patches with scales on an elbow.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-skin-psoriasis-illustration"
+      "id": "psa-dactylitis",
+      "file": "media/dactylitis-toe-finger.jpg",
+      "alt_text": "Photos of dactylitis: a whole little toe swollen like a sausage, and a swollen little finger with a swollen wrist.",
+      "credit": "Helliwell P, Coates LC, Gladman D. \"Psoriatic Arthritis.\" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, p. 99, fig. 8.2. © Springer Nature Switzerland AG 2023. Used with permission.",
+      "source_id": "src-pearls-myths-psa-figures"
     },
     {
-      "id": "psa-nail-psoriasis",
-      "file": "media/nail-psoriasis.jpg",
-      "alt_text": "Small pits and yellow spots on the nails.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-nail-psoriasis-illustration"
+      "id": "psa-nail-changes",
+      "file": "media/nail-pitting-onycholysis.jpg",
+      "alt_text": "Photo of fingernails with tiny dents (pitting) and a nail lifting away from the nail bed.",
+      "credit": "Helliwell P, Coates LC, Gladman D. \"Psoriatic Arthritis.\" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, fig. 8.1. © Springer Nature Switzerland AG 2023. Used with permission.",
+      "source_id": "src-pearls-myths-psa-figures"
     },
     {
-      "id": "psa-achilles-enthesitis",
-      "file": "media/achilles-enthesitis.jpg",
-      "alt_text": "Swelling at the back of a heel.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-achilles-enthesitis-illustration"
-    },
-    {
-      "id": "psa-plantar-fasciitis",
-      "file": "media/plantar-fasciitis.jpg",
-      "alt_text": "Pain at the bottom of a heel.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-plantar-fasciitis-illustration"
+      "id": "psa-spine-xray",
+      "file": "media/spine-xray-spondylitis.jpg",
+      "alt_text": "Side-view X-ray of the mid and lower back. An arrow points to changes in the spine from PsA.",
+      "credit": "Helliwell P, Coates LC, Gladman D. \"Psoriatic Arthritis.\" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, chap. 8. © Springer Nature Switzerland AG 2023. Used with permission.",
+      "source_id": "src-pearls-myths-psa-figures"
     }
   ]
 }

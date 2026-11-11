@@ -45,22 +45,23 @@
       "id": "psa-dx-01",
       "title": "How doctors assess possible PsA",
       "pages": [
-        "A diagnosis starts with your story and an exam. A rheumatologist is a doctor who treats joint and immune system diseases. The doctor asks which joints hurt, when stiffness starts, and how symptoms affect daily tasks. They also ask about psoriasis and family history. There is no single test that proves someone has PsA. The whole pattern matters. Bring a short list of changes, even if they come and go. Note how long stiffness lasts after you wake up.",
-        "The exam may include joints, the back, skin, nails, and places where tendons attach to bone. Blood tests can help check for other causes of symptoms. Images, such as X-rays, ultrasound, or MRI, may help show inflammation or damage. Not everyone needs every test. A normal result on one test does not explain the whole picture. Tell the team about changes outside the joints, too."
+        "There is no single test for PsA. A doctor looks at the whole pattern. This is often a rheumatologist, a doctor for joint and immune system diseases. They ask about your symptoms. They ask if psoriasis or PsA runs in your family. They check your joints, skin, and nails. Swollen or tender joints, psoriasis, and nail changes are important signs.",
+        "Blood tests help rule out other conditions, such as rheumatoid arthritis. X-rays, ultrasound, or MRI can show changes in joints, the spine, or where tendons attach to bone. See a doctor if joint pain, stiffness, or swelling keeps coming back. Bring a short list of your changes to the visit."
       ],
       "key_takeaways": [
-        "There is no single test that proves someone has PsA.",
-        "The whole pattern matters."
+        "There is no single test for PsA.",
+        "See a doctor if joint pain, stiffness, or swelling keeps coming back."
       ],
       "source_ids": [
         "src-psa-one-pager-intro",
-        "src-murphys-laws-of-arthritis-preface"
+        "src-murphys-laws-of-arthritis-preface",
+        "src-pearls-myths-psa-figures"
       ],
       "references": [
         "niams-care",
         "nhs-psa"
       ],
-      "review_notes": "Source-faithfulness review must cover the diagnostic pathway, including the limits of single test results.",
+      "review_notes": "Brief text; the lesson video carries the detail. Review the diagnostic pathway, including the limits of single test results and the rule-out purpose of blood tests.",
       "source_usage": [
         {
           "source_id": "src-psa-one-pager-intro",
@@ -71,7 +72,7 @@
           "kind": "text",
           "locator": "Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs",
           "contribution": "Which findings a clinician checks; psoriasis history and multi-area examination.",
-          "limits": "The testing workflow and no-single-test statement come from NIAMS, not this poster."
+          "limits": "The testing workflow, the no-single-test statement, the blood-test purpose and the see-a-doctor advice come from NIAMS and NHS, not this poster."
         },
         {
           "source_id": "src-murphys-laws-of-arthritis-preface",
@@ -81,7 +82,242 @@
           "kind": "text",
           "locator": "Paragraph 11: preparation and proactive monitoring",
           "contribution": "Bring a concise symptom history to the visit.",
-          "limits": "The morning-stiffness question is an editorial visit-preparation example; diagnostic shortcuts in paragraphs 16-18 are not taught."
+          "limits": "Only the preparation idea is used. Diagnostic shortcuts in paragraphs 16-18 are not taught."
+        },
+        {
+          "source_id": "src-pearls-myths-psa-figures",
+          "pages": [
+            2
+          ],
+          "kind": "image",
+          "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+          "contribution": "Spine X-ray: shows what an X-ray of the spine looks like.",
+          "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
+        }
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-dx-01.mp4",
+        "captions": "videos/psa-dx-01.vtt",
+        "cover": "videos/psa-dx-01-cover.jpg",
+        "duration_seconds": 186.5,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Hi there, and welcome! Today, let’s find out how doctors check for possible psoriatic arthritis, or PsA."
+              }
+            ]
+          },
+          {
+            "name": "When to get checked",
+            "lines": [
+              {
+                "source": "nhs-psa",
+                "text": "See a doctor if you have joint pain, stiffness, and swelling that keeps coming back."
+              },
+              {
+                "source": "nhs-psa",
+                "text": "Go even if you do not have psoriasis. These symptoms need to be checked."
+              }
+            ]
+          },
+          {
+            "name": "Meet the rheumatologist",
+            "lines": [
+              {
+                "source": "nhs-psa",
+                "text": "If your doctor thinks you may have PsA, they will send you to a specialist called a rheumatologist."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A rheumatologist is a doctor who treats joint and immune system diseases."
+              }
+            ]
+          },
+          {
+            "name": "No single test",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "There is no single test that can prove you have PsA."
+              },
+              {
+                "source": "niams-care",
+                "text": "Instead, the doctor puts several clues together: your story, an exam, and some tests."
+              }
+            ]
+          },
+          {
+            "name": "Your symptoms",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "First, the doctor talks with you about your symptoms."
+              },
+              {
+                "source": "nhs-psa",
+                "text": "For example, PsA symptoms can be worse first thing in the morning, and may get better with exercise."
+              }
+            ]
+          },
+          {
+            "name": "Family and skin history",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "The doctor will ask if anyone in your family has psoriasis or psoriatic arthritis."
+              },
+              {
+                "source": "nhs-psa",
+                "text": "PsA can sometimes start after a person has had psoriasis for many years."
+              }
+            ]
+          },
+          {
+            "name": "The physical exam",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Next comes a physical exam."
+              },
+              {
+                "source": "niams-care",
+                "text": "Swollen or tender joints, psoriasis on the skin, and nail changes are important signs."
+              }
+            ]
+          },
+          {
+            "name": "Checking the skin",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "If you have never been told you have psoriasis, the doctor may check your skin for it."
+              }
+            ]
+          },
+          {
+            "name": "Where PsA can show up",
+            "lines": [
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "PsA can affect the joints, the spine, the skin, and the nails."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "It can also affect places where a tendon or ligament attaches to bone, like the back of the heel."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Some people get a whole finger or toe that swells up, like a little sausage."
+              }
+            ]
+          },
+          {
+            "name": "Nail changes",
+            "lines": [
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Nail changes can include tiny dents, called pitting, or a nail that lifts away from the skin underneath."
+              }
+            ]
+          },
+          {
+            "name": "Blood tests",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "A blood test helps check for other conditions, such as rheumatoid arthritis."
+              },
+              {
+                "source": "nhs-psa",
+                "text": "Other conditions can also cause joint pain, stiffness, and swelling. Examples are osteoarthritis, rheumatoid arthritis, and gout."
+              }
+            ]
+          },
+          {
+            "name": "Joint fluid test",
+            "lines": [
+              {
+                "source": "nhs-psa",
+                "text": "Sometimes, a little fluid is taken from a sore joint and tested."
+              }
+            ]
+          },
+          {
+            "name": "Pictures of the inside",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "X-rays, ultrasound, or MRI scans can show changes in the joints, the spine, or where tendons attach to bone."
+              }
+            ]
+          },
+          {
+            "name": "Putting the clues together",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Each test is just one clue."
+              },
+              {
+                "source": "lesson-text",
+                "text": "The doctor looks at all the clues together to see the whole pattern."
+              }
+            ]
+          },
+          {
+            "name": "Be prepared",
+            "lines": [
+              {
+                "source": "src-murphys-laws-of-arthritis-preface",
+                "text": "It pays to be prepared."
+              },
+              {
+                "source": "src-murphys-laws-of-arthritis-preface",
+                "text": "Problems like a delay in diagnosis can happen, unless we plan ahead."
+              },
+              {
+                "source": "lesson-text",
+                "text": "So bring a short list of your changes, even if they come and go. And note how long stiffness lasts after you wake up."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "There is no single test for PsA."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Your doctor puts together your story, an exam, and tests."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "See a doctor if joint pain, stiffness, or swelling keeps coming back."
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "media_id": "psa-spine-xray",
+          "page": 2
         }
       ]
     },
@@ -89,23 +325,33 @@
       "id": "psa-dx-02",
       "title": "Understanding the CASPAR framework",
       "pages": [
-        "CASPAR is a way to group findings for PsA. First, there must be signs of inflammation. These may be in a joint, the spine, or a tendon attachment. Other features are then considered. They include psoriasis now or in the past, or psoriasis in the family. Nail changes and swelling of a whole finger or toe are also part of the framework.",
-        "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team."
+        "CASPAR is a set of rules doctors use to classify PsA. First, there must be inflammation in a joint, the spine, or a tendon attachment. Then other signs are added. Psoriasis you have now counts the most. Psoriasis in the past, or in your family, also counts.",
+        "Nail changes count. So does a whole finger or toe that is swollen, now or in the past. A negative test for rheumatoid factor (RF) counts. So does new bone next to a joint on an X-ray. A heel spur alone does not count. A score is not a home diagnosis."
       ],
       "key_takeaways": [
-        "First, there must be signs of inflammation.",
-        "A heel spur alone is not that finding."
+        "First, there must be inflammation in a joint, the spine, or a tendon attachment.",
+        "A score is not a home diagnosis."
       ],
       "source_ids": [
         "src-mindmap",
-        "src-psa-one-pager-intro"
+        "src-psa-one-pager-intro",
+        "src-pearls-myths-psa-figures"
       ],
       "references": [
         "niams-care",
         "caspar-original"
       ],
-      "review_notes": "Handwritten CASPAR branch and the obscured One-Pager require clinical confirmation. No numerical score or self-diagnosis tool is implemented.",
-      "images": [],
+      "review_notes": "Brief text; the lesson video carries the detail. Confirm the handwritten CASPAR branch and the obscured One-Pager rows clinically. The point threshold is deliberately not taught; no self-diagnosis score is implemented.",
+      "images": [
+        {
+          "media_id": "psa-nail-changes",
+          "page": 2
+        },
+        {
+          "media_id": "psa-dactylitis",
+          "page": 2
+        }
+      ],
       "source_usage": [
         {
           "source_id": "src-mindmap",
@@ -115,7 +361,7 @@
           ],
           "kind": "text",
           "locator": "Right-hand CASPAR branch: entry criterion and five feature groups",
-          "contribution": "Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone.",
+          "contribution": "Inflammation first (mandatory); then psoriasis (current weighted most; personal or family history), nail dystrophy, negative RF, dactylitis and juxta-articular new bone.",
           "limits": "Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score."
         },
         {
@@ -126,10 +372,203 @@
           ],
           "kind": "text",
           "locator": "Box A: CASPAR table",
-          "contribution": "Explains current/past/family psoriasis, nails, RF and dactylitis.",
+          "contribution": "Current, personal or family psoriasis; nail dystrophy (pitting, onycholysis, hyperkeratosis); negative RF; current or past dactylitis.",
           "limits": "Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature."
+        },
+        {
+          "source_id": "src-pearls-myths-psa-figures",
+          "pages": [
+            2
+          ],
+          "kind": "image",
+          "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+          "contribution": "Nail changes and dactylitis photos: two of the signs CASPAR counts.",
+          "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-dx-02.mp4",
+        "captions": "videos/psa-dx-02.vtt",
+        "cover": "videos/psa-dx-02-cover.jpg",
+        "duration_seconds": 134.5,
+        "scenes": [
+          {
+            "name": "What is CASPAR?",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Hi again! Let’s learn about CASPAR."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "CASPAR stands for Classification criteria for Psoriatic Arthritis."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "It comes from a study published in 2006."
+              }
+            ]
+          },
+          {
+            "name": "Sorting the signs",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Doctors use it to sort the signs of PsA into groups."
+              }
+            ]
+          },
+          {
+            "name": "Step one is a must",
+            "lines": [
+              {
+                "source": "src-mindmap",
+                "text": "Step one is a must."
+              },
+              {
+                "source": "src-mindmap",
+                "text": "There has to be inflammation in a joint, in the spine, or where a tendon attaches to bone."
+              }
+            ]
+          },
+          {
+            "name": "Step two adds points",
+            "lines": [
+              {
+                "source": "src-mindmap",
+                "text": "Step two adds points for other signs."
+              },
+              {
+                "source": "src-mindmap",
+                "text": "There are five groups of signs."
+              }
+            ]
+          },
+          {
+            "name": "Group 1: Psoriasis",
+            "lines": [
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Group one is psoriasis."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Psoriasis on your skin or scalp right now counts the most."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "If you don’t have it now, having had it in the past counts. If you never had it, psoriasis in a close family member counts."
+              }
+            ]
+          },
+          {
+            "name": "Group 2: Nail changes",
+            "lines": [
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Group two is nail changes you have now."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Examples are tiny dents called pitting, a nail lifting off the skin underneath, or thick buildup under the nail."
+              }
+            ]
+          },
+          {
+            "name": "Group 3: The RF blood test",
+            "lines": [
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Group three is a blood test called rheumatoid factor, or RF."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Here, a negative result is the one that counts."
+              }
+            ]
+          },
+          {
+            "name": "Group 4: A swollen finger or toe",
+            "lines": [
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Group four is a whole finger or toe that is swollen, sometimes called a sausage digit."
+              },
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "It counts if it is swollen now, or if a doctor wrote it down in the past."
+              }
+            ]
+          },
+          {
+            "name": "Group 5: New bone on an X-ray",
+            "lines": [
+              {
+                "source": "src-mindmap",
+                "text": "Group five is new bone forming right next to a joint, seen on an X-ray."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A heel spur alone is not that finding."
+              }
+            ]
+          },
+          {
+            "name": "Points are not a home test",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "The reference adds up these points."
+              },
+              {
+                "source": "lesson-text",
+                "text": "But a score is not a home diagnosis."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A doctor must look at all the findings and check for other causes."
+              }
+            ]
+          },
+          {
+            "name": "Talk it through",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Knowing CASPAR can help you follow the conversation with your care team."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Nice work! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "First, there must be inflammation in a joint, the spine, or a tendon attachment."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Psoriasis, nail changes, a negative RF test, a swollen finger or toe, and new bone near a joint can add points."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A score is not a home diagnosis."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "psa-overview-01",
@@ -184,7 +623,171 @@
           "contribution": "Names the six domains in plain language.",
           "limits": "Domain labels are not course topic labels."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-overview-01.mp4",
+        "captions": "videos/psa-overview-01.vtt",
+        "cover": "videos/psa-overview-01-cover.jpg",
+        "duration_seconds": 136.1,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Hi there! In this lesson, let’s find out what psoriatic arthritis, or PsA, really is."
+              }
+            ]
+          },
+          {
+            "name": "A long-term condition",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "PsA is a long-term condition that causes inflammation in the joints, and in the places where tendons and ligaments attach to bone."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Those attachment places are called entheses."
+              }
+            ]
+          },
+          {
+            "name": "An overactive immune system",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "In PsA, the immune system becomes overactive, for reasons no one fully understands."
+              },
+              {
+                "source": "niams-overview",
+                "text": "This creates inflammation, which leads to pain and swelling."
+              }
+            ]
+          },
+          {
+            "name": "Linked to psoriasis",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Psoriasis is a related skin condition that can cause scaly patches."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Most people with PsA already have psoriasis when they are diagnosed."
+              }
+            ]
+          },
+          {
+            "name": "Which comes first?",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "On average, PsA starts about 7 to 10 years after skin symptoms begin."
+              },
+              {
+                "source": "niams-overview",
+                "text": "But a small group of people notice joint pain before any skin rash."
+              }
+            ]
+          },
+          {
+            "name": "Linked, not the same",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "So psoriasis and PsA are linked, but they are not the same condition."
+              }
+            ]
+          },
+          {
+            "name": "Who gets PsA?",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "Anyone can get PsA. It is most common in adults, and it affects men and women equally."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Genes play a part. Many people with PsA have family members with the disease."
+              }
+            ]
+          },
+          {
+            "name": "Possible triggers",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "Things like obesity, infection, injury, or stress may help trigger it."
+              }
+            ]
+          },
+          {
+            "name": "Six areas",
+            "lines": [
+              {
+                "source": "src-grappa-domains-in-psa-poster",
+                "text": "Doctors group PsA into six areas, called domains."
+              },
+              {
+                "source": "lesson-text",
+                "text": "They are skin, nails, joints away from the spine, the spine, swollen fingers or toes, and tendon attachment sites."
+              }
+            ]
+          },
+          {
+            "name": "Everyone is different",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "You may have changes in some areas and not others. Not everyone has all six."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Symptoms vary a lot from person to person."
+              }
+            ]
+          },
+          {
+            "name": "Treatment helps",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "There is no cure yet, but treatment can slow the disease, ease pain, and protect your joints."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Early treatment is linked to better results, and less damage."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Psoriasis and PsA are linked, but they are not the same condition."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Not everyone has changes in all six areas."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-overview-02",
@@ -207,12 +810,7 @@
         "niams-overview"
       ],
       "review_notes": "The GRAPPA poster is a lesson illustration, not the course overview navigation. Six disease domains are distinct from six course topics. Eye/gut conditions and other comorbidities remain separate.",
-      "images": [
-        {
-          "media_id": "psa-overview-grappa-domains",
-          "page": 1
-        }
-      ],
+      "images": [],
       "source_usage": [
         {
           "source_id": "src-grappa-domains-in-psa-poster",
@@ -220,7 +818,7 @@
             1,
             2
           ],
-          "kind": "text_and_image",
+          "kind": "text",
           "locator": "Six domain cards, including axial disease, dactylitis and enthesitis",
           "contribution": "Defines the six disease domains; displayed on page 1.",
           "limits": "Technical poster wording is explained in the lesson; not a drug selection tool."
@@ -245,24 +843,189 @@
           "contribution": "Introduces heart health, blood sugar, weight and mood.",
           "limits": "Numerical prevalence claims are not used; no study population is identified on the image."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-overview-02.mp4",
+        "captions": "videos/psa-overview-02.vtt",
+        "cover": "videos/psa-overview-02-cover.jpg",
+        "duration_seconds": 131.6,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Welcome back! Let’s take a tour of the six areas of PsA."
+              }
+            ]
+          },
+          {
+            "name": "1. Skin psoriasis",
+            "lines": [
+              {
+                "source": "src-grappa-domains-in-psa-poster",
+                "text": "First, skin psoriasis: raised, scaly patches on the skin."
+              },
+              {
+                "source": "niams-overview",
+                "text": "They often show up on the scalp, the elbows, or the knees."
+              }
+            ]
+          },
+          {
+            "name": "2. Nail psoriasis",
+            "lines": [
+              {
+                "source": "src-grappa-domains-in-psa-poster",
+                "text": "Second, nail psoriasis."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Nails can get tiny dents called pits, crumble, or lift away from the nail bed."
+              }
+            ]
+          },
+          {
+            "name": "3. Peripheral arthritis",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Third, peripheral arthritis. This means joints away from the spine, like the hands or the knees."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Joints may feel stiff, painful, or swollen. Stiffness is often worse in the morning, or after resting."
+              }
+            ]
+          },
+          {
+            "name": "4. Axial disease",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Fourth, axial disease. This affects the spine, and may involve the sacroiliac, or SI, joints, where the spine meets the pelvis."
+              },
+              {
+                "source": "niams-overview",
+                "text": "It can cause stiffness in the neck, the lower back, and the hips."
+              }
+            ]
+          },
+          {
+            "name": "5. Dactylitis",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Fifth, dactylitis: a whole finger or toe that swells up, like a little sausage."
+              },
+              {
+                "source": "niams-overview",
+                "text": "It can be painful."
+              }
+            ]
+          },
+          {
+            "name": "6. Enthesitis",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Sixth, enthesitis: inflammation where a tendon or ligament joins bone."
+              },
+              {
+                "source": "niams-overview",
+                "text": "The back of the heel and the sole of the foot are common spots."
+              }
+            ]
+          },
+          {
+            "name": "Why the six areas matter",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "These six domains can help guide treatment talks with your team."
+              },
+              {
+                "source": "lesson-text",
+                "text": "But they do not name a drug that is right for you."
+              }
+            ]
+          },
+          {
+            "name": "Eyes and gut",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Eye or bowel inflammation can also happen alongside PsA."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Eye inflammation, called uveitis, must be treated quickly to avoid vision loss."
+              },
+              {
+                "source": "lesson-text",
+                "text": "These are separate from the six domains."
+              }
+            ]
+          },
+          {
+            "name": "Your whole health",
+            "lines": [
+              {
+                "source": "npf-related",
+                "text": "People with PsA also have a higher risk of other health conditions, like heart disease, diabetes, and obesity."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Mood matters, too."
+              },
+              {
+                "source": "npf-related",
+                "text": "Treating PsA well can lower the risk of some of these."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Nice work! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Dactylitis means swelling of a whole finger or toe."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "These six domains can help guide treatment discussions."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "psa-symptoms-01",
       "title": "Skin and psoriasis",
       "pages": [
         "Psoriasis can cause raised skin patches with scales. The skin card on the map shows one example. Patches may appear on the elbows or other parts of the body. Skin changes are one part of PsA care. A skin patch alone cannot show whether a person has joint disease.",
-        "The photo below shows scales on an elbow. Use it to learn what the source means by a skin patch. Your skin may look different. Tell your care team about new or changing patches and any joint symptoms. Skin and joint changes do not always happen at the same time."
+        "Tell your care team about new or changing patches and any joint symptoms. Skin and joint changes do not always happen at the same time."
       ],
       "key_takeaways": [
         "Skin changes are one part of PsA care.",
-        "Your skin may look different."
+        "Skin and joint changes do not always happen at the same time."
       ],
       "source_ids": [
         "src-clinical-manifestations-of-psa-poster",
         "src-grappa-domains-in-psa-poster",
-        "src-psa-as-symptoms",
-        "src-skin-psoriasis-illustration"
+        "src-psa-as-symptoms"
       ],
       "source_usage": [
         {
@@ -295,16 +1058,6 @@
           "locator": "skin body label",
           "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
           "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
-        },
-        {
-          "source_id": "src-skin-psoriasis-illustration",
-          "pages": [
-            2
-          ],
-          "kind": "image",
-          "locator": "PSA1 caption and elbow",
-          "contribution": "Skin patches and scales.",
-          "limits": "Supplied educational illustration; does not diagnose a patient."
         }
       ],
       "references": [
@@ -312,12 +1065,131 @@
         "niams-care"
       ],
       "review_notes": "Split from the former combined symptom lessons to match the skin card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
-      "images": [
-        {
-          "media_id": "psa-skin-psoriasis",
-          "page": 2
-        }
-      ]
+      "images": [],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-01.mp4",
+        "captions": "videos/psa-symptoms-01.vtt",
+        "cover": "videos/psa-symptoms-01-cover.jpg",
+        "duration_seconds": 81.6,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the skin, and how psoriasis can show up."
+              }
+            ]
+          },
+          {
+            "name": "What it looks like",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "Psoriasis can cause raised, scaly, inflamed patches of skin."
+              },
+              {
+                "source": "niams-overview",
+                "text": "They often appear on the scalp, the elbows, or the knees."
+              }
+            ]
+          },
+          {
+            "name": "More than skin",
+            "lines": [
+              {
+                "source": "npf-related",
+                "text": "Psoriasis shows on the skin as plaques and scales."
+              },
+              {
+                "source": "npf-related",
+                "text": "But it is an inflammatory disease that can affect other parts of the body, too."
+              }
+            ]
+          },
+          {
+            "name": "Not always first",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "Most people with PsA had psoriasis first."
+              },
+              {
+                "source": "npf-related",
+                "text": "But not everyone with PsA has, or will get, psoriasis."
+              }
+            ]
+          },
+          {
+            "name": "A patch is one clue",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A skin patch alone cannot show whether a person has joint disease."
+              },
+              {
+                "source": "lesson-text",
+                "text": "And skin and joint changes do not always happen at the same time."
+              }
+            ]
+          },
+          {
+            "name": "Your skin is yours",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Your skin may look different from the pictures you see."
+              }
+            ]
+          },
+          {
+            "name": "Skin checks",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "If you have never been diagnosed with psoriasis, a doctor can check your skin for signs of it."
+              },
+              {
+                "source": "niams-care",
+                "text": "A dermatologist is a doctor for skin, hair, and nail conditions."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your care team about new or changing patches, and about any joint symptoms."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Skin changes are one part of PsA care."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Your skin may look different."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "psa-symptoms-02",
@@ -372,7 +1244,136 @@
         "nhs-uveitis",
         "nice-eye"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the eyes card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the eyes card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-02.mp4",
+        "captions": "videos/psa-symptoms-02.vtt",
+        "cover": "videos/psa-symptoms-02-cover.jpg",
+        "duration_seconds": 90.1,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "This lesson is about your eyes. It is short, but very important."
+              }
+            ]
+          },
+          {
+            "name": "Inflammation in the eye",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Sometimes, inflammation can happen inside the eye. One name for this is uveitis."
+              },
+              {
+                "source": "nhs-uveitis",
+                "text": "It usually affects one eye, but it can affect both."
+              }
+            ]
+          },
+          {
+            "name": "Signs to know",
+            "lines": [
+              {
+                "source": "nhs-uveitis",
+                "text": "Signs include eye pain, red or watery eyes, blurred vision, and being bothered by bright light."
+              },
+              {
+                "source": "nhs-uveitis",
+                "text": "Some people also see flashes, or floating dark spots."
+              }
+            ]
+          },
+          {
+            "name": "Fast or slow",
+            "lines": [
+              {
+                "source": "nhs-uveitis",
+                "text": "Symptoms can come on quickly, over hours or days, or more slowly, over weeks."
+              }
+            ]
+          },
+          {
+            "name": "Many causes",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "These symptoms can have other causes, too."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A body map cannot tell which cause is present."
+              }
+            ]
+          },
+          {
+            "name": "Same-day help",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment, the same day."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Do not wait for your next routine visit, or a reply in the app."
+              }
+            ]
+          },
+          {
+            "name": "Loss of vision",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Seek emergency care for any loss of vision."
+              }
+            ]
+          },
+          {
+            "name": "Treatment works best early",
+            "lines": [
+              {
+                "source": "nhs-uveitis",
+                "text": "An eye specialist can find the cause and start treatment quickly."
+              },
+              {
+                "source": "nhs-uveitis",
+                "text": "Treating it early helps prevent long-term problems, like vision loss."
+              },
+              {
+                "source": "nhs-uveitis",
+                "text": "It usually gets better with treatment, but it can come back."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A body map cannot tell which cause is present."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Seek emergency care for a loss of vision."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-symptoms-03",
@@ -427,7 +1428,162 @@
           "contribution": "Cross-checks that the source discusses possible damage, not a fixed progression.",
           "limits": "Does not support a timetable, stages or an individual prediction."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-03.mp4",
+        "captions": "videos/psa-symptoms-03.vtt",
+        "cover": "videos/psa-symptoms-03-cover.jpg",
+        "duration_seconds": 112.3,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s talk about how PsA can change over time, and about your whole health."
+              }
+            ]
+          },
+          {
+            "name": "Why treatment matters",
+            "lines": [
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "PsA inflammation may lead to lasting damage if it is not treated."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Treatment can slow the disease and protect your joints."
+              }
+            ]
+          },
+          {
+            "name": "Ups and downs",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Disease activity can rise and fall."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A flare is a time when symptoms come back, or get worse."
+              }
+            ]
+          },
+          {
+            "name": "Flare or damage?",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A flare and lasting joint damage are different."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A flare describes activity now. Damage means changes that may stay."
+              }
+            ]
+          },
+          {
+            "name": "Flares and your plan",
+            "lines": [
+              {
+                "source": "npf-flares",
+                "text": "Flares should not happen often when your disease is treated well."
+              },
+              {
+                "source": "npf-flares",
+                "text": "If flares happen often, talk with your provider about changing your plan."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "There is no fixed path that everyone follows."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Tell your team about changes in pain, swelling, tiredness, or daily tasks."
+              }
+            ]
+          },
+          {
+            "name": "Other health conditions",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A comorbidity means another health condition alongside PsA."
+              },
+              {
+                "source": "src-poster-of-the-comorbidities-seen-in-psa",
+                "text": "These can include high blood pressure, high blood sugar, high cholesterol, heart disease, weight, and low mood."
+              }
+            ]
+          },
+          {
+            "name": "Regular check-ups",
+            "lines": [
+              {
+                "source": "npf-related",
+                "text": "Some of these may have no symptoms you notice, so regular check-ups with your primary care provider matter."
+              },
+              {
+                "source": "npf-related",
+                "text": "Caught early, many can be treated with lifestyle changes or medicine."
+              }
+            ]
+          },
+          {
+            "name": "Risk is not destiny",
+            "lines": [
+              {
+                "source": "npf-flares",
+                "text": "Having a higher risk does not mean you will get another condition."
+              },
+              {
+                "source": "lesson-text",
+                "text": "And a number on a general poster does not tell you your own risk."
+              }
+            ]
+          },
+          {
+            "name": "Ask and share",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Ask which health checks fit your history, and share your concerns."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A flare and lasting joint damage are different."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A number on a general poster does not tell you your own risk."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-symptoms-04",
@@ -482,7 +1638,111 @@
         "niams-overview",
         "npf-related"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the gut card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the gut card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-04.mp4",
+        "captions": "videos/psa-symptoms-04.vtt",
+        "cover": "videos/psa-symptoms-04-cover.jpg",
+        "duration_seconds": 66.9,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s talk about your gut, and changes in your bowels."
+              }
+            ]
+          },
+          {
+            "name": "What to notice",
+            "lines": [
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "The gut card describes pain, bloating, and changes in bowel habits."
+              }
+            ]
+          },
+          {
+            "name": "IBD",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "Inflammatory bowel disease, or IBD, can happen in some people with PsA."
+              },
+              {
+                "source": "npf-related",
+                "text": "IBD means inflammation of the digestive tract."
+              }
+            ]
+          },
+          {
+            "name": "Not proof",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "But a bowel change does not prove that you have IBD, or that PsA is the cause."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your care team about gut symptoms that keep happening."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Note what changed, when it started, and how it affects your day."
+              }
+            ]
+          },
+          {
+            "name": "Your team decides",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Your team may ask about your medicines, and decide whether you need more tests."
+              }
+            ]
+          },
+          {
+            "name": "When it is urgent",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "If symptoms are severe, or you feel very unwell, get urgent medical help."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A bowel change does not prove that you have IBD or that PsA is the cause."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Tell your care team about gut symptoms that keep happening."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-symptoms-05",
@@ -526,7 +1786,123 @@
         "niams-overview",
         "niams-care"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the shoulders card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the shoulders card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-05.mp4",
+        "captions": "videos/psa-symptoms-05.vtt",
+        "cover": "videos/psa-symptoms-05-cover.jpg",
+        "duration_seconds": 73.5,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the shoulders, and how they help you reach."
+              }
+            ]
+          },
+          {
+            "name": "The shoulder",
+            "lines": [
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "PsA can affect a shoulder joint, and the tissues around it."
+              },
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "The shoulder can become inflamed and painful."
+              }
+            ]
+          },
+          {
+            "name": "Everyday reaching",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Pain may make it hard to reach up, or to put on a shirt."
+              }
+            ]
+          },
+          {
+            "name": "Stiffness",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "Joints may feel stiff, and stiffness is often worse in the morning, or after resting."
+              }
+            ]
+          },
+          {
+            "name": "More than one cause",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A sore shoulder can have more than one cause."
+              },
+              {
+                "source": "lesson-text",
+                "text": "The body map shows a place to discuss, not a diagnosis."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your team which shoulder hurts, and when the pain began."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Describe a task that has become harder, such as reaching a shelf."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Mention stiffness, swelling, or a change in how far you can move."
+              }
+            ]
+          },
+          {
+            "name": "Help from your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Your team can check the joint, and the tissues around it."
+              },
+              {
+                "source": "niams-care",
+                "text": "A physical therapist can help improve how a joint works."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A sore shoulder can have more than one cause."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Describe a task that has become harder, such as reaching a shelf."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-symptoms-06",
@@ -544,7 +1920,7 @@
         "src-grappa-domains-in-psa-poster",
         "src-psa-one-pager-intro",
         "src-psa-as-symptoms",
-        "src-nail-psoriasis-illustration"
+        "src-pearls-myths-psa-figures"
       ],
       "source_usage": [
         {
@@ -589,14 +1965,15 @@
           "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
         },
         {
-          "source_id": "src-nail-psoriasis-illustration",
+          "source_id": "src-pearls-myths-psa-figures",
           "pages": [
+            1,
             2
           ],
           "kind": "image",
-          "locator": "PSA2 caption and nails",
-          "contribution": "Pits, yellow spots and nail lifting.",
-          "limits": "Supplied educational illustration; does not diagnose a patient."
+          "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+          "contribution": "Dactylitis photo (page 1) and nail-change photo (page 2).",
+          "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
         }
       ],
       "references": [
@@ -606,10 +1983,134 @@
       "review_notes": "Split from the former combined symptom lessons to match the hands card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
       "images": [
         {
-          "media_id": "psa-nail-psoriasis",
+          "media_id": "psa-dactylitis",
+          "page": 1
+        },
+        {
+          "media_id": "psa-nail-changes",
           "page": 2
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-06.mp4",
+        "captions": "videos/psa-symptoms-06.vtt",
+        "cover": "videos/psa-symptoms-06-cover.jpg",
+        "duration_seconds": 77.4,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at your wrists, hands, fingers, and nails."
+              }
+            ]
+          },
+          {
+            "name": "Hand joints",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A wrist or finger joint may hurt, swell, or feel stiff."
+              }
+            ]
+          },
+          {
+            "name": "Dactylitis",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Swelling of a whole finger is called dactylitis."
+              },
+              {
+                "source": "niams-overview",
+                "text": "It is a painful, sausage-like swelling."
+              },
+              {
+                "source": "lesson-text",
+                "text": "It is different from swelling around just one joint."
+              }
+            ]
+          },
+          {
+            "name": "Daily tasks",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "These changes can make tasks like holding a cup, or doing buttons, harder."
+              }
+            ]
+          },
+          {
+            "name": "Nail psoriasis",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Nail psoriasis may cause small pits, yellow spots, or a nail lifting from its bed."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Nails can also crumble."
+              }
+            ]
+          },
+          {
+            "name": "Not always together",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Nail changes and joint symptoms do not always happen together."
+              }
+            ]
+          },
+          {
+            "name": "Protecting your hands",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "An occupational therapist can teach ways to protect your joints, and to do daily tasks."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your team whether the change is in a nail, a joint, or the whole finger."
+              },
+              {
+                "source": "lesson-text",
+                "text": "And mention any trouble with daily tasks."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Swelling of a whole finger is called dactylitis."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Nail changes and joint symptoms do not always happen together."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "psa-symptoms-07",
@@ -626,9 +2127,7 @@
         "src-clinical-manifestations-of-psa-poster",
         "src-grappa-domains-in-psa-poster",
         "src-psa-one-pager-intro",
-        "src-psa-as-symptoms",
-        "src-achilles-enthesitis-illustration",
-        "src-plantar-fasciitis-illustration"
+        "src-psa-as-symptoms"
       ],
       "source_usage": [
         {
@@ -671,26 +2170,6 @@
           "locator": "feet body label",
           "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
           "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
-        },
-        {
-          "source_id": "src-achilles-enthesitis-illustration",
-          "pages": [
-            1
-          ],
-          "kind": "image",
-          "locator": "PSA3 caption and heel backs",
-          "contribution": "Back-of-heel tendon attachment location.",
-          "limits": "Supplied educational illustration; does not diagnose a patient."
-        },
-        {
-          "source_id": "src-plantar-fasciitis-illustration",
-          "pages": [
-            1
-          ],
-          "kind": "image",
-          "locator": "PSA5 caption and sole",
-          "contribution": "Bottom-of-heel attachment location.",
-          "limits": "Supplied educational illustration; does not diagnose a patient."
         }
       ],
       "references": [
@@ -698,16 +2177,122 @@
         "niams-care"
       ],
       "review_notes": "Split from the former combined symptom lessons to match the feet card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
-      "images": [
-        {
-          "media_id": "psa-achilles-enthesitis",
-          "page": 1
+      "images": [],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
         },
-        {
-          "media_id": "psa-plantar-fasciitis",
-          "page": 1
-        }
-      ]
+        "file": "videos/psa-symptoms-07.mp4",
+        "captions": "videos/psa-symptoms-07.vtt",
+        "cover": "videos/psa-symptoms-07-cover.jpg",
+        "duration_seconds": 69.5,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the feet, and heel pain."
+              }
+            ]
+          },
+          {
+            "name": "Enthesitis",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Enthesitis means inflammation where a tendon or ligament joins bone."
+              }
+            ]
+          },
+          {
+            "name": "Two heel spots",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "The Achilles tendon joins the back of the heel."
+              },
+              {
+                "source": "lesson-text",
+                "text": "The plantar fascia attaches at the bottom of the heel."
+              },
+              {
+                "source": "niams-overview",
+                "text": "These are common sore spots in PsA."
+              }
+            ]
+          },
+          {
+            "name": "Toes too",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "A whole toe can also swell up, like a sausage."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your team if pain is at the back or bottom of the heel, in a toe, or somewhere else in the foot."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Mention whether walking has become harder."
+              }
+            ]
+          },
+          {
+            "name": "Many causes",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Heel pain can have several causes."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A picture cannot tell you the cause on its own."
+              }
+            ]
+          },
+          {
+            "name": "Checking it",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Your team can examine the area, and decide what to check next."
+              },
+              {
+                "source": "niams-care",
+                "text": "Imaging, like X-rays, ultrasound, or MRI, can show changes where tendons attach to bone."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Heel pain can have several causes."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A symptom picture cannot tell you the cause on its own."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "psa-symptoms-08",
@@ -724,7 +2309,8 @@
         "src-clinical-manifestations-of-psa-poster",
         "src-grappa-domains-in-psa-poster",
         "src-psa-one-pager-intro",
-        "src-psa-as-symptoms"
+        "src-psa-as-symptoms",
+        "src-pearls-myths-psa-figures"
       ],
       "source_usage": [
         {
@@ -767,13 +2353,148 @@
           "locator": "spine body label",
           "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
           "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+        },
+        {
+          "source_id": "src-pearls-myths-psa-figures",
+          "pages": [
+            1
+          ],
+          "kind": "image",
+          "locator": "Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)",
+          "contribution": "Spine X-ray with spondylitis changes.",
+          "limits": "Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool."
         }
       ],
       "references": [
         "niams-overview",
         "niams-care"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the spine card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the spine card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-08.mp4",
+        "captions": "videos/psa-symptoms-08.vtt",
+        "cover": "videos/psa-symptoms-08-cover.jpg",
+        "duration_seconds": 77.8,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the spine, and the SI joints."
+              }
+            ]
+          },
+          {
+            "name": "Axial disease",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Axial disease means PsA affects the spine."
+              },
+              {
+                "source": "lesson-text",
+                "text": "It may also affect the sacroiliac, or SI, joints, which link the lower spine to the pelvis."
+              }
+            ]
+          },
+          {
+            "name": "How it feels",
+            "lines": [
+              {
+                "source": "niams-overview",
+                "text": "Inflammation here can cause stiffness in the neck, the lower back, and the hips."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Stiffness is often worse in the morning, or after resting."
+              },
+              {
+                "source": "nhs-psa",
+                "text": "And it may get better with exercise."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your care team where your back feels sore or stiff."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Note when it happens, and how it affects sleep or movement."
+              }
+            ]
+          },
+          {
+            "name": "Many causes",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Back pain can have many causes, and a map cannot show which one you have."
+              }
+            ]
+          },
+          {
+            "name": "Finding the pattern",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A clinician uses your story, an exam, and sometimes tests, to understand the pattern."
+              },
+              {
+                "source": "niams-care",
+                "text": "Imaging can show changes in the spine."
+              }
+            ]
+          },
+          {
+            "name": "Moving helps",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Low-impact exercise, like walking, swimming, yoga, or tai chi, may help."
+              },
+              {
+                "source": "niams-care",
+                "text": "Talk with your doctor before you start."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Back pain can have many causes."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "These joints link the lower spine to the pelvis."
+              }
+            ]
+          }
+        ]
+      },
+      "images": [
+        {
+          "media_id": "psa-spine-xray",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-09",
@@ -817,7 +2538,115 @@
         "niams-overview",
         "niams-care"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the elbows card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the elbows card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-09.mp4",
+        "captions": "videos/psa-symptoms-09.vtt",
+        "cover": "videos/psa-symptoms-09-cover.jpg",
+        "duration_seconds": 66.7,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the elbows, and the tendons nearby."
+              }
+            ]
+          },
+          {
+            "name": "The elbow",
+            "lines": [
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "PsA can cause pain or tenderness in an elbow joint, or in the tendons nearby."
+              }
+            ]
+          },
+          {
+            "name": "Everyday moves",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Bending your arm, or lifting things, may feel harder."
+              }
+            ]
+          },
+          {
+            "name": "Skin or joint?",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Pain near the elbow and a skin patch on the elbow are different kinds of change."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Psoriasis patches often show up on the elbows."
+              }
+            ]
+          },
+          {
+            "name": "Describe it your way",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your team whether the problem is in the skin, inside the joint, or around it."
+              },
+              {
+                "source": "lesson-text",
+                "text": "You do not have to know the medical name."
+              }
+            ]
+          },
+          {
+            "name": "What to say",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Describe where it hurts, when it started, and what you find hard to do."
+              }
+            ]
+          },
+          {
+            "name": "Exam and joint care",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "An exam can help the team work out which tissues are involved."
+              },
+              {
+                "source": "niams-care",
+                "text": "One tip to protect your joints: push a door open with your whole body, not just your fingers."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "You do not have to know the medical name."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Pain near an elbow and a skin patch on the elbow are different types of change."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-symptoms-10",
@@ -861,7 +2690,119 @@
         "niams-overview",
         "niams-care"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the hips card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the hips card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-10.mp4",
+        "captions": "videos/psa-symptoms-10.vtt",
+        "cover": "videos/psa-symptoms-10-cover.jpg",
+        "duration_seconds": 64.7,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the hips, and how they help you move every day."
+              }
+            ]
+          },
+          {
+            "name": "The hip",
+            "lines": [
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "A hip joint can be affected by PsA, causing pain, and making it harder to move."
+              }
+            ]
+          },
+          {
+            "name": "Daily movement",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "You may notice that steps, walking, or getting up from a chair are harder."
+              }
+            ]
+          },
+          {
+            "name": "Clues, not proof",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "These examples help you describe a problem."
+              },
+              {
+                "source": "lesson-text",
+                "text": "They do not prove that PsA is the cause."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your team which side hurts, and what has changed."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Mention a new limp, or trouble with a task you could do before."
+              }
+            ]
+          },
+          {
+            "name": "Healthy weight",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Keeping a healthy weight lowers the strain on your joints."
+              },
+              {
+                "source": "niams-care",
+                "text": "And it may help your medicines work better."
+              }
+            ]
+          },
+          {
+            "name": "Let your team check",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "The team can check the hip, and the areas nearby."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Do not use the map to decide the cause on your own."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Pain or stiffness may limit movement."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Tell your team which side hurts and what has changed."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-symptoms-11",
@@ -905,7 +2846,123 @@
         "niams-overview",
         "niams-care"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the knees card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the knees card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-11.mp4",
+        "captions": "videos/psa-symptoms-11.vtt",
+        "cover": "videos/psa-symptoms-11-cover.jpg",
+        "duration_seconds": 71.1,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the knees."
+              }
+            ]
+          },
+          {
+            "name": "What can happen",
+            "lines": [
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "Knee inflammation can cause swelling, warmth, and stiffness."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A knee may also hurt."
+              }
+            ]
+          },
+          {
+            "name": "Everyday tasks",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Bending the knee, using stairs, or getting out of a chair may be harder."
+              }
+            ]
+          },
+          {
+            "name": "Other causes",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Knee symptoms can have more than one cause."
+              },
+              {
+                "source": "nhs-psa",
+                "text": "Other conditions, like osteoarthritis or gout, can also cause joint pain and swelling."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A picture is only a guide to the area."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your team when the knee problem began, and whether one or both knees are affected."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Note any swelling, and the tasks that have changed."
+              }
+            ]
+          },
+          {
+            "name": "Checks and movement",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "The team may check how the knee moves, and look for other causes."
+              },
+              {
+                "source": "niams-care",
+                "text": "Low-impact activities, like cycling or swimming, may help. Ask your team first."
+              }
+            ]
+          },
+          {
+            "name": "When it is urgent",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Get urgent medical help if symptoms are severe, or you feel very unwell."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Knee symptoms can have more than one cause."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A picture is only a guide to the area."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-symptoms-12",
@@ -949,7 +3006,119 @@
         "niams-overview",
         "niams-care"
       ],
-      "review_notes": "Split from the former combined symptom lessons to match the ankles card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending."
+      "review_notes": "Split from the former combined symptom lessons to match the ankles card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.",
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-symptoms-12.mp4",
+        "captions": "videos/psa-symptoms-12.vtt",
+        "cover": "videos/psa-symptoms-12-cover.jpg",
+        "duration_seconds": 63.1,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s look at the ankles, and the middle of the foot."
+              }
+            ]
+          },
+          {
+            "name": "Ankle and mid-foot",
+            "lines": [
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "The ankle and the middle of the foot can become inflamed."
+              },
+              {
+                "source": "src-clinical-manifestations-of-psa-poster",
+                "text": "This can cause pain, and make walking harder."
+              }
+            ]
+          },
+          {
+            "name": "Not the heel",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "This is different from pain where a tendon joins the heel bone."
+              },
+              {
+                "source": "lesson-text",
+                "text": "The feet and heel lesson covers those spots."
+              }
+            ]
+          },
+          {
+            "name": "Show where",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Use the map to show where the problem is: around the ankle, across the middle of the foot, or at the heel."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Mention when it began, and any change in walking."
+              }
+            ]
+          },
+          {
+            "name": "Location is a clue",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "The location helps guide an exam."
+              },
+              {
+                "source": "lesson-text",
+                "text": "But it does not show the cause by itself."
+              }
+            ]
+          },
+          {
+            "name": "Your helpers",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Physical therapists help improve joint function."
+              },
+              {
+                "source": "niams-care",
+                "text": "Occupational therapists teach ways to protect your joints, and save energy."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Pain or swelling here can make walking harder."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "It does not show the cause by itself."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-treatment-01",
@@ -1005,7 +3174,153 @@
           "contribution": "Individual response, other illnesses and follow-up shape the plan.",
           "limits": "This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-treatment-01.mp4",
+        "captions": "videos/psa-treatment-01.vtt",
+        "cover": "videos/psa-treatment-01-cover.jpg",
+        "duration_seconds": 107.5,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s find out how you and your team choose treatment goals."
+              }
+            ]
+          },
+          {
+            "name": "Where it starts",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Treatment talks start with what is active, and what matters to you."
+              }
+            ]
+          },
+          {
+            "name": "The six domains",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "The six disease domains help describe what is active."
+              },
+              {
+                "source": "lesson-text",
+                "text": "The care team looks at these domains together."
+              }
+            ]
+          },
+          {
+            "name": "A plan for your pattern",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Your treatment plan depends on the pattern of your symptoms, and how severe they are."
+              },
+              {
+                "source": "niams-care",
+                "text": "You may need to try different medicines, or a mix, to find what works."
+              }
+            ]
+          },
+          {
+            "name": "Goals",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Goals may include easing symptoms, protecting joints, and making daily tasks easier."
+              },
+              {
+                "source": "niams-overview",
+                "text": "Treatment can slow the disease, lessen pain, and protect the joints."
+              }
+            ]
+          },
+          {
+            "name": "Your whole health counts",
+            "lines": [
+              {
+                "source": "src-psa-one-pager-intro",
+                "text": "Eye or bowel disease, and other health conditions, like heart health or weight, can also change which treatment fits."
+              },
+              {
+                "source": "lesson-text",
+                "text": "So the team asks what you have tried before."
+              }
+            ]
+          },
+          {
+            "name": "Matched to you",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "They review your other medicines, side effects, and what matters to you."
+              },
+              {
+                "source": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+                "text": "Treatment is matched to each person, watched closely, and changed if it is not working well enough."
+              }
+            ]
+          },
+          {
+            "name": "A person, not a symptom",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A plan is chosen for a person, not from one symptom alone."
+              },
+              {
+                "source": "lesson-text",
+                "text": "A medicine that helps one domain may not cover every concern equally."
+              }
+            ]
+          },
+          {
+            "name": "If goals are not met",
+            "lines": [
+              {
+                "source": "npf-flares",
+                "text": "If you do not reach your goal, your provider may suggest changing the dose, adding a treatment, or switching."
+              }
+            ]
+          },
+          {
+            "name": "Ask about your plan",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Ask which parts of your disease the plan covers, and how progress will be checked."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "The care team considers these domains together."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A treatment plan is chosen for a person, rather than from one symptom alone."
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "psa-treatment-02",
@@ -1060,7 +3375,188 @@
           "contribution": "Connects the original treatment map to the three plain-language group descriptions.",
           "limits": "Do not reproduce brand lists, truncated TYK2 branch or a prescribing sequence."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-treatment-02.mp4",
+        "captions": "videos/psa-treatment-02.vtt",
+        "cover": "videos/psa-treatment-02-cover.jpg",
+        "duration_seconds": 129.2,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s learn about the main groups of PsA medicines."
+              }
+            ]
+          },
+          {
+            "name": "Different jobs",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Medicines have different jobs."
+              },
+              {
+                "source": "niams-care",
+                "text": "Some, like over-the-counter anti-inflammatory and pain medicines, help ease pain and swelling."
+              }
+            ]
+          },
+          {
+            "name": "Steroid shots",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "For milder disease, a steroid shot may be given into a sore joint."
+              },
+              {
+                "source": "niams-care",
+                "text": "Doctors use the lowest dose that helps."
+              }
+            ]
+          },
+          {
+            "name": "DMARDs",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Other medicines aim to control the disease process. These are called DMARDs."
+              },
+              {
+                "source": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+                "text": "That means they work to slow or stop damage, not just to ease pain."
+              }
+            ]
+          },
+          {
+            "name": "Conventional DMARDs",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Conventional DMARDs are pills that calm the immune system in a broad way."
+              }
+            ]
+          },
+          {
+            "name": "Biologics",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Biologics target specific immune messages, and interrupt the signal."
+              },
+              {
+                "source": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+                "text": "They are usually given as a shot, or through a vein."
+              }
+            ]
+          },
+          {
+            "name": "Targeted synthetic drugs",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Targeted synthetic drugs act on pathways inside cells."
+              },
+              {
+                "source": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+                "text": "These are taken by mouth."
+              }
+            ]
+          },
+          {
+            "name": "Groups, not rankings",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "These are names for groups. They do not rank drugs from good to bad."
+              },
+              {
+                "source": "lesson-text",
+                "text": "And how a drug enters the body does not tell you how well it will work for you."
+              }
+            ]
+          },
+          {
+            "name": "Fits the person",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A drug is not right for every person or every domain."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Some plans also include skin care, physical therapy, or help with daily tasks."
+              }
+            ]
+          },
+          {
+            "name": "Safety checks",
+            "lines": [
+              {
+                "source": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+                "text": "Some of these medicines need infection checks before and during treatment."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Ask about blood tests, infection checks, and vaccines that go with your plan."
+              }
+            ]
+          },
+          {
+            "name": "Don’t change on your own",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "This lesson does not tell you to start, stop, or change a medicine."
+              },
+              {
+                "source": "npf-flares",
+                "text": "Stopping treatment because you feel well could lead to a flare, so always ask your provider first."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Keep your follow-up visits, even when you feel better."
+              }
+            ]
+          },
+          {
+            "name": "Know your medicines",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Make a list of all your medicines and supplements, and ask what each one is for."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Medicines have different jobs."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "They do not rank drugs from good to bad."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-treatment-03",
@@ -1114,7 +3610,158 @@
           "contribution": "Adds a practical multi-part symptom record.",
           "limits": "No fasting advice or guaranteed symptom improvement."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-treatment-03.mp4",
+        "captions": "videos/psa-treatment-03.vtt",
+        "cover": "videos/psa-treatment-03-cover.jpg",
+        "duration_seconds": 110.7,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s talk about tracking your progress, and planning for flares."
+              }
+            ]
+          },
+          {
+            "name": "More than one sign",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Follow-up visits look at more than one sign of disease activity."
+              },
+              {
+                "source": "lesson-text",
+                "text": "The team may check sore or swollen joints, skin, and tendon sites."
+              }
+            ]
+          },
+          {
+            "name": "Your view matters",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "They also ask about daily tasks, and your own view of your pain and health."
+              }
+            ]
+          },
+          {
+            "name": "MDA",
+            "lines": [
+              {
+                "source": "src-mindmap",
+                "text": "Minimal disease activity, or MDA, uses several measures together."
+              },
+              {
+                "source": "lesson-text",
+                "text": "It helps track care. It is not a stage of disease."
+              }
+            ]
+          },
+          {
+            "name": "The whole picture",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A quiet skin patch alone does not show the whole picture."
+              }
+            ]
+          },
+          {
+            "name": "About flares",
+            "lines": [
+              {
+                "source": "npf-flares",
+                "text": "Flares are often part of living with psoriatic disease, but they should not happen often when treatment is working."
+              },
+              {
+                "source": "npf-flares",
+                "text": "Keeping a record of symptoms and triggers can help you see flares coming."
+              }
+            ]
+          },
+          {
+            "name": "A useful record",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "A useful record tracks more than pain: also energy, mood, sleep, and how easy daily tasks feel."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Write down what changed, when it began, and how it affects your day."
+              }
+            ]
+          },
+          {
+            "name": "Make a flare plan",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Make a flare plan with your care team."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Ask which changes need a call, which contact route to use, and what to do after hours."
+              }
+            ]
+          },
+          {
+            "name": "Plan ahead",
+            "lines": [
+              {
+                "source": "src-murphys-laws-of-arthritis-preface",
+                "text": "It pays to plan ahead for what could go wrong."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Repeated flares may mean the plan needs a review."
+              }
+            ]
+          },
+          {
+            "name": "Follow-up visits",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Follow the medicine instructions agreed with your prescribing team."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Share patterns at follow-up visits. They can show changes that one visit might miss."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Follow-up visits look at more than one sign of disease activity."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "If symptoms return or worsen, discuss a flare plan with the care team."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-education-01",
@@ -1157,7 +3804,145 @@
           "contribution": "Simple habits and shared planning.",
           "limits": "Historical anecdotes and diagnostic parsimony are not taught as clinical rules."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-education-01.mp4",
+        "captions": "videos/psa-education-01.vtt",
+        "cover": "videos/psa-education-01-cover.jpg",
+        "duration_seconds": 94.1,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s explore four pillars that can support your daily life."
+              }
+            ]
+          },
+          {
+            "name": "Four pillars",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Four pillars can help you organize daily life with arthritis: Nourishment, Motion, Mastery, and Repose."
+              },
+              {
+                "source": "lesson-text",
+                "text": "In plain words: food, movement, coping, and rest."
+              }
+            ]
+          },
+          {
+            "name": "A guide, not a cure",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "They are a way to plan a talk about everyday needs."
+              },
+              {
+                "source": "lesson-text",
+                "text": "They do not replace medical treatment."
+              }
+            ]
+          },
+          {
+            "name": "They work together",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "The pillars work best together. Each one supports the others."
+              },
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "For example, better sleep can give you more energy to move, and a calmer mind can make healthy habits easier."
+              }
+            ]
+          },
+          {
+            "name": "Not a test",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "This framework is a guide to daily habits."
+              },
+              {
+                "source": "lesson-text",
+                "text": "It is not a test of how well your disease is controlled."
+              }
+            ]
+          },
+          {
+            "name": "Where to start",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Think about which part of daily life is hardest right now."
+              }
+            ]
+          },
+          {
+            "name": "Name the barriers",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Bring up barriers, like pain, cost, tiredness, or poor sleep."
+              }
+            ]
+          },
+          {
+            "name": "Small steps",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Start small. Small, steady steps add up over time."
+              },
+              {
+                "source": "lesson-text",
+                "text": "For example, a short walk that fits your joints, or time to wind down before bed."
+              }
+            ]
+          },
+          {
+            "name": "A shared plan",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Daily care works best as part of a shared plan, not as a test of willpower."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Your care team can help tailor it, and you can adjust it as your needs change."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "They do not replace medical treatment."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "The care team can help tailor it."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-education-02",
@@ -1189,7 +3974,167 @@
           "contribution": "Adapting movement, water/cycling options, strength and coping practices.",
           "limits": "Many study claims concern RA/OA, not PsA; do not promise equal benefits or prescribe an exercise dose. NIAMS corroborates general PsA activity options."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-education-02.mp4",
+        "captions": "videos/psa-education-02.vtt",
+        "cover": "videos/psa-education-02-cover.jpg",
+        "duration_seconds": 118.3,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s talk about moving your body, coping with stress, and getting support."
+              }
+            ]
+          },
+          {
+            "name": "Motion",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Motion means finding ways to move that fit your joints, and your current health."
+              }
+            ]
+          },
+          {
+            "name": "Low-impact options",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Low-impact activities, like walking, cycling, swimming, yoga, or tai chi, may be especially helpful."
+              },
+              {
+                "source": "niams-care",
+                "text": "Talk with your doctor before starting any exercise program."
+              }
+            ]
+          },
+          {
+            "name": "Water and bikes",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Water can take weight off sore joints while you move."
+              },
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "A stationary bike supports your weight, and you can keep the resistance low."
+              }
+            ]
+          },
+          {
+            "name": "Strength",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Strength work, with your body weight, bands, or light weights, builds muscle that supports your joints."
+              },
+              {
+                "source": "lesson-text",
+                "text": "You do not need to try every type of exercise."
+              }
+            ]
+          },
+          {
+            "name": "Therapists can help",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "A physical therapist can help improve how your joints work."
+              },
+              {
+                "source": "niams-care",
+                "text": "An occupational therapist can teach ways to protect your joints and save energy."
+              }
+            ]
+          },
+          {
+            "name": "Balance",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Ask your team how to balance activity and rest when symptoms change."
+              }
+            ]
+          },
+          {
+            "name": "Mastery",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Mastery means building ways to cope with a long-term condition."
+              },
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Pain and mood affect each other. Worry and low mood can make pain feel worse."
+              }
+            ]
+          },
+          {
+            "name": "Coping tools",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Practices like slow breathing, a quiet pause, or a body scan may help you make space for stress."
+              },
+              {
+                "source": "lesson-text",
+                "text": "These are coping tools. They do not mean that pain is your fault."
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "Reach out for support. A support group, or counseling, can help."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Asking for support is part of care, not a sign of failure."
+              }
+            ]
+          },
+          {
+            "name": "Tell your team",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your care team when worry or low mood affects daily life."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Ask your team how to balance activity and rest when symptoms change."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Asking for support is part of care, not a sign of failure."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-education-03",
@@ -1219,7 +4164,158 @@
           "contribution": "Food discussions, steady sleep timing and a calm bedtime routine.",
           "limits": "No fasting, supplement doses, food-cure claims or extrapolated RA/OA treatment effects."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-education-03.mp4",
+        "captions": "videos/psa-education-03.vtt",
+        "cover": "videos/psa-education-03-cover.jpg",
+        "duration_seconds": 109.0,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s talk about food, sleep, and recovery."
+              }
+            ]
+          },
+          {
+            "name": "Nourishment",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Nourishment is about food and nutrition needs."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Food choices need to fit your own health and life."
+              }
+            ]
+          },
+          {
+            "name": "Food is not a cure",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Food does not replace your prescribed PsA care, and no single food can switch off PsA."
+              }
+            ]
+          },
+          {
+            "name": "Topics to discuss",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "The source suggests meals built around color and protein: vegetables, fruit like berries or citrus, olive oil, and a good protein source."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Use these as topics to discuss with your team."
+              }
+            ]
+          },
+          {
+            "name": "A dietitian can help",
+            "lines": [
+              {
+                "source": "niams-care",
+                "text": "A dietitian can teach you about nutrition, and keeping a healthy weight."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Ask before adding supplements, or making big diet changes."
+              }
+            ]
+          },
+          {
+            "name": "Repose",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Repose is about rest and sleep."
+              },
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Pain or worry can make sleep harder, and poor sleep can make the next day’s pain feel worse."
+              }
+            ]
+          },
+          {
+            "name": "Steady sleep",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Good sleep helps your body recover."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Try to keep a steady time for bed, and for waking."
+              }
+            ]
+          },
+          {
+            "name": "A calm bedtime",
+            "lines": [
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "A dark, cool room, and a calm wind-down routine, may help."
+              },
+              {
+                "source": "src-the-four-pillars-of-arthritis",
+                "text": "Avoid late caffeine, alcohol, and heavy meals before bed."
+              }
+            ]
+          },
+          {
+            "name": "Ask for help",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Bring ongoing sleep problems to your care team. Say if pain, waking at night, or daytime tiredness is the main problem."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Ask for help, rather than changing your medicine on your own."
+              }
+            ]
+          },
+          {
+            "name": "It all fits together",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Meals, movement, coping, and rest should fit together, into a routine you can manage."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Food does not replace your prescribed PsA care."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Bring ongoing sleep problems to the care team."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-contact-01",
@@ -1274,7 +4370,129 @@
           "contribution": "Ask for contact routes and an out-of-hours plan.",
           "limits": "Clinic phone numbers, hours and response times must come from the patient's clinic."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-contact-01.mp4",
+        "captions": "videos/psa-contact-01.vtt",
+        "cover": "videos/psa-contact-01-cover.jpg",
+        "duration_seconds": 88.7,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Let’s practice how to share changes with your care team."
+              }
+            ]
+          },
+          {
+            "name": "What to report",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your care team about symptoms that are new, keep coming back, or are getting worse."
+              }
+            ]
+          },
+          {
+            "name": "Name the area",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet."
+              }
+            ]
+          },
+          {
+            "name": "Daily life too",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Also mention tiredness, and changes in walking, sleep, work, or self-care."
+              }
+            ]
+          },
+          {
+            "name": "A useful message",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A useful message says where the problem is, when it began, and what has changed."
+              },
+              {
+                "source": "lesson-text",
+                "text": "For example: new knee pain makes stairs harder."
+              }
+            ]
+          },
+          {
+            "name": "Urgency",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "A body map cannot tell you how urgent a symptom is."
+              }
+            ]
+          },
+          {
+            "name": "Medicines and flares",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Medicine concerns, and repeated flares, are also reasons to contact your prescribing team."
+              }
+            ]
+          },
+          {
+            "name": "Know how to reach them",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Ask your clinic for its phone number, office hours, and how fast they reply."
+              },
+              {
+                "source": "src-murphys-laws-of-arthritis-preface",
+                "text": "Plan ahead, and ask how to get help when the clinic is closed."
+              }
+            ]
+          },
+          {
+            "name": "Urgent symptoms",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "For urgent symptoms, use urgent medical services. Don’t wait for a routine app message."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A useful message says where the problem is, when it began, and what has changed."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "A body map cannot tell you how urgent a symptom is."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     },
     {
       "id": "psa-contact-02",
@@ -1319,7 +4537,137 @@
           "contribution": "Plain-language eye and bowel symptoms to describe.",
           "limits": "Symptoms have multiple causes; poster cannot diagnose uveitis or IBD."
         }
-      ]
+      ],
+      "video": {
+        "style": "Whiteboard animation, drawn line by line in time with the narration",
+        "voice": {
+          "engine": "Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7)",
+          "voice": "en-US-AvaMultilingualNeural (Ava)",
+          "settings": "rate -4%, pitch +2 Hz",
+          "note": "AI-generated voice. Script text was sent to Microsoft's speech service to create the audio."
+        },
+        "file": "videos/psa-contact-02.mp4",
+        "captions": "videos/psa-contact-02.vtt",
+        "cover": "videos/psa-contact-02-cover.jpg",
+        "duration_seconds": 83.0,
+        "scenes": [
+          {
+            "name": "Welcome",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "This lesson covers eye and gut changes that you should report."
+              }
+            ]
+          },
+          {
+            "name": "Eye warning signs",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Eye symptoms can need fast attention."
+              },
+              {
+                "source": "nhs-uveitis",
+                "text": "Watch for eye pain, very red eyes, light sensitivity, or blurred or changing vision."
+              }
+            ]
+          },
+          {
+            "name": "Same day",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "These need urgent assessment, the same day."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Do not wait for a routine visit."
+              }
+            ]
+          },
+          {
+            "name": "Loss of vision",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Seek emergency care for a loss of vision."
+              }
+            ]
+          },
+          {
+            "name": "Only an exam can tell",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "These symptoms have several possible causes."
+              },
+              {
+                "source": "lesson-text",
+                "text": "An eye exam is needed. The app cannot diagnose uveitis."
+              }
+            ]
+          },
+          {
+            "name": "Early treatment",
+            "lines": [
+              {
+                "source": "nhs-uveitis",
+                "text": "Getting treated early helps avoid long-term problems, like vision loss."
+              }
+            ]
+          },
+          {
+            "name": "Gut changes",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "Tell your care team about ongoing gut pain, bloating, or changes in bowel habits."
+              }
+            ]
+          },
+          {
+            "name": "Describe it",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "IBD can happen alongside PsA, but a bowel change does not prove it is the cause."
+              },
+              {
+                "source": "lesson-text",
+                "text": "Describe what changed, and when."
+              }
+            ]
+          },
+          {
+            "name": "When it is urgent",
+            "lines": [
+              {
+                "source": "lesson-text",
+                "text": "If symptoms are severe, or you feel very unwell, get urgent medical help."
+              }
+            ]
+          },
+          {
+            "name": "Quick review",
+            "lines": [
+              {
+                "source": "framing",
+                "text": "Great job! Let’s review."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment."
+              },
+              {
+                "source": "key-takeaway",
+                "text": "Seek emergency care for a loss of vision."
+              }
+            ]
+          }
+        ]
+      },
+      "images": []
     }
   ],
   "media": [
@@ -1338,113 +4686,51 @@
       "source_id": "src-clinical-manifestations-of-psa-poster"
     },
     {
-      "id": "psa-skin-psoriasis",
-      "file": "media/skin-psoriasis.jpg",
-      "alt_text": "Raised patches with scales on an elbow.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-skin-psoriasis-illustration"
+      "id": "psa-dactylitis",
+      "file": "media/dactylitis-toe-finger.jpg",
+      "alt_text": "Photos of dactylitis: a whole little toe swollen like a sausage, and a swollen little finger with a swollen wrist.",
+      "credit": "Helliwell P, Coates LC, Gladman D. \"Psoriatic Arthritis.\" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, p. 99, fig. 8.2. © Springer Nature Switzerland AG 2023. Used with permission.",
+      "source_id": "src-pearls-myths-psa-figures"
     },
     {
-      "id": "psa-nail-psoriasis",
-      "file": "media/nail-psoriasis.jpg",
-      "alt_text": "Small pits and yellow spots on the nails.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-nail-psoriasis-illustration"
+      "id": "psa-nail-changes",
+      "file": "media/nail-pitting-onycholysis.jpg",
+      "alt_text": "Photo of fingernails with tiny dents (pitting) and a nail lifting away from the nail bed.",
+      "credit": "Helliwell P, Coates LC, Gladman D. \"Psoriatic Arthritis.\" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, fig. 8.1. © Springer Nature Switzerland AG 2023. Used with permission.",
+      "source_id": "src-pearls-myths-psa-figures"
     },
     {
-      "id": "psa-achilles-enthesitis",
-      "file": "media/achilles-enthesitis.jpg",
-      "alt_text": "Swelling at the back of a heel.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-achilles-enthesitis-illustration"
-    },
-    {
-      "id": "psa-plantar-fasciitis",
-      "file": "media/plantar-fasciitis.jpg",
-      "alt_text": "Pain at the bottom of a heel.",
-      "credit": "Supplied educational illustration.",
-      "source_id": "src-plantar-fasciitis-illustration"
+      "id": "psa-spine-xray",
+      "file": "media/spine-xray-spondylitis.jpg",
+      "alt_text": "Side-view X-ray of the mid and lower back. An arrow points to changes in the spine from PsA.",
+      "credit": "Helliwell P, Coates LC, Gladman D. \"Psoriatic Arthritis.\" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, chap. 8. © Springer Nature Switzerland AG 2023. Used with permission.",
+      "source_id": "src-pearls-myths-psa-figures"
     }
+  ],
+  "app_posters": [
+    "psa-overview-grappa-domains"
   ],
   "supplemental_sources": [
     {
-      "id": "src-skin-psoriasis-illustration",
-      "file": "Plaque psoriasis of the elbow.jpg",
-      "title": "Plaque psoriasis of the elbow",
-      "role": "educational_candidate",
+      "id": "src-pearls-myths-psa-figures",
+      "file": "RheumNotes_PsA_Clinical_Images.pdf",
+      "title": "Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)",
+      "role": "lesson_illustration",
       "scope": "PsA",
-      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
-      "local_file": "data/psa/originals/Plaque psoriasis of the elbow.jpg",
-      "file_hash": "f8b2f56cc64d9d5ac639da39902aca08252d915ae9020d03b96e8c17f3867e52",
-      "bytes": 1348286,
-      "type": "image",
+      "note": "Real clinical photos and an X-ray from Helliwell, Coates and Gladman (Springer Nature, 2023), https://doi.org/10.1007/978-3-031-23488-0_8. The file marks them internal-only without publisher permission; the team confirmed permission on 2026-11-11.",
+      "local_file": "data/psa/originals/RheumNotes_PsA_Clinical_Images.pdf",
+      "file_hash": "5a434186f766562b07a2a6c86d69c0adc8242e5aa636eb2832799729a75f4cc7",
+      "bytes": 2225654,
+      "type": "pdf",
+      "provided_by": "© Springer Nature Switzerland AG 2023; used with permission (team-confirmed 2026-11-11)",
       "clinical_approval": "not_recorded",
       "part_ids": [
-        "symptoms"
+        "symptoms",
+        "diagnosis"
       ],
       "extraction": {
-        "locator_kind": "image",
-        "needs_transcription": true
-      }
-    },
-    {
-      "id": "src-nail-psoriasis-illustration",
-      "file": "Nail psoriasis.jpg",
-      "title": "Nail psoriasis",
-      "role": "educational_candidate",
-      "scope": "PsA",
-      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
-      "local_file": "data/psa/originals/Nail psoriasis.jpg",
-      "file_hash": "5f79a6f17a6d2c71e7a931b8e4eb35d768510b1e6587fc2929c7000c8ef22260",
-      "bytes": 900999,
-      "type": "image",
-      "clinical_approval": "not_recorded",
-      "part_ids": [
-        "symptoms"
-      ],
-      "extraction": {
-        "locator_kind": "image",
-        "needs_transcription": true
-      }
-    },
-    {
-      "id": "src-achilles-enthesitis-illustration",
-      "file": "Achilles enthesitis.jpg",
-      "title": "Achilles enthesitis",
-      "role": "educational_candidate",
-      "scope": "PsA",
-      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
-      "local_file": "data/psa/originals/Achilles enthesitis.jpg",
-      "file_hash": "07292a32f40684ae16705551092fcc6a85dfa44e75aa040f24ad8933dfcba12b",
-      "bytes": 946168,
-      "type": "image",
-      "clinical_approval": "not_recorded",
-      "part_ids": [
-        "symptoms"
-      ],
-      "extraction": {
-        "locator_kind": "image",
-        "needs_transcription": true
-      }
-    },
-    {
-      "id": "src-plantar-fasciitis-illustration",
-      "file": "Plantar fasciitis.jpg",
-      "title": "Plantar fasciitis",
-      "role": "educational_candidate",
-      "scope": "PsA",
-      "note": "User-supplied illustration; use for education, not diagnosis. Origin and clinical approval not independently verified.",
-      "local_file": "data/psa/originals/Plantar fasciitis.jpg",
-      "file_hash": "0e94af17561900f3dbdccef33c54633cca1a9677a241a84f5bf30b52024463bf",
-      "bytes": 689454,
-      "type": "image",
-      "clinical_approval": "not_recorded",
-      "part_ids": [
-        "symptoms"
-      ],
-      "extraction": {
-        "locator_kind": "image",
-        "needs_transcription": true
+        "locator_kind": "page",
+        "needs_transcription": false
       }
     }
   ]

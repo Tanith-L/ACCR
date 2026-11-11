@@ -126,12 +126,15 @@ class ImageMapTests(unittest.TestCase):
         data["course_map"]["image_sha256"] = "0" * 64
         self.assertTrue(any("course_map" in e and "hash" in e for e in media_errors(data, ROOT / "data/psa/chapter")))
 
-    def test_grappa_is_a_lesson_illustration_and_all_assets_are_used(self):
+    def test_grappa_poster_is_kept_for_the_app_and_all_assets_are_used(self):
         overview = next(t for t in self.library["topics"] if t["id"] == "overview")
         self.assertNotIn("image_map", overview)
+        # Lessons show only real images; the AI-generated GRAPPA poster stays for the app's Symptoms screen.
         lesson = next(l for l in self.library["lessons"] if l["id"] == "psa-overview-02")
-        self.assertIn("psa-overview-grappa-domains", [i["media_id"] for i in lesson["images"]])
-        used = set()
+        self.assertEqual(lesson.get("images", []), [])
+        authored = json.loads((ROOT / "data/psa/assisted-input/all-topics.json").read_text(encoding="utf-8"))
+        self.assertEqual(authored["app_posters"], ["psa-overview-grappa-domains"])
+        used = set(authored["app_posters"])
         used |= {t["image_map"]["media_id"] for t in self.library["topics"] if "image_map" in t}
         used |= {i["media_id"] for l in self.library["lessons"] for i in l.get("images", [])}
         self.assertEqual(used, {m["id"] for m in self.library["media"]})

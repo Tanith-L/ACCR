@@ -1,6 +1,6 @@
 # Original files and lesson correspondence
 
-31 original files accounted for; 24 lessons with located source uses.
+27 original files accounted for; 24 lessons with located source uses.
 
 File disposition and lesson-level editorial correspondence, not per-claim verification or clinical approval. DOCX paragraph numbers are 1-based w:p order in word/document.xml, including empty paragraphs. PDF page numbers are physical PDF pages.
 
@@ -10,7 +10,6 @@ Text use does not require embedding the entire original image. Background candid
 
 | Original | Disposition | Used by lesson(s) | Decision / review scope |
 |---|---|---|---|
-| [Achilles enthesitis.jpg](../originals/Achilles%20enthesitis.jpg) | lesson_source | psa-symptoms-07 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [clinical manifestations of PSA written at an 8th grade level.png](../originals/clinical%20manifestations%20of%20PSA%20written%20at%20an%208th%20grade%20level.png) | lesson_source | psa-overview-01, psa-symptoms-01, psa-symptoms-02, psa-symptoms-03, psa-symptoms-04, psa-symptoms-05, psa-symptoms-06, psa-symptoms-07, psa-symptoms-08, psa-symptoms-09, psa-symptoms-10, psa-symptoms-11, psa-symptoms-12, psa-contact-01, psa-contact-02 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [generated/archived-assets/overview-mindmap-v1.jpg](../originals/generated/archived-assets/overview-mindmap-v1.jpg) | superseded_asset | None | Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map. Review scope: Checked file identity and absence from active media/map references. |
 | [generated/archived-assets/symptoms-mindmap-v1.jpg](../originals/generated/archived-assets/symptoms-mindmap-v1.jpg) | superseded_asset | None | Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map. Review scope: Checked file identity and absence from active media/map references. |
@@ -18,18 +17,15 @@ Text use does not require embedding the entire original image. Background candid
 | [generated/overview-mindmap-v1.png](../originals/generated/overview-mindmap-v1.png) | superseded_asset | None | Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map. Review scope: Checked file identity and absence from active media/map references. |
 | [generated/symptoms-mindmap-v1.png](../originals/generated/symptoms-mindmap-v1.png) | superseded_asset | None | Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map. Review scope: Checked file identity and absence from active media/map references. |
 | [GRAPPA domains in PSA which guide treatment decisions.png](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png) | lesson_source | psa-overview-01, psa-overview-02, psa-symptoms-01, psa-symptoms-06, psa-symptoms-07, psa-symptoms-08, psa-treatment-01 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
-| [Heel X-ray with a bony spur (illustrative, AI-generated).jpg](../originals/Heel%20X-ray%20with%20a%20bony%20spur%20%28illustrative%2C%20AI-generated%29.jpg) | superseded_asset | None | Removed from psa-dx-02 at the frontend lead's request: the lesson says a heel spur alone is not the CASPAR finding, so the picture did not illustrate the framework. AI-generated. Retained as an original history asset. Review scope: Visual review of the source image and caption. |
 | [Management Guidelines of Arthritis and Autoimmune Diseases.docx](../originals/Management%20Guidelines%20of%20Arthritis%20and%20Autoimmune%20Diseases.docx) | lesson_source | psa-treatment-01, psa-treatment-02 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified. |
 | [mindmap.jpeg](../originals/mindmap.jpeg) | lesson_source | psa-dx-02, psa-treatment-02, psa-treatment-03 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [MURPHY’S LAWS OF ARTHRITIS  PREFACE.docx](../originals/MURPHY%E2%80%99S%20LAWS%20OF%20ARTHRITIS%20%20PREFACE.docx) | lesson_source | psa-dx-01, psa-treatment-03, psa-education-01, psa-contact-01 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified. |
-| [Nail psoriasis.jpg](../originals/Nail%20psoriasis.jpg) | lesson_source | psa-symptoms-06 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
-| [Plantar fasciitis.jpg](../originals/Plantar%20fasciitis.jpg) | lesson_source | psa-symptoms-07 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
-| [Plaque psoriasis of the elbow.jpg](../originals/Plaque%20psoriasis%20of%20the%20elbow.jpg) | lesson_source | psa-symptoms-01 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [poster of the comorbidities seen in PSA (top 10).png](../originals/poster%20of%20the%20comorbidities%20seen%20in%20PSA%20%28top%2010%29.png) | lesson_source | psa-overview-02, psa-symptoms-03 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [PsA & AS Symptoms.jpeg](../originals/PsA%20%26%20AS%20Symptoms.jpeg) | lesson_source | psa-symptoms-01, psa-symptoms-02, psa-symptoms-03, psa-symptoms-04, psa-symptoms-05, psa-symptoms-06, psa-symptoms-07, psa-symptoms-08, psa-symptoms-09, psa-symptoms-10, psa-symptoms-11, psa-symptoms-12, psa-contact-01 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [PsA One-Pager Intro.jpeg](../originals/PsA%20One-Pager%20Intro.jpeg) | lesson_source | psa-dx-01, psa-dx-02, psa-overview-01, psa-overview-02, psa-symptoms-02, psa-symptoms-04, psa-symptoms-06, psa-symptoms-07, psa-symptoms-08, psa-treatment-01, psa-treatment-02, psa-contact-02 | Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately. Review scope: Visual review of the source image and caption. |
 | [references.zip](../originals/references.zip) | archive_container | None | Delivery archive containing 25 file entries (including auxiliary archive entries). It is not an additional independent lesson source; match extracted original documents individually. Review scope: Read ZIP member list without executing any contents. |
 | [Rheumnotes.pdf](../originals/Rheumnotes.pdf) | background_only | None | Closest fit is the clinical-exam lesson. Keep as historical clinician background; do not insert the 2000 diagnostic algorithms or old drug information into current patient guidance. Current exam/testing explanation uses NIAMS. Review scope: 134-page scanned PDF: checked contents on PDF pages 4-5 and examination/differential diagrams on pages 8-10. Not a full clinical audit of all 134 pages. Considered only (not used): psa-dx-01. |
+| [RheumNotes_PsA_Clinical_Images.pdf](../originals/RheumNotes_PsA_Clinical_Images.pdf) | lesson_source | psa-dx-01, psa-dx-02, psa-symptoms-06, psa-symptoms-08 | Use only the portions listed in the lesson correspondence. Springer Nature figures; the file marks them internal-only without publisher permission, and the team confirmed permission on 2026-11-11. Review scope: Visual review of all five slides, captions and the copyright notice. |
 | [RheumNotesAImindmapsummary02OCT26.docx](../originals/RheumNotesAImindmapsummary02OCT26.docx) | design_reference | None | Mindmap software comparison belongs to authoring workflow, not any clinical lesson. Tool pricing and product claims are not used. Review scope: DOCX text: software comparison and authoring recommendations. |
 | [rheumy_team_share/rheumy_branded_portrait.jpg](../originals/rheumy_team_share/rheumy_branded_portrait.jpg) | prototype_asset | None | Rheumy welcome/branding prototype; no current lesson evidence or illustration role. Keep with the original prototype assets. Review scope: File-role and HTML linkage review only. Audio/video speech has not been transcribed or clinically reviewed in this audit. |
 | [rheumy_team_share/rheumy_chatbot.html](../originals/rheumy_team_share/rheumy_chatbot.html) | prototype_asset | None | Rheumy welcome/branding prototype; no current lesson evidence or illustration role. Keep with the original prototype assets. Review scope: File-role and HTML linkage review only. Audio/video speech has not been transcribed or clinically reviewed in this audit. |
@@ -48,8 +44,9 @@ Text use does not require embedding the entire original image. Background candid
 
 [Open lesson](overview.html#lesson=psa-dx-01)
 
-- [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1, 2; text. Source location: Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs. Use: Which findings a clinician checks; psoriasis history and multi-area examination. Limits: The testing workflow and no-single-test statement come from NIAMS, not this poster.
-- [Murphy’s Laws of Arthritis Preface](../originals/MURPHY%E2%80%99S%20LAWS%20OF%20ARTHRITIS%20%20PREFACE.docx): Pages 1; text. Source location: Paragraph 11: preparation and proactive monitoring. Use: Bring a concise symptom history to the visit. Limits: The morning-stiffness question is an editorial visit-preparation example; diagnostic shortcuts in paragraphs 16-18 are not taught.
+- [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1, 2; text. Source location: Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs. Use: Which findings a clinician checks; psoriasis history and multi-area examination. Limits: The testing workflow, the no-single-test statement, the blood-test purpose and the see-a-doctor advice come from NIAMS and NHS, not this poster.
+- [Murphy’s Laws of Arthritis Preface](../originals/MURPHY%E2%80%99S%20LAWS%20OF%20ARTHRITIS%20%20PREFACE.docx): Pages 1; text. Source location: Paragraph 11: preparation and proactive monitoring. Use: Bring a concise symptom history to the visit. Limits: Only the preparation idea is used. Diagnostic shortcuts in paragraphs 16-18 are not taught.
+- [Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)](../originals/RheumNotes_PsA_Clinical_Images.pdf): Pages 2; image. Source location: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray). Use: Spine X-ray: shows what an X-ray of the spine looks like. Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
 
 External references supplement these originals:
 
@@ -60,8 +57,9 @@ External references supplement these originals:
 
 [Open lesson](overview.html#lesson=psa-dx-02)
 
-- [Handwritten PsA mind map](../originals/mindmap.jpeg): Pages 1, 2; text. Source location: Right-hand CASPAR branch: entry criterion and five feature groups. Use: Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone. Limits: Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score.
-- [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1, 2; text. Source location: Box A: CASPAR table. Use: Explains current/past/family psoriasis, nails, RF and dactylitis. Limits: Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature.
+- [Handwritten PsA mind map](../originals/mindmap.jpeg): Pages 1, 2; text. Source location: Right-hand CASPAR branch: entry criterion and five feature groups. Use: Inflammation first (mandatory); then psoriasis (current weighted most; personal or family history), nail dystrophy, negative RF, dactylitis and juxta-articular new bone. Limits: Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score.
+- [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1, 2; text. Source location: Box A: CASPAR table. Use: Current, personal or family psoriasis; nail dystrophy (pitting, onycholysis, hyperkeratosis); negative RF; current or past dactylitis. Limits: Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature.
+- [Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)](../originals/RheumNotes_PsA_Clinical_Images.pdf): Pages 2; image. Source location: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray). Use: Nail changes and dactylitis photos: two of the signs CASPAR counts. Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
 
 External references supplement these originals:
 
@@ -84,7 +82,7 @@ External references supplement these originals:
 
 [Open lesson](overview.html#lesson=psa-overview-02)
 
-- [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1, 2; text_and_image. Source location: Six domain cards, including axial disease, dactylitis and enthesitis. Use: Defines the six disease domains; displayed on page 1. Limits: Technical poster wording is explained in the lesson; not a drug selection tool.
+- [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1, 2; text. Source location: Six domain cards, including axial disease, dactylitis and enthesitis. Use: Defines the six disease domains; displayed on page 1. Limits: Technical poster wording is explained in the lesson; not a drug selection tool.
 - [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 2; text. Source location: Box B: related conditions and comorbidities below six core domains. Use: Separates eye/bowel conditions and broader health needs from core domains. Limits: Drug preferences in the poster are not copied into a personal treatment plan.
 - [Common PsA comorbidities](../originals/poster%20of%20the%20comorbidities%20seen%20in%20PSA%20%28top%2010%29.png): Pages 2; text. Source location: Card headings: cardiovascular disease, diabetes, obesity, depression. Use: Introduces heart health, blood sugar, weight and mood. Limits: Numerical prevalence claims are not used; no study population is identified on the image.
 
@@ -100,7 +98,6 @@ External references supplement these originals:
 - [Clinical manifestations of PsA](../originals/clinical%20manifestations%20of%20PSA%20written%20at%20an%208th%20grade%20level.png): Pages 1, 2; text. Source location: skin card on the clinical manifestations body map. Use: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations. Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
 - [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1; text. Source location: skin / corresponding core domain card. Use: Defines the disease domain in plain words. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA & AS Symptoms](../originals/PsA%20%26%20AS%20Symptoms.jpeg): Pages 1; text. Source location: skin body label. Use: Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
-- [Plaque psoriasis of the elbow](../originals/Plaque%20psoriasis%20of%20the%20elbow.jpg): Pages 2; image. Source location: PSA1 caption and elbow. Use: Skin patches and scales. Limits: Supplied educational illustration; does not diagnose a patient.
 
 External references supplement these originals:
 
@@ -167,7 +164,7 @@ External references supplement these originals:
 - [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1; text. Source location: hands / corresponding core domain card. Use: Defines the disease domain in plain words. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1; text. Source location: Box B and Box C: hands. Use: Cross-checks domain or related-condition terminology. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA & AS Symptoms](../originals/PsA%20%26%20AS%20Symptoms.jpeg): Pages 1; text. Source location: hands body label. Use: Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
-- [Nail psoriasis](../originals/Nail%20psoriasis.jpg): Pages 2; image. Source location: PSA2 caption and nails. Use: Pits, yellow spots and nail lifting. Limits: Supplied educational illustration; does not diagnose a patient.
+- [Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)](../originals/RheumNotes_PsA_Clinical_Images.pdf): Pages 1, 2; image. Source location: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray). Use: Dactylitis photo (page 1) and nail-change photo (page 2). Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
 
 External references supplement these originals:
 
@@ -182,8 +179,6 @@ External references supplement these originals:
 - [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1; text. Source location: feet / corresponding core domain card. Use: Defines the disease domain in plain words. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1; text. Source location: Box B and Box C: feet. Use: Cross-checks domain or related-condition terminology. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA & AS Symptoms](../originals/PsA%20%26%20AS%20Symptoms.jpeg): Pages 1; text. Source location: feet body label. Use: Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
-- [Achilles enthesitis](../originals/Achilles%20enthesitis.jpg): Pages 1; image. Source location: PSA3 caption and heel backs. Use: Back-of-heel tendon attachment location. Limits: Supplied educational illustration; does not diagnose a patient.
-- [Plantar fasciitis](../originals/Plantar%20fasciitis.jpg): Pages 1; image. Source location: PSA5 caption and sole. Use: Bottom-of-heel attachment location. Limits: Supplied educational illustration; does not diagnose a patient.
 
 External references supplement these originals:
 
@@ -198,6 +193,7 @@ External references supplement these originals:
 - [GRAPPA domains in PsA](../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png): Pages 1; text. Source location: spine / corresponding core domain card. Use: Defines the disease domain in plain words. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA One-Pager Intro](../originals/PsA%20One-Pager%20Intro.jpeg): Pages 1; text. Source location: Box B and Box C: spine. Use: Cross-checks domain or related-condition terminology. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA & AS Symptoms](../originals/PsA%20%26%20AS%20Symptoms.jpeg): Pages 1; text. Source location: spine body label. Use: Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+- [Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)](../originals/RheumNotes_PsA_Clinical_Images.pdf): Pages 1; image. Source location: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray). Use: Spine X-ray with spondylitis changes. Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
 
 External references supplement these originals:
 
@@ -350,6 +346,6 @@ External references supplement these originals:
 - archive_container: 1
 - background_only: 2
 - design_reference: 5
-- lesson_source: 13
+- lesson_source: 10
 - prototype_asset: 4
-- superseded_asset: 6
+- superseded_asset: 5

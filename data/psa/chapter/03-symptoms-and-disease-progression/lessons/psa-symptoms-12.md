@@ -17,6 +17,52 @@ Use the map to show where the problem is. Tell your team if it is around the ank
 - Pain or swelling here can make walking harder.
 - It does not show the cause by itself.
 
+## Video script
+
+Video: [videos/psa-symptoms-12.mp4](../videos/psa-symptoms-12.mp4) (1.1 min) · captions: [videos/psa-symptoms-12.vtt](../videos/psa-symptoms-12.vtt)
+
+Style: Whiteboard animation, drawn line by line in time with the narration.
+
+AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7). AI-generated voice. Script text was sent to Microsoft's speech service to create the audio.
+
+### Scene 1: Welcome
+
+- Let’s look at the ankles, and the middle of the foot. *(Framing, no medical content)*
+
+### Scene 2: Ankle and mid-foot
+
+- The ankle and the middle of the foot can become inflamed. *(Clinical manifestations of PsA)*
+- This can cause pain, and make walking harder. *(Clinical manifestations of PsA)*
+
+### Scene 3: Not the heel
+
+- This is different from pain where a tendon joins the heel bone. *(Lesson text)*
+- The feet and heel lesson covers those spots. *(Lesson text)*
+
+### Scene 4: Show where
+
+- Use the map to show where the problem is: around the ankle, across the middle of the foot, or at the heel. *(Lesson text)*
+
+### Scene 5: Tell your team
+
+- Mention when it began, and any change in walking. *(Lesson text)*
+
+### Scene 6: Location is a clue
+
+- The location helps guide an exam. *(Lesson text)*
+- But it does not show the cause by itself. *(Lesson text)*
+
+### Scene 7: Your helpers
+
+- Physical therapists help improve joint function. *(NIAMS: Diagnosis, Treatment, and Steps to Take)*
+- Occupational therapists teach ways to protect your joints, and save energy. *(NIAMS: Diagnosis, Treatment, and Steps to Take)*
+
+### Scene 8: Quick review
+
+- Great job! Let’s review. *(Framing, no medical content)*
+- Pain or swelling here can make walking harder. *(Key takeaway)*
+- It does not show the cause by itself. *(Key takeaway)*
+
 ## References and reviewer notes
 
 Split from the former combined symptom lessons to match the ankles card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.

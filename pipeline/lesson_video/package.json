@@ -1,0 +1,9 @@
+{
+  "name": "rheumnotes-lesson-video",
+  "private": true,
+  "description": "Renders the whiteboard lesson videos (see README.md).",
+  "type": "module",
+  "dependencies": {
+    "puppeteer-core": "22.15.0"
+  }
+}

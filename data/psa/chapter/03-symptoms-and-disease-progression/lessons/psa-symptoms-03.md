@@ -17,6 +17,68 @@ A comorbidity means another health condition alongside PsA. This is not the same
 - A flare and lasting joint damage are different.
 - A number on a general poster does not tell you your own risk.
 
+## Video script
+
+Video: [videos/psa-symptoms-03.mp4](../videos/psa-symptoms-03.mp4) (1.9 min) · captions: [videos/psa-symptoms-03.vtt](../videos/psa-symptoms-03.vtt)
+
+Style: Whiteboard animation, drawn line by line in time with the narration.
+
+AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7). AI-generated voice. Script text was sent to Microsoft's speech service to create the audio.
+
+### Scene 1: Welcome
+
+- Let’s talk about how PsA can change over time, and about your whole health. *(Framing, no medical content)*
+
+### Scene 2: Why treatment matters
+
+- PsA inflammation may lead to lasting damage if it is not treated. *(Clinical manifestations of PsA)*
+- Treatment can slow the disease and protect your joints. *(NIAMS: Psoriatic Arthritis)*
+
+### Scene 3: Ups and downs
+
+- Disease activity can rise and fall. *(Lesson text)*
+- A flare is a time when symptoms come back, or get worse. *(Lesson text)*
+
+### Scene 4: Flare or damage?
+
+- A flare and lasting joint damage are different. *(Lesson text)*
+- A flare describes activity now. Damage means changes that may stay. *(Lesson text)*
+
+### Scene 5: Flares and your plan
+
+- Flares should not happen often when your disease is treated well. *(National Psoriasis Foundation: Care Path, Keep Thriving)*
+- If flares happen often, talk with your provider about changing your plan. *(National Psoriasis Foundation: Care Path, Keep Thriving)*
+
+### Scene 6: Tell your team
+
+- There is no fixed path that everyone follows. *(Lesson text)*
+- Tell your team about changes in pain, swelling, tiredness, or daily tasks. *(Lesson text)*
+
+### Scene 7: Other health conditions
+
+- A comorbidity means another health condition alongside PsA. *(Lesson text)*
+- These can include high blood pressure, high blood sugar, high cholesterol, heart disease, weight, and low mood. *(Common PsA comorbidities)*
+
+### Scene 8: Regular check-ups
+
+- Some of these may have no symptoms you notice, so regular check-ups with your primary care provider matter. *(National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis)*
+- Caught early, many can be treated with lifestyle changes or medicine. *(National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis)*
+
+### Scene 9: Risk is not destiny
+
+- Having a higher risk does not mean you will get another condition. *(National Psoriasis Foundation: Care Path, Keep Thriving)*
+- And a number on a general poster does not tell you your own risk. *(Lesson text)*
+
+### Scene 10: Ask and share
+
+- Ask which health checks fit your history, and share your concerns. *(Lesson text)*
+
+### Scene 11: Quick review
+
+- Great job! Let’s review. *(Framing, no medical content)*
+- A flare and lasting joint damage are different. *(Key takeaway)*
+- A number on a general poster does not tell you your own risk. *(Key takeaway)*
+
 ## References and reviewer notes
 
 The body-map subtitle hotspot opens this lesson; the visible lesson list also names related health and changes over time. The comorbidity poster is reference-only: its uncited percentages and top-ten ranking are not reproduced. PsA/AS poster supports only broad location/damage context, not an inevitable progression.

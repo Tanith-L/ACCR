@@ -15,11 +15,11 @@
 
 | Lesson | Maximum FK grade (pages and takeaways) |
 |---|---|
-| psa-dx-01 | 5.44 |
-| psa-dx-02 | 5.19 |
+| psa-dx-01 | 5.33 |
+| psa-dx-02 | 5.36 |
 | psa-overview-01 | 7.52 |
 | psa-overview-02 | 5.34 |
-| psa-symptoms-01 | 4.13 |
+| psa-symptoms-01 | 4.86 |
 | psa-symptoms-02 | 6.13 |
 | psa-symptoms-03 | 5.63 |
 | psa-symptoms-04 | 6.08 |
@@ -46,12 +46,11 @@ Home and five topics have no navigation image. The unchanged Symptoms image has 
 The mixed PsA/AS photo is labeled and used for symptom reporting. Uncited comorbidity percentages are omitted. See source-review.md for all file dispositions and lesson locators.
 The preview uses normalized coordinates and preserves image aspect ratio. Native mobile device verification and clinical approval remain pending.
 
-Draft input SHA-256: `b16d24fc329186e5529ec96c97b1c105f5cc270618312f429eb3059bad97f9e0`
-Hotspot input SHA-256: `9acf0fb8dead430e32b70bafd040154edbcf151d2a9c2fd38d4f4e61f596a9ca`
+Draft input SHA-256: `9ed164a944d5f8365bf35fa5a66333ff722863f92838a637f56ad37c1596eed0`
+Hotspot input SHA-256: `0b0b2daf57de5c27ec4fc2ff2df7a57530bfd2c9ea9cd6e446e6665b8ac2dba9`
 
 Image `psa-overview-grappa-domains` SHA-256: `b9a2917f7da29f60c824a2f44712218a5bfcf1ad722e5b71011f0764944f6137`
 Image `psa-symptoms-body-map` SHA-256: `5a0a924d379e433351ee5126e698c095d09afae688609acdf7736e4a2c43b510`
-Image `psa-skin-psoriasis` SHA-256: `62268b5cdd634545e3abb60df12ad9cbefb596c781bed37d0dbf1a460e4885a6`
-Image `psa-nail-psoriasis` SHA-256: `afbb7f3172ec8740b8dd1e005095d16de686e4e7761f8e4a21a51c7a9f6353e2`
-Image `psa-achilles-enthesitis` SHA-256: `0b0e5b633dece1f8156abdf173e46378d4f5e3716be32b0ce9022757bbc98790`
-Image `psa-plantar-fasciitis` SHA-256: `29fad40d627a800b023eb85e074d0576703e84ec6cade5ba17b54ecfacd33651`
+Image `psa-dactylitis` SHA-256: `c9d251f98c315f0dff6345462bc80dcf2a0cd84093ff49dcb6ec05647f3fe955`
+Image `psa-nail-changes` SHA-256: `00e9213b93cc58c388a1776fe0e1a482593d732bcce8e4df81b740a9ac41be02`
+Image `psa-spine-xray` SHA-256: `648e70616f72c3b8d76f78cdf31d2a384d74b13e485f6bd941465e6978621766`

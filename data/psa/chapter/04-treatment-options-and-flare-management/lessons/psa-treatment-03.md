@@ -17,6 +17,67 @@ If symptoms return or worsen, discuss a flare plan with the care team. A short r
 - Follow-up visits look at more than one sign of disease activity.
 - If symptoms return or worsen, discuss a flare plan with the care team.
 
+## Video script
+
+Video: [videos/psa-treatment-03.mp4](../videos/psa-treatment-03.mp4) (1.8 min) · captions: [videos/psa-treatment-03.vtt](../videos/psa-treatment-03.vtt)
+
+Style: Whiteboard animation, drawn line by line in time with the narration.
+
+AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7). AI-generated voice. Script text was sent to Microsoft's speech service to create the audio.
+
+### Scene 1: Welcome
+
+- Let’s talk about tracking your progress, and planning for flares. *(Framing, no medical content)*
+
+### Scene 2: More than one sign
+
+- Follow-up visits look at more than one sign of disease activity. *(Lesson text)*
+- The team may check sore or swollen joints, skin, and tendon sites. *(Lesson text)*
+
+### Scene 3: Your view matters
+
+- They also ask about daily tasks, and your own view of your pain and health. *(Lesson text)*
+
+### Scene 4: MDA
+
+- Minimal disease activity, or MDA, uses several measures together. *(Handwritten PsA mind map)*
+- It helps track care. It is not a stage of disease. *(Lesson text)*
+
+### Scene 5: The whole picture
+
+- A quiet skin patch alone does not show the whole picture. *(Lesson text)*
+
+### Scene 6: About flares
+
+- Flares are often part of living with psoriatic disease, but they should not happen often when treatment is working. *(National Psoriasis Foundation: Care Path, Keep Thriving)*
+- Keeping a record of symptoms and triggers can help you see flares coming. *(National Psoriasis Foundation: Care Path, Keep Thriving)*
+
+### Scene 7: A useful record
+
+- A useful record tracks more than pain: also energy, mood, sleep, and how easy daily tasks feel. *(The Four Pillars of Arthritis)*
+- Write down what changed, when it began, and how it affects your day. *(Lesson text)*
+
+### Scene 8: Make a flare plan
+
+- Make a flare plan with your care team. *(Lesson text)*
+- Ask which changes need a call, which contact route to use, and what to do after hours. *(Lesson text)*
+
+### Scene 9: Plan ahead
+
+- It pays to plan ahead for what could go wrong. *(Murphy’s Laws of Arthritis Preface)*
+- Repeated flares may mean the plan needs a review. *(Lesson text)*
+
+### Scene 10: Follow-up visits
+
+- Follow the medicine instructions agreed with your prescribing team. *(Lesson text)*
+- Share patterns at follow-up visits. They can show changes that one visit might miss. *(Lesson text)*
+
+### Scene 11: Quick review
+
+- Great job! Let’s review. *(Framing, no medical content)*
+- Follow-up visits look at more than one sign of disease activity. *(Key takeaway)*
+- If symptoms return or worsen, discuss a flare plan with the care team. *(Key takeaway)*
+
 ## References and reviewer notes
 
 MDA numerical thresholds from handwriting are not reproduced. Clinic-specific flare actions and contact details remain to be supplied.

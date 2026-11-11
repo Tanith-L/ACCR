@@ -1,0 +1,105 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Lesson video renderer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Patrick+Hand&display=swap">
+<style>
+  html,body{margin:0;background:#FCFCFA;overflow:hidden}
+  svg{display:block;width:1280px;height:720px}
+</style>
+<svg id="svg" viewBox="0 0 960 540">
+  <defs id="defs"><radialGradient id="vig" cx="50%" cy="45%" r="75%"><stop offset=".7" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></radialGradient></defs>
+  <rect width="960" height="540" fill="#FCFCFA"/>
+  <rect width="960" height="540" fill="url(#vig)"/>
+  <g id="board" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"></g>
+  <g id="hand" transform="translate(1200,700)"></g>
+</svg>
+<script src="kit.js"></script>
+<script src="scenes_ch1.js"></script>
+<script src="scenes_ch2_6.js"></script>
+<script>
+/* Frame-by-frame renderer. The Node renderer calls RENDER.load(id, durations) and then
+   RENDER.frame(t) for every frame time t (seconds from the start of the lesson). */
+const HAND=`<path d="M40,-70 L300,90 L250,170 L10,-20 Z" fill="#7FA7C9" stroke="${INK}" stroke-width="4" stroke-linejoin="round"/>
+<g transform="rotate(30)"><rect x="-9" y="-122" width="18" height="98" rx="5" fill="${GRN}" stroke="${INK}" stroke-width="3.5"/><path d="M-7,-26 L0,-2 L7,-26 Z" fill="${INK}"/><rect x="-10" y="-132" width="20" height="16" rx="4" fill="#173D28" stroke="${INK}" stroke-width="3"/></g>
+<ellipse cx="46" cy="-56" rx="40" ry="32" transform="rotate(35 46 -56)" fill="${F.skin}" stroke="${INK}" stroke-width="4"/>
+<ellipse cx="18" cy="-44" rx="15" ry="9" transform="rotate(30 18 -44)" fill="${F.skin}" stroke="${INK}" stroke-width="3.5"/>
+<ellipse cx="28" cy="-26" rx="15" ry="9" transform="rotate(20 28 -26)" fill="${F.skin}" stroke="${INK}" stroke-width="3.5"/>
+<ellipse cx="44" cy="-90" rx="10" ry="16" transform="rotate(-30 44 -90)" fill="${F.skin}" stroke="${INK}" stroke-width="3.5"/>`;
+const svg=document.getElementById('svg'), board=document.getElementById('board'), handG=document.getElementById('hand'), defsEl=document.getElementById('defs');
+handG.innerHTML=HAND;
+const LEAD=.45, GAP=.35, HOLD=1.1, FADE=.25, REST={x:1150,y:700};
+
+const RENDER={
+  lesson:null, scenes:[], cur:-1, items:[], hand:{...REST}, lastT:0,
+  load(id, durs){ // durs[scene][line] = seconds of audio
+    this.lesson=LESSONS.find(l=>l.id===id); if(!this.lesson) throw new Error('unknown lesson '+id);
+    let off=0; this.scenes=this.lesson.scenes.map((s,S)=>{ let t=LEAD; const sent=durs[S].map(d=>{const x={start:t,dur:d};t+=d+GAP;return x;});
+      const sc={off,sent,end:t-GAP+HOLD}; off+=sc.end; return sc; });
+    this.cur=-1; this.hand={...REST}; this.lastT=0;
+    return {total:off, scenes:this.scenes.map(s=>({off:s.off,end:s.end,sent:s.sent}))};
+  },
+  draw(S){
+    const sc=this.lesson.scenes[S]; board.innerHTML=typeof sc.art==='function'?sc.art():SPEC(sc.art);
+    [...defsEl.querySelectorAll('clipPath')].forEach(c=>c.remove());
+    const inv=svg.getScreenCTM().inverse(); const sched=this.scenes[S]; let n=0; const items=[];
+    board.querySelectorAll('[data-c]').forEach(gr=>{ const cue=+gr.dataset.c;
+      gr.querySelectorAll('path,rect,circle,ellipse,line,text').forEach(el=>{
+        if(el.closest('[data-c]')!==gr) return; const cs=getComputedStyle(el); const it={el,cue};
+        it.m=inv.multiply(el.getScreenCTM());
+        if(el.tagName==='text'){ const bb=el.getBBox(), id='wb'+(n++);
+          const cp=document.createElementNS('http://www.w3.org/2000/svg','clipPath'); cp.id=id; cp.setAttribute('clipPathUnits','userSpaceOnUse');
+          const r=document.createElementNS('http://www.w3.org/2000/svg','rect'); r.setAttribute('x',bb.x-6); r.setAttribute('y',bb.y-10); r.setAttribute('height',bb.height+20); r.setAttribute('width',0);
+          cp.appendChild(r); defsEl.appendChild(cp); el.setAttribute('clip-path',`url(#${id})`);
+          Object.assign(it,{type:'text',bb,r,nat:Math.max(.35,bb.width/420)});
+        } else { const hasStroke=cs.stroke!=='none'&&parseFloat(cs.strokeWidth)>0, hasFill=cs.fill!=='none';
+          it.fo=parseFloat(cs.fillOpacity)||1; it.hasFill=hasFill;
+          if(hasStroke){ let len=0; try{len=el.getTotalLength()}catch(e){}
+            if(cs.strokeDasharray&&cs.strokeDasharray!=='none'){ Object.assign(it,{type:'dashed',nat:Math.max(.2,len/1600),len}); el.style.opacity=0; }
+            else { el.style.strokeDasharray=`${len} ${len}`; el.style.strokeDashoffset=len; Object.assign(it,{type:'stroke',len,nat:Math.max(.1,len/1000)}); }
+            if(hasFill) el.style.fillOpacity=0;
+          } else if(hasFill){ el.style.fillOpacity=0; Object.assign(it,{type:'fill',nat:.18}); } else return;
+        }
+        el.style.visibility='hidden'; it.p=0;
+        items.push(it);
+      });
+    });
+    for(let c=0;c<sched.sent.length;c++){ const its=items.filter(i=>i.cue===c), s=sched.sent[c]; if(!its.length) continue;
+      const budget=Math.max(1,s.dur*.86), travel=.07, total=its.reduce((a,i)=>a+i.nat,0)+travel*(its.length-1), k=Math.min(1.25,budget/total);
+      let t=s.start+.05; its.forEach(i=>{i.s=t;i.e=t+i.nat*k;t=i.e+travel*Math.min(1,k)}); }
+    items.forEach(i=>{ if(i.s===undefined){i.s=0;i.e=.01} });
+    this.items=items; this.cur=S;
+  },
+  pt(it,p){ let x,y;
+    if(it.type==='text'){ x=it.bb.x+it.bb.width*p; y=it.bb.y+it.bb.height*(.6+.22*Math.sin(p*it.bb.width/7)); }
+    else if(it.type==='stroke'&&it.len>0){ const q=it.el.getPointAtLength(it.len*p); x=q.x; y=q.y; }
+    else { const b=it.el.getBBox(); x=b.x+b.width/2; y=b.y+b.height/2; }
+    const m=it.m; return {x:m.a*x+m.c*y+m.e, y:m.b*x+m.d*y+m.f}; },
+  // Render lesson time T (seconds). Returns {changed, scene, line} so the caller can skip identical frames.
+  frame(T){
+    let S=this.scenes.findIndex(s=>T<s.off+s.end); if(S<0) S=this.scenes.length-1;
+    const sc=this.scenes[S], t=T-sc.off, dt=Math.max(0,Math.min(.1,T-this.lastT)); this.lastT=T;
+    let changed=false;
+    if(S!==this.cur){ this.draw(S); changed=true; }
+    let active=null, upcoming=null;
+    for(const it of this.items){ const p=Math.max(0,Math.min(1,(t-it.s)/(it.e-it.s)));
+      if(p!==it.p){ it.p=p; changed=true;
+        it.el.style.visibility=p>0?'':'hidden';
+        if(it.type==='stroke') it.el.style.strokeDashoffset=it.len*(1-p);
+        else if(it.type==='text') it.r.setAttribute('width',p*(it.bb.width+12));
+        else if(it.type==='dashed') it.el.style.opacity=p; }
+      if(it.hasFill){ const fp=Math.max(0,Math.min(1,(t-(it.type==='fill'?it.s:it.e))/.3))*it.fo; if(fp!==it.fp){it.fp=fp;it.el.style.fillOpacity=fp;changed=true;} }
+      if(t>=it.s&&t<it.e&&!active) active=it;
+      if(!upcoming&&it.s>t&&it.s-t<.5) upcoming=it; }
+    const h=this.hand, ox=h.x, oy=h.y;
+    if(active&&active.type!=='fill'){ const q=this.pt(active,(t-active.s)/(active.e-active.s)); h.x=q.x; h.y=q.y; }
+    else { const tg=active?this.pt(active,.5):upcoming?this.pt(upcoming,0):REST; const f=1-Math.exp(-(dt||.04)*16); h.x+=(tg.x-h.x)*f; h.y+=(tg.y-h.y)*f; }
+    if(Math.abs(h.x-ox)>.05||Math.abs(h.y-oy)>.05){ handG.setAttribute('transform',`translate(${h.x.toFixed(1)},${h.y.toFixed(1)})`); changed=true; }
+    const op=Math.min(1,t/FADE,(sc.end-t)/FADE); const o=Math.max(0,op).toFixed(3);
+    if(board.style.opacity!==o){ board.style.opacity=o; changed=true; }
+    let line=-1; sc.sent.forEach((s,i)=>{ if(t>=s.start) line=i; });
+    return {changed, scene:S, line};
+  },
+};
+window.RENDER=RENDER;
+window.READY=(document.fonts?document.fonts.ready:Promise.resolve()).then(()=>true);
+</script>

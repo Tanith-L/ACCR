@@ -17,6 +17,51 @@ Tell your team whether the problem is in the skin, inside the joint, or around i
 - You do not have to know the medical name.
 - Pain near an elbow and a skin patch on the elbow are different types of change.
 
+## Video script
+
+Video: [videos/psa-symptoms-09.mp4](../videos/psa-symptoms-09.mp4) (1.1 min) · captions: [videos/psa-symptoms-09.vtt](../videos/psa-symptoms-09.vtt)
+
+Style: Whiteboard animation, drawn line by line in time with the narration.
+
+AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7). AI-generated voice. Script text was sent to Microsoft's speech service to create the audio.
+
+### Scene 1: Welcome
+
+- Let’s look at the elbows, and the tendons nearby. *(Framing, no medical content)*
+
+### Scene 2: The elbow
+
+- PsA can cause pain or tenderness in an elbow joint, or in the tendons nearby. *(Clinical manifestations of PsA)*
+
+### Scene 3: Everyday moves
+
+- Bending your arm, or lifting things, may feel harder. *(Lesson text)*
+
+### Scene 4: Skin or joint?
+
+- Pain near the elbow and a skin patch on the elbow are different kinds of change. *(Lesson text)*
+- Psoriasis patches often show up on the elbows. *(NIAMS: Psoriatic Arthritis)*
+
+### Scene 5: Describe it your way
+
+- Tell your team whether the problem is in the skin, inside the joint, or around it. *(Lesson text)*
+- You do not have to know the medical name. *(Lesson text)*
+
+### Scene 6: What to say
+
+- Describe where it hurts, when it started, and what you find hard to do. *(Lesson text)*
+
+### Scene 7: Exam and joint care
+
+- An exam can help the team work out which tissues are involved. *(Lesson text)*
+- One tip to protect your joints: push a door open with your whole body, not just your fingers. *(NIAMS: Diagnosis, Treatment, and Steps to Take)*
+
+### Scene 8: Quick review
+
+- Great job! Let’s review. *(Framing, no medical content)*
+- You do not have to know the medical name. *(Key takeaway)*
+- Pain near an elbow and a skin patch on the elbow are different types of change. *(Key takeaway)*
+
 ## References and reviewer notes
 
 Split from the former combined symptom lessons to match the elbows card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.

@@ -1,5 +1,13 @@
-import { useEffect, useRef, type ReactNode } from 'react';
-import { RefreshControl, ScrollView, StyleSheet, View, type ScrollViewInstance } from 'react-native';
+import { useEffect, useRef, type ReactNode, type RefObject } from 'react';
+import {
+  RefreshControl,
+  ScrollView,
+  StyleSheet,
+  View,
+  type NativeScrollEvent,
+  type NativeSyntheticEvent,
+  type ScrollViewInstance,
+} from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { colors, spacing } from '@/theme';
@@ -16,15 +24,27 @@ interface Props {
   scrollKey?: string | number;
   /** Screens outside the tab bar (Welcome) must clear the home indicator themselves. */
   standalone?: boolean;
+  /** For screens that track or restore their scroll position (the lesson). */
+  onScroll?: (event: NativeSyntheticEvent<NativeScrollEvent>) => void;
+  onContentSizeChange?: (width: number, height: number) => void;
+  scrollRef?: RefObject<ScrollViewInstance | null>;
 }
 
-export function Screen({ children, header, actions, onRefresh, scrollKey, standalone }: Props) {
+export function Screen({ children, header, actions, onRefresh, scrollKey, standalone, onScroll, onContentSizeChange, scrollRef }: Props) {
   const insets = useSafeAreaInsets();
-  const scroll = useRef<ScrollViewInstance>(null);
+  const ownScroll = useRef<ScrollViewInstance>(null);
+  const scroll = scrollRef ?? ownScroll;
 
+  // Only on a change after mount: a new screen already starts at the top, and scrolling it
+  // here would overwrite a reading position the screen is about to restore.
+  const mounted = useRef(false);
   useEffect(() => {
+    if (!mounted.current) {
+      mounted.current = true;
+      return;
+    }
     scroll.current?.scrollTo({ y: 0, animated: false });
-  }, [scrollKey]);
+  }, [scrollKey, scroll]);
 
   return (
     <View style={[styles.root, { paddingTop: insets.top + spacing.sm }]}>
@@ -32,6 +52,9 @@ export function Screen({ children, header, actions, onRefresh, scrollKey, standa
       <ScrollView
         ref={scroll}
         style={styles.root}
+        onScroll={onScroll}
+        scrollEventThrottle={onScroll ? 32 : undefined}
+        onContentSizeChange={onContentSizeChange}
         contentContainerStyle={[
           styles.content,
           { paddingTop: header ? spacing.md : spacing.xl },

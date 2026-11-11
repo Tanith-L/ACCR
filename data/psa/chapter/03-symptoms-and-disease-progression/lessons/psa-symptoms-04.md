@@ -17,6 +17,50 @@ Tell your care team about gut symptoms that keep happening. Note what changed, w
 - A bowel change does not prove that you have IBD or that PsA is the cause.
 - Tell your care team about gut symptoms that keep happening.
 
+## Video script
+
+Video: [videos/psa-symptoms-04.mp4](../videos/psa-symptoms-04.mp4) (1.1 min) · captions: [videos/psa-symptoms-04.vtt](../videos/psa-symptoms-04.vtt)
+
+Style: Whiteboard animation, drawn line by line in time with the narration.
+
+AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7). AI-generated voice. Script text was sent to Microsoft's speech service to create the audio.
+
+### Scene 1: Welcome
+
+- Let’s talk about your gut, and changes in your bowels. *(Framing, no medical content)*
+
+### Scene 2: What to notice
+
+- The gut card describes pain, bloating, and changes in bowel habits. *(Clinical manifestations of PsA)*
+
+### Scene 3: IBD
+
+- Inflammatory bowel disease, or IBD, can happen in some people with PsA. *(NIAMS: Psoriatic Arthritis)*
+- IBD means inflammation of the digestive tract. *(National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis)*
+
+### Scene 4: Not proof
+
+- But a bowel change does not prove that you have IBD, or that PsA is the cause. *(Lesson text)*
+
+### Scene 5: Tell your team
+
+- Tell your care team about gut symptoms that keep happening. *(Lesson text)*
+- Note what changed, when it started, and how it affects your day. *(Lesson text)*
+
+### Scene 6: Your team decides
+
+- Your team may ask about your medicines, and decide whether you need more tests. *(Lesson text)*
+
+### Scene 7: When it is urgent
+
+- If symptoms are severe, or you feel very unwell, get urgent medical help. *(Lesson text)*
+
+### Scene 8: Quick review
+
+- Great job! Let’s review. *(Framing, no medical content)*
+- A bowel change does not prove that you have IBD or that PsA is the cause. *(Key takeaway)*
+- Tell your care team about gut symptoms that keep happening. *(Key takeaway)*
+
 ## References and reviewer notes
 
 Split from the former combined symptom lessons to match the gut card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.

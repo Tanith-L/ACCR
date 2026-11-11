@@ -1,16 +1,17 @@
 import { useEffect, useState } from 'react';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 
 import type { LessonImage as LessonImageData } from '@/content';
 import { resolveImage } from '@/content/media';
 import { colors, radius, spacing, type } from '@/theme';
 
-import { ImageViewer } from './ImageViewer';
+import { ImageModal, ImageViewer } from './ImageViewer';
 
-/** Image with alt text and credit; a placeholder box when it can't be loaded. */
+/** Image with alt text and credit; tap it (or Enlarge image) to open it large. A placeholder box when it can't be loaded. */
 export function LessonImage({ image }: { image: LessonImageData }) {
   const source = resolveImage(image.path);
   const [failed, setFailed] = useState(false);
+  const [open, setOpen] = useState(false);
   const [width, setWidth] = useState(0);
   const [remoteRatio, setRemoteRatio] = useState<number>();
 
@@ -33,13 +34,15 @@ export function LessonImage({ image }: { image: LessonImageData }) {
       <View style={styles.panel}>
         <View onLayout={(e) => setWidth(e.nativeEvent.layout.width)}>
           {source && !failed ? (
-            <Image
-              source={source}
-              style={[styles.image, width ? { width, height: width / aspectRatio } : { aspectRatio }]}
-              resizeMode="contain"
-              accessibilityLabel={image.altText}
-              onError={() => setFailed(true)}
-            />
+            <Pressable onPress={() => setOpen(true)} accessibilityRole="button" accessibilityLabel={`Enlarge image: ${image.altText}`}>
+              <Image
+                source={source}
+                style={[styles.image, width ? { width, height: width / aspectRatio } : { aspectRatio }]}
+                resizeMode="contain"
+                accessibilityLabel={image.altText}
+                onError={() => setFailed(true)}
+              />
+            </Pressable>
           ) : (
             <View style={[styles.image, styles.placeholder]} accessibilityLabel={image.altText}>
               <Text style={styles.placeholderText}>{image.altText}</Text>
@@ -48,6 +51,9 @@ export function LessonImage({ image }: { image: LessonImageData }) {
         </View>
       </View>
       {source && !failed && <ImageViewer source={source} altText={image.altText} ratio={aspectRatio} />}
+      {source && !failed && (
+        <ImageModal source={source} altText={image.altText} ratio={aspectRatio} credit={image.credit} open={open} onClose={() => setOpen(false)} />
+      )}
       {image.credit ? <Text style={styles.credit}>{image.credit}</Text> : null}
     </View>
   );

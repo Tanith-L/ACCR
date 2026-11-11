@@ -20,3 +20,11 @@ node_modules/
 
 # macOS
 .DS_Store
+
+# Lesson video build cache (voice clips, audio tracks)
+pipeline/lesson_video/.cache/
+
+# Rheumy chatbot: downloaded GGUF models and build intermediates (never commit)
+pipeline/rheumy/.models/
+pipeline/rheumy/node_modules/
+pipeline/rheumy/build/core.bundle.mjs

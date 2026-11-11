@@ -4,15 +4,6 @@
   "scope": "File disposition and lesson-level editorial correspondence, not per-claim verification or clinical approval. DOCX paragraph numbers are 1-based w:p order in word/document.xml, including empty paragraphs. PDF page numbers are physical PDF pages.",
   "files": [
     {
-      "file": "Achilles enthesitis.jpg",
-      "source_id": "src-achilles-enthesitis-illustration",
-      "sha256": "07292a32f40684ae16705551092fcc6a85dfa44e75aa040f24ad8933dfcba12b",
-      "status": "lesson_source",
-      "candidate_lessons": [],
-      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
-      "review_scope": "Visual review of the source image and caption."
-    },
-    {
       "file": "clinical manifestations of PSA written at an 8th grade level.png",
       "source_id": "src-clinical-manifestations-of-psa-poster",
       "sha256": "d8c3a7b4615ddb631d6f307d61d124bb2701d51f3468979517df0f4abc8f247a",
@@ -76,15 +67,6 @@
       "review_scope": "Visual review of the source image and caption."
     },
     {
-      "file": "Heel X-ray with a bony spur (illustrative, AI-generated).jpg",
-      "source_id": null,
-      "sha256": "88b0f1371866d66a37515caaff289e95becec9a33cb1d43edbcfc3124617fc05",
-      "status": "superseded_asset",
-      "candidate_lessons": [],
-      "decision": "Removed from psa-dx-02 at the frontend lead's request: the lesson says a heel spur alone is not the CASPAR finding, so the picture did not illustrate the framework. AI-generated. Retained as an original history asset.",
-      "review_scope": "Visual review of the source image and caption."
-    },
-    {
       "file": "Management Guidelines of Arthritis and Autoimmune Diseases.docx",
       "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
       "sha256": "1ecbf33e183eb9c88c0da64597ef70ab7b557a6a7604588ec91db955f6c9aa45",
@@ -110,33 +92,6 @@
       "candidate_lessons": [],
       "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
       "review_scope": "DOCX paragraph extraction and review of the lesson-relevant sections; historical material and cited studies are not independently verified."
-    },
-    {
-      "file": "Nail psoriasis.jpg",
-      "source_id": "src-nail-psoriasis-illustration",
-      "sha256": "5f79a6f17a6d2c71e7a931b8e4eb35d768510b1e6587fc2929c7000c8ef22260",
-      "status": "lesson_source",
-      "candidate_lessons": [],
-      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
-      "review_scope": "Visual review of the source image and caption."
-    },
-    {
-      "file": "Plantar fasciitis.jpg",
-      "source_id": "src-plantar-fasciitis-illustration",
-      "sha256": "0e94af17561900f3dbdccef33c54633cca1a9677a241a84f5bf30b52024463bf",
-      "status": "lesson_source",
-      "candidate_lessons": [],
-      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
-      "review_scope": "Visual review of the source image and caption."
-    },
-    {
-      "file": "Plaque psoriasis of the elbow.jpg",
-      "source_id": "src-skin-psoriasis-illustration",
-      "sha256": "f8b2f56cc64d9d5ac639da39902aca08252d915ae9020d03b96e8c17f3867e52",
-      "status": "lesson_source",
-      "candidate_lessons": [],
-      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
-      "review_scope": "Visual review of the source image and caption."
     },
     {
       "file": "poster of the comorbidities seen in PSA (top 10).png",
@@ -184,6 +139,15 @@
       ],
       "decision": "Closest fit is the clinical-exam lesson. Keep as historical clinician background; do not insert the 2000 diagnostic algorithms or old drug information into current patient guidance. Current exam/testing explanation uses NIAMS.",
       "review_scope": "134-page scanned PDF: checked contents on PDF pages 4-5 and examination/differential diagrams on pages 8-10. Not a full clinical audit of all 134 pages."
+    },
+    {
+      "file": "RheumNotes_PsA_Clinical_Images.pdf",
+      "source_id": "src-pearls-myths-psa-figures",
+      "sha256": "5a434186f766562b07a2a6c86d69c0adc8242e5aa636eb2832799729a75f4cc7",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Springer Nature figures; the file marks them internal-only without publisher permission, and the team confirmed permission on 2026-11-11.",
+      "review_scope": "Visual review of all five slides, captions and the copyright notice."
     },
     {
       "file": "RheumNotesAImindmapsummary02OCT26.docx",

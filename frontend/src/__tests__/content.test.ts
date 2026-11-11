@@ -9,7 +9,7 @@ import { getCourse, hasQuiz } from '@/content/course';
 import { createHttpTransport } from '@/content/httpTransport';
 import { buildKnowledgeMap, KNOWLEDGE_MAP, type KnowledgeNodeSource } from '@/content/knowledgeMap';
 import { toTopicImageMap } from '@/content/mappers';
-import { LOCAL_MEDIA, storageUrl } from '@/content/media';
+import { LOCAL_MEDIA, LOCAL_VIDEOS, storageUrl } from '@/content/media';
 import { createMockTransport } from '@/content/mockTransport';
 import { createPreviewTransport, EXPORTS } from '@/content/previewTransport';
 import { branchColors, colors } from '@/theme';
@@ -172,9 +172,19 @@ describe('body map, mind map and course helpers', () => {
     const course = await getCourse(service);
     const lessons = await Promise.all(course.flatMap((c) => c.path.lessonIds).map((id) => service.getLesson(id)));
     const paths = lessons.flatMap((l) => l?.images.map((i) => i.path) ?? []);
-    expect(paths).toHaveLength(5);
+    expect(paths).toHaveLength(6);
     expect(Object.keys(LOCAL_MEDIA)).toEqual(expect.arrayContaining(paths));
     expect(Object.keys(LOCAL_MEDIA)).toContain('psa-symptoms-body-map.jpg');
+  });
+
+  it('has a bundled video and cover for every lesson', async () => {
+    const course = await getCourse(service);
+    const ids = course.flatMap((c) => c.path.lessonIds);
+    expect(ids).toHaveLength(24);
+    for (const id of ids) {
+      expect(LOCAL_VIDEOS[id]?.minutes).toBeGreaterThan(0);
+      expect(LOCAL_VIDEOS[id]?.cover).toBeTruthy();
+    }
   });
 
   it('keeps every radial mind map node inside the canvas with no overlaps, even with 12 lessons on a small phone', () => {

@@ -1,37 +1,49 @@
-// Lesson: one page at a time (api-contract §3.3). The last page adds the key
-// takeaways and the buttons to the next lesson or the knowledge check.
+// Lesson: one continuous reading flow (api-contract §3.3 data, shown top to bottom):
+// title and what the lesson holds, the video (side by side with the lesson's images when it
+// has any), the pages' text as one continuous text, the key takeaways, then completing and
+// moving on. Without a video, images follow their page's text. Tapping media opens it large.
+// The content keeps text, images (tagged by page) and the lesson video separate, so
+// images follow their page's text and the whole-lesson video comes first.
 import { router, useLocalSearchParams } from 'expo-router';
-import { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { useCallback, useRef, useState } from 'react';
+import { StyleSheet, View, type LayoutChangeEvent, type NativeScrollEvent, type NativeSyntheticEvent, type ScrollViewInstance } from 'react-native';
 
 import { AppHeader } from '@/components/AppHeader';
-import { Button } from '@/components/Button';
-import { Card, InfoCard } from '@/components/Card';
-import { Icon } from '@/components/Icon';
-import { LessonImage } from '@/components/LessonImage';
+import { KeyTakeaways } from '@/components/lesson/KeyTakeaways';
+import { LessonActions, type UpNext } from '@/components/lesson/LessonActions';
+import { LessonIntro } from '@/components/lesson/LessonIntro';
+import { LessonMedia } from '@/components/lesson/LessonMedia';
+import { LessonSection } from '@/components/lesson/LessonSection';
+import { LessonVideo } from '@/components/LessonVideo';
 import { SourceLine } from '@/components/Logo';
-import { Markdown } from '@/components/Markdown';
 import { ProgressBar } from '@/components/ProgressBar';
 import { Screen } from '@/components/Screen';
 import { AsyncContent } from '@/components/StateViews';
 import { useToast } from '@/components/Toast';
 import { contentService, type Lesson } from '@/content';
 import { hasQuiz } from '@/content/course';
+import { resolveImage, resolveVideo } from '@/content/media';
 import { useAsync } from '@/hooks/useAsync';
 import { usePreferences } from '@/preferences/PreferencesContext';
+import { readingPosition } from '@/progress/readingPosition';
 import { useProgress } from '@/progress/ProgressContext';
-import { colors, spacing, type } from '@/theme';
+import { spacing } from '@/theme';
 
 type Params = {
   lessonId: string;
   /** From the topic screen; v_lessons doesn't return the topic. */
   topicId?: string;
   topicName?: string;
-  /** Label for the back button: "Topic", "Lesson 1", "Quiz". */
+  /** Label for the back button: "Topic", "Lesson 1", "Quiz", "Map". */
   back?: string;
-  /** The page (`LessonPage.order`) to open on, from the knowledge map. */
+  /** The page (`LessonPage.order`) to open at, from the knowledge map. */
   page?: string;
 };
+
+interface PathInfo {
+  lessonIds: string[];
+  titles: Record<string, string>;
+}
 
 export default function LessonScreen() {
   const params = useLocalSearchParams<Params>();
@@ -40,41 +52,44 @@ export default function LessonScreen() {
   const state = useAsync(async () => {
     const [lesson, path] = await Promise.all([
       contentService.getLesson(lessonId),
-      // The path is only for "Lesson 1 of 2" and "Next lesson"; the lesson still shows if it fails.
+      // The path is only for "Lesson 1 of 2" and "Up next"; the lesson still shows if it fails.
       topicId ? contentService.getLearningPath(topicId).catch(() => null) : null,
     ]);
-    const lessonIds = path?.lessonIds ?? [];
+    const info: PathInfo = {
+      lessonIds: path?.lessonIds ?? [],
+      titles: Object.fromEntries((path?.subtopics ?? []).flatMap((s) => s.lessons.map((l) => [l.id, l.title]))),
+    };
     // Asked only on a topic's last lesson, where the quiz follows.
-    const quizNext = quizzesEnabled && lessonIds.at(-1) === lessonId && (await hasQuiz(contentService, lessonIds));
-    return { lesson, lessonIds, quizNext };
+    const quizNext = quizzesEnabled && info.lessonIds.at(-1) === lessonId && (await hasQuiz(contentService, info.lessonIds));
+    return { lesson, path: info, quizNext };
   }, `${lessonId}/${topicId}/${quizzesEnabled}`);
 
-  const position = state.data?.lessonIds.indexOf(lessonId) ?? -1;
-  const total = state.data?.lessonIds.length ?? 0;
-  const header = (
-    <AppHeader backLabel={params.back ?? 'Topic'} title={position >= 0 ? `Lesson ${position + 1} of ${total}` : 'Lesson'} />
-  );
+  const position = state.data?.path.lessonIds.indexOf(lessonId) ?? -1;
+  const total = state.data?.path.lessonIds.length ?? 0;
+  const positionLabel = position >= 0 ? `Lesson ${position + 1} of ${total}` : 'Lesson';
+  const backLabel = params.back ?? 'Topic';
 
   return (
     <AsyncContent
       state={state}
-      header={header}
+      header={<AppHeader backLabel={backLabel} title={positionLabel} />}
       isEmpty={(d) => d.lesson === null}
       empty={{
         title: 'This lesson isn’t available',
         message: 'It may have been updated or removed. Go back and choose another lesson.',
       }}
     >
-      {({ lesson, lessonIds, quizNext }) =>
+      {({ lesson, path, quizNext }) =>
         lesson && (
-          // Keyed so the page resets when a refresh brings a new version.
+          // Keyed so the view resets when a refresh brings a new version.
           <LessonView
             key={`${lesson.id}@${lesson.version}`}
-            header={header}
             lesson={lesson}
-            lessonIds={lessonIds}
+            path={path}
             quizNext={quizNext}
             params={params}
+            positionLabel={positionLabel}
+            backLabel={backLabel}
             onRefresh={state.reload}
           />
         )
@@ -84,136 +99,152 @@ export default function LessonScreen() {
 }
 
 interface ViewProps {
-  header: React.ReactNode;
   lesson: Lesson;
-  lessonIds: string[];
+  path: PathInfo;
   quizNext: boolean;
   params: Params;
+  positionLabel: string;
+  backLabel: string;
   onRefresh: () => void;
 }
 
-function LessonView({ header, lesson, lessonIds, quizNext, params, onRefresh }: ViewProps) {
-  const [pageIndex, setPageIndex] = useState(() =>
-    Math.max(0, lesson.pages.findIndex((p) => String(p.order) === params.page)),
-  );
+function LessonView({ lesson, path, quizNext, params, positionLabel, backLabel, onRefresh }: ViewProps) {
   const { isCompleted, setCompleted } = useProgress();
   const showToast = useToast();
   const { topicId, topicName } = params;
+  const positionKey = `${lesson.id}@${lesson.version}`;
 
-  const page = lesson.pages[pageIndex];
-  const isLastPage = pageIndex >= lesson.pages.length - 1;
-  const position = lessonIds.indexOf(lesson.id);
-  const nextId = position >= 0 ? lessonIds[position + 1] : undefined;
+  const scrollRef = useRef<ScrollViewInstance>(null);
+  const [progress, setProgress] = useState(0);
+  const [titleBottom, setTitleBottom] = useState(Infinity);
+  const [scrollY, setScrollY] = useState(0);
+  const sectionY = useRef<Record<number, number>>({});
+  const sectionsTop = useRef<number | null>(null);
+  // Open at the knowledge map's page, else where the patient stopped reading, else the top.
+  const pendingPage = useRef(params.page ? Number(params.page) : null);
+  const pendingY = useRef(params.page ? 0 : readingPosition.get(positionKey));
 
-  const alreadyDone = isCompleted(lesson.id);
-  const complete = () => {
-    setCompleted({ id: lesson.id, topicId: topicId ?? '' }, true);
-    if (!alreadyDone) showToast('Lesson finished. Nice work!');
-  };
-  const toTopic = () =>
-    topicId
-      ? router.dismissTo({ pathname: '/topic/[topicId]', params: { topicId, name: topicName } })
-      : router.back();
+  const video = resolveVideo(lesson.id);
+  // Images whose file is missing are left out rather than shown as empty boxes.
+  const images = lesson.images.filter((im) => resolveImage(im.path) !== null);
+  // With a video, the images sit beside it at the top; without one, after their page's text.
+  const mediaRow = !!video && images.length > 0;
+  const finished = isCompleted(lesson.id);
+  const index = path.lessonIds.indexOf(lesson.id);
+  const nextId = index >= 0 ? path.lessonIds[index + 1] : undefined;
 
-  const forward = !isLastPage ? (
-    <Button label="Next page" onPress={() => setPageIndex(pageIndex + 1)} />
-  ) : nextId ? (
-    <Button
-      label="Next lesson"
-      onPress={() => {
-        complete();
-        router.push({
-          pathname: '/lesson/[lessonId]',
-          params: { lessonId: nextId, topicId, topicName, back: `Lesson ${position + 1}` },
-        });
-      }}
-    />
-  ) : (
-    <Button
-      label="Finish lesson"
-      onPress={() => {
-        complete();
-        if (quizNext && topicId) {
-          router.push({ pathname: '/quiz/[topicId]', params: { topicId, topicName } });
-        } else {
-          toTopic();
-        }
-      }}
-    />
+  const onScroll = useCallback(
+    (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+      const { contentOffset, contentSize, layoutMeasurement } = e.nativeEvent;
+      const y = contentOffset.y;
+      const scrollable = contentSize.height - layoutMeasurement.height;
+      setScrollY(y);
+      setProgress(scrollable > 0 ? y / scrollable : 1);
+      readingPosition.set(positionKey, y);
+    },
+    [positionKey],
   );
 
-  const actions = (
-    <>
-      <View style={styles.navRow}>
-        {pageIndex > 0 && (
-          <View style={styles.navBack}>
-            <Button label="Previous" variant="outline" onPress={() => setPageIndex(pageIndex - 1)} />
-          </View>
-        )}
-        <View style={styles.navForward}>{forward}</View>
-      </View>
-      {isLastPage && !nextId && quizNext && <Button label="Return to Topic Home" variant="outline" onPress={toTopic} />}
-    </>
+  const scrollTo = (y: number) => scrollRef.current?.scrollTo({ y: Math.max(0, y), animated: false });
+
+  // Restoring needs the content to be tall enough, so it waits for the layout.
+  const onContentSizeChange = (_: number, height: number) => {
+    if (pendingY.current > 0 && height > pendingY.current) {
+      scrollTo(pendingY.current);
+      pendingY.current = 0;
+    }
+  };
+
+  // A knowledge-map link opens at its page once both the section and its container are laid out.
+  // The container sits in the Screen body, which starts spacing.md below the scroll top.
+  const openPendingPage = () => {
+    const order = pendingPage.current;
+    if (order === null || sectionsTop.current === null || sectionY.current[order] === undefined) return;
+    pendingPage.current = null;
+    scrollTo(spacing.md + sectionsTop.current + sectionY.current[order] - spacing.sm);
+  };
+  const onSectionsLayout = (e: LayoutChangeEvent) => {
+    sectionsTop.current = e.nativeEvent.layout.y;
+    openPendingPage();
+  };
+  const onSectionLayout = (order: number) => (e: LayoutChangeEvent) => {
+    sectionY.current[order] = e.nativeEvent.layout.y;
+    openPendingPage();
+  };
+
+  const complete = () => {
+    setCompleted({ id: lesson.id, topicId: topicId ?? '' }, true);
+    showToast('Lesson finished. Nice work!');
+  };
+  const undo = () => setCompleted({ id: lesson.id, topicId: topicId ?? '' }, false);
+  const toTopic = () =>
+    topicId ? router.dismissTo({ pathname: '/topic/[topicId]', params: { topicId, name: topicName } }) : router.back();
+
+  const upNext: UpNext = nextId
+    ? {
+        kind: 'lesson',
+        title: path.titles[nextId] ?? 'Next lesson',
+        onPress: () =>
+          router.push({
+            pathname: '/lesson/[lessonId]',
+            params: { lessonId: nextId, topicId, topicName, back: `Lesson ${index + 1}` },
+          }),
+      }
+    : quizNext && topicId
+      ? { kind: 'quiz', onPress: () => router.push({ pathname: '/quiz/[topicId]', params: { topicId, topicName } }) }
+      : { kind: 'topic', onPress: toTopic };
+
+  // iOS-style: the header shows the lesson's place until the big title scrolls away, then the title.
+  const header = (
+    <View style={styles.header}>
+      <AppHeader backLabel={backLabel} title={scrollY > titleBottom ? lesson.title : positionLabel} />
+      <ProgressBar value={progress} height={4} label={`Read ${Math.round(progress * 100)}% of this lesson`} />
+    </View>
   );
 
   return (
-    <Screen header={header} actions={actions} onRefresh={onRefresh} scrollKey={pageIndex}>
-      <View style={{ gap: spacing.md }}>
-        {topicName ? <Text style={type.eyebrow}>{topicName}</Text> : null}
-        <Text style={type.headline}>{lesson.title}</Text>
-        {alreadyDone && (
-          <View style={styles.done}>
-            <Icon name="check-circle" size={16} color={colors.success} />
-            <Text style={[type.caption, { color: colors.success }]}>Finished</Text>
-          </View>
-        )}
-        {lesson.pages.length > 1 && (
-          <View style={styles.pages}>
-            <Text style={type.caption}>
-              Page {pageIndex + 1} of {lesson.pages.length}
-            </Text>
-            <ProgressBar value={(pageIndex + 1) / lesson.pages.length} label={`Page ${pageIndex + 1} of ${lesson.pages.length}`} />
-          </View>
-        )}
+    <Screen
+      header={header}
+      onRefresh={onRefresh}
+      onScroll={onScroll}
+      onContentSizeChange={onContentSizeChange}
+      scrollRef={scrollRef}
+      actions={<LessonActions finished={finished} onComplete={complete} onUndo={undo} upNext={upNext} />}
+    >
+      <LessonIntro
+        title={lesson.title}
+        topicName={topicName}
+        estMinutes={lesson.estMinutes}
+        videoMinutes={video?.minutes}
+        finished={finished}
+        onTitleLayout={setTitleBottom}
+      />
+
+      {mediaRow && video ? (
+        <LessonMedia video={video} images={images} title={lesson.title} />
+      ) : video ? (
+        <LessonVideo video={video} title={lesson.title} />
+      ) : null}
+
+      <View style={styles.sections} onLayout={onSectionsLayout}>
+        {lesson.pages.map((page) => (
+          <LessonSection
+            key={page.order}
+            page={page}
+            images={mediaRow ? [] : images.filter((im) => im.page === page.order)}
+            onLayout={onSectionLayout(page.order)}
+          />
+        ))}
       </View>
 
-      {/* After the text, which introduces them as "the photo below". */}
-      {page && (
-        <Card>
-          <Markdown source={page.body} />
-        </Card>
-      )}
-      {lesson.images
-        .filter((image) => image.page === page?.order)
-        .map((image) => (
-          <LessonImage key={image.mediaId} image={image} />
-        ))}
-
-      {isLastPage && lesson.keyTakeaways.length > 0 && (
-        <InfoCard icon="bookmark" title={lesson.keyTakeaways.length === 1 ? 'Key takeaway' : 'Key takeaways'}>
-          {lesson.keyTakeaways.length === 1 ? (
-            lesson.keyTakeaways[0]
-          ) : (
-            <View style={{ gap: spacing.xs }}>
-              {lesson.keyTakeaways.map((t) => (
-                <Text key={t} style={type.body}>
-                  • {t}
-                </Text>
-              ))}
-            </View>
-          )}
-        </InfoCard>
-      )}
-
+      <KeyTakeaways items={lesson.keyTakeaways} />
       <SourceLine />
     </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  done: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
-  pages: { gap: spacing.xs + 2 },
-  navRow: { flexDirection: 'row', gap: spacing.md },
-  navBack: { flex: 2 },
-  navForward: { flex: 3 },
+  header: { gap: spacing.xs, paddingBottom: spacing.xs },
+  // Same spacing as between paragraphs, so the pages read as one text.
+  sections: { gap: spacing.md },
 });

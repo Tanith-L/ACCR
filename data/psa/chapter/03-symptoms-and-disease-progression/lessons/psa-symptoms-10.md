@@ -17,6 +17,52 @@ Tell your team which side hurts and what has changed. Explain how the pain affec
 - Pain or stiffness may limit movement.
 - Tell your team which side hurts and what has changed.
 
+## Video script
+
+Video: [videos/psa-symptoms-10.mp4](../videos/psa-symptoms-10.mp4) (1.1 min) · captions: [videos/psa-symptoms-10.vtt](../videos/psa-symptoms-10.vtt)
+
+Style: Whiteboard animation, drawn line by line in time with the narration.
+
+AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Microsoft Edge neural text-to-speech, accessed through the open-source edge-tts Python package (v7). AI-generated voice. Script text was sent to Microsoft's speech service to create the audio.
+
+### Scene 1: Welcome
+
+- Let’s look at the hips, and how they help you move every day. *(Framing, no medical content)*
+
+### Scene 2: The hip
+
+- A hip joint can be affected by PsA, causing pain, and making it harder to move. *(Clinical manifestations of PsA)*
+
+### Scene 3: Daily movement
+
+- You may notice that steps, walking, or getting up from a chair are harder. *(Lesson text)*
+
+### Scene 4: Clues, not proof
+
+- These examples help you describe a problem. *(Lesson text)*
+- They do not prove that PsA is the cause. *(Lesson text)*
+
+### Scene 5: Tell your team
+
+- Tell your team which side hurts, and what has changed. *(Lesson text)*
+- Mention a new limp, or trouble with a task you could do before. *(Lesson text)*
+
+### Scene 6: Healthy weight
+
+- Keeping a healthy weight lowers the strain on your joints. *(NIAMS: Diagnosis, Treatment, and Steps to Take)*
+- And it may help your medicines work better. *(NIAMS: Diagnosis, Treatment, and Steps to Take)*
+
+### Scene 7: Let your team check
+
+- The team can check the hip, and the areas nearby. *(Lesson text)*
+- Do not use the map to decide the cause on your own. *(Lesson text)*
+
+### Scene 8: Quick review
+
+- Great job! Let’s review. *(Framing, no medical content)*
+- Pain or stiffness may limit movement. *(Key takeaway)*
+- Tell your team which side hurts and what has changed. *(Key takeaway)*
+
 ## References and reviewer notes
 
 Split from the former combined symptom lessons to match the hips card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.
