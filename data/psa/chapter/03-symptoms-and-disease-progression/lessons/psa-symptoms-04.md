@@ -8,6 +8,12 @@ Lesson: `psa-symptoms-04` · Topic: `symptoms` · About 1 minutes
 
 The gut card describes pain, bloating, and changes in bowel habits. Inflammatory bowel disease, or IBD, can occur alongside PsA. This is a condition that causes inflammation in the gut. A bowel change does not prove that you have IBD or that PsA is the cause.
 
+Use the picture to locate the stomach and the small and large intestine. It shows normal body parts. It cannot show what is causing a change in your bowel habits.
+
+![The digestive tract includes the stomach, small intestine, and large intestine. This is a normal anatomy diagram, not an image of bowel disease.](../../media/digestive-system.jpg)
+
+Blausen.com staff (2014). "Medical gallery of Blausen Medical 2014". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Blausen_0316_DigestiveSystem.png. License: https://creativecommons.org/licenses/by/3.0. Attribution from the existing supplementary-media manifest; copied without further changes.
+
 ## Page 2
 
 Tell your care team about gut symptoms that keep happening. Note what changed, when it started, and how it affects your day. Your team may ask about your medicines and decide whether you need more tests. If symptoms are severe or you feel acutely unwell, seek urgent medical help.
@@ -19,10 +25,11 @@ Tell your care team about gut symptoms that keep happening. Note what changed, w
 
 ## References and reviewer notes
 
-Split from the former combined symptom lessons to match the gut card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending.
+Split from the former combined symptom lessons to match the gut card. Original location and source limitations are recorded below. Clinical review and per-claim verification remain pending. Added image-reading guidance and practical discussion prompts; prompts are editorial examples, not source quotations.
 
 - [Clinical manifestations of PsA](../../../originals/clinical%20manifestations%20of%20PSA%20written%20at%20an%208th%20grade%20level.png) ? gut card on the clinical manifestations body map (lesson pages 1, 2; text). Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations. Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
 - [PsA One-Pager Intro](../../../originals/PsA%20One-Pager%20Intro.jpeg) ? Box B and Box C: gut (lesson pages 1; text). Cross-checks domain or related-condition terminology. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA & AS Symptoms](../../../originals/PsA%20%26%20AS%20Symptoms.jpeg) ? gut body label (lesson pages 1; text). Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+- [Diagram of the digestive system, including the small and large intestine.](../../../originals/supplementary/digestive-system.jpg) ? Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Blausen_0316_DigestiveSystem.png (lesson pages 1; text_and_image). Shows where the gut is for lessons on bowel changes. Names the stomach and intestines shown in the diagram. Limits: Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff.
 - [NIAMS: Psoriatic Arthritis](https://www.niams.nih.gov/health-topics/psoriatic-arthritis)
 - [National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis](https://www.psoriasis.org/psa-related-conditions/)

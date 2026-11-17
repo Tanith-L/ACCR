@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3",
   "run": {
-    "run_id": "psa-20261110-201909-complete-drafts",
+    "run_id": "psa-20261117-213537-complete-drafts",
     "model": "Codex interactive assistant; no independent judge",
     "prompt_version": "psa-all-topics-v5-provenance",
-    "generated_at": "2026-11-10T20:19:09.019101+00:00"
+    "generated_at": "2026-11-17T21:35:37.765460+00:00"
   },
   "disease": {
     "id": "psa",
@@ -89,11 +89,88 @@
       "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
     },
     {
+      "id": "src-red-apple-high-resolution",
+      "title": "Red Apple ? original high-resolution photograph",
+      "type": "image",
+      "file_hash": "bfbaf6828607d9b94fb54056877497ac32926aa75c09de4abd61bc05ba24e2a7",
+      "provided_by": "Abhijit Tembhekar; Wikimedia Commons; CC BY 2.0."
+    },
+    {
+      "id": "src-rheumnotes-anatomy-2026",
+      "title": "RheumNotes Anatomy White Paper",
+      "type": "pdf",
+      "file_hash": "252d0bf2311f51ca2393958c0b0ccd7dc308af93549240c0426d00069db29a8d",
+      "provided_by": "Supplied RheumNotes educational library; Frederick T. Murphy; November 2026. Clinical approval not recorded."
+    },
+    {
+      "id": "src-rheumnotes-chart-2026",
+      "title": "RheumNotes Anatomy Chart",
+      "type": "pdf",
+      "file_hash": "6a150f54cb7f3553b0da67cf281ac3397916163dd33d0c228b3289ce065afa24",
+      "provided_by": "Supplied RheumNotes educational library; Frederick T. Murphy; November 2026. Clinical approval not recorded."
+    },
+    {
+      "id": "src-rheumnotes-mind-2026",
+      "title": "RheumNotes Mind Mastery White Paper",
+      "type": "pdf",
+      "file_hash": "3c228e6f8a4a8ab9a9117ffca09696223dd6d3fb920e4d1bc57517b6e075a0d5",
+      "provided_by": "Supplied RheumNotes educational library; Frederick T. Murphy; November 2026. Clinical approval not recorded."
+    },
+    {
+      "id": "src-rheumnotes-motion-2026",
+      "title": "RheumNotes Motion White Paper",
+      "type": "pdf",
+      "file_hash": "102c9241b225dfb64b774e219114372081fc5466a5a9483497f8e1d0c803b646",
+      "provided_by": "Supplied RheumNotes educational library; Frederick T. Murphy; November 2026. Clinical approval not recorded."
+    },
+    {
+      "id": "src-rheumnotes-nutrition-2026",
+      "title": "RheumNotes Nutrition White Paper 2026-11-17",
+      "type": "pdf",
+      "file_hash": "440c7bb1388d55a196bca69a94fe33563e2e2a9d5dca68916c3ef1810cacee2a",
+      "provided_by": "Supplied RheumNotes educational library; Frederick T. Murphy; November 2026. Clinical approval not recorded."
+    },
+    {
+      "id": "src-rheumnotes-sleep-2026",
+      "title": "RheumNotes Sleep Restore White Paper",
+      "type": "pdf",
+      "file_hash": "850bfc8b10625ab97e24ae1b9fb9619770ad8ffdf52b50347f7aab4bf38b9855",
+      "provided_by": "Supplied RheumNotes educational library; Frederick T. Murphy; November 2026. Clinical approval not recorded."
+    },
+    {
       "id": "src-skin-psoriasis-illustration",
       "title": "Plaque psoriasis of the elbow",
       "type": "image",
       "file_hash": "f8b2f56cc64d9d5ac639da39902aca08252d915ae9020d03b96e8c17f3867e52",
       "provided_by": "Supplied ACCR educational reference library; clinical approval not recorded"
+    },
+    {
+      "id": "src-supp-digestive-system",
+      "title": "Diagram of the digestive system, including the small and large intestine.",
+      "type": "image",
+      "file_hash": "4f88c4b1e63d0473bb4b16e46dd9bf43a563db38907a347be0114745fd52af7a",
+      "provided_by": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized."
+    },
+    {
+      "id": "src-supp-doctor-patient",
+      "title": "A doctor talking with a patient in a clinic room.",
+      "type": "image",
+      "file_hash": "11eac03fc4101b392f71779b70e054355af50022207dc872bf532978a7934163",
+      "provided_by": "National Cancer Institute, National Institutes of Health. Public domain, via Wikimedia Commons. Resized."
+    },
+    {
+      "id": "src-supp-eye-uveitis",
+      "title": "Diagram of the eye with the part called the uvea labeled.",
+      "type": "image",
+      "file_hash": "85925d895e9e59135bdc1e1245cf0e4afe7cfac074e1e9e80262d469622b5399",
+      "provided_by": "Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). Public domain, via Wikimedia Commons. Resized."
+    },
+    {
+      "id": "src-supp-mri-scan",
+      "title": "Picture of a person lying on the table of an MRI scanner.",
+      "type": "image",
+      "file_hash": "fd96f46f480d3956f621edadf3f2771f70b56af0c82363784a49bb9a2eb9a4a7",
+      "provided_by": "Blausen Medical Communications, Inc. CC BY 3.0, via Wikimedia Commons. Resized."
     },
     {
       "id": "src-the-four-pillars-of-arthritis",
@@ -371,7 +448,7 @@
       "topic_id": "dx",
       "subtopic_id": "dx-caspar",
       "title": "How doctors assess possible PsA",
-      "est_minutes": 1,
+      "est_minutes": 2,
       "pages": [
         {
           "order": 1,
@@ -379,7 +456,7 @@
         },
         {
           "order": 2,
-          "body": "The exam may include joints, the back, skin, nails, and places where tendons attach to bone. Blood tests can help check for other causes of symptoms. Images, such as X-rays, ultrasound, or MRI, may help show inflammation or damage. Not everyone needs every test. A normal result on one test does not explain the whole picture. Tell the team about changes outside the joints, too."
+          "body": "The exam may include joints, the back, skin, nails, and places where tendons attach to bone. Blood tests can help check for other causes of symptoms. Images, such as X-rays, ultrasound, or MRI, may help show inflammation or damage. Not everyone needs every test. A normal result on one test does not explain the whole picture. Tell the team about changes outside the joints, too.\n\nThe scanner picture shows an MRI test. Ask what a suggested test may add to your history and exam."
         }
       ],
       "key_takeaways": [
@@ -423,6 +500,16 @@
               "locator": "Paragraph 11: preparation and proactive monitoring",
               "contribution": "Bring a concise symptom history to the visit.",
               "limits": "The morning-stiffness question is an editorial visit-preparation example; diagnostic shortcuts in paragraphs 16-18 are not taught."
+            },
+            {
+              "source_id": "src-supp-mri-scan",
+              "pages": [
+                2
+              ],
+              "kind": "image",
+              "locator": "Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Blausen_0654_MRI_01.png",
+              "contribution": "Shows what one of the imaging tests looks like.",
+              "limits": "Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff."
             }
           ]
         }
@@ -436,14 +523,20 @@
         "fk_grade": 5.438
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "supp-mri-scan",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-dx-02",
       "topic_id": "dx",
       "subtopic_id": "dx-caspar",
       "title": "Understanding the CASPAR framework",
-      "est_minutes": 1,
+      "est_minutes": 2,
       "pages": [
         {
           "order": 1,
@@ -451,7 +544,7 @@
         },
         {
           "order": 2,
-          "body": "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team."
+          "body": "A blood test called rheumatoid factor is one part of the picture. CASPAR also looks for a specific pattern of new bone near a joint on an X-ray. A heel spur alone is not that finding. The reference uses points, but a score is not a home diagnosis. A doctor must assess the findings and check for other causes. Use the framework to follow the discussion with your team.\n\nThe diagram groups the findings discussed in this lesson. Read it as a guide to the visit, not a checklist for diagnosing yourself."
         }
       ],
       "key_takeaways": [
@@ -481,10 +574,10 @@
                 1,
                 2
               ],
-              "kind": "text",
-              "locator": "Right-hand CASPAR branch: entry criterion and five feature groups",
-              "contribution": "Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone.",
-              "limits": "Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score."
+              "kind": "text_and_image",
+              "locator": "Right-hand CASPAR branch: entry criterion and five feature groups; Editorial diagram based on the located source sections and current lesson; diagram spec: caspar-framework",
+              "contribution": "Inflammation first, then psoriasis history, nail changes, whole-digit swelling, RF and new bone. Displays a plain-language teaching summary; original diagram, not a source screenshot.",
+              "limits": "Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions."
             },
             {
               "source_id": "src-psa-one-pager-intro",
@@ -506,21 +599,27 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 5.188
+        "fk_grade": 5.441
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-diagram-caspar-framework",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-overview-01",
       "topic_id": "overview",
       "subtopic_id": "overview-basics",
       "title": "What PsA is",
-      "est_minutes": 1,
+      "est_minutes": 2,
       "pages": [
         {
           "order": 1,
-          "body": "Psoriatic arthritis, or PsA, is a long-term condition linked to inflammation. The immune system becomes overactive. This can cause pain and swelling in joints and where tendons attach to bone. Psoriasis is a related skin condition that can cause scaly patches. Psoriasis and PsA are linked, but they are not the same condition. Many people have skin psoriasis before joint symptoms begin. Some notice joint symptoms first."
+          "body": "Psoriatic arthritis, or PsA, is a long-term condition linked to inflammation. The immune system becomes overactive. This can cause pain and swelling in joints and where tendons attach to bone. Psoriasis is a related skin condition that can cause scaly patches. Psoriasis and PsA are linked, but they are not the same condition. Many people have skin psoriasis before joint symptoms begin. Some notice joint symptoms first.\n\nA joint is a place where bones meet. Smooth cartilage covers the bone ends. A thin lining makes fluid that helps the joint move. Tendons join muscle to bone. Ligaments join bone to bone. Knowing these parts can help you describe where you hurt."
         },
         {
           "order": 2,
@@ -560,10 +659,10 @@
                 1,
                 2
               ],
-              "kind": "text",
+              "kind": "text_and_image",
               "locator": "Subtitle and body-area cards",
-              "contribution": "Inflammation may involve several body areas.",
-              "limits": "Do not imply everyone has every manifestation."
+              "contribution": "Introduces PsA across the body; the complete supplied poster is displayed on lesson page 1 as a general overview.",
+              "limits": "Not everyone has every manifestation. Eye and gut conditions can occur alongside PsA; the poster is not a diagnostic tool."
             },
             {
               "source_id": "src-grappa-domains-in-psa-poster",
@@ -574,6 +673,16 @@
               "locator": "All six domain headings",
               "contribution": "Names the six domains in plain language.",
               "limits": "Domain labels are not course topic labels."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "PDF pp. 5?6: joint types and tissues",
+              "contribution": "Plain-language definitions of joint tissues; no detailed anatomy image in this introductory lesson.",
+              "limits": "General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending."
             }
           ]
         }
@@ -584,10 +693,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 7.516
+        "fk_grade": 6.01
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-symptoms-body-map",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-overview-02",
@@ -602,7 +717,7 @@
         },
         {
           "order": 2,
-          "body": "Dactylitis means swelling of a whole finger or toe. Enthesitis means inflammation where a tendon or ligament joins bone. The back or bottom of the heel may be affected. These six domains can help guide treatment discussions. They do not name a drug that is right for you. Eye or bowel inflammation can also occur alongside PsA. These are separate from the six domains. Heart health, blood sugar, weight, and mood can also matter in care. The symptoms topic covers these concerns and changes over time."
+          "body": "Dactylitis means swelling of a whole finger or toe. Enthesitis means inflammation where a tendon or ligament joins bone. The back or bottom of the heel may be affected. These six domains can help guide treatment discussions. They do not name a drug that is right for you. Eye or bowel inflammation can also occur alongside PsA. These are separate from the six domains. Heart health, blood sugar, weight, and mood can also matter in care. The symptoms topic covers these concerns and changes over time.\n\nThe anatomy chart groups the body into nine regions. These are places in the body, not the six PsA domains. For example, the hand has bones, joints, tendons, and nerves. Pain in one area can involve more than one type of tissue."
         }
       ],
       "key_takeaways": [
@@ -656,6 +771,16 @@
               "locator": "Card headings: cardiovascular disease, diabetes, obesity, depression",
               "contribution": "Introduces heart health, blood sugar, weight and mood.",
               "limits": "Numerical prevalence claims are not used; no study population is identified on the image."
+            },
+            {
+              "source_id": "src-rheumnotes-chart-2026",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "PDF p. 1: nine-region anatomy chart",
+              "contribution": "Distinguish anatomical regions from disease domains.",
+              "limits": "General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending."
             }
           ]
         }
@@ -784,7 +909,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "The eyes card describes inflammation inside the eye. One name for this is uveitis. It can cause eye pain, redness, blurred sight, or trouble with bright light. These symptoms can have other causes, too. A body map cannot tell which cause is present."
+          "body": "The eyes card describes inflammation inside the eye. One name for this is uveitis. It can cause eye pain, redness, blurred sight, or trouble with bright light. These symptoms can have other causes, too. A body map cannot tell which cause is present.\n\nThe picture shows the uvea, a layer inside the eye. It includes the iris, the colored part at the front. Uveitis may affect other parts of the eye, too. The picture shows normal parts, so you cannot use it to judge whether an eye is inflamed."
         },
         {
           "order": 2,
@@ -809,6 +934,11 @@
               "id": "nice-eye",
               "title": "NICE NG65, recommendation 1.1.12: same-day eye assessment",
               "url": "https://www.nice.org.uk/guidance/ng65/chapter/recommendations"
+            },
+            {
+              "id": "nei-uveitis",
+              "title": "National Eye Institute: Uveitis — eye anatomy and symptoms",
+              "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/uveitis"
             }
           ],
           "source_usage": [
@@ -842,6 +972,16 @@
               "locator": "eyes body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-supp-eye-uveitis",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:EyeDiagramUveitis_0.jpg",
+              "contribution": "Shows the part of the eye where uveitis happens. Explains the labeled uvea and iris; the NEI reference supplements the diagram.",
+              "limits": "Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff."
             }
           ]
         }
@@ -855,7 +995,13 @@
         "fk_grade": 6.133
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "supp-eye-uveitis",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-03",
@@ -870,7 +1016,7 @@
         },
         {
           "order": 2,
-          "body": "A comorbidity means another health condition alongside PsA. This is not the same as joint damage. Your team may discuss heart health, blood pressure, blood sugar, cholesterol, weight, or mood. Some people also have eye or bowel inflammation. Ask which health checks fit your history. A higher risk does not mean you will get another condition. A number on a general poster does not tell you your own risk. Share concerns so the care plan can address your whole health."
+          "body": "A comorbidity means another health condition alongside PsA. This is not the same as joint damage. Your team may discuss heart health, blood pressure, blood sugar, cholesterol, weight, or mood. Some people also have eye or bowel inflammation. Ask which health checks fit your history. A higher risk does not mean you will get another condition. A number on a general poster does not tell you your own risk. Share concerns so the care plan can address your whole health.\n\nThe diagram groups health topics you can bring to a visit. It does not rank them or give a personal risk score."
         }
       ],
       "key_takeaways": [
@@ -904,10 +1050,10 @@
               "pages": [
                 2
               ],
-              "kind": "text",
-              "locator": "Blood pressure, metabolic, heart disease, obesity and depression headings",
-              "contribution": "Names related health concerns to discuss with the care team.",
-              "limits": "Do not reproduce percentages, rankings, or imply these are inevitable. Lung, thyroid and non-IBD gut statistics await evidence review."
+              "kind": "text_and_image",
+              "locator": "Blood pressure, metabolic, heart disease, obesity and depression headings; Editorial diagram based on the located source sections and current lesson; diagram spec: whole-health",
+              "contribution": "Names related health concerns to discuss with the care team. Displays a plain-language teaching summary; original diagram, not a source screenshot.",
+              "limits": "Do not reproduce percentages, rankings, or imply these are inevitable. Lung, thyroid and non-IBD gut statistics await evidence review. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions."
             },
             {
               "source_id": "src-clinical-manifestations-of-psa-poster",
@@ -941,7 +1087,13 @@
         "fk_grade": 5.634
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-diagram-whole-health",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-symptoms-04",
@@ -952,7 +1104,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "The gut card describes pain, bloating, and changes in bowel habits. Inflammatory bowel disease, or IBD, can occur alongside PsA. This is a condition that causes inflammation in the gut. A bowel change does not prove that you have IBD or that PsA is the cause."
+          "body": "The gut card describes pain, bloating, and changes in bowel habits. Inflammatory bowel disease, or IBD, can occur alongside PsA. This is a condition that causes inflammation in the gut. A bowel change does not prove that you have IBD or that PsA is the cause.\n\nUse the picture to locate the stomach and the small and large intestine. It shows normal body parts. It cannot show what is causing a change in your bowel habits."
         },
         {
           "order": 2,
@@ -1010,6 +1162,16 @@
               "locator": "gut body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-supp-digestive-system",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Blausen_0316_DigestiveSystem.png",
+              "contribution": "Shows where the gut is for lessons on bowel changes. Names the stomach and intestines shown in the diagram.",
+              "limits": "Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff."
             }
           ]
         }
@@ -1020,10 +1182,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 6.082
+        "fk_grade": 5.563
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "supp-digestive-system",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-05",
@@ -1034,7 +1202,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "The shoulders card shows that PsA can affect a shoulder joint and nearby tissues. Pain may make it hard to reach up or put on a shirt. A sore shoulder can have more than one cause. The body map shows a place to discuss, not a diagnosis."
+          "body": "The shoulders card shows that PsA can affect a shoulder joint and nearby tissues. Pain may make it hard to reach up or put on a shirt. A sore shoulder can have more than one cause. The body map shows a place to discuss, not a diagnosis.\n\nThe shoulder is a ball in a shallow socket. A group of muscles and tendons called the rotator cuff helps hold it steady as you lift your arm. Small fluid-filled sacs help tissues glide. The picture shows normal parts, not damage from PsA."
         },
         {
           "order": 2,
@@ -1082,6 +1250,16 @@
               "locator": "shoulders body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 20: normal regional anatomy; PDF p. 20: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1092,10 +1270,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 3.554
+        "fk_grade": 3.875
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-shoulder",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-06",
@@ -1106,7 +1290,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "This card groups several changes in the hands. A wrist or finger joint may hurt, swell, or feel stiff. Swelling of a whole finger is called dactylitis. It is different from swelling around just one joint. These changes can make tasks such as holding a cup or using buttons harder."
+          "body": "This card groups several changes in the hands. A wrist or finger joint may hurt, swell, or feel stiff. Swelling of a whole finger is called dactylitis. It is different from swelling around just one joint. These changes can make tasks such as holding a cup or using buttons harder.\n\nThe wrist has small bones between the forearm and hand. Tendons help bend and straighten the fingers. Each finger has a knuckle, middle joint, and end joint. Point to the exact joint or part of the finger that has changed."
         },
         {
           "order": 2,
@@ -1184,6 +1368,16 @@
               "locator": "PSA2 caption and nails",
               "contribution": "Pits, yellow spots and nail lifting.",
               "limits": "Supplied educational illustration; does not diagnose a patient."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 33: normal regional anatomy; PDF p. 33: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1202,6 +1396,10 @@
         {
           "media_id": "psa-nail-psoriasis",
           "page": 2
+        },
+        {
+          "media_id": "psa-rheumnotes-hand",
+          "page": 1
         }
       ]
     },
@@ -1210,11 +1408,11 @@
       "topic_id": "symptoms",
       "subtopic_id": "symptoms-domains",
       "title": "Feet, heel pain, and tendon attachments",
-      "est_minutes": 1,
+      "est_minutes": 2,
       "pages": [
         {
           "order": 1,
-          "body": "Enthesitis means inflammation where a tendon or ligament joins bone. The feet card shows this type of change. The Achilles tendon joins the back of the heel. The plantar fascia attaches at the bottom of the heel. These sites can feel sore or tender. The two pictures show the difference in location."
+          "body": "Enthesitis means inflammation where a tendon or ligament joins bone. The feet card shows this type of change. The Achilles tendon joins the back of the heel. The plantar fascia attaches at the bottom of the heel. These sites can feel sore or tender. The two pictures show the difference in location.\n\nThe foot has a heel region, a middle region, and the toes and long bones at the front. A strong band under the foot helps support the arch. Use these landmarks to show whether pain is under the heel, at the back, or near the toes."
         },
         {
           "order": 2,
@@ -1302,6 +1500,17 @@
               "locator": "PSA5 caption and sole",
               "contribution": "Bottom-of-heel attachment location.",
               "limits": "Supplied educational illustration; does not diagnose a patient."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1,
+                2
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 63: normal regional anatomy; PDF p. 63: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1312,7 +1521,7 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 4.809
+        "fk_grade": 4.189
       },
       "generated_by": "llm",
       "status": "draft",
@@ -1324,6 +1533,10 @@
         {
           "media_id": "psa-plantar-fasciitis",
           "page": 1
+        },
+        {
+          "media_id": "psa-rheumnotes-foot",
+          "page": 2
         }
       ]
     },
@@ -1336,7 +1549,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "Axial disease means PsA affects the spine. It may also affect the sacroiliac, or SI, joints. These joints link the lower spine to the pelvis. Inflammation in these areas can cause back pain and stiffness. The spine card shows where these changes may occur."
+          "body": "Axial disease means PsA affects the spine. It may also affect the sacroiliac, or SI, joints. These joints link the lower spine to the pelvis. Inflammation in these areas can cause back pain and stiffness. The spine card shows where these changes may occur.\n\nThe spine is a stack of bones called vertebrae. Discs sit between many of them. The sacrum is the bone at the base of the spine. The SI joints link it to the pelvis. The picture shows normal spine regions; it cannot show the cause of your pain."
         },
         {
           "order": 2,
@@ -1404,6 +1617,16 @@
               "locator": "spine body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 13: normal regional anatomy; PDF p. 13: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1414,10 +1637,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 4.469
+        "fk_grade": 3.65
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-spine",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-09",
@@ -1428,7 +1657,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "PsA can cause pain or tenderness in an elbow joint or nearby tendons. The elbow card shows these areas. Bending your arm or lifting an object may feel harder. Pain near an elbow and a skin patch on the elbow are different types of change."
+          "body": "PsA can cause pain or tenderness in an elbow joint or nearby tendons. The elbow card shows these areas. Bending your arm or lifting an object may feel harder. Pain near an elbow and a skin patch on the elbow are different types of change.\n\nThe elbow acts as a hinge when you bend your arm. A nearby pivot lets you turn your palm up and down. Tendons attach near the bony bumps on each side. A small fluid-filled sac cushions the tip of the elbow."
         },
         {
           "order": 2,
@@ -1476,6 +1705,16 @@
               "locator": "elbows body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 27: normal regional anatomy; PDF p. 27: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1486,10 +1725,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 4.793
+        "fk_grade": 3.97
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-elbow",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-10",
@@ -1500,7 +1745,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "The hips card shows that a hip joint can be affected by PsA. Pain or stiffness may limit movement. You may notice that steps, walking, or getting up from a chair are harder. These examples help you describe a problem; they do not prove that PsA is the cause."
+          "body": "The hips card shows that a hip joint can be affected by PsA. Pain or stiffness may limit movement. You may notice that steps, walking, or getting up from a chair are harder. These examples help you describe a problem; they do not prove that PsA is the cause.\n\nThe hip is a ball-and-socket joint. The top of the thigh bone fits into a deep cup in the pelvis. Nearby muscles help keep the pelvis level as you walk. The picture shows the bones and bands that support a normal hip."
         },
         {
           "order": 2,
@@ -1548,6 +1793,16 @@
               "locator": "hips body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 41: normal regional anatomy; PDF p. 41: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1558,10 +1813,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 4.118
+        "fk_grade": 3.888
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-hip",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-11",
@@ -1572,7 +1833,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "The knees card describes swelling, warmth, and stiffness from inflammation. A knee may also hurt. Bending the knee, using stairs, or getting out of a chair may be harder. Knee symptoms can have more than one cause. A picture is only a guide to the area."
+          "body": "The knees card describes swelling, warmth, and stiffness from inflammation. A knee may also hurt. Bending the knee, using stairs, or getting out of a chair may be harder. Knee symptoms can have more than one cause. A picture is only a guide to the area.\n\nThe knee joins the thigh bone and shin bone. The kneecap sits at the front. Pads of cartilage help spread the load, while strong bands hold the bones steady. A swollen knee needs an exam; a picture of normal parts cannot show why it is swollen."
         },
         {
           "order": 2,
@@ -1620,6 +1881,16 @@
               "locator": "knees body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 49: normal regional anatomy; PDF p. 49: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1633,7 +1904,13 @@
         "fk_grade": 5.592
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-knee",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-symptoms-12",
@@ -1644,7 +1921,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "The ankles card describes inflammation in the ankle and middle of the foot. Pain or swelling here can make walking harder. This is different from pain where a tendon joins the heel bone. The Feet and heel lesson explains those attachment sites."
+          "body": "The ankles card describes inflammation in the ankle and middle of the foot. Pain or swelling here can make walking harder. This is different from pain where a tendon joins the heel bone. The Feet and heel lesson explains those attachment sites.\n\nThe main ankle joint moves the foot up and down. A joint below it helps the foot tilt on uneven ground. Strong bands on both sides support the ankle. Tell the team whether pain is at the ankle, heel, or middle of the foot."
         },
         {
           "order": 2,
@@ -1692,6 +1969,16 @@
               "locator": "ankles body label",
               "contribution": "Cross-checks the original body location; the source includes both PsA and AS.",
               "limits": "No drug choices, risk percentages or self-diagnosis rules are inferred."
+            },
+            {
+              "source_id": "src-rheumnotes-anatomy-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF p. 57: normal regional anatomy; PDF p. 57: displayed illustration; Image Credits appendix",
+              "contribution": "Explain normal structures and help locate symptoms. Display the selected source image with attribution.",
+              "limits": "Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests."
             }
           ]
         }
@@ -1702,17 +1989,23 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 5.081
+        "fk_grade": 3.97
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-ankle",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-treatment-01",
       "topic_id": "treatment",
       "subtopic_id": "treatment-framework",
       "title": "How treatment goals are chosen",
-      "est_minutes": 1,
+      "est_minutes": 2,
       "pages": [
         {
           "order": 1,
@@ -1720,7 +2013,7 @@
         },
         {
           "order": 2,
-          "body": "Goals may include easing symptoms, protecting joints, and making daily tasks easier. Eye or bowel disease and other health conditions also matter. The team asks what you have tried before. They review your other medicines, side effects, and what matters to you. A treatment plan is chosen for a person, rather than from one symptom alone. A medicine that helps one domain may not cover every concern equally. Ask which parts of your disease the plan addresses and how progress will be checked."
+          "body": "Goals may include easing symptoms, protecting joints, and making daily tasks easier. Eye or bowel disease and other health conditions also matter. The team asks what you have tried before. They review your other medicines, side effects, and what matters to you. A treatment plan is chosen for a person, rather than from one symptom alone. A medicine that helps one domain may not cover every concern equally. Ask which parts of your disease the plan addresses and how progress will be checked.\n\nBring one task you want to do more easily, such as getting dressed or walking to a shop. This gives the team a clear goal to discuss with you."
         }
       ],
       "key_takeaways": [
@@ -1770,9 +2063,9 @@
               "pages": [
                 2
               ],
-              "kind": "text",
-              "locator": "Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership",
-              "contribution": "Individual response, other illnesses and follow-up shape the plan.",
+              "kind": "text_and_image",
+              "locator": "Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership; editorial diagram: shared-treatment-goals",
+              "contribution": "Individual response, other illnesses and follow-up shape the plan. Displays a lesson-specific editorial summary.",
               "limits": "This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance."
             }
           ]
@@ -1784,10 +2077,16 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 6.805
+        "fk_grade": 6.486
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-diagram-shared-treatment-goals",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-treatment-02",
@@ -1798,7 +2097,7 @@
       "pages": [
         {
           "order": 1,
-          "body": "Medicines have different jobs. Some help ease pain and swelling. Others aim to control the disease process. These are called DMARDs. Conventional DMARDs act broadly on the immune system. Biologic drugs target selected immune signals. Targeted synthetic drugs act on pathways inside cells. These are names for groups. They do not rank drugs from good to bad. Some drugs are pills. Others are given by a shot or through a vein. How a drug enters the body does not tell you how well it will work for you."
+          "body": "Medicines have different jobs. Some help ease pain and swelling. Others aim to control the disease process. These are called DMARDs. Conventional DMARDs act broadly on the immune system. Biologic drugs target selected immune signals. Targeted synthetic drugs act on pathways inside cells. These are names for groups. They do not rank drugs from good to bad. Some drugs are pills. Others are given by a shot or through a vein. How a drug enters the body does not tell you how well it will work for you.\n\nThe diagram groups care by its role. The groups can be part of the same plan; they are not steps you move through on your own."
         },
         {
           "order": 2,
@@ -1832,10 +2131,10 @@
                 1,
                 2
               ],
-              "kind": "text",
-              "locator": "Paragraphs 29, 38-39, 47 and 51: DMARDs, biologics, targeted oral drugs and monitoring",
-              "contribution": "Explains drug group roles, routes and questions about follow-up checks.",
-              "limits": "No doses, new approval claims, investigational therapies or RA/OA treatments imported."
+              "kind": "text_and_image",
+              "locator": "Paragraphs 29, 38-39, 47 and 51: DMARDs, biologics, targeted oral drugs and monitoring; Editorial diagram based on the located source sections and current lesson; diagram spec: treatment-groups",
+              "contribution": "Explains drug group roles, routes and questions about follow-up checks. Displays a plain-language teaching summary; original diagram, not a source screenshot.",
+              "limits": "No doses, new approval claims, investigational therapies or RA/OA treatments imported. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions."
             },
             {
               "source_id": "src-psa-one-pager-intro",
@@ -1869,7 +2168,13 @@
         "fk_grade": 4.549
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-diagram-treatment-groups",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-treatment-03",
@@ -1884,7 +2189,7 @@
         },
         {
           "order": 2,
-          "body": "If symptoms return or worsen, discuss a flare plan with the care team. A short record can note what changed, when it began, and how it affects daily tasks. Ask which changes need a call, which contact route to use, and what to do outside office hours. Repeated flares may mean the plan needs review. Use instructions agreed with your prescribing team for medicine questions. This general lesson does not replace your own flare plan. A useful record can include pain, sleep, energy, mood, and one task that was hard that day. Share patterns at follow-up visits. This can help the team see changes that a single visit may miss."
+          "body": "If symptoms return or worsen, discuss a flare plan with the care team. A short record can note what changed, when it began, and how it affects daily tasks. Ask which changes need a call, which contact route to use, and what to do outside office hours. Repeated flares may mean the plan needs review. Use instructions agreed with your prescribing team for medicine questions. This general lesson does not replace your own flare plan. A useful record can include pain, sleep, energy, mood, and one task that was hard that day. Share patterns at follow-up visits. This can help the team see changes that a single visit may miss.\n\nUse the diagram to plan a short record. You do not need to give yourself a disease score. Ask the team how they want you to share changes."
         }
       ],
       "key_takeaways": [
@@ -1929,10 +2234,10 @@
               "pages": [
                 2
               ],
-              "kind": "text",
-              "locator": "Paragraph 85: tracking pain, energy, mood, sleep and daily tasks",
-              "contribution": "Adds a practical multi-part symptom record.",
-              "limits": "No fasting advice or guaranteed symptom improvement."
+              "kind": "text_and_image",
+              "locator": "Paragraph 85: tracking pain, energy, mood, sleep and daily tasks; Editorial diagram based on the located source sections and current lesson; diagram spec: flare-record",
+              "contribution": "Adds a practical multi-part symptom record. Displays a plain-language teaching summary; original diagram, not a source screenshot.",
+              "limits": "No fasting advice or guaranteed symptom improvement. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions."
             }
           ]
         }
@@ -1946,7 +2251,13 @@
         "fk_grade": 6.298
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-diagram-flare-record",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-education-01",
@@ -1957,11 +2268,11 @@
       "pages": [
         {
           "order": 1,
-          "body": "Four pillars can help organize daily life with arthritis: Nourishment, Motion, Mastery, and Repose. In plain words, these mean food, movement, coping, and rest. They are a way to plan a discussion about everyday needs. They do not replace medical treatment. This framework is a guide to daily habits. It is not a test of how well your disease is controlled."
+          "body": "Four pillars can help organize daily life with arthritis: Nourishment, Motion, Mastery, and Repose. In plain words, these mean food, movement, coping, and rest. They are a way to plan a discussion about everyday needs. They do not replace medical treatment. This framework is a guide to daily habits. It is not a test of how well your disease is controlled.\n\nThe four panels are equal parts of a daily-care plan. Start with the part that matters most to you now."
         },
         {
           "order": 2,
-          "body": "Think about which part of daily life is hardest right now. Food choices, activity, mood, and sleep may each raise different questions. A practical plan can focus on a small change that fits your needs and abilities. The care team can help tailor it. Bring up barriers such as pain, cost, fatigue, or poor sleep. Daily care works best as part of a shared plan, rather than as a test of willpower. Start with one small step you choose with your team. For example, plan a short walk that fits your joints, or set aside time to wind down before bed. Notice how the step fits into your day. You can adjust it as your needs change."
+          "body": "Think about which part of daily life is hardest right now. Food choices, activity, mood, and sleep may each raise different questions. A practical plan can focus on a small change that fits your needs and abilities. The care team can help tailor it. Bring up barriers such as pain, cost, fatigue, or poor sleep. Daily care works best as part of a shared plan, rather than as a test of willpower. Start with one small step you choose with your team. For example, plan a short walk that fits your joints, or set aside time to wind down before bed. Notice how the step fits into your day. You can adjust it as your needs change.\n\nYou can plan, choose what matters most, break tasks into smaller parts, and use tools or positions that ease strain. For example, split chores across the week and sit for a task when standing is hard."
         }
       ],
       "key_takeaways": [
@@ -1986,10 +2297,10 @@
                 1,
                 2
               ],
-              "kind": "text",
-              "locator": "Paragraph 8; headings at 10, 48, 65, 75; synthesis 83-85",
-              "contribution": "Four named pillars, plain-language meanings and choosing one small step.",
-              "limits": "A daily-care framework, not validated PsA disease scoring or a replacement for treatment."
+              "kind": "text_and_image",
+              "locator": "Paragraph 8; headings at 10, 48, 65, 75; synthesis 83-85; Editorial diagram based on the located source sections and current lesson; diagram spec: four-pillars",
+              "contribution": "Four named pillars, plain-language meanings and choosing one small step. Displays a plain-language teaching summary; original diagram, not a source screenshot.",
+              "limits": "A daily-care framework, not validated PsA disease scoring or a replacement for treatment. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions."
             },
             {
               "source_id": "src-murphys-laws-of-arthritis-preface",
@@ -2000,6 +2311,16 @@
               "locator": "Paragraphs 11, 18 and 21: preparation, foundations and partnership",
               "contribution": "Simple habits and shared planning.",
               "limits": "Historical anecdotes and diagnostic parsimony are not taught as clinical rules."
+            },
+            {
+              "source_id": "src-rheumnotes-motion-2026",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "PDF pp. 21–22: pacing and small goals",
+              "contribution": "Practical pacing examples without an exercise dose.",
+              "limits": "General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending."
             }
           ]
         }
@@ -2010,25 +2331,31 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 5.591
+        "fk_grade": 4.966
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-diagram-four-pillars",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-education-02",
       "topic_id": "education",
       "subtopic_id": "education-pillars",
       "title": "Movement, coping, and support",
-      "est_minutes": 2,
+      "est_minutes": 3,
       "pages": [
         {
           "order": 1,
-          "body": "Motion means finding ways to move that fit your joints and current health. Activity plans may include gentle movement, strength, and daily tasks. A physical therapist can help adapt a plan when pain or reduced movement gets in the way. An occupational therapist can suggest ways to protect joints during tasks. Ask your team how to balance activity and rest when symptoms change. Walking, swimming, or cycling may be options. Ask your team which activities fit you before you start. The source also describes strength work and tai chi. You do not need to try every type of exercise."
+          "body": "Motion means finding ways to move that fit your joints and current health. Activity plans may include gentle movement, strength, and daily tasks. A physical therapist can help adapt a plan when pain or reduced movement gets in the way. An occupational therapist can suggest ways to protect joints during tasks. Ask your team how to balance activity and rest when symptoms change. Walking, swimming, or cycling may be options. Ask your team which activities fit you before you start. The source also describes strength work and tai chi. You do not need to try every type of exercise.\n\nTry to avoid doing all your chores on a good day and then needing days to recover. Break a large task into short parts, with rest between them. A seated option may help when standing is hard. Ask your therapist to show you a version that fits your joints."
         },
         {
           "order": 2,
-          "body": "Mastery means building ways to cope with the demands of a long-term condition. It does not mean controlling every symptom by thinking differently. Pain, fatigue, and uncertainty can affect mood and confidence. Support from trusted people, a support group, or a trained counselor may help. Tell the care team when worry or low mood affects daily life. Asking for support is part of care, not a sign of failure. A quiet pause or slow breathing may help you make space for stress. These are coping tools. They do not mean that pain is your fault or that you should skip medical care."
+          "body": "Mastery means building ways to cope with the demands of a long-term condition. It does not mean controlling every symptom by thinking differently. Pain, fatigue, and uncertainty can affect mood and confidence. Support from trusted people, a support group, or a trained counselor may help. Tell the care team when worry or low mood affects daily life. Asking for support is part of care, not a sign of failure. A quiet pause or slow breathing may help you make space for stress. These are coping tools. They do not mean that pain is your fault or that you should skip medical care.\n\nChoose a coping step that feels right to you, such as music, writing, or a call to someone you trust. Make a short plan for a hard day while you feel calm. A counselor can also teach skills for coping with pain and worry. Ask for help if low mood affects sleep, work, or taking your medicines."
         }
       ],
       "key_takeaways": [
@@ -2057,6 +2384,26 @@
               "locator": "Motion paragraphs 49-50, 61-63; Mastery paragraphs 67-68 and 74",
               "contribution": "Adapting movement, water/cycling options, strength and coping practices.",
               "limits": "Many study claims concern RA/OA, not PsA; do not promise equal benefits or prescribe an exercise dose. NIAMS corroborates general PsA activity options."
+            },
+            {
+              "source_id": "src-rheumnotes-motion-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "PDF pp. 9, 17, 21–22: therapy, seated options and pacing",
+              "contribution": "Add task pacing and adapted movement.",
+              "limits": "No fixed exercise dose, unsupervised exercise routine or RA/OA effect size is prescribed for PsA."
+            },
+            {
+              "source_id": "src-rheumnotes-mind-2026",
+              "pages": [
+                2
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF pp. 19, 21–26: thinking skills, connection and a stress plan; PDF p. 16: displayed illustration; Image Credits appendix",
+              "contribution": "Add coping choices and reasons to seek support. Display the selected source image with attribution.",
+              "limits": "No claim that stress causes PsA, that coping controls inflammation, or that positive thinking replaces treatment."
             }
           ]
         }
@@ -2067,25 +2414,31 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 5.983
+        "fk_grade": 5.354
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-quiet-pause",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-education-03",
       "topic_id": "education",
       "subtopic_id": "education-pillars",
       "title": "Food, sleep, and recovery",
-      "est_minutes": 2,
+      "est_minutes": 3,
       "pages": [
         {
           "order": 1,
-          "body": "Nourishment focuses on food and nutrition needs. Food choices need to fit your own health and life. Food does not replace your prescribed PsA care. A dietitian can help with choices that fit your health, budget, and preferences. Ask about supplements or major diet changes before adding them to your care plan. The food chapter discusses vegetables, fruit, and sources of protein. Use these as topics to discuss with your team. It does not mean one food can switch off PsA. The lesson does not ask you to fast or follow a strict diet."
+          "body": "Nourishment focuses on food and nutrition needs. Food choices need to fit your own health and life. Food does not replace your prescribed PsA care. A dietitian can help with choices that fit your health, budget, and preferences. Ask about supplements or major diet changes before adding them to your care plan. The food chapter discusses vegetables, fruit, and sources of protein. Use these as topics to discuss with your team. It does not mean one food can switch off PsA. The lesson does not ask you to fast or follow a strict diet.\n\nMeals can include a mix of vegetables, fruit, whole grains, and protein foods such as beans, fish, or poultry. The new food tables group meats as Land, Sea, and Sky; poultry and eggs are in Sky. These labels help find foods, not rank them as treatments. Choose foods that fit your needs, allergies, budget, and culture."
         },
         {
           "order": 2,
-          "body": "Repose focuses on rest and sleep. Pain or worry may make sleep harder, and poor sleep can make the next day feel harder to manage. Bring ongoing sleep problems to the care team. Describe whether pain, waking at night, or daytime tiredness is the main concern. Plans for meals, movement, coping, and rest should fit together. The aim is a manageable routine, rather than a strict rule for every day. Try to keep a steady time for bed and waking. A quiet, dark room and a calm wind-down routine may help. Let the team know if pain keeps waking you. Ask for help with sleep rather than changing your medicine on your own."
+          "body": "Repose focuses on rest and sleep. Pain or worry may make sleep harder, and poor sleep can make the next day feel harder to manage. Bring ongoing sleep problems to the care team. Describe whether pain, waking at night, or daytime tiredness is the main concern. Plans for meals, movement, coping, and rest should fit together. The aim is a manageable routine, rather than a strict rule for every day. Try to keep a steady time for bed and waking. A quiet, dark room and a calm wind-down routine may help. Let the team know if pain keeps waking you. Ask for help with sleep rather than changing your medicine on your own.\n\nKeep a short sleep record to share at a visit. Note bedtime, wake time, waking in the night, pain, and how you feel the next day. Tell the team about loud snoring, gasping, or trouble staying awake by day. Good sleep habits may help, but ongoing sleep problems may need more care."
         }
       ],
       "key_takeaways": [
@@ -2096,7 +2449,18 @@
         {
           "id": "psa-education-03-c1",
           "kind": "provenance",
-          "references": [],
+          "references": [
+            {
+              "id": "nhlbi-sleep-diary",
+              "title": "NHLBI: Sleep Diary",
+              "url": "https://www.nhlbi.nih.gov/resources/sleep-diary"
+            },
+            {
+              "id": "niams-care",
+              "title": "NIAMS: Diagnosis, Treatment, and Steps to Take",
+              "url": "https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take"
+            }
+          ],
           "source_usage": [
             {
               "source_id": "src-the-four-pillars-of-arthritis",
@@ -2108,6 +2472,36 @@
               "locator": "Nourishment paragraphs 10-38; Repose paragraphs 76-80; practical steps 85",
               "contribution": "Food discussions, steady sleep timing and a calm bedtime routine.",
               "limits": "No fasting, supplement doses, food-cure claims or extrapolated RA/OA treatment effects."
+            },
+            {
+              "source_id": "src-rheumnotes-nutrition-2026",
+              "pages": [
+                1
+              ],
+              "kind": "text",
+              "locator": "PDF pp. 4, 10, 17-24: food groups and Land, Sea and Sky",
+              "contribution": "Use the November 17 revision for food examples and protein table labels. The displayed apple is now sourced directly from the original photograph, not extracted from this PDF.",
+              "limits": "RA diet trials, OA weight-loss effects, gout restrictions, nutrient doses and unverified guideline targets are not presented as PsA advice."
+            },
+            {
+              "source_id": "src-rheumnotes-sleep-2026",
+              "pages": [
+                2
+              ],
+              "kind": "text_and_image",
+              "locator": "PDF pp. 19–21, 25–26, 29: sleep habits, help and diary; PDF p. 19: displayed illustration; Image Credits appendix",
+              "contribution": "Add a simple sleep diary and concerns to report. Display the selected source image with attribution.",
+              "limits": "No self-diagnosis, sleep restriction program, sleep medicine advice or rigid sleep target."
+            },
+            {
+              "source_id": "src-red-apple-high-resolution",
+              "pages": [
+                1
+              ],
+              "kind": "image",
+              "locator": "Complete high-resolution Red Apple photograph; Wikimedia Commons file page",
+              "contribution": "A clear example of fruit in a varied eating pattern; replaces the 241 x 180 PDF thumbnail.",
+              "limits": "Illustrative food photo only; no claim that an apple treats PsA."
             }
           ]
         }
@@ -2118,10 +2512,20 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 4.928
+        "fk_grade": 4.643
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-rheumnotes-fruit",
+          "page": 1
+        },
+        {
+          "media_id": "psa-rheumnotes-sleep-routine",
+          "page": 2
+        }
+      ]
     },
     {
       "id": "psa-contact-01",
@@ -2132,11 +2536,11 @@
       "pages": [
         {
           "order": 1,
-          "body": "Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder."
+          "body": "Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder.\n\nBefore the visit, write your main question and the change that worries you most. Bring your notes so the team can help you decide the next step."
         },
         {
           "order": 2,
-          "body": "A body map cannot tell you how urgent a symptom is. The next lesson explains eye and gut changes to report. Medicine concerns and repeated flares are also reasons to contact the prescribing team. Ask your clinic for its phone number and office hours. Ask about expected response times and how to get help when it is closed. Keep your own care plan available. For urgent symptoms, use urgent medical services rather than waiting for a routine app message."
+          "body": "A body map cannot tell you how urgent a symptom is. The next lesson explains eye and gut changes to report. Medicine concerns and repeated flares are also reasons to contact the prescribing team. Ask your clinic for its phone number and office hours. Ask about expected response times and how to get help when it is closed. Keep your own care plan available. For urgent symptoms, use urgent medical services rather than waiting for a routine app message.\n\nA sleep record can make the visit more useful. Bring notes on when you sleep, what wakes you, and daytime tiredness. List any recent medicine changes so the team can look for patterns."
         }
       ],
       "key_takeaways": [
@@ -2157,6 +2561,11 @@
               "id": "npf-flares",
               "title": "National Psoriasis Foundation: Care Path, Keep Thriving",
               "url": "https://www.psoriasis.org/care-path-thrive/"
+            },
+            {
+              "id": "nhlbi-sleep-diary",
+              "title": "NHLBI: Sleep Diary",
+              "url": "https://www.nhlbi.nih.gov/resources/sleep-diary"
             }
           ],
           "source_usage": [
@@ -2190,6 +2599,26 @@
               "locator": "Paragraph 11: monitoring and contingency plans",
               "contribution": "Ask for contact routes and an out-of-hours plan.",
               "limits": "Clinic phone numbers, hours and response times must come from the patient's clinic."
+            },
+            {
+              "source_id": "src-rheumnotes-sleep-2026",
+              "pages": [
+                2
+              ],
+              "kind": "text",
+              "locator": "PDF pp. 25–26, 29: sleep diary and medicine notes",
+              "contribution": "Prepare observations for a visit without changing medicine.",
+              "limits": "General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending."
+            },
+            {
+              "source_id": "src-supp-doctor-patient",
+              "pages": [
+                1
+              ],
+              "kind": "image",
+              "locator": "Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Doctor_talking_with_a_patient.jpg",
+              "contribution": "Friendly picture for lessons about talking with the care team.",
+              "limits": "Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff."
             }
           ]
         }
@@ -2200,17 +2629,23 @@
         "safety_flags": [
           "Per-claim source verification and clinical review pending"
         ],
-        "fk_grade": 6.586
+        "fk_grade": 6.057
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "supp-doctor-patient",
+          "page": 1
+        }
+      ]
     },
     {
       "id": "psa-contact-02",
       "topic_id": "contact",
       "subtopic_id": "contact-symptoms",
       "title": "Eye and gut changes to report",
-      "est_minutes": 1,
+      "est_minutes": 2,
       "pages": [
         {
           "order": 1,
@@ -2218,7 +2653,7 @@
         },
         {
           "order": 2,
-          "body": "Tell the care team about ongoing gut pain, bloating, or changes in bowel habits. Inflammatory bowel disease can occur alongside PsA, but a bowel change does not prove that it is the cause. Describe what changed and when. Your team can decide whether another assessment is needed. If symptoms are severe or you feel acutely unwell, seek urgent medical help. Do not wait for a routine visit to discuss an urgent eye problem."
+          "body": "Tell the care team about ongoing gut pain, bloating, or changes in bowel habits. Inflammatory bowel disease can occur alongside PsA, but a bowel change does not prove that it is the cause. Describe what changed and when. Your team can decide whether another assessment is needed. If symptoms are severe or you feel acutely unwell, seek urgent medical help. Do not wait for a routine visit to discuss an urgent eye problem.\n\nThe reporting guide helps you prepare a clear message. It cannot tell you the cause of a symptom. Use the care guidance above and the instructions from your own team."
         }
       ],
       "key_takeaways": [
@@ -2259,10 +2694,10 @@
                 1,
                 2
               ],
-              "kind": "text",
-              "locator": "Eyes and gut cards",
-              "contribution": "Plain-language eye and bowel symptoms to describe.",
-              "limits": "Symptoms have multiple causes; poster cannot diagnose uveitis or IBD."
+              "kind": "text_and_image",
+              "locator": "Eyes and gut cards; editorial diagram: eye-gut-reporting",
+              "contribution": "Plain-language eye and bowel symptoms to describe. Displays a lesson-specific editorial summary.",
+              "limits": "Symptoms have multiple causes; poster cannot diagnose uveitis or IBD. Urgency wording in the editorial diagram follows the lesson NHS/NICE references, not the poster."
             }
           ]
         }
@@ -2276,7 +2711,13 @@
         "fk_grade": 7.78
       },
       "generated_by": "llm",
-      "status": "draft"
+      "status": "draft",
+      "images": [
+        {
+          "media_id": "psa-diagram-eye-gut-reporting",
+          "page": 1
+        }
+      ]
     }
   ],
   "quizzes": [],
@@ -2322,6 +2763,160 @@
       "alt_text": "Pain at the bottom of a heel.",
       "credit": "Supplied educational illustration.",
       "source_id": "src-plantar-fasciitis-illustration"
+    },
+    {
+      "id": "psa-rheumnotes-shoulder",
+      "file": "media/rheumnotes-shoulder.jpg",
+      "alt_text": "Normal shoulder parts, including the ball, socket and nearby tendons.",
+      "credit": "OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:914_Shoulder_Joint.jpg. Extracted from supplied RheumNotes PDF p. 20; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-hand",
+      "file": "media/rheumnotes-hand.jpg",
+      "alt_text": "Bones of the hand and wrist. Use the picture to point to a painful area.",
+      "credit": "OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:806_Hand_and_Wrist.jpg. Extracted from supplied RheumNotes PDF p. 33; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-foot",
+      "file": "media/rheumnotes-foot.jpg",
+      "alt_text": "Normal foot bones seen from above; this picture does not show inflammation.",
+      "credit": "Henry Vandyke Carter (Gray's Anatomy); Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Source: https://commons.wikimedia.org/wiki/File:Gray268.png. Extracted from supplied RheumNotes PDF p. 63; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-spine",
+      "file": "media/rheumnotes-spine.jpg",
+      "alt_text": "Normal spine regions from the neck to the sacrum and tailbone.",
+      "credit": "OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:715_Vertebral_Column.jpg. Extracted from supplied RheumNotes PDF p. 13; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-elbow",
+      "file": "media/rheumnotes-elbow.jpg",
+      "alt_text": "Normal elbow bones, supporting bands and the small sac at its tip.",
+      "credit": "OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:915_Elbow_Joint.jpg. Extracted from supplied RheumNotes PDF p. 27; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-hip",
+      "file": "media/rheumnotes-hip.jpg",
+      "alt_text": "Front view of the pelvis and the bands that support the hip joints.",
+      "credit": "Johannes Sobotta (Atlas, 1909); Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Source: https://commons.wikimedia.org/wiki/File:Sobo_1909_208.png. Extracted from supplied RheumNotes PDF p. 41; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-knee",
+      "file": "media/rheumnotes-knee.jpg",
+      "alt_text": "Normal knee structures from several views, including cartilage pads and supporting bands.",
+      "credit": "OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:917_Knee_Joint.jpg. Extracted from supplied RheumNotes PDF p. 49; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-ankle",
+      "file": "media/rheumnotes-ankle.jpg",
+      "alt_text": "Inner and outer views of normal ankle bones and supporting bands.",
+      "credit": "OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:919_Ankle_Feet_Joints.jpg. Extracted from supplied RheumNotes PDF p. 57; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-anatomy-2026"
+    },
+    {
+      "id": "psa-rheumnotes-quiet-pause",
+      "file": "media/rheumnotes-quiet-pause.jpg",
+      "alt_text": "A quiet moment outdoors. Reflection or prayer can be a personal coping choice.",
+      "credit": "Ben White; CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Source: https://commons.wikimedia.org/wiki/File:Praying_woman_in_a_park_(Unsplash).jpg. Extracted from supplied RheumNotes PDF p. 16; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-mind-2026"
+    },
+    {
+      "id": "psa-rheumnotes-fruit",
+      "file": "media/rheumnotes-fruit-hd.jpg",
+      "alt_text": "Include fruit as part of varied meals, alongside vegetables, whole grains, and protein foods. Choose options that fit your needs and budget.",
+      "credit": "Abhijit Tembhekar; CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/). Source: https://commons.wikimedia.org/wiki/File:Red_Apple.jpg. Downloaded original 2418 x 2192 photograph; resized to 1400 x 1269 and JPEG-compressed. No crop or added labels.",
+      "source_id": "src-red-apple-high-resolution"
+    },
+    {
+      "id": "psa-rheumnotes-sleep-routine",
+      "file": "media/rheumnotes-sleep-routine.jpg",
+      "alt_text": "Try to go to bed and wake up at about the same time each day. If pain keeps waking you, tell your care team.",
+      "credit": "Ales Krivec; CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Source: https://commons.wikimedia.org/wiki/File:Roman_numerals_on_alarm_clock_(Unsplash).jpg. Extracted from supplied RheumNotes PDF p. 19; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.",
+      "source_id": "src-rheumnotes-sleep-2026"
+    },
+    {
+      "id": "supp-doctor-patient",
+      "file": "media/doctor-patient.jpg",
+      "source_id": "src-supp-doctor-patient",
+      "alt_text": "A clinician and a patient discuss care. Use a visit to share symptoms, priorities, and questions. Illustrative photo; this is not an ACCR clinic or a confirmed PsA visit.",
+      "credit": "National Cancer Institute, National Institutes of Health. Public domain, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Doctor_talking_with_a_patient.jpg. Attribution from the existing supplementary-media manifest; copied without further changes."
+    },
+    {
+      "id": "supp-mri-scan",
+      "file": "media/mri-scan.jpg",
+      "source_id": "src-supp-mri-scan",
+      "alt_text": "An MRI scanner, one of the tests a clinician may use. Not everyone needs an MRI, and an image alone does not diagnose PsA.",
+      "credit": "Blausen Medical Communications, Inc. CC BY 3.0, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Blausen_0654_MRI_01.png. License: https://creativecommons.org/licenses/by/3.0. Attribution from the existing supplementary-media manifest; copied without further changes."
+    },
+    {
+      "id": "supp-eye-uveitis",
+      "file": "media/eye-uveitis.jpg",
+      "source_id": "src-supp-eye-uveitis",
+      "alt_text": "The eye seen from the side. The uvea includes the iris, ciliary body, and choroid. This anatomy diagram cannot show whether your eye is inflamed.",
+      "credit": "Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). Public domain, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:EyeDiagramUveitis_0.jpg. Attribution from the existing supplementary-media manifest; copied without further changes."
+    },
+    {
+      "id": "supp-digestive-system",
+      "file": "media/digestive-system.jpg",
+      "source_id": "src-supp-digestive-system",
+      "alt_text": "The digestive tract includes the stomach, small intestine, and large intestine. This is a normal anatomy diagram, not an image of bowel disease.",
+      "credit": "Blausen.com staff (2014). \"Medical gallery of Blausen Medical 2014\". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Blausen_0316_DigestiveSystem.png. License: https://creativecommons.org/licenses/by/3.0. Attribution from the existing supplementary-media manifest; copied without further changes."
+    },
+    {
+      "id": "psa-diagram-caspar-framework",
+      "file": "media/caspar-framework.jpg",
+      "source_id": "src-mindmap",
+      "alt_text": "CASPAR overview: inflammation first, then psoriasis history, nail and digit changes, and test findings. A doctor interprets the findings; this is not a scoring tool.",
+      "credit": "Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/caspar-framework.svg. Clinical review pending."
+    },
+    {
+      "id": "psa-diagram-whole-health",
+      "file": "media/whole-health.jpg",
+      "source_id": "src-poster-of-the-comorbidities-seen-in-psa",
+      "alt_text": "Related health topics: heart health and blood pressure, blood sugar and weight, and mood. Discuss checks that fit your own history. No risk percentages or ranking are shown.",
+      "credit": "Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/whole-health.svg. Clinical review pending."
+    },
+    {
+      "id": "psa-diagram-treatment-groups",
+      "file": "media/treatment-groups.jpg",
+      "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+      "alt_text": "Treatment roles include symptom relief, disease control with DMARD groups, and support such as skin care and physical therapy. These are not ranked treatment steps.",
+      "credit": "Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/treatment-groups.svg. Clinical review pending."
+    },
+    {
+      "id": "psa-diagram-flare-record",
+      "file": "media/flare-record.jpg",
+      "source_id": "src-the-four-pillars-of-arthritis",
+      "alt_text": "A symptom record includes what changed and when, sleep and energy, mood and daily tasks. Discuss contact routes and a personal flare plan with the care team.",
+      "credit": "Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/flare-record.svg. Clinical review pending."
+    },
+    {
+      "id": "psa-diagram-four-pillars",
+      "file": "media/four-pillars.jpg",
+      "source_id": "src-the-four-pillars-of-arthritis",
+      "alt_text": "Four equal pillars support daily care: food, movement, coping, and rest. Choose a manageable step with your team; daily habits do not replace medical treatment.",
+      "credit": "Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/four-pillars.svg. Clinical review pending."
+    },
+    {
+      "id": "psa-diagram-shared-treatment-goals",
+      "file": "media/shared-treatment-goals.jpg",
+      "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+      "alt_text": "Shared treatment goals: describe what matters to you, review symptoms and other health needs, and agree how to check benefits, side effects and progress.",
+      "credit": "Original editorial diagram summarizing the lesson and its cited sources, not a source screenshot. Clinical review pending."
+    },
+    {
+      "id": "psa-diagram-eye-gut-reporting",
+      "file": "media/eye-gut-reporting.jpg",
+      "source_id": "src-clinical-manifestations-of-psa-poster",
+      "alt_text": "New eye pain, marked redness, light sensitivity or blurred sight need urgent assessment; possible acute eye inflammation needs same-day eye assessment. Loss of vision needs emergency care. Report ongoing gut changes and seek urgent help if severely unwell.",
+      "credit": "Original editorial diagram summarizing the lesson and its cited sources, not a source screenshot. Clinical review pending."
     }
   ]
 }

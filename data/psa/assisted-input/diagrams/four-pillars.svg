@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1020" viewBox="0 0 1100 1020">
+<title>Four pillars of daily care</title><desc>Four equal pillars support daily care: food, movement, coping, and rest. Choose a manageable step with your team; daily habits do not replace medical treatment.</desc>
+<rect width="1100" height="1020" fill="#f4f8fa"/>
+<rect x="0" y="0" width="1100" height="12" rx="0" fill="#087f83"/>
+<text x="50" y="42" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#17364a">Four pillars of daily care</text>
+<text x="50" y="108" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#526777">Choose one small step that fits your life</text>
+<rect x="50" y="180" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="180" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="202" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">Nourishment / Food</text>
+<text x="85" y="263" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Food choices that fit your needs and budget</text>
+<rect x="50" y="360" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="360" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="382" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">Motion / Movement</text>
+<text x="85" y="443" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Activity and rest that fit your joints</text>
+<rect x="50" y="540" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="540" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="562" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">Mastery / Coping</text>
+<text x="85" y="623" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Ways to handle stress and find support</text>
+<rect x="50" y="720" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="720" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="742" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">Repose / Rest</text>
+<text x="85" y="803" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Sleep habits and time to recover</text>
+<text x="50" y="944" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#315669">Daily habits support your care. They do not replace treatment.</text>
+</svg>

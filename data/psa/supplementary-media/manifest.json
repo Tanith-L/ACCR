@@ -1,6 +1,6 @@
 {
-  "status": "candidates_pending_review",
-  "note": "Not part of psa-content.json and not shown in the app. Needs Data Lead selection and clinical review first.",
+  "status": "partly_selected_for_draft",
+  "note": "Four image assets are now selected in the chapter draft; remaining images and video links remain candidates. No publication or clinical approval.",
   "checked_on": "2026-11-04",
   "images": [
     {
@@ -17,7 +17,10 @@
       "suggested_lessons": [
         "psa-overview-01"
       ],
-      "why": "Shows what a joint is before explaining inflammation in it."
+      "why": "Shows what a joint is before explaining inflammation in it.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Overview remains a whole-body introduction; a joint cross-section is too specific."
     },
     {
       "id": "supp-doctor-patient",
@@ -35,7 +38,12 @@
         "psa-treatment-01",
         "psa-contact-01"
       ],
-      "why": "Friendly picture for lessons about talking with the care team."
+      "why": "Friendly picture for lessons about talking with the care team.",
+      "selected_lessons": [
+        "psa-contact-01"
+      ],
+      "selection_status": "selected_for_draft",
+      "selection_note": "Visually inspected; included with original attribution. Clinical review pending."
     },
     {
       "id": "supp-mri-scan",
@@ -51,7 +59,12 @@
       "suggested_lessons": [
         "psa-dx-01"
       ],
-      "why": "Shows what one of the imaging tests looks like."
+      "why": "Shows what one of the imaging tests looks like.",
+      "selected_lessons": [
+        "psa-dx-01"
+      ],
+      "selection_status": "selected_for_draft",
+      "selection_note": "Visually inspected; included with original attribution. Clinical review pending."
     },
     {
       "id": "supp-eye-uveitis",
@@ -68,7 +81,12 @@
         "psa-symptoms-02",
         "psa-contact-02"
       ],
-      "why": "Shows the part of the eye where uveitis happens."
+      "why": "Shows the part of the eye where uveitis happens.",
+      "selected_lessons": [
+        "psa-symptoms-02"
+      ],
+      "selection_status": "selected_for_draft",
+      "selection_note": "Visually inspected; included with original attribution. Clinical review pending."
     },
     {
       "id": "supp-digestive-system",
@@ -85,7 +103,12 @@
         "psa-symptoms-04",
         "psa-contact-02"
       ],
-      "why": "Shows where the gut is for lessons on bowel changes."
+      "why": "Shows where the gut is for lessons on bowel changes.",
+      "selected_lessons": [
+        "psa-symptoms-04"
+      ],
+      "selection_status": "selected_for_draft",
+      "selection_note": "Visually inspected; included with original attribution. Clinical review pending."
     },
     {
       "id": "supp-shoulder-joint",
@@ -101,7 +124,10 @@
       "suggested_lessons": [
         "psa-symptoms-05"
       ],
-      "why": "Shows the shoulder joint."
+      "why": "Shows the shoulder joint.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     },
     {
       "id": "supp-hand-bones",
@@ -117,7 +143,10 @@
       "suggested_lessons": [
         "psa-symptoms-06"
       ],
-      "why": "Shows the small joints of the hand and wrist."
+      "why": "Shows the small joints of the hand and wrist.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     },
     {
       "id": "supp-finger-nail",
@@ -133,7 +162,10 @@
       "suggested_lessons": [
         "psa-symptoms-06"
       ],
-      "why": "Shows the nail parts behind nail changes."
+      "why": "Shows the nail parts behind nail changes.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     },
     {
       "id": "supp-foot-anatomy",
@@ -150,7 +182,10 @@
         "psa-symptoms-07",
         "psa-symptoms-12"
       ],
-      "why": "Shows the heel, Achilles tendon, ankle and mid-foot."
+      "why": "Shows the heel, Achilles tendon, ankle and mid-foot.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     },
     {
       "id": "supp-lumbar-spine",
@@ -166,7 +201,10 @@
       "suggested_lessons": [
         "psa-symptoms-08"
       ],
-      "why": "Shows where the lower spine is."
+      "why": "Shows where the lower spine is.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     },
     {
       "id": "supp-si-joint",
@@ -182,7 +220,10 @@
       "suggested_lessons": [
         "psa-symptoms-08"
       ],
-      "why": "Shows where the SI joints are."
+      "why": "Shows where the SI joints are.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     },
     {
       "id": "supp-hip-anatomy",
@@ -198,7 +239,10 @@
       "suggested_lessons": [
         "psa-symptoms-10"
       ],
-      "why": "Shows the hip joint."
+      "why": "Shows the hip joint.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     },
     {
       "id": "supp-knee-side",
@@ -214,7 +258,10 @@
       "suggested_lessons": [
         "psa-symptoms-11"
       ],
-      "why": "Shows the knee joint."
+      "why": "Shows the knee joint.",
+      "selected_lessons": [],
+      "selection_status": "not_selected",
+      "selection_note": "Existing source-derived regional illustrations already cover this topic; avoid redundant diagrams."
     }
   ],
   "videos": [
@@ -229,7 +276,9 @@
       ],
       "scope": "PsA-specific",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Psoriatic Arthritis – Signs and Symptoms",
@@ -252,7 +301,9 @@
       ],
       "scope": "PsA-specific; general, not one per body area",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Diagnosing Psoriatic Arthritis",
@@ -265,7 +316,9 @@
       ],
       "scope": "PsA-specific",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Treating Psoriatic Arthritis",
@@ -278,7 +331,9 @@
       ],
       "scope": "PsA-specific; check for drug names and how current it is",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Living with Psoriatic Arthritis",
@@ -290,7 +345,9 @@
       ],
       "scope": "PsA-specific",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Using Mind and Body Practices to Improve Day-to-Day Living with Psoriatic Arthritis",
@@ -302,7 +359,9 @@
       ],
       "scope": "PsA-specific; covers yoga, tai chi, meditation and acupuncture",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Preventing Anxiety and Depression when Living with Psoriasis and Psoriatic Arthritis",
@@ -315,7 +374,9 @@
       ],
       "scope": "PsA-specific",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Tips to Manage Sleep Related Issues in Psoriatic Arthritis",
@@ -327,7 +388,9 @@
       ],
       "scope": "PsA-specific",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Will Exercise Cause Damage to my Joints or Cause an Arthritis Flare?",
@@ -339,7 +402,9 @@
       ],
       "scope": "General arthritis, not PsA-specific",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "A Hitchhiker’s Guide to Inflammatory Arthritis",
@@ -351,7 +416,9 @@
       ],
       "scope": "Inflammatory arthritis in general, including PsA; UK care setting",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Rheumatology Specialist Nurses and self management",
@@ -364,7 +431,9 @@
       ],
       "scope": "Inflammatory arthritis in general; UK services may differ",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Treatments for inflammatory arthritis",
@@ -376,7 +445,9 @@
       ],
       "scope": "Inflammatory arthritis in general; UK setting; check how current it is",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Physiotherapy for Inflammatory Arthritis",
@@ -388,7 +459,9 @@
       ],
       "scope": "Inflammatory arthritis in general; UK setting",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     },
     {
       "title": "Occupational Therapy for Inflammatory Arthritis",
@@ -400,7 +473,9 @@
       ],
       "scope": "Inflammatory arthritis in general; UK setting",
       "use": "link_only",
-      "watched_by_reviewer": false
+      "watched_by_reviewer": false,
+      "selection_status": "not_embedded",
+      "selection_note": "Candidate link only; video content has not been reviewed. No clinical lesson assertions taken from title or metadata."
     }
   ],
   "excluded": [
@@ -432,5 +507,6 @@
       "what": "Gray’s Anatomy elbow drawings",
       "why": "Public domain, but old engravings with Latin terms are not easy to understand."
     }
-  ]
+  ],
+  "selection_reviewed_on": "2026-11-17"
 }

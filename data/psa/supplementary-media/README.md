@@ -1,7 +1,7 @@
 # Supplementary images and videos (candidates)
 
 Extra learning material for the 24 PsA lessons, gathered from professional sources.
-**Nothing here is in `chapter/psa-content.json` or shown in the app.** Each item needs selection by the Data Lead and clinical review first.
+**Four images are now included in the chapter draft:** doctor-patient, mri-scan, eye-uveitis and digestive-system. Their byte-identical source copies are tracked under `originals/supplementary/`, with credits and source usage in the export. The remaining images and video links remain candidates. Clinical review and publication are pending.
 
 - `images/`: 13 images (11 anatomy diagrams, an MRI scanner illustration and one photo of a doctor with a patient), resized to JPEG under the importer's 500 KiB limit. Each is public domain or CC BY 3.0, read from its Wikimedia Commons file record on 2026-11-04.
 - `manifest.json`: alt text, credit, license, source, checksum and suggested lessons for each item.
@@ -15,7 +15,9 @@ Extra learning material for the 24 PsA lessons, gathered from professional sourc
 4. **Schema.** `lessons[].images` can carry the images once they are added to `media`. The schema has no video field, so videos need a schema change, agreed with the Backend Lead.
 5. **Public bucket.** The project guide allows only non-clinical images in the public `media` bucket for now. None shows a medical condition on a real patient, but the doctor photo does show people, so confirm this.
 
-## Suggested use by lesson
+## Original candidate suggestions (historical)
+
+The table below records the earlier candidate pass, not current image coverage. See [current lesson image coverage](../chapter/image-coverage.md) for actual selections. The overview uses a whole-body poster; CASPAR now has an editorial framework diagram.
 
 "Existing" counts images the lesson already has. Suggestions cover topic fit only, not page placement.
 

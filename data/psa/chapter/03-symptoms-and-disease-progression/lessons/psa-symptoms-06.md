@@ -8,6 +8,12 @@ Lesson: `psa-symptoms-06` · Topic: `symptoms` · About 1 minutes
 
 This card groups several changes in the hands. A wrist or finger joint may hurt, swell, or feel stiff. Swelling of a whole finger is called dactylitis. It is different from swelling around just one joint. These changes can make tasks such as holding a cup or using buttons harder.
 
+The wrist has small bones between the forearm and hand. Tendons help bend and straighten the fingers. Each finger has a knuckle, middle joint, and end joint. Point to the exact joint or part of the finger that has changed.
+
+![Bones of the hand and wrist. Use the picture to point to a painful area.](../../media/rheumnotes-hand.jpg)
+
+OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:806_Hand_and_Wrist.jpg. Extracted from supplied RheumNotes PDF p. 33; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+
 ## Page 2
 
 Nail psoriasis may cause small pits, yellow spots, or a nail lifting from its bed. The photo shows examples of nail changes. Nail changes and joint symptoms do not always happen together. Tell your team whether the change is in a nail, a joint, or the whole finger. Mention any trouble with daily tasks.
@@ -30,5 +36,6 @@ Split from the former combined symptom lessons to match the hands card. Original
 - [PsA One-Pager Intro](../../../originals/PsA%20One-Pager%20Intro.jpeg) ? Box B and Box C: hands (lesson pages 1; text). Cross-checks domain or related-condition terminology. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA & AS Symptoms](../../../originals/PsA%20%26%20AS%20Symptoms.jpeg) ? hands body label (lesson pages 1; text). Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [Nail psoriasis](../../../originals/Nail%20psoriasis.jpg) ? PSA2 caption and nails (lesson pages 2; image). Pits, yellow spots and nail lifting. Limits: Supplied educational illustration; does not diagnose a patient.
+- [RheumNotes Anatomy White Paper](../../../originals/RheumNotes_Anatomy_White_Paper.pdf) ? PDF p. 33: normal regional anatomy; PDF p. 33: displayed illustration; Image Credits appendix (lesson pages 1; text_and_image). Explain normal structures and help locate symptoms. Display the selected source image with attribution. Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
 - [NIAMS: Psoriatic Arthritis](https://www.niams.nih.gov/health-topics/psoriatic-arthritis)
 - [NIAMS: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take)

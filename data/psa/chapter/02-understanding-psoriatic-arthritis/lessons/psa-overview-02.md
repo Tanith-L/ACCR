@@ -16,6 +16,8 @@ Source: supplied RHEUMNOTES poster.
 
 Dactylitis means swelling of a whole finger or toe. Enthesitis means inflammation where a tendon or ligament joins bone. The back or bottom of the heel may be affected. These six domains can help guide treatment discussions. They do not name a drug that is right for you. Eye or bowel inflammation can also occur alongside PsA. These are separate from the six domains. Heart health, blood sugar, weight, and mood can also matter in care. The symptoms topic covers these concerns and changes over time.
 
+The anatomy chart groups the body into nine regions. These are places in the body, not the six PsA domains. For example, the hand has bones, joints, tendons, and nerves. Pain in one area can involve more than one type of tissue.
+
 ## Key takeaways
 
 - Dactylitis means swelling of a whole finger or toe.
@@ -28,5 +30,6 @@ The GRAPPA poster is a lesson illustration, not the course overview navigation. 
 - [GRAPPA domains in PsA](../../../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png) ? Six domain cards, including axial disease, dactylitis and enthesitis (lesson pages 1, 2; text_and_image). Defines the six disease domains; displayed on page 1. Limits: Technical poster wording is explained in the lesson; not a drug selection tool.
 - [PsA One-Pager Intro](../../../originals/PsA%20One-Pager%20Intro.jpeg) ? Box B: related conditions and comorbidities below six core domains (lesson pages 2; text). Separates eye/bowel conditions and broader health needs from core domains. Limits: Drug preferences in the poster are not copied into a personal treatment plan.
 - [Common PsA comorbidities](../../../originals/poster%20of%20the%20comorbidities%20seen%20in%20PSA%20%28top%2010%29.png) ? Card headings: cardiovascular disease, diabetes, obesity, depression (lesson pages 2; text). Introduces heart health, blood sugar, weight and mood. Limits: Numerical prevalence claims are not used; no study population is identified on the image.
+- [RheumNotes Anatomy Chart](../../../originals/RheumNotes_Anatomy_Chart.pdf) ? PDF p. 1: nine-region anatomy chart (lesson pages 2; text). Distinguish anatomical regions from disease domains. Limits: General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending.
 - [National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis](https://www.psoriasis.org/psa-related-conditions/)
 - [NIAMS: Psoriatic Arthritis](https://www.niams.nih.gov/health-topics/psoriatic-arthritis)

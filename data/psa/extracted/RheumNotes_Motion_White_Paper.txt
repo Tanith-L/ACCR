@@ -1,0 +1,1857 @@
+--- PDF page 1 ---
+RHEUMNOTES
+©
+●
+Motion Component
+Movement, Exercise and Rehabilitation for People Living With Arthritis and 
+Rheumatic Disease, and the Families and Caregivers Who Support Them
+Progress, not perfection.
+A Companion White Paper to the RheumNotes© Patient-Education Platform
+Frederick T. Murphy, DO, FACP, FACR
+Rheumatologist · Pittsburgh, Pennsylvania
+November 2026
+
+--- PDF page 2 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   2
+Contents
+A Note From the Author............................................................................................................................... 3
+Executive Summary...................................................................................................................................... 4
+Subject-Matter Outline.................................................................................................................................5
+The Motion Component at a Glance............................................................................................................. 7
+Why Movement Matters in Arthritis.............................................................................................................8
+The Importance of Physical and Occupational Therapy.................................................................................9
+Modalities in Plain Language...................................................................................................................... 11
+Isotonic Resistance Exercise........................................................................................................................12
+Tai Chi........................................................................................................................................................ 15
+Yoga: Gentle, Chair and Adaptive................................................................................................................16
+Chair and Seated Exercise...........................................................................................................................17
+Safety and Red Flags...................................................................................................................................19
+Pacing and Fatigue......................................................................................................................................21
+Behavior Change and Adherence: Progress, Not Perfection........................................................................ 22
+Regional Module 1: Neck (Cervical Spine)................................................................................................... 23
+Regional Module 2: Shoulders.................................................................................................................... 27
+Regional Module 3: Elbows.........................................................................................................................31
+Regional Module 4: Spine (Thoracic and Lumbar)....................................................................................... 35
+Regional Module 5: Hips.............................................................................................................................39
+Regional Module 6: Knees.......................................................................................................................... 42
+Regional Module 7: Ankles......................................................................................................................... 45
+Regional Module 8: Feet.............................................................................................................................49
+Regional Module 9: Hands and Wrists.........................................................................................................53
+Content-Format Plan: Principles and Topics................................................................................................56
+YouTube Series and Playlist Structure.........................................................................................................58
+Social Media Plan....................................................................................................................................... 59
+Illustration Style Guide and In-App Delivery............................................................................................... 60
+Evidence Base.............................................................................................................................................62
+Disclaimer...................................................................................................................................................64
+
+--- PDF page 3 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   3
+A Note From the Author
+In my years of practicing rheumatology, I have learned that two of the 
+most powerful treatments I can offer do not come in a pill bottle or a 
+syringe. They are knowledge and movement. Medicines have 
+transformed what is possible for people with rheumatoid arthritis, 
+psoriatic arthritis, spondyloarthritis and the many other conditions 
+we treat. But the people who do best over the long run are almost 
+always the ones who keep moving, in whatever way their bodies 
+allow.
+I also know how hard that can be. When your knees ache, your hands 
+are stiff in the morning, or fatigue sits on you like a heavy coat, "just 
+exercise more" is not helpful advice. It can feel like one more thing 
+you are failing at. That is exactly why the theme of this component is 
+progress, not perfection. Five minutes in a chair counts. One more 
+stand-up from the couch than last week counts. Starting again after a 
+flare counts most of all.
+Rheumy, the RheumNotes© chatbot 
+guide, will help patients find the right 
+routine, set goals, and celebrate small 
+wins.
+The RheumNotes© Motion Component is designed to meet people where they are. It brings together 
+plain-language articles, friendly illustrations, short videos led by the RheumNotes© physical therapist, 
+social media content and visual mind maps, organized by topic and by body region. It is written for 
+patients, but also for spouses, adult children, friends and caregivers, because movement is easier when 
+someone is doing it with you.
+This content is meant to be used by any rheumatology or medical practice. It is general by design, and it 
+is never a substitute for the individual advice of your own clinician or therapist. Please talk with your 
+care team before starting a new program, especially if you have had a recent flare, surgery, a fall, or a 
+change in your health.
+Wherever you are starting from, I hope this helps you take the next small step.
+Frederick T. Murphy, DO, FACP, FACR
+Rheumatologist, Pittsburgh, Pennsylvania
+
+--- PDF page 4 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   4
+Executive Summary
+Movement is one of the most consistently recommended non-drug treatments in rheumatology. The 
+2019 American College of Rheumatology (ACR)/Arthritis Foundation guideline for osteoarthritis of the 
+hand, hip and knee strongly recommends exercise, tai chi (for hip and knee OA) and self-efficacy and 
+self-management programs. The 2022 ACR guideline on exercise, rehabilitation, diet and integrative 
+interventions for rheumatoid arthritis strongly recommends consistent engagement in exercise, 
+alongside disease-modifying medicines. Yet many patients do not know where to start, are afraid of 
+making things worse, or have been given advice that does not fit their bodies or their lives.
+The RheumNotes© Motion Component closes that gap. It extends the RheumNotes© platform, which 
+already delivers plain-language, multi-format, clinician-reviewed education, into the everyday work of 
+moving with arthritis. It is built around six pillars:
+ Foundations: why movement matters, how physical and occupational therapy help, and how to 
+protect joints.
+ Exercise types: isotonic resistance training with bands and light weights, Tai Chi, gentle and adaptive 
+yoga, and chair-based exercise.
+ Safety: flares, hot swollen joints, osteoporosis, joint replacement, and clear "stop and call" red flags.
+ Self-management: pacing, fatigue, and behavior change built on the principle of progress, not 
+perfection.
+ Nine regional modules: neck, shoulders, elbows, spine, hips, knees, ankles, feet, and hands and 
+wrists, each with common conditions, plain-language modalities, starter exercises (always including 
+a chair option), an illustration and a mind map.
+ A multi-format content plan: article titles, illustration lists, YouTube series and scripts, social posts 
+for Instagram, Facebook, X and TikTok, and mind maps for every region and topic.
+Content is written at about a 6th–8th grade reading level, uses diverse, age-appropriate imagery of 
+middle-aged and older adults, and features the RheumNotes© physical therapist as the trusted on-
+screen guide. Every piece of content is intended for review by clinicians before publication and is general 
+enough for any practice to adopt.
+Important
+This white paper and the content it describes are for education only. They are not a substitute for 
+individualized medical advice, diagnosis or treatment. Patients should check with their own clinician or 
+physical therapist before starting any new exercise program.
+
+--- PDF page 5 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   5
+Subject-Matter Outline
+The outline below maps the full scope of the Motion Component. It serves as the master index for 
+writers, illustrators, video producers, app developers and clinician reviewers.
+1. Foundations of Movement in Arthritis
+1.1 Why movement matters
+◦  Joint nourishment and "motion is lotion"
+◦  Muscle strength as joint protection
+◦  Balance and fall prevention
+◦  Heart health, weight, mood, sleep and fatigue
+1.2 Types of exercise
+◦  Range of motion and flexibility
+◦  Strengthening (isotonic resistance)
+◦  Aerobic / endurance
+◦  Balance and neuromotor
+◦  Mind-body (Tai Chi, yoga)
+1.3 Progress, not perfection: the guiding principle
+2. The Rehabilitation Team
+2.1 Physical therapy (PT): what it is, what to expect
+2.2 Occupational therapy (OT) and hand therapy
+2.3 When to ask for a referral
+2.4 Joint protection principles
+2.5 Assistive devices and adaptive tools
+2.6 Modalities in plain language
+◦  Heat and cold
+◦  TENS and ultrasound
+◦  Splints, orthotics, bracing and taping
+◦  Activity modification
+3. Exercise Programs
+3.1 Isotonic resistance exercise
+◦  Bands and light weights
+◦  Sets, reps and rest
+◦  Progression ladder
+◦  Pain rules: the 2-hour rule, the next-day check
+3.2 Tai Chi
+3.3 Yoga: gentle, chair and adaptive
+3.4 Chair and seated exercise
+3.5 Walking, water and other aerobic options (brief)
+4. Safety
+4.1 Exercising during and after a flare
+4.2 Hot, swollen joints
+4.3 Osteoporosis precautions
+4.4 After joint replacement
+
+--- PDF page 6 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   6
+4.5 Red flags: when to stop and call
+5. Self-Management
+5.1 Pacing and fatigue
+◦  Boom-and-bust cycle
+◦  Activity-rest cycling
+◦  The 4 Ps: plan, prioritize, pace, position
+5.2 Behavior change and adherence
+◦  Small goals and action plans
+◦  Habit stacking and self-monitoring
+◦  Restarting after setbacks
+6. Regional Modules
+6.1 Neck
+6.2 Shoulders
+6.3 Elbows
+6.4 Spine (thoracic and lumbar)
+6.5 Hips
+6.6 Knees
+6.7 Ankles
+6.8 Feet
+6.9 Hands and wrists
+◦  Each module: conditions · modalities · 3–5 starter exercises incl. chair option · illustration · content 
+plan · mind map
+7. Content-Format Plan
+7.1 Text articles
+7.2 Illustrations
+7.3 YouTube: videos, scripts, series and playlists
+7.4 Social media: Instagram, Facebook, X, TikTok
+7.5 Mind maps
+7.6 In-app delivery and Rheumy
+8. Evidence, Review and Disclaimer
+8.1 Guideline basis
+8.2 Clinical review workflow
+8.3 Educational disclaimer
+
+--- PDF page 7 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   7
+The Motion Component at a Glance
+This mind map shows how the parts of the Motion Component connect. In the app, each branch opens a 
+hub with articles, videos and routines.
+Figure 1. Overall mind map of the RheumNotes© Motion Component.
+
+--- PDF page 8 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   8
+Why Movement Matters in Arthritis
+For many years, people with arthritis were told to rest their joints. We now know that, for most people, 
+the opposite is true. Regular, appropriate movement is part of treatment for osteoarthritis, rheumatoid 
+arthritis, psoriatic arthritis, axial spondyloarthritis and many other rheumatic diseases.
+What movement does for your joints and body
+Benefit In plain language
+Joint nourishment Cartilage has no blood supply of its own. Gentle loading and unloading helps move 
+joint fluid in and out, which is why people say "motion is lotion."
+Strength Strong muscles act like shock absorbers and take stress off the joints.
+Flexibility Moving joints through their range helps prevent stiffness and keeps everyday tasks 
+possible.
+Balance Balance work lowers the risk of falls, which matters more as we age or if bones are 
+thin.
+Heart and whole-body 
+health
+Many forms of inflammatory arthritis raise heart risk. Activity supports heart health, 
+weight, blood sugar and blood pressure.
+Mood, sleep and fatigue Regular activity often improves mood, sleep and energy, even though it may feel like 
+the last thing you want to do.
+The four building blocks
+General physical activity guidance applies to most people with arthritis, adjusted to their abilities: 
+aerobic activity (walking, cycling, water exercise), strengthening, flexibility, and balance. The U.S. 
+Physical Activity Guidelines for Americans advise adults to aim for about 150 minutes per week of 
+moderate activity plus muscle strengthening on at least two days, and note that people with chronic 
+conditions should be as active as their abilities and conditions allow. Some activity is better than none.
+Progress, not perfection
+You do not have to hit any target on day one. If 150 minutes a week sounds impossible, start with 5 
+minutes a day. That is progress, and it counts.
+
+--- PDF page 9 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   9
+The Importance of Physical and Occupational Therapy
+The RheumNotes© physical therapist guides a supervised band exercise.
+Physical therapists (PTs) and occupational therapists (OTs) are some of the most valuable partners a 
+person with arthritis can have. Guidelines note that exercise programs tend to work better when they 
+are supervised and tailored, and the 2022 ACR rheumatoid arthritis guideline conditionally recommends 
+comprehensive PT and OT, ideally discussed early in the disease course.
+What each does
+Physical Therapist (PT) Occupational Therapist (OT) / Hand 
+Therapist
+Main focus Movement, strength, walking, balance and 
+mobility
+Daily tasks: dressing, cooking, work, hobbies, 
+hand use
+Typical help Personalized exercise program
+Gait and balance training
+Cane or walker fitting
+Pain-relief techniques
+Joint protection and energy conservation
+Splints and hand orthoses
+Adaptive tools and home changes
+Hand therapy exercises
+Good question to 
+ask
+"Which exercises are safe for my joints right 
+now?"
+"How can I do this task with less pain?"
+When to ask for a referral
+ Pain or stiffness is limiting walking, stairs, sleep or work.
+ You have had a fall, feel unsteady, or are afraid of falling.
+ You are starting an exercise program and are not sure what is safe.
+
+--- PDF page 10 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   10
+ Hand pain makes buttons, jars, writing or phones hard.
+ You are recovering from a flare, an injury, or joint surgery.
+ You have osteoporosis and want a safe strengthening plan.
+ Fatigue is getting in the way of daily life.
+Patients can simply ask their clinician: "Would physical or occupational therapy help me?" Coverage 
+and access vary, and in some areas direct access to physical therapy may be possible.
+Joint protection principles
+Principle Example
+Use larger, stronger joints Carry a bag on your forearm or shoulder instead of gripping it with your 
+fingers.
+Spread the load Lift with both hands, palms up; slide pots instead of lifting them.
+Avoid staying in one position too 
+long
+Change positions every 20–30 minutes; take short movement breaks.
+Respect pain Pain that lasts well after an activity is a signal to change how you do it.
+Plan and simplify Keep frequently used items within easy reach, between waist and shoulder 
+height.
+Assistive devices and adaptive tools
+Device How it helps
+Cane Held in the hand opposite the painful hip or knee; reduces joint load and 
+improves balance.
+Walker or rollator More support for balance and longer distances; a rollator has a seat for rest 
+breaks.
+Reachers and sock aids Reduce bending for people with hip, knee or back problems.
+Jar openers, built-up utensils, key 
+turners
+Reduce grip force for painful hands.
+Raised toilet seat, shower chair, grab 
+bars
+Safer bathroom transfers.
+Splints and orthoses Rest or support painful joints, such as the base of the thumb or the wrist.
+
+--- PDF page 11 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   11
+Modalities in Plain Language
+"Modalities" are tools and treatments used alongside exercise to ease pain and make movement easier. 
+They are helpers, not replacements for active exercise.
+Modality What it is What patients should know
+Heat Warm packs, warm shower, paraffin 
+wax for hands
+Best before activity to loosen stiff joints. 15–20 
+minutes. Avoid on hot, swollen joints or numb skin.
+Cold Ice pack or frozen vegetables 
+wrapped in a towel
+Best after activity or for a sore, swollen area. 10–15 
+minutes. Protect the skin.
+TENS Small device sending a mild tingling 
+current through skin pads
+Some people find short-term comfort. The 2019 
+ACR/Arthritis Foundation guideline recommends 
+against TENS for knee and hip OA, so ask your 
+clinician or PT.
+Therapeutic 
+ultrasound
+Sound waves applied with a wand 
+and gel by a therapist
+A passive treatment with limited evidence. Active 
+exercise is preferred.
+Splints and orthotics Supports for hands, wrists, feet and 
+ankles
+Hand orthoses for thumb-base OA are strongly 
+recommended in the 2019 OA guideline. Foot 
+orthotics can spread pressure.
+Bracing Knee, ankle or back supports Knee braces for tibiofemoral OA are strongly 
+recommended in the 2019 OA guideline; fitting 
+matters.
+Taping Elastic or rigid tape applied to the 
+skin
+May provide support or feedback; conditionally 
+recommended for thumb-base OA.
+Activity modification Changing how, when or how much 
+you do something
+Not "stop doing it" but "do it smarter": shorter 
+bouts, better tools, better positions.
+
+--- PDF page 12 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   12
+Isotonic Resistance Exercise
+Seated band row: a joint-friendly way to strengthen the upper back.
+Isotonic exercise means the muscle moves the joint through a range of motion against resistance, like 
+lifting a light weight or stretching a band. Strengthening is one of the best ways to protect joints and 
+stay independent. The 2022 ACR RA guideline conditionally recommends consistent resistance exercise 
+and emphasizes that it should be prescribed and supervised appropriately by physical therapists or other 
+qualified professionals.
+Equipment
+ Resistance bands and tubes: inexpensive, portable and color-coded from light to heavy (colors vary 
+by brand). Loop handles help sore hands.
+ Light hand weights: 1–5 lb dumbbells, or household items such as soup cans or water bottles.
+ Ankle weights: light cuff weights for seated knee and hip exercises.
+ Body weight: sit-to-stands, wall push-ups and heel raises.
+Sets, reps and rest
+Element Starting point (adjust with your PT)
+Repetitions 8–12 slow, controlled reps; start with 5 if that is what feels right
+Sets 1 set to start; build to 2–3
+Speed About 2 seconds up, 3 seconds down; no jerking
+
+--- PDF page 13 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   13
+Element Starting point (adjust with your PT)
+Effort "Moderate": you could do a few more reps at the end of the set
+Frequency 2–3 non-consecutive days per week for each muscle group
+Rest About a minute between sets; a rest day between strength sessions
+The progression ladder
+1.  Master the movement with no resistance.
+2.  Add reps, up to 12–15.
+3.  Add a second, then third set.
+4.  Move to the next band color or add 1 lb.
+5.  Drop back down a step whenever you need to; that is still progress.
+Pain rules
+The 2-hour pain rule
+A widely used rule of thumb among therapists: if your joint pain is noticeably worse 2 hours after 
+exercise than it was before, you did a little too much. Next time, reduce the reps, resistance or range, but 
+do not stop altogether.
+ During exercise: mild discomfort or muscle effort is OK. Sharp, stabbing or rapidly increasing pain is 
+a signal to stop that movement.
+ The next-day check: more stiffness or swelling the next morning than usual suggests the dose was 
+too high.
+ Muscle soreness versus joint pain: a dull ache in the muscle a day or two after a new exercise is 
+normal; joint swelling is not.
+ During a flare: switch to gentle range-of-motion exercise for the affected joints.
+Sample starter routine (about 15 minutes, seated or supported)
+Exercise Muscle group Start
+Sit-to-stand Thighs, hips 1 × 5–10
+Seated band row Upper back 1 × 10
+Wall push-up Chest, arms 1 × 8
+Seated knee extension Thighs 1 × 10 each
+Standing heel raise at counter Calves, balance 1 × 10
+Band outward rotation Shoulders 1 × 10
+
+--- PDF page 14 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   14
+
+--- PDF page 15 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   15
+Tai Chi
+Tai Chi combines slow, flowing movement, weight shifting and calm breathing.
+Tai Chi is a traditional Chinese mind-body practice of slow, flowing movements, gentle weight shifts and 
+focused breathing. It builds strength, balance and body awareness, and many people find it calming. The 
+2019 ACR/Arthritis Foundation guideline strongly recommends Tai Chi for people with knee and hip 
+osteoarthritis, and the 2022 ACR RA guideline conditionally recommends mind-body exercise, including 
+Tai Chi and qigong.
+Why it suits arthritis
+ Low impact and adaptable; can be done standing, with a chair for support, or fully seated.
+ Trains balance through slow weight shifting, which may help with fall prevention.
+ Combines movement with relaxation and breathing, which can help with stress and pain coping.
+ Social: classes are often available at community centers and senior centers, and online.
+Getting started
+ Look for beginner or arthritis-adapted classes and instructors experienced with older adults.
+ Start with 10–15 minutes and build up.
+ Keep knees soft and slightly bent, but avoid deep knee bends that cause pain.
+ Seated Tai Chi is a full option, not a lesser one.
+
+--- PDF page 16 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   16
+Yoga: Gentle, Chair and Adaptive
+Adaptive yoga uses props such as blocks, straps and blankets so each pose fits the body.
+Yoga combines postures, breathing and relaxation. For people with arthritis, the best yoga is gentle and 
+adapted to the body. The 2019 OA guideline conditionally recommends yoga for knee OA, and the 2022 
+RA guideline includes yoga among recommended mind-body exercises.
+Types of yoga that fit
+Style What it looks like
+Gentle yoga Slow pace, simple poses, lots of rest and breathing.
+Chair yoga All poses done seated or standing with a chair for support. Excellent for balance 
+concerns or limited floor mobility.
+Adaptive yoga Uses props (blocks, straps, bolsters, blankets) and modifications so poses fit each 
+person's joints and abilities.
+Restorative yoga Supported, resting poses held longer for relaxation.
+Safety tips
+ Tell the instructor about your arthritis, joint replacements and osteoporosis.
+ Skip or modify poses that put heavy weight on painful wrists, knees or the neck (for example, 
+headstands and deep kneeling).
+ With osteoporosis, avoid deep forward folds and forceful twists.
+ "Comfortable effort" is the goal; you should be able to breathe smoothly.
+
+--- PDF page 17 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   17
+Chair and Seated Exercise
+Chair exercise is real exercise, and it can be done almost anywhere.
+Chair-based exercise opens the door for people with balance problems, severe joint pain, fatigue, recent 
+flares, or limited mobility, and for anyone who wants a safe place to start. A sturdy, armless chair 
+without wheels, placed on a non-slip surface, is all that is needed.
+Chair-Strong: a 10-minute full-body routine
+Minute Move Notes
+0–1 Seated marching + arm swings Warm-up; easy breathing
+1–2 Shoulder rolls and chin tucks Neck and shoulder mobility
+2–3 Seated knee extension Alternate legs
+3–4 Seated band row Upper back strength
+4–5 Ankle pumps and alphabet Circulation and ankle range
+5–6 Sit-to-stand (hands OK) Leg strength
+6–7 Seated torso side reach Gentle side bend
+7–8 Overhead reach (as able) Shoulder range
+8–9 Hand tendon glides Finger mobility
+9–10 Slow breathing Cool-down
+Flare-day version
+
+--- PDF page 18 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   18
+On flare days, keep the moves but skip resistance and shrink the range. Gentle motion helps prevent 
+stiffness. Rest is part of the plan.
+
+--- PDF page 19 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   19
+Safety and Red Flags
+Exercise is very safe for most people with arthritis when it is matched to their condition. These 
+guardrails help patients and caregivers know when to adjust, and when to stop and call.
+Traffic-light guide
+What you notice What to do
+GREEN: keep going Mild muscle effort; slight discomfort that 
+settles within 2 hours
+Continue; progress slowly
+YELLOW: adjust Pain worse 2+ hours later; more morning 
+stiffness; mild new swelling
+Reduce reps, resistance or range; add 
+rest; switch to gentle motion
+RED: stop and call See the red-flag list below Stop exercising and contact your 
+clinician, or call 911 for an emergency
+Flares and hot, swollen joints
+During a flare, inflamed joints are more vulnerable. Keep them moving gently through a comfortable 
+range a few times a day, but avoid resistance and high-impact activity on those joints until the flare 
+settles. A single joint that becomes suddenly hot, red and very swollen, especially with fever, may be 
+infected or due to gout and needs same-day medical attention.
+Osteoporosis precautions
+ Many people with rheumatic disease have thinner bones, sometimes due to steroid use.
+ Strength, balance and posture exercises are encouraged and help reduce fall risk.
+ Avoid loaded forward bending of the spine (sit-ups, crunches, toe touches), forceful twisting, and 
+high-impact moves if fracture risk is high.
+ Choose spine-friendly options: chest lifts, bridges, wall push-ups and balance work.
+ Sudden new back pain should be checked for a compression fracture.
+After joint replacement
+ Follow your surgeon's and therapist's instructions exactly; precautions differ by joint and surgical 
+approach.
+ After some hip replacements, certain positions (such as deep bending or crossing legs) are restricted 
+for a period.
+ After knee replacement, regaining full straightening and bending is a key goal; work closely with 
+your PT.
+ Report new warmth, redness, drainage, fever or calf swelling promptly.
+
+--- PDF page 20 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   20
+When to stop and call
+Red flags: stop exercising and contact your clinician
+• Chest pain or pressure, severe shortness of breath, fainting or a racing, irregular heartbeat (call 911).
+• A joint that becomes hot, red and very swollen, especially with fever or chills.
+• Sudden severe pain, a "pop," or inability to bear weight or use a limb.
+• New numbness, tingling or weakness in an arm or leg; new loss of bowel or bladder control 
+(emergency).
+• Calf pain, swelling and warmth (possible blood clot).
+• New headache, jaw pain with chewing, or vision changes, especially with polymyalgia rheumatica.
+• A fall with injury, or dizziness that does not settle.
+
+--- PDF page 21 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   21
+Pacing and Fatigue
+Fatigue is one of the most common and frustrating symptoms of inflammatory arthritis. It is real, and it 
+is not laziness. Pacing helps people get more done over the week with less crash-and-recover.
+The boom-and-bust cycle
+On a good day, it is tempting to do everything: clean the whole house, garden all afternoon, take a long 
+walk. Then comes a day or two of pain and exhaustion. Over time, this cycle can lead to doing less and 
+less. Pacing breaks the cycle by keeping activity steadier from day to day.
+The 4 Ps
+P What it means Example
+Plan Look at the week ahead and spread out demanding 
+tasks
+Laundry Monday, groceries Wednesday
+Prioritize Decide what must be done, what can wait, and what 
+someone else can do
+Ask family to carry heavy bags
+Pace Break tasks into chunks with rest in between Garden 20 minutes, rest 10
+Position Use body-friendly positions and tools Sit to chop vegetables; use a long-handled 
+duster
+Movement and fatigue
+ Regular, moderate activity often improves energy over time.
+ Short bouts (5–10 minutes) spread across the day count.
+ Plan exercise for your best time of day; many people with RA do better later in the morning once 
+stiffness eases.
+ Sleep, mood, anemia, thyroid problems and disease activity can all affect fatigue; tell your clinician if 
+it is getting worse.
+
+--- PDF page 22 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   22
+Behavior Change and Adherence: Progress, Not 
+Perfection
+Knowing that exercise helps is not the same as doing it. Most people start strong and then life, pain or a 
+flare gets in the way. The Motion Component treats restarting as a skill, and celebrates consistency over 
+intensity. EULAR's physical activity recommendations encourage using behavior-change techniques such 
+as self-monitoring, goal setting, action planning, feedback and problem solving.
+Practical strategies
+Strategy How it works in RheumNotes©
+Start tiny Goals so small they feel almost too easy: "2 minutes of seated marching after breakfast."
+Action plans What, when, where, how much. Rheumy helps patients write one each week and rate 
+their confidence (aim for 7 out of 10 or higher).
+Habit stacking Attach movement to something already done daily: heel raises while brushing teeth, 
+quad sets while the kettle boils.
+Self-monitoring Simple check-ins in the app: minutes moved, pain, energy. Trends, not grades.
+Celebrate small wins Badges and messages for consistency and restarts, never just for big numbers.
+Plan for setbacks A "flare-day plan" and a "restart plan" written in advance.
+Social support Invite a partner, caregiver or friend; join a class or online group.
+What "progress, not perfection" sounds like
+"I only did half my routine today" becomes "I moved today."
+"I missed a whole week" becomes "I'm starting again today."
+"I can't do what I used to" becomes "I can do more than I could last month."
+
+--- PDF page 23 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   23
+Regional Module 1: Neck (Cervical Spine)
+The neck carries the weight of the head all day. 
+Stiffness and aching are common as discs and 
+small joints wear with age, and some forms of 
+inflammatory arthritis can involve the neck. 
+The goal is easy, relaxed motion and good 
+posture, never forcing the head to its end 
+range.
+Progress, not perfection: Stiff neck? Move it 
+gently, often, and pain-free. Small range today, 
+bigger range next month.
+Gentle seated neck side-bend: slow, small, and pain-free.
+Common conditions
+Condition What it means
+Cervical spondylosis (neck 
+osteoarthritis)
+Wear-and-tear changes in the discs and small joints. Causes stiffness and 
+aching that is often worse in the morning or after long screen or driving time.
+Muscle strain and myofascial neck 
+pain
+Tight, tender muscles across the neck and upper shoulders, often linked to 
+posture, stress and poor sleep position.
+Pinched nerve (cervical 
+radiculopathy)
+Pain, tingling or numbness that travels into the arm or hand. New weakness 
+needs prompt medical review.
+Rheumatoid arthritis (RA) of the neck RA can affect the top of the neck (C1–C2). People with long-standing RA 
+should avoid forceful neck stretching or manipulation and should tell their 
+care team before any surgery.
+Axial spondyloarthritis (axSpA) and 
+psoriatic arthritis (PsA)
+Inflammatory back and neck stiffness that improves with movement. Regular 
+posture and range-of-motion work helps keep the neck mobile.
+Polymyalgia rheumatica (PMR) New aching and stiffness of the neck, shoulders and hips in people over 50. 
+This needs a doctor's evaluation, not just exercise.
+Modalities, explained simply
+Modality What it does
+Heat A warm shower or a heating pad on low for 15–20 minutes relaxes tight muscles 
+before stretching.
+Cold An ice pack wrapped in a thin towel for 10–15 minutes can calm a sore, irritated 
+area after activity.
+
+--- PDF page 24 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   24
+Modality What it does
+TENS A small battery device that sends a gentle tingling signal through skin pads. Some 
+people find short-term relief. Ask your PT whether it fits your plan.
+Posture and ergonomics Raise screens to eye level, use a headset for long calls, and take a movement break 
+every 30–45 minutes.
+Pillow and sleep position A supportive pillow that keeps the neck level with the body. Avoid sleeping on the 
+stomach with the head turned.
+Soft collar Only for short periods if advised. Long-term use weakens neck muscles.
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Seated chin tuck (chair-based). Sit tall in a sturdy chair. Gently glide your chin straight back, as if 
+making a double chin. Hold 3–5 seconds. Relax. Repeat 5–10 times.
+2.  Neck turns. Sitting tall, slowly turn your head to look over one shoulder, only as far as is comfortable. 
+Return to center. Repeat 5 times each side.
+3.  Side bends. Tilt your ear toward your shoulder without lifting the shoulder. Hold 10–20 seconds. 
+Repeat 3 times each side.
+4.  Shoulder-blade squeeze. Sitting or standing, gently draw your shoulder blades back and down. Hold 
+5 seconds. Repeat 10 times.
+5.  Shoulder rolls. Roll both shoulders up, back and down in slow circles. 10 times. Great for desk breaks.
+Safety note
+Skip full head circles and forceful end-range stretches. If you have RA with neck pain, or any arm 
+numbness or weakness, check with your clinician before starting.
+Content-format plan: Neck
+Text: patient-reading-level articles
+Article title Summary
+Why Is My Neck So Stiff in the Morning? Explains neck arthritis and muscle tension in simple terms, and why 
+gentle movement helps more than rest.
+Five Desk-Friendly Neck Moves A short routine to do at the computer or kitchen table, with a chair-based 
+version.
+Neck Pain and RA: What to Know Why people with RA need extra care with neck stretches, and which 
+warning signs to report.
+
+--- PDF page 25 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   25
+Images: illustration list
+ Seated chin tuck, side view with arrow of motion
+ Desk ergonomics: screen at eye level, feet flat
+ Good versus poor pillow height
+ Simple neck anatomy: discs and small joints
+YouTube
+Video title Length Playlist
+Gentle Neck Mobility in 5 Minutes (Seated) 5 min Move Well: Neck
+Fix Your Setup: Desk and Phone Posture 4 min Move Well: Neck
+Neck Arthritis Explained 6 min Move Well: Neck
+Sample script outline: Gentle Neck Mobility in 5 Minutes (Seated)
+ Hook (0:00–0:20): "Stiff neck when you wake up? Let's loosen it together, right from your chair."
+ Safety note (0:20–0:45): move slowly, stay in a pain-free range; RA patients check with their doctor first.
+ Moves (0:45–4:00): chin tucks, neck turns, side bends, shoulder rolls, each demonstrated by the RheumNotes© 
+physical therapist, with an easier option.
+ Breath and posture reset (4:00–4:30).
+ Close (4:30–5:00): "One minute today is a win. Progress, not perfection." Link to the Neck playlist and the app.
+Social media
+Platform Caption and hashtags
+Instagram Your neck doesn't need a full workout. It needs a little kindness. Try 5 slow chin tucks at your next red 
+light (parked!) or coffee break.
+#NeckPain #ArthritisLife
+Facebook Caregivers: a 2-minute neck routine is easy to do together. Sit side-by-side, roll shoulders, tuck chins, 
+breathe. Small steps add up.
+#CaregiverTips
+X Stiff neck? Move it gently, often, and pain-free. Small range today, bigger range next month.
+#Arthritis
+TikTok POV: you just fixed your screen height and your neck says thank you. (Show screen raised on books, then 
+chin tuck.)
+#DeskStretch #ChronicIllness
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+
+--- PDF page 26 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   26
+Mind map
+Figure 2. Neck module mind map.
+
+--- PDF page 27 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   27
+Regional Module 2: Shoulders
+The shoulder is the most mobile joint in the 
+body, which also makes it easy to irritate. Most 
+shoulder problems respond to a mix of gentle 
+range of motion, gradual strengthening of the 
+rotator cuff and shoulder blade muscles, and 
+smart changes to daily tasks.
+Progress, not perfection: Shoulder rehab rule: 
+stretch, don't stab. Gentle and daily beats hard 
+and rare.
+Pendulum exercise: let the arm hang and swing in small circles.
+Common conditions
+Condition What it means
+Rotator cuff tendinopathy Irritation of the tendons that steady the shoulder. Pain on the outside of the 
+upper arm, especially reaching overhead or sleeping on that side.
+Subacromial bursitis Inflamed fluid sac above the rotator cuff, often occurring with tendinopathy.
+Adhesive capsulitis (frozen shoulder) The joint lining thickens and tightens, causing pain and then marked stiffness. 
+More common in people with diabetes or thyroid disease. Usually improves 
+over many months with patient, gentle stretching.
+Shoulder osteoarthritis Wear of the ball-and-socket joint causing deep ache, grinding and loss of 
+motion.
+RA and PsA involvement Inflammation of the shoulder joint lining causing warmth, swelling and 
+morning stiffness.
+Polymyalgia rheumatica (PMR) Both shoulders stiff and achy, especially in the morning, in people over 50. 
+See your doctor.
+Modalities, explained simply
+Modality What it does
+Heat before, cold after Warmth loosens the shoulder before stretching; a cold pack can settle soreness 
+afterward.
+Activity modification Keep frequently used items between waist and shoulder height. Use a step stool 
+instead of reaching overhead.
+
+--- PDF page 28 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   28
+Modality What it does
+Sleep support Hug a pillow or rest the arm on a pillow to avoid lying on the painful side.
+Taping Some PTs use tape to cue better shoulder-blade position. It is a helper, not a fix.
+Ultrasound and TENS Passive treatments your PT may use for comfort. Active exercise is the main 
+ingredient.
+Sling Only short-term if prescribed. Too much rest stiffens the shoulder.
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Pendulum. Lean forward with your good hand on a table. Let the sore arm hang. Gently sway your 
+body so the arm swings in small circles. 30 seconds each direction.
+2.  Table slides (chair-based). Sit at a table with your hand on a towel. Slide the towel forward as you 
+lean, then back. 10 times.
+3.  Cane-assisted reach. Lying down or seated, hold a cane or broom handle with both hands and use 
+the good arm to help lift the sore arm forward. 10 times.
+4.  Band outward rotation. Elbows at your sides, bent to 90 degrees, holding a light band. Rotate 
+forearms outward a few inches. 2 sets of 10.
+5.  Seated shoulder-blade squeeze. Sit tall and draw shoulder blades back and down. Hold 5 seconds. 10 
+times.
+Safety note
+Shoulder exercises should feel like a stretch, not a stab. Sudden loss of strength after a fall, or a hot, 
+swollen shoulder, needs prompt medical review.
+Content-format plan: Shoulders
+Text: patient-reading-level articles
+Article title Summary
+Frozen Shoulder: Slow and Steady Wins What adhesive capsulitis is, why it takes time, and how daily gentle 
+stretches help.
+Rotator Cuff 101 Plain-language guide to the shoulder's small but mighty muscles.
+Reaching Without the Ouch Joint-protection tips for kitchens, closets and car seat belts.
+Images: illustration list
+ Pendulum exercise with circular arrows
+
+--- PDF page 29 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   29
+ Table towel slide, seated
+ Kitchen layout: items at waist-to-shoulder height
+ Simple shoulder anatomy: rotator cuff and bursa
+YouTube
+Video title Length Playlist
+Frozen Shoulder: Daily 8-Minute Routine 8 min Move Well: Shoulders
+Rotator Cuff Strength with a Band (Seated) 7 min Move Well: Shoulders
+Shoulder Pain at Night: Better Sleep Positions 4 min Move Well: Shoulders
+Sample script outline: Frozen Shoulder: Daily 8-Minute Routine
+ Hook: "Can't reach the top shelf? Let's work on that, one inch at a time."
+ Why it hurts: 30-second rotator cuff explainer with a simple animation.
+ Moves: pendulum, table slides, cane-assisted reach, band outward rotation; easier and harder options shown.
+ Pain rules: mild stretch is OK; use the 2-hour pain rule.
+ Close: "An inch more reach is real progress." Point to the Shoulders playlist.
+Social media
+Platform Caption and hashtags
+Instagram Frozen shoulder is a marathon, not a sprint. Today's goal: 5 table slides. That's it. That counts.
+#FrozenShoulder
+Facebook Tip for families: move the coffee mugs down one shelf. Small changes protect sore shoulders every day.
+#JointProtection
+X Shoulder rehab rule: stretch, don't stab. Gentle and daily beats hard and rare.
+#RotatorCuff
+TikTok Pendulum swings: the laziest-looking exercise that actually helps. (Demo with gentle music.)
+#ShoulderPain #PTTok
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+
+--- PDF page 30 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   30
+Mind map
+Figure 3. Shoulders module mind map.
+
+--- PDF page 31 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   31
+Regional Module 3: Elbows
+Elbow pain is often caused by overloaded 
+tendons at the bony points on either side of 
+the elbow, rather than by the joint itself. 
+Inflammatory arthritis can also cause elbow 
+swelling and loss of straightening. Gradual 
+loading of the forearm muscles is the core of 
+recovery.
+Progress, not perfection: Tendons like slow, 
+steady load. Rest alone rarely fixes tennis elbow.
+Wrist lifts with a light weight strengthen the forearm muscles 
+that attach at the elbow.
+Common conditions
+Condition What it means
+Lateral epicondylitis (tennis elbow) Pain on the outer elbow with gripping, lifting or turning a doorknob. Very 
+common, and most people do not play tennis.
+Medial epicondylitis (golfer's elbow) Pain on the inner elbow with gripping or wrist bending.
+Olecranon bursitis A soft swelling at the tip of the elbow. If it is red, hot or painful, it may be 
+infected or due to gout, so call your clinician.
+RA and PsA of the elbow Joint swelling and difficulty fully straightening the arm. Early motion helps 
+preserve range.
+Elbow osteoarthritis Less common; causes stiffness and catching, often in people who did heavy 
+manual work.
+Modalities, explained simply
+Modality What it does
+Counterforce strap A band worn just below the elbow that can ease tendon strain during activity.
+Wrist splint Resting the wrist can unload the forearm tendons during flares or at night.
+Cold 10–15 minutes after aggravating activity.
+
+--- PDF page 32 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   32
+Modality What it does
+Activity modification Lift with palms up, use both hands, choose larger, padded handles and lighter 
+tools.
+Elbow pad Avoid leaning on the tip of the elbow if you have bursitis.
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Wrist extensor stretch. Arm straight in front, palm down. Use the other hand to gently bend the 
+wrist down. Hold 20–30 seconds. 3 times.
+2.  Seated slow wrist lowering (chair-based). Sit with your forearm on a table, hand over the edge, palm 
+down, holding a light weight or soup can. Use the other hand to help lift; then slowly lower on a 
+count of 3–4. 2 sets of 10.
+3.  Gentle grip squeeze. Squeeze a soft ball or rolled washcloth for 3 seconds, then relax. 10 times.
+4.  Forearm turns. Elbow bent at your side, hold a light hammer or water bottle and slowly turn the 
+palm up and down. 10 times.
+5.  Elbow bend and straighten. Slowly bend and straighten the elbow fully. 10 times, especially during 
+RA flares to keep range.
+Safety note
+Tendon pain often improves slowly over weeks to months. A hot, red elbow swelling should be checked 
+promptly.
+Content-format plan: Elbows
+Text: patient-reading-level articles
+Article title Summary
+Tennis Elbow, No Tennis Required What causes outer elbow pain and how gradual strengthening helps.
+Lift Like a Pro: Palms Up Everyday joint-protection techniques for elbows and wrists.
+When Elbow Swelling Needs a Call Bursitis, gout and infection warning signs.
+Images: illustration list
+ Forearm on table, slow wrist lowering
+ Counterforce strap placement
+ Palms-up lifting versus palms-down
+ Elbow anatomy: tendon attachments
+
+--- PDF page 33 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   33
+YouTube
+Video title Length Playlist
+Tennis Elbow Relief: 6-Minute Routine 6 min Move Well: Elbows
+Grip-Friendly Kitchen Tools 4 min Move Well: Elbows
+Elbow Range of Motion for RA 5 min Move Well: Elbows
+Sample script outline: Tennis Elbow Relief: 6-Minute Routine
+ Hook: "Opening a jar shouldn't hurt this much."
+ Explain tendon overload with a simple rubber-band analogy.
+ Moves: wrist stretch, seated slow lowering with a soup can, grip squeeze, forearm turns.
+ Joint protection: palms-up lifting, two-hand carry.
+ Close: "A can of soup today, a heavier one next month. Progress, not perfection."
+Social media
+Platform Caption and hashtags
+Instagram Your new favorite piece of gym equipment: a can of soup. Slow wrist lowering, 10 reps. Done.
+#TennisElbow
+Facebook Carry groceries with palms up and both arms. Your elbows will notice.
+#JointProtection
+X Tendons like slow, steady load. Rest alone rarely fixes tennis elbow.
+#ElbowPain
+TikTok 3 jar-opening hacks that save your elbows. (Rubber grip, jar opener, tap the lid.)
+#ArthritisHacks
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+Mind map
+Figure 4. Elbows module mind map.
+
+--- PDF page 34 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   34
+
+--- PDF page 35 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   35
+Regional Module 4: Spine (Thoracic and Lumbar)
+Back pain is one of the most common reasons 
+people limit activity. Most back pain is not 
+dangerous, and staying active is usually better 
+than bed rest. Inflammatory back pain from 
+axial spondyloarthritis behaves differently from 
+mechanical back pain, and both benefit from 
+regular movement.
+Progress, not perfection: Osteoporosis tip: 
+strengthen the back by lifting the chest, not by 
+doing crunches.
+ Cat-cow: gently round and arch the back in rhythm with the 
+breath.
+Common conditions
+Condition What it means
+Lumbar spondylosis (back 
+osteoarthritis)
+Age-related disc and joint changes. Stiffness and aching, often worse after 
+sitting or standing still.
+Spinal stenosis Narrowing around the nerves causing leg pain or heaviness with walking that 
+eases when sitting or leaning forward (like on a shopping cart).
+Axial spondyloarthritis (axSpA) Inflammatory back pain that starts before age 45, is worse with rest and in 
+the morning, and improves with exercise. Posture, extension and breathing 
+exercises are key.
+Osteoporotic compression fracture Sudden mid-back pain, sometimes after a minor strain, in people with low 
+bone density. Needs medical review and specific exercise precautions.
+Muscle strain and nonspecific low 
+back pain
+Very common, usually improves within weeks with gentle activity.
+DISH (diffuse idiopathic skeletal 
+hyperostosis)
+Extra bone along the spine causing stiffness, more common in older adults 
+and people with diabetes.
+Modalities, explained simply
+Modality What it does
+Heat Warmth before activity helps stiff backs, especially in the morning.
+Cold Can help after a flare-up of mechanical pain.
+TENS Some people use it for short-term comfort. Not a replacement for exercise.
+Bracing Short-term only and as advised, for example after a compression fracture.
+Activity modification Change positions often, bend at the hips and knees, keep loads close to the body.
+
+--- PDF page 36 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   36
+Modality What it does
+Active over passive For axSpA, active supervised exercise is generally preferred over passive 
+treatments such as massage, ultrasound and heat.
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Pelvic tilts. Lie on your back with knees bent. Gently flatten your lower back into the floor, then relax. 
+10 times.
+2.  Cat-cow. On hands and knees, slowly round your back up, then let it gently sag. Move with your 
+breath. 8–10 times. (Skip the rounding if you have osteoporosis.)
+3.  Bridges. Lying on your back, knees bent, squeeze your buttocks and lift your hips a few inches. Hold 3 
+seconds. 10 times.
+4.  Seated tall-spine stretch (chair-based). Sit at the front of a chair, hands behind your head or crossed 
+on your chest, and gently lift your chest toward the ceiling. Hold 5 seconds. 8 times.
+5.  Deep-breathing chest expansion. Sit tall, hands on your lower ribs, and breathe in slowly so the ribs 
+widen. 5 slow breaths. Especially helpful in axSpA.
+Safety note
+With osteoporosis, avoid sit-ups, toe touches and twisting under load. New bowel or bladder changes, 
+numbness in the groin, or leg weakness are emergencies.
+Content-format plan: Spine
+Text: patient-reading-level articles
+Article title Summary
+Back Pain: Why Moving Beats Resting Reassuring overview of common back pain and gentle activity.
+Is It Inflammatory Back Pain? How axSpA back pain differs and why it matters to tell your doctor.
+Strong Bones, Safe Moves Back exercises that are safe with osteoporosis, and which to skip.
+Images: illustration list
+ Cat-cow two-panel sequence
+ Safe lifting: bend at hips and knees
+ Seated tall-spine stretch
+ Spine overview: discs, joints and nerves
+
+--- PDF page 37 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   37
+YouTube
+Video title Length Playlist
+Morning Back Loosener (10 Minutes) 10 min Move Well: Spine
+axSpA: Posture and Breathing Routine 8 min Move Well: Spine
+Osteoporosis-Safe Back Strengthening 7 min Move Well: Spine
+Sample script outline: Morning Back Loosener (10 Minutes)
+ Hook: "Stiff back first thing in the morning? This routine starts in bed."
+ Mechanical versus inflammatory back pain in 45 seconds.
+ Moves: pelvic tilts, bridges, seated tall-spine stretch, breathing.
+ Osteoporosis note: what to skip.
+ Close: "Ten minutes, most mornings, is a great goal. Five is still great."
+Social media
+Platform Caption and hashtags
+Instagram Morning back stiffness that eases as you move? Tell your doctor; it can be a clue. Then try our 10-minute 
+loosener.
+#AxialSpA #BackPain
+Facebook Bed rest used to be the answer for back pain. Now we know gentle movement usually helps more.
+#BackHealth
+X Osteoporosis tip: strengthen the back by lifting the chest, not by doing crunches.
+#BoneHealth
+TikTok Shopping-cart lean: why people with spinal stenosis love grocery stores. (Explain forward-lean relief.)
+#SpinalStenosis
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+Mind map
+Figure 5. Spine module mind map.
+
+--- PDF page 38 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   38
+
+--- PDF page 39 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   39
+Regional Module 5: Hips
+Strong hip muscles protect the hip joint, 
+support balance and make walking, stairs and 
+getting up from a chair easier. Pain on the 
+outside of the hip is often a tendon problem 
+rather than arthritis, while groin pain more 
+often comes from the joint itself.
+Progress, not perfection: Cane goes in the hand 
+opposite the sore hip. Small detail, big difference.
+Standing side leg lift at a sturdy chair builds hip strength and 
+balance.
+Common conditions
+Condition What it means
+Hip osteoarthritis Deep groin or front-of-thigh pain and stiffness, trouble putting on shoes and 
+socks.
+Greater trochanteric pain syndrome 
+(GTPS)
+Pain on the outside of the hip from irritated gluteal tendons and bursa. 
+Worse lying on that side, climbing stairs or crossing legs.
+Axial SpA and sacroiliac joint 
+involvement
+Buttock pain that may alternate sides, worse with rest.
+RA and PsA of the hip Less common, but can cause groin pain and stiffness.
+Osteonecrosis (avascular necrosis) Loss of blood supply to the hip bone, a rare risk with long-term steroid use. 
+New, persistent groin pain should be reported.
+Modalities, explained simply
+Modality What it does
+Cane Use a cane in the hand opposite the painful hip. A PT can set the right height.
+Sleep position Place a pillow between the knees; avoid lying directly on a painful side.
+Heat or cold Heat for stiffness; cold for a sore outer hip after activity.
+Activity modification Avoid crossing legs and standing with weight shifted onto one hip. Use a raised 
+seat or cushion if low chairs are hard.
+Weight management For hip OA with excess weight, even modest weight loss can lighten the load on 
+the joint.
+
+--- PDF page 40 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   40
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Sit-to-stand (chair-based). From a sturdy chair, scoot forward, lean slightly and stand up, using your 
+hands if needed. Sit back down slowly. 5–10 times.
+2.  Standing side leg lift. Hold a chair back. Lift one leg out to the side, keeping toes forward and your 
+body upright. 10 times each side.
+3.  Bridges. Lying on your back, knees bent, lift your hips a few inches. 10 times.
+4.  Seated marching. Sit tall and lift one knee a few inches, then the other. 20 marches.
+5.  Hip flexor stretch. Stand holding a counter, step one foot back and gently tuck the pelvis until you 
+feel a stretch in the front of the hip. 20 seconds each side.
+Safety note
+After a hip replacement, follow your surgeon's specific movement precautions, which vary by surgical 
+approach. Sudden inability to bear weight needs urgent care.
+Content-format plan: Hips
+Text: patient-reading-level articles
+Article title Summary
+Outside Hip Pain Is Not Always Arthritis Explains GTPS and how strengthening and sleep changes help.
+Using a Cane the Right Way Which hand, what height, and how it protects the hip.
+Getting Up From a Chair With Confidence Why sit-to-stand is one of the most useful exercises.
+Images: illustration list
+ Standing side leg lift at a chair
+ Pillow between knees sleep position
+ Correct cane height and opposite-hand use
+ Hip anatomy: joint versus outer tendons
+YouTube
+Video title Length Playlist
+Sit-to-Stand: Your Most Important Exercise 5 min Move Well: Hips
+Hip Strength at the Kitchen Counter 7 min Move Well: Hips
+Outer Hip Pain (GTPS) Explained 6 min Move Well: Hips
+
+--- PDF page 41 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   41
+Sample script outline: Sit-to-Stand: Your Most Important Exercise
+ Hook: "If getting out of a chair is hard, this video is for you."
+ Why hip strength matters for balance and falls.
+ Moves: sit-to-stand with options (higher chair, hands, cushion), side leg lifts, seated marching.
+ Count your reps this week; try one more next week.
+ Close: "Every stand-up counts. Progress, not perfection."
+Social media
+Platform Caption and hashtags
+Instagram Commercial break challenge: stand up and sit down 5 times. You just did hip strengthening.
+#HipArthritis
+Facebook Outer hip pain at night? Try a pillow between your knees tonight and tell us how you slept.
+#GTPS #SleepBetter
+X Cane goes in the hand opposite the sore hip. Small detail, big difference.
+#MobilityAids
+TikTok Sit-to-stand progress diary: week 1 vs week 6. (Diverse patients, real counts.)
+#ProgressDiary
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+Mind map
+Figure 6. Hips module mind map.
+
+--- PDF page 42 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   42
+Regional Module 6: Knees
+Knee osteoarthritis is one of the best-studied 
+areas for exercise. Strong thigh and hip 
+muscles act like shock absorbers. Many forms 
+of activity help, so the best exercise is the one 
+you will actually do.
+Progress, not perfection: For knee OA, the best 
+exercise is the one you'll keep doing.
+Seated knee extension strengthens the thigh muscles that 
+protect the knee.
+Common conditions
+Condition What it means
+Knee osteoarthritis Pain with walking, stairs and getting up, plus morning stiffness that usually 
+lasts less than 30 minutes.
+Patellofemoral pain Pain around or behind the kneecap with stairs, squatting or sitting with knees 
+bent for a long time.
+Baker's cyst A fluid pocket behind the knee, often linked to arthritis. Sudden calf swelling 
+needs urgent review to rule out a blood clot.
+Pes anserine bursitis Tenderness on the inner knee just below the joint line.
+RA, PsA and gout Warm, swollen knee with fluid. Exercise is adjusted during flares.
+Modalities, explained simply
+Modality What it does
+Knee brace Unloader-style braces for inner or outer knee OA, and kneecap braces for 
+patellofemoral pain, can help some people. Ask your PT to fit one.
+Taping Kneecap taping may ease pain short-term during activity.
+Cane Held in the opposite hand, a cane can reduce knee load.
+Heat and cold Heat for stiffness; cold for a swollen, sore knee after activity.
+Footwear Cushioned, supportive shoes. Avoid high heels.
+Weight management For knee OA with excess weight, losing even a modest amount can reduce pain.
+
+--- PDF page 43 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   43
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Quad sets. Sit or lie with your leg straight. Tighten the thigh muscle to press the back of the knee 
+down. Hold 5 seconds. 10 times.
+2.  Seated knee extension (chair-based). Sit tall. Slowly straighten one knee, toes pointed up. Hold 3 
+seconds, lower slowly. 10 times each leg. Add a light ankle weight later.
+3.  Straight-leg raise. Lying on your back, one knee bent, lift the straight leg to the height of the bent 
+knee. 10 times.
+4.  Mini sit-to-stand. Stand up from a higher chair or cushion; lower the seat over weeks as you get 
+stronger. 5–10 times.
+5.  Heel slides. Lying down, slide your heel toward your buttock to bend the knee, then straighten. 10 
+times.
+Safety note
+A hot, red, very swollen knee, especially with fever, needs prompt medical attention. After a knee 
+replacement, follow your surgical team's plan, which usually stresses getting the knee fully straight.
+Content-format plan: Knees
+Text: patient-reading-level articles
+Article title Summary
+Strong Thighs, Happier Knees How quadriceps strength supports the knee joint.
+Knee Braces: Which One, and When? Plain-language guide to unloader and kneecap braces.
+Stairs Without Fear "Up with the good, down with the bad" and other tips.
+Images: illustration list
+ Seated knee extension side view
+ Unloader brace versus kneecap brace
+ Stair technique: up with the good leg
+ Knee anatomy: cartilage, kneecap, thigh muscles
+YouTube
+Video title Length Playlist
+Knee OA: 10-Minute Chair Strength 10 min Move Well: Knees
+Kneecap Pain Explained 5 min Move Well: Knees
+Stairs Made Easier 4 min Move Well: Knees
+
+--- PDF page 44 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   44
+Sample script outline: Knee OA: 10-Minute Chair Strength
+ Hook: "Knees creaky on the stairs? Strong thighs can help."
+ Quick anatomy: the quads as shock absorbers.
+ Moves: quad sets, seated knee extension, mini sit-to-stand, heel slides.
+ Progression: add reps, then a light ankle weight.
+ Close: "Ten reps today, twelve next week. Progress, not perfection."
+Social media
+Platform Caption and hashtags
+Instagram No gym? No problem. Your kitchen chair is a knee strengthening machine. 10 seated knee extensions 
+each side.
+#KneeOA
+Facebook Stairs tip to share with Grandpa: up with the good, down with the bad, and always hold the rail.
+#FallPrevention
+X For knee OA, the best exercise is the one you'll keep doing.
+#Osteoarthritis
+TikTok Quad sets while the kettle boils. (Split-screen: kettle, leg tightening.)
+#HabitStacking
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+Mind map
+Figure 7. Knees module mind map.
+
+--- PDF page 45 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   45
+Regional Module 7: Ankles
+Healthy ankles give balance and a confident 
+step. Ankle and heel problems can come from 
+old sprains, tendon overload, or inflammatory 
+arthritis that targets where tendons attach to 
+bone.
+Progress, not perfection: Achilles tendons love 
+slow heel lowering. Count to three on the way 
+down.
+Heel raises at the counter: hands on the counter for balance, 
+rise slowly, lower slowly.
+Common conditions
+Condition What it means
+Achilles tendinopathy Pain and stiffness in the cord at the back of the heel, worse first thing in the 
+morning or when starting activity.
+Achilles enthesitis in SpA and PsA Inflammation where the tendon attaches to the heel bone, a clue to 
+spondyloarthritis.
+Ankle osteoarthritis Often follows an old injury; causes stiffness and swelling.
+Posterior tibial tendon dysfunction Inner-ankle pain and a slowly flattening arch.
+RA ankle and hindfoot involvement Swelling and pain that make walking on uneven ground hard.
+Chronic ankle instability Frequent "rolling" of the ankle after past sprains.
+Modalities, explained simply
+Modality What it does
+Supportive shoes and heel lifts A small heel lift can unload a sore Achilles.
+Ankle brace Lace-up or stirrup braces for instability or arthritis.
+Orthotics Arch supports for flattening arches.
+Cold 10–15 minutes after activity for a sore tendon.
+Taping Some PTs tape for extra support during activity.
+
+--- PDF page 46 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   46
+Modality What it does
+Activity modification Swap hills and stairs for flat walking, cycling or water exercise while a tendon 
+settles.
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Ankle pumps and alphabet (chair-based). Sitting, point and flex your foot 10 times, then trace the 
+alphabet in the air with your big toe.
+2.  Heel raises at the counter. Hold the counter, rise slowly onto your toes, and lower slowly over 3 
+seconds. 10 times.
+3.  Seated towel calf stretch. Sit with leg straight, loop a towel around the ball of your foot and gently 
+pull toward you. Hold 30 seconds. 3 times.
+4.  Band ankle moves. Sitting, with a light band around your foot, push down, pull up, turn in and turn 
+out. 10 each.
+5.  Supported single-leg balance. Hold the counter and stand on one foot for up to 30 seconds. Use both 
+hands at first.
+Safety note
+Sudden snapping pain in the back of the heel, or calf swelling, warmth and redness, needs urgent care.
+Content-format plan: Ankles
+Text: patient-reading-level articles
+Article title Summary
+Achilles Pain: Slow Is the Secret Why slow, controlled heel lowering helps tendons.
+Heel Pain Can Be a Clue How enthesitis can signal spondyloarthritis or psoriatic arthritis.
+Balance Training for Steadier Steps Simple, safe balance work at the kitchen counter.
+Images: illustration list
+ Heel raises at a counter
+ Seated towel calf stretch
+ Ankle alphabet with dotted path
+ Ankle anatomy: Achilles and heel attachment
+
+--- PDF page 47 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   47
+YouTube
+Video title Length Playlist
+Achilles Rehab: Starter Program 7 min Move Well: Ankles
+Kitchen-Counter Balance 5 min Move Well: Ankles
+Heel Pain and SpA 5 min Move Well: Ankles
+Sample script outline: Achilles Rehab: Starter Program
+ Hook: "Back-of-heel pain first thing in the morning? Let's talk Achilles."
+ Tendon overload and enthesitis in plain words.
+ Moves: ankle pumps, towel stretch, heel raises with slow lowering, balance.
+ When to call: sudden snap, swelling, redness.
+ Close: "Slow and steady really does win here."
+Social media
+Platform Caption and hashtags
+Instagram Brush your teeth, hold the counter, balance on one foot. Switch sides. Two minutes of balance training, 
+done.
+#BalanceTraining
+Facebook Heel pain plus back pain plus psoriasis? Mention it to your doctor. These can be connected.
+#PsoriaticArthritis
+X Achilles tendons love slow heel lowering. Count to three on the way down.
+#Achilles
+TikTok Ankle alphabet challenge: can you get to Z? (Seated, all ages.)
+#ChairExercise
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+Mind map
+Figure 8. Ankles module mind map.
+
+--- PDF page 48 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   48
+
+--- PDF page 49 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   49
+Regional Module 8: Feet
+Feet carry us everywhere, and foot pain 
+changes how we walk, which can strain the 
+knees, hips and back. Good footwear, orthotics 
+and simple daily stretches go a long way.
+Progress, not perfection: Swollen "sausage" toe? 
+That's worth a call to your rheumatology team.
+Rolling the arch over a small ball is a gentle, seated self-care 
+option for plantar fasciitis.
+Common conditions
+Condition What it means
+Plantar fasciitis Sharp heel pain with the first steps in the morning or after sitting.
+RA forefoot involvement Pain in the balls of the feet, sometimes described as walking on pebbles.
+Hallux rigidus (big-toe arthritis) Stiff, painful big toe, especially when pushing off.
+Bunions and hammertoes Changes in toe alignment that make shoes uncomfortable.
+Gout Sudden, severe, red, hot swelling, often at the big toe. Needs medical 
+treatment.
+PsA dactylitis ("sausage toe") A whole toe swells. Tell your rheumatology team.
+Modalities, explained simply
+Modality What it does
+Orthotics Over-the-counter or custom inserts support the arch and spread pressure.
+Shoes Wide toe box, cushioned sole, firm heel counter. Rocker-bottom soles can help a 
+stiff big toe.
+Metatarsal pads Small pads that take pressure off the balls of the feet.
+Night splint Holds the foot gently flexed overnight for stubborn plantar fasciitis.
+Cold Roll the arch over a frozen water bottle for 5–10 minutes.
+
+--- PDF page 50 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   50
+Modality What it does
+Activity modification Avoid going barefoot on hard floors; wear supportive slippers at home.
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Seated plantar fascia stretch (chair-based). Cross one foot over the other knee, pull the toes back 
+toward the shin until you feel a stretch in the arch. Hold 10–20 seconds. 5 times. Great before the 
+first steps of the day.
+2.  Arch roll. Seated, roll your arch over a small ball or water bottle for 1–2 minutes.
+3.  Towel scrunches. Seated, place a towel on the floor and scrunch it toward you with your toes. 10 
+times.
+4.  Toe spreads. Spread your toes wide, hold 5 seconds, relax. 10 times.
+5.  Wall calf stretch. Hands on a wall, step one foot back, keep the heel down and lean forward. Hold 30 
+seconds each side.
+Safety note
+People with diabetes or reduced foot feeling should check their feet daily and get professional advice 
+before using cold or heat. A red, hot, swollen toe or foot needs medical care.
+Content-format plan: Feet
+Text: patient-reading-level articles
+Article title Summary
+First Steps Hurt? Plantar Fasciitis Basics Why heel pain is worse in the morning and what helps.
+Shoe Shopping With Arthritis A simple checklist for comfortable, supportive shoes.
+Feet and Inflammatory Arthritis How RA and PsA affect the feet and what to watch for.
+Images: illustration list
+ Seated plantar fascia stretch
+ Shoe checklist: toe box, heel counter, sole
+ Arch roll with ball
+ Foot anatomy: plantar fascia and forefoot joints
+
+--- PDF page 51 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   51
+YouTube
+Video title Length Playlist
+Morning Heel Pain Routine (Before You Stand) 5 min Move Well: Feet
+How to Choose Arthritis-Friendly Shoes 6 min Move Well: Feet
+Foot Strength in a Chair 6 min Move Well: Feet
+Sample script outline: Morning Heel Pain Routine (Before You Stand)
+ Hook: "Do your first steps out of bed hurt? Try this before you stand up."
+ Plantar fascia explained with a bowstring image.
+ Moves: seated arch stretch, arch roll, towel scrunches, calf stretch.
+ Shoes and orthotics quick tips.
+ Close: "Five stretches before your first step. Small habit, big help."
+Social media
+Platform Caption and hashtags
+Instagram Before your feet hit the floor: 5 seated arch stretches. Your heels will thank you.
+#PlantarFasciitis
+Facebook Shopping for shoes? Go in the afternoon when feet are largest, and bring your orthotics.
+#FootHealth
+X Swollen "sausage" toe? That's worth a call to your rheumatology team.
+#PsA
+TikTok Frozen water bottle foot roll: the cheapest heel-pain helper. (Demo.)
+#HeelPain
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+Mind map
+Figure 9. Feet module mind map.
+
+--- PDF page 52 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   52
+
+--- PDF page 53 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   53
+Regional Module 9: Hands and Wrists
+Hands are how we care for ourselves and 
+others. Hand arthritis affects buttons, jars, keys 
+and phones. The aim is to keep the fingers 
+moving, protect the joints during daily tasks, 
+and use smart tools so the hands last.
+Progress, not perfection: Push doors with your 
+palm, not your fingers. Joint protection is all 
+about small swaps.
+Gentle putty squeezes support grip, but go easy during a flare.
+Common conditions
+Condition What it means
+Hand osteoarthritis Bony bumps at the end and middle finger joints and pain at the base of the 
+thumb (CMC joint), especially with pinching.
+De Quervain's tenosynovitis Pain on the thumb side of the wrist with lifting or twisting, common in new 
+parents and grandparents.
+Trigger finger A finger catches or locks when bending, then snaps straight.
+Carpal tunnel syndrome Numbness and tingling in the thumb, index and middle fingers, often at night.
+Rheumatoid arthritis Swelling of the knuckles and wrists with morning stiffness lasting more than 
+30 minutes.
+Psoriatic arthritis Can affect the end finger joints, cause whole-finger swelling (dactylitis) and 
+nail changes.
+Modalities, explained simply
+Modality What it does
+Thumb-base (CMC) splint A hand orthosis for thumb-base OA can ease pain and improve function.
+Wrist splint Worn at night for carpal tunnel or for wrist rest during RA flares.
+Warm water or paraffin Warmth before exercise loosens stiff fingers.
+Kinesiology tape Sometimes used for thumb-base OA; your hand therapist can show you.
+Joint protection Use the largest, strongest joints for the job: carry bags on the forearm, push doors 
+with the palm.
+Adaptive tools Jar openers, built-up utensils, key turners, button hooks and lever door handles.
+
+--- PDF page 54 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   54
+Starter exercises
+Do these slowly, within a comfortable range, and stop any move that causes sharp pain. Start with the lower 
+number of repetitions.
+1.  Tendon glides (chair-based at a table). Move through five positions: straight hand, hook fist, flat fist, 
+full fist, straight fingers. Hold each 3 seconds. 5 rounds.
+2.  Make an O. Touch the thumb to each fingertip in turn, making a round O. 5 rounds.
+3.  Wrist bends on a table. Forearm on the table, hand over the edge. Bend the wrist up and down 
+gently. 10 times.
+4.  Finger walks. Hand flat on the table, walk each finger toward the thumb side. 5 rounds.
+5.  Gentle putty squeeze. Squeeze soft putty or a sponge for 3 seconds, then relax. 10 times. Skip during 
+flares.
+Safety note
+During a flare, keep to gentle motion without resistance. Wrist splints should not cause numbness. New 
+hand weakness or constant numbness needs evaluation.
+Content-format plan: Hands and Wrists
+Text: patient-reading-level articles
+Article title Summary
+Hands That Work: Joint Protection Made 
+Simple
+Practical techniques for everyday tasks.
+Thumb-Base Arthritis and Splints How a CMC orthosis helps and how to wear it.
+Tingling Fingers at Night Carpal tunnel basics and when to see a clinician.
+Images: illustration list
+ Five tendon-glide positions in sequence
+ Thumb CMC splint on a hand
+ Adaptive tools flat-lay: jar opener, built-up fork, key turner
+ Hand anatomy: finger joints and thumb base
+YouTube
+Video title Length Playlist
+Morning Hand Warm-Up (5 Minutes) 5 min Move Well: Hands and Wrists
+Joint Protection in the Kitchen 6 min Move Well: Hands and Wrists
+
+--- PDF page 55 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   55
+Video title Length Playlist
+Hand Gadgets That Help 5 min Move Well: Hands and Wrists
+Sample script outline: Morning Hand Warm-Up (5 Minutes)
+ Hook: "Stiff fingers in the morning? Let's warm them up together."
+ Warm-water start, then tendon glides on screen with a close-up of the hands.
+ Make an O, wrist bends, finger walks.
+ Flare-day version: motion only, no squeezing.
+ Close: "Moving your fingers is a win, every single day."
+Social media
+Platform Caption and hashtags
+Instagram Coffee warming your hands? Perfect time for 5 tendon glides. Swipe to see each position.
+#HandArthritis
+Facebook Gift idea for someone with arthritis: a good jar opener and built-up utensils. Practical and kind.
+#CaregiverTips
+X Push doors with your palm, not your fingers. Joint protection is all about small swaps.
+#RheumatoidArthritis
+TikTok 5 gadgets that make hand arthritis easier, rated by our RheumNotes© physical therapist.
+#ArthritisHacks
+Every post also carries the core tags #ProgressNotPerfection #RheumNotes #MoveWithArthritis.
+Mind map
+Figure 10. Hands and Wrists module mind map.
+
+--- PDF page 56 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   56
+Content-Format Plan: Principles and Topics
+Editorial principles
+Principle Standard
+Reading level About 6th–8th grade; short sentences, everyday words, medical terms explained once.
+Voice Warm, encouraging, never shaming. Every piece reflects "progress, not perfection."
+Generalized Suitable for any rheumatology or medical practice; no practice-specific claims or 
+branding beyond RheumNotes©.
+Inclusive imagery Diverse adults, mostly middle-aged and older, with a range of body sizes, abilities and 
+mobility aids.
+Accessibility Captions on all videos, alt text on all images, large fonts, high contrast, and audio 
+versions of articles.
+Safety Every exercise item includes a chair or easier option and a "stop if" line.
+Review Clinician and physical therapist review before publication; scheduled re-review.
+Core topics: content-format plan
+Topic Articles Illustrations YouTube Sample post
+Why Movement 
+Matters
+Motion Is Lotion: Why Joints 
+Love to Move
+Exercise as Medicine for 
+Arthritis
+Joint cartilage nourished 
+by motion (diagram)
+Four kinds of exercise 
+icons
+Start Here: Moving With 
+Arthritis (6 min)
+Instagram: “Motion 
+is lotion. Even 5 
+minutes counts 
+today.”
+PT and OT What a Physical Therapist 
+Does
+What an Occupational 
+Therapist Does
+Is It Time for a PT/OT 
+Referral?
+PT guiding band exercise
+OT kitchen with adaptive 
+tools
+Meet the RheumNotes© 
+Physical Therapist (3 
+min)
+PT or OT? What's the 
+Difference (5 min)
+Facebook: “Ask your 
+clinician: Would PT 
+or OT help me? It's 
+one of the best 
+questions you can 
+ask.”
+Resistance 
+Exercise
+Getting Started With Bands 
+and Light Weights
+The 2-Hour Pain Rule
+Band colors light to 
+heavy
+Seated band row
+Sets-and-reps visual
+Bands 101 (6 min)
+Full-Body Band Workout 
+(Seated) (15 min)
+TikTok: “Band color 
+doesn't matter. 
+Showing up does.”
+Tai Chi Tai Chi: Moving Meditation 
+for Arthritis
+Finding a Beginner Tai Chi 
+Class
+Group Tai Chi outdoors
+Weight-shift footprints
+Tai Chi for Beginners: 
+First 10 Minutes (10 min)
+Seated Tai Chi (8 min)
+Instagram: “Slow is 
+not lazy. Slow is Tai 
+Chi.”
+Yoga Gentle Yoga With Arthritis
+Props Are Your Friends
+Adaptive yoga with block 
+and strap
+Chair yoga sequence
+Chair Yoga for Stiff Joints 
+(12 min)
+Bedtime Gentle Stretch 
+(8 min)
+X: “Yoga isn't about 
+touching your toes. 
+It's about what you 
+notice on the way 
+down.”
+
+--- PDF page 57 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   57
+Topic Articles Illustrations YouTube Sample post
+Chair Exercise Chair-Strong: Full-Body 
+Seated Exercise
+Flare-Day Moves
+Chair class group
+Seated marching 
+sequence
+Chair Strong: 10-Minute 
+Full Body (10 min)
+Flare-Day Gentle Motion 
+(6 min)
+Facebook: “Seated 
+exercise is real 
+exercise.”
+Safety and Red 
+Flags
+When to Stop and Call
+Exercise With Osteoporosis
+Moving After Joint 
+Replacement
+Traffic-light safety chart
+Hot swollen joint icon
+Exercise Safety: Green, 
+Yellow, Red (5 min)
+Instagram: 
+“Listening to your 
+body is a skill, and it 
+counts as progress.”
+Pacing and 
+Fatigue
+Beating the Boom-and-Bust 
+Cycle
+The 4 Ps: Plan, Prioritize, 
+Pace, Position
+Boom-bust versus paced 
+line graph (illustrated, no 
+data)
+Energy battery icon
+Pacing 101 With Arthritis 
+Fatigue (6 min)
+TikTok: “Rest is part 
+of the plan, not a 
+failure of it.”
+Behavior Change Progress, Not Perfection: How 
+Habits Stick
+Restarting After a Setback
+Habit ladder
+Weekly progress tracker
+Building a Movement 
+Habit (5 min)
+Progress Stories (series)
+Instagram: “Missed 
+a day? Start again 
+today. That's the 
+whole secret.”
+
+--- PDF page 58 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   58
+YouTube Series and Playlist Structure
+The RheumNotes© physical therapist is the on-screen guide for exercise videos, with brief clinician 
+introductions for medical topics and Rheumy as an animated host for navigation and recaps. Videos are 
+short, captioned, and always show a seated or easier option.
+Playlist / Series Contents Typical length
+Start Here Welcome; Why Movement Matters; Meet the RheumNotes© 
+Physical Therapist; Safety Basics
+3–6 min
+Move Well by Region (9 
+playlists)
+Neck, Shoulders, Elbows, Spine, Hips, Knees, Ankles, Feet, Hands 
+and Wrists; 3 videos each to start
+4–10 min
+Chair Strong Seated full-body, seated cardio, flare-day motion 6–15 min
+Bands and Light Weights Bands 101, upper body, lower body, progression 6–15 min
+Tai Chi for Arthritis Beginner standing series and seated series 8–15 min
+Gentle and Chair Yoga Morning, bedtime, prop tutorials 8–15 min
+Ask the PT Short answers to common patient questions 1–3 min
+Progress Stories Patient and caregiver stories of small wins (with consent) 2–4 min
+Shorts 60-second single-exercise demos and tips for YouTube Shorts, 
+Reels and TikTok
+≤60 sec
+Sample video script outline: "Chair Strong: 10-Minute Full Body"
+1.  Open (0:00–0:30): Rheumy welcomes viewers. The RheumNotes© physical therapist: "Grab a sturdy 
+chair. Wherever you're starting, you're in the right place."
+2.  Safety (0:30–1:00): On-screen checklist: sturdy chair, water, stop if sharp pain, check with your 
+clinician first.
+3.  Warm-up (1:00–2:30): seated marching, arm swings, shoulder rolls.
+4.  Strength (2:30–7:00): knee extensions, band rows, sit-to-stands, heel raises, each with an easier and 
+harder option shown side by side.
+5.  Mobility (7:00–9:00): side reaches, ankle alphabet, hand tendon glides.
+6.  Cool-down (9:00–9:40): slow breathing.
+7.  Close (9:40–10:00): "If you did one move today, that's a win. Progress, not perfection." Card links to 
+the app and next video.
+
+--- PDF page 59 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   59
+Social Media Plan
+Voice and cadence
+ Voice: encouraging, practical, a little playful; never before-and-after body shaming.
+ Cadence: 3–5 posts per week per platform, rotating Region of the Week, Move of the Day, Myth vs 
+Fact, Caregiver Tip, and Progress Story.
+ Format by platform: Instagram carousels and Reels; Facebook longer tips and caregiver-focused 
+posts; X short tips and links; TikTok 15–60 second demos and relatable humor.
+ Safety line: every exercise post includes "Check with your clinician or PT before starting."
+ Community: respond with general education only; never give individual medical advice in 
+comments.
+Hashtag bank
+#ProgressNotPerfection  #RheumNotes  #MoveWithArthritis  #ArthritisExercise  #ChairExercise  #TaiChi  
+#GentleYoga  #JointProtection  #RheumatoidArthritis  #PsoriaticArthritis  #Osteoarthritis  #AxialSpA  
+#CaregiverTips  #ArthritisHacks  #PTTok
+Sample topic posts
+Platform Topic Caption
+Instagram Resistance bands Band color doesn't matter. Showing up does. 1 set today? That's a win. 
+#ProgressNotPerfection
+Facebook Tai Chi Tai Chi is slow on purpose. Slow builds balance. Find a beginner class near 
+you or try our seated video.
+X Pacing Rest is part of the plan, not a failure of it. #ArthritisFatigue
+TikTok Chair exercise Things I can do from my kitchen chair: get stronger. (Quick-cut demo of 5 
+seated moves.)
+Instagram Behavior change Missed a week? Start again today. That's the whole secret. 
+#ProgressNotPerfection
+
+--- PDF page 60 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   60
+Illustration Style Guide and In-App Delivery
+Illustration style
+ Flat, friendly vector style on white, with RheumNotes© blue (#1E4787) and green (#48A062) accents.
+ Diverse, fictional adults, mostly middle-aged and older; include canes, walkers and wheelchairs 
+naturally.
+ No text baked into images, so captions can be translated and kept accessible.
+ Show the exercise position clearly, with arrows added in layout (not in the art) where needed.
+ Anatomy diagrams use simple shapes and soft colors, not graphic medical imagery.
+Illustration master list (beyond regional lists)
+Topic Illustrations
+Foundations Motion-is-lotion cartilage diagram; four building blocks icons; traffic-light safety chart
+PT/OT PT guiding band exercise (included); OT kitchen with adaptive tools; cane height guide
+Resistance Seated band row (included); band strength ladder; sets-and-reps visual
+Mind-body Group Tai Chi (included); adaptive yoga with props (included); chair yoga sequence
+Chair exercise Chair class (included); 10-minute routine strip
+Pacing and behavior Boom-bust versus paced pattern (illustrative only); habit ladder; weekly tracker
+In-app delivery and Rheumy
+ Motion hub: topic and body-region tiles open articles, videos, routines and mind maps.
+ Rheumy, the chatbot guide: answers general questions, suggests routines based on chosen body 
+regions and comfort level, helps write weekly action plans, and reminds users of red flags. Rheumy 
+does not diagnose or replace clinical advice.
+ Routines and tracking: simple timers, check-ins for pain and energy, and celebrations for 
+consistency and restarts.
+ Caregiver mode: tips for supporting, encouraging and exercising together.
+ Clinician share: optional summaries patients can bring to appointments to support shared decision-
+making.
+Clinical review workflow
+1.  Draft by medical writer at the target reading level.
+2.  Review by the RheumNotes© physical therapist for exercise accuracy and safety.
+3.  Review by a rheumatologist for medical accuracy and guideline alignment.
+4.  Readability and accessibility check.
+5.  Publish, then re-review on a regular schedule or when guidelines change.
+
+--- PDF page 61 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   61
+
+--- PDF page 62 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   62
+Evidence Base
+The Motion Component is grounded in major rheumatology guidelines. Only well-established, verified 
+guidance is cited below; no statistics have been added beyond what these sources state.
+Guideline Key points relevant to the Motion Component
+2019 ACR/Arthritis Foundation 
+Guideline for OA of the Hand, Hip 
+and Knee
+Strongly recommends exercise for knee, hip and hand OA; supervised programs and 
+pairing with self-management tend to be more effective.
+Strongly recommends tai chi (knee/hip OA), self-efficacy and self-management 
+programs, cane use, hand orthoses for thumb-base (first CMC) OA, and tibiofemoral 
+knee bracing.
+Conditionally recommends balance exercise, yoga, kinesiotaping for first CMC OA, 
+patellofemoral bracing and thermal interventions; recommends against TENS for 
+knee/hip OA.
+2022 ACR Guideline for Exercise, 
+Rehabilitation, Diet and Additional 
+Integrative Interventions for RA
+Strongly recommends consistent engagement in exercise, used together with 
+DMARDs.
+Conditionally recommends aerobic, aquatic, resistance and mind-body exercise (yoga, 
+Tai Chi, qigong), and comprehensive PT and OT.
+Conditionally recommends rehabilitation interventions such as hand exercises, 
+splints/orthoses, and joint protection; stresses shared decision-making.
+2018 EULAR Recommendations for 
+Physical Activity in Inflammatory 
+Arthritis and OA
+Physical activity should be an integral part of standard care for RA, SpA, and hip/knee 
+OA.
+General activity recommendations (aerobic, strength, flexibility, neuromotor) are 
+applicable; plans should be shared decisions.
+Supports behavior-change techniques such as goal setting, self-monitoring and action 
+planning.
+2019 ACR/SAA/SPARTAN 
+Recommendations for Axial 
+Spondyloarthritis
+Strongly recommends physical therapy over no physical therapy.
+Conditionally recommends active PT (supervised exercise) over passive interventions 
+(massage, ultrasound, heat).
+Physical Activity Guidelines for 
+Americans, 2nd edition (2018)
+Adults: about 150 minutes/week of moderate aerobic activity and muscle 
+strengthening on 2 or more days; older adults add balance training.
+People with chronic conditions should be as active as their abilities and conditions 
+allow.
+References
+1. Kolasinski SL, Neogi T, Hochberg MC, et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for 
+the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Rheumatol. 2020;72(2):220–233. 
+doi:10.1002/art.41142. (Also published in Arthritis Care Res. doi:10.1002/acr.24131.)
+2. England BR, Smith BJ, Baker NA, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, 
+Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol. 2023;75(8):1299–
+1311. doi:10.1002/art.42507. (Also published in Arthritis Care Res. doi:10.1002/acr.25117.)
+3. Rausch Osthoff AK, Niedermann K, Braun J, et al. 2018 EULAR recommendations for physical activity in people with 
+inflammatory arthritis and osteoarthritis. Ann Rheum Dis. 2018;77(9):1251–1260.
+4. Ward MM, Deodhar A, Gensler LS, et al. 2019 Update of the American College of Rheumatology/Spondylitis 
+Association of America/Spondyloarthritis Research and Treatment Network Recommendations for the Treatment 
+
+--- PDF page 63 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   63
+of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Rheumatol. 2019. 
+doi:10.1002/art.41042.
+5. U.S. Department of Health and Human Services. Physical Activity Guidelines for Americans, 2nd edition. Washington, 
+DC: HHS; 2018.
+Note: The "2-hour pain rule" is presented as a widely used clinical rule of thumb, not as a formal guideline 
+recommendation.
+
+--- PDF page 64 ---
+RHEUMNOTES©   Motion Component White Paper
+Progress, not perfection. Educational content only. Not a substitute for individualized medical advice.   64
+Disclaimer
+Educational content only
+The RheumNotes© Motion Component, including this white paper, articles, illustrations, videos, social 
+media posts and in-app features, is provided for general educational purposes only. It is not a substitute 
+for individualized medical advice, diagnosis or treatment.
+Every person's condition is different. Patients should check with their own clinician or physical therapist 
+before starting any new exercise program, and especially after a flare, injury, fall, surgery or joint 
+replacement, or if they have osteoporosis, heart or lung disease, or other medical conditions.
+Stop exercising and seek medical care for any red-flag symptom described in this paper. In an emergency, 
+call 911.
+References to the RheumNotes© physical therapist and to Rheumy, the RheumNotes© chatbot, describe 
+educational roles. Neither provides individual medical care through this content.
+About the author
+Frederick T. Murphy, DO, FACP, FACR, is a rheumatologist in Pittsburgh, Pennsylvania, and the creator of 
+RheumNotes©, a patient-education platform for people living with arthritis and rheumatic disease and 
+the families and caregivers who support them.
+RHEUMNOTES©
+Progress, not perfection.

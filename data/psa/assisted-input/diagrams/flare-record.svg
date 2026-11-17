@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="840" viewBox="0 0 1100 840">
+<title>Bring a useful symptom record</title><desc>A symptom record includes what changed and when, sleep and energy, mood and daily tasks. Discuss contact routes and a personal flare plan with the care team.</desc>
+<rect width="1100" height="840" fill="#f4f8fa"/>
+<rect x="0" y="0" width="1100" height="12" rx="0" fill="#087f83"/>
+<text x="50" y="42" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#17364a">Bring a useful symptom record</text>
+<text x="50" y="108" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#526777">Small notes can help your team see patterns</text>
+<rect x="50" y="180" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="180" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="202" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">What changed, and when?</text>
+<text x="85" y="263" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Pain • Swelling • The body area affected</text>
+<rect x="50" y="360" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="360" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="382" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">How was your day?</text>
+<text x="85" y="443" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Sleep • Energy • Mood • A task that was hard</text>
+<rect x="50" y="540" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="540" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="562" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">What is the agreed plan?</text>
+<text x="85" y="623" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Who to contact • When to call • Help outside office hours</text>
+<text x="50" y="764" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#315669">Follow your own care team&#x27;s flare plan. Do not change drugs on your own.</text>
+</svg>

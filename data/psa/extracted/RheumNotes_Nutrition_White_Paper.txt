@@ -1,0 +1,2221 @@
+--- PDF page 1 ---
+RHEUMNOTES
+©
+●
+Nutrition Component
+Food, Nutrition and Evidence-Based Dietary Guidelines for People Living With 
+Arthritis and Rheumatic Disease, and the Families and Caregivers Who Support Them
+Nutrition is medicine.
+A Companion White Paper to the RheumNotes© Patient-Education Platform
+Frederick T. Murphy, DO, FACP, FACR
+Rheumatologist · Pittsburgh, Pennsylvania
+November 2026
+© 2026 Frederick T. Murphy. All rights reserved.
+
+--- PDF page 2 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   2
+Contents
+A Note From the Author............................................................................................................................... 3
+Key Takeaways.............................................................................................................................................4
+Nutrition Is Medicine....................................................................................................................................6
+How Nutrition Affects Inflammation.............................................................................................................7
+Macronutrients and Micronutrients............................................................................................................10
+The Importance of Limiting Carbohydrates................................................................................................. 12
+The New Food Pyramid (2025–2030).......................................................................................................... 14
+Common Sources of Micronutrients: Fruits, Vegetables, Nuts and Breads.................................................. 17
+Fruits (15 common fruits)............................................................................................................................. 17
+Vegetables (15 common vegetables)............................................................................................................ 18
+Nuts (10 common nuts)................................................................................................................................ 20
+Breads (5 common breads)...........................................................................................................................21
+Land, Sea and Air: Protein Foods.................................................................................................................22
+Land: Beef, Pork and Lamb........................................................................................................................... 22
+Sea: Fish and Seafood...................................................................................................................................23
+Air: Poultry, Game Birds and Eggs................................................................................................................. 24
+Bioflavonoids..............................................................................................................................................26
+Top 15 bioflavonoids and their food sources.................................................................................................26
+Low-Purine Eating for Gout.........................................................................................................................28
+High-purine foods (limit or avoid)................................................................................................................. 29
+Moderate-purine foods (keep portions moderate)........................................................................................29
+Low-purine foods (good everyday choices)................................................................................................... 30
+Beverages...................................................................................................................................................32
+Ten popular beverages................................................................................................................................. 32
+Ten common juices...................................................................................................................................... 33
+Snacks........................................................................................................................................................ 35
+Ten common snacks..................................................................................................................................... 35
+Desserts......................................................................................................................................................37
+Fifteen common desserts............................................................................................................................. 37
+Evidence-Based Guidelines at a Glance.......................................................................................................39
+References..................................................................................................................................................40
+Appendix A: Image Credits and Licenses..................................................................................................... 43
+Appendix B: Nutrition Data Sources............................................................................................................48
+Disclaimer...................................................................................................................................................53
+
+--- PDF page 3 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   3
+A Note From the Author
+Almost every day in my rheumatology practice, a patient asks me, 
+"What should I eat?" It is one of the best questions anyone can ask. 
+Medicines have changed what is possible for people with rheumatoid 
+arthritis, gout, lupus, osteoarthritis and many other conditions. But 
+what is on your plate, three or more times a day, every day, is also 
+part of your treatment.
+That is why the theme of this component is nutrition is medicine. 
+Food will not replace the medicines your doctor prescribes, and no 
+single "miracle food" cures arthritis. But a steady pattern of real, 
+whole foods can help control weight, protect the heart, support 
+bones and muscles, lower the risk of gout attacks, and help your 
+medicines do their job.
+ Rheumy, the RheumNotes© chatbot 
+guide, can help patients find foods, 
+read labels and plan simple meals.
+This white paper explains nutrition in plain language. It covers how food affects inflammation, the 
+difference between macronutrients and micronutrients, why it helps to limit refined carbohydrates, and 
+the new federal food pyramid released in January 2026. It also includes photo tables of common foods 
+with their calories and nutrients, drawn from the U.S. Department of Agriculture's FoodData Central 
+database, so readers can compare foods side by side.
+This content is written for patients, families and caregivers, and it is meant to be used by any 
+rheumatology or medical practice. It is general by design and is never a substitute for advice from your 
+own doctor or a registered dietitian, especially if you have kidney disease, diabetes or food allergies, or 
+take medicines that interact with food.
+Small changes add up. I hope this helps you take the next step.
+Frederick T. Murphy, DO, FACP, FACR
+Rheumatologist, Pittsburgh, Pennsylvania
+
+--- PDF page 4 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   4
+Key Takeaways
+Ten things to remember
+1. Food is part of treatment. It works alongside your medicines, not instead of them.
+2. Build meals around real, whole foods: vegetables, fruits, protein foods, dairy, healthy fats and whole 
+grains.
+3. A Mediterranean-style eating pattern has the best evidence in arthritis care. The American College of 
+Rheumatology (ACR) suggests it for people with rheumatoid arthritis.
+4. Weight matters for joints. For knee and hip osteoarthritis, losing extra weight is one of the most 
+strongly recommended treatments.
+5. Limit highly processed foods, added sugars, sugary drinks and refined carbohydrates such as white 
+bread, chips and pastries.
+6. Eat fish rich in omega-3 fats, such as salmon, sardines and trout, about twice a week if you can.
+7. Gout: limit alcohol (especially beer), organ meats, some seafood, and drinks sweetened with high-
+fructose corn syrup.
+8. Protect your bones, especially if you take steroids such as prednisone: get enough calcium and vitamin 
+D.
+9. If you take methotrexate, take the folic acid your doctor prescribes.
+10. Ask before you supplement. Some vitamins, herbs and supplements interact with arthritis medicines. 
+Talk with your doctor or a registered dietitian.
+
+--- PDF page 5 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   5
+Figure 1. The RheumNotes© Nutrition Component at a glance.
+
+--- PDF page 6 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   6
+Nutrition Is Medicine
+When we think of medicine, we usually think of pills, shots or infusions. But the food you eat every day 
+sends signals to your whole body. It affects your weight, blood sugar, blood pressure, cholesterol, gut 
+bacteria, bones, muscles and the level of inflammation (the body's defense response, which can cause 
+swelling, heat and pain when it stays switched on).
+What food can and cannot do
+Food CAN help Food CANNOT
+Support a healthy weight, which takes stress off knees, 
+hips and feet
+Lower the risk of heart disease, which is higher in many 
+types of inflammatory arthritis
+Keep bones and muscles strong
+Lower uric acid and the risk of gout attacks
+Help some medicines work better, with fewer side effects
+Replace disease-modifying medicines for rheumatoid 
+arthritis, lupus or other autoimmune diseases
+Cure arthritis
+Undo joint damage that has already happened
+Work overnight. Benefits come from a steady pattern 
+over months and years
+Why it matters in rheumatic disease
+ Heart health: People with rheumatoid arthritis, lupus, psoriatic arthritis and gout have a higher risk 
+of heart disease. In the large PREDIMED trial, people at high heart risk who ate a Mediterranean diet 
+with extra-virgin olive oil or nuts had about 30% fewer heart attacks, strokes and heart-related 
+deaths than people on a lower-fat control diet.
+ Weight and joints: Extra body weight adds force across the knees, hips and feet with every step. In 
+the IDEA trial, adults with knee osteoarthritis who lost about 10% of their weight with diet plus 
+exercise had less pain and better function than those who only exercised.
+ Gout: Diet, alcohol and weight all affect uric acid, the substance that forms gout crystals.
+ Medicines: Steroids can raise blood sugar and weaken bones. Methotrexate blocks folate. Some 
+medicines interact with alcohol or grapefruit.
+Nutrition is medicine
+Think of each meal as a small dose. One meal will not make or break your health, but the pattern of 
+meals you eat over months and years does make a difference.
+
+--- PDF page 7 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   7
+How Nutrition Affects Inflammation
+Inflammation is the body's way of fighting infection and healing injuries. In autoimmune diseases such as 
+rheumatoid arthritis and lupus, the immune system mistakenly attacks the body's own tissues, and 
+inflammation does not turn off the way it should. Food does not cause or cure these diseases, but 
+research shows that eating patterns can nudge inflammation up or down.
+Foods linked to more or less inflammation
+Linked to LESS inflammation Linked to MORE inflammation
+Vegetables and fruits of many colors
+Fish rich in omega-3 fats (salmon, sardines, trout)
+Extra-virgin olive oil
+Nuts and seeds
+Beans, lentils and other legumes
+Whole grains (oats, brown rice, 100% whole-wheat 
+bread)
+Herbs and spices
+Tea and coffee without added sugar
+Sugar-sweetened drinks (soda, sweet tea, energy drinks)
+Refined carbohydrates (white bread, pastries, many 
+crackers)
+Highly processed and ultra-processed foods
+Processed meats (bacon, hot dogs, deli meats, sausage)
+Fried foods
+Too much alcohol
+Eating more calories than you need over time, leading to 
+weight gain
+Research reviews have linked diets high in refined starches and sugar with higher levels of C-reactive 
+protein (CRP), a blood test doctors use to measure inflammation. Diets rich in vegetables, fruits, whole 
+grains and omega-3 fats are linked with lower levels.
+The Mediterranean diet
+The Mediterranean diet is a way of eating based on the traditional foods of countries around the 
+Mediterranean Sea. It is a pattern, not a strict plan:
+ Plenty of vegetables, fruits, beans, nuts and whole grains
+ Extra-virgin olive oil as the main fat
+ Fish and seafood at least twice a week
+ Moderate amounts of poultry, eggs, cheese and yogurt
+ Less red meat and fewer sweets
+ Herbs and spices in place of some of the salt
+In a small Swedish study, people with rheumatoid arthritis who followed a Mediterranean diet for 3 
+months had less disease activity and better physical function. The 2022 ACR guideline for rheumatoid 
+arthritis conditionally recommends a Mediterranean-style diet. "Conditional" means the benefit is likely 
+but the evidence is limited, so the choice should be made together with your care team. The same 
+guideline does not recommend other special diets or dietary supplements for rheumatoid arthritis.
+Omega-3 fats
+Omega-3 fats are healthy fats found mostly in fatty fish (EPA and DHA) and in walnuts, flaxseed and chia 
+seeds (ALA). The body uses omega-3s to make substances that help calm inflammation. In an Australian 
+
+--- PDF page 8 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   8
+trial of people with early rheumatoid arthritis, those who took high-dose fish oil along with standard 
+medicines were more likely to reach remission and less likely to need extra medicines. Fish oil 
+supplements can thin the blood and interact with some medicines, so ask your doctor first. Eating fish is 
+a safe first step for most people.
+Ultra-processed foods and sugar
+Ultra-processed foods are made mostly from refined ingredients and additives. Examples are packaged 
+snacks, sugary cereals, soda and many frozen meals. In a careful National Institutes of Health study, 
+adults ate about 500 more calories a day and gained weight on an ultra-processed diet compared with a 
+minimally processed diet, even though the meals offered were matched for sugar, fat, fiber and salt. The 
+new Dietary Guidelines for Americans advise avoiding sugar-sweetened drinks and say one meal should 
+contain no more than 10 grams of added sugars.
+Weight and your joints
+Body fat is not just stored energy. It releases chemicals that promote inflammation. Extra weight also 
+adds force on weight-bearing joints. In the Framingham Study, women who lost about 11 pounds (2 
+body mass index units) had about half the odds of developing knee osteoarthritis. The 2019 
+ACR/Arthritis Foundation guideline strongly recommends weight loss for people with knee or hip 
+osteoarthritis who are overweight.
+Gout and purines
+Gout is a painful arthritis caused by crystals of uric acid in the joints. Purines are natural substances in 
+food (and in the body) that break down into uric acid. Large studies found that men who ate the most 
+meat and seafood had a higher risk of gout, while men who ate more dairy had a lower risk. Purine-rich 
+vegetables did not raise the risk. Beer, liquor and sugar-sweetened soft drinks also raised the risk. See 
+the Low-Purine section later in this paper.
+What the evidence says by condition
+Condition What the evidence supports
+Rheumatoid arthritis 
+(RA)
+Mediterranean-style diet (ACR 2022, conditional recommendation).
+Fish and omega-3s; fish oil only with your doctor's input.
+Healthy weight, no smoking, regular exercise (EULAR 2021 lifestyle recommendations).
+Take folic acid as prescribed if you take methotrexate.
+Osteoarthritis (OA) Weight loss if overweight (ACR/Arthritis Foundation 2019, strong recommendation).
+Diet plus exercise works better than exercise alone (IDEA trial).
+A heart-healthy, whole-food eating pattern.
+Gout Limit alcohol, purine intake and high-fructose corn syrup (ACR 2020, conditional 
+recommendations).
+Weight loss if overweight (ACR 2020, conditional recommendation).
+Diet alone lowers uric acid only a little; most people with gout also need urate-lowering 
+medicine.
+The ACR recommends against vitamin C supplements for gout.
+
+--- PDF page 9 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   9
+Condition What the evidence supports
+Lupus (SLE) No special "lupus diet" has been proven. Eat a balanced, heart-healthy diet (Lupus 
+Foundation of America).
+Avoid alfalfa sprouts and alfalfa supplements. They contain L-canavanine, which may 
+trigger lupus symptoms.
+With steroids or kidney disease, you may need limits on salt, sugar, protein or potassium. 
+Ask your doctor or dietitian.
+Protect bones with calcium and vitamin D, especially with steroid use.
+
+--- PDF page 10 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   10
+Macronutrients and Micronutrients
+Every food is made of nutrients, and nutrients come in two main groups. Macronutrients ("macro" 
+means large) are the nutrients we need in large amounts, measured in grams. They give us calories, 
+which is energy. Micronutrients ("micro" means small) are vitamins and minerals. We need them in tiny 
+amounts, measured in milligrams (mg) or micrograms (mcg), but they are just as important.
+Macronutrients Micronutrients
+What they are Carbohydrates, protein and fat (plus fiber and 
+water)
+Vitamins (such as A, C, D, K and the B 
+vitamins) and minerals (such as calcium, iron, 
+magnesium, zinc and selenium)
+How much we need Large amounts, measured in grams Small amounts, measured in mg or mcg
+Calories? Yes. Carbohydrate and protein give 4 calories 
+per gram, fat gives 9 and alcohol gives 7
+No calories
+Main jobs Energy; building and repairing muscle and 
+tissue; storing energy; making hormones
+Help the body use energy, build bones and 
+blood, fight infection, heal wounds and 
+control inflammation
+Examples Rice and bread (carbohydrate); chicken, 
+beans and fish (protein); olive oil and nuts 
+(fat)
+Vitamin C in oranges; calcium in milk; iron in 
+beef; vitamin K in spinach
+The three macronutrients
+Macronutrient Why you need it Smart choices Tips for arthritis
+Protein Builds and keeps muscle, 
+which protects joints; helps 
+healing and immunity
+Fish, poultry, eggs, beans, 
+lentils, tofu, Greek yogurt, 
+lean meats
+The new guidelines suggest 
+1.2–1.6 grams per kilogram of 
+body weight per day. People 
+with kidney disease may need 
+less; ask your doctor.
+Carbohydrate The body's main fuel, 
+especially for the brain and 
+muscles
+Vegetables, fruits, beans, 
+whole grains
+Choose fiber-rich, minimally 
+processed carbohydrates; limit 
+sugar and refined grains.
+Fat Energy; helps absorb vitamins 
+A, D, E and K; builds cell walls
+Olive oil, nuts, seeds, 
+avocado, fatty fish
+Omega-3 fats may help calm 
+inflammation. Keep saturated 
+fat under 10% of daily calories.
+Key vitamins and minerals for people with arthritis
+The table lists ten micronutrients that often matter in rheumatology. Daily amounts are the 
+Recommended Dietary Allowance (RDA) or Adequate Intake (AI) for most adults, from the NIH Office of 
+Dietary Supplements. Your own needs may differ.
+
+--- PDF page 11 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   11
+Nutrient Why it matters in arthritis Good food sources Adult daily amount
+Vitamin D Helps absorb calcium and keep bones strong. 
+Low levels are common. In the VITAL trial, 
+taking vitamin D for 5 years lowered the risk of 
+new autoimmune disease by about 22%.
+Fatty fish (salmon, trout, sardines), 
+fortified milk, eggs, mushrooms 
+exposed to UV light
+600 IU (15 mcg) to 
+age 70; 800 IU (20 
+mcg) over 70
+Calcium Builds bone. Very important if you take steroids 
+such as prednisone, which can weaken bones.
+Milk, yogurt, cheese, calcium-set 
+tofu, fortified plant milks, kale, 
+canned salmon with bones
+1,000 mg; 1,200 mg 
+for women over 50 
+and men over 70
+Folate (folic acid) Methotrexate blocks folate. Folic acid taken 
+with methotrexate lowers stomach upset and 
+liver-test problems, and fewer people have to 
+stop the medicine.
+Leafy greens, beans, lentils, 
+asparagus, avocado, fortified grains
+400 mcg DFE (more if 
+prescribed with 
+methotrexate)
+Vitamin B12 Needed for nerves and red blood cells. Low 
+levels are more common in older adults and 
+people taking metformin or acid-reducing 
+medicines.
+Fish, clams, meat, eggs, dairy, 
+fortified cereals
+2.4 mcg
+Iron Carries oxygen in the blood. Anemia is common 
+with chronic inflammation, but not all anemia is 
+from low iron. Take iron only if your doctor 
+advises it.
+Red meat, poultry, fish, beans, 
+lentils, spinach, fortified cereals 
+(pair plant iron with vitamin C)
+8 mg for men and for 
+women over 50; 18 
+mg for women 19–50
+Magnesium Supports muscles, nerves, bones and blood 
+sugar control.
+Nuts, seeds, beans, whole grains, 
+leafy greens
+400–420 mg men; 
+310–320 mg women
+Vitamin C Needed to make collagen, the main protein in 
+cartilage, tendons and skin; an antioxidant. For 
+gout, the ACR recommends against vitamin C 
+supplements.
+Bell peppers, citrus, strawberries, 
+broccoli, kiwi, tomatoes
+90 mg men; 75 mg 
+women (add 35 mg if 
+you smoke)
+Vitamin K Helps blood clot and supports bone. If you take 
+warfarin, keep your vitamin K intake steady 
+from week to week.
+Spinach, kale, broccoli, lettuce, 
+cabbage
+120 mcg men; 90 mcg 
+women
+Selenium An antioxidant mineral that supports the 
+immune system. Too much can be harmful: one 
+ounce of Brazil nuts has about 10 times the 
+Daily Value.
+Seafood, meats, eggs, whole 
+grains, Brazil nuts (only 1–2 at a 
+time)
+55 mcg (upper limit 
+400 mcg)
+Zinc Supports immunity and wound healing. Oysters, beef, crab, poultry, beans, 
+nuts, whole grains
+11 mg men; 8 mg 
+women
+Sources: NIH Office of Dietary Supplements fact sheets; VITAL trial (Hahn et al. 2022); Cochrane review of folic acid with methotrexate 
+(Shea et al. 2013); ACR 2020 gout guideline. IU = international units; DFE = dietary folate equivalents.
+Food first
+Most people can get the vitamins and minerals they need from food. Supplements can help when there 
+is a proven shortage, but some interact with arthritis medicines or are harmful at high doses. Always tell 
+your doctor about any vitamins, herbs or supplements you take.
+
+--- PDF page 12 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   12
+The Importance of Limiting Carbohydrates
+Carbohydrates are not "bad." Vegetables, fruits, beans and whole grains are all carbohydrate foods, and 
+they carry fiber, vitamins and minerals. The problem for most Americans is too many refined 
+carbohydrates and added sugars. The new Dietary Guidelines for Americans say to "significantly 
+reduce" highly processed, refined carbohydrates such as white bread, packaged breakfast foods, flour 
+tortillas and crackers.
+Refined versus complex carbohydrates
+Refined (limit) Complex / whole (choose more often)
+What they are Grains with the bran and germ removed, 
+plus added sugars
+Whole grains, beans, vegetables and whole 
+fruits that keep their natural fiber
+Examples White bread, white rice, pastries, sugary 
+cereal, soda, candy, chips
+Oats, brown rice, quinoa, 100% whole-
+wheat bread, beans, lentils, sweet potatoes, 
+berries
+Effect on blood sugar Fast rise and fall, which can leave you 
+hungry again soon
+Slower, steadier rise; fiber helps you feel full
+Fiber Little or none Plenty, which feeds healthy gut bacteria
+Glycemic index and glycemic load
+The glycemic index (GI) tells how quickly a carbohydrate food raises blood sugar compared with pure 
+glucose (sugar). The glycemic load (GL) goes one step further: it also counts how much carbohydrate is 
+in a normal serving. A food can have a high GI but a low GL if a serving holds only a little carbohydrate; 
+watermelon is a common example. A large U.S. study of women found that those whose diets had the 
+highest glycemic load had higher CRP, a marker of inflammation.
+ Choose whole, minimally processed carbohydrate foods most of the time.
+ Pair carbohydrates with protein, healthy fat or fiber (for example, an apple with peanut butter).
+ Watch portion sizes of rice, pasta, bread and potatoes.
+ Drink water or unsweetened drinks instead of soda, sweet tea or juice drinks.
+Steroids and blood sugar
+Glucocorticoids (steroids such as prednisone and methylprednisolone) are common in rheumatology. 
+They can raise blood sugar, even in people who do not have diabetes. A review of 13 studies found that 
+about 1 in 3 people without diabetes who took steroids developed high blood sugar, and about 1 in 5 
+developed diabetes. If you take steroids, limiting sugary drinks, sweets and refined starches is especially 
+important. Ask your doctor whether you need blood sugar checks.
+
+--- PDF page 13 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   13
+A balanced approach
+The new guidelines note that some people with chronic diseases may do better on a lower-
+carbohydrate diet, and they advise working with your health care professional to choose the right plan. 
+Very low-carbohydrate diets are not right for everyone. They can be hard to follow, may be low in fiber, 
+and may require medicine changes for people with diabetes. A sensible goal for most people is to cut 
+back on sugar and refined starches while keeping vegetables, fruits, beans and whole grains.
+Simple swaps
+White bread → 100% whole-wheat bread  ·  Soda → sparkling water with lemon  ·  Sugary cereal → 
+oatmeal with berries  ·  Chips → a small handful of nuts  ·  White rice → brown rice or beans
+
+--- PDF page 14 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   14
+The New Food Pyramid (2025–2030)
+On January 7, 2026, the U.S. Department of Agriculture (USDA) and the U.S. Department of Health and 
+Human Services (HHS) released the Dietary Guidelines for Americans, 2025–2030. Their main message 
+is simple: eat real food. The guidelines brought back a food pyramid, but it is now upside down. The 
+official graphic is shown below.
+Figure 2. The official "New Pyramid" from the cover of the Dietary Guidelines for Americans, 2025–2030 (USDA and HHS; 
+U.S. government work).
+
+--- PDF page 15 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   15
+How to read the new pyramid
+Figure 3. A simplified RheumNotes© diagram of the new pyramid, with serving goals from the Dietary Guidelines for 
+Americans, 2025–2030.
+The wide top of the pyramid holds two large sections: protein, dairy and healthy fats on one side and 
+vegetables and fruits on the other. These are the foods to build most meals around. The narrow tip at 
+the bottom holds whole grains, a smaller but still important share (2 to 4 servings a day).
+The new serving goals
+Food group What the guidelines say Daily goal*
+Protein foods Eat protein at every meal. Choose a variety from animal sources (eggs, 
+poultry, seafood, red meat) and plants (beans, peas, lentils, nuts, seeds, 
+soy). Bake, broil, roast, stir-fry or grill instead of deep-frying.
+1.2–1.6 g per kg of 
+body weight
+Dairy Include full-fat dairy with no added sugars. 3 servings
+Vegetables Eat a variety of colorful vegetables, ideally whole. Frozen, dried or 
+canned with little or no added sugar are also good.
+3 servings
+Fruits Eat whole fruits. Limit 100% juice or dilute it with water. 2 servings
+Healthy fats Get fats from whole foods such as meats, fish, eggs, nuts, seeds, olives 
+and avocados. When cooking, olive oil is a top choice. Keep saturated fat 
+under 10% of daily calories.
+No set number
+Whole grains Choose fiber-rich whole grains. Significantly cut back on refined 
+carbohydrates.
+2–4 servings
+
+--- PDF page 16 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   16
+Food group What the guidelines say Daily goal*
+Limit Highly processed foods, added sugars (no more than 10 g per meal), 
+sugar-sweetened drinks, artificial additives and alcohol. Keep sodium 
+under 2,300 mg a day (ages 14 and up).
+—
+Drink Water (still or sparkling) and unsweetened drinks. —
+*Serving goals are for a 2,000-calorie eating pattern and should be adjusted for age, sex, size and activity. Source: Dietary Guidelines for 
+Americans, 2025–2030.
+How the new pyramid fits arthritis care
+ Good news for most people with arthritis: more vegetables, fruits, protein and healthy fats and 
+fewer processed foods support weight control, heart health and muscle strength.
+ Protein supports muscle, which protects joints. The guidelines note that older adults still need 
+plenty of protein, vitamin B12, vitamin D and calcium.
+ If you have gout, the focus on protein does not mean eating lots of red meat, organ meats or 
+shellfish. Choose dairy, eggs, moderate portions of poultry, beans, lentils and tofu more often. See 
+the Low-Purine section.
+ If you have heart disease or high cholesterol, ask your doctor how full-fat dairy and saturated fat fit 
+your plan. The guidelines still cap saturated fat at 10% of calories.
+ If you have kidney disease (for example, lupus nephritis), you may need less protein, salt or 
+potassium. Work with your doctor or a dietitian.
+ For chronic disease, the guidelines say some people may do better on a lower-carbohydrate diet 
+and should choose a plan with their health care professional.
+
+--- PDF page 17 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   17
+Common Sources of Micronutrients: Fruits, Vegetables, 
+Nuts and Breads
+The tables in this section show foods commonly eaten in the United States, each with a photo, a 
+standard serving and the nutrients in that serving. The lists are familiar, everyday examples, not an 
+official ranking.
+How to read the food tables
+Calories = energy. Protein, carbs, fiber, sugars and fat are in grams (g). Sugars include the natural sugars 
+in whole foods.
+% Daily Value (%DV) shows how much of a day's need one serving provides, based on the U.S. Food and 
+Drug Administration Daily Values. A serving with 10% or more is listed as a key source, and 20% or more 
+is high. Up to three key nutrients are shown.
+All numbers come from USDA FoodData Central. "n/a" means the database has no value.
+Fruits (15 common fruits)
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Apple
+1 medium (182 g) 95 0.5 25 4.4 19 0.3 None ≥10% DV
+Banana
+1 medium (118 g) 105 1.3 27 3.1 14 0.4 B6 25%, Manganese 
+14%, Vit C 11%
+Strawberries
+1 cup halves (152 g) 49 1 12 3 7.4 0.5 Vit C 99%, Manganese 
+26%
+Grapes
+1 cup (151 g) 104 1.1 27 1.4 23 0.2 Copper 21%, Vit K 18%
+Orange
+1 medium (131 g) 62 1.2 15 3.1 12 0.2 Vit C 77%
+Watermelon
+1 cup diced (152 g) 46 0.9 11 0.6 9.4 0.2 Vit C 14%
+
+--- PDF page 18 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   18
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Blueberries
+1 cup (148 g) 84 1.1 21 3.6 15 0.5 Vit K 24%, Manganese 
+22%, Vit C 16%
+Pineapple
+1 cup chunks (165 g) 82 0.9 22 2.3 16 0.2 Vit C 88%, Manganese 
+67%, Copper 20%
+Cantaloupe
+1 cup cubes (160 g) 54 1.3 13 1.4 13 0.3 Vit C 65%, Vit A 30%
+Peach
+1 medium (150 g) 58 1.4 14 2.2 13 0.4 Copper 11%, Vit C 11%
+Pear
+1 medium (178 g) 101 0.6 27 5.5 17 0.2 Copper 16%
+Mango
+1 cup pieces (165 g) 99 1.4 25 2.6 23 0.6 Vit C 67%, Copper 20%, 
+Folate 18%
+Sweet cherries
+1 cup with pits (138 g) 87 1.5 22 2.9 18 0.3 Vit C 11%
+Avocado
+1/2 fruit (68 g) 109 1.4 5.8 4.6 0.4 10 Copper 14%, Folate 14%, 
+Vit K 12%
+Raspberries
+1 cup (123 g) 64 1.5 15 8 5.4 0.8 Manganese 36%, Vit C 
+36%, Copper 12%
+Whole fruit is better than juice: it keeps its fiber and fills you up. The 2025–2030 guidelines suggest 2 servings of fruit a day.
+Vegetables (15 common vegetables)
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Potato, baked with 
+skin
+1 medium (173 g)
+161 4.3 37 3.8 2 0.2 B6 32%, Copper 23%, 
+Potassium 20%
+
+--- PDF page 19 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   19
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Tomato
+1 medium (123 g) 22 1.1 4.8 1.5 3.2 0.2 Vit C 19%
+Onion
+1 cup chopped (160 g) 64 1.8 15 2.7 6.8 0.2 Vit C 13%, B6 11%
+Carrots
+1 cup chopped (128 g) 52 1.2 12 3.6 6.1 0.3 Vit A 119%, Vit K 14%, B6 
+10%
+Romaine lettuce
+1 cup shredded (47 g) 8 0.6 1.5 1 0.6 0.1 Vit K 40%, Vit A 23%, 
+Folate 16%
+Broccoli, cooked
+1/2 cup chopped (78 g) 27 1.9 5.6 2.6 1.1 0.3 Vit K 92%, Vit C 56%, 
+Folate 21%
+Sweet corn, cooked
+1 medium ear (103 g) 99 3.5 22 2.5 4.7 1.5 Niacin 11%
+Bell pepper, red
+1 cup chopped (149 g) 39 1.5 9 3.1 6.3 0.4 Vit C 211%, Vit A 26%, B6 
+26%
+Cucumber with peel
+1/2 cup slices (52 g) 8 0.3 1.9 0.3 0.9 0.1 None ≥10% DV
+Spinach, raw
+1 cup (30 g) 7 0.9 1.1 0.7 0.1 0.1 Vit K 121%, Vit A 16%, 
+Folate 15%
+Green beans, cooked
+1 cup (125 g) 44 2.4 9.8 4 4.5 0.4 Vit K 50%, Manganese 
+15%, Vit C 13%
+Sweet potato, baked
+1 medium (114 g) 103 2.3 24 3.8 7.4 0.2 Vit A 122%, Vit C 25%, 
+Manganese 25%
+Cabbage, raw
+1 cup chopped (89 g) 22 1.1 5.2 2.2 2.8 0.1 Vit K 56%, Vit C 36%
+
+--- PDF page 20 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   20
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Celery
+1 cup chopped (101 g) 14 0.7 3 1.6 1.4 0.2 Vit K 25%
+White mushrooms
+1 cup pieces (70 g) 15 2.2 2.3 0.7 1.4 0.2 Copper 25%, Riboflavin 
+22%, Niacin 16%
+Leafy greens such as spinach and romaine are rich in vitamin K. If you take warfarin, keep your intake steady. The guidelines suggest 3 
+servings of vegetables a day.
+Nuts (10 common nuts)
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Almonds
+1 oz (28 g) 164 6 6.1 3.5 1.2 14 Vit E 48%, Copper 32%, 
+Manganese 27%
+Peanuts, dry-roasted*
+1 oz (28 g) 166 6.9 6 2.4 1.4 14 Niacin 25%, Manganese 
+22%, Copper 13%
+Walnuts (English)
+1 oz (28 g) 185 4.3 3.9 1.9 0.7 18 Copper 50%, Manganese 
+42%, Magnesium 11%
+Cashews
+1 oz (28 g) 157 5.2 8.6 0.9 1.7 12 Copper 69%, Manganese 
+20%, Magnesium 20%
+Pistachios
+1 oz (28 g) 159 5.7 7.7 3 2.2 13 Copper 41%, B6 28%, 
+Thiamin 21%
+Pecans
+1 oz (28 g) 196 2.6 3.9 2.7 1.1 20 Manganese 55%, Copper 
+38%, Thiamin 16%
+Macadamia nuts
+1 oz (28 g) 204 2.2 3.9 2.4 1.3 21
+Manganese 51%, 
+Thiamin 28%, Copper 
+24%
+Hazelnuts
+1 oz (28 g) 178 4.2 4.7 2.7 1.2 17 Manganese 76%, Copper 
+54%, Vit E 28%
+
+--- PDF page 21 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   21
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Brazil nuts
+1 oz (28 g) 187 4.1 3.3 2.1 0.7 19 Selenium 988%, Copper 
+55%, Magnesium 25%
+Pine nuts
+1 oz (28 g) 191 3.9 3.7 1 1 19 Manganese 108%, 
+Copper 42%, Vit E 18%
+*Peanuts are technically legumes but are eaten and sold as nuts. Nuts are rich in healthy fats but high in calories; a serving is about a 
+small handful (1 oz). Brazil nuts are extremely high in selenium: one ounce gives about 988% of the Daily Value, more than the safe 
+upper limit, so eat only one or two at a time.
+Breads (5 common breads)
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Fiber 
+(g)
+Sugars 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+White bread
+1 slice (29 g) 77 2.6 14 0.8 1.6 1 Thiamin 13%, Folate 
+12%, Selenium 12%
+100% whole-wheat 
+bread
+1 slice (32 g)
+81 4 14 1.9 1.4 1.1
+Manganese 30%, 
+Selenium 15%, Thiamin 
+11%
+Multigrain bread
+1 slice (26 g) 69 3.5 11 1.9 1.7 1.1 Manganese 23%, 
+Selenium 16%
+Rye bread
+1 slice (32 g) 83 2.7 15 1.9 1.2 1.1 Selenium 18%, Folate 
+12%, Thiamin 12%
+French or sourdough 
+bread
+1 oz (28 g)
+77 3 15 0.6 1.3 0.7 Thiamin 17%, Selenium 
+15%, Folate 12%
+Look for "100% whole wheat" or a whole grain as the first ingredient. "Multigrain" and "wheat bread" are not always whole grain. The 
+guidelines suggest 2–4 servings of whole grains a day.
+
+--- PDF page 22 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   22
+Land, Sea and Air: Protein Foods
+Protein foods come from the land, the sea and the air. The tables below show common choices with 
+their protein, fat and key nutrients for a typical portion. A 3-ounce cooked portion is about the size of a 
+deck of cards.
+About poultry
+Chicken and turkey are actually the most commonly eaten "land" meats in the United States. To keep the 
+tables simple and avoid listing them twice, all poultry and eggs appear under Air, and Land covers beef, 
+pork and lamb.
+Land: Beef, Pork and Lamb
+Photo Food & serving Calories Protein 
+(g) Fat (g) Sat. fat 
+(g)
+Sodium 
+(mg)
+Key vitamins & minerals 
+(% Daily Value)
+Ground beef, 85% lean, 
+broiled
+3 oz cooked (85 g)
+212 22 13 5 61 B12 94%, Zinc 49%, 
+Selenium 33%
+Top sirloin steak, lean
+3 oz cooked (85 g) 156 26 4.9 1.9 54 B12 61%, Selenium 55%, 
+Niacin 46%
+Ribeye steak, grilled
+3 oz cooked (85 g) 176 24 9 3.6 50 B12 82%, Selenium 55%, 
+Zinc 54%
+Pork chop, broiled
+3 oz cooked (85 g) 153 23 6.2 1.8 48 Selenium 71%, Niacin 
+45%, Thiamin 44%
+Pork tenderloin, roasted
+3 oz cooked (85 g) 122 22 3 1 48 Thiamin 67%, Selenium 
+59%, Niacin 39%
+Bacon, pan-fried
+1 slice (11.5 g) 54 3.9 4 1.4 194 Selenium 11%
+Ham, sliced deli
+1 slice (28 g) 46 4.6 2.5 0.1 228 Thiamin 15%, Selenium 
+11%
+Pork sausage, smoked 
+link
+1 link (68 g)
+210 8.1 19 6.3 562 Selenium 23%, B12 19%, 
+Copper 13%
+
+--- PDF page 23 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   23
+Photo Food & serving Calories Protein 
+(g) Fat (g) Sat. fat 
+(g)
+Sodium 
+(mg)
+Key vitamins & minerals 
+(% Daily Value)
+Lamb loin chop, broiled
+3 oz cooked (85 g) 184 25 8.3 3 71 B12 89%, Selenium 51%, 
+Niacin 36%
+Beef hot dog
+1 frank (48 g) 155 5.6 14 5.6 409 B12 29%
+Processed meats such as bacon, ham, sausage and hot dogs are high in sodium and are linked to heart disease and some cancers. 
+Choose lean, unprocessed cuts more often, and keep portions moderate if you have gout.
+Sea: Fish and Seafood
+Photo Food & serving Calories Protein 
+(g) Fat (g) Sat. fat 
+(g)
+Omega-3 
+EPA + DHA 
+(mg)
+Key vitamins & minerals 
+(% Daily Value)
+Shrimp
+3 oz cooked (85 g) 84 20 0.2 0 26 Copper 36%, Phosphorus 
+16%, Zinc 13%
+Salmon, Atlantic 
+(farmed)
+3 oz cooked (85 g)
+175 19 10 2 1,825 B12 99%, Selenium 64%, 
+Vit D 56%
+Tuna, light, canned in 
+water
+3 oz cooked (85 g)
+73 17 0.8 0.2 190 Selenium 109%, B12 
+90%, Niacin 54%
+Tilapia
+3 oz cooked (85 g) 109 22 2.3 0.8 115 Selenium 84%, B12 66%, 
+Niacin 25%
+Alaska pollock
+3 oz cooked (85 g) 94 20 1 0.1 433 B12 130%, Selenium 
+68%, Niacin 21%
+Atlantic cod
+3 oz cooked (85 g) 89 19 0.7 0.1 134 Selenium 58%, B12 37%, 
+B6 14%
+Catfish (farmed)
+3 oz cooked (85 g) 122 16 6.1 1.3 76 B12 98%, Phosphorus 
+17%, Selenium 15%
+Crab, Alaska king
+3 oz cooked (85 g) 82 16 1.3 0.1 351 B12 407%, Copper 112%, 
+Selenium 62%
+
+--- PDF page 24 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   24
+Photo Food & serving Calories Protein 
+(g) Fat (g) Sat. fat 
+(g)
+Omega-3 
+EPA + DHA 
+(mg)
+Key vitamins & minerals 
+(% Daily Value)
+Clams
+3 oz cooked (85 g) 126 22 1.7 0.2 241 B12 3502%, Selenium 
+99%, Copper 65%
+Scallops, steamed
+3 oz cooked (85 g) 94 17 0.7 0.2 150 B12 76%, Selenium 34%, 
+Phosphorus 29%
+Fatty fish such as salmon are the best food sources of the omega-3 fats EPA and DHA. Canned light tuna and pollock are lower-mercury 
+choices. Some seafood (shrimp, clams) is higher in purines; see the Low-Purine section if you have gout.
+Air: Poultry, Game Birds and Eggs
+Photo Food & serving Calories Protein 
+(g) Fat (g) Sat. fat 
+(g)
+Sodium 
+(mg)
+Key vitamins & minerals 
+(% Daily Value)
+Chicken breast, roasted
+3 oz cooked (85 g) 140 26 3 0.9 63 Niacin 73%, Selenium 
+43%, B6 30%
+Chicken thigh, roasted
+3 oz cooked (85 g) 152 21 6.9 2 90 Selenium 42%, Niacin 
+33%, B6 23%
+Chicken wing with skin
+3 oz cooked (85 g) 216 20 14 4.2 83 Selenium 39%, Niacin 
+34%, B6 28%
+Turkey breast, roasted
+3 oz cooked (85 g) 116 25 1.7 0.6 97 Niacin 62%, B12 62%, 
+Selenium 47%
+Ground turkey, cooked
+3 oz cooked (85 g) 173 23 8.8 2.3 66 Selenium 48%, B12 47%, 
+Niacin 46%
+Duck, roasted (meat 
+only)
+3 oz cooked (85 g)
+171 20 9.5 3.4 55 Selenium 35%, Riboflavin 
+31%, Niacin 27%
+Goose, roasted (meat 
+only)
+3 oz cooked (85 g)
+202 25 11 3.9 65 Selenium 39%, Copper 
+26%, Riboflavin 26%
+Cornish game hen, 
+roasted
+3 oz cooked (85 g)
+114 20 3.3 0.8 54 Niacin 33%, Selenium 
+32%, B6 18%
+
+--- PDF page 25 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   25
+Photo Food & serving Calories Protein 
+(g) Fat (g) Sat. fat 
+(g)
+Sodium 
+(mg)
+Key vitamins & minerals 
+(% Daily Value)
+Quail, cooked
+3 oz cooked (85 g) 193 21 12 3.4 44 Copper 56%, Niacin 42%, 
+Selenium 34%
+Pheasant, cooked
+3 oz cooked (85 g) 203 28 10 3.3 37 Niacin 40%, B6 38%, 
+Selenium 32%
+Egg, hard-boiled
+1 large (50 g) 78 6.3 5.3 1.6 62 Selenium 28%, B12 23%, 
+Riboflavin 20%
+Skinless chicken and turkey breast are among the leanest protein foods. Duck, goose and wings with skin are higher in fat. Eggs are an 
+inexpensive source of protein, vitamin B12 and selenium.
+
+--- PDF page 26 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   26
+Bioflavonoids
+Bioflavonoids (also called flavonoids) are natural plant compounds that give many fruits, vegetables, 
+teas and cocoa their bright colors. They are not vitamins or minerals, but they work alongside them. In 
+laboratory studies, flavonoids act as antioxidants (they protect cells from damage) and can calm 
+inflammation. In large population studies, people who eat more flavonoid-rich foods tend to have lower 
+rates of heart disease.
+Most evidence in people comes from observational studies, which show links but cannot prove cause. 
+Flavonoid supplements have not been proven to treat arthritis, and some can interact with medicines. 
+The best approach is to eat a variety of colorful plant foods.
+Top 15 bioflavonoids and their food sources
+Photo Flavonoid (class) Common food sources Example amount (mg 
+per 100 g) What research suggests
+Quercetin
+Flavonol
+Onions, kale, apples, 
+berries, tea Onion, raw: 20
+Antioxidant; studied for 
+calming inflammation and 
+allergy responses
+Kaempferol
+Flavonol
+Kale, spinach, broccoli, tea, 
+beans Kale, raw: 47
+Antioxidant; linked with 
+heart health in population 
+studies
+Myricetin
+Flavonol
+Cranberries, parsley, 
+berries, red wine Cranberries, raw: 7.6 Antioxidant; studied in the 
+lab for protecting cells
+Luteolin
+Flavone
+Celery, green bell pepper, 
+thyme, oregano
+Green bell pepper: 4.7; 
+celery: 1.1
+Studied in the lab for calming 
+inflammation
+Apigenin
+Flavone
+Parsley, celery, chamomile 
+tea Parsley, fresh: 215 Studied in the lab for calming 
+inflammation
+EGCG (epigallocatechin 
+gallate)
+Flavan-3-ol
+Green, white and oolong 
+tea Green tea, brewed: 26 Antioxidant; green tea is 
+linked with heart health
+Epicatechin
+Flavan-3-ol
+Dark chocolate, cocoa, 
+apples, grapes
+Dark chocolate: 84; 
+cocoa powder: 196
+May support blood-vessel 
+health; keep chocolate 
+portions small
+Theaflavins and 
+thearubigins
+Flavan-3-ol (tea)
+Black tea, oolong tea Black tea, brewed 
+(thearubigins): 81
+The main flavonoids in black 
+tea, a top source for many 
+Americans
+
+--- PDF page 27 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   27
+Photo Flavonoid (class) Common food sources Example amount (mg 
+per 100 g) What research suggests
+Hesperidin (hesperetin)
+Flavanone Oranges, lemons, limes Orange, raw: 27 Linked with blood-vessel 
+health
+Naringin (naringenin)
+Flavanone
+Grapefruit, pummelo, 
+oranges Pink or red grapefruit: 33
+Antioxidant. Caution: 
+grapefruit interacts with 
+many medicines
+Genistein
+Isoflavone
+Soybeans, edamame, tofu, 
+soy milk Soybeans, boiled: 31 Plant estrogen; studied for 
+bone health
+Daidzein
+Isoflavone
+Tofu, soybeans, tempeh, 
+soy milk Firm tofu: 12 Plant estrogen; studied for 
+bone health
+Cyanidin
+Anthocyanidin
+Blackberries, cherries, red 
+cabbage
+Blackberries: 100; sweet 
+cherries: 30
+Red-purple pigment; studied 
+in cherries and gout
+Delphinidin
+Anthocyanidin
+Blueberries, eggplant, 
+black currants Blueberries: 35 Antioxidant; berries are 
+linked with heart health
+Malvidin
+Anthocyanidin
+Red grapes, blueberries, 
+red wine
+Red grapes: 39; 
+blueberries: 68
+Antioxidant pigment of red 
+grapes
+Amounts are average values in mg per 100 grams of the edible food from the USDA Database for the Flavonoid Content of Selected 
+Foods, Release 3.3 (2018), and, for genistein (31.26) and daidzein (12.31), the USDA Database for the Isoflavone Content of Selected 
+Foods, Release 2.1 (2015). The green tea value is from a brewed decaffeinated sample; dark chocolate is a USDA dark chocolate candy 
+sample. The databases measure hesperidin and naringin as hesperetin and naringenin.
+Bioflavonoids and micronutrients work as a team
+Many flavonoid-rich foods are also rich in vitamins and minerals. Citrus fruits give hesperidin plus vitamin 
+C. Berries give anthocyanidins plus vitamin C, vitamin K and manganese. Kale and spinach give 
+kaempferol plus vitamin K, vitamin A and folate. Eating a "rainbow" of colors is an easy way to get both.
+
+--- PDF page 28 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   28
+Low-Purine Eating for Gout
+Purines are natural compounds in foods. When the body breaks them down, it makes uric acid. Too 
+much uric acid can form needle-shaped crystals in the joints and cause gout attacks. Diet is only one part 
+of the picture. Genes, kidney function, weight and some medicines (such as water pills) also matter, and 
+most people with gout need a urate-lowering medicine such as allopurinol.
+What the 2020 ACR gout guideline says
+ Limit alcohol, whatever the type (conditional recommendation).
+ Limit purine intake, especially from organ meats and some seafood (conditional).
+ Limit high-fructose corn syrup in sodas and sweetened foods (conditional).
+ Lose weight if you are overweight (conditional).
+ Do not take vitamin C supplements for gout (conditional recommendation against).
+ The guideline notes that diet changes alone usually lower uric acid only a small amount, so they are 
+added to medicine, not used in place of it.
+What else research shows
+ Beer and liquor raised gout risk the most in a large study of men; moderate wine did not raise risk in 
+that study. Beer also contains purines from yeast.
+ Sugary sodas and fructose raised gout risk. Fruit juice and very sweet fruits contain fructose, so 
+keep portions small.
+ Dairy (milk and yogurt) was linked with a lower risk of gout.
+ Purine-rich vegetables such as spinach, cauliflower, mushrooms and peas did not raise gout risk.
+ The DASH diet (rich in vegetables, fruits and low-fat dairy) lowered uric acid in a clinical trial, more 
+so in people whose levels started high.
+ Cherries: in a study of 633 people with gout, eating cherries over a 2-day period was linked with a 
+35% lower risk of an attack. This was an observational study and the ACR makes no formal 
+recommendation about cherries, but cherries are a healthy fruit choice.
+How to read the purine tables
+Purine values are total purines in milligrams per 100 grams of food, measured by Kaneko and colleagues 
+(2014). Their groups are: very low (under 50), low (50–100), moderate (100–200), high (200–300) and 
+very high (over 300).
+The values come from food samples tested in Japan, so U.S. foods may differ. The name in parentheses is 
+the food that was tested. Nutrition values are from USDA FoodData Central for the serving shown.
+
+--- PDF page 29 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   29
+High-purine foods (limit or avoid)
+Photo Food & serving Purines (mg 
+per 100 g) Calories Protein 
+(g)
+Carbs 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Chicken liver
+3 oz cooked (85 g) 312.2 142 21 0.7 5.5 B12 597%, Vit A 376%, 
+Riboflavin 130%
+Pork liver
+3 oz cooked (85 g) 284.8 140 22 3.2 3.7 B12 661%, Vit A 510%, 
+Riboflavin 144%
+Beef liver
+3 oz cooked (85 g) 219.8 162 25 4.4 4.5 B12 2500%, Copper 
+1349%, Vit A 892%
+Skipjack (bonito) tuna
+3 oz cooked (85 g)
+211.4
+(Bonito) 112 24 0 1.1 Niacin 100%, B12 78%, 
+Selenium 72%
+Sardines
+3 oz cooked (85 g)
+210.4
+(Sardine) 177 21 0 9.7 B12 317%, Selenium 
+81%, Phosphorus 33%
+Moderate-purine foods (keep portions moderate)
+Photo Food & serving Purines (mg 
+per 100 g) Calories Protein 
+(g)
+Carbs 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Shrimp
+3 oz cooked (85 g)
+53–273*
+(Shrimp (4 
+species))
+84 20 0.2 0.2 Copper 36%, Phosphorus 
+16%, Zinc 13%
+Oysters
+3 oz cooked (85 g)
+184.5
+(Oyster) 87 9.7 4.6 2.9 B12 620%, Zinc 607%, 
+Copper 539%
+Squid (calamari)
+3 oz raw (85 g)
+186.8
+(Japanese flying 
+squid)
+78 13 2.6 1.2 Copper 179%, Selenium 
+69%, B12 46%
+Rainbow trout
+3 oz cooked (85 g) 180.9 143 20 0 6.3 B12 146%, Vit D 81%, 
+Selenium 43%
+Clams
+3 oz cooked (85 g)
+145.5
+(Clam) 126 22 4.4 1.7 B12 3502%, Selenium 
+99%, Copper 65%
+
+--- PDF page 30 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   30
+Photo Food & serving Purines (mg 
+per 100 g) Calories Protein 
+(g)
+Carbs 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Beef, lean (top round)
+3 oz cooked (85 g)
+143.5
+(Beef topside, 
+heated)
+157 27 0 4.6 B12 62%, Selenium 56%, 
+Zinc 43%
+Chicken breast
+3 oz cooked (85 g) 141.2 140 26 0 3 Niacin 73%, Selenium 
+43%, B6 30%
+Pork tenderloin
+3 oz cooked (85 g) 119.7 122 22 0 3 Thiamin 67%, Selenium 
+59%, Niacin 39%
+Salmon
+3 oz cooked (85 g) 119.3 175 19 0 10 B12 99%, Selenium 64%, 
+Vit D 56%
+Tuna, canned
+3 oz cooked (85 g) 116.9 73 17 0 0.8 Selenium 109%, B12 
+90%, Niacin 54%
+*Shrimp ranged from 53 to 273 mg per 100 g across the four species tested by Kaneko et al. The beef value is for heated beef topside, a 
+lean round cut; the USDA row is lean top round.
+Low-purine foods (good everyday choices)
+Photo Food & serving Purines (mg 
+per 100 g) Calories Protein 
+(g)
+Carbs 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+King crab
+3 oz cooked (85 g)
+99.6
+(Red king crab) 82 16 0 1.3 B12 407%, Copper 112%, 
+Selenium 62%
+Scallops
+3 oz cooked (85 g)
+76.5
+(Japanese 
+scallop)
+94 17 4.6 0.7 B12 76%, Selenium 34%, 
+Phosphorus 29%
+Broccoli
+1/2 cup chopped (78 g) 70.0 27 1.9 5.6 0.3 Vit K 92%, Vit C 56%, 
+Folate 21%
+Cauliflower
+1/2 cup pieces (62 g) 57.2 14 1.1 2.5 0.3 Vit C 31%
+Spinach
+1 cup (30 g)
+51.4
+(Spinach, leaf) 7 0.9 1.1 0.1 Vit K 121%, Vit A 16%, 
+Folate 15%
+
+--- PDF page 31 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   31
+Photo Food & serving Purines (mg 
+per 100 g) Calories Protein 
+(g)
+Carbs 
+(g) Fat (g) Key vitamins & minerals 
+(% Daily Value)
+Tofu, firm
+1/2 cup (126 g)
+31.1
+(Tofu (momen)) 181 22 3.5 11
+Calcium 66%, 
+Manganese 65%, Copper 
+53%
+White rice, cooked
+1 cup (158 g)
+25.9
+(Rice (polished)) 205 4.3 45 0.4 Folate 38%, Manganese 
+32%, Selenium 22%
+Avocado
+1/2 fruit (68 g) 18.4 109 1.4 5.8 10 Copper 14%, Folate 14%, 
+Vit K 12%
+Potato
+1 medium (173 g) 6.5 161 4.3 37 0.2 B6 32%, Copper 23%, 
+Potassium 20%
+Cheddar cheese
+1 oz (28 g)
+5.7
+(Cheese) 114 6.5 1 9.4 Calcium 15%, Selenium 
+15%, B12 13%
+Yogurt, plain whole-
+milk
+1 cup (245 g)
+5.2
+(Yogurt) 149 8.5 11 8 B12 38%, Riboflavin 27%, 
+Calcium 23%
+Banana
+1 medium (118 g) 3.0 105 1.3 27 0.4 B6 25%, Manganese 
+14%, Vit C 11%
+Carrots
+1 cup chopped (128 g)
+2.2
+(Carrot) 52 1.2 12 0.3 Vit A 119%, Vit K 14%, B6 
+10%
+Strawberries
+1 cup halves (152 g)
+2.1
+(Strawberry) 49 1 12 0.5 Vit C 99%, Manganese 
+26%
+Egg
+1 large (50 g)
+0.0
+(Chicken egg) 78 6.3 0.6 5.3 Selenium 28%, B12 23%, 
+Riboflavin 20%
+Milk
+1 cup (244 g) 0.0 149 7.7 12 7.9 B12 46%, Riboflavin 32%, 
+Calcium 21%
+King crab and scallops fall in the low group in this dataset, but other shellfish vary. Dairy, eggs, most vegetables and fruits, tofu, rice 
+and potatoes are low in purines. Beer and cherries are not in the Kaneko food tables (the authors measured alcoholic beverages in 
+separate work), so purine values for them are not shown. Note that some supplements are extremely high in purines; for example, 
+Kaneko measured 2,995.7 mg per 100 g in brewer's (beer) yeast and 3,182.7 mg in chlorella.
+
+--- PDF page 32 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   32
+Beverages
+What you drink matters as much as what you eat. Sugary drinks are one of the largest sources of added 
+sugar in the American diet. The 2025–2030 guidelines advise choosing water (still or sparkling) and 
+unsweetened drinks, avoiding sugar-sweetened beverages such as sodas, fruit drinks and energy drinks, 
+and limiting alcohol.
+Ten popular beverages
+Photo Drink & serving Calories Carbs 
+(g)
+Sugars 
+(g)
+Protein 
+(g)
+Caffeine 
+(mg)
+Alcohol 
+(g)
+Key vitamins & 
+minerals (% Daily 
+Value)
+Water, tap
+8 fl oz (237 g) 0 0 0 0 0 0 None ≥10% DV
+Coffee, brewed (black)
+8 fl oz (237 g) 2 0 0 0.3 95 0 Riboflavin 14%
+Black tea, brewed
+8 fl oz (237 g) 2 0.7 0 0 47 0 Manganese 23%
+Cola, regular
+12 fl oz can (370 g) 155 38 37 0 33 0 None ≥10% DV
+Diet cola
+12 fl oz can (355 g) 7 1 0 0.4 43 0 Manganese 17%
+Milk, whole
+1 cup (244 g) 149 12 12 7.7 0 0
+B12 46%, 
+Riboflavin 32%, 
+Calcium 21%
+Beer, regular
+12 fl oz can (356 g) 153 13 0 1.6 0 14 Niacin 11%
+Red wine
+5 fl oz (147 g) 125 3.8 0.9 0.1 0 16 None ≥10% DV
+Sports drink
+20 fl oz bottle (620 g) 161 40 32 0 0 0 None ≥10% DV
+
+--- PDF page 33 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   33
+Photo Drink & serving Calories Carbs 
+(g)
+Sugars 
+(g)
+Protein 
+(g)
+Caffeine 
+(mg)
+Alcohol 
+(g)
+Key vitamins & 
+minerals (% Daily 
+Value)
+Energy drink
+8.4 fl oz can (260 g) 112 27 27 1.2 75 0 B6 331%, B12 
+213%, Niacin 160%
+Caffeine is in milligrams and alcohol in grams per serving. Sports drinks are meant for long, intense exercise; for most people, water is 
+best. Energy drinks are high in caffeine and often in sugar. The B vitamins added to them are not a reason to drink them.
+Alcohol, arthritis and your medicines
+Alcohol can raise uric acid and trigger gout attacks, especially beer and liquor.
+Alcohol, like methotrexate and leflunomide, can strain the liver. Ask your doctor how much alcohol, if 
+any, is safe for you.
+The 2025–2030 guidelines advise drinking less alcohol for better overall health.
+Ten common juices
+Photo Drink & serving Calories Carbs 
+(g)
+Sugars 
+(g)
+Protein 
+(g)
+Caffeine 
+(mg)
+Alcohol 
+(g)
+Key vitamins & 
+minerals (% Daily 
+Value)
+Orange juice
+1 cup (249 g) 122 29 21 1.7 0 0 Vit C 93%, Folate 
+12%, Copper 12%
+Apple juice
+1 cup (248 g) 114 28 24 0.2 0 0 None ≥10% DV
+Grape juice
+1 cup (253 g) 152 37 36 0.9 0 0 Manganese 26%
+Cranberry juice 
+cocktail
+1 cup (253 g)
+137 34 30 0 0 0 Vit C 119%
+Grapefruit juice
+1 cup (257 g) 95 19 20 1.4 0 0 Vit C 96%, Thiamin 
+14%
+Pineapple juice
+1 cup (250 g) 132 32 25 0.9 0 0
+Manganese 55%, 
+Vit C 28%, Copper 
+19%
+
+--- PDF page 34 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   34
+Photo Drink & serving Calories Carbs 
+(g)
+Sugars 
+(g)
+Protein 
+(g)
+Caffeine 
+(mg)
+Alcohol 
+(g)
+Key vitamins & 
+minerals (% Daily 
+Value)
+Tomato juice
+1 cup (243 g) 41 8.6 6.3 2.1 0 0
+Vit C 189%, 
+Thiamin 20%, 
+Riboflavin 15%
+Vegetable juice 
+cocktail
+1 cup (253 g)
+56 9.8 7.2 2.4 0 0
+Vit C 153%, 
+Copper 19%, Vit E 
+17%
+Prune juice
+1 cup (256 g) 182 45 42 1.6 0 0
+B6 33%, Copper 
+19%, Manganese 
+17%
+Tart cherry juice
+1 cup (269 g) 159 37 33 0.8 0 0 Thiamin 13%, 
+Copper 13%
+Even 100% juice is high in natural sugar and has little fiber. The guidelines advise drinking 100% juice in limited portions or diluting it 
+with water. Cranberry juice cocktail has added sugar. Grapefruit juice interacts with many medicines; check with your pharmacist.
+
+--- PDF page 35 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   35
+Snacks
+Snacks can help keep energy steady, but many packaged snacks are highly processed and high in salt, 
+refined starch and added sugar. The 2025–2030 guidelines name chips, cookies and candy as examples 
+of foods to avoid. The table shows ten common American snacks so you can compare them.
+Ten common snacks
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Sugars 
+(g) Fat (g) Sat. fat 
+(g)
+Sodium 
+(mg)
+Fiber 
+(g)
+Potato chips
+1 oz (28 g) 151 1.8 15 0.1 9.6 1 149 0.9
+Tortilla chips
+1 oz (28 g) 134 2 19 0.2 5.9 0.8 93 1.5
+Popcorn, air-popped
+3 cups (24 g) 93 3.1 19 0.2 1.1 0.2 2 3.5
+Pretzels, hard
+1 oz (28 g) 109 2.8 23 0.6 0.8 0.1 352 1
+Cheese crackers
+1 oz (28 g) 139 3.1 17 1.3 6.4 1.5 276 0.7
+Granola bar, hard
+1 bar (28 g) 132 2.8 18 8 5.5 0.7 82 1.5
+Trail mix
+1 oz (28 g) 131 3.9 13 n/a 8.3 1.6 65 n/a
+Beef jerky
+1 oz (28 g) 116 9.4 3.1 2.6 7.3 3.1 506 0.5
+Milk chocolate bar
+1 bar, 1.55 oz (44 g) 235 3.4 26 23 13 8.1 35 1.5
+String cheese (part-skim 
+mozzarella)
+1 oz (28 g)
+72 6.9 0.8 0.3 4.5 2.9 175 0
+
+--- PDF page 36 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   36
+Trail mix fiber and sugars are not reported in the database (n/a). Air-popped popcorn is a whole grain. Healthier snack ideas: a piece of 
+fruit, a small handful of nuts, plain yogurt with berries, string cheese, a hard-boiled egg, or vegetables with hummus.
+
+--- PDF page 37 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   37
+Desserts
+Desserts are part of celebrations and family life, and an occasional treat is fine. But most desserts are 
+high in added sugar, refined flour and saturated fat. A single slice of cake or pie can have as many 
+calories as a full meal. The 2025–2030 guidelines say one meal should have no more than 10 grams of 
+added sugars.
+Fifteen common desserts
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Sugars 
+(g) Fat (g) Sat. fat 
+(g)
+Sodium 
+(mg)
+Fiber 
+(g)
+Vanilla ice cream
+1 scoop (120 g) 248 4.2 28 25 13 8.1 96 0.8
+Chocolate ice cream
+1 scoop (120 g) 259 4.6 34 30 13 8.2 91 1.4
+Frozen yogurt, vanilla
+1 scoop (160 g) 203 4.8 35 32 5.8 3.7 101 0
+Chocolate layer cake with 
+icing
+1 slice, layer cake (175 g)
+604 5.8 91 66 27 7.2 516 2.8
+Cheesecake
+1 slice (175 g) 698 9.3 61 47 46 25 485 0.9
+Carrot cake
+1 slice (200 g) 748 5 104 77 35 6.4 576 2.2
+Apple pie
+1 slice (150 g) 444 4.1 56 24 23 8 326 2.7
+Pumpkin pie
+1 slice (150 g) 374 7.1 55 37 15 6.2 378 2.5
+Pecan pie
+1 slice (150 g) 674 9 74 47 38 9.6 448 2.8
+Cherry pie
+1 slice (150 g) 466 4.4 61 29 23 8 326 2.8
+
+--- PDF page 38 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   38
+Photo Food & serving Calories Protein 
+(g)
+Carbs 
+(g)
+Sugars 
+(g) Fat (g) Sat. fat 
+(g)
+Sodium 
+(mg)
+Fiber 
+(g)
+Chocolate cupcake with 
+icing
+1 cupcake (90 g)
+310 3 47 34 14 3.7 266 1.4
+Chocolate chip cookie
+1 medium (30 g) 148 1.5 20 9.9 7.4 2.4 93 0.6
+Brownie
+1 medium (50 g) 202 2.4 32 18 8.2 2.1 143 1.1
+Glazed doughnut (yeast)
+1 doughnut (60 g) 253 3.7 29 14 14 5.7 190 1.3
+Chocolate pudding
+1 snack cup (110 g) 156 2.3 25 19 5.1 1.4 167 0
+Values are for the serving shown, from USDA FNDDS 2021–2023, and include both natural and added sugars. Portions at home and in 
+restaurants are often larger.
+Enjoy desserts the smart way
+Share a dessert or choose a small portion  ·  Save desserts for special occasions  ·  Try fruit-based desserts 
+such as berries with yogurt or baked apples with cinnamon  ·  If you have diabetes or take steroids, plan 
+desserts with your care team
+
+--- PDF page 39 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   39
+Evidence-Based Guidelines at a Glance
+This paper relies on major guidelines and research studies. The table summarizes the key nutrition 
+points.
+Source Key nutrition points
+Dietary Guidelines for Americans, 
+2025–2030 (USDA/HHS)
+Eat real, whole foods; limit highly processed foods, added sugars and 
+refined carbohydrates.
+Protein at every meal (1.2–1.6 g/kg/day); dairy 3, vegetables 3, fruits 2 and 
+whole grains 2–4 servings a day (2,000-calorie pattern).
+Saturated fat under 10% of calories; sodium under 2,300 mg a day; drink 
+water or unsweetened drinks; limit alcohol.
+2022 ACR Guideline: Exercise, 
+Rehabilitation, Diet and Integrative 
+Interventions for RA
+Conditionally recommends a Mediterranean-style diet.
+Does not recommend other specific diets or dietary supplements for RA.
+2019 ACR/Arthritis Foundation 
+Guideline for Osteoarthritis
+Strongly recommends weight loss for people with knee or hip OA who are 
+overweight or have obesity.
+2020 ACR Guideline for the 
+Management of Gout
+Conditionally recommends limiting alcohol, purine intake and high-fructose 
+corn syrup, and weight loss if overweight.
+Conditionally recommends against vitamin C supplements.
+2022 ACR Guideline for Glucocorticoid-
+Induced Osteoporosis
+Recommends calcium and vitamin D for people taking long-term steroids, 
+along with other bone-protecting steps.
+2021 EULAR Lifestyle 
+Recommendations for Rheumatic and 
+Musculoskeletal Diseases
+Encourages a healthy, balanced diet, a healthy body weight, regular 
+exercise, not smoking and limiting alcohol.
+Lupus Foundation of America No single lupus diet; eat a balanced diet; avoid alfalfa sprouts and alfalfa 
+supplements.
+Arthritis Foundation Recommends an anti-inflammatory eating pattern based on the 
+Mediterranean diet.
+Talk to your doctor or a registered dietitian
+Before making big changes to your diet, starting supplements or following a special diet, talk with your 
+doctor or a registered dietitian. This is especially important if you have kidney disease, diabetes, heart 
+disease, food allergies or a history of eating disorders, if you are pregnant, or if you take medicines such 
+as methotrexate, warfarin, steroids or medicines affected by grapefruit.
+
+--- PDF page 40 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   40
+References
+References follow the Chicago Manual of Style (17th edition) bibliography format. Web sources were accessed November 
+12, 2026.
+Arthritis Foundation. "The Ultimate Arthritis Diet." Accessed November 12, 2026. https://www.arthritis.org/health-
+wellness/healthy-living/nutrition/anti-inflammatory/the-ultimate-arthritis-diet.
+Atkinson, Fiona S., Jennie C. Brand-Miller, Kaye Foster-Powell, Anette E. Buyken, and Janina Goletzke. "International 
+Tables of Glycemic Index and Glycemic Load Values 2021: A Systematic Review." American Journal of Clinical 
+Nutrition 114, no. 5 (2021): 1625–32. https://doi.org/10.1093/ajcn/nqab233.
+Bhagwat, Seema, and David B. Haytowitz. USDA Database for the Isoflavone Content of Selected Foods, Release 2.1. 
+Beltsville, MD: U.S. Department of Agriculture, Agricultural Research Service, Nutrient Data Laboratory, November 
+2015. https://www.ars.usda.gov/ARSUserFiles/80400535/Data/isoflav/Isoflav_R2-1.pdf.
+Calder, Philip C. "Omega-3 Fatty Acids and Inflammatory Processes: From Molecules to Man." Biochemical Society 
+Transactions 45, no. 5 (2017): 1105–15. https://doi.org/10.1042/BST20160474.
+Choi, Hyon K., Karen Atkinson, Elizabeth W. Karlson, and Gary Curhan. "Obesity, Weight Change, Hypertension, Diuretic 
+Use, and Risk of Gout in Men." Archives of Internal Medicine 165, no. 7 (2005): 742–48. 
+https://doi.org/10.1001/archinte.165.7.742.
+Choi, Hyon K., Karen Atkinson, Elizabeth W. Karlson, Walter Willett, and Gary Curhan. "Alcohol Intake and Risk of Incident 
+Gout in Men: A Prospective Study." Lancet 363, no. 9417 (2004): 1277–81. https://doi.org/10.1016/S0140-
+6736(04)16000-5.
+Choi, Hyon K., Karen Atkinson, Elizabeth W. Karlson, Walter Willett, and Gary Curhan. "Purine-Rich Foods, Dairy and 
+Protein Intake, and the Risk of Gout in Men." New England Journal of Medicine 350, no. 11 (2004): 1093–1103. 
+https://doi.org/10.1056/NEJMoa035700.
+Choi, Hyon K., and Gary Curhan. "Soft Drinks, Fructose Consumption, and the Risk of Gout in Men: Prospective Cohort 
+Study." BMJ 336, no. 7639 (2008): 309–12. https://doi.org/10.1136/bmj.39449.819271.BE.
+England, Bryant R., Benjamin J. Smith, Nancy A. Baker, Jennifer L. Barton, Carol A. Oatis, Gordon Guyatt, Allen 
+Anandarajah, et al. "2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and 
+Additional Integrative Interventions for Rheumatoid Arthritis." Arthritis & Rheumatology 75, no. 8 (2023): 1299–
+1311. https://doi.org/10.1002/art.42507. Also published in Arthritis Care & Research 75, no. 8 (2023): 1603–15. 
+https://doi.org/10.1002/acr.25117.
+Estruch, Ramón, Emilio Ros, Jordi Salas-Salvadó, Maria-Isabel Covas, Dolores Corella, Fernando Arós, Enrique Gómez-
+Gracia, et al. "Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-
+Virgin Olive Oil or Nuts." New England Journal of Medicine 378, no. 25 (2018): e34. 
+https://doi.org/10.1056/NEJMoa1800389.
+Felson, David T., Yuqing Zhang, John M. Anthony, Allan Naimark, and Jennifer J. Anderson. "Weight Loss Reduces the Risk 
+for Symptomatic Knee Osteoarthritis in Women: The Framingham Study." Annals of Internal Medicine 116, no. 7 
+(1992): 535–39. https://doi.org/10.7326/0003-4819-116-7-535.
+FitzGerald, John D., Nicola Dalbeth, Ted Mikuls, Romina Brignardello-Petersen, Gordon Guyatt, Aryeh M. Abeles, Allan C. 
+Gelber, et al. "2020 American College of Rheumatology Guideline for the Management of Gout." Arthritis Care & 
+Research 72, no. 6 (2020): 744–60. https://doi.org/10.1002/acr.24180.
+Galland, Leo. "Diet and Inflammation." Nutrition in Clinical Practice 25, no. 6 (2010): 634–40. 
+https://doi.org/10.1177/0884533610385703.
+Gwinnutt, James M., Maud Wieczorek, Andra Balanescu, Heike A. Bischoff-Ferrari, Annelies Boonen, Giulio Cavalli, Savia 
+de Souza, et al. "2021 EULAR Recommendations Regarding Lifestyle Behaviours and Work Participation to Prevent 
+Progression of Rheumatic and Musculoskeletal Diseases." Annals of the Rheumatic Diseases 82, no. 1 (2023): 48–
+56. https://doi.org/10.1136/annrheumdis-2021-222020.
+Hahn, Jill, Nancy R. Cook, Erik K. Alexander, Sonia Friedman, Joseph Walter, Vadim Bubes, Gregory Kotler, I-Min Lee, 
+JoAnn E. Manson, and Karen H. Costenbader. "Vitamin D and Marine Omega 3 Fatty Acid Supplementation and 
+
+--- PDF page 41 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   41
+Incident Autoimmune Disease: VITAL Randomized Controlled Trial." BMJ 376 (2022): e066452. 
+https://doi.org/10.1136/bmj-2021-066452.
+Hall, Kevin D., Alexis Ayuketah, Robert Brychta, Hongyi Cai, Thomas Cassimatis, Kong Y. Chen, Stephanie T. Chung, et al. 
+"Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of 
+Ad Libitum Food Intake." Cell Metabolism 30, no. 1 (2019): 67–77.e3. https://doi.org/10.1016/j.cmet.2019.05.008.
+Haytowitz, David B., Xianli Wu, and Seema Bhagwat. USDA Database for the Flavonoid Content of Selected Foods, Release 
+3.3. Beltsville, MD: U.S. Department of Agriculture, Agricultural Research Service, Nutrient Data Laboratory, March 
+2018. https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf.
+Humphrey, Mary Beth, Linda Russell, Maria I. Danila, Howard A. Fink, Gordon Guyatt, Michael Cannon, Liron Caplan, et 
+al. "2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-
+Induced Osteoporosis." Arthritis & Rheumatology 75, no. 12 (2023): 2088–2102. 
+https://doi.org/10.1002/art.42646.
+Juraschek, Stephen P., Allan C. Gelber, Hyon K. Choi, Lawrence J. Appel, and Edgar R. Miller. "Effects of the Dietary 
+Approaches to Stop Hypertension (DASH) Diet and Sodium Intake on Serum Uric Acid." Arthritis & Rheumatology 
+68, no. 12 (2016): 3002–9. https://doi.org/10.1002/art.39813.
+Kaneko, Kiyoko, Yasuo Aoyagi, Tomoko Fukuuchi, Katsunori Inazawa, and Noriko Yamaoka. "Total Purine and Purine Base 
+Content of Common Foodstuffs for Facilitating Nutritional Therapy for Gout and Hyperuricemia." Biological and 
+Pharmaceutical Bulletin 37, no. 5 (2014): 709–21. https://doi.org/10.1248/bpb.b13-00967.
+Kolasinski, Sharon L., Tuhina Neogi, Marc C. Hochberg, Carol Oatis, Gordon Guyatt, Joel Block, Leigh Callahan, et al. "2019 
+American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the 
+Hand, Hip, and Knee." Arthritis & Rheumatology 72, no. 2 (2020): 220–33. https://doi.org/10.1002/art.41142. Also 
+published in Arthritis Care & Research 72, no. 2 (2020): 149–62. https://doi.org/10.1002/acr.24131.
+Liu, Simin, JoAnn E. Manson, Julie E. Buring, Meir J. Stampfer, Walter C. Willett, and Paul M. Ridker. "Relation between a 
+Diet with a High Glycemic Load and Plasma Concentrations of High-Sensitivity C-Reactive Protein in Middle-Aged 
+Women." American Journal of Clinical Nutrition 75, no. 3 (2002): 492–98. https://doi.org/10.1093/ajcn/75.3.492.
+Liu, Xiao-xia, Xiao-ming Zhu, Qing Miao, Hong-ying Ye, Zhao-yun Zhang, and Yi-ming Li. "Hyperglycemia Induced by 
+Glucocorticoids in Nondiabetic Patients: A Meta-Analysis." Annals of Nutrition and Metabolism 65, no. 4 (2014): 
+324–32. https://doi.org/10.1159/000365892.
+Lupus Foundation of America. "Lupus Nutrition FAQs." Accessed November 12, 2026. 
+https://www.lupus.org/resources/lupus-nutrition-faqs.
+Messier, Stephen P., Shannon L. Mihalko, Claudine Legault, Gary D. Miller, Barbara J. Nicklas, Paul DeVita, Daniel P. 
+Beavers, et al. "Effects of Intensive Diet and Exercise on Knee Joint Loads, Inflammation, and Clinical Outcomes 
+among Overweight and Obese Adults with Knee Osteoarthritis: The IDEA Randomized Clinical Trial." JAMA 310, no. 
+12 (2013): 1263–73. https://doi.org/10.1001/jama.2013.277669.
+National Institutes of Health, Office of Dietary Supplements. "Dietary Supplement Fact Sheets." Accessed November 12, 
+2026. https://ods.od.nih.gov/factsheets/list-all/.
+Panche, A. N., A. D. Diwan, and S. R. Chandra. "Flavonoids: An Overview." Journal of Nutritional Science 5 (2016): e47. 
+https://doi.org/10.1017/jns.2016.41.
+Parmenter, Benjamin H., Kevin D. Croft, Jonathan M. Hodgson, Frederik Dalgaard, Catherine P. Bondonno, Joshua R. 
+Lewis, Aedín Cassidy, Augustin Scalbert, and Nicola P. Bondonno. "An Overview and Update on the Epidemiology 
+of Flavonoid Intake and Cardiovascular Disease Risk." Food & Function 11, no. 8 (2020): 6777–6806. 
+https://doi.org/10.1039/D0FO01118E.
+Proudman, Susanna M., Michael J. James, Llewellyn D. Spargo, Robert G. Metcalf, Thomas R. Sullivan, Maureen 
+Rischmueller, Katerina Flabouris, Mihir D. Wechalekar, Anita T. Lee, and Leslie G. Cleland. "Fish Oil in Recent Onset 
+Rheumatoid Arthritis: A Randomised, Double-Blind Controlled Trial within Algorithm-Based Drug Use." Annals of 
+the Rheumatic Diseases 74, no. 1 (2015): 89–95. https://doi.org/10.1136/annrheumdis-2013-204145.
+Shea, Beverley, Michael V. Swinden, Elizabeth Tanjong Ghogomu, Zulma Ortiz, Wanruchada Katchamart, Tamara Rader, 
+Claire Bombardier, George A. Wells, and Peter Tugwell. "Folic Acid and Folinic Acid for Reducing Side Effects in 
+
+--- PDF page 42 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   42
+Patients Receiving Methotrexate for Rheumatoid Arthritis." Cochrane Database of Systematic Reviews, no. 5 
+(2013): CD000951. https://doi.org/10.1002/14651858.CD000951.pub2.
+Sköldstam, L., L. Hagfors, and G. Johansson. "An Experimental Study of a Mediterranean Diet Intervention for Patients 
+with Rheumatoid Arthritis." Annals of the Rheumatic Diseases 62, no. 3 (2003): 208–14. 
+https://doi.org/10.1136/ard.62.3.208.
+U.S. Department of Agriculture. "Kennedy, Rollins Unveil Historic Reset of U.S. Nutrition Policy, Put Real Food Back at 
+Center of Health." Press release, January 7, 2026. 
+https://www.usda.gov/about-usda/news/press-releases/2026/01/07/kennedy-rollins-unveil-historic-reset-us-
+nutrition-policy-put-real-food-back-center-health.
+U.S. Department of Agriculture, Agricultural Research Service. "FoodData Central." SR Legacy (April 2018) and Food and 
+Nutrient Database for Dietary Studies 2021–2023 (October 2024). Accessed November 12, 2026. 
+https://fdc.nal.usda.gov/.
+U.S. Department of Agriculture, Food and Nutrition Administration. "Eat Real Food Toolkit." Accessed November 12, 
+2026. https://www.fna.usda.gov/dga/eatrealfood-toolkit.
+U.S. Department of Agriculture and U.S. Department of Health and Human Services. Dietary Guidelines for Americans, 
+2025–2030. Washington, DC, January 2026. https://cdn.realfood.gov/DGA.pdf.
+U.S. Food and Drug Administration. "Daily Value on the Nutrition and Supplement Facts Labels." Accessed November 12, 
+2026. https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels.
+Zhang, Yuqing, Tuhina Neogi, Clara Chen, Christine Chaisson, David J. Hunter, and Hyon K. Choi. "Cherry Consumption 
+and Decreased Risk of Recurrent Gout Attacks." Arthritis & Rheumatism 64, no. 12 (2012): 4004–11. 
+https://doi.org/10.1002/art.34677.
+
+--- PDF page 43 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   43
+Appendix A: Image Credits and Licenses
+Food photographs are real photographs from Wikimedia Commons, used under the licenses shown. They were cropped 
+and resized for this paper, with no other changes. Each file can be found at commons.wikimedia.org/wiki/File: followed 
+by the file name. Public domain images include works of the U.S. federal government. License texts: CC BY and CC BY-SA 
+at creativecommons.org/licenses; CC0 at creativecommons.org/publicdomain/zero/1.0.
+Item Wikimedia Commons file Author / source License
+100% whole-wheat bread 2020-03-06 22 02 22 A single slice of Arnold Whole Grain 
+100% Wheat Bread in the Franklin Farm section of Oak 
+Hill, Fairfax County, Virginia.jpg
+Famartin CC BY-SA 4.0
+Almonds Almonds 1.jpg Loadmaster (David R. Tribble) CC BY-SA 3.0
+Apple Red Apple.jpg Abhijit Tembhekar from Mumbai, 
+India
+CC BY 2.0
+Apple juice Apfelsaft im Glas.jpg Verband der deutschen 
+Fruchtsaftindustrie e.V.
+CC BY-SA 3.0
+Apple pie Apple pie slice.jpg stu_spivack CC BY-SA 2.0
+Atlantic cod Baked cod fillet.jpg Tiia Monto CC BY-SA 4.0
+Avocado Avocado Hass - single and halved.jpg Ivar Leidus CC BY-SA 4.0
+Bacon, pan-fried Bacon strips.jpg Didriks from Cambridge, MA, USA CC BY 2.0
+Banana Bunch of bananas on sale.jpg Wilfredor CC0
+Beef hot dog Hot Dog 09.jpg rob_rob2001 CC BY-SA 2.0
+Beef jerky Beef-jerky.jpg Severein CC0
+Beef liver Liver "Berliner Art".jpg Paul Lowry CC BY 2.0
+Beer, regular Beer wuerzburger hofbraue v.jpg Christian "VisualBeo" Horvat CC BY-SA 3.0
+Bell pepper, red Red bell pepper.jpg AntanO CC BY-SA 4.0
+Black tea, brewed Cup of black tea.JPG AntanO CC BY-SA 4.0
+Blackberries Blackberries (Rubus fruticosus).jpg Ivar Leidus CC BY-SA 4.0
+Blueberries Dish of blueberries.jpg Petar Milošević CC BY-SA 4.0
+Brazil nuts Bertholletia excelsa seeds closeup.jpg רנדום CC BY-SA 3.0
+Broccoli, cooked Broccoli 3.jpg  পাপাৰিব CC BY-SA 4.0
+Brownie Chocolatebrownie.JPG Ɱ CC BY-SA 3.0
+Cabbage, raw Cabbage (Brassica oleracea) Black rot (35710676671).jpg Scot Nelson CC0
+Cantaloupe Cucumis melo var. reticulatus (photo by Scott Bauer).jpg USDA photo by Scott Bauer. 
+Image Number K7355-11.
+Public domain
+Carrot cake Carrot cake - Milfey Patisserie 2026-04-04.jpg Andy Li CC0
+Carrots Vegetable-Carrot-Bundle-wStalks.jpg Evan-Amos Public domain
+Cashews Cashew nuts in West Bengal of India.jpg Billjones94 CC BY-SA 4.0
+Catfish (farmed) Mississippi Fried Catfish.jpg Tallahatchie CC BY-SA 4.0
+Cauliflower Brassica oleracea var. botrytis (Coliflor).jpg Rjcastillo CC BY-SA 4.0
+Celery Celery 1.jpg Lombroso Public domain
+
+--- PDF page 44 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   44
+Item Wikimedia Commons file Author / source License
+Cheddar cheese Somerset-Cheddar.jpg J.P.Lon CC BY-SA 3.0
+Cheese crackers Cheez-It-Crackers.jpg Evan-Amos Public domain
+Cheesecake Raised slice of cheesecake.jpg Sirabellas CC BY-SA 4.0
+Cherry pie Cherry-Pie-Slice.jpg Evan-Amos Public domain
+Chicken breast, roasted Butterflied chicken breast.jpg The Bushranger CC BY-SA 4.0
+Chicken liver Chicken Livers.jpg Joe Foodie CC BY 2.0
+Chicken thigh, roasted Roast Chicken Legs and Thighs (31196736704).jpg Willis Lam CC BY-SA 2.0
+Chicken wing with skin Chicken Wings with Montreal Seasoning.jpg Rusty Clark ~ 100K Photos CC BY 2.0
+Chocolate chip cookie Choc-Chip-Cookie.jpg Evan-Amos Public domain
+Chocolate cupcake with icing Chocolate fudge cupcakes with coconut pecan frosting 
+(5046791188).jpg
+Fiona Henderson from Earlville, 
+Australia
+CC BY 2.0
+Chocolate ice cream Sweet Scoops Ice Cream - July 2023 - Sarah Stierch.jpg Missvain CC BY 4.0
+Chocolate layer cake with icing Chocolate layer cake slice with ice cream.jpg Wiki.cullin CC0
+Chocolate pudding Chocolate pudding with a butterfly.jpg E4024 CC BY-SA 4.0
+Clams Clams, Mumbai seafood 01.jpg Pratishkhedekar CC BY-SA 4.0
+Coffee, brewed (black) A small cup of coffee.JPG Julius Schorzman CC BY-SA 2.0
+Cola, regular Glass of Cola.jpg Cocktailmarler CC BY-SA 4.0
+Cornish game hen, roasted Rock Cornish Hen.jpg Hoyabird8 CC BY-SA 3.0
+Crab, Alaska king Alaskan King Crab.jpg Frank Mayne CC BY-SA 2.0
+Cranberries Cranberry bog.jpg Keith Weller Public domain
+Cranberry juice cocktail Cranberry juice in a cup.jpg Lisa Pinehill CC BY-SA 2.0
+Cucumber with peel Cucumber Slices (Alabama Extension).jpg Alabama Extension CC0
+Dark chocolate Righteously Raw chocolate.jpg Mx. Granger CC0
+Diet cola Diet-Coke-Can.jpg Evan-Amos Public domain
+Duck, roasted (meat only) Roast duck fs.JPG Chensiyuan CC BY-SA 3.0
+Egg, hard-boiled Boiled Egg - Crossection.jpg Ramesh NG CC BY-SA 2.0
+Energy drink Battery Energy Drink-can-bottle.jpg Juice79 Public domain
+French or sourdough bread Sourdough bread - January 2026 - Sarah Stierch 01.jpg Missvain CC0
+Frozen yogurt, vanilla Cup of Frozen Yogurt (15840156083).jpg Willis Lam CC BY-SA 2.0
+Glazed doughnut (yeast) Glazed-Donut.jpg Evan-Amos Public domain
+Goose, roasted (meat only) Roasted goose full.jpg User:Nostrifikator CC0
+Granola bar, hard Granola bars.jpg LironOmri12 CC0
+Grape juice Glass of grape juice.jpeg Oyp CC BY-SA 3.0
+Grapefruit Grapefruits - whole-halved-segments.jpg Ivar Leidus CC BY-SA 4.0
+Grapefruit juice Grapefruit Juice (2953129458).jpg Tony Webster CC BY 2.0
+Grapes A bunch of grapes a.jpg Vijay Kumar Soren CC BY-SA 4.0
+Green beans, cooked Macro of Fresh Green Beans Buncis.jpg Undeka 11 CC BY-SA 4.0
+
+--- PDF page 45 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   45
+Item Wikimedia Commons file Author / source License
+Green tea Green Tea in Turkish Cup and Saucer 04.jpg Nizil Shah CC BY-SA 4.0
+Ground beef, 85% lean, 
+broiled
+Hackfleisch-1.jpg Rainer Zenz (assumed) CC BY-SA 3.0
+Ground turkey, cooked Ground turkey (4515834437).jpg Michael Coté from Austin, Texas, 
+Texas
+CC BY 2.0
+Ham, sliced deli Glazed and sliced ham.jpg Michael Coté from Austin, Texas, 
+Texas
+CC BY 2.0
+Hazelnuts Hazelnuts (Corylus avellana) - whole with kernels 
+(cropped2).jpg
+Ivar Leidus CC BY-SA 4.0
+Kale Kale-Bundle.jpg Evan-Amos CC0
+Lamb loin chop, broiled Lamb chops with mash.JPG Unknown (public domain) Public domain
+Lean beef (illustrative photo) Grilled flank steak.jpg Wikiuser100 CC BY-SA 4.0
+Macadamia nuts Cut macadamia nuts.jpg Fumikas Sagisavas CC0
+Mango Mangos - single and halved.jpg Ivar Leidus CC BY-SA 4.0
+Milk chocolate bar Hershey-bar-open.JPG Evan-Amos Public domain
+Milk, whole Glass of Milk (33657535532).jpg NIAID CC BY 2.0
+Multigrain bread Vierkornbrot 01.jpg Kritzolina CC BY-SA 4.0
+Onion Onion on White.JPG Colin CC BY-SA 3.0
+Orange Oranges - whole-halved-segment.jpg Ivar Leidus CC BY-SA 4.0
+Orange juice Orangejuice.jpg rawpixel.com CC0
+Oysters Six steamed oysters on the half shell.jpg Jud McCranie CC BY-SA 4.0
+Parsley Fresh Parsley leaves.jpg Halima Waziri CC BY-SA 4.0
+Peach Autumn Red peaches.jpg Jack Dykinga, USDA Public domain
+Peanuts Roasted Peanuts with shell.jpg Sanjay Acharya CC BY-SA 4.0
+Pear Pear DS.jpg Augustus Binu : flickr CC BY-SA 3.0
+Pecan pie Pecan pie, November 2010.jpg Joe Hakim CC BY 2.0
+Pecans Pecan halves.JPG Bubba73 CC BY-SA 3.0
+Pheasant, cooked And here's the pheasant (1789079972).jpg Andy / Andrew Fogg from near 
+Cambridge, UK
+CC BY 2.0
+Pine nuts Jat (pine nut) (Pinus koraiensis).jpg 국립국어원 CC BY-SA 2.0 kr
+Pineapple Pineapple fruit 2.jpg Wilfredor CC0
+Pineapple juice A glass of pineapple juice.jpg Uthman salma CC0
+Pistachios Pistachio.jpg Kobi Schutz CC BY-SA 3.0
+Pollock (illustrative photo) Pollachius virens (RFEIMG-0087).jpg The U.S. Food and Drug 
+Administration
+Public domain
+Popcorn, air-popped Bowl of Popcorn (Unsplash).jpg Alex Munsell alexmunsell CC0
+Pork chop, broiled Pork chops 167541218.jpg penny from Oakland, California, 
+USA
+CC BY 2.0
+Pork liver Pork liver.jpg Fumikas Sagisavas CC0
+Pork sausage, smoked link Smoked sausage of Argentina.jpg Horacio Cambeiro CC BY-SA 4.0
+
+--- PDF page 46 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   46
+Item Wikimedia Commons file Author / source License
+Pork tenderloin, roasted Garin's pork tenderloin 2007.jpg Timothy Vollmer CC BY 2.0
+Potato chips Potato-Chips.jpg Evan-Amos Public domain
+Potato, baked with skin Russet potato.jpg Steve Caruso CC BY-SA 2.5
+Pretzels, hard Pretzels (8201561614).jpg Don and Janet Beasley from 
+Orlando, FL, US
+CC BY-SA 2.0
+Prune juice Prune juice bottles.jpg Betty Wills (Atsme) CC BY-SA 4.0
+Pumpkin pie Pumpkin-Pie-Whole-Slice.jpg Evan-Amos CC BY-SA 3.0
+Quail, cooked Quail Roast.jpg Banurekha68 CC BY-SA 4.0
+Rainbow trout Rainbow trout at restaurant Salve.jpg JIP CC BY-SA 4.0
+Raspberries Raspberries (Rubus idaeus).jpg Ivar Leidus CC BY-SA 4.0
+Red grapes Red grapes 2.jpg ProjectManhattan CC BY-SA 3.0
+Red wine 020260524 140002 Red wine in glass.jpg Auctor quaerendae CC BY-SA 4.0
+Ribeye steak, grilled Grillfleisch Rindersteak Ribeye (26152657274).jpg dronepicr CC BY 2.0
+Romaine lettuce Romaine lettuce.jpg Rainer Zenz CC BY-SA 3.0
+Rye bread Slice of rye bread Roggenbengel 2025-02-14 01.jpg Leonhard Lenz CC0
+Salmon, Atlantic (farmed) Salmon fillet.JPG BrokenSphere CC BY-SA 3.0
+Sardines Canned sardines with lemon.jpg Pannet CC BY-SA 4.0
+Scallops, steamed Seared king scallops, garlic butter (starter) - English's of 
+Brighton 2025-07-29.jpg
+Andy Li CC0
+Shrimp Cooked shrimp.jpg Fumikas Sagisavas CC0
+Skipjack (bonito) tuna KatsuoTataki.jpg ayustety from Tokyo, JAPAN CC BY-SA 2.0
+Soybeans Dried soybeans.jpg Fumikas Sagisavas CC0
+Spinach, raw Spinach leaves.jpg Nillerdk CC BY 3.0
+Sports drink Gatorade Thirst Quencher.jpg Fotonovela CC BY-SA 3.0
+Squid (calamari) Calamari at Riverbar & Kitchen, Brisbane, 
+Queensland.jpg
+Kgbo CC BY-SA 4.0
+Strawberries Strawberry-1.jpg علاء CC BY-SA 3.0
+String cheese (part-skim 
+mozzarella)
+String cheese.jpg  이동원 lee CC0
+Sweet cherries Cherry season (48216568227).jpg spurekar CC BY 2.0
+Sweet corn, cooked Corn on the cob (sweet corn).jpg Nutrition, Food Safety & Health CC0
+Sweet potato, baked Ipomoea batatas 006.JPG Llez CC BY-SA 3.0
+Tart cherry juice Cheribundi Tart Cherry Juice.png Cheribundi, Inc. CC BY-SA 4.0
+Tilapia Fish Fillet Tilapia.jpg Wasswajimmy CC BY-SA 4.0
+Tofu, firm Korean food-Dubu-01.jpg yearofeats CC BY 2.0
+Tomato Tomato je.jpg Softeis CC BY-SA 3.0
+Tomato juice Tomato juice 316744.jpg PublicDomainPictures-14 CC0
+Top sirloin steak, lean Sirloin Steak, Otawara.jpg Miyuki Meinaka CC BY-SA 4.0
+Tortilla chips Tortilla Chips.jpg Gaurav Dhwaj Khadka CC BY-SA 4.0
+
+--- PDF page 47 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   47
+Item Wikimedia Commons file Author / source License
+Trail mix Planters-Trail-Mix.jpg Evan-Amos CC0
+Tuna, light, canned in water Lata de atún-Albo.jpg Tamorlan CC BY 3.0
+Turkey breast, roasted Cooked turkey breast - November 2023 - Sarah 
+Stierch.jpg
+Missvain CC BY 4.0
+Vanilla ice cream Vanilla bean ice cream (3086700978).jpg a.pasquier from bellingham, 
+washington
+CC BY-SA 2.0
+Vegetable juice cocktail V8 vegetable juice.jpg James CC BY-SA 2.0
+Walnuts (English) Walnuts - whole and open with halved kernel.jpg Ivar Leidus CC BY-SA 4.0
+Water, tap Glass of water, detail.jpg Mia Gaitanidis CC BY-SA 4.0
+Watermelon Watermelon slice, May 2024.jpg Ralff Nestor Nacor CC BY-SA 4.0
+White bread Sliced sandwich breads 2021-8-28.jpg Baoothersks CC BY-SA 4.0
+White mushrooms ChampignonMushroom.jpg chris_73 CC BY-SA 3.0
+White rice, cooked A bowl of rice.jpg Douglas Perkins CC0
+Yogurt, plain whole-milk Joghurt.jpg Rainer Zenz (assumed) CC BY-SA 3.0
+Other images: the New Pyramid graphic is from the cover of the Dietary Guidelines for Americans, 2025–2030 (USDA and HHS), 
+a work of the U.S. government in the public domain. The simplified pyramid diagram, mind map and cover layout were created 
+for RheumNotes©. The Rheumy character is the property of RheumNotes©.
+
+--- PDF page 48 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   48
+Appendix B: Nutrition Data Sources
+All calorie and nutrient values were calculated for the serving shown from USDA FoodData Central. SR = SR Legacy (April 
+2018); FNDDS = Food and Nutrient Database for Dietary Studies 2021–2023. Percent Daily Values use the FDA Daily 
+Values for adults and children 4 years and older. Values are rounded. Nothing was estimated: when the database has no 
+value, the tables show "n/a".
+Table Food Dataset & FDC ID FoodData Central description Serving
+Fruits Apple SR 171688 Apples, raw, with skin (Includes foods for USDA's Food 
+Distribution Program)
+1 medium (182 g)
+Fruits Banana SR 173944 Bananas, raw 1 medium (118 g)
+Fruits Strawberries SR 167762 Strawberries, raw 1 cup halves (152 g)
+Fruits Grapes SR 174683 Grapes, red or green (European type, such as 
+Thompson seedless), raw
+1 cup (151 g)
+Fruits Orange SR 169097 Oranges, raw, all commercial varieties 1 medium (131 g)
+Fruits Watermelon SR 167765 Watermelon, raw 1 cup diced (152 g)
+Fruits Blueberries SR 171711 Blueberries, raw 1 cup (148 g)
+Fruits Pineapple SR 169124 Pineapple, raw, all varieties 1 cup chunks (165 g)
+Fruits Cantaloupe SR 169092 Melons, cantaloupe, raw 1 cup cubes (160 g)
+Fruits Peach SR 169928 Peaches, yellow, raw 1 medium (150 g)
+Fruits Pear SR 169118 Pears, raw 1 medium (178 g)
+Fruits Mango SR 169910 Mangos, raw 1 cup pieces (165 g)
+Fruits Sweet cherries SR 171719 Cherries, sweet, raw 1 cup with pits (138 g)
+Fruits Avocado SR 171705 Avocados, raw, all commercial varieties 1/2 fruit (68 g)
+Fruits Raspberries SR 167755 Raspberries, raw 1 cup (123 g)
+Vegetables Potato, baked with skin SR 170093 Potatoes, baked, flesh and skin, without salt 1 medium (173 g)
+Vegetables Tomato SR 170457 Tomatoes, red, ripe, raw, year round average 1 medium (123 g)
+Vegetables Onion SR 170000 Onions, raw 1 cup chopped (160 g)
+Vegetables Carrots SR 170393 Carrots, raw 1 cup chopped (128 g)
+Vegetables Romaine lettuce SR 169247 Lettuce, cos or romaine, raw 1 cup shredded (47 g)
+Vegetables Broccoli, cooked SR 169967 Broccoli, cooked, boiled, drained, without salt 1/2 cup chopped (78 g)
+Vegetables Sweet corn, cooked SR 169999 Corn, sweet, yellow, cooked, boiled, drained, without 
+salt
+1 medium ear (103 g)
+Vegetables Bell pepper, red SR 170108 Peppers, sweet, red, raw 1 cup chopped (149 g)
+Vegetables Cucumber with peel SR 168409 Cucumber, with peel, raw 1/2 cup slices (52 g)
+Vegetables Spinach, raw SR 168462 Spinach, raw 1 cup (30 g)
+Vegetables Green beans, cooked SR 169141 Beans, snap, green, cooked, boiled, drained, without 
+salt
+1 cup (125 g)
+Vegetables Sweet potato, baked SR 168483 Sweet potato, cooked, baked in skin, flesh, without salt 1 medium (114 g)
+Vegetables Cabbage, raw SR 169975 Cabbage, raw 1 cup chopped (89 g)
+Vegetables Celery SR 169988 Celery, raw 1 cup chopped (101 g)
+Vegetables White mushrooms SR 169251 Mushrooms, white, raw 1 cup pieces (70 g)
+
+--- PDF page 49 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   49
+Table Food Dataset & FDC ID FoodData Central description Serving
+Nuts Almonds SR 170567 Nuts, almonds 1 oz (28 g)
+Nuts Peanuts, dry-roasted SR 173806 Peanuts, all types, dry-roasted, without salt 1 oz (28 g)
+Nuts Walnuts (English) SR 170187 Nuts, walnuts, english 1 oz (28 g)
+Nuts Cashews SR 170162 Nuts, cashew nuts, raw 1 oz (28 g)
+Nuts Pistachios SR 170184 Nuts, pistachio nuts, raw 1 oz (28 g)
+Nuts Pecans SR 170182 Nuts, pecans 1 oz (28 g)
+Nuts Macadamia nuts SR 170178 Nuts, macadamia nuts, raw 1 oz (28 g)
+Nuts Hazelnuts SR 170581 Nuts, hazelnuts or filberts 1 oz (28 g)
+Nuts Brazil nuts SR 170569 Nuts, brazilnuts, dried, unblanched 1 oz (28 g)
+Nuts Pine nuts SR 170591 Nuts, pine nuts, dried 1 oz (28 g)
+Breads White bread SR 174924 Bread, white, commercially prepared (includes soft 
+bread crumbs)
+1 slice (29 g)
+Breads 100% whole-wheat bread SR 172688 Bread, whole-wheat, commercially prepared 1 slice (32 g)
+Breads Multigrain bread SR 168013 Bread, multi-grain (includes whole-grain) 1 slice (26 g)
+Breads Rye bread SR 172684 Bread, rye 1 slice (32 g)
+Breads French or sourdough bread SR 172675 Bread, french or vienna (includes sourdough) 1 oz (28 g)
+Land Ground beef, 85% lean, 
+broiled
+SR 174032 Beef, ground, 85% lean meat / 15% fat, patty, cooked, 
+broiled
+3 oz cooked (85 g)
+Land Top sirloin steak, lean SR 168634 Beef, top sirloin, steak, separable lean only, trimmed to 
+0" fat, all grades, cooked, broiled
+3 oz cooked (85 g)
+Land Ribeye steak, grilled SR 171209 Beef, rib eye steak, boneless, lip-on, separable lean 
+only, trimmed to 1/8" fat, all grades, cooked, grilled
+3 oz cooked (85 g)
+Land Pork chop, broiled SR 168240 Pork, fresh, loin, center loin (chops), bone-in, separable 
+lean only, cooked, broiled
+3 oz cooked (85 g)
+Land Pork tenderloin, roasted SR 168250 Pork, fresh, loin, tenderloin, separable lean only, 
+cooked, roasted
+3 oz cooked (85 g)
+Land Bacon, pan-fried SR 168322 Pork, cured, bacon, pre-sliced, cooked, pan-fried 1 slice (11.5 g)
+Land Ham, sliced deli SR 173864 Ham, sliced, regular (approximately 11% fat) 1 slice (28 g)
+Land Pork sausage, smoked link SR 174584 Sausage, smoked link sausage, pork 1 link (68 g)
+Land Lamb loin chop, broiled SR 172492 Lamb, loin, separable lean only, trimmed to 1/4" fat, 
+choice, cooked, broiled
+3 oz cooked (85 g)
+Land Beef hot dog SR 174614 Frankfurter, beef, heated 1 frank (48 g)
+Sea Shrimp SR 175180 Crustaceans, shrimp, cooked 3 oz cooked (85 g)
+Sea Salmon, Atlantic (farmed) SR 175168 Fish, salmon, Atlantic, farmed, cooked, dry heat 3 oz cooked (85 g)
+Sea Tuna, light, canned in water SR 173709 Fish, tuna, light, canned in water, drained solids 
+(Includes foods for USDA's Food Distribution Program)
+3 oz cooked (85 g)
+Sea Tilapia SR 175177 Fish, tilapia, cooked, dry heat 3 oz cooked (85 g)
+Sea Alaska pollock SR 173681 Fish, pollock, Alaska, cooked, dry heat (may contain 
+additives to retain moisture)
+3 oz cooked (85 g)
+Sea Atlantic cod SR 171956 Fish, cod, Atlantic, cooked, dry heat 3 oz cooked (85 g)
+Sea Catfish (farmed) SR 175166 Fish, catfish, channel, farmed, cooked, dry heat 3 oz cooked (85 g)
+Sea Crab, Alaska king SR 174202 Crustaceans, crab, alaska king, cooked, moist heat 3 oz cooked (85 g)
+Sea Clams SR 171975 Mollusks, clam, mixed species, cooked, moist heat 3 oz cooked (85 g)
+
+--- PDF page 50 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   50
+Table Food Dataset & FDC ID FoodData Central description Serving
+Sea Scallops, steamed SR 167742 Mollusks, scallop, (bay and sea), cooked, steamed 3 oz cooked (85 g)
+Air Chicken breast, roasted SR 171477 Chicken, broilers or fryers, breast, meat only, cooked, 
+roasted
+3 oz cooked (85 g)
+Air Chicken thigh, roasted SR 172388 Chicken, broilers or fryers, thigh, meat only, cooked, 
+roasted
+3 oz cooked (85 g)
+Air Chicken wing with skin SR 173630 Chicken, broilers or fryers, wing, meat and skin, cooked, 
+roasted
+3 oz cooked (85 g)
+Air Turkey breast, roasted SR 174516 Turkey, retail parts, breast, meat only, cooked, roasted 3 oz cooked (85 g)
+Air Ground turkey, cooked SR 171506 Turkey, Ground, cooked 3 oz cooked (85 g)
+Air Duck, roasted (meat only) SR 172411 Duck, domesticated, meat only, cooked, roasted 3 oz cooked (85 g)
+Air Goose, roasted (meat only) SR 172414 Goose, domesticated, meat only, cooked, roasted 3 oz cooked (85 g)
+Air Cornish game hen, roasted SR 171109 Chicken, cornish game hens, meat only, cooked, 
+roasted
+3 oz cooked (85 g)
+Air Quail, cooked SR 169902 Quail, cooked, total edible 3 oz cooked (85 g)
+Air Pheasant, cooked SR 169903 Pheasant, cooked, total edible 3 oz cooked (85 g)
+Air Egg, hard-boiled SR 173424 Egg, whole, cooked, hard-boiled 1 large (50 g)
+Beverages Water, tap SR 173647 Beverages, water, tap, drinking 8 fl oz (237 g)
+Beverages Coffee, brewed (black) SR 171890 Beverages, coffee, brewed, prepared with tap water 8 fl oz (237 g)
+Beverages Black tea, brewed SR 173227 Beverages, tea, black, brewed, prepared with tap water 8 fl oz (237 g)
+Beverages Cola, regular SR 174852 Beverages, carbonated, cola, regular 12 fl oz can (370 g)
+Beverages Diet cola SR 175099 Beverages, carbonated, low calorie, cola or pepper-
+type, with aspartame, contains caffeine
+12 fl oz can (355 g)
+Beverages Milk, whole SR 171265 Milk, whole, 3.25% milkfat, with added vitamin D 1 cup (244 g)
+Beverages Beer, regular SR 168746 Alcoholic beverage, beer, regular, all 12 fl oz can (356 g)
+Beverages Red wine SR 173190 Alcoholic beverage, wine, table, red 5 fl oz (147 g)
+Beverages Sports drink FNDDS 2710771 Sports drink, NFS 20 fl oz bottle (620 g)
+Beverages Energy drink FNDDS 2710752 Energy drink (Red Bull) 8.4 fl oz can (260 g)
+Juices Orange juice SR 169100 Orange juice, chilled, includes from concentrate 1 cup (249 g)
+Juices Apple juice SR 173933 Apple juice, canned or bottled, unsweetened, without 
+added ascorbic acid
+1 cup (248 g)
+Juices Grape juice SR 173042 Grape juice, canned or bottled, unsweetened, without 
+added ascorbic acid
+1 cup (253 g)
+Juices Cranberry juice cocktail SR 171903 Cranberry juice cocktail, bottled 1 cup (253 g)
+Juices Grapefruit juice SR 174678 Grapefruit juice, white, canned or bottled, 
+unsweetened
+1 cup (257 g)
+Juices Pineapple juice SR 169947 Pineapple juice, canned or bottled, unsweetened, 
+without added ascorbic acid
+1 cup (250 g)
+Juices Tomato juice SR 170458 Tomato juice, canned, with salt added 1 cup (243 g)
+Juices Vegetable juice cocktail SR 170063 Vegetable juice cocktail, canned 1 cup (253 g)
+Juices Prune juice SR 167753 Prune juice, canned 1 cup (256 g)
+Juices Tart cherry juice SR 167807 Cherry juice, tart 1 cup (269 g)
+Snacks Potato chips SR 169677 Snacks, potato chips, plain, salted 1 oz (28 g)
+Snacks Tortilla chips SR 167558 Snacks, tortilla chips, plain, white corn, salted 1 oz (28 g)
+
+--- PDF page 51 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   51
+Table Food Dataset & FDC ID FoodData Central description Serving
+Snacks Popcorn, air-popped SR 167959 Snacks, popcorn, air-popped 3 cups (24 g)
+Snacks Pretzels, hard SR 167555 Snacks, pretzels, hard, plain, salted 1 oz (28 g)
+Snacks Cheese crackers SR 174975 Crackers, cheese, regular 1 oz (28 g)
+Snacks Granola bar, hard SR 167542 Snacks, granola bars, hard, plain 1 bar (28 g)
+Snacks Trail mix SR 167561 Snacks, trail mix, regular 1 oz (28 g)
+Snacks Beef jerky SR 167536 Snacks, beef jerky, chopped and formed 1 oz (28 g)
+Snacks Milk chocolate bar SR 167587 Candies, milk chocolate 1 bar, 1.55 oz (44 g)
+Snacks String cheese (part-skim 
+mozzarella)
+SR 170847 Cheese, mozzarella, part skim milk 1 oz (28 g)
+Desserts Vanilla ice cream FNDDS 2705630 Ice cream, vanilla 1 scoop (120 g)
+Desserts Chocolate ice cream FNDDS 2705632 Ice cream, chocolate 1 scoop (120 g)
+Desserts Frozen yogurt, vanilla FNDDS 2705452 Frozen yogurt, vanilla 1 scoop (160 g)
+Desserts Chocolate layer cake with 
+icing
+FNDDS 2707866 Cake or cupcake, chocolate with chocolate icing, bakery 1 slice, layer cake (175 
+g)
+Desserts Cheesecake FNDDS 2707861 Cheesecake, plain 1 slice (175 g)
+Desserts Carrot cake FNDDS 2707859 Cake or cupcake, carrot 1 slice (200 g)
+Desserts Apple pie FNDDS 2707995 Pie, apple 1 slice (150 g)
+Desserts Pumpkin pie FNDDS 2708011 Pie, pumpkin 1 slice (150 g)
+Desserts Pecan pie FNDDS 2708015 Pie, pecan 1 slice (150 g)
+Desserts Cherry pie FNDDS 2707999 Pie, cherry 1 slice (150 g)
+Desserts Chocolate cupcake with icing FNDDS 2707866 Cake or cupcake, chocolate with chocolate icing, bakery 1 cupcake (90 g)
+Desserts Chocolate chip cookie FNDDS 2707909 Cookie, chocolate chip 1 medium (30 g)
+Desserts Brownie FNDDS 2707904 Cookie, brownie, without icing 1 medium (50 g)
+Desserts Glazed doughnut (yeast) FNDDS 2708072 Doughnut, yeast type 1 doughnut (60 g)
+Desserts Chocolate pudding FNDDS 2705694 Pudding, chocolate, ready-to-eat 1 snack cup (110 g)
+Purine: high Chicken liver SR 171061 Chicken, liver, all classes, cooked, simmered 3 oz cooked (85 g)
+Purine: high Pork liver SR 167863 Pork, fresh, variety meats and by-products, liver, 
+cooked, braised
+3 oz cooked (85 g)
+Purine: high Beef liver SR 168626 Beef, variety meats and by-products, liver, cooked, 
+braised
+3 oz cooked (85 g)
+Purine: high Skipjack (bonito) tuna SR 172005 Fish, tuna, skipjack, fresh, cooked, dry heat 3 oz cooked (85 g)
+Purine: high Sardines SR 175139 Fish, sardine, Atlantic, canned in oil, drained solids with 
+bone
+3 oz cooked (85 g)
+Purine: 
+moderate
+Oysters SR 171980 Mollusks, oyster, eastern, wild, cooked, moist heat 3 oz cooked (85 g)
+Purine: 
+moderate
+Squid (calamari) SR 174223 Mollusks, squid, mixed species, raw 3 oz raw (85 g)
+Purine: 
+moderate
+Rainbow trout SR 173718 Fish, trout, rainbow, farmed, cooked, dry heat 3 oz cooked (85 g)
+Purine: 
+moderate
+Beef, lean (top round) SR 171815 Beef, round, top round, steak, separable lean only, 
+trimmed to 1/8" fat, all grades, cooked, broiled
+3 oz cooked (85 g)
+Purine: low Cauliflower SR 170397 Cauliflower, cooked, boiled, drained, without salt 1/2 cup pieces (62 g)
+Purine: low Tofu, firm SR 172475 Tofu, raw, firm, prepared with calcium sulfate 1/2 cup (126 g)
+
+--- PDF page 52 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   52
+Table Food Dataset & FDC ID FoodData Central description Serving
+Purine: low White rice, cooked SR 168878 Rice, white, long-grain, regular, enriched, cooked 1 cup (158 g)
+Purine: low Cheddar cheese SR 173414 Cheese, cheddar (Includes foods for USDA's Food 
+Distribution Program)
+1 oz (28 g)
+Purine: low Yogurt, plain whole-milk SR 171284 Yogurt, plain, whole milk 1 cup (245 g)
+
+--- PDF page 53 ---
+RHEUMNOTES©   Nutrition Component White Paper
+Nutrition is medicine. Educational content only. Not a substitute for individualized medical advice.   53
+Disclaimer
+Educational content only
+The RheumNotes© Nutrition Component, including this white paper, its tables, articles, illustrations, 
+videos, social media posts and in-app features, is provided for general educational purposes only. It is not 
+a substitute for individualized medical advice, diagnosis or treatment.
+Nutrition needs differ from person to person. Talk with your doctor or a registered dietitian before 
+making major changes to your diet, starting a special diet, or taking vitamins, minerals, herbs or other 
+supplements, especially if you have kidney disease, diabetes, heart disease or food allergies, are 
+pregnant, or take medicines such as methotrexate, warfarin or steroids.
+Nutrient values are averages from USDA databases and may differ from the foods you buy. Always check 
+the Nutrition Facts label on packaged foods.
+References to Rheumy, the RheumNotes© chatbot, describe an educational role. Rheumy does not 
+provide individual medical care.
+About the author
+Frederick T. Murphy, DO, FACP, FACR, is a rheumatologist in Pittsburgh, Pennsylvania, and the creator of 
+RheumNotes©, a patient-education platform for people living with arthritis and rheumatic disease and 
+the families and caregivers who support them.
+RHEUMNOTES©
+Nutrition is medicine.
+© 2026 Frederick T. Murphy. All rights reserved.

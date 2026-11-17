@@ -1,0 +1,3561 @@
+--- PDF page 1 ---
+R
+HEUM
+N
+OTES
+©
+ Anatomy Component
+ The Normal Joint, How Pain Changes Function, and What Arthritis Does to the Neck, Spine,
+ Shoulders, Elbows, Hands, Hips, Knees, Ankles and Feet
+ Know your joints. Understand your care.
+ The RheumNotes© Anatomy Chart: nine regions of normal anatomy shown with real, openly licensed images (credits inside).
+ A Companion White Paper to the RheumNotes© Patient-Education Platform
+ Frederick T. Murphy, DO, FACP, FACR
+ Rheumatologist · Pittsburgh, Pennsylvania
+ November 2026
+
+
+--- PDF page 2 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+2
+Educational content only. Not a substitute for individualized medical advice.
+Contents
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+A Note From the Author
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+Introduction: How to Use This Paper
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 5
+The Building Blocks: Joint Types and Tissues
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+The RheumNotes© Anatomy Chart
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 8
+Module 1: Neck (Cervical Spine)
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13
+Module 2: Spine (Thoracic, Lumbar and Sacroiliac)
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 20
+Module 3: Shoulders
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 27
+Module 4: Elbows
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 33
+Module 5: Hands and Wrists
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 41
+Module 6: Hips
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 49
+Module 7: Knees
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 57
+Module 8: Ankles
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 63
+Module 9: Feet
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 70
+Glossary
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 72
+Evidence and References
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 74
+Image Credits
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 79
+About the Author
+ .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 79
+Disclaimer
+
+
+--- PDF page 3 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+3
+Educational content only. Not a substitute for individualized medical advice.
+A Note From the Author
+Every day in my rheumatology practice, I hold up a model of a knee
+or sketch a hand on the back of an exam-table sheet. The moment a
+patient sees where the pain is coming from, something changes. Fear
+gives way to understanding, and understanding makes it much easier
+to take part in decisions about treatment, exercise and protecting the
+joints for the long run.
+That is why I built this Anatomy Component of RheumNotes©. It
+starts with the healthy joint: the bones, cartilage, ligaments, tendons,
+bursae, muscles and nerves that let us turn our heads, open a jar,
+climb stairs or walk on a beach. Then it shows what happens when
+pain enters the picture, how far each joint normally moves, and how
+osteoarthritis, rheumatoid arthritis, psoriatic arthritis,
+spondyloarthritis, gout and common soft-tissue problems change
+that anatomy.
+I have used real anatomical drawings, X-rays and clinical photographs
+whenever an openly licensed one was available, and I have credited
+every image. Where no real image of an examination maneuver
+existed under an open license, I drew a simple diagram and labeled it
+clearly as an illustration. Range-of-motion values come from
+published references that I checked, and I have not included any
+statistic I could not verify.
+Please use this paper alongside your own clinician, not instead of
+one. Your joints, your history and your goals are unique. My hope is
+that these pages help you ask better questions, recognize warning
+signs early, and feel more at home in your own body.
+Frederick T. Murphy, DO, FACP, FACR
+Rheumatologist, Pittsburgh, Pennsylvania
+ Rheumy, the RheumNotes© chatbot
+ guide, can help patients find the
+anatomy pages for their own joints and
+ prepare questions for their next visit.
+
+
+--- PDF page 4 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+4
+Educational content only. Not a substitute for individualized medical advice.
+Introduction: How to Use This Paper
+Arthritis is not one disease. More than one hundred conditions can affect the joints and the tissues
+around them, and each one leaves its own signature on the anatomy. Knowing what a healthy joint looks
+like is the first step to understanding what has changed, why a joint hurts or stiffens, and how treatment
+and exercise can help.
+This white paper is organized into nine regional modules, in the order in which a clinician often examines
+the body: the neck, the thoracic and lumbar spine with the sacroiliac joints, shoulders, elbows, hands
+and wrists, hips, knees, ankles and feet. Every module follows the same six-part pattern:
+ a. Normal anatomy: the key structures, with real labeled images and a color-coded structure key that
+matches the RheumNotes© Anatomy Chart.
+ b. Normal range of motion (ROM): typical adult values in degrees, with the published source for
+each value and an everyday task that uses that motion.
+ c. How pain affects function: guarding, compensation, weakness and changes in walking.
+ d. How arthritis changes the anatomy: osteoarthritis, inflammatory arthritis (rheumatoid and
+psoriatic arthritis), axial spondyloarthritis, gout and soft-tissue conditions, with normal and arthritic
+X-rays and photographs side by side.
+ e. Examination tests and maneuvers: what each test looks for, how it is done and what a positive
+result suggests.
+ f. Takeaways: plain-language points for patients and families, followed by a short note for clinicians.
+A word about the numbers
+Normal range of motion varies with age, sex, body type, genetics and the method of measurement. The
+values in this paper are commonly used reference values, most of them published by the American
+Academy of Orthopaedic Surgeons (AAOS) and reproduced in standard goniometry texts. They are a
+guide, not a pass-or-fail test. Bracketed numbers such as [1] refer to the Evidence and References
+section. Where a published source gives a different value, both are shown.
+A word about the images
+Every anatomical drawing, X-ray and clinical photograph in this paper is a real image from an openly
+licensed or public-domain source, mainly Wikimedia Commons, OpenStax Anatomy & Physiology, Gray's
+Anatomy (1918), Sobotta's Atlas (1909), BodyParts3D and Servier Medical Art. Each caption gives a short
+credit, and the Image Credits appendix lists the full title, author, license and source address. Images were
+used at their original, highest available resolution. A few examination maneuvers had no openly licensed
+photograph; these are shown as simple drawn diagrams and are always labeled "Illustration (drawn
+diagram, not a photograph)."
+Important
+This paper is for education. It cannot diagnose a problem or tell you which treatment is right for
+you. If a joint is suddenly hot, red and swollen, if you have a fever with joint pain, or if you notice
+new weakness, numbness, or loss of bladder or bowel control, seek medical care promptly.
+
+
+--- PDF page 5 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+5
+Educational content only. Not a substitute for individualized medical advice.
+The Building Blocks: Joint Types and Tissues
+Joints are the places where two or more bones meet. They are classified by how much they move.
+Fibrous joints (such as the sutures of the skull) barely move. Cartilaginous joints (such as the discs
+between vertebrae and the pubic symphysis) allow a little movement. Synovial joints – the shoulders,
+elbows, wrists, fingers, hips, knees, ankles and toes – move freely, and they are the joints most often
+affected by arthritis.
+ A synovial joint: articular cartilage, joint cavity with synovial fluid,
+synovial membrane and fibrous capsule. Image: OpenStax, CC BY 3.0,
+ via Wikimedia Commons.
+ The six types of synovial joint: pivot, hinge, saddle, plane,
+condyloid and ball-and-socket. Image: OpenStax, CC BY 3.0,
+ via Wikimedia Commons.
+The eight tissues on the RheumNotes© Anatomy Chart
+Tissue
+What it does, and how arthritis affects it
+■ Bones
+The rigid framework. Bone ends are covered with cartilage; the bone just beneath (subchondral
+bone) thickens or forms cysts in osteoarthritis and can be eroded by inflammation or gout.
+■ Joints
+Where bones meet. A synovial joint is enclosed by a capsule lined with synovium, which makes the
+lubricating synovial fluid. Inflammation of this lining (synovitis) is the core problem in rheumatoid
+and psoriatic arthritis.
+■ Cartilage
+Smooth hyaline cartilage covers bone ends; tougher fibrocartilage forms the menisci of the knee,
+the labrum of the shoulder and hip, the TFCC of the wrist and the intervertebral discs. Cartilage has
+no nerves or blood vessels and heals poorly.
+■ Ligaments
+Strong bands that link bone to bone and stabilize joints. Sprains are ligament injuries; inflammation
+where ligaments attach to bone (enthesitis) is typical of spondyloarthritis.
+■ Tendons
+Cords that connect muscle to bone and move joints. Many run in lubricated sheaths. Tendinopathy,
+tenosynovitis and ruptures are common in both overuse and inflammatory arthritis.
+
+
+--- PDF page 6 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+6
+Educational content only. Not a substitute for individualized medical advice.
+Tissue
+What it does, and how arthritis affects it
+■ Bursae
+Small, slippery fluid-filled sacs that cushion tendons, muscles and skin as they glide over bone. They
+can become inflamed by pressure, overuse, gout, rheumatoid arthritis or infection.
+■ Muscles
+Muscles move and protect joints. Pain quickly inhibits nearby muscles, and disuse leads to
+weakness, which further loads the joint. Strengthening is a cornerstone of treatment.
+■ Nerves
+Nerves carry movement signals to muscles and sensation back to the brain. Swollen joints, tendons
+or bone spurs can compress nerves, causing numbness, tingling or weakness (for example, carpal
+tunnel syndrome).
+Normal, osteoarthritic and rheumatoid joints
+The three medical illustrations below compare a healthy synovial joint with the two most common
+patterns of arthritis. In osteoarthritis, cartilage thins and frays, the joint space narrows, and bone spurs
+(osteophytes) grow at the joint margins. In rheumatoid arthritis, the synovium becomes inflamed and
+thickened (pannus), invading and eroding cartilage and bone. These two patterns recur in every module
+that follows.
+ Normal joint. Image: Laboratoires Servier,
+ CC BY-SA 3.0, via Wikimedia Commons.
+Osteoarthritis. Image: Laboratoires Servier,
+ CC BY-SA 3.0, via Wikimedia Commons.
+Rheumatoid arthritis. Image: Laboratoires
+ Servier, CC BY-SA 3.0, via Wikimedia
+ Commons.
+Pain, guarding and the cycle of disuse
+When a joint hurts, the nervous system protects it. Nearby muscles tighten (guarding), the joint is held in
+the position of least pressure – usually slightly bent – and we shift work to other joints (compensation).
+In the short term, this is useful. Over weeks, however, guarding causes stiffness and contractures,
+inhibited muscles weaken, and neighboring joints become overloaded. Walking changes too: steps
+shorten, the painful leg spends less time on the ground (an antalgic gait), and balance may suffer. Each
+module describes these patterns for that region, because recognizing them is the first step to reversing
+them with treatment, exercise and therapy.
+
+
+--- PDF page 7 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+7
+Educational content only. Not a substitute for individualized medical advice.
+The RheumNotes© Anatomy Chart
+The companion poster (24 × 36 inches, provided as a separate high-resolution PDF and 300-dpi PNG) brings the normal
+anatomy of all nine regions onto a single page. Each panel uses real, openly licensed images and a color-coded key to the
+bones, joints, cartilage, ligaments, tendons, bursae, muscles and nerves of that region.
+ The RheumNotes© Anatomy Chart: The Normal Joint. Full image credits for each panel appear in the Image Credits appendix.
+
+
+--- PDF page 8 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+8
+Educational content only. Not a substitute for individualized medical advice.
+Module 1: Neck (Cervical Spine)
+The neck is a stack of seven small vertebrae (C1 to C7) that carry the weight of the head and let us
+look up, down and around. It also protects the spinal cord and the nerve roots that travel to the
+shoulders, arms and hands.
+a. Normal anatomy
+Each pair of vertebrae is linked at three points: a cushioning disc in front and two small facet joints
+behind. Between C3 and C7 there are also small uncovertebral joints at the edges of the vertebral
+bodies. Strong ligaments run the length of the spine, and layers of muscles hold the head balanced over
+the shoulders.
+The upper two vertebrae are special. The atlas (C1) cradles the skull and allows much of the nodding
+motion. The axis (C2) has a peg, the dens, around which the atlas turns; a large share of neck rotation
+happens here. Nerve roots leave through small openings called foramina; when these narrow, arm pain,
+numbness or weakness can result.
+ Cervical vertebrae: atlas, axis and typical vertebrae, with
+labeled processes. Image: OpenStax, CC BY 3.0, via Wikimedia
+ Commons.
+
+
+--- PDF page 9 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+9
+Educational content only. Not a substitute for individualized medical advice.
+ Three-dimensional rendering of
+ the cervical spine, front view.
+ Image: BodyParts3D /
+Anatomography (DBCLS), CC BY-SA
+ 2.1 jp, via Wikimedia Commons.
+Muscles of the neck: side and back views, superficial and deep. Image: OpenStax, CC BY 4.0, via
+ Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Atlas (C1) and axis (C2) with the dens; C3-C7 vertebral bodies; Spinous and transverse processes;
+Occiput (base of skull)
+■ Joints
+Atlanto-occipital and atlanto-axial joints; Facet (zygapophyseal) joints; Uncovertebral joints (C3-C7);
+Intervertebral disc joints
+■ Cartilage
+Intervertebral discs (annulus + nucleus); Hyaline cartilage of facet joints
+■ Ligaments
+Anterior and posterior longitudinal ligaments; Ligamentum flavum; Nuchal ligament; Transverse
+ligament of the atlas
+■ Tendons
+Attachments of trapezius, levator scapulae and splenius
+■ Bursae
+No major named bursae
+■ Muscles
+Sternocleidomastoid; Upper trapezius; Levator scapulae; Scalenes; Splenius capitis; Deep neck
+flexors (longus colli)
+■ Nerves
+Spinal cord; Cervical nerve roots C1-C8; Brachial plexus (C5-T1); Greater occipital nerve
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Flexion (chin to chest)
+45°
+Looking down at a phone or book
+[2]
+Extension (look up)
+45°
+Looking at a high shelf
+[2]
+Lateral flexion (ear to shoulder),
+each side
+45°
+Tilting the head
+[2]
+Rotation, each side
+60° (some references list
+up to 80°)
+Checking blind spots while driving
+[2, 4]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+
+
+--- PDF page 10 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+10
+Educational content only. Not a substitute for individualized medical advice.
+ Guarding: neck muscles tighten to splint a painful joint, causing a stiff, "locked" neck and headaches
+at the base of the skull.
+ Compensation: people turn the whole trunk instead of the head (for example, when reversing a car),
+shifting strain to the upper back and shoulders.
+ Posture: a forward-head posture often develops, increasing the work of the neck and upper-back
+muscles.
+ Weakness and nerve symptoms: a pinched nerve root can send pain, tingling or weakness into the
+shoulder blade, arm or hand; grip and fine hand tasks suffer.
+ Balance and gait: a stiff neck limits scanning of the surroundings; rarely, spinal cord compression
+(myelopathy) causes clumsy hands and an unsteady walk, which needs prompt evaluation.
+d. How arthritis changes the anatomy
+ Osteoarthritis / cervical spondylosis. Discs lose height, facet and uncovertebral joints develop
+osteophytes (bone spurs), and joint spaces narrow. Spurs can narrow the foramina or the spinal
+canal. [23]
+ Rheumatoid arthritis. Inflamed synovium around the atlas and dens can loosen the transverse
+ligament, allowing atlanto-axial instability, one reason neck X-rays may be requested before
+anesthesia in long-standing RA. [24]
+ Axial spondyloarthritis (including ankylosing spondylitis). Inflammation at ligament attachments
+leads to new bone, bridging between vertebrae and loss of neck motion; a rigid neck is more
+vulnerable to fracture after falls. [26]
+ Psoriatic arthritis. Can involve the neck facet joints and cause stiffness similar to axial
+spondyloarthritis. [25]
+ Soft-tissue and nerve conditions. Muscle strain, myofascial pain and pinched nerve roots
+(radiculopathy) often accompany arthritis.
+
+
+--- PDF page 11 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+11
+Educational content only. Not a substitute for individualized medical advice.
+X-rays of arthritic change
+No openly licensed X-ray of a completely normal adult cervical spine could be confirmed for this edition; the normal
+anatomy is shown in the drawings above. The X-rays below show common degenerative changes.
+ ARTHRITIC
+Lateral cervical X-ray of an adult
+ with neck pain; the radiologist's
+ report notes degenerative
+changes at C5-6 with spurs
+narrowing the foramina. Image:
+Stillwaterising, CC0, via Wikimedia
+ Commons.
+ ARTHRITIC
+Cervical kyphosis and
+spondylosis: loss of the normal
+curve, disc-space narrowing and
+osteophytes. Image: Jmarchn, CC
+ BY-SA 3.0, via Wikimedia
+ Commons.
+ ARTHRITIC
+Osteoarthritis between the atlas and the dens
+(atlanto-odontoid joint), lateral X-ray. Image: Jmarchn, CC
+ BY-SA 3.0, via Wikimedia Commons.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+Spurling test [6]
+Cervical nerve-root
+compression
+(radiculopathy).
+Seated; the examiner extends the neck,
+rotates it toward the symptomatic side
+and applies gentle downward (axial)
+pressure on the head.
+Reproduces radiating pain,
+numbness or tingling into
+the same-side shoulder or
+arm. Neck pain alone is not a
+positive test.
+Shoulder abduction
+(relief) sign [6]
+Cervical radiculopathy.
+The patient rests the hand of the painful
+arm on top of the head.
+Arm symptoms ease.
+Neck distraction test
+[6]
+Cervical radiculopathy.
+The examiner gently lifts the head,
+holding under the chin and the back of
+the skull.
+Radiating arm symptoms
+decrease.
+Lhermitte sign [6]
+Cervical spinal cord
+irritation.
+The examiner passively bends the neck
+forward.
+An electric-shock sensation
+down the spine or into the
+limbs.
+Hoffmann sign [6]
+Upper motor neuron
+sign (possible cord
+compression).
+The examiner flicks the tip of the middle
+finger downward.
+The thumb and index finger
+flex together.
+
+
+--- PDF page 12 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+12
+Educational content only. Not a substitute for individualized medical advice.
+ Spurling test. Illustration (drawn diagram, not a photograph), created for RheumNotes©.
+f. Takeaways
+For patients and families
+ Your neck is built for motion; gentle, regular movement usually helps more than holding it still.
+ Pain that travels into the arm, or numbness, tingling or weakness in the hand, should be
+checked by your clinician.
+ Clumsy hands, trouble with buttons, or a new unsteady walk need prompt medical attention.
+ If you have long-standing rheumatoid arthritis, tell any surgical or anesthesia team; your neck
+may need special care.
+Clinician note
+StatPearls notes that the Spurling test is considered highly specific with only mild-to-moderate sensitivity [6]; a
+negative test does not exclude radiculopathy. In long-standing RA, consider flexion-extension radiographs for
+atlanto-axial instability when symptoms or anesthesia warrant. Screen for myelopathy (Hoffmann sign, gait, hand
+dexterity) in cervical spondylosis.
+
+
+--- PDF page 13 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+13
+Educational content only. Not a substitute for individualized medical advice.
+Module 2: Spine (Thoracic, Lumbar and Sacroiliac)
+Below the neck, 12 thoracic vertebrae anchor the ribs, 5 lumbar vertebrae carry most of the body's
+weight, and the sacrum joins the pelvis at the two sacroiliac (SI) joints. Together they let us bend,
+twist, lift and stand tall.
+a. Normal anatomy
+The spine has gentle curves: the thoracic spine curves backward (kyphosis) and the lumbar spine curves
+forward (lordosis). These curves act like a spring, absorbing load. Each disc has a tough outer ring
+(annulus fibrosus) and a gel-like center (nucleus pulposus). Paired facet joints guide motion: the
+thoracic spine favors rotation, while the lumbar spine favors bending forward and back.
+The sacroiliac joints link the spine to the pelvis. They are strong, tightly bound by ligaments and move
+only a small amount, but they transfer the load of the upper body to the legs with every step. The SI
+joints are a key site of inflammation in axial spondyloarthritis.
+ The vertebral column: cervical, thoracic, lumbar, sacral and
+coccygeal regions and curves. Image: OpenStax, CC BY 3.0, via
+ Wikimedia Commons.
+
+
+--- PDF page 14 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+14
+Educational content only. Not a substitute for individualized medical advice.
+ The intervertebral disc: annulus fibrosus and nucleus pulposus. Image: OpenStax,
+ CC BY 3.0, via Wikimedia Commons.
+ Ligaments of the vertebral column, side view.
+ Image: OpenStax, CC BY 3.0, via Wikimedia
+ Commons.
+ The pelvis from the front, showing sacroiliac and hip-joint ligaments (Sobotta,
+ 1909). Image: Johannes Sobotta (Atlas, 1909), public domain, via Wikimedia
+ Commons.
+ Muscles of the neck and back, including the
+erector spinae. Image: OpenStax, CC BY 4.0, via
+ Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Thoracic vertebrae T1-T12 and ribs; Lumbar vertebrae L1-L5; Sacrum and coccyx; Ilium (pelvis)
+■ Joints
+Intervertebral disc joints; Facet joints; Costovertebral joints; Sacroiliac joints
+■ Cartilage
+Intervertebral discs; Cartilage lining the SI joints; Vertebral end plates
+■ Ligaments
+Anterior and posterior longitudinal ligaments; Ligamentum flavum; Interspinous and supraspinous
+ligaments; Iliolumbar and sacroiliac ligaments
+■ Tendons
+Thoracolumbar fascia; erector spinae attachments
+■ Bursae
+No major named bursae
+
+
+--- PDF page 15 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+15
+Educational content only. Not a substitute for individualized medical advice.
+Tissue
+Key structures in this region
+■ Muscles
+Erector spinae; Multifidus; Quadratus lumborum; Abdominal wall (transversus, obliques, rectus);
+Psoas major; Gluteal muscles
+■ Nerves
+Spinal cord (ends near L1-L2); Cauda equina; Lumbar and sacral nerve roots; Sciatic nerve (L4-S3)
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Thoracolumbar flexion
+80° (about 4 in / 10 cm by
+tape measure)
+Bending to tie shoes or lift a laundry
+basket
+[2]
+Thoracolumbar extension
+20-30°
+Reaching up and back, standing tall
+[2]
+Lateral flexion, each side
+35°
+Reaching sideways for a seat belt
+[2]
+Rotation, each side
+45°
+Turning to look behind
+[2]
+Modified Schober (lumbar flexion)
+Increase of 5 cm or more
+A tape-measure check of low-back
+bending
+[8]
+Sacroiliac joints
+Very small gliding/tilting;
+not measured with a
+goniometer
+Transfers load when walking
+Not
+measured
+clinically
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+ Guarding and spasm: back muscles tighten to protect a painful area; people may stand slightly bent
+or tilted to one side.
+ Compensation: with a stiff back, people bend from the hips and knees or push up from chairs with
+their arms; neighboring joints take extra load.
+ Weakness from disuse: avoiding movement leads to deconditioning and more stiffness, a cycle that
+graded activity can break.
+ Gait changes: steps get shorter and slower; sciatic nerve irritation may cause a limp or foot
+weakness.
+ Inflammatory pattern: in axial spondyloarthritis, pain is often worse in the morning and after rest
+and better with activity.
+d. How arthritis changes the anatomy
+ Osteoarthritis / spondylosis. Discs degenerate and lose height, facet joints develop osteophytes, and
+disc and facet joint spaces narrow. Narrowing of the canal (spinal stenosis) can cause leg pain with
+walking that eases with sitting or bending forward. [23]
+ Axial spondyloarthritis (ankylosing spondylitis). Begins with sacroiliitis and inflammation where
+ligaments attach to bone (enthesitis). Over time, thin bony bridges (syndesmophytes) can join
+vertebrae into a "bamboo spine" and the thoracic spine may round forward. [26]
+ Psoriatic arthritis. May affect the spine and SI joints, sometimes on one side only. [25]
+
+
+--- PDF page 16 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+16
+Educational content only. Not a substitute for individualized medical advice.
+ Rheumatoid arthritis. Usually spares the thoracic and lumbar spine; the neck is the spinal area most
+often involved. [24]
+ Soft-tissue and nerve conditions. Muscle strain, sciatica from a herniated disc and SI-joint strain
+mimic or accompany arthritis.
+
+
+--- PDF page 17 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+17
+Educational content only. Not a substitute for individualized medical advice.
+X-rays of arthritic change
+Compare these X-rays with the normal vertebral column and pelvis drawings in section a.
+ ARTHRITIC
+Lumbar spondylosis, lateral X-ray: osteophytes
+ marked by arrows. Image: Nevit Dilmen;
+crop/annotation Mikael Häggström, CC BY-SA
+ 3.0, via Wikimedia Commons.
+ ARTHRITIC
+Pelvis X-ray showing sacroiliitis. Image: Nevit
+Dilmen, CC BY-SA 3.0, via Wikimedia Commons.
+ ARTHRITIC
+Advanced ankylosing
+spondylitis: fused sacroiliac
+ joints and a "bamboo"
+ lumbar spine. Image:
+Hellerhoff, CC BY-SA 3.0, via
+ Wikimedia Commons.
+ ARTHRITIC
+Lateral lumbar X-ray in ankylosing spondylitis. Image: Glitzy queen00 (Wikipedia user), public domain, via Wikimedia Commons.
+
+
+--- PDF page 18 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+18
+Educational content only. Not a substitute for individualized medical advice.
+Clinical images
+ Fixed thoracic kyphosis (stooped posture) in long-standing ankylosing spondylitis. Image: Mehlauge, CC BY-SA 3.0, via Wikimedia
+ Commons.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+Straight leg raise
+(Lasègue) [7]
+Lumbosacral
+nerve-root irritation
+(sciatica).
+Lying on the back, the examiner slowly
+lifts the straightened leg at the hip.
+Reproduces radiating leg
+pain below the knee,
+typically between about 30°
+and 70°. Back or
+posterior-thigh tightness
+alone is not positive.
+Modified Schober
+test [8]
+Lumbar
+forward-bending
+mobility (axial
+spondyloarthritis).
+Standing, a mark is placed between the
+dimples of Venus, with marks 10 cm
+above and 5 cm below; the patient
+bends forward fully, knees straight, and
+the distance is re-measured.
+An increase of less than 5 cm
+suggests reduced lumbar
+flexion.
+FABER (Patrick) test
+for the SI joint [15]
+Sacroiliac joint pain
+(also the hip; see Hips).
+The leg is placed in a figure-4 and the
+knee is gently pressed toward the table
+while the opposite pelvis is steadied.
+Buttock or low-back pain
+suggests the SI joint; groin
+pain suggests the hip.
+
+
+--- PDF page 19 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+19
+Educational content only. Not a substitute for individualized medical advice.
+ Straight leg raise (Lasègue). Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+ Modified Schober test. Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+f. Takeaways
+For patients and families
+ Most back pain improves; staying gently active usually helps more than bed rest.
+ Back pain that starts before about age 45, lasts more than three months, and is worse in the
+morning but better with exercise can be inflammatory back pain – ask about it.
+ Seek urgent care for new leg weakness, numbness in the groin or buttocks, or trouble
+controlling bladder or bowels.
+ Posture and breathing exercises are especially important in spondyloarthritis.
+Clinician note
+Distinguish mechanical from inflammatory back pain by history. Pelvic radiographs or SI-joint MRI help evaluate
+suspected axial SpA; record spinal mobility serially (for example, the modified Schober test) [8]. The SLR is positive
+only when radicular symptoms below the knee are reproduced [7].
+
+
+--- PDF page 20 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+20
+Educational content only. Not a substitute for individualized medical advice.
+Module 3: Shoulders
+The shoulder is the most mobile joint in the body. A large ball (the head of the humerus) sits on a
+shallow socket (the glenoid), so it depends on muscles, tendons and ligaments – especially the
+rotator cuff – for stability.
+a. Normal anatomy
+The shoulder is really several joints working together. The glenohumeral joint gives most of the motion,
+while the scapula glides on the rib cage to position the socket. A rim of cartilage, the labrum, deepens
+the socket. Above the joint, the acromion forms a roof; between that roof and the rotator cuff lies the
+subacromial bursa, a slippery sac that lets the tendons glide.
+The four rotator cuff muscles start on the scapula and wrap around the humeral head to hold it centered
+while the larger deltoid lifts the arm. When the cuff is weak or torn, the ball rides upward and pinches
+the tendons and bursa beneath the acromion.
+ The shoulder (glenohumeral) joint: labrum, capsule, bursae and the supraspinatus and
+ biceps tendons. Image: OpenStax, CC BY 3.0, via Wikimedia Commons.
+
+
+--- PDF page 21 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+21
+Educational content only. Not a substitute for individualized medical advice.
+ Muscles that move the humerus, including the rotator cuff (front and back views). Image: OpenStax, CC BY 4.0, via Wikimedia
+ Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Humerus (head, greater and lesser tuberosities); Scapula (glenoid, acromion, coracoid); Clavicle
+■ Joints
+Glenohumeral joint; Acromioclavicular (AC) joint; Sternoclavicular joint; Scapulothoracic gliding
+surface
+■ Cartilage
+Glenoid labrum (fibrocartilage rim); Hyaline cartilage of humeral head and glenoid
+■ Ligaments
+Glenohumeral ligaments; Coracoacromial ligament; Coracoclavicular ligaments; Joint capsule
+■ Tendons
+Rotator cuff: supraspinatus, infraspinatus, teres minor, subscapularis; Long head of biceps
+■ Bursae
+Subacromial-subdeltoid bursa; Subscapular bursa
+■ Muscles
+Deltoid; Rotator cuff muscles; Trapezius; Serratus anterior; Pectoralis major; Latissimus dorsi
+■ Nerves
+Axillary nerve; Suprascapular nerve; Musculocutaneous nerve; Brachial plexus
+
+
+--- PDF page 22 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+22
+Educational content only. Not a substitute for individualized medical advice.
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Flexion (arm forward and up)
+180°
+Reaching a top shelf
+[1]
+Extension (arm back)
+60°
+Reaching a back pocket
+[1]
+Abduction (arm out to the side and
+up)
+180°
+Washing hair
+[1]
+Internal (medial) rotation
+70°
+Tucking in a shirt
+[1]
+External (lateral) rotation
+90°
+Combing the back of the hair
+[1]
+Horizontal adduction
+135°
+Washing the opposite underarm
+[2]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+ Guarding: people hold the arm against the body, which quickly leads to stiffness (and, in some,
+frozen shoulder).
+ Compensation (shoulder hiking): the shoulder blade shrugs up to lift the arm when the
+glenohumeral joint is painful or weak.
+ Painful arc: pain often appears in the mid-range of lifting, when the tendons pass under the
+acromion.
+ Weakness: pain inhibits the rotator cuff; over time disuse causes true weakness and loss of reach.
+ Daily life: lying on the shoulder hurts; dressing, grooming and lifting become difficult. Arm swing
+during walking may be reduced.
+d. How arthritis changes the anatomy
+ Osteoarthritis. Cartilage loss on the humeral head and glenoid, joint-space narrowing, and a ring of
+osteophytes around the humeral head, often prominent at its lower edge. [23]
+ Rheumatoid arthritis. Synovitis inflames the joint lining; erosions and even cartilage loss follow, and
+the rotator cuff may thin and tear, letting the humeral head ride high. [24]
+ Rotator cuff tendinopathy, tears and cuff arthropathy. Overload or age-related wear causes
+tendinopathy; large tears can lead to upward migration of the humeral head and secondary arthritis.
+[29]
+ Subacromial bursitis. The bursa beneath the acromion becomes inflamed and thickened, causing
+pain with overhead use. [28]
+ Polymyalgia rheumatica and crystal disease. PMR causes bilateral shoulder and hip-girdle aching
+and stiffness in older adults; calcium crystal deposits can cause acute calcific tendinitis.
+
+
+--- PDF page 23 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+23
+Educational content only. Not a substitute for individualized medical advice.
+Side by side: normal and arthritic X-rays
+ NORMAL
+Normal shoulder X-ray (Grashey view): a smooth, even joint space
+between humeral head and glenoid. Image: Mikael Häggström, CC0, via
+ Wikimedia Commons.
+ ARTHRITIC
+Shoulder osteoarthritis (top) compared with the
+healthy opposite shoulder (bottom). Image: Hellerhoff,
+ CC BY-SA 3.0, via Wikimedia Commons.
+ ARTHRITIC
+Shoulder osteoarthritis with an inferior osteophyte and a subchondral cyst (geode), annotated. Image: Hellerhoff, CC BY-SA 4.0, via
+ Wikimedia Commons.
+
+
+--- PDF page 24 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+24
+Educational content only. Not a substitute for individualized medical advice.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+Neer test [9, 10]
+Subacromial
+impingement / bursitis.
+The examiner steadies the scapula and
+lifts the internally rotated arm fully
+forward and up.
+Pain at the front or top of
+the shoulder.
+Hawkins-Kennedy
+test [9, 10]
+Subacromial
+impingement.
+Shoulder and elbow bent to 90° in front
+of the body; the examiner rotates the
+forearm downward (internal rotation).
+Pain in the shoulder.
+Empty can (Jobe)
+test [9, 10]
+Supraspinatus strength
+or pain.
+Arms raised to 90° in the scapular plane
+(about 30° forward), elbows straight,
+thumbs down; the examiner presses
+down while the patient resists.
+Pain or weakness compared
+with the other side.
+Drop arm test [9, 10]
+Large rotator cuff
+(supraspinatus) tear.
+The arm is raised out to the side and the
+patient slowly lowers it.
+The arm drops suddenly or
+cannot be lowered
+smoothly, or severe pain.
+Speed test [9, 10]
+Long head of biceps
+tendinopathy.
+Arm forward to 90°, elbow straight,
+palm up; the examiner presses down
+while the patient resists.
+Pain in the front of the
+shoulder (bicipital groove).
+Cross-body
+adduction test [9]
+Acromioclavicular (AC)
+joint pain.
+The arm is raised to 90° and brought
+across the chest.
+Pain over the AC joint at the
+top of the shoulder.
+External rotation lag
+sign [10]
+Integrity of
+supraspinatus and
+infraspinatus.
+Elbow at 90°; the examiner places the
+arm in near-maximal external rotation
+and asks the patient to hold it.
+The arm drifts back inward
+(a lag).
+ Neer test. Illustration (drawn diagram, not a photograph), created
+ for RheumNotes©.
+ Hawkins-Kennedy test. Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+
+
+--- PDF page 25 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+25
+Educational content only. Not a substitute for individualized medical advice.
+ Empty can (Jobe) test. Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+ Drop arm test. Illustration (drawn diagram, not a photograph),
+ created for RheumNotes©.
+ Speed test. Illustration (drawn diagram, not a photograph), created for RheumNotes©.
+
+
+--- PDF page 26 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+26
+Educational content only. Not a substitute for individualized medical advice.
+f. Takeaways
+For patients and families
+ Keep the shoulder moving within comfort; complete rest invites stiffness.
+ Pain reaching overhead or at night is common with rotator cuff problems and usually improves
+with exercise.
+ Sudden loss of the ability to lift the arm after a fall or strain should be evaluated promptly.
+ New aching and stiffness in both shoulders and hips after age 50 deserves a call to your clinician.
+Clinician note
+Cotter et al. summarize reported accuracy: Neer sign sensitivity 75% for subacromial bursitis with poor specificity;
+Hawkins-Kennedy sensitivity 80% with poor specificity; Jobe test 52.6% sensitivity / 82.4% specificity for
+full-thickness supraspinatus tears; drop arm 35% / 88% for full-thickness tears; Speed test 54% / 81% for biceps
+pathology [9]. Combine tests with history and imaging rather than relying on a single maneuver.
+
+
+--- PDF page 27 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+27
+Educational content only. Not a substitute for individualized medical advice.
+Module 4: Elbows
+The elbow is a hinge that bends and straightens the arm, combined with a pivot that turns the palm
+up and down. It positions the hand for eating, grooming, lifting and work.
+a. Normal anatomy
+Three bones meet at the elbow inside one joint capsule. The humeroulnar joint works as a hinge; the
+radial head spins within the annular ligament to turn the palm. Strong collateral ligaments on each side
+keep the hinge stable.
+The bony bumps on each side, the epicondyles, are anchor points: the wrist and finger extensor muscles
+start on the outer (lateral) side and the flexors on the inner (medial) side. The ulnar nerve runs in a
+groove behind the medial epicondyle – the "funny bone." Over the point of the elbow, the olecranon
+bursa cushions the skin.
+The elbow joint: bones, capsule, ligaments and the olecranon bursa (several views). Image:
+ OpenStax, CC BY 3.0, via Wikimedia Commons.
+
+
+--- PDF page 28 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+28
+Educational content only. Not a substitute for individualized medical advice.
+ Elbow joint in cross-section, side view: cartilage, capsule and
+synovium (medical illustration). Image: Laboratoires Servier, CC
+ BY-SA 3.0, via Wikimedia Commons.
+Muscles that move the forearm. Image: OpenStax, CC BY 4.0, via
+ Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Distal humerus (epicondyles, trochlea, capitellum); Ulna (olecranon, coronoid); Radius (radial head)
+■ Joints
+Humeroulnar (hinge); Humeroradial; Proximal radioulnar (pivot)
+■ Cartilage
+Hyaline cartilage of trochlea, capitellum and radial head
+■ Ligaments
+Ulnar (medial) collateral ligament; Radial (lateral) collateral ligament; Annular ligament; Joint
+capsule
+■ Tendons
+Common extensor tendon (lateral epicondyle); Common flexor-pronator tendon (medial); Distal
+biceps tendon; Triceps tendon
+■ Bursae
+Olecranon bursa; Bicipitoradial bursa
+■ Muscles
+Biceps brachii; Brachialis; Brachioradialis; Triceps; Wrist extensors (ECRB) and flexors; Pronator
+teres, supinator
+■ Nerves
+Ulnar nerve (cubital tunnel); Median nerve; Radial nerve / posterior interosseous
+
+
+--- PDF page 29 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+29
+Educational content only. Not a substitute for individualized medical advice.
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Flexion
+150°
+Bringing food to the mouth
+[1]
+Extension
+0° (fully straight)
+Reaching, pushing up from a chair
+[1]
+Pronation (palm down)
+80°
+Typing, pouring
+[1]
+Supination (palm up)
+80°
+Holding a bowl, receiving change
+[1]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+ Guarding: a swollen elbow is held slightly bent, its most comfortable position, and can stiffen there
+(flexion contracture).
+ Compensation: lost palm turning is made up by moving the shoulder and trunk; reaching the mouth
+may require bending the neck.
+ Grip weakness: tennis elbow causes pain with gripping and lifting palm-down.
+ Nerve symptoms: pressure on the ulnar nerve causes tingling of the ring and little fingers, worse with
+the elbow bent.
+d. How arthritis changes the anatomy
+ Rheumatoid arthritis. The elbow is commonly involved. Synovitis fills the joint, causing loss of full
+extension; erosions and cartilage loss follow. Rheumatoid nodules often form over the olecranon.
+[24]
+ Osteoarthritis. Less common; usually after injury or heavy manual work. Osteophytes on the
+olecranon and coronoid block full motion, with joint-space narrowing. [23]
+ Gout. Can cause acute olecranon bursitis and chalky tophi over the elbow. [27]
+ Olecranon bursitis. A soft, fluid-filled swelling at the point of the elbow from pressure, injury, gout,
+RA or infection. [28]
+ Lateral and medial epicondylitis (tendinopathy). Overuse of the common extensor ("tennis elbow")
+or flexor ("golfer's elbow") tendon origins. [29]
+ Ulnar nerve entrapment (cubital tunnel). Swelling or arthritis can compress the ulnar nerve behind
+the elbow.
+
+
+--- PDF page 30 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+30
+Educational content only. Not a substitute for individualized medical advice.
+Side by side: normal and arthritic X-rays
+ NORMAL
+Normal elbow X-ray, front (AP) view.
+ Image: Mikael Häggström, CC0, via
+ Wikimedia Commons.
+ ARTHRITIC
+Elbow osteoarthritis, right and left AP views: joint-space narrowing and osteophytes.
+ Image: Jmarchn, CC BY-SA 3.0, via Wikimedia Commons.
+
+
+--- PDF page 31 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+31
+Educational content only. Not a substitute for individualized medical advice.
+Clinical images
+ Olecranon bursitis: a
+fluid-filled swelling over
+ the point of the elbow.
+Image: Alborz Fallah, CC
+BY-SA 3.0, via Wikimedia
+ Commons.
+Gouty tophi on the elbow (historical clinical
+ watercolour). Image: Leonard Portal Mark
+ (Wellcome Collection), CC BY 4.0, via
+ Wikimedia Commons.
+ Lateral epicondylitis ("tennis elbow") at the outer elbow
+ (medical illustration). Image: Injurymap, CC BY 4.0, via
+ Wikimedia Commons.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+Cozen test [11, 12]
+Lateral epicondylitis
+(tennis elbow).
+Elbow straight, forearm palm-down, fist
+made; the patient extends the wrist
+against resistance while the examiner's
+thumb rests on the lateral epicondyle.
+Pain at the lateral
+epicondyle.
+Mill test [11, 12]
+Lateral epicondylitis.
+The examiner passively flexes the wrist,
+pronates the forearm and straightens
+the elbow while palpating the lateral
+epicondyle.
+Pain near the lateral
+epicondyle.
+Resisted wrist
+flexion (golfer's
+elbow test) [11]
+Medial epicondylitis.
+Elbow at 90°, forearm palm-up, fist
+made; the patient flexes the wrist
+against resistance.
+Pain at the medial
+epicondyle.
+Tinel sign at the
+cubital tunnel [11]
+Ulnar neuropathy at
+the elbow.
+The examiner taps over the ulnar nerve
+in the groove behind the medial
+epicondyle.
+Tingling into the ring and
+little fingers.
+
+
+--- PDF page 32 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+32
+Educational content only. Not a substitute for individualized medical advice.
+ Cozen test. Illustration (drawn diagram, not a photograph),
+ created for RheumNotes©.
+Mill test. Illustration (drawn diagram, not a photograph), created
+ for RheumNotes©.
+f. Takeaways
+For patients and families
+ Losing the last few degrees of straightening can be an early sign of elbow arthritis – mention it.
+ A red, hot, swollen elbow tip can be infection or gout; seek care the same day, especially with
+fever.
+ Tennis elbow usually improves with load management and a graded strengthening program.
+ Avoid leaning on the elbows if you have bursitis or ulnar nerve symptoms.
+Clinician note
+Aspirate a warm olecranon bursa when infection or crystals are possible. Loss of terminal extension is a useful clue
+to elbow synovitis. Lateral elbow tendinopathy is a clinical diagnosis; Cozen and Mill tests reproduce pain at the
+common extensor origin [11, 12].
+
+
+--- PDF page 33 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+33
+Educational content only. Not a substitute for individualized medical advice.
+Module 5: Hands and Wrists
+The hand and wrist contain 27 bones and dozens of small joints, tendons and ligaments packed into
+a small space. They allow both power grip and fine precision – and they are where many forms of
+arthritis show their earliest signs.
+a. Normal anatomy
+The wrist is a two-row arrangement of eight carpal bones sitting on the end of the radius. On the
+little-finger side, the TFCC cushions the gap between the ulna and the carpus. The palm-side arch of
+carpal bones is roofed by the transverse carpal ligament, forming the carpal tunnel, through which nine
+flexor tendons and the median nerve pass.
+Each finger has three joints – the MCP (knuckle), PIP (middle) and DIP (end) joints; the thumb has a
+highly mobile CMC joint at its base. Long tendons from the forearm bend (flexors) and straighten
+(extensors) the fingers, gliding in lubricated tendon sheaths, while small intrinsic muscles in the hand
+fine-tune movement.
+Bones of the hand and wrist, labeled. Image: OpenStax, CC BY 3.0,
+ via Wikimedia Commons.
+
+
+--- PDF page 34 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+34
+Educational content only. Not a substitute for individualized medical advice.
+ Cross-section of the wrist at the carpal tunnel: median
+nerve and flexor tendons beneath the transverse carpal
+ ligament. Image: OpenStax, CC BY 3.0, via Wikimedia
+ Commons.
+ Muscles and tendons of the hand, palm side. Image: OpenStax, CC BY
+ 4.0, via Wikimedia Commons.
+ Ligaments of the wrist and hand. Image: Henry Vandyke Carter (Gray's Anatomy), public domain, via Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Distal radius and ulna; 8 carpal bones (scaphoid, lunate, triquetrum, pisiform, trapezium, trapezoid,
+capitate, hamate); 5 metacarpals; 14 phalanges
+■ Joints
+Radiocarpal (wrist); Distal radioulnar; Thumb base (1st CMC); MCP (knuckle) joints; PIP and DIP
+finger joints
+■ Cartilage
+Triangular fibrocartilage complex (TFCC); Hyaline cartilage of all small joints; Volar plates
+■ Ligaments
+Scapholunate ligament; Transverse carpal ligament (carpal tunnel roof); Collateral ligaments of the
+fingers; Extensor retinaculum
+■ Tendons
+Flexor digitorum superficialis and profundus; Extensor tendons and extensor hood; Abductor pollicis
+longus and extensor pollicis brevis (1st compartment); Flexor tendon pulleys
+■ Bursae
+Tendon sheaths (radial and ulnar bursae)
+
+
+--- PDF page 35 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+35
+Educational content only. Not a substitute for individualized medical advice.
+Tissue
+Key structures in this region
+■ Muscles
+Thenar muscles; Hypothenar muscles; Interossei; Lumbricals; Forearm flexors and extensors
+■ Nerves
+Median nerve (carpal tunnel); Ulnar nerve (Guyon canal); Radial nerve (superficial branch)
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Wrist flexion
+80°
+Pushing up from a chair (reverse),
+dressing
+[1]
+Wrist extension
+70°
+Push-ups, pushing a door, typing
+[1]
+Radial deviation
+20°
+Hammering, pouring
+[1]
+Ulnar deviation
+30°
+Using a knife, swinging a racquet
+[1]
+Finger MCP flexion / extension
+90° / 45°
+Gripping a handle
+[1]
+Finger PIP flexion
+100°
+Making a fist
+[5]
+Finger DIP flexion
+90°
+Picking up small objects
+[5]
+Thumb MCP flexion / IP flexion
+50° / 80°
+Pinch, writing
+[3]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+ Guarding: swollen fingers are held slightly bent; making a full fist becomes impossible and grip
+weakens.
+ Compensation: people use two hands, the palms, or the wrist and shoulder for tasks normally done
+with a pinch.
+ Weakness: pain inhibits grip; opening jars, turning keys and carrying bags become hard.
+ Fine motor loss: buttons, writing and phone use suffer; morning stiffness lasting more than an hour
+hints at inflammatory arthritis.
+ Nerve symptoms: carpal tunnel syndrome causes night-time numbness of the thumb, index and
+middle fingers.
+d. How arthritis changes the anatomy
+ Rheumatoid arthritis. Typically symmetric synovitis of the MCP, PIP and wrist joints. Untreated,
+erosions develop and supporting soft tissues stretch, producing ulnar deviation (fingers drifting
+toward the little finger), swan-neck (PIP hyperextended, DIP bent) and boutonnière (PIP bent, DIP
+hyperextended) deformities. Carpal tunnel syndrome is common. [24]
+ Osteoarthritis. Affects the DIP (Heberden nodes), PIP (Bouchard nodes) and thumb-base (CMC)
+joints, with osteophytes and joint-space narrowing. The MCPs and wrist are usually spared unless
+there is another cause. [23]
+
+
+--- PDF page 36 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+36
+Educational content only. Not a substitute for individualized medical advice.
+ Psoriatic arthritis. Often affects DIP joints and may cause dactylitis ("sausage digit"), nail pitting and,
+in severe forms, "pencil-in-cup" erosions. [25]
+ Gout and CPPD. Tophi can form on fingers; calcium pyrophosphate deposition (CPPD) commonly
+calcifies the TFCC and can mimic RA at the wrist. [27]
+ De Quervain tenosynovitis. Inflammation of the thumb tendons at the wrist (1st extensor
+compartment). [29]
+ Carpal tunnel syndrome and trigger finger. Synovial swelling compresses the median nerve; a
+thickened flexor tendon catches in its pulley (trigger finger). [13]
+
+
+--- PDF page 37 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+37
+Educational content only. Not a substitute for individualized medical advice.
+Side by side: normal and arthritic X-rays
+ NORMAL
+Normal hand X-ray (PA view): even joint spaces and smooth bone
+surfaces. Image: Mikael Häggström, CC0, via Wikimedia Commons.
+ ARTHRITIC
+Rheumatoid arthritis, hand X-ray: erosions, joint-space
+ narrowing and periarticular changes. Image: Bernd
+ Brägelmann, CC BY 3.0, via Wikimedia Commons.
+ ARTHRITIC
+Hand osteoarthritis X-ray: DIP joints narrowed with
+osteophytes (Heberden pattern) and thumb-base (CMC)
+osteoarthritis. Image: Hellerhoff, CC BY-SA 4.0, via Wikimedia
+ Commons.
+ ARTHRITIC
+Advanced rheumatoid arthritis, hand X-ray: erosions, joint
+destruction and drift of the fingers (this patient also had finger
+ fractures). Image: Hellerhoff, CC BY-SA 4.0, via Wikimedia
+ Commons.
+
+
+--- PDF page 38 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+38
+Educational content only. Not a substitute for individualized medical advice.
+Clinical images
+ Heberden nodes (DIP) and
+Bouchard nodes (PIP) of hand
+osteoarthritis. Image: PhilipPirrip,
+ CC BY 4.0, via Wikimedia
+ Commons.
+ Swan-neck deformity. Image: Phoenix119 (Wikipedia user), CC
+ BY-SA 3.0, via Wikimedia Commons.
+ Boutonnière deformity.
+Image: Alborz Fallah, CC BY-SA
+ 3.0, via Wikimedia Commons.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+Phalen test [13]
+Carpal tunnel
+syndrome.
+The backs of the hands are pressed
+together with the wrists fully flexed,
+held for up to about 60 seconds.
+Numbness or tingling in the
+thumb, index, middle and
+half of the ring finger.
+Tinel sign at the
+wrist [13]
+Carpal tunnel
+syndrome.
+The examiner taps over the median
+nerve at the palm side of the wrist.
+Tingling into the
+median-nerve fingers.
+Finkelstein test [14]
+De Quervain
+tenosynovitis.
+The examiner grasps the thumb and
+moves the hand toward the little-finger
+side (ulnar deviation).
+Sharp pain over the thumb
+side of the wrist (radial
+styloid).
+MCP squeeze test
+[20]
+Synovitis of the
+knuckle joints (early
+inflammatory
+arthritis).
+The examiner gently squeezes across
+the 2nd-5th knuckles.
+Pain suggests MCP synovitis.
+Thumb CMC grind
+test
+Thumb-base
+osteoarthritis.
+The examiner presses the thumb
+metacarpal into the trapezium and
+rotates it.
+Pain or grinding at the base
+of the thumb.
+
+
+--- PDF page 39 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+39
+Educational content only. Not a substitute for individualized medical advice.
+ Phalen test (photograph). Image: LittleT889, CC BY-SA 4.0, via Wikimedia
+ Commons.
+ Tinel sign at the wrist. Illustration (drawn
+ diagram, not a photograph), created for
+ RheumNotes©.
+ Finkelstein test (photograph). Image: InvictaHOG (Wikipedia user), public
+ domain, via Wikimedia Commons.
+ MCP squeeze test. Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+
+
+--- PDF page 40 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+40
+Educational content only. Not a substitute for individualized medical advice.
+f. Takeaways
+For patients and families
+ Morning hand stiffness lasting more than an hour, or swollen knuckles, should be checked soon
+– early treatment of RA protects the joints.
+ Bony bumps at the finger-tip joints are usually osteoarthritis, which is very common.
+ Night-time numbness of the thumb and first fingers suggests carpal tunnel syndrome.
+ An occupational or hand therapist can teach joint protection, splints and easier ways to do daily
+tasks.
+Clinician note
+In early arthritis, a painful MCP or MTP squeeze test should prompt careful joint examination, though Wouters et al.
+found it has limited sensitivity for subclinical synovitis [20]. Phalen and Tinel tests support but do not replace nerve
+conduction studies when the diagnosis is uncertain [13]. The CMC grind test is listed from standard clinical practice;
+I did not independently verify a published description for this edition.
+
+
+--- PDF page 41 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+41
+Educational content only. Not a substitute for individualized medical advice.
+Module 6: Hips
+The hip is a deep ball-and-socket joint that bears up to several times body weight with each step. It
+trades some motion for stability, and it is central to walking, climbing stairs, sitting and getting up.
+a. Normal anatomy
+The rounded femoral head fits deeply into the cup-shaped acetabulum, which is deepened further by
+the fibrocartilage labrum. Very strong ligaments – especially the iliofemoral (Y) ligament, one of the
+strongest in the body – wrap the capsule and limit over-extension.
+The gluteus medius and minimus attach to the greater trochanter and keep the pelvis level when
+standing on one leg. The iliopsoas is the main hip flexor. Bursae over the trochanter and in front of the
+joint reduce friction. Hip-joint pain is usually felt in the groin and may travel to the knee, while pain on
+the outer hip usually comes from the tendons and bursa.
+ The hip joint and pelvic ligaments from the front (Sobotta, 1909). Image: Johannes Sobotta (Atlas,
+ 1909), public domain, via Wikimedia Commons.
+
+
+--- PDF page 42 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+42
+Educational content only. Not a substitute for individualized medical advice.
+ Hip joint ligaments, posterior view (Sobotta, 1909). Image: Johannes Sobotta
+ (Atlas, 1909), public domain, via Wikimedia Commons.
+ Hip joint opened, showing the femoral head,
+acetabulum and ligament of the head (Gray's
+Anatomy). Image: Henry Vandyke Carter (Gray's
+ Anatomy), public domain, via Wikimedia
+ Commons.
+ Muscles of the hip and thigh. Image: OpenStax, CC BY 4.0, via Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Femoral head and neck; Greater and lesser trochanters; Acetabulum (ilium, ischium, pubis)
+■ Joints
+Hip (acetabulofemoral) joint; Pubic symphysis; Sacroiliac joints (see Spine)
+■ Cartilage
+Acetabular labrum; Hyaline cartilage of femoral head and acetabulum
+
+
+--- PDF page 43 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+43
+Educational content only. Not a substitute for individualized medical advice.
+Tissue
+Key structures in this region
+■ Ligaments
+Iliofemoral (Y) ligament; Pubofemoral and ischiofemoral ligaments; Ligament of the head of the
+femur; Joint capsule
+■ Tendons
+Gluteus medius and minimus (greater trochanter); Iliopsoas; Hamstring origin (ischial tuberosity);
+Adductor tendons
+■ Bursae
+Trochanteric bursa; Iliopsoas bursa; Ischial bursa
+■ Muscles
+Gluteus maximus, medius, minimus; Iliopsoas; Adductors; Quadriceps (rectus femoris); Hamstrings;
+Deep rotators (piriformis)
+■ Nerves
+Sciatic nerve; Femoral nerve; Obturator nerve; Lateral femoral cutaneous nerve
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Flexion
+120°
+Sitting, climbing stairs, putting on
+socks
+[2]
+Extension
+30° (some references list
+20°)
+Push-off when walking
+[2, 3]
+Abduction
+45° (some references list
+40°)
+Getting in and out of a car
+[2, 3]
+Adduction
+30° (some references list
+20°)
+Crossing legs
+[2, 3]
+Internal rotation
+45°
+Pivoting, turning in bed
+[2]
+External rotation
+45°
+Sitting cross-legged, tying shoes
+[2]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+ Antalgic gait: a painful hip leads to a shortened stance on that leg – a limp.
+ Trendelenburg / lurch gait: weak or painful gluteus medius lets the pelvis drop on the opposite side,
+or the trunk lurches over the hip to reduce load.
+ Guarding and contracture: the hip is held slightly bent and turned out; over time a flexion
+contracture develops and standing straight becomes difficult.
+ Daily tasks: putting on socks and shoes, cutting toenails and getting out of a car or low chair become
+hard; internal rotation is often lost first in osteoarthritis.
+ Referred pain: hip disease may be felt in the knee, and back problems may be felt in the buttock and
+hip.
+d. How arthritis changes the anatomy
+ Osteoarthritis. Cartilage loss causes joint-space narrowing, typically at the upper (weight-bearing)
+part, with osteophytes, subchondral sclerosis and cysts. Range of motion, especially internal
+rotation, decreases. [23]
+
+
+--- PDF page 44 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+44
+Educational content only. Not a substitute for individualized medical advice.
+ Inflammatory arthritis (RA, axial SpA). Synovitis causes uniform (concentric) joint-space narrowing
+and may lead to the femoral head migrating inward. Hip involvement in axial spondyloarthritis can be
+disabling. [24, 26]
+ Greater trochanteric pain syndrome (bursitis/tendinopathy). Pain and tenderness over the outer
+hip, often from gluteal tendinopathy with or without trochanteric bursitis. [28, 29]
+ Femoroacetabular impingement and labral tears. Abnormal contact between the femoral head-neck
+and acetabular rim can damage the labrum and cartilage and lead to early OA. [15]
+ Osteonecrosis. Loss of blood supply to the femoral head (for example, with high-dose
+corticosteroids) can cause collapse.
+
+
+--- PDF page 45 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+45
+Educational content only. Not a substitute for individualized medical advice.
+Side by side: normal and arthritic X-rays
+ NORMAL
+Normal pelvis and hips X-ray: smooth, round femoral heads with even joint
+ spaces. Image: Mikael Häggström, CC0, via Wikimedia Commons.
+ ARTHRITIC
+Hip osteoarthritis X-ray: joint-space narrowing and
+ osteophytes. Image: Mikael Häggström, CC0, via
+ Wikimedia Commons.
+
+
+--- PDF page 46 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+46
+Educational content only. Not a substitute for individualized medical advice.
+Clinical images
+ Illustration comparing a healthy hip with an osteoarthritic hip. Image: OpenStax, CC BY 4.0, via Wikimedia Commons.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+FABER (Patrick) test
+[15]
+Hip joint or sacroiliac
+pain.
+Lying on the back, the heel is placed on
+the opposite knee (figure-4: Flexion,
+ABduction, External Rotation) and the
+bent knee is lowered toward the table.
+Groin pain suggests the hip
+joint; back or buttock pain
+suggests the SI joint; limited
+motion compared with the
+other side.
+FADIR test [15]
+Femoroacetabular
+impingement / labral
+tear.
+The hip is bent to 90° and then brought
+across the body (adduction) and turned
+inward (internal rotation).
+Groin pain reproducing
+symptoms.
+Trendelenburg test
+[15]
+Hip abductor (gluteus
+medius) weakness.
+The patient stands on one leg for about
+30 seconds while the examiner watches
+the pelvis.
+The pelvis drops on the side
+of the lifted leg (indicating
+weakness of the standing
+hip).
+Thomas test [15]
+Hip flexion contracture
+/ tight hip flexors.
+Lying on the back, the patient hugs one
+knee to the chest; the other thigh is
+observed.
+The opposite thigh lifts off
+the table.
+Log roll [15]
+Intra-articular hip
+pathology.
+Lying on the back with the leg straight,
+the examiner gently rolls the thigh
+inward and outward.
+Groin pain or clicking.
+
+
+--- PDF page 47 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+47
+Educational content only. Not a substitute for individualized medical advice.
+ FABER (Patrick) test. Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+ FADIR test. Illustration (drawn diagram, not a photograph),
+ created for RheumNotes©.
+ Trendelenburg test (photograph). Image: Mikael Häggström,
+ public domain, via Wikimedia Commons.
+Thomas test. Illustration (drawn diagram, not a photograph), created
+ for RheumNotes©.
+
+
+--- PDF page 48 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+48
+Educational content only. Not a substitute for individualized medical advice.
+f. Takeaways
+For patients and families
+ Hip joint pain is usually felt in the groin, not the side of the hip – and sometimes only in the
+knee.
+ Pain on the side of the hip when lying on it is often tendon or bursa irritation, which usually
+improves with targeted exercise.
+ Strengthening the buttock (gluteal) muscles improves walking and reduces limping.
+ A cane held in the hand opposite the painful hip can reduce load substantially.
+Clinician note
+Wong et al. report wide ranges for FABER (sensitivity 41-97%, specificity 18-100%) and FADIR (sensitivity 59-100%,
+specificity 10-100%) [15]; these tests are sensitive screening tools but not specific. Loss of internal rotation is an
+early clinical clue to hip OA. Always examine the lumbar spine and knee when assessing hip pain.
+
+
+--- PDF page 49 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+49
+Educational content only. Not a substitute for individualized medical advice.
+Module 7: Knees
+The knee is the largest joint in the body. It is mainly a hinge, but it also glides and rotates slightly,
+and it relies heavily on ligaments, menisci and the thigh muscles for stability.
+a. Normal anatomy
+The rounded femoral condyles rest on the flatter tibial plateau. Two C-shaped menisci deepen the fit
+and spread load. The cruciate ligaments cross inside the joint to prevent the tibia sliding forward (ACL)
+or backward (PCL), while the collateral ligaments on each side resist side-to-side stress.
+The patella sits within the quadriceps tendon and glides in a groove on the femur, increasing the
+leverage of the quadriceps. Several bursae surround the knee; the suprapatellar pouch connects with
+the joint, so a knee effusion often bulges above the kneecap. A Baker (popliteal) cyst forms behind the
+knee when joint fluid collects in the bursa between the semimembranosus and gastrocnemius.
+ The knee joint opened from the front: cruciate and collateral ligaments and menisci. Image:
+ OpenStax, CC BY 3.0, via Wikimedia Commons.
+
+
+--- PDF page 50 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+50
+Educational content only. Not a substitute for individualized medical advice.
+ Bursae of the knee (side view). Image: Jmarchn, CC0, via Wikimedia
+ Commons.
+ Knee in cross-section (side view): cartilage, menisci,
+ capsule and bursae (medical illustration). Image:
+Laboratoires Servier, CC BY-SA 3.0, via Wikimedia
+ Commons.
+ Muscles of the thigh acting on the knee. Image: OpenStax, CC BY 4.0, via Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Distal femur (condyles); Proximal tibia (plateau); Patella (kneecap); Fibular head
+■ Joints
+Tibiofemoral joint (medial and lateral compartments); Patellofemoral joint; Proximal tibiofibular
+joint
+
+
+--- PDF page 51 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+51
+Educational content only. Not a substitute for individualized medical advice.
+Tissue
+Key structures in this region
+■ Cartilage
+Medial and lateral menisci (fibrocartilage); Hyaline cartilage of femur, tibia and patella
+■ Ligaments
+Anterior and posterior cruciate ligaments (ACL, PCL); Medial and lateral collateral ligaments (MCL,
+LCL); Patellar ligament
+■ Tendons
+Quadriceps tendon; Patellar tendon; Pes anserinus (sartorius, gracilis, semitendinosus); Iliotibial
+band, hamstring tendons
+■ Bursae
+Prepatellar bursa; Infrapatellar bursae; Suprapatellar bursa; Pes anserine bursa;
+Semimembranosus-gastrocnemius (Baker cyst site)
+■ Muscles
+Quadriceps; Hamstrings; Gastrocnemius; Popliteus
+■ Nerves
+Common peroneal (fibular) nerve; Tibial nerve; Saphenous nerve
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Flexion
+135°
+Climbing stairs (about 90-100°),
+getting up from a chair, kneeling
+[2]
+Extension
+0° (fully straight)
+Standing and walking efficiently
+[2, 1]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+ Guarding: a swollen knee is held slightly bent (the position of greatest joint volume); a fixed flexion
+contracture can develop.
+ Quadriceps inhibition: swelling and pain switch off the quadriceps quickly, causing weakness and a
+sense of the knee "giving way."
+ Gait: antalgic limp, reduced knee bend in swing, and difficulty on stairs (especially going down).
+ Compensation: extra load shifts to the other knee, hip and back; people use their arms to rise from
+chairs.
+ Mechanical symptoms: locking or catching suggests a meniscal tear or loose body.
+d. How arthritis changes the anatomy
+ Osteoarthritis. Cartilage loss usually begins in the medial compartment or under the kneecap,
+causing joint-space narrowing, osteophytes, subchondral sclerosis and often a bow-legged (varus)
+alignment. [23]
+ Rheumatoid and other inflammatory arthritis. Synovitis produces warm effusions, Baker cysts and,
+over time, uniform narrowing of all compartments and erosions; a knock-kneed (valgus) alignment
+can develop. [24, 25]
+ Gout and CPPD (pseudogout). Acute, very painful, swollen knee; CPPD causes calcification of the
+menisci (chondrocalcinosis) visible on X-ray. [27]
+
+
+--- PDF page 52 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+52
+Educational content only. Not a substitute for individualized medical advice.
+ Bursitis. Prepatellar bursitis ("housemaid's knee") from kneeling; pes anserine bursitis on the inner
+knee. [28]
+ Tendinopathy and meniscal tears. Patellar or quadriceps tendinopathy and degenerative meniscal
+tears often accompany OA. [29]
+
+
+--- PDF page 53 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+53
+Educational content only. Not a substitute for individualized medical advice.
+Side by side: normal and arthritic X-rays
+ NORMAL
+Normal knee X-ray, front view: even medial and lateral
+ joint spaces. Image: Mikael Häggström, CC0, via
+ Wikimedia Commons.
+ ARTHRITIC
+Knee osteoarthritis X-ray: medial joint-space narrowing, osteophytes
+and sclerosis. Image: James Heilman, MD, CC BY-SA 4.0, via Wikimedia
+ Commons.
+ ARTHRITIC
+Standing X-ray of knee osteoarthritis with varus (bow-legged) alignment. Image: NP2025, CC BY-SA 4.0, via Wikimedia Commons.
+
+
+--- PDF page 54 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+54
+Educational content only. Not a substitute for individualized medical advice.
+Clinical images
+ Gouty tophus at the knee: a firm, reddish deposit of uric acid crystals over the front of the knee. Image: NickGorton, CC BY 2.5, via
+ Wikimedia Commons.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+Patellar tap
+(ballottement) [16]
+Larger knee effusion.
+Fluid is milked down from the
+suprapatellar pouch; the examiner then
+presses the kneecap sharply against the
+femur.
+The kneecap is felt to tap the
+femur and bounce back.
+Bulge (wipe/stroke)
+test [16]
+Small knee effusion.
+The examiner strokes fluid upward from
+the inner side of the knee, then strokes
+down the outer side.
+A bulge of fluid reappears on
+the inner side.
+Lachman test [16,
+17]
+ACL tear.
+Knee bent 20-30°; the examiner
+stabilizes the thigh and pulls the tibia
+forward.
+Increased forward
+movement or a soft (absent)
+end point compared with
+the other knee.
+Anterior drawer test
+(knee) [16, 17]
+ACL tear.
+Knee bent 90°, foot steadied; the
+examiner pulls the upper tibia forward.
+Increased forward
+translation (more than about
+1 cm, or more than the other
+side).
+McMurray test [16,
+17]
+Meniscal tear.
+The knee is fully bent, the tibia rotated
+inward or outward, then the knee slowly
+straightened while the examiner feels
+the joint line.
+A painful click or clunk at the
+joint line.
+Valgus and varus
+stress tests [16]
+MCL and LCL injury.
+The examiner applies side-to-side stress
+at 0° and 30° of knee bend.
+Pain or opening of the joint
+line.
+
+
+--- PDF page 55 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+55
+Educational content only. Not a substitute for individualized medical advice.
+ Patellar tap (ballottement). Illustration (drawn
+diagram, not a photograph), created for RheumNotes©.
+Lachman test (photograph). Image: Lam MH, Fong DTP, Yung PSH, et al., CC
+ BY-SA 2.0, via Wikimedia Commons.
+ Anterior drawer test (knee). Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+McMurray test. Illustration (drawn diagram, not a photograph),
+ created for RheumNotes©.
+
+
+--- PDF page 56 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+56
+Educational content only. Not a substitute for individualized medical advice.
+f. Takeaways
+For patients and families
+ Strengthening the thigh muscles (quadriceps) is one of the most effective treatments for knee
+osteoarthritis.
+ A hot, red, suddenly swollen knee needs same-day evaluation – it may be gout or infection.
+ Each pound of body weight lost reduces the load across the knee with every step.
+ Locking, or the knee giving way, deserves an examination for ligament or meniscus injury.
+Clinician note
+Stanford Medicine 25 notes that the Lachman test is thought to be more sensitive than the anterior drawer for ACL
+tears, and describes a drawer as positive with anterior translation of more than about 1 cm [16]. Aspirate a new
+effusion when crystals or infection are possible, and examine the hip in every patient with knee pain.
+
+
+--- PDF page 57 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+57
+Educational content only. Not a substitute for individualized medical advice.
+Module 8: Ankles
+The ankle connects the leg to the foot. The main ankle joint lifts and lowers the foot, while the
+subtalar joint just below it tilts the foot in and out to adapt to uneven ground.
+a. Normal anatomy
+The talus fits into a mortise formed by the tibia and fibula – the talocrural joint – which mainly bends the
+foot up (dorsiflexion) and down (plantarflexion). Below it, the subtalar joint between talus and
+calcaneus allows the foot to roll in (inversion) and out (eversion).
+The outer ankle is supported by three lateral ligaments; the anterior talofibular ligament is the one
+most often sprained. The broad deltoid ligament supports the inner side. The Achilles tendon – the
+strongest tendon in the body – attaches the calf muscles to the heel, cushioned by the retrocalcaneal
+bursa. Behind the inner ankle, the tibialis posterior tendon supports the arch.
+The ankle joint and its ligaments. Image: OpenStax, CC BY 3.0, via
+ Wikimedia Commons.
+
+
+--- PDF page 58 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+58
+Educational content only. Not a substitute for individualized medical advice.
+ Lateral ankle ligaments (side view). Image: Laboratoires
+ Servier, CC BY-SA 3.0, via Wikimedia Commons.
+ Muscles and tendons of the lower leg and ankle. Image: OpenStax,
+ CC BY 4.0, via Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Distal tibia (medial malleolus); Distal fibula (lateral malleolus); Talus; Calcaneus
+■ Joints
+Talocrural (true ankle) joint; Subtalar joint; Distal tibiofibular syndesmosis
+■ Cartilage
+Hyaline cartilage of the talar dome and tibial plafond
+■ Ligaments
+Lateral: anterior talofibular (ATFL), calcaneofibular, posterior talofibular; Medial: deltoid ligament;
+Syndesmotic (high-ankle) ligaments
+■ Tendons
+Achilles tendon; Tibialis posterior; Peroneus (fibularis) longus and brevis; Tibialis anterior
+■ Bursae
+Retrocalcaneal bursa; Superficial (subcutaneous) calcaneal bursa
+■ Muscles
+Gastrocnemius and soleus; Tibialis anterior and posterior; Peroneal muscles
+■ Nerves
+Tibial nerve (tarsal tunnel); Deep and superficial peroneal nerves; Sural nerve
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Dorsiflexion (foot up)
+20°
+Walking, climbing stairs, squatting
+[2]
+Plantarflexion (foot down)
+50°
+Push-off, rising on tiptoe, pressing
+pedals
+[2]
+Subtalar inversion
+35°
+Walking on uneven ground
+[2]
+Subtalar eversion
+15°
+Balancing on slopes
+[2]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+c. How pain affects function
+ Antalgic gait: short steps and less push-off on the painful side.
+ Loss of dorsiflexion: people turn the foot out, lift the hip, or bend the knee more to clear the foot;
+stairs and squatting become difficult.
+
+
+--- PDF page 59 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+59
+Educational content only. Not a substitute for individualized medical advice.
+ Instability: after sprains or with weak peroneal muscles the ankle rolls easily; balance and confidence
+decline.
+ Swelling: ankle swelling limits motion and makes shoes tight; it may also come from veins, heart or
+kidney causes.
+d. How arthritis changes the anatomy
+ Osteoarthritis. Usually post-traumatic (after fractures or repeated sprains), with joint-space
+narrowing and osteophytes at the front of the tibia and talus. [23]
+ Rheumatoid arthritis. Hindfoot and ankle synovitis and tibialis posterior tendon dysfunction can
+cause a progressive flat foot with the heel tilting out (valgus). [24]
+ Spondyloarthritis and psoriatic arthritis. Enthesitis at the Achilles insertion and plantar fascia, and
+ankle synovitis. [25, 26]
+ Gout. Ankle and midfoot attacks are common; recurrent attacks can damage the joint. [27]
+ Achilles tendinopathy and rupture; retrocalcaneal bursitis. Overuse, fluoroquinolones or
+inflammatory disease can damage the Achilles tendon and its bursa. [19, 29]
+ Tarsal tunnel syndrome. Compression of the tibial nerve behind the inner ankle.
+
+
+--- PDF page 60 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+60
+Educational content only. Not a substitute for individualized medical advice.
+Side by side: normal and arthritic X-rays
+ NORMAL
+Normal ankle X-ray (front view):
+ an even joint space around the
+talus. Image: Mikael Häggström,
+ CC0, via Wikimedia Commons.
+ ARTHRITIC
+Ankle osteoarthritis compared with a normal ankle. Image: Hellerhoff, CC BY-SA 4.0, via
+ Wikimedia Commons.
+ ARTHRITIC
+Ankle osteoarthritis X-ray: joint-space narrowing and osteophytes. Image: Hellerhoff, CC BY-SA 4.0, via Wikimedia Commons.
+
+
+--- PDF page 61 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+61
+Educational content only. Not a substitute for individualized medical advice.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+Anterior drawer test
+(ankle) [18]
+Anterior talofibular
+ligament (ATFL) tear /
+laxity.
+With the ankle slightly pointed, the
+examiner steadies the lower leg and
+pulls the heel forward.
+Increased forward
+translation of the talus
+compared with the other
+ankle.
+Thompson (calf
+squeeze) test [19,
+18]
+Achilles tendon
+rupture.
+Lying face down with the feet over the
+end of the table, the examiner squeezes
+the calf.
+The foot does not point
+downward (no
+plantarflexion).
+Talar tilt (inversion
+stress) test [18]
+Calcaneofibular
+ligament injury.
+The examiner steadies the leg and tilts
+the heel inward.
+Increased tilt or pain
+compared with the other
+ankle.
+Squeeze
+(syndesmosis) test
+[18]
+High-ankle
+(syndesmotic) sprain.
+The examiner squeezes the tibia and
+fibula together at mid-calf.
+Pain at the lower leg near
+the ankle.
+Single-leg heel raise
+Tibialis posterior
+tendon function.
+The patient rises onto the toes of one
+foot.
+Inability to rise, or the heel
+fails to swing inward.
+Anterior drawer test (ankle). Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+ Thompson (calf squeeze) test. Illustration (drawn diagram, not a
+ photograph), created for RheumNotes©.
+
+
+--- PDF page 62 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+62
+Educational content only. Not a substitute for individualized medical advice.
+f. Takeaways
+For patients and families
+ Most ankle sprains heal well with early, protected movement and balance exercises.
+ A sudden "kick" sensation at the back of the heel with weakness pushing off may be an Achilles
+rupture – seek care promptly.
+ Supportive shoes and, when needed, custom orthoses can relieve inflamed ankles and tendons.
+ Swelling in both ankles is not always arthritis; mention it to your clinician.
+Clinician note
+The Thompson test is a standard bedside test for complete Achilles rupture [19]. In inflammatory arthritis, examine
+the tibialis posterior tendon and hindfoot alignment, since progressive flat foot is common. The single-leg heel raise
+description reflects standard practice and was not separately verified for this edition.
+
+
+--- PDF page 63 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+63
+Educational content only. Not a substitute for individualized medical advice.
+Module 9: Feet
+Each foot has 26 bones and more than 30 joints arranged in arches that absorb shock and then
+become a rigid lever for push-off. The forefoot is a very common early site of inflammatory arthritis
+and gout.
+a. Normal anatomy
+The foot is divided into the hindfoot (talus, calcaneus), midfoot (navicular, cuboid, cuneiforms) and
+forefoot (metatarsals, toes). The medial longitudinal arch is supported by bones, the spring ligament,
+the tibialis posterior tendon and the plantar fascia, which runs from the heel to the toes.
+When the big toe bends upward during push-off, the plantar fascia tightens like a cable around a winch,
+raising the arch and stiffening the foot – the windlass mechanism. The MTP joints take great load in
+walking; small interdigital nerves run between the metatarsal heads, where they can become irritated
+(Morton neuroma).
+ Bones of the foot, labeled (top view). Image: Henry Vandyke
+Carter (Gray's Anatomy), public domain, via Wikimedia Commons.
+
+
+--- PDF page 64 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+64
+Educational content only. Not a substitute for individualized medical advice.
+ Muscles and tendons of the foot. Image: OpenStax, CC BY 4.0, via Wikimedia Commons.
+Structure key (matches the Anatomy Chart colors)
+Tissue
+Key structures in this region
+■ Bones
+Tarsals (talus, calcaneus, navicular, cuboid, 3 cuneiforms); 5 metatarsals; 14 phalanges; Sesamoids
+■ Joints
+Talonavicular and calcaneocuboid (midtarsal); Tarsometatarsal (Lisfranc); Metatarsophalangeal
+(MTP); Interphalangeal joints
+■ Cartilage
+Hyaline cartilage of all joints; Plantar plates
+■ Ligaments
+Spring (calcaneonavicular) ligament; Long and short plantar ligaments; Lisfranc ligament; Plantar
+fascia (aponeurosis)
+■ Tendons
+Flexor and extensor tendons of the toes; Peroneus longus; Tibialis posterior insertion
+■ Bursae
+Bursa over the 1st MTP (bunion); Intermetatarsal bursae
+■ Muscles
+Intrinsic foot muscles (abductor hallucis, flexor digitorum brevis, interossei); Extensor digitorum
+brevis
+■ Nerves
+Medial and lateral plantar nerves; Interdigital (common digital) nerves; Deep and superficial
+peroneal nerves
+b. Normal range of motion
+Motion
+Typical normal value
+Everyday use
+Source
+Big-toe (1st MTP) extension
+70°
+Push-off when walking, rising on toes
+[3]
+Big-toe (1st MTP) flexion
+45°
+Gripping with the toes
+[3]
+Subtalar inversion / eversion
+35° / 15°
+Adapting to uneven ground
+[2]
+Typical adult reference values; individual values vary with age, sex, body build and measurement method [4]. Numbers in brackets
+refer to the Evidence and References section.
+
+
+--- PDF page 65 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+65
+Educational content only. Not a substitute for individualized medical advice.
+c. How pain affects function
+ Forefoot pain: people shift weight to the heel and outer foot and shorten their stride; walking feels
+like "walking on pebbles."
+ Stiff big toe: loss of 1st MTP extension forces the foot to roll outward and reduces push-off.
+ Heel pain: first steps in the morning hurt most with plantar fasciitis.
+ Shoes and balance: deformities make shoes painful; reduced activity and altered gait raise the risk of
+falls.
+d. How arthritis changes the anatomy
+ Rheumatoid arthritis. MTP synovitis is often an early sign. Over time, erosions of the metatarsal
+heads, hallux valgus, clawed toes and forefoot fat-pad displacement cause painful calluses under the
+metatarsal heads. [24, 22]
+ Osteoarthritis. Common at the 1st MTP (hallux rigidus), with dorsal osteophytes limiting toe
+extension, and at midfoot joints. [23]
+ Gout. The 1st MTP is the classic site of an acute attack (podagra). Chronic gout causes tophi and
+"punched-out" erosions with overhanging edges. [27]
+ Psoriatic arthritis. Dactylitis (whole-toe "sausage" swelling), DIP involvement and enthesitis at the
+heel. [25]
+ Plantar fasciitis, Morton neuroma and bursitis. Heel pain at the plantar fascia origin; interdigital
+nerve irritation between the 3rd and 4th toes; intermetatarsal bursitis in RA. [29, 22]
+
+
+--- PDF page 66 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+66
+Educational content only. Not a substitute for individualized medical advice.
+Side by side: normal and arthritic X-rays
+ NORMAL
+Normal foot X-ray (front view). Image: Mikael
+ Häggström, CC0, via Wikimedia Commons.
+ ARTHRITIC
+Hallux valgus (bunion) on X-ray. Image: Michael Nebel, CC BY-SA 2.0 de, via
+ Wikimedia Commons.
+ ARTHRITIC
+Hallux rigidus: 1st MTP joint-space narrowing and dorsal
+osteophytes. Image: Hellerhoff, CC BY-SA 4.0, via Wikimedia
+ Commons.
+ ARTHRITIC
+Chronic gout of the foot on X-ray: punched-out erosions. Image:
+ Hellerhoff, CC BY-SA 4.0, via Wikimedia Commons.
+
+
+--- PDF page 67 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+67
+Educational content only. Not a substitute for individualized medical advice.
+Clinical images
+ Tophaceous gout of the foot (clinical photograph). Image: Chainwit, CC BY
+ 4.0, via Wikimedia Commons.
+Psoriatic arthritis of the foot with toe swelling. Image:
+ James Heilman, MD, CC BY-SA 3.0, via Wikimedia
+ Commons.
+e. Examination tests and maneuvers
+Clinicians combine the history with several examination tests; no single test confirms a diagnosis. Your clinician may use
+some, all or none of these, depending on your symptoms.
+Test
+What it looks for
+How it is done
+A positive result suggests
+MTP squeeze test
+[20]
+MTP synovitis (early
+inflammatory
+arthritis).
+The examiner gently squeezes across
+the metatarsal heads from side to side.
+Pain across the forefoot
+suggests MTP synovitis.
+Windlass test [21]
+Plantar fasciitis.
+Standing (or seated), the examiner
+bends the big toe upward to tension the
+plantar fascia.
+Reproduction of pain at the
+heel or along the arch.
+Mulder click /
+web-space
+compression [22]
+Morton neuroma.
+The examiner squeezes the forefoot
+while pressing in the affected web
+space.
+A painful click and
+reproduction of burning or
+numbness into the toes.
+Tinel sign in the foot
+Nerve irritation
+(interdigital or tarsal
+tunnel).
+The examiner taps over the suspected
+nerve.
+Tingling into the area
+supplied by that nerve.
+
+
+--- PDF page 68 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+68
+Educational content only. Not a substitute for individualized medical advice.
+MTP squeeze test. Illustration (drawn diagram, not a photograph),
+ created for RheumNotes©.
+ Windlass test. Illustration (drawn diagram, not a photograph),
+ created for RheumNotes©.
+ Tinel sign in the foot (photograph). Image: NourMaka, CC BY-SA 4.0, via Wikimedia Commons.
+
+
+--- PDF page 69 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+69
+Educational content only. Not a substitute for individualized medical advice.
+f. Takeaways
+For patients and families
+ Pain across the balls of both feet, especially with morning stiffness, can be an early sign of
+rheumatoid arthritis.
+ A sudden red, hot, swollen big toe is a classic gout attack; long-term treatment can prevent joint
+damage.
+ Wide, deep, cushioned shoes and orthoses relieve many forefoot problems.
+ Check your feet daily if you have diabetes, neuropathy or reduced sensation.
+Clinician note
+Wouters et al. found the MTP squeeze test has limited sensitivity for subclinical synovitis [20], so a negative test
+does not exclude it; imaging can help in early disease. Malta et al. discuss Morton neuroma and intermetatarsal
+bursitis as causes of metatarsalgia in RA [22]. The foot Tinel description reflects standard practice and was not
+separately verified for this edition.
+
+
+--- PDF page 70 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+70
+Educational content only. Not a substitute for individualized medical advice.
+Glossary
+Term
+Meaning
+Ankylosis
+Fusion of a joint or spinal segment so that it can no longer move.
+Articular (hyaline) cartilage
+The smooth, glossy tissue covering bone ends inside a synovial joint.
+Boutonnière deformity
+Finger with the middle (PIP) joint bent and the end (DIP) joint bent backward.
+Bursa / bursitis
+A small fluid-filled sac that reduces friction; bursitis is its inflammation.
+Crepitus
+A grinding or crackling felt or heard with joint motion.
+Dactylitis
+Swelling of a whole finger or toe ("sausage digit"), typical of psoriatic arthritis.
+Effusion
+Excess fluid inside a joint.
+Enthesis / enthesitis
+The site where a tendon or ligament attaches to bone; enthesitis is its inflammation.
+Erosion
+An area where bone has been worn away, typically by inflammatory synovium or
+gout.
+Fibrocartilage
+Tough, fibrous cartilage found in menisci, discs and the labrum.
+Goniometer
+A protractor-like tool used to measure joint angles.
+Guarding
+Involuntary muscle tightening to protect a painful area.
+Heberden / Bouchard nodes
+Bony enlargements of the end (DIP) and middle (PIP) finger joints in osteoarthritis.
+Ligament
+A strong band connecting bone to bone.
+Meniscus / labrum
+Fibrocartilage rims that deepen and cushion the knee (meniscus) or the shoulder and
+hip sockets (labrum).
+Osteophyte
+A bone spur growing at the edge of a joint, typical of osteoarthritis.
+Radiculopathy
+Pain, numbness or weakness caused by a pinched spinal nerve root.
+Range of motion (ROM)
+How far a joint can move in each direction, measured in degrees.
+Sacroiliitis
+Inflammation of the sacroiliac joints, a hallmark of axial spondyloarthritis.
+Subchondral sclerosis / cyst
+Thickened bone or small fluid-filled cavities beneath damaged cartilage.
+Swan-neck deformity
+Finger with the middle (PIP) joint bent backward and the end (DIP) joint bent.
+Syndesmophyte
+A thin bony bridge between vertebrae in axial spondyloarthritis.
+Synovial fluid
+The slippery fluid that lubricates and nourishes a joint.
+Synovium / synovitis
+The thin lining of a joint capsule; synovitis is its inflammation.
+Tendon / tendinopathy
+A cord linking muscle to bone; tendinopathy is pain and degeneration of a tendon.
+Tophus (tophi)
+A deposit of uric acid crystals in or around joints in chronic gout.
+Trendelenburg gait
+A gait in which the pelvis drops on the side of the swinging leg because of hip
+abductor weakness.
+Ulnar deviation
+Drifting of the fingers toward the little-finger side, typical of long-standing RA.
+
+
+--- PDF page 71 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+71
+Educational content only. Not a substitute for individualized medical advice.
+Term
+Meaning
+Valgus / varus
+Knock-kneed (valgus) or bow-legged (varus) alignment of a limb.
+Windlass mechanism
+Tightening of the plantar fascia as the big toe bends upward, raising the arch.
+
+
+--- PDF page 72 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+72
+Educational content only. Not a substitute for individualized medical advice.
+Evidence and References
+Every source below was opened and checked while this paper was prepared (November 2026). Range-of-motion values
+are taken from the tables named. Test accuracy figures appear only in clinician notes, only where a checked source
+reported them, and with that source cited. Where a description reflects standard clinical practice without a separately
+verified source, the clinician note says so.
+[1] Norkin CC, White DJ (ed. White DJ). Appendix A: Normative Range of Motion Values, Table A.1 (AAOS column) and Table
+A.3. In: Norkin & White's Measurement of Joint Motion: A Guide to Goniometry, 6th ed. F.A. Davis.
+fadavispt.mhmedical.com/content.aspx?bookid=3621&sectionid=303386712
+[2] Jones & Bartlett Learning. Part 3: Musculoskeletal Interventions. Table 3-13 (Goniometry, normal ROM per AAOS) and
+Table 3-14 (Cervical and Thoracolumbar ROM Normatives per AAOS), citing Norkin & White, 4th ed. Sample chapter, ISBN
+9781284105568. samples.jbpub.com/9781284105568/9781284105568_PT03.pdf
+[3] Botman M, Hendriks TCC, de Haas LEM, et al. The effectiveness of burn scar contracture release surgery in low- and
+middle-income countries. Plast Reconstr Surg Glob Open. 2020;8(7):e2907. Supplementary Digital Content 1: Normal
+ROM values according to AAOS.
+[4] Physiopedia. Range of Motion Normative Values (reference values; variation by age, sex and method, incl. Soucie et al.,
+Haemophilia 2011, and US VA 38 CFR 4.71a spine limits). physio-pedia.com/Range_of_Motion_Normative_Values
+[5] goniometer.io. Normal Range of Motion (ROM) Values – AAOS Chart by Joint (secondary compilation; used only for finger
+PIP/DIP flexion). goniometer.io/range-of-motion
+[6] Spurling Test. StatPearls [Internet]. NCBI Bookshelf NBK493152. ncbi.nlm.nih.gov/books/NBK493152
+[7] Straight Leg Raise Test (Lasegue Sign). StatPearls [Internet]. NCBI Bookshelf NBK545299.
+ncbi.nlm.nih.gov/books/NBK545299
+[8] SPARTAN (Spondyloarthritis Research and Treatment Network). Spondyloarthritis Physical Exam Measures (modified and
+10-cm Schober tests). spartangroup.org
+[9] Cotter EJ, Hannon CP, Christian D, et al. Comprehensive Examination of the Athlete's Shoulder. Sports Health.
+2018;10(4):366-375. doi:10.1177/1941738118757197
+[10] American Academy of Physical Medicine & Rehabilitation, PM&R KnowledgeNow. Rotator Cuff – Table 4: Dynamic
+Testing; and Specialized Musculoskeletal Examination – Table of Patient Tests. now.aapmr.org
+[11] Yang AJ, Jain NB. Elbow (physical examination chapter). PDF hosted by Vanderbilt University Medical Center, Dept. of
+PM&R. vumc.org/pmr/sites/default/files/publication_files/Elbow.pdf
+[12] Speers CJB, Bhogal GS, Collins R. Lateral elbow tendinosis: a review of diagnosis and management in general practice. Br J
+Gen Pract. 2018;68(676):548-549. doi:10.3399/bjgp18X699725
+[13] Carpal Tunnel Syndrome. StatPearls [Internet]. NCBI Bookshelf NBK448179. ncbi.nlm.nih.gov/books/NBK448179
+[14] Finkelstein Sign. StatPearls [Internet]. NCBI Bookshelf NBK539768. ncbi.nlm.nih.gov/books/NBK539768
+[15] Wong SE, Cogan CJ, Zhang AL. Physical Examination of the Hip: Assessment of Femoroacetabular Impingement, Labral
+Pathology, and Microinstability. Curr Rev Musculoskelet Med. 2022;15(2):38-52. doi:10.1007/s12178-022-09745-8
+[16] Stanford Medicine 25. Knee Exam (bulge sign, patellar tap, McMurray, anterior drawer, Lachman, collateral stress).
+med.stanford.edu/stanfordmedicine25/the25/knee.html
+[17] Villa-Forte A. Evaluation of the Knee. MSD Manual Professional Edition (full review Feb 2024). msdmanuals.com
+[18] Villa-Forte A. Evaluation of the Ankle. Merck Manual Professional Edition (full review Feb 2024). merckmanuals.com
+[19] Achilles Tendon Rupture. StatPearls [Internet]. NCBI Bookshelf NBK430844. ncbi.nlm.nih.gov/books/NBK430844
+[20] Wouters F, Niemantsverdriet E, van der Helm-van Mil AHM. The value of the squeeze test for detection of subclinical
+synovitis in patients with arthralgia suspicious for progression to RA. Rheumatology (Oxford). 2020;59(10):3106-3108.
+doi:10.1093/rheumatology/keaa082
+[21] Physiopedia. Windlass Test. physio-pedia.com/Windlass_Test
+[22] Malta JN, Martins J, Azenha A, et al. Diagnostic and Therapeutic Challenge of Metatarsalgia in a Patient With Rheumatoid
+Arthritis. Cureus. 2022;14(1):e21751. doi:10.7759/cureus.21751
+[23] National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS). Osteoarthritis.
+niams.nih.gov/health-topics/osteoarthritis
+[24] NIAMS. Rheumatoid Arthritis. niams.nih.gov/health-topics/rheumatoid-arthritis
+
+
+--- PDF page 73 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+73
+Educational content only. Not a substitute for individualized medical advice.
+[25] NIAMS. Psoriatic Arthritis. niams.nih.gov/health-topics/psoriatic-arthritis
+[26] NIAMS. Ankylosing Spondylitis. niams.nih.gov/health-topics/ankylosing-spondylitis
+[27] NIAMS. Gout. niams.nih.gov/health-topics/gout
+[28] NIAMS. Bursitis. niams.nih.gov/health-topics/bursitis
+[29] NIAMS. Tendinitis. niams.nih.gov/health-topics/tendinitis
+
+
+--- PDF page 74 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+74
+Educational content only. Not a substitute for individualized medical advice.
+Image Credits
+All anatomical drawings, X-rays and clinical photographs are real images used under the license shown. Each was
+downloaded from its original Wikimedia Commons file page at the highest available resolution, and its license was
+confirmed from the file page. CC BY and CC BY-SA images require attribution; CC BY-SA images are shared under the same
+license. No image is AI-generated. The poster chart and this paper reuse the same files.
+#
+Image (Commons file) and use
+Author / source
+License
+Source URL
+1
+907 Synovial Joints.jpg
+gen_synovial_joint.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:90
+7_Synovial_Joints.jpg
+2
+909 Types of Synovial Joints.jpg
+gen_synovial_joint_types.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:90
+9_Types_of_Synovial_Joints.jpg
+3
+Osteoarthritis and rheumatoid arthritis –
+Normal joint -- Smart-Servier.png
+gen_servier_normal_joint.png
+Laboratoires Servier
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Os
+teoarthritis_and_rheumatoid_arthritis_-_Nor
+mal_joint_--_Smart-Servier.png
+4
+Osteoarthritis and rheumatoid arthritis –
+Osteoarthritis -- Smart-Servier.png
+gen_servier_osteoarthritis.png
+Laboratoires Servier
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Os
+teoarthritis_and_rheumatoid_arthritis_-_Ost
+eoarthritis_--_Smart-Servier.png
+5
+Osteoarthritis and rheumatoid arthritis –
+Rheumatoid arthritis -- Smart-Servier.png
+gen_servier_rheumatoid.png
+Laboratoires Servier
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Os
+teoarthritis_and_rheumatoid_arthritis_-_Rhe
+umatoid_arthritis_--_Smart-Servier.png
+6
+723 Cervical Vertebrae.jpg
+neck_cervical_vertebrae.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:72
+3_Cervical_Vertebrae.jpg
+7
+Cervical vertebrae – close-up – anterior
+view.png
+neck_cervical_bodyparts3d.png
+BodyParts3D /
+Anatomography (DBCLS)
+CC BY-SA 2.1 jp
+https://commons.wikimedia.org/wiki/File:Ce
+rvical_vertebrae_-_close-up_-_anterior_view
+.png
+8
+1111 Posterior and Side Views of the
+Neck.jpg
+neck_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+11_Posterior_and_Side_Views_of_the_Neck.j
+pg
+9
+Cervical Xray Lateral View.jpg
+neck_xray_lateral_degenerative_c5c6.jpg
+Stillwaterising
+CC0
+https://commons.wikimedia.org/wiki/File:Ce
+rvical_Xray_Lateral_View.jpg
+10
+Cervical kyphosis and spondylosis.png
+neck_xray_spondylosis.png
+Jmarchn
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Ce
+rvical_kyphosis_and_spondylosis.png
+11
+Atlanto-odontoid osteoarthritis, Lat
+X-ray.png
+neck_xray_atlantoodontoid_oa.png
+Jmarchn
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Atl
+anto-odontoid_osteoarthritis,_Lat_X-ray.png
+12
+715 Vertebral Column.jpg
+spine_vertebral_column.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:71
+5_Vertebral_Column.jpg
+13
+716 Intervertebral Disk.jpg
+spine_intervertebral_disc.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:71
+6_Intervertebral_Disk.jpg
+14
+729 Ligaments of Vertebral Column.jpg
+spine_ligaments.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:72
+9_Ligaments_of_Vertebral_Column.jpg
+15
+Sobo 1909 208.png
+spine_pelvis_sacroiliac_ligaments_sobotta.p
+ng
+Johannes Sobotta (Atlas,
+1909)
+Public domain
+https://commons.wikimedia.org/wiki/File:So
+bo_1909_208.png
+16
+1117 Muscles of the Neck and Back.jpg
+spine_back_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+17_Muscles_of_the_Neck_and_Back.jpg
+17
+Lateral X-ray of lumbar spine
+spondylosis.jpg
+spine_xray_lumbar_spondylosis.jpg
+Nevit Dilmen;
+crop/annotation Mikael
+Häggström
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Lat
+eral_X-ray_of_lumbar_spine_spondylosis.jpg
+
+
+--- PDF page 75 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+75
+Educational content only. Not a substitute for individualized medical advice.
+#
+Image (Commons file) and use
+Author / source
+License
+Source URL
+18
+Rad 1300095.JPG
+spine_xray_sacroiliitis.jpg
+Nevit Dilmen
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Ra
+d_1300095.JPG
+19
+Iliosakrale Ankylose und Bambusstab bei
+Morbus Bechterew.jpg
+spine_xray_bamboo_sacroiliac_ankylosis.jp
+g
+Hellerhoff
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Ilio
+sakrale_Ankylose_und_Bambusstab_bei_Mor
+bus_Bechterew.jpg
+20
+Ankylosing spondylitis lumbar spine.jpg
+spine_xray_ankylosing_spondylitis.jpg
+Glitzy queen00 (Wikipedia
+user)
+Public domain
+https://commons.wikimedia.org/wiki/File:An
+kylosing_spondylitis_lumbar_spine.jpg
+21
+Bechterew-Kyphose.JPG
+spine_photo_as_posture.jpg
+Mehlauge
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Be
+chterew-Kyphose.JPG
+22
+914 Shoulder Joint.jpg
+shoulder_joint.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:91
+4_Shoulder_Joint.jpg
+23
+1119 Muscles that Move the Humerus.jpg
+shoulder_muscles_rotator_cuff.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+19_Muscles_that_Move_the_Humerus.jpg
+24
+Anteroposterior glenoid (Grashey view)
+X-ray of a normal shoulder.jpg
+shoulder_xray_normal.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:An
+teroposterior_glenoid_(Grashey_view)_X-ray
+_of_a_normal_shoulder.jpg
+25
+Omarthrose rechts mit gesundem Vergleich
+– Roe ap 001.jpg
+shoulder_xray_oa_vs_normal.jpg
+Hellerhoff
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:O
+marthrose_rechts_mit_gesundem_Vergleich
+_-_Roe_ap_001.jpg
+26
+Omarthrose mit Osteophyt und Geode 76W
+– CR 2 Ebenen – 001 – Annotation.jpg
+shoulder_xray_oa_osteophyte.jpg
+Hellerhoff
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:O
+marthrose_mit_Osteophyt_und_Geode_76W
+_-_CR_2_Ebenen_-_001_-_Annotation.jpg
+27
+915 Elbow Joint.jpg
+elbow_joint.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:91
+5_Elbow_Joint.jpg
+28
+Elbow – Lateral view -- Smart-Servier.png
+elbow_servier_lateral.png
+Laboratoires Servier
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Elb
+ow_-_Lateral_view_--_Smart-Servier.png
+29
+1120 Muscles that Move the Forearm.jpg
+elbow_forearm_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+20_Muscles_that_Move_the_Forearm.jpg
+30
+X-ray of normal elbow by anteroposterior
+projection.jpg
+elbow_xray_normal_ap.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:X-r
+ay_of_normal_elbow_by_anteroposterior_pr
+ojection.jpg
+31
+XRay ElbowOsteoarthritis RL AP.jpg
+elbow_xray_oa.jpg
+Jmarchn
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:XR
+ay_ElbowOsteoarthritis_RL_AP.jpg
+32
+Olecranon bursitis (2).jpg
+elbow_photo_olecranon_bursitis.jpg
+Alborz Fallah
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Ol
+ecranon_bursitis_(2).jpg
+33
+Gouty tophi on the elbow Wellcome
+L0062317.jpg
+elbow_photo_gouty_tophi.jpg
+Leonard Portal Mark
+(Wellcome Collection)
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:Go
+uty_tophi_on_the_elbow_Wellcome_L00623
+17.jpg
+34
+Tennis Elbow Illustration.jpg
+elbow_tennis_elbow.jpg
+Injurymap
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:Te
+nnis_Elbow_Illustration.jpg
+35
+806 Hand and Wrist.jpg
+hand_bones.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:80
+6_Hand_and_Wrist.jpg
+36
+815 The Carpal Tunnel.jpg
+hand_carpal_tunnel.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:81
+5_The_Carpal_Tunnel.jpg
+37
+1121 Intrinsic Muscles of the Hand.jpg
+hand_intrinsic_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+21_Intrinsic_Muscles_of_the_Hand.jpg
+38
+Gray334.png
+hand_wrist_ligaments_gray334.png
+Henry Vandyke Carter
+(Gray's Anatomy)
+Public domain
+https://commons.wikimedia.org/wiki/File:Gr
+ay334.png
+
+
+--- PDF page 76 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+76
+Educational content only. Not a substitute for individualized medical advice.
+#
+Image (Commons file) and use
+Author / source
+License
+Source URL
+39
+X-ray of normal hand by dorsoplantar
+projection.jpg
+hand_xray_normal.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:X-r
+ay_of_normal_hand_by_dorsoplantar_projec
+tion.jpg
+40
+RheumatoideArthritisAP.jpg
+hand_xray_rheumatoid.jpg
+Bernd Brägelmann
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:Rh
+eumatoideArthritisAP.jpg
+41
+Klassische Heberden-Arthrose und
+deformierende Rhizarthrose 77W – CR ap –
+001.jpg
+hand_xray_heberden_cmc_oa.jpg
+Hellerhoff
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Kla
+ssische_Heberden-Arthrose_und_deformiere
+nde_Rhizarthrose_77W_-_CR_ap_-_001.jpg
+42
+Rheumatoide Arthritis der Hand 65W – CR
+ap – 001.jpg
+hand_xray_rheumatoid_2.jpg
+Hellerhoff
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Rh
+eumatoide_Arthritis_der_Hand_65W_-_CR_a
+p_-_001.jpg
+43
+Heberden's nodes – 48 year old male –
+right hand 01.jpg
+hand_photo_heberden_nodes.jpg
+PhilipPirrip
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:He
+berden%27s_nodes_-_48_year_old_male_-_r
+ight_hand_01.jpg
+44
+Swan neck deformity in a 65 year old
+Rheumatoid Arthritis patient- 2014-05-27
+01-49.jpg
+hand_photo_swan_neck.jpg
+Phoenix119 (Wikipedia user)
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Sw
+an_neck_deformity_in_a_65_year_old_Rheu
+matoid_Arthritis_patient-_2014-05-27_01-49
+.jpg
+45
+Boutonnière deformity.jpg
+hand_photo_boutonniere.jpg
+Alborz Fallah
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Bo
+utonni%C3%A8re_deformity.jpg
+46
+Phalen's Maneuver.jpg
+hand_exam_phalen.jpg
+LittleT889
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Ph
+alen%27s_Maneuver.jpg
+47
+Finkelstein's test.jpg
+hand_exam_finkelstein.jpg
+InvictaHOG (Wikipedia user)
+Public domain
+https://commons.wikimedia.org/wiki/File:Fin
+kelstein%27s_test.jpg
+48
+Sobo 1909 208.png
+spine_pelvis_sacroiliac_ligaments_sobotta.p
+ng
+Johannes Sobotta (Atlas,
+1909)
+Public domain
+https://commons.wikimedia.org/wiki/File:So
+bo_1909_208.png
+49
+Sobo 1909 210.png
+hip_pelvis_ligaments_sobotta_posterior.pn
+g
+Johannes Sobotta (Atlas,
+1909)
+Public domain
+https://commons.wikimedia.org/wiki/File:So
+bo_1909_210.png
+50
+Gray342.png
+hip_joint_gray342.png
+Henry Vandyke Carter
+(Gray's Anatomy)
+Public domain
+https://commons.wikimedia.org/wiki/File:Gr
+ay342.png
+51
+1122 Gluteal Muscles that Move the
+Femur.jpg
+hip_gluteal_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+22_Gluteal_Muscles_that_Move_the_Femur.
+jpg
+52
+X-ray of a normal hip.jpg
+hip_xray_normal.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:X-r
+ay_of_a_normal_hip.jpg
+53
+Severe (Tönnis grade 3) osteoarthritis of
+the hip.jpg
+hip_xray_severe_oa.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:Se
+vere_(T%C3%B6nnis_grade_3)_osteoarthritis
+_of_the_hip.jpg
+54
+0910 Oateoarthritis Hip.jpg
+hip_oa_vs_normal_openstax.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:09
+10_Oateoarthritis_Hip.jpg
+55
+Trendelenburg.PNG
+hip_exam_trendelenburg.png
+Mikael Häggström
+Public domain
+https://commons.wikimedia.org/wiki/File:Tre
+ndelenburg.PNG
+56
+917 Knee Joint.jpg
+knee_joint.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:91
+7_Knee_Joint.jpg
+57
+Knee bursae.svg
+knee_bursae.png
+Jmarchn
+CC0
+https://commons.wikimedia.org/wiki/File:Kn
+ee_bursae.svg
+
+
+--- PDF page 77 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+77
+Educational content only. Not a substitute for individualized medical advice.
+#
+Image (Commons file) and use
+Author / source
+License
+Source URL
+58
+Knee – Parasagittal section --
+Smart-Servier.png
+knee_servier_sagittal.png
+Laboratoires Servier
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Kn
+ee_-_Parasagittal_section_--_Smart-Servier.p
+ng
+59
+1133 Thigh Muscles that Moves the Femur
+Tibia and Fibula.jpg
+knee_thigh_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+33_Thigh_Muscles_that_Moves_the_Femur_
+Tibia_and_Fibula.jpg
+60
+X-ray of a normal knee by anteroposterior
+projection.jpg
+knee_xray_normal.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:X-r
+ay_of_a_normal_knee_by_anteroposterior_p
+rojection.jpg
+61
+Osteoarthritis on X-ray.jpg
+knee_xray_oa.jpg
+James Heilman, MD
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Os
+teoarthritis_on_X-ray.jpg
+62
+Varus Knee Osteoarthritis Xray.jpg
+knee_xray_varus_oa.jpg
+NP2025
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Va
+rus_Knee_Osteoarthritis_Xray.jpg
+63
+GoutTophiKnee.JPG
+knee_photo_gouty_tophi.jpg
+NickGorton
+CC BY 2.5
+https://commons.wikimedia.org/wiki/File:Go
+utTophiKnee.JPG
+64
+ACLI 17.jpg
+knee_exam_lachman.jpg
+Lam MH, Fong DTP, Yung
+PSH, et al.
+CC BY-SA 2.0
+https://commons.wikimedia.org/wiki/File:AC
+LI_17.jpg
+65
+919 Ankle Feet Joints.jpg
+ankle_foot_joints.jpg
+OpenStax
+CC BY 3.0
+https://commons.wikimedia.org/wiki/File:91
+9_Ankle_Feet_Joints.jpg
+66
+Lateral collateral ligament of ankle
+joint.png
+ankle_lateral_ligaments_servier.png
+Laboratoires Servier
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Lat
+eral_collateral_ligament_of_ankle_joint.png
+67
+1123 Muscles of the Leg that Move the
+Foot and Toes.jpg
+ankle_leg_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+23_Muscles_of_the_Leg_that_Move_the_Fo
+ot_and_Toes.jpg
+68
+X-ray of normal ankle – frontal.jpg
+ankle_xray_normal_frontal.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:X-r
+ay_of_normal_ankle_-_frontal.jpg
+69
+OSG-Arthrose mit Vergleich gesunde
+Gegenseite 81W – CR ap – 001.jpg
+ankle_xray_oa_vs_normal.jpg
+Hellerhoff
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:OS
+G-Arthrose_mit_Vergleich_gesunde_Gegense
+ite_81W_-_CR_ap_-_001.jpg
+70
+Schwere OSG-Arthrose mit deutlicher
+Abflachung der Talusrolle 78M – CR –
+001.jpg
+ankle_xray_severe_oa.jpg
+Hellerhoff
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Sc
+hwere_OSG-Arthrose_mit_deutlicher_Abflac
+hung_der_Talusrolle_78M_-_CR_-_001.jpg
+71
+Gray268.png
+foot_bones_gray268.png
+Henry Vandyke Carter
+(Gray's Anatomy)
+Public domain
+https://commons.wikimedia.org/wiki/File:Gr
+ay268.png
+72
+1124 Intrinsic Muscles of the Foot.jpg
+foot_intrinsic_muscles.jpg
+OpenStax
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:11
+24_Intrinsic_Muscles_of_the_Foot.jpg
+73
+X-ray of normal right foot by dorsoplantar
+projection.jpg
+foot_xray_normal.jpg
+Mikael Häggström
+CC0
+https://commons.wikimedia.org/wiki/File:X-r
+ay_of_normal_right_foot_by_dorsoplantar_p
+rojection.jpg
+74
+Projectional radiograph of bunion.jpg
+foot_xray_hallux_valgus.jpg
+Michael Nebel
+CC BY-SA 2.0 de
+https://commons.wikimedia.org/wiki/File:Pr
+ojectional_radiograph_of_bunion.jpg
+75
+Hallux rigidus ohne Hallux valgus 66M – CR
+– 001.jpg
+foot_xray_hallux_rigidus.jpg
+Hellerhoff
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Hal
+lux_rigidus_ohne_Hallux_valgus_66M_-_CR_-
+_001.jpg
+76
+Gicht im Roentgenbild
+Grosszehengrundgelenk 85M – CR schraeg
+– 001.jpg
+foot_xray_gout_mtp.jpg
+Hellerhoff
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Gic
+ht_im_Roentgenbild_Grosszehengrundgelen
+k_85M_-_CR_schraeg_-_001.jpg
+
+
+--- PDF page 78 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+78
+Educational content only. Not a substitute for individualized medical advice.
+#
+Image (Commons file) and use
+Author / source
+License
+Source URL
+77
+Tophaceous gout of Lt MTP joint, elder
+female patient, Thailand.jpg
+foot_photo_tophaceous_gout.jpg
+Chainwit
+CC BY 4.0
+https://commons.wikimedia.org/wiki/File:To
+phaceous_gout_of_Lt_MTP_joint,_elder_fem
+ale_patient,_Thailand.jpg
+78
+Psoriatic arthritis2010.JPG
+foot_photo_psoriatic_arthritis.jpg
+James Heilman, MD
+CC BY-SA 3.0
+https://commons.wikimedia.org/wiki/File:Ps
+oriatic_arthritis2010.JPG
+79
+Tinel's sign.jpg
+foot_exam_tinel_morton.jpg
+NourMaka
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Tin
+el%27s_sign.jpg
+Drawn illustrations
+The following examination diagrams were drawn specifically for RheumNotes© because no openly licensed photograph
+of the maneuver could be confirmed. Each is labeled "Illustration (drawn diagram, not a photograph)" in the image itself
+and in its caption. They are simplified schematics, not anatomical depictions.
+spurling; slr; schober; neer; hawkins; emptycan; droparm; speed; cozen; mill; tinel wrist; squeeze; faber; fadir; thomas;
+effusion; drawer knee; mcmurray; drawer ankle; thompson; windlass.
+Brand artwork
+Rheumy, the RheumNotes© chatbot guide (author's note), is RheumNotes© brand artwork and is not an anatomical
+image.
+
+
+--- PDF page 79 ---
+R
+HEUM
+N
+OTES
+©
+   Anatomy Component White Paper
+Know your joints. Understand your care.
+79
+Educational content only. Not a substitute for individualized medical advice.
+About the Author
+Frederick T. Murphy, DO, FACP, FACR, is a rheumatologist in Pittsburgh, Pennsylvania, and the creator of
+RheumNotes©, a patient-education platform for people living with arthritis and rheumatic disease and
+the families and caregivers who support them.
+Disclaimer
+This white paper and the accompanying RheumNotes© Anatomy Chart are provided for general
+educational purposes only. They are not medical advice and are not a substitute for an
+individualized medical evaluation, diagnosis or treatment by a qualified health professional who
+knows your history.
+Normal range-of-motion values are population references and vary between individuals.
+Examination tests described here are performed and interpreted by trained clinicians; their
+accuracy varies, and no single test confirms or excludes a diagnosis. Do not attempt forceful tests
+on yourself.
+Seek prompt medical care for a hot, red or swollen joint, joint pain with fever, a sudden injury with
+inability to bear weight or use a limb, new weakness or numbness, or loss of bladder or bowel
+control.
+Images are reproduced under the open licenses listed in the Image Credits appendix. Their inclusion
+does not imply endorsement by their authors. RheumNotes© content is general and is not affiliated
+with any specific clinic or practice.

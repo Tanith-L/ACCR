@@ -34,6 +34,12 @@ Exported provenance resolves reference IDs into titles/URLs and preserves source
 The original files remain in `originals/`. Locally extracted PDF/DOCX text remains in `extracted/`.
 Both directories are eligible for Git tracking. The supplied ZIP can restore the archived reference set; user-added illustrations and the generated course overview are also retained locally. Originals have not been modified.
 
+The 2026-11-12 materials are accounted for, with SHA-256 checksums, in [source-review.json](assisted-input/source-review.json). The 7 RheumNotes PDFs are stored directly in `originals/`; the Rheumy preference survey, 3 greeting videos and portrait are in `originals/rheumy_team_share/`.
+
+The November 17 update incorporates the Anatomy, Motion, Mind / Mastery, Sleep / Restore, Anatomy Chart and revised Nutrition materials into 14 existing lessons. Eleven source-derived illustrations supplement the six existing media assets. The first overview lesson reuses the whole-body PsA poster rather than a detailed joint cross-section. The canonical inputs include the new source hashes, physical PDF page locators and image credits; rebuilding updates lesson Markdown, the offline preview and the schema 1.3 export together. See [image selection](chapter/image-selection.md) for the complete additions and [image attributions](chapter/media/rheumnotes-attributions.json) for provenance. The earlier Nutrition version is retained; the new version changes the protein-table label from Air to Sky.
+
+The complete-library image pass adds four selected supplementary images and seven editorial teaching diagrams. All 24 lessons now have topic-matched illustrations, with additional reading guidance in the previously unillustrated lessons. Source dispositions and image credits distinguish supplied pictures from editorial diagrams. See [image coverage](chapter/image-coverage.md).
+
 ## Six learning parts
 
 Detailed card-level classifications and source notes are maintained in organization.yaml.
@@ -73,7 +79,7 @@ See [the pipeline guide](../../../docs/psa-lesson-pipeline.md) for dependency se
 ```
 
 The importer dry run checks the local contract without reading or writing live database state.
-Backend can import the JSON after migration `0008_lesson_provenance.sql` is applied. Provenance records are stored in `lessons.provenance`; verified assertions continue to use `lesson_claims`. The export includes six referenced images for Symptoms navigation and lesson illustrations.
+Backend can import the JSON after migration `0008_lesson_provenance.sql` is applied. Provenance records are stored in `lessons.provenance`; verified assertions continue to use `lesson_claims`. The export includes 28 referenced images for Symptoms navigation and lesson illustrations, covering all 24 lessons. See [lesson image coverage](chapter/image-coverage.md) for the complete page-by-page mapping.
 
 To restore originals and extracted text:
 

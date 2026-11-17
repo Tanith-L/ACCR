@@ -2,15 +2,23 @@
 
 AI-authored draft. Source-faithfulness and clinical review pending.
 
-Lesson: `psa-education-02` · Topic: `education` · About 2 minutes
+Lesson: `psa-education-02` · Topic: `education` · About 3 minutes
 
 ## Page 1
 
 Motion means finding ways to move that fit your joints and current health. Activity plans may include gentle movement, strength, and daily tasks. A physical therapist can help adapt a plan when pain or reduced movement gets in the way. An occupational therapist can suggest ways to protect joints during tasks. Ask your team how to balance activity and rest when symptoms change. Walking, swimming, or cycling may be options. Ask your team which activities fit you before you start. The source also describes strength work and tai chi. You do not need to try every type of exercise.
 
+Try to avoid doing all your chores on a good day and then needing days to recover. Break a large task into short parts, with rest between them. A seated option may help when standing is hard. Ask your therapist to show you a version that fits your joints.
+
 ## Page 2
 
 Mastery means building ways to cope with the demands of a long-term condition. It does not mean controlling every symptom by thinking differently. Pain, fatigue, and uncertainty can affect mood and confidence. Support from trusted people, a support group, or a trained counselor may help. Tell the care team when worry or low mood affects daily life. Asking for support is part of care, not a sign of failure. A quiet pause or slow breathing may help you make space for stress. These are coping tools. They do not mean that pain is your fault or that you should skip medical care.
+
+Choose a coping step that feels right to you, such as music, writing, or a call to someone you trust. Make a short plan for a hard day while you feel calm. A counselor can also teach skills for coping with pain and worry. Ask for help if low mood affects sleep, work, or taking your medicines.
+
+![A quiet moment outdoors. Reflection or prayer can be a personal coping choice.](../../media/rheumnotes-quiet-pause.jpg)
+
+Ben White; CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Source: https://commons.wikimedia.org/wiki/File:Praying_woman_in_a_park_(Unsplash).jpg. Extracted from supplied RheumNotes PDF p. 16; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
 
 ## Key takeaways
 
@@ -22,4 +30,6 @@ Mastery means building ways to cope with the demands of a long-term condition. I
 General movement and coping education only; no exercise dose, activity target, or claim that stress control treats PsA.
 
 - [The Four Pillars of Arthritis](../../../originals/The%20Four%20Pillars%20of%20Arthritis.docx) ? Motion paragraphs 49-50, 61-63; Mastery paragraphs 67-68 and 74 (lesson pages 1, 2; text). Adapting movement, water/cycling options, strength and coping practices. Limits: Many study claims concern RA/OA, not PsA; do not promise equal benefits or prescribe an exercise dose. NIAMS corroborates general PsA activity options.
+- [RheumNotes Motion White Paper](../../../originals/RheumNotes_Motion_White_Paper.pdf) ? PDF pp. 9, 17, 21–22: therapy, seated options and pacing (lesson pages 1; text). Add task pacing and adapted movement. Limits: No fixed exercise dose, unsupervised exercise routine or RA/OA effect size is prescribed for PsA.
+- [RheumNotes Mind Mastery White Paper](../../../originals/RheumNotes_Mind_Mastery_White_Paper.pdf) ? PDF pp. 19, 21–26: thinking skills, connection and a stress plan; PDF p. 16: displayed illustration; Image Credits appendix (lesson pages 2; text_and_image). Add coping choices and reasons to seek support. Display the selected source image with attribution. Limits: No claim that stress causes PsA, that coping controls inflammation, or that positive thinking replaces treatment.
 - [NIAMS: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take)

@@ -1,0 +1,1206 @@
+--- PDF page 1 ---
+RHEUMNOTES
+©
+●
+Sleep / Restore Component
+Sleep, Rest and Evidence-Based Sleep Guidelines for People Living With Arthritis and 
+Rheumatic Disease, and the Families and Caregivers Who Support Them
+Rest is medicine.
+A Companion White Paper to the RheumNotes© Patient-Education Platform
+Frederick T. Murphy, DO, FACP, FACR
+Rheumatologist · Pittsburgh, Pennsylvania
+November 2026
+© 2026 Frederick T. Murphy. All rights reserved.
+
+--- PDF page 2 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   2
+Contents
+A Note From the Author............................................................................................................................... 3
+Key Takeaways.............................................................................................................................................4
+Rest Is Medicine: Sleep as a Pillar of Wellness.............................................................................................. 6
+Sleep and Arthritis: Why It Matters Even More.............................................................................................8
+How Much Sleep Do You Need? Evidence-Based Guidelines....................................................................... 10
+Recommended hours of sleep by age........................................................................................................... 10
+What "restorative sleep" means................................................................................................................... 11
+The Stages of Sleep.....................................................................................................................................12
+The four stages at a glance........................................................................................................................... 12
+Sleep cycles: about 90 minutes each.............................................................................................................13
+Sleep and the Immune System....................................................................................................................16
+Sleep loss turns up inflammation.................................................................................................................. 16
+Sleep and vaccines....................................................................................................................................... 17
+Sleep and catching colds...............................................................................................................................17
+Sleep Hygiene: Practical Guidelines and Principles......................................................................................19
+1. Keep a steady schedule............................................................................................................................ 19
+2. Use light to set your body clock................................................................................................................ 19
+3. Make your bedroom a place for sleep....................................................................................................... 20
+4. Caffeine, alcohol and nicotine................................................................................................................... 20
+5. Meals, fluids and exercise......................................................................................................................... 21
+6. Screens and devices..................................................................................................................................21
+7. Naps.........................................................................................................................................................21
+8. Build a wind-down routine........................................................................................................................21
+Sleep Tips for Arthritis and Rheumatic Disease........................................................................................... 23
+Position and support your joints................................................................................................................... 23
+When Sleep Needs More Help.................................................................................................................... 25
+Insomnia and CBT-I: the first-line treatment................................................................................................. 25
+Sleep apnea................................................................................................................................................. 26
+Restless legs syndrome.................................................................................................................................26
+When to see a doctor about sleep................................................................................................................ 26
+Sleep Hygiene at a Glance...........................................................................................................................28
+Two-Week Sleep and Pain Diary................................................................................................................. 29
+Bringing Sleep/Restore Into RheumNotes©.................................................................................................30
+Evidence-Based Guidelines at a Glance.......................................................................................................31
+References..................................................................................................................................................32
+Appendix: Image Credits and Licenses........................................................................................................ 36
+Disclaimer...................................................................................................................................................37
+
+--- PDF page 3 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   3
+A Note From the Author
+"I'm so tired." I hear these words from patients with arthritis and 
+rheumatic disease almost every day. Pain keeps people awake. Poor 
+sleep makes pain feel worse the next day. Over time, the two feed 
+each other, and fatigue can become one of the hardest parts of living 
+with a chronic illness.
+That is why the theme of this component is rest is medicine. Sleep is 
+not lost time. While you sleep, your body repairs tissue, balances 
+hormones, sorts memories and resets the immune system. Good 
+sleep will not replace the medicines your doctor prescribes, but it 
+helps your body heal and helps you cope with pain.
+Rheumy, the RheumNotes© chatbot 
+guide, can help patients keep a sleep 
+diary and build a bedtime routine.
+This white paper explains sleep in plain language. It covers how much sleep people need at each age, 
+what makes sleep restful, the stages of sleep, how sleep supports the immune system, and simple habits 
+that help most people sleep better. It also includes tips made for people with joint pain and stiffness, 
+and clear signs that it is time to talk with a doctor about a sleep problem.
+This content is written for patients, families and caregivers, and it is meant to be used by any 
+rheumatology or medical practice. It is general by design and is never a substitute for advice from your 
+own doctor, especially before you change when or how you take any medicine.
+Small changes add up. A steady bedtime, a darker bedroom or one less late cup of coffee can be the first 
+step. I hope this helps you rest and restore.
+Frederick T. Murphy, DO, FACP, FACR
+Rheumatologist, Pittsburgh, Pennsylvania
+
+--- PDF page 4 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   4
+Key Takeaways
+Ten things to remember
+1. Sleep is a pillar of health, like food and movement. The American Heart Association now counts sleep 
+as one of the eight key measures of heart health.
+2. Most adults need at least 7 hours of sleep a night. For ages 18 to 64 the usual range is 7 to 9 hours; 
+for 65 and older, 7 to 8 hours.
+3. Restorative sleep is more than hours. It also means sleep that is unbroken, comes at a regular time, 
+and leaves you feeling refreshed.
+4. Sleep comes in cycles of about 90 minutes. Each cycle moves through light sleep (N1, N2), deep sleep 
+(N3) and dream sleep (REM). Most adults have 4 to 6 cycles a night.
+5. Pain and sleep feed each other. Poor sleep lowers the pain threshold the next day, and pain breaks up 
+sleep. Improving either one can help the other.
+6. Sleep supports the immune system. Short or poor sleep is linked to higher inflammation markers, 
+weaker vaccine responses and more colds.
+7. Keep a steady schedule. Go to bed and get up at about the same time every day, including weekends. 
+Get bright light in the morning.
+8. Make the bedroom cool, dark and quiet. Stop screens about 30 minutes before bed. Avoid caffeine in 
+the afternoon and alcohol near bedtime.
+9. For insomnia, CBT-I comes first. Cognitive behavioral therapy for insomnia is the first-line treatment 
+recommended by the American College of Physicians and the American Academy of Sleep Medicine.
+10. Talk to your doctor about loud snoring, gasping or pauses in breathing, an urge to move your legs at 
+night, insomnia that lasts more than 3 months, or medicines (such as prednisone) that may be keeping 
+you awake.
+
+--- PDF page 5 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   5
+Figure 1. The RheumNotes© Sleep/Restore Component at a glance.
+
+--- PDF page 6 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   6
+Rest Is Medicine: Sleep as a Pillar of Wellness
+We often talk about three pillars of good health: eating well, moving every day and sleeping well. Sleep 
+is the one people give up first when life gets busy. Yet the brain and body do some of their most 
+important work while we sleep.
+Figure 2. Sleep is an active time of repair for the brain and body. Photo: Kalegin Michail, CC0, via Wikimedia Commons.
+What sleep does for you
+Body system What happens during good sleep
+Brain and memory The brain sorts and stores what you learned during the day.
+Research in animals shows the brain clears waste products faster during sleep.
+Muscles, joints and tissue Growth hormone is released, mostly during deep sleep. It helps repair muscle and 
+tissue.
+Immune system Sleep helps the immune system remember germs and respond well to vaccines.
+Steady sleep helps keep inflammation in balance.
+Heart and blood vessels Heart rate and blood pressure fall during most of the night, giving the heart a rest.
+Metabolism and weight Sleep helps balance hunger hormones and blood sugar. Short sleep is linked to 
+weight gain and type 2 diabetes.
+Mood and coping Sleep helps us handle stress, pain and emotions. Long-term insomnia about 
+doubles the risk of later depression.
+
+--- PDF page 7 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   7
+Sleep and heart health
+In 2022 the American Heart Association added sleep to its list of the most important measures of heart 
+health, now called Life's Essential 8. The other seven are diet, physical activity, nicotine, weight, 
+cholesterol, blood sugar and blood pressure. For adults, 7 to 9 hours of sleep a night earns the top score. 
+This matters in rheumatology because people with rheumatoid arthritis, lupus, psoriatic arthritis and 
+gout already have a higher risk of heart disease.
+Large studies that follow people for many years also show that both very short sleep and very long sleep 
+are linked with a higher risk of early death. Short sleep was linked with about a 12% higher risk. Long 
+sleep was linked with about a 30% higher risk, though very long sleep is often a sign of another illness 
+rather than the cause.
+Rest is medicine
+Think of a good night's sleep as a daily dose of repair. One bad night will not harm you, but a steady 
+pattern of good sleep, night after night, helps protect your joints, heart, brain and mood.
+
+--- PDF page 8 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   8
+Sleep and Arthritis: Why It Matters Even More
+Many people with arthritis and other rheumatic diseases sleep poorly. Joint pain, stiffness, medicines, 
+worry and low mood can all get in the way. Studies of people with rheumatoid arthritis (RA) have found 
+that poor sleep goes along with more pain, more disability and higher disease activity.
+The two-way pain–sleep cycle
+Pain and sleep affect each other in both directions. Pain makes it hard to fall asleep and causes you to 
+wake up during the night. In turn, a poor night's sleep lowers your pain threshold (the point at which 
+something starts to hurt), so the same joint hurts more the next day. Reviews of many studies suggest 
+that poor sleep may predict next-day pain even more strongly than pain predicts poor sleep.
+Figure 3. The pain–sleep cycle. Better sleep and better pain control can each help break it.
+Researchers have shown this cycle in the lab. In the 1970s, Canadian researchers woke healthy people 
+every time they entered deep sleep. After a few nights, these healthy volunteers developed muscle 
+aches and tender spots much like those in fibromyalgia. In another study, people with RA who were kept 
+awake for part of one night reported more fatigue, more depression and more painful joints the next 
+day. When healthy adults slept only 4 hours a night for 10 nights, their levels of the inflammatory 
+messenger IL-6 rose, and so did their pain.
+Fatigue in rheumatic disease
+Fatigue is a deep tiredness that does not go away with rest. It is one of the most common and most 
+troubling symptoms of rheumatic disease. Poor sleep is only one cause. Disease activity, anemia, thyroid 
+problems, low mood, some medicines and being less active can all add to it. That is why fatigue deserves 
+a full conversation with your doctor.
+
+--- PDF page 9 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   9
+Condition How sleep is often affected
+Rheumatoid arthritis Night pain and morning stiffness break up sleep.
+Poor sleep is linked with more pain, disability and disease activity.
+Partial sleep loss worsened fatigue, mood and joint pain in a clinical study.
+Lupus (SLE) Fatigue is one of the most common lupus symptoms, reported by most people with 
+the disease.
+Pain, low mood, steroids and disease activity can all affect sleep.
+Fibromyalgia Sleep is often light and unrefreshing, with less deep sleep.
+Improving sleep is a core part of treatment.
+Osteoarthritis Pain with turning over or lying on a sore hip, knee or shoulder can wake people up.
+Gout Gout attacks are about 2.4 times as likely to start overnight (midnight to 8 AM) as 
+during the day.
+People with sleep apnea have a higher risk of developing gout.
+Spondyloarthritis Inflammatory back pain can wake people in the second half of the night and eases 
+with movement.
+Sleep and mood
+Sleep and mood are closely linked. A review of 21 long-term studies found that people with insomnia 
+had about twice the risk of developing depression later. Depression and anxiety, in turn, make sleep 
+worse and make pain harder to bear. If you feel down, hopeless or worried most days, tell your doctor. 
+Treating mood problems often helps both sleep and pain.
+Some research also suggests that sleep problems may be linked with a higher risk of developing 
+autoimmune diseases. In a large Taiwanese study, people with sleep disorders (not including sleep 
+apnea) were about 1.5 times as likely to be diagnosed with an autoimmune disease, such as RA or lupus, 
+over the following years. This kind of study shows a link, not proof of cause.
+
+--- PDF page 10 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   10
+How Much Sleep Do You Need? Evidence-Based 
+Guidelines
+Experts from the American Academy of Sleep Medicine (AASM), the Sleep Research Society (SRS) and 
+the National Sleep Foundation (NSF) reviewed hundreds of studies to decide how much sleep people 
+need. The Centers for Disease Control and Prevention (CDC) uses these numbers. Sleep needs change 
+with age.
+Recommended hours of sleep by age
+Age group Age Recommended sleep (per 24 hours) Source
+Newborn 0–3 months 14–17 hours NSF
+Infant 4–12 months 12–16 hours (including naps) AASM
+Toddler 1–2 years 11–14 hours (including naps) AASM
+Preschool 3–5 years 10–13 hours (including naps) AASM
+School age 6–12 years 9–12 hours AASM
+Teen 13–17 years 8–10 hours AASM
+Adult 18–60 years 7 or more hours AASM/SRS
+Adult 61–64 years 7–9 hours NSF
+Older adult 65 years and older 7–8 hours NSF
+Table based on the CDC's "About Sleep" page, which draws on the AASM/SRS adult consensus (Watson et al., 2015), the AASM pediatric 
+consensus (Paruthi et al., 2016) and the National Sleep Foundation recommendations (Hirshkowitz et al., 2015).
+Figure 4. Babies need the most sleep of any age group. Photo: 
+Dakota Corbin, CC0, via Wikimedia Commons.
+Adults need at least 7 hours. The AASM and SRS say 
+that regularly sleeping less than 7 hours a night is 
+linked with weight gain, diabetes, high blood 
+pressure, heart disease, stroke, depression, pain and 
+a weaker immune system.
+More than 9 hours may help young adults, people 
+recovering from illness or people paying back sleep 
+debt. For others it may be a sign of a health problem 
+worth discussing.
+Older adults still need 7 to 8 hours, but their sleep is 
+often lighter and more broken.
+
+--- PDF page 11 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   11
+What "restorative sleep" means
+Restorative sleep is sleep that leaves your body and mind refreshed. Hours matter, but they are only 
+one part. Experts describe four parts of healthy, restorative sleep:
+Part What it means A healthy target for most adults
+1. Duration Enough total sleep 7 or more hours a night (7–9 hours for ages 18–64; 7–8 
+hours for 65 and older)
+2. Continuity Sleep that is not broken up Falling asleep within about 30 minutes; no more than 1 
+waking longer than 5 minutes; 20 minutes or less awake 
+after first falling asleep (up to about 30 minutes for older 
+adults)
+3. Timing Sleeping at the right time for your 
+body clock
+Mostly at night, at about the same time every day, 
+including weekends
+4. Quality How well you sleep and how you 
+feel
+Spending at least 85% of your time in bed asleep, and 
+waking up feeling rested
+Targets adapted from the National Sleep Foundation's sleep quality recommendations (Ohayon et al., 2017) and the AASM/SRS adult 
+consensus (Watson et al., 2015). These are guides, not strict rules.
+You also need enough of each stage of sleep, especially deep sleep and REM sleep. When sleep is cut 
+short, the last REM periods of the morning are lost. When sleep is broken up by pain, breathing pauses 
+or noise, deep sleep is lost. The next section explains these stages.
+
+--- PDF page 12 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   12
+The Stages of Sleep
+Sleep is not one long, even state. All night long, your brain moves through different stages. Doctors 
+measure them with a sleep study, also called a polysomnogram. Small sensors on the scalp record brain 
+waves (this recording is called an EEG, or electroencephalogram). Other sensors record eye movements, 
+muscle activity, breathing, heart rhythm and oxygen levels.
+Figure 5. A person wired for an overnight sleep study (polysomnography). Photo: Clinique Somnomed, CC BY-SA 4.0, via 
+Wikimedia Commons.
+Two main types of sleep
+ Non-REM sleep has three stages: N1, N2 and N3. The "N" stands for non-REM. Sleep gets deeper 
+from N1 to N3.
+ REM sleep stands for rapid eye movement sleep. The eyes dart back and forth under closed lids. 
+This is when most vivid dreams happen.
+The four stages at a glance
+Stage What happens Why it matters Share of the night 
+(adults)
+N1: light sleep The doorway from waking to sleep.
+Breathing and heart rate slow. Muscles 
+relax and may twitch.
+Easy to wake up.
+A short bridge into deeper sleep. 
+Lots of N1 can be a sign that sleep 
+is broken up.
+About 2–5%
+Usually only a few minutes 
+at a time
+N2: light sleep Body temperature drops and eye 
+movements stop.
+Brain waves slow, with short bursts 
+called sleep spindles and K-complexes.
+Helps with memory and learning. 
+Makes up the largest part of the 
+night.
+About 45–55%
+10–25 minutes in the first 
+cycle, longer later
+
+--- PDF page 13 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   13
+Stage What happens Why it matters Share of the night 
+(adults)
+N3: deep sleep 
+(slow-wave sleep)
+Slow, large brain waves (delta waves).
+Breathing and heart rate reach their 
+lowest levels.
+Hardest stage to wake from; people 
+may feel groggy if woken.
+The most physically restoring 
+stage.
+Growth hormone is released, 
+helping repair tissue.
+Supports immune memory and 
+helps you feel refreshed.
+About 13–23%
+20–40 minutes in early 
+cycles; little or none late in 
+the night
+REM: dream sleep Eyes move quickly. Brain activity looks 
+close to waking.
+Arm and leg muscles are briefly 
+paralyzed, so you do not act out 
+dreams.
+Breathing and heart rate become 
+uneven.
+Important for mood, emotional 
+balance, learning and memory.
+About 20–25%
+First REM about 90 
+minutes after falling 
+asleep; periods start short 
+and grow longer toward 
+morning
+Percentages are typical ranges for healthy young and middle-aged adults (Carskadon and Dement, 2017; NINDS). They vary from person 
+to person and change with age.
+Figure 6. How a typical adult night is divided among the sleep stages.
+Sleep cycles: about 90 minutes each
+The stages follow a pattern called a sleep cycle. A cycle usually goes N1 → N2 → N3 → N2 → REM. The 
+first cycle lasts about 70 to 100 minutes. Later cycles last about 90 to 120 minutes. On average, each 
+cycle is about 90 minutes long, and most adults go through 4 to 6 cycles in a night of 7 to 9 hours.
+The make-up of each cycle changes as the night goes on. Deep N3 sleep happens mostly in the first third 
+of the night. REM periods get longer toward morning. This is why both going to bed late and waking up 
+too early can rob you of important sleep. A graph of the stages through the night is called a hypnogram.
+
+--- PDF page 14 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   14
+Figure 7. Hypnogram of an example healthy adult night. Blue bars show deep (N3) sleep, which comes mostly early in the 
+night; green bars show REM sleep, which gets longer toward morning. Brief awakenings are normal. Illustration drawn 
+for RheumNotes©.
+What the brain waves look like
+Each stage has its own brain-wave pattern on the EEG. The real sleep-study recordings below show 30 
+seconds of sleep in each stage. The red box marks the EEG. Notice the slow, tall waves of deep sleep and 
+the fast, small waves of REM sleep, which look much like being awake.
+
+--- PDF page 15 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   15
+Figure 8. Real polysomnogram screens showing 30 seconds of N1, N2, deep (N3) and REM sleep. Images: MrSandman, 
+English Wikipedia, public domain, via Wikimedia Commons.
+How sleep changes with age
+A large review of sleep studies from childhood to old age found that, as adults get older, total sleep time 
+and sleep efficiency go down, and people spend less time in deep N3 sleep and wake up more often 
+during the night. The share of REM sleep drops only a little. This is normal. But feeling unrefreshed, 
+sleepy in the daytime or lying awake for long periods is not just a normal part of aging, and it is worth 
+discussing with a doctor.
+How long should I sleep to feel restored?
+For most adults, 7 to 9 hours allows 4 to 6 full cycles, with enough deep sleep early in the night and 
+enough REM sleep toward morning.
+Going to bed and waking up at the same time every day helps your body clock line up the stages the right 
+way.
+Sleep that is broken up by pain, a full bladder, breathing pauses or noise loses deep sleep, even if the 
+total hours look fine.
+
+--- PDF page 16 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   16
+Sleep and the Immune System
+Your immune system is your body's defense force against germs. In autoimmune diseases such as RA 
+and lupus, the immune system is overactive and attacks the body's own tissues. Sleep and the immune 
+system talk to each other all the time. Scientists call this the sleep–immune crosstalk.
+Key words
+Term Plain-language meaning
+Cytokines Chemical messengers that immune cells use to talk to each other. Some, such as 
+interleukin-6 (IL-6) and tumor necrosis factor (TNF), turn inflammation up. Several 
+modern arthritis medicines work by blocking them.
+Inflammation markers Blood tests that show how much inflammation is in the body. C-reactive protein (CRP) is 
+one of the most common.
+Antibodies Proteins the immune system makes to recognize and fight a specific germ. Vaccines 
+work by teaching the body to make them.
+Immune memory The immune system's ability to remember a germ or vaccine and respond faster the next 
+time.
+What happens to the immune system while you sleep
+ During early-night deep sleep, levels of the stress hormone cortisol are low and growth hormone 
+and prolactin are high. This mix helps immune cells move to the lymph nodes, where they "learn" 
+about germs and vaccines.
+ Sleep appears to help turn short-term immune responses into longer-lasting immune memory, 
+much as it helps the brain store memories.
+ When you are fighting an infection, the immune system releases cytokines that make you sleepy. 
+This is one reason rest helps recovery.
+Sleep loss turns up inflammation
+Many studies show that short or poor sleep pushes the immune system toward inflammation. This 
+matters for people with inflammatory arthritis, whose immune systems already lean that way.
+Study What researchers did What they found
+Irwin and colleagues, 2006 30 healthy adults were kept awake from 
+11 PM to 3 AM for one night.
+The next morning, their immune cells made more 
+of the inflammatory cytokines IL-6 and TNF. 
+Activity of the IL-6 gene rose more than threefold.
+Vgontzas and colleagues, 
+2004
+Healthy adults cut their sleep from 8 to 6 
+hours a night for one week.
+IL-6 rose, and in men TNF rose too. People felt 
+sleepier and performed worse.
+Haack and colleagues, 
+2007
+Healthy adults slept 4 hours a night for 
+10 nights.
+IL-6 rose, and higher IL-6 went along with more 
+pain.
+
+--- PDF page 17 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   17
+Study What researchers did What they found
+Irwin and colleagues, 2016 
+(review of 72 studies, 
+more than 50,000 people)
+Pooled data on sleep and inflammation 
+markers.
+Poor sleep quality (sleep disturbance) was linked 
+with higher CRP and IL-6. Very long sleep was also 
+linked with higher markers.
+Irwin and colleagues, 2014 Older adults with insomnia received 
+cognitive behavioral therapy for 
+insomnia (CBT-I), tai chi or a sleep 
+education class.
+CBT-I worked best for insomnia and lowered the 
+risk of high CRP. Remission of insomnia went 
+along with lower CRP.
+Why this matters in rheumatic disease
+IL-6 and TNF are the same messengers that drive joint inflammation in RA and that some biologic 
+medicines block. Sleep loss turning these messengers up may be one reason flares, pain and fatigue are 
+often worse after bad nights. Treating insomnia may help calm inflammation, too.
+Sleep and vaccines
+Vaccines protect against flu, pneumonia, shingles, COVID-19 and other infections. This is important for 
+people who take medicines that lower the immune response. Sleep helps vaccines work better.
+Study What researchers found
+Spiegel and colleagues, 2002 Young men limited to 4 hours of sleep for 6 nights made less than half as many flu 
+antibodies 10 days after vaccination as men who slept normally.
+Lange and colleagues, 2003 Adults who slept the night after a hepatitis A shot had about twice as many 
+antibodies 4 weeks later as those who stayed awake that night.
+Prather and colleagues, 2012 In 125 middle-aged adults getting the hepatitis B vaccine series, shorter sleep 
+(measured with a wrist monitor) meant fewer antibodies and a lower chance of 
+being protected 6 months later.
+Spiegel and colleagues, 2023 
+(review)
+Across studies, short sleep (less than 6 hours a night) measured with devices was 
+linked with clearly weaker antibody responses, especially in men.
+Practical tip
+Try to get a full night of sleep for a few nights before and after a vaccine. Ask your doctor which vaccines 
+are right for you and how they fit with your arthritis medicines.
+Sleep and catching colds
+In two careful studies, healthy volunteers had cold virus drops placed in their noses and were watched 
+to see who got sick.
+
+--- PDF page 18 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   18
+ In the first study, people who slept less than 7 hours were about 3 times as likely to catch a cold as 
+those who slept 8 hours or more. People who spent less of their time in bed asleep (low sleep 
+efficiency) were more than 5 times as likely.
+ In the second study, sleep was measured with a wrist monitor. People who slept less than 6 hours 
+were about 4 times as likely to catch a cold as those who slept more than 7 hours.
+The bottom line on sleep and immunity
+Steady, sufficient sleep helps the immune system fight germs, respond to vaccines and keep 
+inflammation in balance. Ongoing sleep loss does the opposite. For people living with inflammatory and 
+autoimmune disease, sleep is part of caring for the immune system.
+
+--- PDF page 19 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   19
+Sleep Hygiene: Practical Guidelines and Principles
+Sleep hygiene means the daily habits and bedroom setup that help you sleep well. These tips come from 
+the CDC, the National Institutes of Health and research on each habit. No single tip works for everyone. 
+Try one or two changes at a time and give each one at least two weeks.
+The core principles
+Be regular: same bedtime and wake time every day.
+Let light and dark set your body clock: bright light by day, dim light at night.
+Keep the bed for sleep: the bedroom should be cool, dark, quiet and calm.
+Watch what goes in: caffeine, alcohol, nicotine and heavy meals all affect sleep.
+Move by day, wind down at night: daytime activity builds healthy sleep pressure; a calm routine signals 
+bedtime.
+1. Keep a steady schedule
+Photo: Ales Krivec, CC0, via Wikimedia Commons.
+Your body clock likes routine
+ Go to bed and get up at about the same time every day, 
+even on weekends. Your wake-up time is the most 
+important anchor.
+ Choose a wake time first, then count back 7 to 9 hours to set 
+your bedtime.
+ Sleeping in on weekends to "catch up" can shift your body 
+clock and make Sunday night harder.
+ Go to bed when you feel sleepy, not just tired.
+2. Use light to set your body clock
+Your circadian rhythm is your internal 24-hour clock. Light is its strongest signal. Light in the morning 
+moves the clock earlier and helps you feel alert. Bright light in the evening pushes it later and lowers 
+melatonin, the hormone that tells your body it is night.
+Bright days, dark nights
+ Open the curtains or step outside within an hour of waking. 
+Even a cloudy day is much brighter than indoor light.
+ Spend time outdoors during the day when you can.
+ Dim the lights in your home 1 to 2 hours before bed.
+ If you get up at night, use a small night light rather than 
+turning on bright overhead lights.
+Photo: Sylwia Pietruszka, CC0, via Wikimedia 
+Commons.
+
+--- PDF page 20 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   20
+3. Make your bedroom a place for sleep
+Photo: Quin Stevenson, CC0, via Wikimedia Commons.
+Cool, dark and quiet
+ Cool: a slightly cool room helps the body's temperature 
+drop, which helps sleep start.
+ Dark: use blackout curtains or a sleep mask. Cover or turn 
+away glowing clocks and chargers.
+ Quiet: try earplugs, a fan or a white-noise machine.
+ Comfortable: a supportive mattress and pillows that fit your 
+joints (see the arthritis tips section).
+ Use the bed for sleep and intimacy only, not for work, TV or 
+worrying.
+4. Caffeine, alcohol and nicotine
+Photo: Julius Schorzman, CC BY-SA 2.0, via Wikimedia 
+Commons.
+Caffeine
+ Caffeine blocks adenosine, a brain chemical that builds up 
+while you are awake and makes you sleepy.
+ In one study, a large dose of caffeine (400 mg, about the 
+amount in 4 cups of brewed coffee) still disturbed sleep 
+when taken 6 hours before bed. The researchers advise 
+avoiding large amounts of caffeine for at least 6 hours 
+before bedtime.
+ A good rule: no caffeine after about noon to 2 PM. 
+Remember tea, cola, energy drinks, chocolate and some 
+pain relievers contain caffeine.
+Alcohol
+ Alcohol may help you fall asleep faster, but it breaks up 
+sleep in the second half of the night and reduces REM sleep.
+ It also relaxes throat muscles and can make snoring and 
+sleep apnea worse.
+ Avoid alcohol in the hours before bed. Alcohol can also 
+interact with some arthritis medicines, such as 
+methotrexate.
+ Photo: Auctor quaerendae, CC BY-SA 4.0, via Wikimedia 
+Commons.
+Nicotine
+Nicotine is a stimulant. Smokers tend to take longer to fall asleep, sleep more lightly and may wake with 
+cravings. Quitting helps sleep, joints and heart. Your doctor can help with a plan to quit.
+
+--- PDF page 21 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   21
+5. Meals, fluids and exercise
+ Meals: avoid large, heavy or spicy meals within 2 to 3 hours of bedtime. If you are hungry, a light 
+snack is fine.
+ Fluids: drink plenty during the day, then cut back in the last hour or two before bed so a full bladder 
+does not wake you.
+ Exercise: regular physical activity helps people fall asleep faster and sleep longer and more deeply. A 
+review of many studies found that evening exercise generally does not harm sleep, but hard 
+exercise that ends within about an hour of bedtime may.
+Photo: FaceMePLS from The Hague, The Netherlands, 
+CC BY 2.0, via Wikimedia Commons.
+Move every day
+ Aim for regular movement most days, such as walking, 
+swimming, cycling, tai chi or chair exercise.
+ Morning or daytime walks outdoors add helpful daylight.
+ For joint-friendly ideas, see the RheumNotes© Motion 
+Component.
+6. Screens and devices
+Power down before bed
+ Phones, tablets and computers give off bright, blue-rich 
+light. In a Harvard study, people who read on a light-
+emitting e-reader before bed took longer to fall asleep, 
+made less melatonin and were less alert the next morning 
+than when they read a printed book.
+ Turn off screens at least 30 minutes before bed (the CDC's 
+advice); an hour is even better.
+ Keep the phone out of reach, or at least face down and 
+silenced, so alerts do not wake you.
+Photo: Shixart1985, CC BY 2.0, via Wikimedia 
+Commons.
+7. Naps
+ Short naps can help if you are very tired, but long or late naps can make it harder to sleep at night.
+ If you nap, keep it to about 20 to 30 minutes and take it before mid-afternoon.
+ If you have insomnia, it is usually best to avoid naps, so that sleep pressure builds for the night.
+ Pacing your activities and resting without sleeping can help with fatigue during the day.
+8. Build a wind-down routine
+Your brain needs a runway to land. Spend the last 30 to 60 minutes before bed doing the same calm 
+activities in the same order each night.
+
+--- PDF page 22 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   22
+Figure 9. A warm shower or bath 1 to 2 hours 
+before bed. Photo: Neil Cooper, CC0, via 
+Wikimedia Commons.
+Figure 10. A caffeine-free drink and a quiet 
+activity. Photo: Carli Jean Miller, CC0, via 
+Wikimedia Commons.
+Figure 11. Reading a printed book in soft light. 
+Photo: Nenad Stojkovic, CC BY 2.0, via 
+Wikimedia Commons.
+ Warm shower or bath: a review of 13 studies found that a warm shower or bath (about 104°F to 
+108.5°F, or 40°C to 42.5°C) taken 1 to 2 hours before bed, for as little as 10 minutes, helped people 
+fall asleep faster and sleep better. Warm water also eases stiff joints. Test water temperature 
+carefully if you have numbness in your hands or feet.
+ Relax the body and mind: gentle stretching, slow breathing, muscle relaxation, prayer, meditation 
+or calming music.
+ Park your worries: write tomorrow's to-do list or a few worries on paper an hour before bed, then 
+set them aside.
+ Can't sleep? If you are awake for what feels like more than about 20 minutes, get up, go to another 
+dim room and do something quiet until you feel sleepy. Then return to bed. Avoid watching the 
+clock.
+
+--- PDF page 23 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   23
+Sleep Tips for Arthritis and Rheumatic Disease
+Joint pain, stiffness and some medicines create special sleep challenges. These tips are general. Talk with 
+your doctor, physical therapist or occupational therapist about what is right for you.
+Time your pain relief
+ Plan pain relief so that it covers the night. Ask your doctor whether the timing of your pain medicine 
+or anti-inflammatory medicine could be adjusted to help you sleep.
+ Use heat before bed for stiff joints (a warm shower, bath or heating pad on a timer). Never sleep on 
+a heating pad that stays on. Use cold packs for hot, swollen joints, as your care team advises.
+ Gentle range-of-motion exercises or stretching in the evening can ease stiffness.
+ Keep a sleep and pain diary to share with your doctor (see the template later in this paper).
+Position and support your joints
+Photo: Amin, CC BY-SA 4.0, via Wikimedia Commons.
+Pillows are tools
+ Neck: choose a pillow that keeps your neck level with your 
+spine, neither too high nor too flat.
+ Hips, knees and low back (side sleeping): place a pillow 
+between your knees.
+ Low back (back sleeping): place a pillow under your knees.
+ Shoulders: hug a pillow to support the top arm, and avoid 
+lying on a painful shoulder.
+ Hands and wrists: a resting splint at night may help; ask 
+your occupational therapist.
+ Stomach sleeping often strains the neck and back.
+A medium-firm mattress is often comfortable for people with back pain. A mattress topper can cushion 
+sore hips and shoulders. Bed rails, a raised bed or a firm chair nearby can make it easier to get in and out 
+of bed safely.
+Medicines and sleep: talk with your doctor
+Never change the dose or timing of a medicine on your own. But do ask your doctor or pharmacist 
+whether any of your medicines could be affecting your sleep.
+Medicine or issue How it can affect sleep Questions to ask your doctor
+Steroids (glucocorticoids, 
+such as prednisone)
+Can cause trouble sleeping, restlessness and mood 
+changes, especially at higher doses or when taken 
+later in the day.
+Can I take my daily dose in the 
+morning? Is a lower dose possible?
+Pain relievers and anti-
+inflammatories
+Pain that wears off at night can wake you. Some 
+combination products contain caffeine.
+Can my pain medicine be timed to 
+cover the night?
+
+--- PDF page 24 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   24
+Medicine or issue How it can affect sleep Questions to ask your doctor
+Medicines that cause 
+drowsiness
+Some medicines for pain, nerves, mood or allergies 
+make you sleepy. This can help sleep or cause 
+morning grogginess and falls.
+Should I take this at bedtime? Is it 
+safe with my other medicines?
+Diuretics (water pills) Taken late in the day, they can cause trips to the 
+bathroom at night.
+Can I take it earlier in the day?
+Sleep aids (prescription, 
+over-the-counter or 
+supplements)
+Many over-the-counter sleep aids contain 
+antihistamines that can cause confusion and falls, 
+especially in older adults. Supplements may interact 
+with other medicines.
+Is this safe for me? Would CBT-I be a 
+better first step?
+Fatigue, pacing and mood
+ Pace yourself: plan your day with breaks, and spread heavy tasks across the week.
+ Stay active: regular movement improves both fatigue and sleep, even when you feel tired.
+ Treat the disease: good control of inflammation often improves sleep and fatigue.
+ Check for other causes: ask your doctor about anemia, thyroid problems, low vitamin D, depression 
+or sleep disorders.
+ Mind your mood: stress, worry and low mood are common with chronic illness. Counseling, support 
+groups and CBT can help.
+
+--- PDF page 25 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   25
+When Sleep Needs More Help
+Good habits help most people, but they are not always enough. Sleep disorders are common, and most 
+can be treated. If you have ongoing sleep problems, talk with your doctor. The CDC suggests keeping a 
+sleep diary for a week or two to bring to your visit.
+Insomnia and CBT-I: the first-line treatment
+Insomnia means trouble falling asleep, staying asleep or waking too early, along with daytime problems 
+such as fatigue, poor focus or low mood. When it happens at least 3 nights a week for at least 3 
+months, doctors call it chronic insomnia.
+Cognitive behavioral therapy for insomnia (CBT-I) is a short, structured program, usually 4 to 8 sessions 
+with a trained clinician, in a group, by video or through a digital program. It changes the habits and 
+thoughts that keep insomnia going.
+CBT-I part What it involves
+Stimulus control Use the bed only for sleep and intimacy. Go to bed only when sleepy. Get up if you 
+cannot sleep. Keep the same wake time every day. This retrains the brain to link bed 
+with sleep.
+Sleep restriction For a short time, limit time in bed to about the hours you actually sleep, then widen it as 
+sleep becomes solid. This builds a strong, steady sleep drive. It should be guided by a 
+clinician.
+Cognitive therapy Spot and change worries and beliefs about sleep, such as "If I don't sleep 8 hours, 
+tomorrow will be ruined."
+Relaxation training Slow breathing, muscle relaxation, imagery or meditation to calm the body and mind.
+Sleep education Sleep hygiene and how sleep works. Helpful as part of CBT-I, but not enough alone for 
+chronic insomnia.
+What the guidelines say
+American College of Physicians (2016): recommends CBT-I as the first treatment for adults with chronic 
+insomnia (strong recommendation). Sleep medicines may be considered, through shared decision-
+making, if CBT-I alone does not work.
+American Academy of Sleep Medicine (2021): strongly recommends CBT-I for chronic insomnia in adults. 
+It advises against using sleep hygiene education alone as the treatment.
+CBT-I also helps many people who live with chronic pain or other medical conditions, and its benefits 
+tend to last after treatment ends.
+Sleep medicines can help some people for a short time, but they can cause morning grogginess, 
+memory problems and falls, especially in older adults, and they may interact with other medicines. Use 
+them only under a doctor's guidance.
+
+--- PDF page 26 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   26
+Sleep apnea
+Obstructive sleep apnea happens when the airway in the throat closes again and again during sleep. 
+Breathing stops or gets shallow for 10 seconds or more, oxygen drops, and the brain wakes up briefly to 
+restart breathing, often hundreds of times a night without the person knowing. Untreated sleep apnea 
+raises the risk of high blood pressure, heart disease, stroke, diabetes and accidents.
+A CPAP machine, mask and tubing. Photo: DL5MDA, 
+Public domain, via Wikimedia Commons.
+Warning signs of sleep apnea
+ Loud, regular snoring
+ Pauses in breathing, choking or gasping during sleep, often 
+noticed by a bed partner
+ Feeling very sleepy or falling asleep during the day, even 
+after a full night in bed
+ Morning headaches or a dry mouth
+ Waking often to urinate
+ Higher risk with extra weight, a large neck, high blood 
+pressure and older age
+Your doctor may order a sleep study in a sleep lab or a simpler home sleep apnea test. The most 
+common treatment is CPAP (continuous positive airway pressure), a bedside machine that gently blows 
+air through a mask to keep the airway open. Oral appliances, weight loss, sleeping on your side and 
+other treatments may also help.
+Restless legs syndrome
+Restless legs syndrome (RLS) causes a strong urge to move the legs, often with uncomfortable creeping, 
+crawling or aching feelings. It starts or gets worse when resting, is relieved by moving, and is worse in 
+the evening or at night, which makes it hard to fall asleep. Low iron can cause or worsen RLS, so your 
+doctor may check your iron levels. Some medicines can also make RLS worse.
+When to see a doctor about sleep
+See your doctor if you have… Why
+Trouble sleeping at least 3 nights a week for more 
+than 3 months
+This is chronic insomnia. CBT-I and other treatments can 
+help.
+Loud snoring, gasping, choking or pauses in breathing Possible sleep apnea, which is treatable and important for 
+heart health.
+An urge to move your legs at rest in the evening Possible restless legs syndrome.
+Daytime sleepiness that makes it hard to stay awake 
+while reading, watching TV or driving
+May signal a sleep disorder. Do not drive while drowsy.
+Acting out dreams, kicking or shouting in your sleep May need a sleep study.
+Sleep problems that started with a new medicine, 
+such as prednisone
+The dose or timing may be adjustable.
+
+--- PDF page 27 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   27
+See your doctor if you have… Why
+Night pain that wakes you from sleep, or new night 
+sweats or fevers
+May signal active inflammation or another condition that 
+needs attention.
+Low mood, hopelessness or worry most days Mood problems and sleep problems often go together and 
+are treatable.
+Get help right away
+Call 911 or seek emergency care for chest pain, trouble breathing, or thoughts of harming yourself. In the 
+U.S., you can call or text 988 to reach the 988 Suicide & Crisis Lifeline.
+
+--- PDF page 28 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   28
+Sleep Hygiene at a Glance
+Print this page and keep it by your bed. Check off the habits you already do, and pick one or two to work on next.
+✓ Habit What to do
+☐ Schedule Same bedtime and wake time every day, including weekends. Aim for 7–9 hours (7–8 
+if 65 or older).
+☐ Morning light Get outdoor or bright light within an hour of waking.
+☐ Evening light Dim lights 1–2 hours before bed. Use a night light at night.
+☐ Bedroom Cool, dark and quiet. Bed for sleep and intimacy only.
+☐ Caffeine None after about noon to 2 PM. Check tea, soda, chocolate and some pain relievers.
+☐ Alcohol Avoid in the hours before bed.
+☐ Nicotine Avoid, especially near bedtime. Ask about help to quit.
+☐ Meals and fluids No heavy meals 2–3 hours before bed. Cut back on fluids in the last 1–2 hours.
+☐ Exercise Move most days. Finish hard exercise at least an hour before bed.
+☐ Screens Off at least 30 minutes before bed. Phone out of reach and silenced.
+☐ Naps Short (20–30 minutes) and before mid-afternoon, or none if you have insomnia.
+☐ Wind-down 30–60 minutes of the same calm routine: warm shower, stretching, reading, prayer or 
+slow breathing.
+☐ Can't sleep? After about 20 minutes awake, get up and do something quiet in dim light. Return 
+when sleepy.
+☐ Joints Plan pain relief for the night, use heat for stiffness, and support joints with pillows.
+☐ Medicines Ask your doctor about timing, especially steroids, diuretics and sleep aids.
+☐ Get help Snoring with pauses, restless legs or insomnia > 3 months: talk to your doctor. CBT-I 
+comes first for insomnia.
+
+--- PDF page 29 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   29
+Two-Week Sleep and Pain Diary
+Fill this in each morning for two weeks and bring it to your next visit. It helps you and your doctor see patterns 
+between sleep, pain, caffeine, naps and medicines.
+Day Bedtime Minutes to 
+fall asleep
+Times 
+awake Wake time Hours slept Sleep quality 
+(1–5)
+Pain score 
+(0–10)
+Caffeine / alcohol 
+(when) Naps / notes
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+Medicines: list any changes in your medicines, and the times you take steroids, pain relievers, diuretics or sleep aids, on the back 
+of this page.
+
+--- PDF page 30 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   30
+Bringing Sleep/Restore Into RheumNotes©
+The Sleep/Restore Component will bring the content of this paper into the RheumNotes© patient-
+education platform in several formats. All content is general and can be used by any rheumatology or 
+medical practice.
+Format Planned content
+Plain-language articles Short articles on each section of this paper: why sleep matters, how much sleep you 
+need, sleep stages, sleep and immunity, sleep hygiene, arthritis tips and when to get 
+help.
+Rheumy, the chatbot guide Rheumy can walk patients through a sleep diary, suggest a wind-down routine, explain 
+sleep terms and remind them which questions to bring to their doctor. Rheumy does 
+not diagnose or give individual medical advice.
+Short videos One- to three-minute videos: "Your 90-minute sleep cycle," "Pillows for painful joints," 
+"Your wind-down routine," "What is CBT-I?" and "Is it sleep apnea?"
+Social media Weekly sleep tips using #RestIsMedicine and #RheumNotes, with real photos and the 
+at-a-glance checklist.
+Printable tools Sleep Hygiene at a Glance checklist and the Two-Week Sleep and Pain Diary.
+Mind map The overview mind map (Figure 1) as an interactive menu for the component.
+
+--- PDF page 31 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   31
+Evidence-Based Guidelines at a Glance
+Topic Key recommendation Source
+Adult sleep duration 7 or more hours a night on a regular basis AASM and SRS joint consensus 
+(Watson et al., 2015)
+Sleep duration by age Newborns 14–17 h; infants 12–16 h; toddlers 11–14 h; 
+preschool 10–13 h; school age 9–12 h; teens 8–10 h; 
+adults 18–64 7–9 h; 65+ 7–8 h
+AASM pediatric consensus (Paruthi et 
+al., 2016); NSF (Hirshkowitz et al., 
+2015); CDC
+Sleep quality Fall asleep within about 30 minutes; 85% or more of 
+time in bed asleep; few, brief awakenings
+NSF sleep quality recommendations 
+(Ohayon et al., 2017)
+Heart health Sleep is one of eight key measures of heart health; 7–9 
+hours is optimal for adults
+American Heart Association, Life's 
+Essential 8 (Lloyd-Jones et al., 2022)
+Chronic insomnia CBT-I as the first-line treatment American College of Physicians 
+(Qaseem et al., 2016); AASM (Edinger 
+et al., 2021)
+Sleep hygiene alone Not recommended as the only treatment for chronic 
+insomnia
+AASM (Edinger et al., 2021)
+Sleep medicines Consider only with shared decision-making when CBT-I 
+alone is not enough
+ACP (Qaseem et al., 2016); AASM 
+(Sateia et al., 2017)
+Suspected sleep apnea Sleep study in a lab, or a home sleep apnea test for 
+uncomplicated adults
+AASM (Kapur et al., 2017)
+Restless legs syndrome Diagnosed by symptoms: urge to move legs, worse at 
+rest and at night, relieved by movement
+International RLS Study Group (Allen 
+et al., 2014)
+Healthy sleep habits Regular schedule; quiet, cool, dark bedroom; screens off 
+30 minutes before bed; avoid large meals, alcohol and 
+late caffeine; regular exercise
+CDC; NINDS
+
+--- PDF page 32 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   32
+References
+References follow the Chicago Manual of Style (17th edition) bibliography format. Web sources were accessed November 
+12, 2026.
+Afolalu, Esther F., Fatanah Ramlee, and Nicole K.Y. Tang. “Effects of Sleep Changes on Pain-Related Health Outcomes in 
+the General Population: A Systematic Review of Longitudinal Studies with Exploratory Meta-Analysis.” Sleep 
+Medicine Reviews 39 (2018): 82–97. https://doi.org/10.1016/j.smrv.2017.08.001.
+Ahn, Grace E., and Rosalind Ramsey-Goldman. “Fatigue in Systemic Lupus Erythematosus.” International Journal of 
+Clinical Rheumatology 7, no. 2 (2012): 217–27. https://doi.org/10.2217/ijr.12.4.
+Allen, Richard P., Daniel L. Picchietti, Diego Garcia-Borreguero, William G. Ondo, Arthur S. Walters, John W. Winkelman, 
+Marco Zucconi, Raffaele Ferri, Claudia Trenkwalder, and Hochang B. Lee. “Restless Legs Syndrome/Willis–Ekbom 
+Disease Diagnostic Criteria: Updated International Restless Legs Syndrome Study Group (IRLSSG) Consensus 
+Criteria – History, Rationale, Description, and Significance.” Sleep Medicine 15, no. 8 (2014): 860–73. 
+https://doi.org/10.1016/j.sleep.2014.03.025.
+American Academy of Sleep Medicine. International Classification of Sleep Disorders. 3rd ed., text revision. Darien, IL: 
+American Academy of Sleep Medicine, 2023.
+Andersen, Monica Levy, Paula Araujo, Cristina Frange, and Sergio Tufik. “Sleep Disturbance and Pain.” Chest 154, no. 5 
+(2018): 1249–59. https://doi.org/10.1016/j.chest.2018.07.019.
+Baglioni, Chiara, Gemma Battagliese, Bernd Feige, Kai Spiegelhalder, Christoph Nissen, Ulrich Voderholzer, Caterina 
+Lombardo, and Dieter Riemann. “Insomnia as a Predictor of Depression: A Meta-Analytic Evaluation of 
+Longitudinal Epidemiological Studies.” Journal of Affective Disorders 135, no. 1–3 (2011): 10–19. 
+https://doi.org/10.1016/j.jad.2011.01.011.
+Besedovsky, Luciana, Tanja Lange, and Monika Haack. “The Sleep-Immune Crosstalk in Health and Disease.” Physiological 
+Reviews 99, no. 3 (2019): 1325–80. https://doi.org/10.1152/physrev.00010.2018.
+Blagojevic Bucknall, Milica, Christian Mallen, Sara Muller, Richard Hayward, Sophie West, Hyon Choi, and Edward Roddy. ‐
+“The Risk of Gout Among Patients with Sleep Apnea: A Matched Cohort Study.” Arthritis & Rheumatology 71, no. 1 
+(2019): 154–60. https://doi.org/10.1002/art.40662.
+Blume, Christine, Corrado Garbazza, and Manuel Spitschan. “Effects of Light on Human Circadian Rhythms, Sleep and 
+Mood.” Somnologie 23, no. 3 (2019): 147–56. https://doi.org/10.1007/s11818-019-00215-x.
+Cappuccio, Francesco P., Lanfranco D'Elia, Pasquale Strazzullo, and Michelle A. Miller. “Sleep Duration and All-Cause 
+Mortality: A Systematic Review and Meta-Analysis of Prospective Studies.” Sleep 33, no. 5 (2010): 585–92. 
+https://doi.org/10.1093/sleep/33.5.585.
+Carskadon, Mary A., and William C. Dement. “Normal Human Sleep.” In Principles and Practice of Sleep Medicine, 6th ed., 
+edited by Meir Kryger, Thomas Roth, and William C. Dement, 15–24.e3. Philadelphia: Elsevier, 2017. 
+https://doi.org/10.1016/B978-0-323-24288-2.00002-7.
+Centers for Disease Control and Prevention. “About Sleep.” Sleep. Accessed November 12, 2026. 
+https://www.cdc.gov/sleep/about/index.html.
+Chang, Anne-Marie, Daniel Aeschbach, Jeanne F. Duffy, and Charles A. Czeisler. “Evening Use of Light-Emitting eReaders 
+Negatively Affects Sleep, Circadian Timing, and Next-Morning Alertness.” Proceedings of the National Academy of 
+Sciences 112, no. 4 (2015): 1232–37. https://doi.org/10.1073/pnas.1418490112.
+Choi, Hyon K., Jingbo Niu, Tuhina Neogi, Clara A. Chen, Christine Chaisson, David Hunter, and Yuqing Zhang. “Nocturnal 
+Risk of Gout Attacks.” Arthritis & Rheumatology 67, no. 2 (2015): 555–62. https://doi.org/10.1002/art.38917.
+Choy, Ernest H. S. “The Role of Sleep in Pain and Fibromyalgia.” Nature Reviews Rheumatology 11, no. 9 (2015): 513–20. 
+https://doi.org/10.1038/nrrheum.2015.56.
+Cohen, Sheldon, William J. Doyle, Cuneyt M. Alper, Denise Janicki-Deverts, and Ronald B. Turner. “Sleep Habits and 
+Susceptibility to the Common Cold.” Archives of Internal Medicine 169, no. 1 (2009): 62–67. 
+https://doi.org/10.1001/archinternmed.2008.505.
+
+--- PDF page 33 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   33
+Drake, Christopher, Timothy Roehrs, John Shambroom, and Thomas Roth. “Caffeine Effects on Sleep Taken 0, 3, or 6 
+Hours Before Going to Bed.” Journal of Clinical Sleep Medicine 9, no. 11 (2013): 1195–200. 
+https://doi.org/10.5664/jcsm.3170.
+Ebrahim, Irshaad O., Colin M. Shapiro, Adrian J. Williams, and Peter B. Fenwick. “Alcohol and Sleep I: Effects on Normal 
+Sleep.” Alcoholism: Clinical and Experimental Research 37, no. 4 (2013): 539–49. 
+https://doi.org/10.1111/acer.12006.
+Edinger, Jack D., J. Todd Arnedt, Suzanne M. Bertisch, Colleen E. Carney, John J. Harrington, Kenneth L. Lichstein, Michael 
+J. Sateia, et al. “Behavioral and Psychological Treatments for Chronic Insomnia Disorder in Adults: An American 
+Academy of Sleep Medicine Clinical Practice Guideline.” Journal of Clinical Sleep Medicine 17, no. 2 (2021): 255–
+62. https://doi.org/10.5664/jcsm.8986.
+Finan, Patrick H., Burel R. Goodin, and Michael T. Smith. “The Association of Sleep and Pain: An Update and a Path 
+Forward.” Journal of Pain 14, no. 12 (2013): 1539–52. https://doi.org/10.1016/j.jpain.2013.08.007.
+Grabovac, Igor, Sandra Haider, Carolin Berner, Thomas Lamprecht, Karl-Heinrich Fenzl, Ludwig Erlacher, Michael Quittan, 
+and Thomas E. Dorner. “Sleep Quality in Patients with Rheumatoid Arthritis and Associations with Pain, Disability, 
+Disease Duration, and Activity.” Journal of Clinical Medicine 7, no. 10 (2018): 336. 
+https://doi.org/10.3390/jcm7100336.
+Haack, Monika, Elsa Sanchez, and Janet M. Mullington. “Elevated Inflammatory Markers in Response to Prolonged Sleep 
+Restriction Are Associated with Increased Pain Experience in Healthy Volunteers.” Sleep 30, no. 9 (2007): 1145–52. 
+https://doi.org/10.1093/sleep/30.9.1145.
+Haghayegh, Shahab, Sepideh Khoshnevis, Michael H. Smolensky, Kenneth R. Diller, and Richard J. Castriotta. “Before-
+Bedtime Passive Body Heating by Warm Shower or Bath to Improve Sleep: A Systematic Review and Meta-
+Analysis.” Sleep Medicine Reviews 46 (2019): 124–35. https://doi.org/10.1016/j.smrv.2019.04.008.
+Hirshkowitz, Max, Kaitlyn Whiton, Steven M. Albert, Cathy Alessi, Oliviero Bruni, Lydia DonCarlos, Nancy Hazen, et al. 
+“National Sleep Foundation’s Sleep Time Duration Recommendations: Methodology and Results Summary.” Sleep 
+Health 1, no. 1 (2015): 40–43. https://doi.org/10.1016/j.sleh.2014.12.010.
+Hsiao, Yi-Han, Yung-Tai Chen, Ching-Min Tseng, Li-An Wu, Wei-Chen Lin, Vincent Yi-Fong Su, Diahn-Warng Perng, et al. 
+“Sleep Disorders and Increased Risk of Autoimmune Diseases in Individuals Without Sleep Apnea.” Sleep 38, no. 4 
+(2015): 581–86. https://doi.org/10.5665/sleep.4574.
+Irish, Leah A., Christopher E. Kline, Heather E. Gunn, Daniel J. Buysse, and Martica H. Hall. “The Role of Sleep Hygiene in 
+Promoting Public Health: A Review of Empirical Evidence.” Sleep Medicine Reviews 22 (2015): 23–36. 
+https://doi.org/10.1016/j.smrv.2014.10.001.
+Irwin, Michael R., Minge Wang, Capella O. Campomayor, Alicia Collado-Hidalgo, and Steve Cole. “Sleep Deprivation and 
+Activation of Morning Levels of Cellular and Genomic Markers of Inflammation.” Archives of Internal Medicine 166, 
+no. 16 (2006): 1756–62. https://doi.org/10.1001/archinte.166.16.1756.
+Irwin, Michael R., Minge Wang, Denise Ribeiro, Hyong Jin Cho, Richard Olmstead, Elizabeth Crabb Breen, Otoniel 
+Martinez-Maza, and Steve Cole. “Sleep Loss Activates Cellular Inflammatory Signaling.” Biological Psychiatry 64, 
+no. 6 (2008): 538–40. https://doi.org/10.1016/j.biopsych.2008.05.004.
+Irwin, Michael R., Richard Olmstead, and Judith E. Carroll. “Sleep Disturbance, Sleep Duration, and Inflammation: A 
+Systematic Review and Meta-Analysis of Cohort Studies and Experimental Sleep Deprivation.” Biological Psychiatry 
+80, no. 1 (2016): 40–52. https://doi.org/10.1016/j.biopsych.2015.05.014.
+Irwin, Michael R., Richard Olmstead, Carmen Carrillo, Nina Sadeghi, Elizabeth C. Breen, Tuff Witarama, Megumi 
+Yokomizo, et al. “Cognitive Behavioral Therapy vs. Tai Chi for Late Life Insomnia and Inflammatory Risk: A 
+Randomized Controlled Comparative Efficacy Trial.” Sleep 37, no. 9 (2014): 1543–52. 
+https://doi.org/10.5665/sleep.4008.
+Irwin, Michael R., Richard Olmstead, Carmen Carrillo, Nina Sadeghi, John D. FitzGerald, Veena K. Ranganath, and Perry M. 
+Nicassio. “Sleep Loss Exacerbates Fatigue, Depression, and Pain in Rheumatoid Arthritis.” Sleep 35, no. 4 (2012): 
+537–43. https://doi.org/10.5665/sleep.1742.
+
+--- PDF page 34 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   34
+Jaehne, Andreas, Barbara Loessl, Zsuzsanna Bárkai, Dieter Riemann, and Magdolna Hornyak. “Effects of Nicotine on Sleep 
+During Consumption, Withdrawal and Replacement Therapy.” Sleep Medicine Reviews 13, no. 5 (2009): 363–77. 
+https://doi.org/10.1016/j.smrv.2008.12.003.
+Kapur, Vishesh K., Dennis H. Auckley, Susmita Chowdhuri, David C. Kuhlmann, Reena Mehra, Kannan Ramar, and 
+Christopher G. Harrod. “Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea: An 
+American Academy of Sleep Medicine Clinical Practice Guideline.” Journal of Clinical Sleep Medicine 13, no. 3 
+(2017): 479–504. https://doi.org/10.5664/jcsm.6506.
+Kredlow, M. Alexandra, Michelle C. Capozzoli, Bridget A. Hearon, Amanda W. Calkins, and Michael W. Otto. “The Effects 
+of Physical Activity on Sleep: A Meta-Analytic Review.” Journal of Behavioral Medicine 38, no. 3 (2015): 427–49. 
+https://doi.org/10.1007/s10865-015-9617-6.
+Lange, Tanja, Boris Perras, Horst L. Fehm, and Jan Born. “Sleep Enhances the Human Antibody Response to Hepatitis A 
+Vaccination.” Psychosomatic Medicine 65, no. 5 (2003): 831–35. 
+https://doi.org/10.1097/01.PSY.0000091382.61178.F1.
+Lloyd-Jones, Donald M., Norrina B. Allen, Cheryl A.M. Anderson, Terrie Black, LaPrincess C. Brewer, Randi E. Foraker, 
+Michael A. Grandner, et al. “Life’s Essential 8: Updating and Enhancing the American Heart Association’s Construct 
+of Cardiovascular Health: A Presidential Advisory from the American Heart Association.” Circulation 146, no. 5 
+(2022): e18–e43. https://doi.org/10.1161/CIR.0000000000001078.
+Moldofsky, Harvey, Philip Scarisbrick, Robert England, and Hugh Smythe. “Musculoskeletal Symptoms and Non-REM 
+Sleep Disturbance in Patients with ‘Fibrositis Syndrome’ and Healthy Subjects.” Psychosomatic Medicine 37, no. 4 
+(1975): 341–51. https://doi.org/10.1097/00006842-197507000-00008.
+National Heart, Lung, and Blood Institute. “How Sleep Works: How Much Sleep Is Enough?” National Institutes of Health. 
+Accessed November 12, 2026. https://www.nhlbi.nih.gov/health/sleep/how-much-sleep.
+National Heart, Lung, and Blood Institute. “Sleep Apnea: What Is Sleep Apnea?” National Institutes of Health. Accessed 
+November 12, 2026. https://www.nhlbi.nih.gov/health/sleep-apnea.
+National Heart, Lung, and Blood Institute. “Sleep Deprivation and Deficiency.” National Institutes of Health. Accessed 
+November 12, 2026. https://www.nhlbi.nih.gov/health/sleep-deprivation.
+National Institute of Neurological Disorders and Stroke. “Brain Basics: Understanding Sleep.” National Institutes of 
+Health. Last reviewed February 25, 2025. https://www.ninds.nih.gov/health-information/public-education/brain-
+basics/brain-basics-understanding-sleep.
+Ohayon, Maurice, Emerson M. Wickwire, Max Hirshkowitz, Steven M. Albert, Alon Avidan, Frank J. Daly, Yves Dauvilliers, 
+et al. “National Sleep Foundation's Sleep Quality Recommendations: First Report.” Sleep Health 3, no. 1 (2017): 6–
+19. https://doi.org/10.1016/j.sleh.2016.11.006.
+Ohayon, Maurice M., Mary A. Carskadon, Christian Guilleminault, and Michael V. Vitiello. “Meta-Analysis of Quantitative 
+Sleep Parameters from Childhood to Old Age in Healthy Individuals: Developing Normative Sleep Values Across the 
+Human Lifespan.” Sleep 27, no. 7 (2004): 1255–73. https://doi.org/10.1093/sleep/27.7.1255.
+Paruthi, Shalini, Lee J. Brooks, Carolyn D’Ambrosio, Wendy A. Hall, Suresh Kotagal, Robin M. Lloyd, Beth A. Malow, et al. 
+“Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of 
+Sleep Medicine.” Journal of Clinical Sleep Medicine 12, no. 6 (2016): 785–86. https://doi.org/10.5664/jcsm.5866.
+Prather, Aric A., Denise Janicki-Deverts, Martica H. Hall, and Sheldon Cohen. “Behaviorally Assessed Sleep and 
+Susceptibility to the Common Cold.” Sleep 38, no. 9 (2015): 1353–59. https://doi.org/10.5665/sleep.4968.
+Prather, Aric A., Martica Hall, Jacqueline M. Fury, Diana C. Ross, Matthew F. Muldoon, Sheldon Cohen, and Anna L. 
+Marsland. “Sleep and Antibody Response to Hepatitis B Vaccination.” Sleep 35, no. 8 (2012): 1063–69. 
+https://doi.org/10.5665/sleep.1990.
+Qaseem, Amir, Devan Kansagara, Mary Ann Forciea, Molly Cooke, Thomas D. Denberg, and Clinical Guidelines Committee 
+of the American College of Physicians. “Management of Chronic Insomnia Disorder in Adults: A Clinical Practice 
+Guideline from the American College of Physicians.” Annals of Internal Medicine 165, no. 2 (2016): 125–33. 
+https://doi.org/10.7326/M15-2175.
+
+--- PDF page 35 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   35
+Rudwaleit, Martin, Anke Metter, Joachim Listing, Joachim Sieper, and Jürgen Braun. “Inflammatory Back Pain in 
+Ankylosing Spondylitis: A Reassessment of the Clinical History for Application as Classification and Diagnostic 
+Criteria.” Arthritis & Rheumatism 54, no. 2 (2006): 569–78. https://doi.org/10.1002/art.21619.
+Sateia, Michael J., Daniel J. Buysse, Andrew D. Krystal, David N. Neubauer, and Jonathan L. Heald. “Clinical Practice 
+Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: An American Academy of Sleep 
+Medicine Clinical Practice Guideline.” Journal of Clinical Sleep Medicine 13, no. 2 (2017): 307–49. 
+https://doi.org/10.5664/jcsm.6470.
+Spiegel, Karine, Amandine E. Rey, Anne Cheylus, Kieran Ayling, Christian Benedict, Tanja Lange, Aric A. Prather, Daniel J. 
+Taylor, Michael R. Irwin, and Eve Van Cauter. “A Meta-Analysis of the Associations Between Insufficient Sleep 
+Duration and Antibody Response to Vaccination.” Current Biology 33, no. 5 (2023): 998–1005.e2. 
+https://doi.org/10.1016/j.cub.2023.02.017.
+Spiegel, Karine, John F. Sheridan, and Eve Van Cauter. “Effect of Sleep Deprivation on Response to Immunization.” JAMA 
+288, no. 12 (2002): 1471–72. https://doi.org/10.1001/jama.288.12.1471-a.
+Stickgold, Robert. “Sleep-Dependent Memory Consolidation.” Nature 437, no. 7063 (2005): 1272–78. 
+https://doi.org/10.1038/nature04286.
+Stutz, Jan, Remo Eiholzer, and Christina M. Spengler. “Effects of Evening Exercise on Sleep in Healthy Participants: A 
+Systematic Review and Meta-Analysis.” Sports Medicine 49, no. 2 (2019): 269–87. https://doi.org/10.1007/s40279-
+018-1015-0.
+Van Cauter, Eve, Rachel Leproult, and Laurence Plat. “Age-Related Changes in Slow Wave Sleep and REM Sleep and 
+Relationship with Growth Hormone and Cortisol Levels in Healthy Men.” JAMA 284, no. 7 (2000): 861–68. 
+https://doi.org/10.1001/jama.284.7.861.
+Vgontzas, A. N., E. Zoumakis, E. O. Bixler, H.-M. Lin, H. Follett, A. Kales, and G. P. Chrousos. “Adverse Effects of Modest 
+Sleep Restriction on Sleepiness, Performance, and Inflammatory Cytokines.” Journal of Clinical Endocrinology & 
+Metabolism 89, no. 5 (2004): 2119–26. https://doi.org/10.1210/jc.2003-031562.
+Watson, Nathaniel F., M. Safwan Badr, Gregory Belenky, Donald L. Bliwise, Orfeu M. Buxton, Daniel Buysse, David F. 
+Dinges, et al. “Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American 
+Academy of Sleep Medicine and Sleep Research Society.” Sleep 38, no. 6 (2015): 843–44. 
+https://doi.org/10.5665/sleep.4716.
+Xie, Lulu, Hongyi Kang, Qiwu Xu, Michael J. Chen, Yonghong Liao, Meenakshisundaram Thiyagarajan, John O’Donnell, et 
+al. “Sleep Drives Metabolite Clearance from the Adult Brain.” Science 342, no. 6156 (2013): 373–77. 
+https://doi.org/10.1126/science.1241224.
+
+--- PDF page 36 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   36
+Appendix: Image Credits and Licenses
+All photographs are real photographs from Wikimedia Commons, used under the licenses shown. They were cropped 
+and resized for this paper, with no other changes. Each file can be found at commons.wikimedia.org/wiki/File: followed 
+by the file name. Public domain images include works of the U.S. federal government. License texts: CC BY and CC BY-SA 
+at creativecommons.org/licenses; CC0 at creativecommons.org/publicdomain/zero/1.0.
+Image Wikimedia Commons file Author / source License
+Alarm clock (schedule) Roman numerals on alarm clock (Unsplash).jpg Ales Krivec CC0
+Bright bedroom in morning light Warsaw Sunrise (Unsplash).jpg Sylwia Pietruszka CC0
+Caffeine-free drink (wind-down) Tea(byCarliJeen).jpg Carli Jean Miller CC0
+CPAP machine and mask CPAP Therapy Device.JPG DL5MDA Public domain
+Cup of coffee (caffeine) A small cup of coffee.JPG Julius Schorzman CC BY-SA 2.0
+Dark bedroom with closed blinds Messy bed and closed blinds (Unsplash).jpg Quin Stevenson CC0
+Glass of red wine (alcohol) 020260524 140002 Red wine in glass.jpg Auctor quaerendae CC BY-SA 4.0
+Older adults walking outdoors Nordic Walking - Groentenmarkt Gent 
+(5680813216).jpg
+FaceMePLS from The Hague, 
+The Netherlands
+CC BY 2.0
+Overnight sleep study 
+(polysomnography)
+Polysomnography model.jpg Clinique Somnomed CC BY-SA 4.0
+Phone use in bed Woman sitting in the bed in the morning, drinking 
+coffee and scrolling through her phone.jpg
+Shixart1985 CC BY 2.0
+Pillows on a bed Pillows on a hotel bed.jpg Amin CC BY-SA 4.0
+Polysomnogram: deep (N3) sleep Sleep EEG Stage 4.jpg MrSandman (English Wikipedia 
+user)
+Public domain
+Polysomnogram: N1 sleep Sleep EEG Stage 1.jpg MrSandman (English Wikipedia 
+user)
+Public domain
+Polysomnogram: N2 sleep Sleep EEG Stage 2.jpg MrSandman (English Wikipedia 
+user)
+Public domain
+Polysomnogram: REM sleep Sleep EEG REM.png MrSandman (English Wikipedia 
+user)
+Public domain
+Reading a printed book Woman sitting on her bed in a sweater while holding a 
+cup of coffee and reading a book. (50894735221).jpg
+Nenad Stojkovic CC BY 2.0
+Shower (warm shower before 
+bed)
+Hot & Cold (Unsplash).jpg Neil Cooper CC0
+Sleeping baby Sleeping baby (Unsplash).jpg Dakota Corbin CC0
+Woman sleeping (sleep as repair) Platzkart (Unsplash).jpg Kalegin Michail CC0
+Other images: the cover photo collage, hypnogram, sleep-stage bar, pain–sleep cycle diagram and mind map were created for 
+RheumNotes© from the photographs above or drawn from published sleep science. The polysomnogram panel combines four 
+public domain screenshots. The Rheumy character is the property of RheumNotes©.
+License summary: CC BY 2.0: 3; CC BY-SA 2.0: 1; CC BY-SA 4.0: 3; CC0: 7; Public domain: 5 (19 photographs and screenshots in 
+total).
+
+--- PDF page 37 ---
+RHEUMNOTES©   Sleep / Restore Component White Paper
+Rest is medicine. Educational content only. Not a substitute for individualized medical advice.   37
+Disclaimer
+Educational content only. Talk to your doctor.
+The RheumNotes© Sleep/Restore Component, including this white paper, its tables, articles, illustrations, 
+videos, social media posts and in-app features, is provided for general educational purposes only. It is not 
+a substitute for individualized medical advice, diagnosis or treatment.
+Sleep needs and sleep problems differ from person to person. Talk with your doctor before changing the 
+dose or timing of any medicine, starting a sleep aid or supplement, or beginning a sleep restriction 
+program, and if you have ongoing trouble sleeping, loud snoring, pauses in breathing, restless legs or 
+daytime sleepiness.
+Do not drive or operate machinery when drowsy. If you have thoughts of harming yourself, call 911 or 
+call or text 988 right away.
+References to Rheumy, the RheumNotes© chatbot, describe an educational role. Rheumy does not 
+provide individual medical care.
+About the author
+Frederick T. Murphy, DO, FACP, FACR, is a rheumatologist in Pittsburgh, Pennsylvania, and the creator of 
+RheumNotes©, a patient-education platform for people living with arthritis and rheumatic disease and 
+the families and caregivers who support them.
+RHEUMNOTES©
+Rest is medicine.
+© 2026 Frederick T. Murphy. All rights reserved.

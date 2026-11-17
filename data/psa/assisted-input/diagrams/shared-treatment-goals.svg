@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="840" viewBox="0 0 1100 840">
+<title>Choose goals together</title><desc>Shared treatment goals: describe what matters to you, review symptoms and other health needs, and agree how to check benefits, side effects and progress.</desc>
+<rect width="1100" height="840" fill="#f4f8fa"/>
+<rect x="0" y="0" width="1100" height="12" rx="0" fill="#087f83"/>
+<text x="50" y="42" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#17364a">Choose goals together</text>
+<text x="50" y="108" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#526777">Connect the treatment discussion to your own life</text>
+<rect x="50" y="180" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="180" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="202" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">What matters to you?</text>
+<text x="85" y="263" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Less pain • Easier daily tasks • Protecting your joints</text>
+<rect x="50" y="360" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="360" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="382" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">What shapes the plan?</text>
+<text x="85" y="443" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Active symptoms • Other health needs • Past treatments</text>
+<rect x="50" y="540" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="540" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="562" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">How will you review it?</text>
+<text x="85" y="623" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Benefits • Side effects • Progress at follow-up visits</text>
+<text x="50" y="764" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#315669">Ask which parts of your disease the plan addresses.</text>
+</svg>
