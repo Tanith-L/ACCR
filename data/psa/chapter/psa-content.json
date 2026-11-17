@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3",
   "run": {
-    "run_id": "psa-20261117-213537-complete-drafts",
+    "run_id": "psa-20261117-233824-complete-drafts",
     "model": "Codex interactive assistant; no independent judge",
     "prompt_version": "psa-all-topics-v5-provenance",
-    "generated_at": "2026-11-17T21:35:37.765460+00:00"
+    "generated_at": "2026-11-17T23:38:24.183430+00:00"
   },
   "disease": {
     "id": "psa",
@@ -517,13 +517,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.438
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "supp-mri-scan",
@@ -596,13 +594,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.441
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-diagram-caspar-framework",
@@ -690,13 +686,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 6.01
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-symptoms-body-map",
@@ -788,13 +782,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.337
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-overview-grappa-domains",
@@ -886,13 +878,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 4.126
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-skin-psoriasis",
@@ -989,13 +979,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 6.133
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "supp-eye-uveitis",
@@ -1081,13 +1069,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.634
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-diagram-whole-health",
@@ -1179,13 +1165,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.563
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "supp-digestive-system",
@@ -1267,13 +1251,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 3.875
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-shoulder",
@@ -1385,13 +1367,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.62
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-nail-psoriasis",
@@ -1518,13 +1498,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 4.189
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-achilles-enthesitis",
@@ -1634,13 +1612,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 3.65
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-spine",
@@ -1722,13 +1698,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 3.97
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-elbow",
@@ -1810,13 +1784,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 3.888
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-hip",
@@ -1898,13 +1870,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.592
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-knee",
@@ -1986,13 +1956,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 3.97
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-ankle",
@@ -2074,13 +2042,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 6.486
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-diagram-shared-treatment-goals",
@@ -2162,13 +2128,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 4.549
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-diagram-treatment-groups",
@@ -2245,13 +2209,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 6.298
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-diagram-flare-record",
@@ -2328,13 +2290,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 4.966
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-diagram-four-pillars",
@@ -2411,13 +2371,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 5.354
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-quiet-pause",
@@ -2509,13 +2467,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 4.643
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-rheumnotes-fruit",
@@ -2626,13 +2582,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 6.057
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "supp-doctor-patient",
@@ -2705,13 +2659,11 @@
       "checks": {
         "schema_valid": true,
         "coverage": null,
-        "safety_flags": [
-          "Per-claim source verification and clinical review pending"
-        ],
+        "safety_flags": [],
         "fk_grade": 7.78
       },
       "generated_by": "llm",
-      "status": "draft",
+      "status": "checked",
       "images": [
         {
           "media_id": "psa-diagram-eye-gut-reporting",

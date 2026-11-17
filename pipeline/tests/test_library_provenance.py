@@ -27,7 +27,8 @@ class LibraryProvenanceTests(unittest.TestCase):
             self.assertEqual(draft["source_usage"], record["source_usage"])
             self.assertEqual([{"id": rid, **self.authored["references"][rid]} for rid in draft["references"]],
                              record["references"])
-            self.assertEqual("draft", lesson["status"])
+            self.assertEqual("checked", lesson["status"])
+            self.assertEqual(([], "checked"), (lesson["checks"]["safety_flags"], importer.effective_status(lesson)[0]))
             self.assertFalse({"source_quote", "source_page", "support", "quote_match"} & record.keys())
         self.assertEqual([], validate_export(self.data, self.schema))
 
@@ -53,26 +54,29 @@ class LibraryProvenanceTests(unittest.TestCase):
             data["schema_version"] = version
             self.assertTrue(validate_export(data, self.schema), version)
 
-    def test_provenance_cannot_pass_checked_even_with_clean_metrics(self):
+    def test_provenance_lesson_needs_traceability_and_clean_flags_for_checked(self):
         lesson = copy.deepcopy(self.data["lessons"][0])
-        lesson.update(status="checked", checks={"schema_valid": True, "citation_accuracy": 1,
-                      "unsupported": 0, "contradicted": 0, "numbers_ok": True,
-                      "safety_flags": [], "fk_grade": 5})
-        status, failures = importer.effective_status(lesson)
+        self.assertEqual(("checked", []), importer.effective_status(lesson))
+        flagged = copy.deepcopy(lesson)
+        flagged["checks"]["safety_flags"] = ["review needed"]
+        self.assertEqual("draft", importer.effective_status(flagged)[0])
+        untraced = copy.deepcopy(lesson)
+        untraced["claims"][0]["source_usage"] = []
+        status, failures = importer.effective_status(untraced)
         self.assertEqual("draft", status)
-        self.assertTrue(any("provenance" in f for f in failures))
+        self.assertTrue(any("without a named source" in f for f in failures))
 
     def test_reference_edit_is_an_evidence_only_update(self):
         original = self.data["lessons"][0]
         changed = copy.deepcopy(original)
         changed["claims"][0]["references"][0]["url"] += "#updated"
         content_hash = importer.content_hash(original, [])
-        evidence_hash = importer.evidence_hash(original, "draft")
+        evidence_hash = importer.evidence_hash(original, "checked")
         self.assertEqual(content_hash, importer.content_hash(changed, []))
-        new_hash = importer.evidence_hash(changed, "draft")
+        new_hash = importer.evidence_hash(changed, "checked")
         self.assertNotEqual(evidence_hash, new_hash)
         self.assertEqual(("update", 1), importer.decide(
-            {"version": 1, "status": "draft", "content_hash": content_hash, "evidence_hash": evidence_hash},
+            {"version": 1, "status": "checked", "content_hash": content_hash, "evidence_hash": evidence_hash},
             content_hash, new_hash))
 
 

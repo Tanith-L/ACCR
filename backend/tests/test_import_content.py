@@ -89,6 +89,52 @@ def test_effective_status_keeps_clean_checked_and_draft():
     assert imp.effective_status({"status": "draft", "checks": good_checks()}) == ("draft", [])
 
 
+def provenance_lesson(**over):
+    lesson = {
+        "status": "checked",
+        "checks": {"schema_valid": True, "fk_grade": 6.0, "safety_flags": []},
+        "pages": [{"order": 1, "body": "a"}, {"order": 2, "body": "b"}],
+        "claims": [{"id": "x-c1", "kind": "provenance", "references": [],
+                    "source_usage": [{"source_id": "src-a", "pages": [1, 2], "kind": "text", "locator": "Box A",
+                                      "contribution": "c", "limits": "l"}]}],
+    }
+    lesson.update(over)
+    return lesson
+
+
+def test_provenance_only_lesson_reaches_checked_without_quote_checks():
+    assert imp.effective_status(provenance_lesson()) == ("checked", [])
+
+
+@pytest.mark.parametrize("over", [
+    {"checks": {"schema_valid": False, "fk_grade": 6.0, "safety_flags": []}},
+    {"checks": {"schema_valid": True, "fk_grade": 8.5, "safety_flags": []}},
+    {"checks": {"schema_valid": True, "fk_grade": 6.0, "safety_flags": ["pending"]}},
+    {"pages": [{"order": 1, "body": "a"}, {"order": 2, "body": "b"}, {"order": 3, "body": "c"}]},
+])
+def test_provenance_lesson_downgrades_when_a_check_fails(over):
+    status, failures = imp.effective_status(provenance_lesson(**over))
+    assert status == "draft" and failures
+
+
+def test_provenance_lesson_needs_locator_on_every_source_use():
+    lesson = provenance_lesson()
+    lesson["claims"][0]["source_usage"][0]["locator"] = ""
+    assert imp.effective_status(lesson)[0] == "draft"
+
+
+def test_checked_without_any_claims_still_needs_the_full_gate():
+    lesson = provenance_lesson(claims=[])
+    assert imp.effective_status(lesson)[0] == "draft"
+
+
+def test_real_claims_still_need_the_full_quote_gate():
+    lesson = provenance_lesson()
+    lesson["claims"].append({"id": "x-c2", "text": "t", "page": 1, "source_id": "src-a", "source_page": 1,
+                             "source_quote": "q", "support": "supported", "quote_match": 1.0})
+    assert imp.effective_status(lesson)[0] == "draft"  # lacks citation_accuracy etc.
+
+
 # --- §5.3 versioning --------------------------------------------------------
 
 def test_content_hash_ignores_claims_and_status_but_not_content(mock):

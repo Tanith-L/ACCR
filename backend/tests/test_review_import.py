@@ -94,9 +94,8 @@ def test_sheet_has_checked_lessons_only_with_their_evidence(db, imported):
     assert first["version"] == 1 and first["title"] == "How doctors diagnose PsA"
     assert "[page 1] There is no single test for PsA." in first["page_text"]
     assert "[page 2]" in first["page_text"]
-    assert first["claims_with_quotes"].count("\n") == 3  # four claims
-    assert "There is no single test that confirms psoriatic arthritis." in first["claims_with_quotes"]
-    assert "Mock PsA One-Pager (test fixture) p.1" in first["claims_with_quotes"]
+    assert first["sources"] == ""  # mock lessons carry per-sentence claims, not provenance
+    assert "claims_with_quotes" not in first
     assert first["fk_grade"] == 4.6 and first["flags"] == ""
     assert all(first[s] == "" for s in (*rev.SCORES, "decision", "comment"))
 
@@ -115,7 +114,7 @@ def test_sheet_file_round_trips_and_is_not_overwritten(db, imported, tmp_path):
     with path.open(encoding="utf-8-sig", newline="") as f:
         back = list(csv.DictReader(f))
     assert list(back[0].keys()) == rev.SHEET_COLUMNS
-    assert back[0]["page_text"] == rows[0]["page_text"] and back[0]["claims_with_quotes"] == rows[0]["claims_with_quotes"]
+    assert back[0]["page_text"] == rows[0]["page_text"] and back[0]["sources"] == rows[0]["sources"]
     scored, blank = rev.read_scores(path)  # an unfilled sheet imports as "nothing scored"
     assert scored == [] and "zzt-dx-01" in blank
     with pytest.raises(rev.SheetRejected, match="already exists"):
@@ -221,3 +220,21 @@ def test_cli_argument_and_settings_errors(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(rev, "load_settings", lambda start: {})
     assert rev.main([str(sheet(tmp_path, "a,1,5,5,5,5,5,,")), "--reviewer", "t"]) == 2
     assert "SUPABASE_DB_URL" in capsys.readouterr().err
+
+
+def test_format_sources_lists_each_source_with_where_contribution_and_limits():
+    provenance = [{"kind": "provenance",
+                   "references": [{"id": "r", "title": "NIAMS: Diagnosis", "url": "https://example.org/niams"}],
+                   "source_usage": [
+                       {"source_id": "src-a", "pages": [1, 2], "kind": "text", "locator": "Box A",
+                        "contribution": "Explains CASPAR.", "limits": "Rows obscured."},
+                       {"source_id": "src-b", "pages": [2], "kind": "image", "locator": "Right branch",
+                        "contribution": "Feature groups.", "limits": "Typo in heading."}]}]
+    text = rev.format_sources(provenance, {"src-a": "PsA One-Pager"})
+    assert text.startswith("Sources used\n1. PsA One-Pager (lesson p. 1, 2)\n   Where: Box A")
+    assert "2. src-b (lesson p. 2)" in text and "Limits: Typo in heading." in text
+    assert text.endswith("References\n- NIAMS: Diagnosis - https://example.org/niams")
+
+
+def test_format_sources_is_empty_without_provenance():
+    assert rev.format_sources([], {}) == "" and rev.format_sources(None, {}) == ""
