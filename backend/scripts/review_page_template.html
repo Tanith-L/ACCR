@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RheumNotes PsA Review</title>
+<style>
+  :root {
+    --bg: #f6f7f5; --surface: #ffffff; --ink: #1d2521; --muted: #5d6a63; --line: #dfe4e0;
+    --accent: #1f6f4a; --accent-ink: #ffffff; --accent-soft: #e4f1ea;
+    --warn: #8a5a00; --warn-soft: #fbf0d9; --bad: #9b2c2c; --bad-soft: #f8e3e3; --ok-soft: #e4f1ea;
+    --shadow: 0 1px 2px rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151a17; --surface: #1d2420; --ink: #e8eeea; --muted: #9aa8a0; --line: #303b35;
+      --accent: #4cb985; --accent-ink: #0b1a12; --accent-soft: #1f3a2c;
+      --warn: #e6b955; --warn-soft: #3a2f14; --bad: #f0a0a0; --bad-soft: #3d2222; --ok-soft: #1f3a2c;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  button, input, textarea, select { font: inherit; color: inherit; }
+  .topbar { position: sticky; top: 0; z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line);
+            display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; padding: 10px 16px; }
+  .topbar h1 { font-size: 17px; margin: 0; }
+  .topbar .grow { flex: 1 1 160px; }
+  .progress { min-width: 180px; }
+  .progress .bar { height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; margin-top: 4px; }
+  .progress .bar span { display: block; height: 100%; background: var(--accent); width: 0; }
+  .progress small { color: var(--muted); }
+  label.field { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); }
+  label.field input { padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); min-width: 170px; }
+  .btn { border: 1px solid var(--line); background: var(--surface); padding: 7px 14px; border-radius: 8px; cursor: pointer; }
+  .btn:hover { border-color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+  .btn:disabled { opacity: .5; cursor: not-allowed; }
+  .btn:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 20px; padding: 16px; max-width: 1500px; margin: 0 auto; }
+  nav.lessons { position: sticky; top: 76px; align-self: start; max-height: calc(100vh - 92px); overflow: auto;
+                background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 8px; box-shadow: var(--shadow); }
+  nav.lessons button { display: flex; gap: 10px; align-items: flex-start; width: 100%; text-align: left; border: 0; background: none;
+                       padding: 8px 10px; border-radius: 8px; cursor: pointer; }
+  nav.lessons button:hover { background: var(--bg); }
+  nav.lessons button[aria-current="true"] { background: var(--accent-soft); }
+  nav.lessons .dot { flex: none; width: 12px; height: 12px; border-radius: 50%; margin-top: 6px; border: 2px solid var(--muted); }
+  nav.lessons .dot.partial { border-color: var(--warn); background: var(--warn-soft); }
+  nav.lessons .dot.done { border-color: var(--accent); background: var(--accent); }
+  nav.lessons .t { font-size: 14px; line-height: 1.35; }
+  nav.lessons .i { font-size: 12px; color: var(--muted); }
+  .picker { display: none; }
+
+  .work { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 20px; align-items: start; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 16px; box-shadow: var(--shadow); }
+  .card h2 { font-size: 16px; margin: 0 0 10px; }
+  .lesson-head h2 { font-size: 22px; margin: 0 0 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font-size: 13px; padding: 2px 10px; border-radius: 99px; background: var(--bg); border: 1px solid var(--line); color: var(--muted); }
+  .chip.ok { background: var(--ok-soft); color: var(--accent); border-color: transparent; }
+  .chip.bad { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+  .page { border-left: 3px solid var(--accent-soft); padding-left: 14px; margin: 0 0 14px; }
+  .page .n { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  .page p { margin: 4px 0 0; white-space: pre-wrap; }
+  figure { margin: 0 0 18px; }
+  figure img { display: block; max-width: 100%; max-height: 420px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); }
+  figcaption { font-size: 14px; margin-top: 6px; }
+  figcaption .credit { color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+  .scene { margin: 0 0 12px; }
+  .scene h3 { font-size: 14px; margin: 0 0 2px; }
+  .scene ul { margin: 0; padding-left: 20px; }
+  .src { font-size: 12px; color: var(--muted); }
+  .source { padding: 10px 0; border-top: 1px solid var(--line); font-size: 14px; }
+  .source:first-of-type { border-top: 0; }
+  .source dl { margin: 4px 0 0; display: grid; grid-template-columns: 100px 1fr; gap: 2px 10px; }
+  .source dt { color: var(--muted); }
+  .source dd { margin: 0; }
+  details summary { cursor: pointer; font-weight: 600; }
+  details > summary { margin: -4px 0 4px; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  .empty { color: var(--muted); font-style: italic; }
+
+  .score { position: sticky; top: 76px; }
+  .score fieldset { border: 0; padding: 0; margin: 0 0 14px; }
+  .score legend { font-weight: 600; padding: 0; margin-bottom: 4px; }
+  .rate { display: flex; gap: 6px; }
+  .rate input { position: absolute; opacity: 0; pointer-events: none; }
+  .rate label { flex: 1; text-align: center; padding: 6px 0; border: 1px solid var(--line); border-radius: 8px; cursor: pointer; background: var(--bg); }
+  .rate label:hover { border-color: var(--accent); }
+  .rate input:checked + label { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+  .rate input:focus-visible + label { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .anchors { font-size: 12px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+  .score textarea { width: 100%; min-height: 96px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); resize: vertical; }
+  .verdict { padding: 8px 12px; border-radius: 8px; font-size: 14px; margin: 4px 0 12px; }
+  .verdict.ok { background: var(--ok-soft); color: var(--accent); }
+  .verdict.revise { background: var(--warn-soft); color: var(--warn); }
+  .verdict.idle { background: var(--bg); color: var(--muted); }
+  .nav-row { display: flex; gap: 8px; justify-content: space-between; margin-top: 10px; }
+  .clear { border: 0; background: none; color: var(--muted); text-decoration: underline; cursor: pointer; padding: 0; font-size: 13px; }
+  .notice { padding: 10px 14px; border-radius: 8px; margin: 0 16px 0; background: var(--warn-soft); color: var(--warn); max-width: 1468px; }
+  .intro { max-width: 1500px; margin: 12px auto 0; padding: 0 16px; }
+  .intro details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 18px; }
+  .intro ul { margin: 6px 0 0; padding-left: 20px; }
+  .toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 8px 16px; border-radius: 8px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .toast.show { opacity: 1; }
+
+  @media (max-width: 1150px) { .work { grid-template-columns: minmax(0, 1fr); } .score { position: static; } }
+  @media (max-width: 820px) {
+    .layout { grid-template-columns: minmax(0, 1fr); padding: 12px 16px; }
+    nav.lessons { display: none; }
+    .picker { display: block; width: 100%; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+    .source dl { grid-template-columns: 1fr; }
+  }
+  @media print { .topbar, nav.lessons, .score .nav-row { display: none; } .layout { display: block; } .work { display: block; } .score { position: static; } }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <h1>RheumNotes PsA: lesson review</h1>
+  <div class="progress grow"><small id="progress-text"></small><div class="bar"><span id="progress-bar"></span></div></div>
+  <label class="field">Reviewer <input id="reviewer" type="text" placeholder="Your name" autocomplete="name"></label>
+  <button class="btn" id="load-btn" type="button">Load scores…</button>
+  <input id="load-file" type="file" accept=".csv,text/csv" hidden>
+  <button class="btn primary" id="download-btn" type="button">Download scores (CSV)</button>
+</header>
+
+<div class="intro">
+  <details open id="intro">
+    <summary>How this works</summary>
+    <ul>
+      <li>Choose a lesson on the left. Read the lesson text, images, video script and sources, then score the five criteria from 1 to 5 and add a comment.</li>
+      <li>Your scores save automatically in this browser. When you are done (or to hand over your progress), click <strong>Download scores (CSV)</strong> and send the file back.</li>
+      <li>A lesson passes when Accuracy and Safety are both 5 and the other three are at least 4 (and the reading grade is 8 or lower). The pass or revise result is worked out when the file is imported, so the note beside each lesson is only a preview.</li>
+      <li>You can leave a lesson unscored and come back to it. Please give a lesson either all five scores or none.</li>
+      <li>This is an unreviewed draft for expert review. Images load from the internet; the text works without a connection.</li>
+    </ul>
+  </details>
+</div>
+<div id="warn" class="notice" hidden></div>
+
+<div class="layout">
+  <nav class="lessons" id="nav" aria-label="Lessons"></nav>
+  <main>
+    <select class="picker" id="picker" aria-label="Choose a lesson"></select>
+    <div class="work">
+      <div id="content"></div>
+      <aside class="score card" id="score" aria-label="Scores"></aside>
+    </div>
+  </main>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  "use strict";
+  var DATA = JSON.parse(document.getElementById("data").textContent);
+  var LESSONS = DATA.lessons;
+  var CRITERIA = [
+    { key: "accuracy", label: "Accuracy", low: "Medical meaning wrong", mid: "Minor imprecision", high: "Fully correct and faithful to the source" },
+    { key: "completeness", label: "Completeness", low: "Key point missing", mid: "Minor gap", high: "Nothing important missing" },
+    { key: "readability", label: "Readability", low: "Confusing", mid: "Understandable with effort", high: "Clear and natural for a patient" },
+    { key: "safety", label: "Safety", low: "Gives advice or implies a diagnosis", mid: "Borderline wording", high: "Education only; points to the care team where needed" },
+    { key: "terminology", label: "Terminology", low: "Terms undefined or inconsistent", mid: "Mostly defined", high: "Defined on first use and consistent" }
+  ];
+  var STORE_KEY = "rheumnotes-review:" + DATA.build;
+  var state = { reviewer: "", scores: {}, current: 0 };
+
+  function load() {
+    try { var raw = localStorage.getItem(STORE_KEY); if (raw) { var s = JSON.parse(raw); state.reviewer = s.reviewer || ""; state.scores = s.scores || {}; state.current = Math.min(s.current || 0, LESSONS.length - 1); } } catch (e) {}
+  }
+  var storageWarned = false;
+  function save() {
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); }
+    catch (e) { if (!storageWarned) { storageWarned = true; showWarn("This browser is not saving your progress automatically. Please use Download scores (CSV) before closing the page."); } }
+  }
+  function showWarn(msg) { var w = document.getElementById("warn"); w.textContent = msg; w.hidden = false; }
+
+  function h(tag, props) {
+    var el = document.createElement(tag);
+    for (var k in (props || {})) {
+      if (k === "class") el.className = props[k]; else if (k === "text") el.textContent = props[k];
+      else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), props[k]); else el.setAttribute(k, props[k]);
+    }
+    for (var i = 2; i < arguments.length; i++) { var c = arguments[i]; if (c == null || c === false) continue; el.appendChild(typeof c === "string" ? document.createTextNode(c) : c); }
+    return el;
+  }
+  function section(title, body) { return h("section", { class: "card" }, h("h2", { text: title }), body); }
+  function entry(id) { return state.scores[id] || {}; }
+  function filled(id) { var e = entry(id); return CRITERIA.filter(function (c) { return e[c.key]; }).length; }
+  function status(id) { var n = filled(id); return n === CRITERIA.length ? "done" : n > 0 ? "partial" : "none"; }
+  function passes(lesson) {
+    var e = entry(lesson.id);
+    if (filled(lesson.id) < CRITERIA.length) return null;
+    return e.accuracy === 5 && e.safety === 5 && e.completeness >= 4 && e.readability >= 4 && e.terminology >= 4 && (lesson.fk_grade === null || lesson.fk_grade <= 8);
+  }
+
+  function renderNav() {
+    var nav = document.getElementById("nav"), picker = document.getElementById("picker");
+    nav.textContent = ""; picker.textContent = "";
+    LESSONS.forEach(function (l, i) {
+      var st = status(l.id);
+      nav.appendChild(h("button", { type: "button", "aria-current": String(i === state.current), onclick: function () { go(i); } },
+        h("span", { class: "dot " + st, title: st === "done" ? "Scored" : st === "partial" ? "Partly scored" : "Not scored" }),
+        h("span", {}, h("div", { class: "t", text: l.title }), h("div", { class: "i", text: l.id }))));
+      var o = h("option", { value: String(i), text: (st === "done" ? "✓ " : st === "partial" ? "… " : "") + l.title });
+      if (i === state.current) o.selected = true;
+      picker.appendChild(o);
+    });
+    var done = LESSONS.filter(function (l) { return status(l.id) === "done"; }).length;
+    document.getElementById("progress-text").textContent = done + " of " + LESSONS.length + " lessons scored";
+    document.getElementById("progress-bar").style.width = (100 * done / LESSONS.length) + "%";
+  }
+
+  function renderContent() {
+    var l = LESSONS[state.current], box = document.getElementById("content");
+    box.textContent = "";
+    var chips = h("div", { class: "chips" }, h("span", { class: "chip", text: l.id + " · version " + l.version }));
+    if (l.fk_grade !== null) chips.appendChild(h("span", { class: "chip " + (l.fk_grade <= 8 ? "ok" : "bad"), text: "Reading grade " + l.fk_grade }));
+    chips.appendChild(h("span", { class: "chip " + (l.flags.length ? "bad" : "ok"), text: l.flags.length ? "Flags: " + l.flags.join("; ") : "No safety flags" }));
+    box.appendChild(h("div", { class: "card lesson-head" }, h("h2", { text: l.title }), chips));
+
+    var pages = h("div");
+    l.pages.forEach(function (p) { pages.appendChild(h("div", { class: "page" }, h("div", { class: "n", text: "Page " + p.n }), h("p", { text: p.body }))); });
+    box.appendChild(section("Lesson text", pages));
+
+    var imgs = h("div");
+    if (!l.images.length) imgs.appendChild(h("p", { class: "empty", text: "No images on this lesson." }));
+    l.images.forEach(function (im) {
+      var img = h("img", { src: im.url, alt: im.alt, loading: "lazy" });
+      img.addEventListener("error", function () { img.replaceWith(h("p", { class: "empty", text: "(Image could not be loaded. Check your connection.)" })); });
+      imgs.appendChild(h("figure", {}, img, h("figcaption", {}, h("div", { text: "Page " + im.page + ": " + im.alt }), h("div", { class: "credit", text: "Credit: " + im.credit }))));
+    });
+    box.appendChild(section("Images (" + l.images.length + ")", imgs));
+
+    var vid = h("div");
+    if (!l.video.length) vid.appendChild(h("p", { class: "empty", text: "No video for this lesson." }));
+    l.video.forEach(function (s, i) {
+      var ul = h("ul");
+      s.lines.forEach(function (ln) { ul.appendChild(h("li", {}, ln.text + " ", h("span", { class: "src", text: "[" + ln.source + "]" }))); });
+      vid.appendChild(h("div", { class: "scene" }, h("h3", { text: "Scene " + (i + 1) + ": " + s.name }), ul));
+    });
+    box.appendChild(section("Video script", vid));
+
+    var src = h("div");
+    if (!l.sources.length && !l.references.length) src.appendChild(h("p", { class: "empty", text: "No sources recorded." }));
+    l.sources.forEach(function (s) {
+      var dl = h("dl");
+      [["Where", s.where], ["Contributed", s.contributed], ["Limits", s.limits]].forEach(function (r) { if (r[1]) { dl.appendChild(h("dt", { text: r[0] })); dl.appendChild(h("dd", { text: r[1] })); } });
+      src.appendChild(h("div", { class: "source" }, h("strong", { text: s.title }), " ", h("span", { class: "src", text: s.pages ? "(lesson p. " + s.pages + ")" : "" }), dl));
+    });
+    if (l.references.length) {
+      var ul2 = h("ul");
+      l.references.forEach(function (r) { ul2.appendChild(h("li", {}, /^https?:\/\//.test(r.url) ? h("a", { href: r.url, target: "_blank", rel: "noopener noreferrer", text: r.title }) : r.title)); });
+      src.appendChild(h("div", { class: "source" }, h("strong", { text: "References" }), ul2));
+    }
+    box.appendChild(h("section", { class: "card" }, h("details", { open: "" }, h("summary", { text: "Sources" }), src)));
+  }
+
+  function renderScore() {
+    var l = LESSONS[state.current], e = entry(l.id), box = document.getElementById("score");
+    box.textContent = "";
+    box.appendChild(h("h2", { text: "Your review" }));
+    CRITERIA.forEach(function (c) {
+      var rate = h("div", { class: "rate" });
+      for (var v = 1; v <= 5; v++) {
+        (function (v) {
+          var id = "r-" + c.key + "-" + v;
+          var inp = h("input", { type: "radio", name: "score-" + c.key, id: id, value: String(v) });
+          if (e[c.key] === v) inp.checked = true;
+          inp.addEventListener("change", function () { setScore(l.id, c.key, v); });
+          rate.appendChild(inp); rate.appendChild(h("label", { for: id, text: String(v) }));
+        })(v);
+      }
+      box.appendChild(h("fieldset", {}, h("legend", { text: c.label }), rate,
+        h("div", { class: "anchors", text: "1 = " + c.low + " · 3 = " + c.mid + " · 5 = " + c.high })));
+    });
+    var verdict = h("div", { class: "verdict idle", id: "verdict" });
+    box.appendChild(verdict);
+    var comment = h("textarea", { id: "comment", placeholder: "What should change? (optional, but please explain any score below 5)" });
+    comment.value = e.comment || "";
+    comment.addEventListener("input", function () { setComment(l.id, comment.value); });
+    box.appendChild(h("label", { for: "comment", text: "Comment", class: "field" }));
+    box.appendChild(comment);
+    box.appendChild(h("div", { class: "nav-row" },
+      h("button", { class: "btn", type: "button", disabled: state.current === 0 ? "" : null, onclick: function () { go(state.current - 1); }, text: "← Previous" }),
+      h("button", { class: "btn primary", type: "button", disabled: state.current === LESSONS.length - 1 ? "" : null, onclick: function () { go(state.current + 1); }, text: "Next →" })));
+    box.appendChild(h("p", {}, h("button", { class: "clear", type: "button", onclick: function () { clearLesson(l.id); }, text: "Clear this lesson's scores" })));
+    updateVerdict();
+  }
+
+  function updateVerdict() {
+    var l = LESSONS[state.current], v = document.getElementById("verdict");
+    if (!v) return;
+    var p = passes(l), n = filled(l.id);
+    if (p === null) { v.className = "verdict idle"; v.textContent = n ? "Score all five criteria to see the pass preview." : "Not scored yet."; }
+    else if (p) { v.className = "verdict ok"; v.textContent = "Preview: meets the pass rule (ready to publish after import)."; }
+    else { v.className = "verdict revise"; v.textContent = "Preview: below the pass rule, so it goes back for revision. Please say why in the comment."; }
+  }
+
+  function setScore(id, key, v) { state.scores[id] = state.scores[id] || {}; state.scores[id][key] = v; save(); renderNav(); updateVerdict(); }
+  function setComment(id, text) { state.scores[id] = state.scores[id] || {}; state.scores[id].comment = text; save(); }
+  function clearLesson(id) { if (!window.confirm("Clear all scores and the comment for this lesson?")) return; delete state.scores[id]; save(); render(); }
+  function go(i) { if (i < 0 || i >= LESSONS.length) return; state.current = i; save(); render(); window.scrollTo({ top: 0 }); }
+  function render() { renderNav(); renderContent(); renderScore(); }
+
+  function toast(msg) { var t = document.getElementById("toast"); t.textContent = msg; t.classList.add("show"); setTimeout(function () { t.classList.remove("show"); }, 3200); }
+
+  // --- CSV in and out (same columns review_import.py reads) ---
+  function csvCell(v) { v = v == null ? "" : String(v); return /[",\r\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+  function parseCsv(text) {
+    if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+    var rows = [], row = [], cell = "", q = false;
+    for (var i = 0; i < text.length; i++) {
+      var ch = text[i];
+      if (q) { if (ch === '"') { if (text[i + 1] === '"') { cell += '"'; i++; } else q = false; } else cell += ch; }
+      else if (ch === '"') q = true;
+      else if (ch === ",") { row.push(cell); cell = ""; }
+      else if (ch === "\n" || ch === "\r") { if (ch === "\r" && text[i + 1] === "\n") i++; row.push(cell); rows.push(row); row = []; cell = ""; }
+      else cell += ch;
+    }
+    if (cell !== "" || row.length) { row.push(cell); rows.push(row); }
+    return rows;
+  }
+  function download() {
+    var partial = LESSONS.filter(function (l) { return status(l.id) === "partial"; });
+    if (partial.length) {
+      var first = LESSONS.indexOf(partial[0]);
+      toast("“" + partial[0].title + "” is only partly scored. Give it all five scores or clear it, then download.");
+      go(first); return;
+    }
+    var name = state.reviewer.trim();
+    var cols = ["lesson_id", "version", "title", "accuracy", "completeness", "readability", "safety", "terminology", "decision", "comment", "reviewer"];
+    var lines = [cols.join(",")];
+    LESSONS.forEach(function (l) {
+      var e = entry(l.id);
+      lines.push([l.id, l.version, l.title, e.accuracy, e.completeness, e.readability, e.safety, e.terminology, "", e.comment, name].map(csvCell).join(","));
+    });
+    var blob = new Blob(["﻿" + lines.join("\r\n") + "\r\n"], { type: "text/csv;charset=utf-8" });
+    var a = h("a", { href: URL.createObjectURL(blob), download: "rubric_b_scores_" + (name ? name.replace(/[^A-Za-z0-9]+/g, "-") + "_" : "") + DATA.generated + ".csv" });
+    document.body.appendChild(a); a.click(); a.remove();
+    var done = LESSONS.filter(function (l) { return status(l.id) === "done"; }).length;
+    toast("Downloaded " + done + " scored lesson" + (done === 1 ? "" : "s") + " (" + (LESSONS.length - done) + " not scored).");
+  }
+  function loadFile(file) {
+    var r = new FileReader();
+    r.onload = function () {
+      var rows = parseCsv(String(r.result)); if (!rows.length) { toast("That file is empty."); return; }
+      var head = rows[0].map(function (c) { return c.trim(); }), ix = function (n) { return head.indexOf(n); };
+      if (ix("lesson_id") < 0 || ix("accuracy") < 0) { toast("That does not look like a scores file from this page."); return; }
+      var ids = {}; LESSONS.forEach(function (l) { ids[l.id] = true; }); var n = 0;
+      rows.slice(1).forEach(function (row) {
+        var id = (row[ix("lesson_id")] || "").trim(); if (!ids[id]) return;
+        var e = {}; CRITERIA.forEach(function (c) { var v = parseInt(row[ix(c.key)], 10); if (v >= 1 && v <= 5) e[c.key] = v; });
+        var cm = ix("comment") >= 0 ? row[ix("comment")] : ""; if (cm) e.comment = cm;
+        if (Object.keys(e).length) { state.scores[id] = e; n++; }
+        if (ix("reviewer") >= 0 && row[ix("reviewer")] && !state.reviewer) state.reviewer = row[ix("reviewer")];
+      });
+      document.getElementById("reviewer").value = state.reviewer; save(); render(); toast("Loaded scores for " + n + " lesson" + (n === 1 ? "" : "s") + ".");
+    };
+    r.readAsText(file);
+  }
+
+  load();
+  document.getElementById("reviewer").value = state.reviewer;
+  document.getElementById("reviewer").addEventListener("input", function (ev) { state.reviewer = ev.target.value; save(); });
+  document.getElementById("picker").addEventListener("change", function (ev) { go(parseInt(ev.target.value, 10)); });
+  document.getElementById("download-btn").addEventListener("click", download);
+  document.getElementById("load-btn").addEventListener("click", function () { document.getElementById("load-file").click(); });
+  document.getElementById("load-file").addEventListener("change", function (ev) { if (ev.target.files[0]) loadFile(ev.target.files[0]); ev.target.value = ""; });
+  if (Object.keys(state.scores).length) document.getElementById("intro").removeAttribute("open");
+  render();
+})();
+</script>
+</body>
+</html>
