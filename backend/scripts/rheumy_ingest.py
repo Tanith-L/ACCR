@@ -23,12 +23,26 @@ import hashlib
 import json
 import os
 import re
+import ssl
 import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
 
 from contract import find_upwards
+
+
+def _ssl_context() -> ssl.SSLContext:
+    """Trusted certificates from certifi when installed: python.org builds of Python on
+    macOS don't use the system's certificates, so HTTPS fails without this."""
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
+SSL_CONTEXT = _ssl_context()
 
 LIBRARY = "data/psa/chapter/psa-content.json"
 EXTRACTED = "data/psa/extracted"
@@ -195,11 +209,11 @@ def load_settings(start: Path) -> dict:
 
 def post(url: str, key: str, body: dict, timeout: int = 150) -> dict:
     req = urllib.request.Request(url, data=json.dumps(body).encode("utf-8"), method="POST", headers={
-        "Content-Type": "application/json", "apikey": key,
+        "Content-Type": "application/json", "apikey": key, "User-Agent": "rheumnotes-scripts/1.0",
         **({"Authorization": f"Bearer {key}"} if key.count(".") == 2 else {}),  # legacy JWT keys
     })
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as resp:
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         detail = e.read().decode("utf-8", "replace")[:500]

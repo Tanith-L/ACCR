@@ -61,7 +61,11 @@ async function search(question: string): Promise<Passage[]> {
 async function complete(messages: unknown[]): Promise<string> {
   const res = await fetch(GROQ_URL, {
     method: "POST",
-    headers: { Authorization: `Bearer ${Deno.env.get("GROQ_API_KEY")}`, "Content-Type": "application/json" },
+    headers: {
+      Authorization: `Bearer ${Deno.env.get("GROQ_API_KEY")}`,
+      "Content-Type": "application/json",
+      "User-Agent": "rheumnotes-rheumy/1.0", // Groq's Cloudflare front end refuses some default client names
+    },
     body: JSON.stringify({
       model: MODEL,
       messages,

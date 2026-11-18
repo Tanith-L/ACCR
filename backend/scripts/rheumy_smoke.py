@@ -21,6 +21,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import ssl
 import sys
 import time
 import urllib.error
@@ -29,6 +30,19 @@ import urllib.request
 from pathlib import Path
 
 from contract import find_upwards
+
+
+def _ssl_context() -> ssl.SSLContext:
+    """Trusted certificates from certifi when installed: python.org builds of Python on
+    macOS don't use the system's certificates, so HTTPS fails without this."""
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
+SSL_CONTEXT = _ssl_context()
 
 HERE = Path(__file__).resolve().parent
 FUNCTIONS_ENV = HERE.parent / "supabase" / "functions" / ".env"
@@ -49,9 +63,10 @@ def settings() -> dict:
 
 def request(url: str, *, method: str = "GET", headers: dict | None = None, body: bytes | None = None,
             timeout: int = 60) -> tuple[int, dict, bytes]:
-    req = urllib.request.Request(url, data=body, method=method, headers=headers or {})
+    # A named client: Groq's Cloudflare front end refuses Python's default "Python-urllib" (error 1010).
+    req = urllib.request.Request(url, data=body, method=method, headers={"User-Agent": "rheumnotes-scripts/1.0", **(headers or {})})
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
+        with urllib.request.urlopen(req, timeout=timeout, context=SSL_CONTEXT) as r:
             return r.status, {k.lower(): v for k, v in r.headers.items()}, r.read()
     except urllib.error.HTTPError as e:
         return e.code, {k.lower(): v for k, v in e.headers.items()}, e.read()
