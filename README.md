@@ -20,6 +20,8 @@ Lesson status moves `draft → checked → reviewed → published` (`archived` f
 
 ## Setup
 
+> Setting up your `.env` files (which ones you need, where each value comes from, what never to commit): [docs/env-setup.md](docs/env-setup.md).
+
 **You need:** Python 3.11+, and a Supabase project. (Docker and the Supabase CLI are optional.)
 
 ```bash
