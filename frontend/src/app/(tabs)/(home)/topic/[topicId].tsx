@@ -88,11 +88,16 @@ export default function TopicScreen() {
               </View>
             ))}
 
-            {quiz && (
+            {quiz ? (
               <InfoCard title="Quiz is optional">
                 After the lessons, you can take a short quiz or skip it and return to Topic Home.
               </InfoCard>
-            )}
+            ) : quizzesEnabled ? (
+              // Quizzes are switched on but this topic doesn't have one yet: say so rather than show nothing.
+              <InfoCard title="Quiz coming soon">
+                The quiz for this topic isn’t ready yet. You can still read all the lessons.
+              </InfoCard>
+            ) : null}
           </Screen>
         );
       }}

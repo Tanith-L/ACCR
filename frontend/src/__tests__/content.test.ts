@@ -10,6 +10,7 @@ import { createHttpTransport } from '@/content/httpTransport';
 import { buildKnowledgeMap, KNOWLEDGE_MAP, type KnowledgeNodeSource } from '@/content/knowledgeMap';
 import { toTopicImageMap } from '@/content/mappers';
 import { LOCAL_MEDIA, LOCAL_VIDEOS, storageUrl } from '@/content/media';
+import { VOICE_CANDIDATES, voiceVersions } from '@/content/voiceDemo';
 import { createMockTransport } from '@/content/mockTransport';
 import { createPreviewTransport, EXPORTS } from '@/content/previewTransport';
 import { branchColors, colors } from '@/theme';
@@ -175,6 +176,17 @@ describe('body map, mind map and course helpers', () => {
     expect(lessons.every((l) => (l?.images.length ?? 0) > 0)).toBe(true);
     expect(Object.keys(LOCAL_MEDIA)).toEqual(expect.arrayContaining(paths));
     expect(Object.keys(LOCAL_MEDIA)).toContain('psa-symptoms-body-map.jpg');
+  });
+
+  it('offers the five candidate voices on the voice sample lessons, Ava (the lesson video) first, and no switch elsewhere', () => {
+    expect(VOICE_CANDIDATES.map((v) => v.id)).toEqual(['ava', 'jenny', 'emma', 'heart', 'bella']);
+    for (const id of ['psa-overview-01', 'psa-symptoms-02']) {
+      const versions = voiceVersions(id, LOCAL_VIDEOS[id].source);
+      expect(versions.map((v) => v.voice.id)).toEqual(['ava', 'jenny', 'emma', 'heart', 'bella']);
+      expect(versions[0].source).toBe(LOCAL_VIDEOS[id].source);
+      expect(new Set(versions.map((v) => v.source)).size).toBe(5);
+    }
+    expect(voiceVersions('psa-dx-01', LOCAL_VIDEOS['psa-dx-01'].source)).toEqual([]);
   });
 
   it('has a bundled video and cover for every lesson', async () => {

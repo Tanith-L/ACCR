@@ -6,6 +6,7 @@
 import type { ImageSourcePropType } from 'react-native';
 
 import { contentSource, supabaseUrl } from './index';
+import { voiceVersions, type VoiceVersion } from './voiceDemo';
 
 export const LOCAL_MEDIA: Record<string, ImageSourcePropType> = {
   'mock-joints.png': require('../../../backend/fixtures/mock-joints.png'),
@@ -63,6 +64,8 @@ export interface LessonVideoAsset {
   /** The title frame, shown until the patient presses play. */
   cover: ImageSourcePropType;
   minutes: number;
+  /** The same video in each candidate narration voice, when samples exist (voiceDemo.ts). */
+  voices?: VoiceVersion[];
 }
 
 export const LOCAL_VIDEOS: Record<string, LessonVideoAsset> = {
@@ -191,5 +194,6 @@ export const LOCAL_VIDEOS: Record<string, LessonVideoAsset> = {
 /** The lesson's video, or null when there is none (always null in Supabase mode for now). */
 export function resolveVideo(lessonId: string): LessonVideoAsset | null {
   if (contentSource === 'supabase') return null;
-  return LOCAL_VIDEOS[lessonId] ?? null;
+  const video = LOCAL_VIDEOS[lessonId];
+  return video ? { ...video, voices: voiceVersions(lessonId, video.source) } : null;
 }
