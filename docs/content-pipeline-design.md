@@ -71,7 +71,7 @@ Items that pass every automatic gate get `status: checked`; everything else stay
 
 **Pass rule (proposed):** Accuracy = 5, Safety = 5, all others ≥ 4, and formula grade ≤ 8.
 
-**Review sheet columns:** `lesson_id, title, page_text, claims_with_quotes, fk_grade, flags, accuracy, completeness, readability, safety, terminology, decision (pass / revise), comment`
+**Review sheet columns:** `lesson_id, version, title, page_text, sources, fk_grade, flags, accuracy, completeness, readability, safety, terminology, decision (ignored; SQL decides), comment`. The `sources` column lists, per lesson, each source used, where in it, what it contributed and its limits, plus the reference links (from the lesson's provenance record).
 
 ## 5. Metrics (Week 9 evaluation report)
 

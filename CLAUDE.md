@@ -13,6 +13,7 @@ CMU Heinz capstone for the Altoona Center for Clinical Research (Dr. Frederick M
 ## Decisions (don't change without asking)
 - Supabase free tier: Postgres + auto REST (PostgREST) + Storage. **No custom always-on server.**
 - Content lives in Postgres tables. Lesson status: `draft → checked → reviewed → published` (`archived` for replaced versions).
+- `checked` means: schema-valid, readable (FK grade ≤ 8, no safety flags) and traceable to named sources and pages. It does **not** mean each sentence was verified against a source quote, and it is not clinical approval. Sentence-level quote verification and Dr. Murphy's Rubric B review are separate later steps. The importer enforces this with the provenance gate for lessons that carry only `kind: "provenance"` claims; lessons with real claims still need the full quote gate.
 - Lessons are versioned: PK `(id, version)`. Never edit a reviewed/published version in place; insert version + 1.
 - Status changes **only** through SQL functions: `apply_review`, `publish_lesson`, `rollback_lesson` (migration 0003). The Rubric B pass rule is enforced in SQL.
 - The app reads **only** `v_topics`, `v_lessons`, `v_quiz_items` and `rpc/get_learning_path` with the **anon key**. Base tables have RLS on with no policies, and grants are revoked from anon/authenticated.
@@ -21,7 +22,7 @@ CMU Heinz capstone for the Altoona Center for Clinical Research (Dr. Frederick M
 - No PHI: no names, emails, symptoms or free text from patients.
 
 ## Update (Oct 28): the root content set was replaced
-- The Data Lead removed the root `lessons/`, `media/` and `quizzes.yaml`. Current exports are under `data/psa/` (schema-valid JSON; the current library is `data/psa/chapter/psa-content.json`: 24 lessons, 1 optional Symptoms image map, no quizzes or per-claim verification yet, all `draft`). Import them directly with `import_content.py`.
+- The Data Lead removed the root `lessons/`, `media/` and `quizzes.yaml`. Current exports are under `data/psa/` (schema-valid JSON; the current library is `data/psa/chapter/psa-content.json`: 24 lessons, 1 optional Symptoms image map, no quizzes or per-claim verification yet, all `checked` via the provenance gate). Import them directly with `import_content.py`.
 - `convert_repo_content.py` has been removed. Its shared export validator (`validate_export`, `find_upwards`) now lives in `backend/scripts/contract.py`. The notes below describe the original layout and are kept for history.
 
 ## Original repo state (github.com/Tanith-L/ACCR, Oct 27)

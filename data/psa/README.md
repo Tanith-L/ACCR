@@ -70,7 +70,7 @@ The current outputs are consolidated under `chapter/`.
 
 ## Run and validate
 
-See [the pipeline guide](../../../docs/psa-lesson-pipeline.md) for dependency setup and API mode.
+See [the pipeline guide](../../docs/psa-lesson-pipeline.md) for dependency setup and API mode.
 
 ```powershell
 .venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/build_psa_library.py

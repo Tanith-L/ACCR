@@ -48,7 +48,7 @@ Three handoffs, and these are the **only** interfaces between the roles:
 
 ## 3. Decisions that must not change without asking Vanshika
 1. **Supabase free tier** (Postgres + auto REST + Storage). **No custom always-on server.**
-2. Content lives in Postgres. Lesson status: `draft → checked → reviewed → published` (`archived` = replaced version).
+2. Content lives in Postgres. Lesson status: `draft → checked → reviewed → published` (`archived` = replaced version). `checked` means: schema-valid, readable (FK grade ≤ 8, no safety flags) and traceable to named sources and pages. It does **not** mean each sentence was verified against a source quote, and it is not clinical approval. Sentence-level quote verification and Dr. Murphy's Rubric B review are separate later steps.
 3. Lessons are **versioned**: primary key `(id, version)`. A reviewed or published version is never edited in place; a change inserts `version + 1`.
 4. Status changes **only** through the SQL functions `apply_review`, `publish_lesson`, `rollback_lesson`. The Rubric B pass rule is enforced in SQL.
 5. The app reads **only** `v_topics`, `v_lessons`, `v_quiz_items` and `rpc/get_learning_path` with the **anon key**. Base tables have row-level security on with no policies, and anon has no grants.
@@ -166,7 +166,7 @@ Your pipeline ends at **one validated export JSON** (plus `review_sheet.csv` and
 **Check your export before sending it:**
 `python backend/scripts/import_content.py <your export>.json --dry-run --media-dir <images folder>` prints exactly what the backend would do and lists every problem.
 
-**Where your exports live:** the Data pipeline writes exports under `data/psa/` (for example `data/psa/chapter/psa-content.json`). The original root `lessons/`, `media/` and `quizzes.yaml` were replaced by this layout. Exports stay `draft` until clinical review, and re-importing an export updates the matching draft lessons in place.
+**Where your exports live:** the Data pipeline writes exports under `data/psa/` (for example `data/psa/chapter/psa-content.json`). The original root `lessons/`, `media/` and `quizzes.yaml` were replaced by this layout. Exports are `checked` (see above) until clinical review, and re-importing an export updates the matching `draft` or `checked` lessons in place.
 
 ### 7.3 Penelope (Frontend)
 | # | Deliverable | Done when |

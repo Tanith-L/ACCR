@@ -32,7 +32,7 @@ The project has three layers. Content moves one way: from source documents, thro
 
 Key rules that hold across all three layers:
 
-- **Only published content reaches patients.** Lesson status moves `draft → checked → reviewed → published` (`archived` for replaced versions).
+- **Only published content reaches patients.** Lesson status moves `draft → checked → reviewed → published` (`archived` for replaced versions). `checked` means: schema-valid, readable (FK grade ≤ 8, no safety flags) and traceable to named sources and pages. It does **not** mean each sentence was verified against a source quote, and it is not clinical approval. Sentence-level quote verification and Dr. Murphy's Rubric B review are separate later steps.
 - **No PHI.** The system stores no names, emails, symptoms or free text from patients. Progress and preferences stay on the device.
 - **No custom always-on server.** Supabase free tier only.
 - **The pipeline and backend meet at one contract:** `schema/content.schema.json` (JSON Schema 2020-12).
