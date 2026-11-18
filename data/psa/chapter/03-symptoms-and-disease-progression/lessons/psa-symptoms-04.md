@@ -25,7 +25,7 @@ Tell your care team about gut symptoms that keep happening. Note what changed, w
 
 ## Video script
 
-Video: [videos/psa-symptoms-04.mp4](../videos/psa-symptoms-04.mp4) (1.1 min) · captions: [videos/psa-symptoms-04.vtt](../videos/psa-symptoms-04.vtt)
+Video: [videos/psa-symptoms-04.mp4](../videos/psa-symptoms-04.mp4) (1.0 min) · captions: [videos/psa-symptoms-04.vtt](../videos/psa-symptoms-04.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

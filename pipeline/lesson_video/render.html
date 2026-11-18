@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <title>Lesson video renderer</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Patrick+Hand&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Patrick+Hand&family=Inter:wght@600&display=swap">
 <style>
   html,body{margin:0;background:#FCFCFA;overflow:hidden}
   svg{display:block;width:1280px;height:720px}
@@ -10,8 +10,12 @@
   <defs id="defs"><radialGradient id="vig" cx="50%" cy="45%" r="75%"><stop offset=".7" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".06"/></radialGradient></defs>
   <rect width="960" height="540" fill="#FCFCFA"/>
   <rect width="960" height="540" fill="url(#vig)"/>
-  <g id="board" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"></g>
+  <!-- The drawing is scaled down a little so the subtitle strip below never covers it. -->
+  <g transform="translate(80,0) scale(.8333)">
+    <g id="board" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"></g>
+  </g>
   <g id="hand" transform="translate(1200,700)"></g>
+  <g id="cap" visibility="hidden"><rect id="capBox" rx="10" fill="#1E1E1E" fill-opacity=".82"/><text id="capText" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-weight="600" font-size="26" text-anchor="middle"></text></g>
 </svg>
 <script src="kit.js"></script>
 <script src="scenes_ch1.js"></script>
@@ -19,15 +23,47 @@
 <script>
 /* Frame-by-frame renderer. The Node renderer calls RENDER.load(id, durations) and then
    RENDER.frame(t) for every frame time t (seconds from the start of the lesson). */
-const HAND=`<path d="M40,-70 L300,90 L250,170 L10,-20 Z" fill="#7FA7C9" stroke="${INK}" stroke-width="4" stroke-linejoin="round"/>
-<g transform="rotate(30)"><rect x="-9" y="-122" width="18" height="98" rx="5" fill="${GRN}" stroke="${INK}" stroke-width="3.5"/><path d="M-7,-26 L0,-2 L7,-26 Z" fill="${INK}"/><rect x="-10" y="-132" width="20" height="16" rx="4" fill="#173D28" stroke="${INK}" stroke-width="3"/></g>
-<ellipse cx="46" cy="-56" rx="40" ry="32" transform="rotate(35 46 -56)" fill="${F.skin}" stroke="${INK}" stroke-width="4"/>
-<ellipse cx="18" cy="-44" rx="15" ry="9" transform="rotate(30 18 -44)" fill="${F.skin}" stroke="${INK}" stroke-width="3.5"/>
-<ellipse cx="28" cy="-26" rx="15" ry="9" transform="rotate(20 28 -26)" fill="${F.skin}" stroke="${INK}" stroke-width="3.5"/>
-<ellipse cx="44" cy="-90" rx="10" ry="16" transform="rotate(-30 44 -90)" fill="${F.skin}" stroke="${INK}" stroke-width="3.5"/>`;
+// A slim pencil with its point at (0,0), leaning up and to the right, so it covers far
+// less of the board than a drawing hand and arm would.
+const HAND=`<g transform="rotate(35)" stroke="${INK}" stroke-width="2.5" stroke-linejoin="round">
+<path d="M0,0 L-8,-27 L-8,-124 L8,-124 L8,-27 Z" transform="translate(5,2)" fill="#000" fill-opacity=".1" stroke="none"/>
+<path d="M-3,-9 L-8,-27 L8,-27 L3,-9 Z" fill="#F1D3A5"/>
+<path d="M0,0 L-3,-9 L3,-9 Z" fill="${INK}" stroke-width="2"/>
+<rect x="-8" y="-100" width="16" height="73" fill="#F4C542"/>
+<line x1="0" y1="-96" x2="0" y2="-31" stroke="#C99A1E" stroke-width="2"/>
+<rect x="-8.5" y="-112" width="17" height="12" fill="#BFC5CB"/>
+<line x1="-8.5" y1="-106" x2="8.5" y2="-106" stroke-width="1.5"/>
+<rect x="-8" y="-126" width="16" height="15" rx="5" fill="#E89AA6"/>
+</g>`;
 const svg=document.getElementById('svg'), board=document.getElementById('board'), handG=document.getElementById('hand'), defsEl=document.getElementById('defs');
 handG.innerHTML=HAND;
 const LEAD=.45, GAP=.35, HOLD=1.1, FADE=.25, REST={x:1150,y:700};
+
+/* Subtitles, burned into the picture so they show on every player, including full screen.
+   Each spoken line is shown while it is said. A line longer than two subtitle rows is split
+   into parts, each shown for its share of the line's audio (by length). */
+const capG=document.getElementById('cap'), capBox=document.getElementById('capBox'), capText=document.getElementById('capText');
+const CAP={chars:56, rows:2, rowH:32, bottom:532, padX:16, padY:9, linger:.3};
+function wrap(text,max){ const rows=[]; let row='';
+  for(const w of text.split(/\s+/)){ if(row&&(row+' '+w).length>max){rows.push(row);row=w;} else row=row?row+' '+w:w; }
+  if(row) rows.push(row); return rows; }
+function captionParts(text){
+  const n=Math.ceil(wrap(text,CAP.chars).length/CAP.rows); if(n<=1) return [wrap(text,CAP.chars)];
+  // Split into n parts of similar length, at a word boundary, then wrap each part.
+  const words=text.split(/\s+/), parts=[]; let cur=[], target=text.length/n;
+  for(const w of words){ cur.push(w); if(parts.length<n-1&&cur.join(' ').length>=target){parts.push(cur.join(' '));cur=[];} }
+  if(cur.length) parts.push(cur.join(' '));
+  return parts.map(p=>wrap(p,Math.max(CAP.chars,Math.ceil(p.length/CAP.rows)+4)));
+}
+let capShown=null;
+function showCaption(rows){ const key=rows?rows.join('\n'):null; if(key===capShown) return false; capShown=key;
+  if(!rows){ capG.setAttribute('visibility','hidden'); return true; }
+  capText.textContent=''; const top=CAP.bottom-CAP.padY-rows.length*CAP.rowH;
+  rows.forEach((r,i)=>{ const ts=document.createElementNS('http://www.w3.org/2000/svg','tspan'); ts.setAttribute('x',480); ts.setAttribute('y',top+CAP.rowH*(i+1)-8); ts.textContent=r; capText.appendChild(ts); });
+  capG.setAttribute('visibility','visible');
+  const w=Math.min(930,capText.getBBox().width+CAP.padX*2), h=rows.length*CAP.rowH+CAP.padY*2;
+  capBox.setAttribute('x',480-w/2); capBox.setAttribute('y',CAP.bottom-h); capBox.setAttribute('width',w); capBox.setAttribute('height',h);
+  return true; }
 
 const RENDER={
   lesson:null, scenes:[], cur:-1, items:[], hand:{...REST}, lastT:0,
@@ -35,7 +71,9 @@ const RENDER={
     this.lesson=LESSONS.find(l=>l.id===id); if(!this.lesson) throw new Error('unknown lesson '+id);
     let off=0; this.scenes=this.lesson.scenes.map((s,S)=>{ let t=LEAD; const sent=durs[S].map(d=>{const x={start:t,dur:d};t+=d+GAP;return x;});
       const sc={off,sent,end:t-GAP+HOLD}; off+=sc.end; return sc; });
-    this.cur=-1; this.hand={...REST}; this.lastT=0;
+    this.cur=-1; this.hand={...REST}; this.lastT=0; showCaption(null);
+    this.caps=this.lesson.scenes.map(s=>s.say.map(x=>{ const text=x.split('|')[1], parts=captionParts(text), len=parts.map(p=>p.join(' ').length), total=len.reduce((a,b)=>a+b,0);
+      let acc=0; return parts.map((rows,i)=>{ const from=acc/total; acc+=len[i]; return {rows,from}; }); }));
     return {total:off, scenes:this.scenes.map(s=>({off:s.off,end:s.end,sent:s.sent}))};
   },
   draw(S){
@@ -97,6 +135,9 @@ const RENDER={
     const op=Math.min(1,t/FADE,(sc.end-t)/FADE); const o=Math.max(0,op).toFixed(3);
     if(board.style.opacity!==o){ board.style.opacity=o; changed=true; }
     let line=-1; sc.sent.forEach((s,i)=>{ if(t>=s.start) line=i; });
+    let rows=null;
+    if(line>=0){ const s=sc.sent[line]; if(t<s.start+s.dur+CAP.linger){ const f=(t-s.start)/s.dur; for(const p of this.caps[S][line]) if(f>=p.from) rows=p.rows; } }
+    if(showCaption(rows)) changed=true;
     return {changed, scene:S, line};
   },
 };

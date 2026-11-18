@@ -125,7 +125,7 @@
         "file": "videos/psa-dx-01.mp4",
         "captions": "videos/psa-dx-01.vtt",
         "cover": "videos/psa-dx-01-cover.jpg",
-        "duration_seconds": 186.5,
+        "duration_seconds": 186.0,
         "scenes": [
           {
             "name": "Welcome",
@@ -424,7 +424,7 @@
         "file": "videos/psa-dx-02.mp4",
         "captions": "videos/psa-dx-02.vtt",
         "cover": "videos/psa-dx-02-cover.jpg",
-        "duration_seconds": 134.5,
+        "duration_seconds": 133.9,
         "scenes": [
           {
             "name": "What is CASPAR?",
@@ -673,7 +673,7 @@
         "file": "videos/psa-overview-01.mp4",
         "captions": "videos/psa-overview-01.vtt",
         "cover": "videos/psa-overview-01-cover.jpg",
-        "duration_seconds": 136.1,
+        "duration_seconds": 128.4,
         "scenes": [
           {
             "name": "Welcome",
@@ -914,7 +914,7 @@
         "file": "videos/psa-overview-02.mp4",
         "captions": "videos/psa-overview-02.vtt",
         "cover": "videos/psa-overview-02-cover.jpg",
-        "duration_seconds": 131.6,
+        "duration_seconds": 121.8,
         "scenes": [
           {
             "name": "Welcome",
@@ -1152,7 +1152,7 @@
         "file": "videos/psa-symptoms-01.mp4",
         "captions": "videos/psa-symptoms-01.vtt",
         "cover": "videos/psa-symptoms-01-cover.jpg",
-        "duration_seconds": 81.6,
+        "duration_seconds": 80.8,
         "scenes": [
           {
             "name": "Welcome",
@@ -1343,7 +1343,7 @@
         "file": "videos/psa-symptoms-02.mp4",
         "captions": "videos/psa-symptoms-02.vtt",
         "cover": "videos/psa-symptoms-02-cover.jpg",
-        "duration_seconds": 90.1,
+        "duration_seconds": 91.1,
         "scenes": [
           {
             "name": "Welcome",
@@ -1532,7 +1532,7 @@
         "file": "videos/psa-symptoms-03.mp4",
         "captions": "videos/psa-symptoms-03.vtt",
         "cover": "videos/psa-symptoms-03-cover.jpg",
-        "duration_seconds": 112.3,
+        "duration_seconds": 107.0,
         "scenes": [
           {
             "name": "Welcome",
@@ -1758,7 +1758,7 @@
         "file": "videos/psa-symptoms-04.mp4",
         "captions": "videos/psa-symptoms-04.vtt",
         "cover": "videos/psa-symptoms-04-cover.jpg",
-        "duration_seconds": 66.9,
+        "duration_seconds": 62.4,
         "scenes": [
           {
             "name": "Welcome",
@@ -1922,7 +1922,7 @@
         "file": "videos/psa-symptoms-05.mp4",
         "captions": "videos/psa-symptoms-05.vtt",
         "cover": "videos/psa-symptoms-05-cover.jpg",
-        "duration_seconds": 73.5,
+        "duration_seconds": 68.9,
         "scenes": [
           {
             "name": "Welcome",
@@ -2161,7 +2161,7 @@
         "file": "videos/psa-symptoms-06.mp4",
         "captions": "videos/psa-symptoms-06.vtt",
         "cover": "videos/psa-symptoms-06-cover.jpg",
-        "duration_seconds": 77.4,
+        "duration_seconds": 78.3,
         "scenes": [
           {
             "name": "Welcome",
@@ -2395,7 +2395,7 @@
         "file": "videos/psa-symptoms-07.mp4",
         "captions": "videos/psa-symptoms-07.vtt",
         "cover": "videos/psa-symptoms-07-cover.jpg",
-        "duration_seconds": 69.5,
+        "duration_seconds": 69.4,
         "scenes": [
           {
             "name": "Welcome",
@@ -2598,7 +2598,7 @@
         "file": "videos/psa-symptoms-08.mp4",
         "captions": "videos/psa-symptoms-08.vtt",
         "cover": "videos/psa-symptoms-08-cover.jpg",
-        "duration_seconds": 77.8,
+        "duration_seconds": 73.7,
         "scenes": [
           {
             "name": "Welcome",
@@ -2782,7 +2782,7 @@
         "file": "videos/psa-symptoms-09.mp4",
         "captions": "videos/psa-symptoms-09.vtt",
         "cover": "videos/psa-symptoms-09-cover.jpg",
-        "duration_seconds": 66.7,
+        "duration_seconds": 67.1,
         "scenes": [
           {
             "name": "Welcome",
@@ -2950,7 +2950,7 @@
         "file": "videos/psa-symptoms-10.mp4",
         "captions": "videos/psa-symptoms-10.vtt",
         "cover": "videos/psa-symptoms-10-cover.jpg",
-        "duration_seconds": 64.7,
+        "duration_seconds": 64.4,
         "scenes": [
           {
             "name": "Welcome",
@@ -3122,7 +3122,7 @@
         "file": "videos/psa-symptoms-11.mp4",
         "captions": "videos/psa-symptoms-11.vtt",
         "cover": "videos/psa-symptoms-11-cover.jpg",
-        "duration_seconds": 71.1,
+        "duration_seconds": 71.7,
         "scenes": [
           {
             "name": "Welcome",
@@ -3298,7 +3298,7 @@
         "file": "videos/psa-symptoms-12.mp4",
         "captions": "videos/psa-symptoms-12.vtt",
         "cover": "videos/psa-symptoms-12-cover.jpg",
-        "duration_seconds": 63.1,
+        "duration_seconds": 63.6,
         "scenes": [
           {
             "name": "Welcome",
@@ -3476,7 +3476,7 @@
         "file": "videos/psa-treatment-01.mp4",
         "captions": "videos/psa-treatment-01.vtt",
         "cover": "videos/psa-treatment-01-cover.jpg",
-        "duration_seconds": 107.5,
+        "duration_seconds": 106.9,
         "scenes": [
           {
             "name": "Welcome",
@@ -3677,7 +3677,7 @@
         "file": "videos/psa-treatment-02.mp4",
         "captions": "videos/psa-treatment-02.vtt",
         "cover": "videos/psa-treatment-02-cover.jpg",
-        "duration_seconds": 129.2,
+        "duration_seconds": 127.4,
         "scenes": [
           {
             "name": "Welcome",
@@ -3917,7 +3917,7 @@
         "file": "videos/psa-treatment-03.mp4",
         "captions": "videos/psa-treatment-03.vtt",
         "cover": "videos/psa-treatment-03-cover.jpg",
-        "duration_seconds": 110.7,
+        "duration_seconds": 109.4,
         "scenes": [
           {
             "name": "Welcome",
@@ -4127,7 +4127,7 @@
         "file": "videos/psa-education-01.mp4",
         "captions": "videos/psa-education-01.vtt",
         "cover": "videos/psa-education-01-cover.jpg",
-        "duration_seconds": 94.1,
+        "duration_seconds": 93.8,
         "scenes": [
           {
             "name": "Welcome",
@@ -4324,7 +4324,7 @@
         "file": "videos/psa-education-02.mp4",
         "captions": "videos/psa-education-02.vtt",
         "cover": "videos/psa-education-02-cover.jpg",
-        "duration_seconds": 118.3,
+        "duration_seconds": 115.8,
         "scenes": [
           {
             "name": "Welcome",
@@ -4555,7 +4555,7 @@
         "file": "videos/psa-education-03.mp4",
         "captions": "videos/psa-education-03.vtt",
         "cover": "videos/psa-education-03-cover.jpg",
-        "duration_seconds": 109.0,
+        "duration_seconds": 108.9,
         "scenes": [
           {
             "name": "Welcome",
@@ -4793,7 +4793,7 @@
         "file": "videos/psa-contact-01.mp4",
         "captions": "videos/psa-contact-01.vtt",
         "cover": "videos/psa-contact-01-cover.jpg",
-        "duration_seconds": 88.7,
+        "duration_seconds": 88.3,
         "scenes": [
           {
             "name": "Welcome",
@@ -4965,7 +4965,7 @@
         "file": "videos/psa-contact-02.mp4",
         "captions": "videos/psa-contact-02.vtt",
         "cover": "videos/psa-contact-02-cover.jpg",
-        "duration_seconds": 83.0,
+        "duration_seconds": 83.1,
         "scenes": [
           {
             "name": "Welcome",

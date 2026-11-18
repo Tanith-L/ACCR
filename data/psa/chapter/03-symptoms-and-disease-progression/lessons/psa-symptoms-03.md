@@ -25,7 +25,7 @@ Original editorial diagram summarizing the lesson and its cited source material;
 
 ## Video script
 
-Video: [videos/psa-symptoms-03.mp4](../videos/psa-symptoms-03.mp4) (1.9 min) · captions: [videos/psa-symptoms-03.vtt](../videos/psa-symptoms-03.vtt)
+Video: [videos/psa-symptoms-03.mp4](../videos/psa-symptoms-03.mp4) (1.8 min) · captions: [videos/psa-symptoms-03.vtt](../videos/psa-symptoms-03.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

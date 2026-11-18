@@ -1,12 +1,12 @@
 # Lesson videos
 
-Narrated whiteboard animations for every PsA lesson. The lesson text stays brief; the video goes into more detail. Every spoken line is tagged with the reference it comes from.
+Narrated whiteboard animations for every PsA lesson, drawn by a small pencil (not a hand and arm) so the drawing stays visible. The lesson text stays brief; the video goes into more detail. Every spoken line is tagged with the reference it comes from.
 
 ## Output
 
 For each lesson, `build_videos.py` writes:
 
-- `data/psa/chapter/<chapter>/videos/<lesson-id>.mp4`: 1280×720, 24 fps, H.264 + AAC, with an English caption track.
+- `data/psa/chapter/<chapter>/videos/<lesson-id>.mp4`: 1280×720, 24 fps, H.264 + AAC. Subtitles are drawn into the picture (a strip under the drawing, shown while each line is spoken; long lines are split into parts), so every player shows them. The file also carries an English caption track.
 - `data/psa/chapter/<chapter>/videos/<lesson-id>.vtt`: the same captions as a WebVTT file for the app.
 - A `video` block in the lesson's draft in `data/psa/assisted-input/all-topics.json`: the script, the source of every line, the voice details and the file paths. `pipeline/build_psa_library.py` prints it as the "Video script" section of the lesson Markdown.
 

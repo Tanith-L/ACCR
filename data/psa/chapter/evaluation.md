@@ -47,7 +47,7 @@ Home and five topics have no navigation image. The unchanged Symptoms image has 
 The mixed PsA/AS photo is labeled and used for symptom reporting. Uncited comorbidity percentages are omitted. See source-review.md for all file dispositions and lesson locators.
 The preview uses normalized coordinates and preserves image aspect ratio. Native mobile device verification and clinical approval remain pending.
 
-Draft input SHA-256: `497917ec07043abe67bbdbb7a16de36e4d7f35aab7798a6594235d34302131b9`
+Draft input SHA-256: `8dbebd6e2f12156d4bfd0f15357fb00e45f2d309ad0514532b3f1c3d2e56fc03`
 Hotspot input SHA-256: `0b0b2daf57de5c27ec4fc2ff2df7a57530bfd2c9ea9cd6e446e6665b8ac2dba9`
 
 Image `psa-overview-grappa-domains` SHA-256: `b9a2917f7da29f60c824a2f44712218a5bfcf1ad722e5b71011f0764944f6137`

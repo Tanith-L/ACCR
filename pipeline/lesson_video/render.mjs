@@ -31,7 +31,8 @@ async function renderJob(browser, job) {
   let last = null;
   for (let f = 0; f < frames; f++) {
     const r = await page.evaluate(t => window.RENDER.frame(t), f / fps);
-    if (r.changed || !last) last = await page.screenshot({ type: 'jpeg', quality: 88, clip: { x: 0, y: 0, width: 1280, height: 720 } });
+    // No clip (the viewport is already 1280×720): a clip makes Chrome resize the page for every shot.
+    if (r.changed || !last) last = await page.screenshot({ type: 'jpeg', quality: 88, optimizeForSpeed: true, captureBeyondViewport: false });
     await write(last);
     if (f % (fps * 30) === 0) console.log(`${job.id}: ${Math.round((f / frames) * 100)}%`);
   }
@@ -41,10 +42,13 @@ async function renderJob(browser, job) {
   console.log(`${job.id}: done (${info.total.toFixed(1)} s) -> ${job.out}`);
 }
 
-const browser = await puppeteer.launch({ executablePath: cfg.chrome, headless: true,
+// One browser per worker: pages that share a browser wait on each other's screenshots,
+// which made four workers about three times slower than four browsers.
+const launch = () => puppeteer.launch({ executablePath: cfg.chrome, headless: true,
   args: ['--allow-file-access-from-files', '--hide-scrollbars', '--force-color-profile=srgb'] });
 const queue = [...cfg.jobs];
 const workers = Array.from({ length: Math.min(cfg.workers || 3, queue.length) }, async () => {
-  while (queue.length) await renderJob(browser, queue.shift());
+  const browser = await launch();
+  try { while (queue.length) await renderJob(browser, queue.shift()); } finally { await browser.close(); }
 });
-try { await Promise.all(workers); } finally { await browser.close(); }
+await Promise.all(workers);

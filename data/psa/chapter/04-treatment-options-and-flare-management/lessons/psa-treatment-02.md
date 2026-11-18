@@ -25,7 +25,7 @@ A drug is not right for every person or every disease domain. Some plans also in
 
 ## Video script
 
-Video: [videos/psa-treatment-02.mp4](../videos/psa-treatment-02.mp4) (2.2 min) · captions: [videos/psa-treatment-02.vtt](../videos/psa-treatment-02.vtt)
+Video: [videos/psa-treatment-02.mp4](../videos/psa-treatment-02.mp4) (2.1 min) · captions: [videos/psa-treatment-02.vtt](../videos/psa-treatment-02.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

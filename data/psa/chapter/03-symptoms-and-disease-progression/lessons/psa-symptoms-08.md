@@ -29,7 +29,7 @@ Tell your care team where your back feels sore or stiff. Note when it happens an
 
 ## Video script
 
-Video: [videos/psa-symptoms-08.mp4](../videos/psa-symptoms-08.mp4) (1.3 min) · captions: [videos/psa-symptoms-08.vtt](../videos/psa-symptoms-08.vtt)
+Video: [videos/psa-symptoms-08.mp4](../videos/psa-symptoms-08.mp4) (1.2 min) · captions: [videos/psa-symptoms-08.vtt](../videos/psa-symptoms-08.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

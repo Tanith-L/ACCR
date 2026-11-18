@@ -25,7 +25,7 @@ The next lesson groups PsA into six areas, called domains. These are skin, nails
 
 ## Video script
 
-Video: [videos/psa-overview-01.mp4](../videos/psa-overview-01.mp4) (2.3 min) · captions: [videos/psa-overview-01.vtt](../videos/psa-overview-01.vtt)
+Video: [videos/psa-overview-01.mp4](../videos/psa-overview-01.mp4) (2.1 min) · captions: [videos/psa-overview-01.vtt](../videos/psa-overview-01.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

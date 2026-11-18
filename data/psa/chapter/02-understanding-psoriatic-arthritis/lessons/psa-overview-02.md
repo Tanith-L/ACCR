@@ -25,7 +25,7 @@ The anatomy chart groups the body into nine regions. These are places in the bod
 
 ## Video script
 
-Video: [videos/psa-overview-02.mp4](../videos/psa-overview-02.mp4) (2.2 min) · captions: [videos/psa-overview-02.vtt](../videos/psa-overview-02.vtt)
+Video: [videos/psa-overview-02.mp4](../videos/psa-overview-02.mp4) (2.0 min) · captions: [videos/psa-overview-02.vtt](../videos/psa-overview-02.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

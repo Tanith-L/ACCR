@@ -25,7 +25,7 @@ Tell your team which shoulder hurts and when the pain began. Describe a task tha
 
 ## Video script
 
-Video: [videos/psa-symptoms-05.mp4](../videos/psa-symptoms-05.mp4) (1.2 min) · captions: [videos/psa-symptoms-05.vtt](../videos/psa-symptoms-05.vtt)
+Video: [videos/psa-symptoms-05.mp4](../videos/psa-symptoms-05.mp4) (1.1 min) · captions: [videos/psa-symptoms-05.vtt](../videos/psa-symptoms-05.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

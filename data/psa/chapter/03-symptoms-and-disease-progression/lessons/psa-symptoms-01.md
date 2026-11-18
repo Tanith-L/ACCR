@@ -23,7 +23,7 @@ Supplied educational illustration.
 
 ## Video script
 
-Video: [videos/psa-symptoms-01.mp4](../videos/psa-symptoms-01.mp4) (1.4 min) · captions: [videos/psa-symptoms-01.vtt](../videos/psa-symptoms-01.vtt)
+Video: [videos/psa-symptoms-01.mp4](../videos/psa-symptoms-01.mp4) (1.3 min) · captions: [videos/psa-symptoms-01.vtt](../videos/psa-symptoms-01.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 

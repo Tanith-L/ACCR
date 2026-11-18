@@ -27,7 +27,7 @@ Ben White; CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Source: htt
 
 ## Video script
 
-Video: [videos/psa-education-02.mp4](../videos/psa-education-02.mp4) (2.0 min) · captions: [videos/psa-education-02.vtt](../videos/psa-education-02.vtt)
+Video: [videos/psa-education-02.mp4](../videos/psa-education-02.mp4) (1.9 min) · captions: [videos/psa-education-02.vtt](../videos/psa-education-02.vtt)
 
 Style: Whiteboard animation, drawn line by line in time with the narration.
 
