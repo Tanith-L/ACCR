@@ -1,0 +1,174 @@
+[
+  {
+    "slug": "caspar-framework",
+    "lesson_id": "psa-dx-02",
+    "page": 2,
+    "source_id": "src-mindmap",
+    "title": "Understanding CASPAR",
+    "subtitle": "A framework for discussing findings with your doctor",
+    "cards": [
+      [
+        "Start with inflammation",
+        "In a joint, the spine, or a tendon attachment"
+      ],
+      [
+        "Look at the pattern",
+        "Psoriasis history • Nail changes • A swollen whole finger or toe"
+      ],
+      [
+        "Consider test findings",
+        "Rheumatoid factor blood test • A specific new-bone pattern on X-ray"
+      ]
+    ],
+    "footer": "A doctor interprets the findings. This is not a home scoring tool.",
+    "alt_text": "CASPAR overview: inflammation first, then psoriasis history, nail and digit changes, and test findings. A doctor interprets the findings; this is not a scoring tool."
+  },
+  {
+    "slug": "whole-health",
+    "lesson_id": "psa-symptoms-03",
+    "page": 2,
+    "source_id": "src-poster-of-the-comorbidities-seen-in-psa",
+    "title": "Care for your whole health",
+    "subtitle": "Topics to discuss alongside your joints and skin",
+    "cards": [
+      [
+        "Heart and blood vessels",
+        "Blood pressure • Cholesterol • Heart health"
+      ],
+      [
+        "Metabolic health",
+        "Blood sugar • Weight"
+      ],
+      [
+        "Emotional health",
+        "Mood • Support • Daily life"
+      ]
+    ],
+    "footer": "Ask which checks fit you. A higher risk is not a prediction.",
+    "alt_text": "Related health topics: heart health and blood pressure, blood sugar and weight, and mood. Discuss checks that fit your own history. No risk percentages or ranking are shown."
+  },
+  {
+    "slug": "treatment-groups",
+    "lesson_id": "psa-treatment-02",
+    "page": 1,
+    "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+    "title": "Different treatment roles",
+    "subtitle": "Group names help you understand the care discussion",
+    "cards": [
+      [
+        "Symptom relief",
+        "Some medicines help ease pain and swelling."
+      ],
+      [
+        "Disease control",
+        "Conventional DMARDs • Biologics • Targeted synthetic drugs"
+      ],
+      [
+        "Support for daily life",
+        "Skin care • Physical therapy • Help with daily tasks"
+      ]
+    ],
+    "footer": "These are roles, not a treatment ladder. Ask what your plan covers.",
+    "alt_text": "Treatment roles include symptom relief, disease control with DMARD groups, and support such as skin care and physical therapy. These are not ranked treatment steps."
+  },
+  {
+    "slug": "flare-record",
+    "lesson_id": "psa-treatment-03",
+    "page": 2,
+    "source_id": "src-the-four-pillars-of-arthritis",
+    "title": "Bring a useful symptom record",
+    "subtitle": "Small notes can help your team see patterns",
+    "cards": [
+      [
+        "What changed, and when?",
+        "Pain • Swelling • The body area affected"
+      ],
+      [
+        "How was your day?",
+        "Sleep • Energy • Mood • A task that was hard"
+      ],
+      [
+        "What is the agreed plan?",
+        "Who to contact • When to call • Help outside office hours"
+      ]
+    ],
+    "footer": "Follow your own care team's flare plan. Do not change drugs on your own.",
+    "alt_text": "A symptom record includes what changed and when, sleep and energy, mood and daily tasks. Discuss contact routes and a personal flare plan with the care team."
+  },
+  {
+    "slug": "four-pillars",
+    "lesson_id": "psa-education-01",
+    "page": 1,
+    "source_id": "src-the-four-pillars-of-arthritis",
+    "title": "Four pillars of daily care",
+    "subtitle": "Choose one small step that fits your life",
+    "cards": [
+      [
+        "Nourishment / Food",
+        "Food choices that fit your needs and budget"
+      ],
+      [
+        "Motion / Movement",
+        "Activity and rest that fit your joints"
+      ],
+      [
+        "Mastery / Coping",
+        "Ways to handle stress and find support"
+      ],
+      [
+        "Repose / Rest",
+        "Sleep habits and time to recover"
+      ]
+    ],
+    "footer": "Daily habits support your care. They do not replace treatment.",
+    "alt_text": "Four equal pillars support daily care: food, movement, coping, and rest. Choose a manageable step with your team; daily habits do not replace medical treatment."
+  },
+  {
+    "slug": "shared-treatment-goals",
+    "lesson_id": "psa-treatment-01",
+    "page": 2,
+    "source_id": "src-management-guidelines-of-arthritis-and-autoimmune-diseases",
+    "title": "Choose goals together",
+    "subtitle": "Connect the treatment discussion to your own life",
+    "cards": [
+      [
+        "What matters to you?",
+        "Less pain • Easier daily tasks • Protecting your joints"
+      ],
+      [
+        "What shapes the plan?",
+        "Active symptoms • Other health needs • Past treatments"
+      ],
+      [
+        "How will you review it?",
+        "Benefits • Side effects • Progress at follow-up visits"
+      ]
+    ],
+    "footer": "Ask which parts of your disease the plan addresses.",
+    "alt_text": "Shared treatment goals: describe what matters to you, review symptoms and other health needs, and agree how to check benefits, side effects and progress."
+  },
+  {
+    "slug": "eye-gut-reporting",
+    "lesson_id": "psa-contact-02",
+    "page": 1,
+    "source_id": "src-clinical-manifestations-of-psa-poster",
+    "title": "Eye and gut changes: seek care",
+    "subtitle": "Describe what changed and when it started",
+    "cards": [
+      [
+        "New eye pain or vision changes",
+        "Pain • Marked redness • Light sensitivity • Blurred sight"
+      ],
+      [
+        "Eye symptoms need prompt assessment",
+        "Possible acute eye inflammation: same-day eye assessment."
+      ],
+      [
+        "Ongoing gut changes",
+        "Pain • Bloating • Changed bowel habits: tell your care team."
+      ]
+    ],
+    "footer": "Loss of vision: emergency care. Severe illness: seek urgent help.",
+    "alt_text": "New eye pain, marked redness, light sensitivity or blurred sight need urgent assessment; possible acute eye inflammation needs same-day eye assessment. Loss of vision needs emergency care. Report ongoing gut changes and seek urgent help if severely unwell."
+  }
+]

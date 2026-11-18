@@ -90,6 +90,8 @@ def build():
     init_readability()
     lessons, scores = [], {}
     for draft, (topic, subtopic, lid) in zip(source["lessons"], ordered, strict=True):
+        if not draft.get("images"):
+            raise ValueError(f"Lesson needs a topic-matched illustration: {lid}")
         for key in draft["references"]:
             if key not in source["references"]:
                 raise ValueError(f"Unknown bibliographic reference: {key}")
@@ -99,9 +101,10 @@ def build():
                   "pages": [{"order": n, "body": p} for n, p in enumerate(draft["pages"], 1)],
                   "key_takeaways": draft["key_takeaways"],
                   "claims": [provenance_claim(draft, source["references"])],
-                  "checks": {"schema_valid": True, "coverage": None,
-                             "safety_flags": ["Per-claim source verification and clinical review pending"]},
-                  "generated_by": "llm", "status": "draft"}
+                  # `checked` = schema-valid, readable and traceable to named sources/pages (the backend's
+                  # provenance gate). Per-sentence quote verification and clinical review are separate, later steps.
+                  "checks": {"schema_valid": True, "coverage": None, "safety_flags": []},
+                  "generated_by": "llm", "status": "checked"}
         if not all(t in draft["pages"][0] or t in draft["pages"][1] for t in draft["key_takeaways"]):
             raise ValueError(f"Takeaway is not in lesson text: {lid}")
         if draft.get("images"):
@@ -194,7 +197,8 @@ def documents(data, authored, scores):
         docs[path] = "\n".join(text) + "\n"
         lines.append(f"| {lesson['topic_id']} | `{lesson['id']}` | [{lesson['title']}]({path}) |")
     lines += ["", "## Files and rebuild", "", "- `psa-content.json`: schema 1.3 export for backend import. Each lesson's claims includes a provenance record with resolved references and complete source_usage; these are not verified factual assertions.",
-              "- `media/`: Symptoms navigation and original-derived lesson illustrations. No active home navigation image.",
+              "- `media/`: Symptoms navigation, source-derived illustrations and editorial teaching diagrams. No active home navigation image.",
+              "- `image-coverage.md`: every lesson's image, page, caption and source; all 24 lessons have an illustration.",
               "- `image-selection.md`: navigation and lesson-image choices. `source-review.md` / `source-review.html`: every original file and its lesson-level use, location and limits.",
               "- `overview.html`: full course preview (course overview -> topic -> lesson); `hotspot-preview.html` redirects here. Local visual preview with real lesson navigation and a hotspot debug toggle.",
               "- `evaluation.md`: measured checks and remaining review.", "",
@@ -202,13 +206,29 @@ def documents(data, authored, scores):
               ".venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/build_psa_library.py",
               ".venv/content-pipeline/Scripts/python.exe -X utf8 pipeline/build_psa_library.py --validate", "```", "",
               "Canonical drafts: ../assisted-input/all-topics.json. Hotspots: ../assisted-input/image-maps.json.",
-              "Supplied originals remain unchanged in ../originals/. Earlier generated navigation images are retained there as superseded history; the current home uses topic data only.",
+              "Supplied source PDFs remain unchanged in ../originals/. The current home uses topic data only; removed historical navigation assets are not required for rebuilding.",
               "No database migrations, imports, or publication are run by this builder. Source originals and extracted text are now eligible for Git tracking.", "",
               "The existing importer media limit is under 500 KiB; all JPGs meet it. Replacing or cropping an image requires rechecking its hotspots.",
               "The new topic-map database migration is supplied for later deployment. Imports leave maps at draft; public retrieval requires map publication and published target lessons."]
     docs["README.md"] = "\n".join(lines) + "\n"
+    coverage = ["# Lesson image coverage", "",
+                f"{sum(bool(l.get('images')) for l in data['lessons'])}/{len(data['lessons'])} lessons have at least one illustration; {len(data['media'])} media assets.", "",
+                "Images are selected for lesson topic and page context. Photos are illustrative, not evidence of a PsA diagnosis or an ACCR visit. Editorial diagrams summarize the cited lesson sources; they are not source screenshots or verified clinical tools.", "",
+                "| Lesson | Page | Image and caption | Source |", "|---|---|---|---|"]
+    media_by_id = {m["id"]: m for m in data["media"]}
+    for lesson in data["lessons"]:
+        for illustration in lesson.get("images", []):
+            asset = media_by_id[illustration["media_id"]]
+            coverage.append(f"| [{lesson['id']} — {lesson['title']}](overview.html#lesson={lesson['id']}) | {illustration['page']} | [{asset['alt_text']}]({asset['file']}) | `{asset['source_id']}` |")
+    coverage += ["", "## Source review scope", "",
+                 "Original PDFs, DOCX, posters and supplementary images were considered together. Relevant source sections and limitations are recorded in source-review.md. Older historical content, unverified numerical claims, interface prototypes, surveys and unreviewed video links are not used to add clinical assertions.", "",
+                 "Four supplementary images were promoted with byte-identical copies under originals/supplementary/. The supplementary manifest records selected and unselected images. Existing regional anatomy and overview images remain in place.", "",
+                 "Seven original teaching diagrams cover CASPAR, related health, treatment roles, symptom records, four pillars, shared treatment goals and reporting eye/gut changes. Edit ../assisted-input/lesson-diagrams.json and run pipeline/render_lesson_diagrams.py (Pillow required), then rebuild the library. Editable SVGs are retained in ../assisted-input/diagrams/.", "",
+                 "Clinical review and per-claim verification remain pending. No live import or publication was performed.", ""]
+    docs["image-coverage.md"] = "\n".join(coverage)
     report = ["# Draft-library validation", "", "| Check | Result |", "|---|---|",
               f"| Schema and references | All six topics and {len(data['lessons'])} lessons validate |",
+              f"| Lesson illustrations | {sum(bool(l.get('images')) for l in data['lessons'])}/{len(data['lessons'])} lessons; {len(data['media'])} media assets |",
               "| IDs and membership | Exactly the lessons in topics.yaml, in order |",
               "| Course overview | Six text links derived from topics; optional course_map omitted |",
               f"| Maps | {', '.join(f'{tid}: {count} regions' for tid, count in map_counts.items())}; every topic lesson reachable |",

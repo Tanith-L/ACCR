@@ -8,9 +8,15 @@ Lesson: `psa-symptoms-08` · Topic: `symptoms` · About 1 minutes
 
 Axial disease means PsA affects the spine. It may also affect the sacroiliac, or SI, joints. These joints link the lower spine to the pelvis. Inflammation in these areas can cause back pain and stiffness. The spine card shows where these changes may occur.
 
+The spine is a stack of bones called vertebrae. Discs sit between many of them. The sacrum is the bone at the base of the spine. The SI joints link it to the pelvis. The picture shows normal spine regions; it cannot show the cause of your pain.
+
 ![Side-view X-ray of the mid and lower back. An arrow points to changes in the spine from PsA.](../../media/spine-xray-spondylitis.jpg)
 
 Helliwell P, Coates LC, Gladman D. "Psoriatic Arthritis." In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, chap. 8. © Springer Nature Switzerland AG 2023. Used with permission.
+
+![Normal spine regions from the neck to the sacrum and tailbone.](../../media/rheumnotes-spine.jpg)
+
+OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:715_Vertebral_Column.jpg. Extracted from supplied RheumNotes PDF p. 13; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
 
 ## Page 2
 
@@ -78,5 +84,6 @@ Split from the former combined symptom lessons to match the spine card. Original
 - [PsA One-Pager Intro](../../../originals/PsA%20One-Pager%20Intro.jpeg) ? Box B and Box C: spine (lesson pages 1; text). Cross-checks domain or related-condition terminology. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [PsA & AS Symptoms](../../../originals/PsA%20%26%20AS%20Symptoms.jpeg) ? spine body label (lesson pages 1; text). Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
 - [Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)](../../../originals/RheumNotes_PsA_Clinical_Images.pdf) ? Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray) (lesson pages 1; image). Spine X-ray with spondylitis changes. Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
+- [RheumNotes Anatomy White Paper](../../../originals/RheumNotes_Anatomy_White_Paper.pdf) ? PDF p. 13: normal regional anatomy; PDF p. 13: displayed illustration; Image Credits appendix (lesson pages 1; text_and_image). Explain normal structures and help locate symptoms. Display the selected source image with attribution. Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
 - [NIAMS: Psoriatic Arthritis](https://www.niams.nih.gov/health-topics/psoriatic-arthritis)
 - [NIAMS: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take)

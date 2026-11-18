@@ -8,6 +8,12 @@ Lesson: `psa-symptoms-10` · Topic: `symptoms` · About 1 minutes
 
 The hips card shows that a hip joint can be affected by PsA. Pain or stiffness may limit movement. You may notice that steps, walking, or getting up from a chair are harder. These examples help you describe a problem; they do not prove that PsA is the cause.
 
+The hip is a ball-and-socket joint. The top of the thigh bone fits into a deep cup in the pelvis. Nearby muscles help keep the pelvis level as you walk. The picture shows the bones and bands that support a normal hip.
+
+![Front view of the pelvis and the bands that support the hip joints.](../../media/rheumnotes-hip.jpg)
+
+Johannes Sobotta (Atlas, 1909); Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Source: https://commons.wikimedia.org/wiki/File:Sobo_1909_208.png. Extracted from supplied RheumNotes PDF p. 41; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+
 ## Page 2
 
 Tell your team which side hurts and what has changed. Explain how the pain affects your daily routine. Mention a new limp or trouble doing a task you could do before. The team can check the hip and nearby areas. Do not use the map to decide the cause on your own.
@@ -69,5 +75,6 @@ Split from the former combined symptom lessons to match the hips card. Original 
 
 - [Clinical manifestations of PsA](../../../originals/clinical%20manifestations%20of%20PSA%20written%20at%20an%208th%20grade%20level.png) ? hips card on the clinical manifestations body map (lesson pages 1, 2; text). Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations. Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
 - [PsA & AS Symptoms](../../../originals/PsA%20%26%20AS%20Symptoms.jpeg) ? hips body label (lesson pages 1; text). Cross-checks the original body location; the source includes both PsA and AS. Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+- [RheumNotes Anatomy White Paper](../../../originals/RheumNotes_Anatomy_White_Paper.pdf) ? PDF p. 41: normal regional anatomy; PDF p. 41: displayed illustration; Image Credits appendix (lesson pages 1; text_and_image). Explain normal structures and help locate symptoms. Display the selected source image with attribution. Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
 - [NIAMS: Psoriatic Arthritis](https://www.niams.nih.gov/health-topics/psoriatic-arthritis)
 - [NIAMS: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take)

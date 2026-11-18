@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="840" viewBox="0 0 1100 840">
+<title>Different treatment roles</title><desc>Treatment roles include symptom relief, disease control with DMARD groups, and support such as skin care and physical therapy. These are not ranked treatment steps.</desc>
+<rect width="1100" height="840" fill="#f4f8fa"/>
+<rect x="0" y="0" width="1100" height="12" rx="0" fill="#087f83"/>
+<text x="50" y="42" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#17364a">Different treatment roles</text>
+<text x="50" y="108" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#526777">Group names help you understand the care discussion</text>
+<rect x="50" y="180" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="180" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="202" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">Symptom relief</text>
+<text x="85" y="263" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Some medicines help ease pain and swelling.</text>
+<rect x="50" y="360" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="360" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="382" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">Disease control</text>
+<text x="85" y="443" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Conventional DMARDs • Biologics • Targeted synthetic drugs</text>
+<rect x="50" y="540" width="1000" height="145" rx="18" fill="#ffffff"/>
+<rect x="50" y="540" width="10" height="145" rx="4" fill="#087f83"/>
+<text x="85" y="562" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#17364a">Support for daily life</text>
+<text x="85" y="623" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#17364a">Skin care • Physical therapy • Help with daily tasks</text>
+<text x="50" y="764" dominant-baseline="text-before-edge" font-family="Arial, sans-serif" font-size="25" font-weight="400" fill="#315669">These are roles, not a treatment ladder. Ask what your plan covers.</text>
+</svg>

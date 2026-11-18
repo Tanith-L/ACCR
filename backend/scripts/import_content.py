@@ -59,13 +59,41 @@ def gate_failures(checks: dict) -> list[str]:
     return failures
 
 
+def provenance_gate_failures(lesson: dict) -> list[str]:
+    """Gate for lessons whose evidence is editorial source correspondence only.
+
+    `checked` then means: schema-valid, readable (FK grade), no safety flags, and every
+    lesson page traceable to a named source and source page/locator. It does NOT mean
+    each sentence was verified against a quote; that is a separate, later step.
+    """
+    checks = lesson["checks"]
+    failures = []
+    if checks.get("schema_valid") is not True:
+        failures.append("schema_valid is not true")
+    fk = checks.get("fk_grade")
+    if fk is None or fk > FK_GRADE_MAX:
+        failures.append(f"fk_grade is {fk}, above {FK_GRADE_MAX}")
+    if checks.get("safety_flags") != []:
+        failures.append(f"safety_flags: {checks.get('safety_flags')}")
+    covered = {page for c in lesson.get("claims", []) if c.get("kind") == "provenance"
+               for usage in c.get("source_usage", []) if usage.get("source_id") and usage.get("locator")
+               for page in usage.get("pages", [])}
+    missing = [p["order"] for p in lesson["pages"] if p["order"] not in covered]
+    if missing:
+        failures.append(f"lesson pages without a named source and locator: {missing}")
+    return failures
+
+
 def effective_status(lesson: dict) -> tuple[str, list[str]]:
-    """The status the lesson will be imported with, and the gate failures if downgraded."""
+    """The status the lesson will be imported with, and the gate failures if downgraded.
+
+    Lessons with per-sentence claims need the full quote-verification gate. Lessons that
+    only carry editorial provenance use the traceability gate above."""
     if lesson["status"] != "checked":
         return "draft", []
-    failures = gate_failures(lesson["checks"])
-    if any(c.get("kind") == "provenance" for c in lesson.get("claims", [])):
-        failures.append("editorial provenance is not verified assertion evidence")
+    claims = lesson.get("claims", [])
+    only_provenance = bool(claims) and all(c.get("kind") == "provenance" for c in claims)
+    failures = provenance_gate_failures(lesson) if only_provenance else gate_failures(lesson["checks"])
     return ("draft", failures) if failures else ("checked", [])
 
 

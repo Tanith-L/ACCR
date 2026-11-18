@@ -172,7 +172,7 @@ describe('body map, mind map and course helpers', () => {
     const course = await getCourse(service);
     const lessons = await Promise.all(course.flatMap((c) => c.path.lessonIds).map((id) => service.getLesson(id)));
     const paths = lessons.flatMap((l) => l?.images.map((i) => i.path) ?? []);
-    expect(paths).toHaveLength(6);
+    expect(lessons.every((l) => (l?.images.length ?? 0) > 0)).toBe(true);
     expect(Object.keys(LOCAL_MEDIA)).toEqual(expect.arrayContaining(paths));
     expect(Object.keys(LOCAL_MEDIA)).toContain('psa-symptoms-body-map.jpg');
   });

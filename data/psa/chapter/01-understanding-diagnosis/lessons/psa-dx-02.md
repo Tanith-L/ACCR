@@ -20,6 +20,10 @@ Helliwell P, Coates LC, Gladman D. "Psoriatic Arthritis." In: Stone JH, ed. A Cl
 
 Helliwell P, Coates LC, Gladman D. "Psoriatic Arthritis." In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, p. 99, fig. 8.2. © Springer Nature Switzerland AG 2023. Used with permission.
 
+![CASPAR overview: inflammation first, then psoriasis history, nail and digit changes, and test findings. A doctor interprets the findings; this is not a scoring tool.](../../media/caspar-framework.jpg)
+
+Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/caspar-framework.svg. Clinical review pending.
+
 ## Key takeaways
 
 - First, there must be inflammation in a joint, the spine, or a tendon attachment.
@@ -100,7 +104,7 @@ AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Micr
 
 Brief text; the lesson video carries the detail. Confirm the handwritten CASPAR branch and the obscured One-Pager rows clinically. The point threshold is deliberately not taught; no self-diagnosis score is implemented.
 
-- [Handwritten PsA mind map](../../../originals/mindmap.jpeg) ? Right-hand CASPAR branch: entry criterion and five feature groups (lesson pages 1, 2; text). Inflammation first (mandatory); then psoriasis (current weighted most; personal or family history), nail dystrophy, negative RF, dactylitis and juxta-articular new bone. Limits: Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score.
+- [Handwritten PsA mind map](../../../originals/mindmap.jpeg) ? Right-hand CASPAR branch: entry criterion and five feature groups; Editorial diagram based on the located source sections and current lesson; diagram spec: caspar-framework (lesson pages 1, 2; text_and_image). Inflammation first (mandatory); then psoriasis (current weighted most; personal or family history), nail dystrophy, negative RF, dactylitis and juxta-articular new bone. Displays a plain-language teaching summary; original diagram, not a source screenshot. Limits: Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions.
 - [PsA One-Pager Intro](../../../originals/PsA%20One-Pager%20Intro.jpeg) ? Box A: CASPAR table (lesson pages 1, 2; text). Current, personal or family psoriasis; nail dystrophy (pitting, onycholysis, hyperkeratosis); negative RF; current or past dactylitis. Limits: Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature.
 - [Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)](../../../originals/RheumNotes_PsA_Clinical_Images.pdf) ? Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray) (lesson pages 2; image). Nail changes and dactylitis photos: two of the signs CASPAR counts. Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
 - [NIAMS: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take)

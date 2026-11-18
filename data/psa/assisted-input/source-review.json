@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "reviewed_on": "2026-11-03",
+  "reviewed_on": "2026-11-17",
   "scope": "File disposition and lesson-level editorial correspondence, not per-claim verification or clinical approval. DOCX paragraph numbers are 1-based w:p order in word/document.xml, including empty paragraphs. PDF page numbers are physical PDF pages.",
   "files": [
     {
@@ -11,51 +11,6 @@
       "candidate_lessons": [],
       "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
       "review_scope": "Visual review of the source image and caption."
-    },
-    {
-      "file": "generated/archived-assets/overview-mindmap-v1.jpg",
-      "source_id": null,
-      "sha256": "6053a1cdb8bdceb61c4f4a52febb5df374e4c69cca45d28883a5648cbf28f34e",
-      "status": "superseded_asset",
-      "candidate_lessons": [],
-      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
-      "review_scope": "Checked file identity and absence from active media/map references."
-    },
-    {
-      "file": "generated/archived-assets/symptoms-mindmap-v1.jpg",
-      "source_id": null,
-      "sha256": "bf614f8a674b9300dcc333cb8dcadd0a508a8eeae9123f391dda2c88fdb66cb9",
-      "status": "superseded_asset",
-      "candidate_lessons": [],
-      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
-      "review_scope": "Checked file identity and absence from active media/map references."
-    },
-    {
-      "file": "generated/course-overview-simple-v1.png",
-      "source_id": null,
-      "sha256": "615f6ae3740a070e6225fc395c77733b5bfc19d3a737bc104cb430bdec183f38",
-      "status": "superseded_asset",
-      "candidate_lessons": [],
-      "decision": "Previous six-topic course image. The current home screen uses topic data and text cards; no navigation image is supplied.",
-      "review_scope": "Checked removal from active media and map references."
-    },
-    {
-      "file": "generated/overview-mindmap-v1.png",
-      "source_id": null,
-      "sha256": "fd6e50aac7a82cc60a3b0af4004e6c61307f08aba91263e993ca4d20877971a7",
-      "status": "superseded_asset",
-      "candidate_lessons": [],
-      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
-      "review_scope": "Checked file identity and absence from active media/map references."
-    },
-    {
-      "file": "generated/symptoms-mindmap-v1.png",
-      "source_id": null,
-      "sha256": "a0fad3f7b3b165e0c81c5e1111a325a645f10f4158edfbe49ab603aa966d0261",
-      "status": "superseded_asset",
-      "candidate_lessons": [],
-      "decision": "Prior generated mindmap or archived export. Retained as an original history asset; replaced by the six-topic overview and supplied symptoms body map.",
-      "review_scope": "Checked file identity and absence from active media/map references."
     },
     {
       "file": "GRAPPA domains in PSA which guide treatment decisions.png",
@@ -249,6 +204,213 @@
       ],
       "decision": "PsA entry fits the introduction as background. The AI-generated ranking and approximate prevalence estimates are not used as clinical evidence or patient risk figures.",
       "review_scope": "Read extracted text of all four pages: page 1 AI disclosure; page 2 PsA entry; remaining pages list other conditions."
+    },
+    {
+      "file": "RheumNotes_Anatomy_Chart.pdf",
+      "source_id": "src-rheumnotes-chart-2026",
+      "sha256": "6a150f54cb7f3553b0da67cf281ac3397916163dd33d0c228b3289ce065afa24",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use the selected portions documented below; preserve physical PDF page locators and image credits.",
+      "review_scope": "Extracted PDF text; reviewed selected lesson passages, displayed images and their credit appendices. No independent clinical approval."
+    },
+    {
+      "file": "RheumNotes_Anatomy_White_Paper.pdf",
+      "source_id": "src-rheumnotes-anatomy-2026",
+      "sha256": "252d0bf2311f51ca2393958c0b0ccd7dc308af93549240c0426d00069db29a8d",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use the selected portions documented below; preserve physical PDF page locators and image credits.",
+      "review_scope": "Extracted PDF text; reviewed selected lesson passages, displayed images and their credit appendices. No independent clinical approval."
+    },
+    {
+      "file": "RheumNotes_Image_Licensing_Summary.pdf",
+      "source_id": null,
+      "sha256": "3977abe954dfa1ebef77cf4598f16ecbdbc0b67d18fdecd9cb9bd4a5e128af59",
+      "status": "editorial_reference",
+      "candidate_lessons": [],
+      "decision": "Consult for image attribution handling, not clinical evidence.",
+      "review_scope": "Read both pages; credits for displayed images transcribed from source appendices. Not an independent rights audit."
+    },
+    {
+      "file": "RheumNotes_Mind_Mastery_White_Paper.pdf",
+      "source_id": "src-rheumnotes-mind-2026",
+      "sha256": "3c228e6f8a4a8ab9a9117ffca09696223dd6d3fb920e4d1bc57517b6e075a0d5",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use the selected portions documented below; preserve physical PDF page locators and image credits.",
+      "review_scope": "Extracted PDF text; reviewed selected lesson passages, displayed images and their credit appendices. No independent clinical approval."
+    },
+    {
+      "file": "RheumNotes_Motion_White_Paper.pdf",
+      "source_id": "src-rheumnotes-motion-2026",
+      "sha256": "102c9241b225dfb64b774e219114372081fc5466a5a9483497f8e1d0c803b646",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use the selected portions documented below; preserve physical PDF page locators and image credits.",
+      "review_scope": "Extracted PDF text; reviewed selected lesson passages, displayed images and their credit appendices. No independent clinical approval."
+    },
+    {
+      "file": "RheumNotes_Nutrition_White_Paper.pdf",
+      "source_id": null,
+      "sha256": "28d7c356ba3ff04ad4e6d0858c5992b463f0b399db75768904ecddad3ea4534f",
+      "status": "superseded_source",
+      "candidate_lessons": [],
+      "decision": "Retain November 12 version. November 17 text changes Air to Sky in protein headings and dataset labels; use the newer version in lessons.",
+      "review_scope": "Compared extracted text of all 53 pages in both versions; binary files differ."
+    },
+    {
+      "file": "RheumNotes_Nutrition_White_Paper_2026-11-17.pdf",
+      "source_id": "src-rheumnotes-nutrition-2026",
+      "sha256": "440c7bb1388d55a196bca69a94fe33563e2e2a9d5dca68916c3ef1810cacee2a",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use the selected portions documented below; preserve physical PDF page locators and image credits.",
+      "review_scope": "Extracted PDF text; reviewed selected lesson passages, displayed images and their credit appendices. No independent clinical approval."
+    },
+    {
+      "file": "RheumNotes_Sleep_Restore_White_Paper.pdf",
+      "source_id": "src-rheumnotes-sleep-2026",
+      "sha256": "850bfc8b10625ab97e24ae1b9fb9619770ad8ffdf52b50347f7aab4bf38b9855",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use the selected portions documented below; preserve physical PDF page locators and image credits.",
+      "review_scope": "Extracted PDF text; reviewed selected lesson passages, displayed images and their credit appendices. No independent clinical approval."
+    },
+    {
+      "file": "rheumy_team_share/Rheumy_A_Short_Hair_Greeting.mp4",
+      "source_id": null,
+      "sha256": "180cd31cd03a761394293aaf99e8abfff87a371fe43d8eccffb3febd79b16cbf",
+      "status": "workflow_reference",
+      "candidate_lessons": [],
+      "decision": "Retain as interface, survey or greeting material; not used as clinical lesson evidence.",
+      "review_scope": "File identity and role only; no clinical or audiovisual content verification."
+    },
+    {
+      "file": "rheumy_team_share/Rheumy_B_Ponytail_Greeting.mp4",
+      "source_id": null,
+      "sha256": "b19ca84867b767dccd3bfa5d7db9c703087f2c4a2741cee95b0300e7765dbdfc",
+      "status": "workflow_reference",
+      "candidate_lessons": [],
+      "decision": "Retain as interface, survey or greeting material; not used as clinical lesson evidence.",
+      "review_scope": "File identity and role only; no clinical or audiovisual content verification."
+    },
+    {
+      "file": "rheumy_team_share/Rheumy_C_Long_Wavy_Hair_Greeting.mp4",
+      "source_id": null,
+      "sha256": "929e2b43a0d73a9e0ad0fef6b9fcecf48d60533d5bee48cfe2851adf46401f4e",
+      "status": "workflow_reference",
+      "candidate_lessons": [],
+      "decision": "Retain as interface, survey or greeting material; not used as clinical lesson evidence.",
+      "review_scope": "File identity and role only; no clinical or audiovisual content verification."
+    },
+    {
+      "file": "rheumy_team_share/Rheumy_Preference_Survey.pdf",
+      "source_id": null,
+      "sha256": "d3c6c59c9ab44bf647b520cfebe54b45399a01b20092e2345ccf82979e0e9022",
+      "status": "workflow_reference",
+      "candidate_lessons": [],
+      "decision": "Retain as interface, survey or greeting material; not used as clinical lesson evidence.",
+      "review_scope": "File identity and role only; no clinical or audiovisual content verification."
+    },
+    {
+      "file": "rheumy_team_share/Rheumy_v3.jpg",
+      "source_id": null,
+      "sha256": "08415c33f6dd1b799f9e0308e85700df5f7bedec436dc42d7a9556636b1c5848",
+      "status": "workflow_reference",
+      "candidate_lessons": [],
+      "decision": "Retain as interface, survey or greeting material; not used as clinical lesson evidence.",
+      "review_scope": "File identity and role only; no clinical or audiovisual content verification."
+    },
+    {
+      "file": "supplementary/doctor-patient.jpg",
+      "source_id": "src-supp-doctor-patient",
+      "sha256": "11eac03fc4101b392f71779b70e054355af50022207dc872bf532978a7934163",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Promoted from the existing supplementary collection for the listed draft lessons; original bytes preserved.",
+      "review_scope": "Visual inspection, checksum and attribution comparison with supplementary-media/manifest.json. No clinical approval claimed."
+    },
+    {
+      "file": "supplementary/mri-scan.jpg",
+      "source_id": "src-supp-mri-scan",
+      "sha256": "fd96f46f480d3956f621edadf3f2771f70b56af0c82363784a49bb9a2eb9a4a7",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Promoted from the existing supplementary collection for the listed draft lessons; original bytes preserved.",
+      "review_scope": "Visual inspection, checksum and attribution comparison with supplementary-media/manifest.json. No clinical approval claimed."
+    },
+    {
+      "file": "supplementary/eye-uveitis.jpg",
+      "source_id": "src-supp-eye-uveitis",
+      "sha256": "85925d895e9e59135bdc1e1245cf0e4afe7cfac074e1e9e80262d469622b5399",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Promoted from the existing supplementary collection for the listed draft lessons; original bytes preserved.",
+      "review_scope": "Visual inspection, checksum and attribution comparison with supplementary-media/manifest.json. No clinical approval claimed."
+    },
+    {
+      "file": "supplementary/digestive-system.jpg",
+      "source_id": "src-supp-digestive-system",
+      "sha256": "4f88c4b1e63d0473bb4b16e46dd9bf43a563db38907a347be0114745fd52af7a",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Promoted from the existing supplementary collection for the listed draft lessons; original bytes preserved.",
+      "review_scope": "Visual inspection, checksum and attribution comparison with supplementary-media/manifest.json. No clinical approval claimed."
+    },
+    {
+      "file": "supplementary/Red_Apple_high_resolution.jpg",
+      "source_id": "src-red-apple-high-resolution",
+      "sha256": "bfbaf6828607d9b94fb54056877497ac32926aa75c09de4abd61bc05ba24e2a7",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use high-resolution original to replace the blurred PDF thumbnail in education-03.",
+      "review_scope": "Visually checked original and display export; verified author and CC BY 2.0 license on Wikimedia Commons file page."
+    },
+    {
+      "file": "Achilles enthesitis.jpg",
+      "source_id": "src-achilles-enthesitis-illustration",
+      "sha256": "07292a32f40684ae16705551092fcc6a85dfa44e75aa040f24ad8933dfcba12b",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Heel X-ray with a bony spur (illustrative, AI-generated).jpg",
+      "source_id": null,
+      "sha256": "88b0f1371866d66a37515caaff289e95becec9a33cb1d43edbcfc3124617fc05",
+      "status": "superseded_asset",
+      "candidate_lessons": [],
+      "decision": "Removed from psa-dx-02 at the frontend lead's request: the lesson says a heel spur alone is not the CASPAR finding, so the picture did not illustrate the framework. AI-generated. Retained as an original history asset.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Nail psoriasis.jpg",
+      "source_id": "src-nail-psoriasis-illustration",
+      "sha256": "5f79a6f17a6d2c71e7a931b8e4eb35d768510b1e6587fc2929c7000c8ef22260",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Plantar fasciitis.jpg",
+      "source_id": "src-plantar-fasciitis-illustration",
+      "sha256": "0e94af17561900f3dbdccef33c54633cca1a9677a241a84f5bf30b52024463bf",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
+    },
+    {
+      "file": "Plaque psoriasis of the elbow.jpg",
+      "source_id": "src-skin-psoriasis-illustration",
+      "sha256": "f8b2f56cc64d9d5ac639da39902aca08252d915ae9020d03b96e8c17f3867e52",
+      "status": "lesson_source",
+      "candidate_lessons": [],
+      "decision": "Use only the portions listed in the lesson correspondence. Text use and image display are recorded separately.",
+      "review_scope": "Visual review of the source image and caption."
     }
   ]
 }

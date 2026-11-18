@@ -16,6 +16,10 @@ Blood tests help rule out other conditions, such as rheumatoid arthritis. X-rays
 
 Helliwell P, Coates LC, Gladman D. "Psoriatic Arthritis." In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, chap. 8. © Springer Nature Switzerland AG 2023. Used with permission.
 
+![An MRI scanner, one of the tests a clinician may use. Not everyone needs an MRI, and an image alone does not diagnose PsA.](../../media/mri-scan.jpg)
+
+Blausen Medical Communications, Inc. CC BY 3.0, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Blausen_0654_MRI_01.png. License: https://creativecommons.org/licenses/by/3.0. Attribution from the existing supplementary-media manifest; copied without further changes.
+
 ## Key takeaways
 
 - There is no single test for PsA.
@@ -115,5 +119,6 @@ Brief text; the lesson video carries the detail. Review the diagnostic pathway, 
 - [PsA One-Pager Intro](../../../originals/PsA%20One-Pager%20Intro.jpeg) ? Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs (lesson pages 1, 2; text). Which findings a clinician checks; psoriasis history and multi-area examination. Limits: The testing workflow, the no-single-test statement, the blood-test purpose and the see-a-doctor advice come from NIAMS and NHS, not this poster.
 - [Murphy’s Laws of Arthritis Preface](../../../originals/MURPHY%E2%80%99S%20LAWS%20OF%20ARTHRITIS%20%20PREFACE.docx) ? Paragraph 11: preparation and proactive monitoring (lesson pages 1; text). Bring a concise symptom history to the visit. Limits: Only the preparation idea is used. Diagnostic shortcuts in paragraphs 16-18 are not taught.
 - [Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8)](../../../originals/RheumNotes_PsA_Clinical_Images.pdf) ? Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray) (lesson pages 2; image). Spine X-ray: shows what an X-ray of the spine looks like. Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
+- [Picture of a person lying on the table of an MRI scanner.](../../../originals/supplementary/mri-scan.jpg) ? Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Blausen_0654_MRI_01.png (lesson pages 2; image). Shows what one of the imaging tests looks like. Limits: Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff.
 - [NIAMS: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take)
 - [NHS: Psoriatic arthritis](https://www.nhs.uk/conditions/psoriatic-arthritis/)

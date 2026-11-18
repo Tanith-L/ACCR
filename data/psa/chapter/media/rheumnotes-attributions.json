@@ -1,0 +1,133 @@
+[
+  {
+    "media_id": "psa-rheumnotes-shoulder",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 20,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:914_Shoulder_Joint.jpg",
+    "author": "OpenStax",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-shoulder.jpg",
+    "sha256": "043bf494d6ba6b4e2a171817bcd32a5b9e987e7edfaf4445f1452194971399c2"
+  },
+  {
+    "media_id": "psa-rheumnotes-hand",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 33,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:806_Hand_and_Wrist.jpg",
+    "author": "OpenStax",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-hand.jpg",
+    "sha256": "b8345f8f067b04c50d7754b8cca487bc132e84001ed87eacc02893069e55208c"
+  },
+  {
+    "media_id": "psa-rheumnotes-foot",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 63,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Gray268.png",
+    "author": "Henry Vandyke Carter (Gray's Anatomy)",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-foot.jpg",
+    "sha256": "86142528850c2f18a860df5a5355da106c1144b38ed83f1fce93cf104c4b3138"
+  },
+  {
+    "media_id": "psa-rheumnotes-spine",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 13,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:715_Vertebral_Column.jpg",
+    "author": "OpenStax",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-spine.jpg",
+    "sha256": "7d1c18eca04cb4dd4bdfd8f70ed74034dd1f435518636f0b259de90cb5ae980c"
+  },
+  {
+    "media_id": "psa-rheumnotes-elbow",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 27,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:915_Elbow_Joint.jpg",
+    "author": "OpenStax",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-elbow.jpg",
+    "sha256": "5a3508c3a7418246b806ab1006245649c13c8a06b589bc8fea84092edc04f504"
+  },
+  {
+    "media_id": "psa-rheumnotes-hip",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 41,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Sobo_1909_208.png",
+    "author": "Johannes Sobotta (Atlas, 1909)",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-hip.jpg",
+    "sha256": "086dff75d09b08ba1fa0106c17524285a45d9f0ddc5da496393e2ed953c3fc9a"
+  },
+  {
+    "media_id": "psa-rheumnotes-knee",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 49,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:917_Knee_Joint.jpg",
+    "author": "OpenStax",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-knee.jpg",
+    "sha256": "3d2c4ea9e819658bf7896515ab0986dcba5d6d2a064a750147334c68a21c2f1d"
+  },
+  {
+    "media_id": "psa-rheumnotes-ankle",
+    "source_id": "src-rheumnotes-anatomy-2026",
+    "pdf_page": 57,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:919_Ankle_Feet_Joints.jpg",
+    "author": "OpenStax",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-ankle.jpg",
+    "sha256": "42e724359de89e1b2ec3193c5eb072e0b434446c1e90022af348916ebd5e9df3"
+  },
+  {
+    "media_id": "psa-rheumnotes-quiet-pause",
+    "source_id": "src-rheumnotes-mind-2026",
+    "pdf_page": 16,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Praying_woman_in_a_park_(Unsplash).jpg",
+    "author": "Ben White",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-quiet-pause.jpg",
+    "sha256": "9b18f5f2495f3e4cf70ef969414514066fa69383332f6822b41a4e46ceceb07c"
+  },
+  {
+    "media_id": "psa-rheumnotes-fruit",
+    "source_id": "src-red-apple-high-resolution",
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Red_Apple.jpg",
+    "author": "Abhijit Tembhekar",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "changes": "Downloaded original Wikimedia photograph; resized from 2418 x 2192 to 1400 x 1269 and JPEG-compressed; no crop or added labels.",
+    "file": "rheumnotes-fruit-hd.jpg",
+    "sha256": "9b380ebe5e1161a7853dcb21ba4d9e36079593cbcec0ac4886aa92bd429fdb93"
+  },
+  {
+    "media_id": "psa-rheumnotes-sleep-routine",
+    "source_id": "src-rheumnotes-sleep-2026",
+    "pdf_page": 19,
+    "commons_url": "https://commons.wikimedia.org/wiki/File:Roman_numerals_on_alarm_clock_(Unsplash).jpg",
+    "author": "Ales Krivec",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Extracted, resized and JPEG-compressed; no new crop or labels.",
+    "file": "rheumnotes-sleep-routine.jpg",
+    "sha256": "ee36db0a59ae23f6e08eb1b8630db3ff56cdc6de11afb1eb5c340241c277bff9"
+  }
+]

@@ -1,0 +1,2 @@
+# Optional: only needed to regenerate lesson teaching diagrams.
+Pillow>=10,<13

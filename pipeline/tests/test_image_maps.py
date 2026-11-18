@@ -25,7 +25,7 @@ class ImageMapTests(unittest.TestCase):
     def test_real_library_has_all_registered_lessons_and_reachable_maps(self):
         self.assertEqual([], validate_export(self.library, self.schema))
         self.assertEqual(24, len(self.library["lessons"]))
-        self.assertTrue(all(l["status"] == "draft" for l in self.library["lessons"]))
+        self.assertTrue(all(l["status"] == "checked" for l in self.library["lessons"]))
         self.assertTrue(all(l["checks"]["fk_grade"] < 8 for l in self.library["lessons"]))
         for topic in self.library["topics"]:
             if "image_map" not in topic:
@@ -129,9 +129,10 @@ class ImageMapTests(unittest.TestCase):
     def test_grappa_poster_is_kept_for_the_app_and_all_assets_are_used(self):
         overview = next(t for t in self.library["topics"] if t["id"] == "overview")
         self.assertNotIn("image_map", overview)
-        # Lessons show only real images; the AI-generated GRAPPA poster stays for the app's Symptoms screen.
+        # The GRAPPA poster illustrates psa-overview-02 and is also the app's clickable Symptoms poster.
         lesson = next(l for l in self.library["lessons"] if l["id"] == "psa-overview-02")
-        self.assertEqual(lesson.get("images", []), [])
+        self.assertEqual(lesson.get("images", []), [{"media_id": "psa-overview-grappa-domains", "page": 1}])
+        self.assertTrue(all(l.get("images") for l in self.library["lessons"]))
         authored = json.loads((ROOT / "data/psa/assisted-input/all-topics.json").read_text(encoding="utf-8"))
         self.assertEqual(authored["app_posters"], ["psa-overview-grappa-domains"])
         used = set(authored["app_posters"])

@@ -35,7 +35,8 @@ Bibliographic references and source locators below support editorial review; no 
 ## Files and rebuild
 
 - `psa-content.json`: schema 1.3 export for backend import. Each lesson's claims includes a provenance record with resolved references and complete source_usage; these are not verified factual assertions.
-- `media/`: Symptoms navigation and original-derived lesson illustrations. No active home navigation image.
+- `media/`: Symptoms navigation, source-derived illustrations and editorial teaching diagrams. No active home navigation image.
+- `image-coverage.md`: every lesson's image, page, caption and source; all 24 lessons have an illustration.
 - `image-selection.md`: navigation and lesson-image choices. `source-review.md` / `source-review.html`: every original file and its lesson-level use, location and limits.
 - `overview.html`: full course preview (course overview -> topic -> lesson); `hotspot-preview.html` redirects here. Local visual preview with real lesson navigation and a hotspot debug toggle.
 - `evaluation.md`: measured checks and remaining review.
@@ -48,7 +49,7 @@ From the repository root:
 ```
 
 Canonical drafts: ../assisted-input/all-topics.json. Hotspots: ../assisted-input/image-maps.json.
-Supplied originals remain unchanged in ../originals/. Earlier generated navigation images are retained there as superseded history; the current home uses topic data only.
+Supplied source PDFs remain unchanged in ../originals/. The current home uses topic data only; removed historical navigation assets are not required for rebuilding.
 No database migrations, imports, or publication are run by this builder. Source originals and extracted text are now eligible for Git tracking.
 
 The existing importer media limit is under 500 KiB; all JPGs meet it. Replacing or cropping an image requires rechecking its hotspots.

@@ -1,0 +1,47 @@
+--- PDF page 1 ---
+RHEUMNOTES©
+ Image Licensing Summary
+ Anatomy Component White Paper and Anatomical Chart
+Bottom line
+No permission from the original sources is needed. Every image in the RheumNotes© Anatomy
+Component white paper and chart was selected because its license already allows reuse, including
+commercial use. Each license carries conditions, summarized below, that must be followed wherever
+the images are used.
+What was used
+The materials contain 78 real, openly licensed or public-domain images from Wikimedia Commons
+(sources include OpenStax, Gray's Anatomy, Sobotta 1909, BodyParts3D, Servier Medical Art and
+Mikael Häggström), plus 21 original drawn diagrams of exam maneuvers, each clearly labeled as an
+illustration. One image carrying a non-commercial license tag was deliberately excluded.
+License
+Images
+Conditions
+Public domain / CC0
+18
+None. Crediting is still good practice.
+CC BY (2.5, 3.0, 4.0)
+28
+Credit the creator, name the license, link to the source, and note any
+changes.
+CC BY-SA (2.0, 2.1 jp, 3.0,
+4.0)
+32
+Same credit rules, plus share-alike: any modified or adapted version of
+the image must be released under the same CC BY-SA license. Using
+the image unchanged is fine, and the license does not extend to
+surrounding RheumNotes© content.
+How attribution is handled
+Every image caption carries a short credit, and the Image Credits appendix of the white paper lists
+each file's title, author, license and source URL. These credits must stay with the images wherever
+they are reused.
+Guidance for the app build
+ Include an Image Credits screen (or equivalent) in the RheumNotes© app that carries the attributions
+for any image displayed.
+ Keep CC BY-SA images unmodified, or release any edited versions under CC BY-SA.
+ Where RheumNotes© wants to own an adapted image outright, replace the CC BY-SA image with a
+public-domain image or original artwork.
+ Before public launch, legal counsel will review the credits appendix.
+
+
+--- PDF page 2 ---
+This summary is for planning purposes and is not legal advice. Prepared November 12, 2026, by Frederick T. Murphy,
+DO, FACP, FACR.

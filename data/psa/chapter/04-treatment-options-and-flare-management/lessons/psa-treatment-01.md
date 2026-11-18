@@ -2,7 +2,7 @@
 
 AI-authored draft. Source-faithfulness and clinical review pending.
 
-Lesson: `psa-treatment-01` · Topic: `treatment` · About 1 minutes
+Lesson: `psa-treatment-01` · Topic: `treatment` · About 2 minutes
 
 ## Page 1
 
@@ -11,6 +11,12 @@ Treatment discussions start with what is active and what matters to you. The six
 ## Page 2
 
 Goals may include easing symptoms, protecting joints, and making daily tasks easier. Eye or bowel disease and other health conditions also matter. The team asks what you have tried before. They review your other medicines, side effects, and what matters to you. A treatment plan is chosen for a person, rather than from one symptom alone. A medicine that helps one domain may not cover every concern equally. Ask which parts of your disease the plan addresses and how progress will be checked.
+
+Bring one task you want to do more easily, such as getting dressed or walking to a shop. This gives the team a clear goal to discuss with you.
+
+![Shared treatment goals: describe what matters to you, review symptoms and other health needs, and agree how to check benefits, side effects and progress.](../../media/shared-treatment-goals.jpg)
+
+Original editorial diagram summarizing the lesson and its cited sources, not a source screenshot. Clinical review pending.
 
 ## Key takeaways
 
@@ -79,10 +85,10 @@ AI voice: en-US-AvaMultilingualNeural (Ava), rate -4%, pitch +2 Hz. Source: Micr
 
 ## References and reviewer notes
 
-Uses the GRAPPA poster as a domain framework, not as a treatment algorithm. No image-only drug selection, dose advice, or claims that all medicines cover all domains.
+Uses the GRAPPA poster as a domain framework, not as a treatment algorithm. No image-only drug selection, dose advice, or claims that all medicines cover all domains. Added image-reading guidance and practical discussion prompts; prompts are editorial examples, not source quotations.
 
 - [PsA One-Pager Intro](../../../originals/PsA%20One-Pager%20Intro.jpeg) ? Box B domains; related conditions; comorbidities that steer the drug (lesson pages 1, 2; text). Choice considers active domains plus eye, bowel and other health needs. Limits: Do not copy the abbreviated drug rules as patient instructions.
 - [GRAPPA domains in PsA](../../../originals/GRAPPA%20domains%20in%20PSA%20which%20guide%20treatment%20decisions.png) ? Six GRAPPA treatment domain cards (lesson pages 1; text). Names the six areas considered in goal setting; the poster is not displayed. Limits: Domain overview only, not a ranked treatment pathway.
-- [Management Guidelines of Arthritis and Autoimmune Diseases](../../../originals/Management%20Guidelines%20of%20Arthritis%20and%20Autoimmune%20Diseases.docx) ? Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership (lesson pages 2; text). Individual response, other illnesses and follow-up shape the plan. Limits: This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance.
+- [Management Guidelines of Arthritis and Autoimmune Diseases](../../../originals/Management%20Guidelines%20of%20Arthritis%20and%20Autoimmune%20Diseases.docx) ? Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership; editorial diagram: shared-treatment-goals (lesson pages 2; text_and_image). Individual response, other illnesses and follow-up shape the plan. Displays a lesson-specific editorial summary. Limits: This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance.
 - [NIAMS: Diagnosis, Treatment, and Steps to Take](https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take)
 - [GRAPPA 2021 domain-based treatment recommendations (published 2022)](https://www.nature.com/articles/s41584-022-00798-0)
