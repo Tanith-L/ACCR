@@ -1,8 +1,9 @@
 import { router, type Tabs } from 'expo-router';
-import type { ComponentProps } from 'react';
+import { useEffect, type ComponentProps } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { useRheumy } from '@/rheumy/RheumyContext';
 import { colors, fonts, minTouch, radius, spacing } from '@/theme';
 
 import { Icon, type IconName } from './Icon';
@@ -12,15 +13,21 @@ type TabBarProps = Parameters<NonNullable<ComponentProps<typeof Tabs>['tabBar']>
 const TABS: Record<string, { label: string; icon: IconName }> = {
   care: { label: 'Care Team', icon: 'user-plus' },
   '(home)': { label: 'Home', icon: 'home' },
-  rheumy: { label: 'Rheumy', icon: 'message-circle' },
   settings: { label: 'Settings', icon: 'settings' },
 };
 
-/** Care Team · Home · Rheumy · Settings, with a soft pill behind the active tab. */
+/** Care Team · Home · Settings, with a soft pill behind the active tab. */
 export function TabBar({ state, navigateToTab }: TabBarProps) {
   const insets = useSafeAreaInsets();
+  // The floating Rheumy button sits just above the bar, so it needs the bar's height.
+  const { setTabBarHeight } = useRheumy();
+  useEffect(() => () => setTabBarHeight(0), [setTabBarHeight]);
   return (
-    <View style={[styles.bar, { paddingBottom: Math.max(insets.bottom, spacing.md) }]} accessibilityRole="tablist">
+    <View
+      style={[styles.bar, { paddingBottom: Math.max(insets.bottom, spacing.md) }]}
+      accessibilityRole="tablist"
+      onLayout={(e) => setTabBarHeight(e.nativeEvent.layout.height)}
+    >
       {state.routes.map((route, index) => {
         const tab = TABS[route.name];
         if (!tab) return null;

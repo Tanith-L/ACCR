@@ -6,6 +6,8 @@ import { ActivityIndicator, View } from 'react-native';
 import { ToastProvider } from '@/components/Toast';
 import { PreferencesProvider } from '@/preferences/PreferencesContext';
 import { ProgressProvider } from '@/progress/ProgressContext';
+import { RheumyLauncher } from '@/rheumy/RheumyLauncher';
+import { RheumyProvider } from '@/rheumy/RheumyContext';
 import { colors } from '@/theme';
 
 export default function RootLayout() {
@@ -25,11 +27,15 @@ export default function RootLayout() {
     <PreferencesProvider>
       <ProgressProvider>
         <ToastProvider>
-          <StatusBar style="dark" />
-          <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.background } }}>
-            <Stack.Screen name="(tabs)" />
-            <Stack.Screen name="welcome" options={{ gestureEnabled: false }} />
-          </Stack>
+          <RheumyProvider>
+            <StatusBar style="dark" />
+            <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.background } }}>
+              <Stack.Screen name="(tabs)" />
+              <Stack.Screen name="welcome" options={{ gestureEnabled: false }} />
+            </Stack>
+            {/* The floating Rheumy button, over every screen. */}
+            <RheumyLauncher />
+          </RheumyProvider>
         </ToastProvider>
       </ProgressProvider>
     </PreferencesProvider>

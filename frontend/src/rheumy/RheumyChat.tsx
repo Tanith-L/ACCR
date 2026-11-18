@@ -1,10 +1,9 @@
-// Rheumy tab: a demo chatbot that answers questions from the RheumNotes lessons and
-// their source documents (rheumy-chat Edge Function), cites where each answer comes
-// from and can read answers aloud (rheumy-tts, Azure Speech voices Ava, Jenny, Emma).
-// Demo only: the content is not yet clinically reviewed, nothing is saved, and people
-// are asked not to type personal details. See docs/rheumy-chatbot.md.
+// The Rheumy chat sheet: answers from the RheumNotes lessons and their source documents
+// (rheumy-chat Edge Function), citations that open the lesson, and answers read aloud
+// (rheumy-tts, Azure voices Ava, Jenny, Emma). Opened from the floating button on every
+// screen (RheumyLauncher). Demo only: the content is not yet clinically reviewed, nothing
+// is saved, and people are asked not to type personal details. See docs/rheumy-chatbot.md.
 import { setAudioModeAsync, useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
-import { router } from 'expo-router';
 import { useEffect, useRef, useState } from 'react';
 import {
   ActivityIndicator,
@@ -23,20 +22,12 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Icon } from '@/components/Icon';
 import { Markdown } from '@/components/Markdown';
-import {
-  askRheumy,
-  rheumyConfig,
-  RheumyError,
-  speechUrl,
-  VOICES,
-  type ChatTurn,
-  type RheumyAnswer,
-  type RheumyCitation,
-  type VoiceId,
-} from '@/rheumy/client';
 import { colors, fonts, minTouch, radius, spacing, type } from '@/theme';
 
-const AVATAR = require('../../../assets/rheumy-avatar.jpg');
+import { rheumyConfig, speechUrl, VOICES, type RheumyCitation } from './client';
+import { useRheumy, type RheumyMessage } from './RheumyContext';
+
+export const RHEUMY_AVATAR = require('../../assets/rheumy-avatar.jpg');
 const MAX_CHARS = 600;
 const SUGGESTIONS = [
   'What is psoriatic arthritis?',
@@ -46,15 +37,7 @@ const SUGGESTIONS = [
   'What helps with sleep and tiredness?',
 ];
 
-interface Message {
-  id: number;
-  role: 'user' | 'assistant';
-  text: string;
-  answer?: RheumyAnswer;
-  error?: boolean;
-}
-
-function Citations({ items }: { items: RheumyCitation[] }) {
+function Citations({ items, onOpenLesson }: { items: RheumyCitation[]; onOpenLesson: (lessonId: string) => void }) {
   if (!items.length) return null;
   return (
     <View style={styles.cites}>
@@ -63,7 +46,7 @@ function Citations({ items }: { items: RheumyCitation[] }) {
         c.kind === 'lesson' ? (
           <Pressable
             key={c.n}
-            onPress={() => router.push({ pathname: '/lesson/[lessonId]', params: { lessonId: c.sourceId, back: 'Rheumy' } })}
+            onPress={() => onOpenLesson(c.sourceId)}
             accessibilityRole="link"
             accessibilityLabel={`Source ${c.n}: lesson ${c.title}. Opens the lesson.`}
             style={({ pressed }) => [styles.cite, pressed && { opacity: 0.6 }]}
@@ -85,47 +68,29 @@ function Citations({ items }: { items: RheumyCitation[] }) {
   );
 }
 
-export default function RheumyScreen() {
+export function RheumyChat({ onClose, onOpenLesson }: { onClose: () => void; onOpenLesson: (lessonId: string) => void }) {
   const insets = useSafeAreaInsets();
-  const [messages, setMessages] = useState<Message[]>([]);
+  const { messages, busy, voice, setVoice, send, clear } = useRheumy();
   const [draft, setDraft] = useState('');
-  const [busy, setBusy] = useState(false);
-  const [voice, setVoice] = useState<VoiceId>('ava');
   const [speaking, setSpeaking] = useState<number | null>(null);
   const [audioError, setAudioError] = useState<string | null>(null);
-  const nextId = useRef(1);
   const scroll = useRef<ScrollViewInstance | null>(null);
   const player = useAudioPlayer(null);
   const status = useAudioPlayerStatus(player);
+  // The answer being read aloud; none once playback has finished.
+  const speakingId = status.didJustFinish ? null : speaking;
 
   useEffect(() => {
     setAudioModeAsync({ playsInSilentMode: true }).catch(() => {});
   }, []);
-  // The answer being read aloud; none once playback has finished.
-  const speakingId = status.didJustFinish ? null : speaking;
 
-  const send = async (text: string) => {
-    const question = text.trim();
-    if (!question || busy) return;
-    const userMsg: Message = { id: nextId.current++, role: 'user', text: question };
-    const history: ChatTurn[] = [...messages, userMsg]
-      .filter((m) => !m.error)
-      .map((m) => ({ role: m.role, content: m.text }));
-    setMessages((prev) => [...prev, userMsg]);
+  const submit = (text: string) => {
+    if (!text.trim() || busy) return;
+    send(text);
     setDraft('');
-    setBusy(true);
-    try {
-      const answer = await askRheumy(history);
-      setMessages((prev) => [...prev, { id: nextId.current++, role: 'assistant', text: answer.answer, answer }]);
-    } catch (e) {
-      const msg = e instanceof RheumyError ? e.message : 'Something went wrong. Please try again.';
-      setMessages((prev) => [...prev, { id: nextId.current++, role: 'assistant', text: msg, error: true }]);
-    } finally {
-      setBusy(false);
-    }
   };
 
-  const listen = (m: Message) => {
+  const listen = (m: RheumyMessage) => {
     setAudioError(null);
     if (speakingId === m.id) {
       player.pause();
@@ -144,15 +109,15 @@ export default function RheumyScreen() {
     }
   };
 
-  const clear = () => {
+  const clearChat = () => {
     player.pause();
     setSpeaking(null);
-    setMessages([]);
+    clear();
   };
 
   const header = (
-    <View style={styles.header}>
-      <Image source={AVATAR} style={styles.avatar} accessibilityIgnoresInvertColors accessibilityLabel="Rheumy" />
+    <View style={[styles.header, { paddingTop: (Platform.OS === 'ios' ? spacing.md : insets.top) + spacing.sm }]}>
+      <Image source={RHEUMY_AVATAR} style={styles.avatar} accessibilityIgnoresInvertColors accessibilityLabel="Rheumy" />
       <View style={{ flex: 1 }}>
         <Text style={type.heading} accessibilityRole="header">
           Rheumy
@@ -160,16 +125,25 @@ export default function RheumyScreen() {
         <Text style={styles.subtitle}>Your PsA learning assistant · demo</Text>
       </View>
       {messages.length > 0 ? (
-        <Pressable onPress={clear} accessibilityRole="button" hitSlop={8} style={styles.clear}>
-          <Text style={styles.clearText}>Clear chat</Text>
+        <Pressable onPress={clearChat} accessibilityRole="button" hitSlop={8} style={styles.headerButton}>
+          <Text style={styles.clearText}>Clear</Text>
         </Pressable>
       ) : null}
+      <Pressable
+        onPress={onClose}
+        accessibilityRole="button"
+        accessibilityLabel="Close Rheumy"
+        hitSlop={8}
+        style={({ pressed }) => [styles.close, pressed && { opacity: 0.6 }]}
+      >
+        <Icon name="x" size={22} color={colors.text} />
+      </Pressable>
     </View>
   );
 
   if (!rheumyConfig.ok) {
     return (
-      <View style={[styles.root, { paddingTop: insets.top + spacing.sm }]}>
+      <View style={styles.root}>
         {header}
         <View style={[styles.notice, styles.setup]} accessibilityRole="alert">
           <Text style={styles.noticeTitle}>Rheumy isn’t set up in this build</Text>
@@ -184,7 +158,7 @@ export default function RheumyScreen() {
 
   return (
     <KeyboardAvoidingView style={styles.root} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
-      <View style={{ paddingTop: insets.top + spacing.sm }}>{header}</View>
+      {header}
       <ScrollView
         ref={scroll}
         style={{ flex: 1 }}
@@ -210,7 +184,7 @@ export default function RheumyScreen() {
             {SUGGESTIONS.map((s) => (
               <Pressable
                 key={s}
-                onPress={() => send(s)}
+                onPress={() => submit(s)}
                 accessibilityRole="button"
                 style={({ pressed }) => [styles.suggestion, pressed && { backgroundColor: colors.primarySoft }]}
               >
@@ -234,7 +208,7 @@ export default function RheumyScreen() {
                   <Text style={styles.urgentText}>{m.answer.notice}</Text>
                 </View>
               ) : null}
-              {m.answer ? <Citations items={m.answer.citations} /> : null}
+              {m.answer ? <Citations items={m.answer.citations} onOpenLesson={onOpenLesson} /> : null}
               {m.answer && m.answer.urgency !== 'emergency' ? (
                 <Pressable
                   onPress={() => listen(m)}
@@ -260,7 +234,7 @@ export default function RheumyScreen() {
         {audioError ? <Text style={[styles.subtitle, { color: colors.danger }]}>{audioError}</Text> : null}
       </ScrollView>
 
-      <View style={[styles.composer, { paddingBottom: spacing.sm }]}>
+      <View style={[styles.composer, { paddingBottom: Math.max(insets.bottom, spacing.sm) }]}>
         <View style={styles.voiceRow} accessibilityRole="radiogroup" accessibilityLabel="Voice for reading answers aloud">
           <Text style={styles.voiceLabel}>Voice</Text>
           {VOICES.map((v) => (
@@ -285,16 +259,20 @@ export default function RheumyScreen() {
             multiline
             style={styles.input}
             accessibilityLabel="Your question for Rheumy"
-            onSubmitEditing={() => send(draft)}
+            onSubmitEditing={() => submit(draft)}
             blurOnSubmit
             returnKeyType="send"
           />
           <Pressable
-            onPress={() => send(draft)}
+            onPress={() => submit(draft)}
             disabled={busy || !draft.trim()}
             accessibilityRole="button"
             accessibilityLabel="Send question"
-            style={({ pressed }) => [styles.send, (busy || !draft.trim()) && { backgroundColor: colors.primaryDisabled }, pressed && { opacity: 0.8 }]}
+            style={({ pressed }) => [
+              styles.send,
+              (busy || !draft.trim()) && { backgroundColor: colors.primaryDisabled },
+              pressed && { opacity: 0.8 },
+            ]}
           >
             <Icon name="send" size={20} color={colors.primaryText} />
           </Pressable>
@@ -306,11 +284,20 @@ export default function RheumyScreen() {
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: colors.background },
-  header: { flexDirection: 'row', alignItems: 'center', gap: spacing.md, paddingHorizontal: spacing.xl, paddingBottom: spacing.sm },
-  avatar: { width: 52, height: 52, borderRadius: 26, backgroundColor: colors.surface },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    paddingHorizontal: spacing.xl,
+    paddingBottom: spacing.sm,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: colors.border,
+  },
+  avatar: { width: 48, height: 48, borderRadius: 24, backgroundColor: colors.surface },
   subtitle: { ...type.caption, fontSize: 13, lineHeight: 18 },
-  clear: { minHeight: minTouch, justifyContent: 'center' },
+  headerButton: { minHeight: minTouch, justifyContent: 'center' },
   clearText: { ...type.caption, color: colors.primary, fontFamily: fonts.semibold },
+  close: { width: minTouch, height: minTouch, borderRadius: minTouch / 2, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.imagePanel },
   thread: { paddingHorizontal: spacing.xl, paddingVertical: spacing.md, gap: spacing.md },
   notice: { backgroundColor: colors.accentSoft, borderRadius: radius.md, padding: spacing.md, gap: spacing.xs },
   setup: { marginHorizontal: spacing.xl, marginTop: spacing.lg },
@@ -371,5 +358,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: colors.text,
   },
-  send: { width: minTouch + 4, height: minTouch + 4, borderRadius: (minTouch + 4) / 2, alignItems: 'center', justifyContent: 'center', backgroundColor: colors.primary },
+  send: {
+    width: minTouch + 4,
+    height: minTouch + 4,
+    borderRadius: (minTouch + 4) / 2,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: colors.primary,
+  },
 });

@@ -7,7 +7,7 @@ Rheumy is the app's PsA learning assistant. It answers questions from the RheumN
 ## 1. How it fits together
 
 ```
-Website / phone app (frontend, Rheumy tab)
+Website / phone app (frontend: floating Rheumy button on every screen)
    │  apikey: publishable key (public)          ← the only key in the app
    ▼
 Supabase Edge Functions (backend/supabase/functions)
@@ -109,7 +109,7 @@ EXPO_PUBLIC_SUPABASE_URL=https://<project-ref>.supabase.co
 EXPO_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_...
 ```
 
-Restart `npx expo start`. Without these two values the Rheumy tab says exactly which setting is missing. If the server is missing a secret, the chat replies that it isn't set up and the function's 503 response lists the missing names.
+Restart `npx expo start`. Rheumy is a floating button (bottom right, above the tab bar) on every screen except the one-time welcome screen; it opens the chat as a sheet, and closing the sheet keeps the conversation until the app is closed. Without these two values the chat says exactly which setting is missing. If the server is missing a secret, the chat replies that it isn't set up and the function's 503 response lists the missing names.
 
 ## 5. Deploy the website
 

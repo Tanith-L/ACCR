@@ -30,6 +30,9 @@ interface Props {
   scrollRef?: RefObject<ScrollViewInstance | null>;
 }
 
+/** The floating Rheumy button's height plus a gap (src/rheumy/RheumyLauncher.tsx). */
+const RHEUMY_BUTTON_ROOM = 72;
+
 export function Screen({ children, header, actions, onRefresh, scrollKey, standalone, onScroll, onContentSizeChange, scrollRef }: Props) {
   const insets = useSafeAreaInsets();
   const ownScroll = useRef<ScrollViewInstance>(null);
@@ -58,7 +61,8 @@ export function Screen({ children, header, actions, onRefresh, scrollKey, standa
         contentContainerStyle={[
           styles.content,
           { paddingTop: header ? spacing.md : spacing.xl },
-          { paddingBottom: (standalone ? insets.bottom : 0) + spacing.xl },
+          // Extra room at the end so the last lines can scroll clear of the floating Rheumy button.
+          { paddingBottom: (standalone ? insets.bottom : 0) + spacing.xl + RHEUMY_BUTTON_ROOM },
         ]}
         refreshControl={
           onRefresh ? <RefreshControl refreshing={false} onRefresh={onRefresh} tintColor={colors.primary} /> : undefined
