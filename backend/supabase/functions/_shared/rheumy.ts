@@ -170,11 +170,19 @@ export function citationsFor(answer: string, passages: Passage[]): Citation[] {
     });
 }
 
-// Narration voices, as in the lesson videos (Azure Speech names).
-export const VOICES: Record<string, string> = {
-  ava: "en-US-AvaMultilingualNeural",
-  jenny: "en-US-JennyNeural",
-  emma: "en-US-EmmaNeural",
+// The five narration voices, as in the lesson videos: three Microsoft voices through the
+// official Azure Speech API, and two Kokoro-82M voices from our own Kokoro service
+// (services/kokoro-tts), since Kokoro can't run inside an Edge Function.
+export interface Voice {
+  engine: "azure" | "kokoro";
+  name: string;
+}
+export const VOICES: Record<string, Voice> = {
+  ava: { engine: "azure", name: "en-US-AvaMultilingualNeural" },
+  jenny: { engine: "azure", name: "en-US-JennyNeural" },
+  emma: { engine: "azure", name: "en-US-EmmaNeural" },
+  heart: { engine: "kokoro", name: "af_heart" },
+  bella: { engine: "kokoro", name: "af_bella" },
 };
 
 /** Answer text as it should be spoken: no citation marks, Markdown or bare symbols. */

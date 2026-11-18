@@ -24,7 +24,7 @@ import { Icon } from '@/components/Icon';
 import { Markdown } from '@/components/Markdown';
 import { colors, fonts, minTouch, radius, spacing, type } from '@/theme';
 
-import { rheumyConfig, speechUrl, VOICES, type RheumyCitation } from './client';
+import { rheumyConfig, speechParts, speechUrl, VOICES, type RheumyCitation } from './client';
 import { useRheumy, type RheumyMessage } from './RheumyContext';
 
 export const RHEUMY_AVATAR = require('../../assets/rheumy-avatar.jpg');
@@ -36,6 +36,11 @@ const SUGGESTIONS = [
   'How can I get ready for a doctor visit?',
   'What helps with sleep and tiredness?',
 ];
+
+/** Asks for an audio part ahead of time; the voice service keeps it, so it plays at once. */
+function prefetch(url: string | undefined) {
+  if (url) fetch(url).catch(() => {});
+}
 
 function Citations({ items, onOpenLesson }: { items: RheumyCitation[]; onOpenLesson: (lessonId: string) => void }) {
   if (!items.length) return null;
@@ -77,12 +82,37 @@ export function RheumyChat({ onClose, onOpenLesson }: { onClose: () => void; onO
   const scroll = useRef<ScrollViewInstance | null>(null);
   const player = useAudioPlayer(null);
   const status = useAudioPlayerStatus(player);
-  // The answer being read aloud; none once playback has finished.
-  const speakingId = status.didJustFinish ? null : speaking;
+  const speakingId = speaking; // the answer being read aloud
+  // The parts of that answer still to play (Heart and Bella read sentence by sentence).
+  const queue = useRef<{ urls: string[]; index: number; fetchedAhead: number } | null>(null);
 
   useEffect(() => {
     setAudioModeAsync({ playsInSilentMode: true }).catch(() => {});
   }, []);
+
+  // Once a part is playing, ask for the next one so it's ready in time (not sooner: the
+  // voice service makes one clip at a time, and the part being played comes first).
+  // When a part finishes, play the next.
+  useEffect(() => {
+    const sub = player.addListener('playbackStatusUpdate', (s) => {
+      const q = queue.current;
+      if (!q) return;
+      if (s.playing && q.fetchedAhead < q.index + 1) {
+        q.fetchedAhead = q.index + 1;
+        prefetch(q.urls[q.index + 1]);
+      }
+      if (!s.didJustFinish) return;
+      if (q.index + 1 < q.urls.length) {
+        q.index += 1;
+        player.replace({ uri: q.urls[q.index] });
+        player.play();
+      } else {
+        queue.current = null;
+        setSpeaking(null);
+      }
+    });
+    return () => sub.remove();
+  }, [player]);
 
   const submit = (text: string) => {
     if (!text.trim() || busy) return;
@@ -94,16 +124,22 @@ export function RheumyChat({ onClose, onOpenLesson }: { onClose: () => void; onO
     setAudioError(null);
     if (speakingId === m.id) {
       player.pause();
+      queue.current = null;
       setSpeaking(null);
       return;
     }
-    const uri = speechUrl(m.text, voice);
-    if (!uri) return;
+    const bySentence = VOICES.find((v) => v.id === voice)?.sentenceBySentence ?? false;
+    const urls = (bySentence ? speechParts(m.text) : [m.text])
+      .map((t) => speechUrl(t, voice))
+      .filter((u): u is string => !!u);
+    if (!urls.length) return;
     try {
-      player.replace({ uri });
+      queue.current = { urls, index: 0, fetchedAhead: 0 };
+      player.replace({ uri: urls[0] });
       player.play();
       setSpeaking(m.id);
     } catch {
+      queue.current = null;
       setAudioError('The answer can’t be read aloud right now.');
       setSpeaking(null);
     }
@@ -111,6 +147,7 @@ export function RheumyChat({ onClose, onOpenLesson }: { onClose: () => void; onO
 
   const clearChat = () => {
     player.pause();
+    queue.current = null;
     setSpeaking(null);
     clear();
   };
@@ -176,7 +213,7 @@ export function RheumyChat({ onClose, onOpenLesson }: { onClose: () => void; onO
 
         <View style={[styles.bubble, styles.assistant]}>
           <Text style={styles.bubbleText}>
-            Hi, I’m Rheumy. I can explain what RheumNotes teaches about psoriatic arthritis. What would you like to know?
+            Hi, I’m Rheumy! I’m here to help you understand your arthritis and feel your best.
           </Text>
         </View>
         {messages.length === 0 ? (
@@ -338,7 +375,7 @@ const styles = StyleSheet.create({
     borderTopColor: colors.border,
     backgroundColor: colors.surface,
   },
-  voiceRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
+  voiceRow: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: spacing.xs },
   voiceLabel: { ...type.caption, fontSize: 13, marginRight: spacing.xs },
   voice: { paddingHorizontal: spacing.md, paddingVertical: 6, borderRadius: radius.pill, borderWidth: 1, borderColor: colors.primary },
   voiceOn: { backgroundColor: colors.primary },

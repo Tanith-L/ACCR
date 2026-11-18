@@ -1,6 +1,6 @@
 # Rheumy chatbot: setup, credentials and deployment
 
-Rheumy is the app's PsA learning assistant. It answers questions from the RheumNotes lessons and the source documents they cite, shows where each answer comes from, and can read answers aloud in the Ava, Jenny or Emma voice.
+Rheumy is the app's PsA learning assistant. It answers questions from the RheumNotes lessons and the source documents they cite, shows where each answer comes from, and can read answers aloud in five voices: Ava, Jenny and Emma (Azure Speech) and Heart and Bella (Kokoro).
 
 **Status: demo only.** The lessons are `checked` drafts and the source documents are written for clinicians; none of it is clinically reviewed yet (Rubric B pending). Use Rheumy for team and client demonstrations, not with patients, until Dr. Murphy and the team approve it. Nothing a user types is stored.
 
@@ -15,7 +15,9 @@ Supabase Edge Functions (backend/supabase/functions)
    │                → gte-small embedding (built into Supabase, no key)
    │                → rheumy_search (pgvector + keyword, migration 0009)
    │                → Groq LLM (GROQ_API_KEY)  → answer + citations
-   ├─ rheumy-tts    answer text → Azure AI Speech (AZURE_SPEECH_KEY) → MP3
+   ├─ rheumy-tts    answer text → Azure AI Speech (Ava, Jenny, Emma)  → MP3
+   │                            → Kokoro service (Heart, Bella)       → MP3
+   │                              services/kokoro-tts, separately hosted (KOKORO_TTS_URL/KEY)
    └─ rheumy-ingest passages from backend/scripts/rheumy_ingest.py → embeddings → table
 Supabase Postgres: public.rheumy_chunks (RLS on, no policies; only the functions read it)
 ```
@@ -25,7 +27,7 @@ Supabase Postgres: public.rheumy_chunks (RLS on, no policies; only the functions
 | **Groq**, model `openai/gpt-oss-120b` | Writing answers | Free plan: 30 requests/min, 1,000 requests/day, 8,000 tokens/min, 200,000 tokens/day for this model ([rate limits](https://console.groq.com/docs/rate-limits); your exact limits are in the console) | `GROQ_API_KEY` |
 | **Azure AI Speech** (F0) | Reading answers aloud | 0.5 million characters/month of neural text to speech, 20 requests per 60 seconds, not adjustable ([pricing](https://azure.microsoft.com/en-us/pricing/details/speech/), [quotas](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-services-quotas-and-limits)) | `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION` |
 | **Supabase** (free plan) | Database, search, Edge Functions, embeddings | gte-small embeddings run inside Edge Functions at no extra cost ([AI models](https://supabase.com/docs/guides/functions/ai-models)) | Project URL, publishable key, secret key |
-| **Kokoro-82M** (`af_heart`, `af_bella`) | Offline narration samples for the lesson videos | Open source (Apache-2.0), runs on our computer | none |
+| **Kokoro-82M** (`af_heart`, `af_bella`) | Heart and Bella voices (chat and lesson-video samples) | Open source (Apache-2.0), runs on our own server: `services/kokoro-tts` | `KOKORO_TTS_KEY` (our own shared key) |
 
 ### Why Groq and not Gemini Flash
 
@@ -35,11 +37,11 @@ Both were checked against their official terms on 2026-11-18.
 - **Groq** ([Services Agreement](https://console.groq.com/docs/legal/services-agreement), last modified 2026-06-22; [Your Data](https://console.groq.com/docs/your-data)): "Groq is not permitted to use Inputs or Outputs for training", inference data is not retained by default (up to 30 days only for abuse investigation), and **Zero Data Retention** can be turned on. It is also very fast and OpenAI-compatible.
 - Groq's terms still apply: users must be 18+, the service is "not for consumer use", it "should not be used for medical, legal, financial, or other professional advice", and PHI needs a Business Associate Addendum. That is why Rheumy is a demo, teaches rather than advises, and strips personal details. **Patient use needs the team's and Dr. Murphy's sign-off and a BAA review first.**
 
-### Why Azure for the chat voices, and Kokoro only offline
+### The five voices
 
 Ava, Jenny and Emma are Microsoft voices. The lesson videos made them through the unofficial `edge-tts` client, which Microsoft says is not for commercial use; the chatbot uses the **official Azure Speech REST API** instead. All three are listed for en-US in [Azure's voice list](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts): `en-US-AvaMultilingualNeural`, `en-US-JennyNeural`, `en-US-EmmaNeural`.
 
-Kokoro (`af_heart`, `af_bella`) is installed in `pipeline/lesson_video/.venv` with its model in `pipeline/lesson_video/.cache/kokoro/`, and its voice samples are in `frontend/assets/voice-demo/heart` and `/bella`. Kokoro needs a 325 MB model and real CPU time, so it can't run inside an Edge Function; live Kokoro answers would need an always-on server, which the project rules exclude. Options for later: run Kokoro in the browser (`kokoro-js`, large download per visitor) or host one small server for it.
+Heart and Bella are Kokoro-82M voices (`af_heart`, `af_bella`). Kokoro needs a 325 MB model and real CPU time, so it can't run inside an Edge Function: it runs in our own small service, [`services/kokoro-tts`](../services/kokoro-tts/README.md), which `rheumy-tts` calls with a shared key. Nothing goes to a third party. It is slower than Azure (about 3 seconds per sentence on this MacBook), so the app reads Heart and Bella answers sentence by sentence and asks for the next sentence while one plays. Kokoro misreads a few words, so the service respells them (PsA, psoriasis, uveitis, sacroiliac…). **For the deployed website the service needs a host, which is an always-on server: a team decision** (see its README). Without it, Heart and Bella say "not set up" and the Azure voices keep working.
 
 ## 2. Get the credentials (you do these steps)
 
@@ -62,7 +64,7 @@ Reuse the team project if it exists: ask Vanshika (Backend Lead) for the project
 
 | Value | Put it in | Never in |
 |---|---|---|
-| `GROQ_API_KEY`, `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION`, `RHEUMY_ALLOWED_ORIGINS` | Supabase Edge Function secrets (and `backend/supabase/functions/.env` locally, git-ignored) | the app, git |
+| `GROQ_API_KEY`, `AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION`, `KOKORO_TTS_URL`, `KOKORO_TTS_KEY`, `RHEUMY_ALLOWED_ORIGINS` | Supabase Edge Function secrets (and `backend/supabase/functions/.env` locally, git-ignored) | the app, git |
 | Supabase URL + **publishable** key | `frontend/.env.local` as `EXPO_PUBLIC_SUPABASE_URL` / `EXPO_PUBLIC_SUPABASE_ANON_KEY`; root `.env` as `SUPABASE_URL` / `SUPABASE_ANON_KEY` | — (public by design) |
 | Supabase **secret** key, DB URL | root `.env` as `SUPABASE_SERVICE_KEY` / `SUPABASE_DB_URL` (git-ignored) | the app, git, Edge secrets (provided automatically) |
 
@@ -109,7 +111,7 @@ EXPO_PUBLIC_SUPABASE_URL=https://<project-ref>.supabase.co
 EXPO_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_...
 ```
 
-Restart `npx expo start`. Rheumy is a floating button (bottom right, above the tab bar) on every screen except the one-time welcome screen; it opens the chat as a sheet, and closing the sheet keeps the conversation until the app is closed. Without these two values the chat says exactly which setting is missing. If the server is missing a secret, the chat replies that it isn't set up and the function's 503 response lists the missing names.
+Restart `npx expo start`. Rheumy greets people with "Hi, I'm Rheumy! I'm here to help you understand your arthritis and feel your best." It is a floating button (bottom right, above the tab bar) on every screen except the one-time welcome screen; it opens the chat as a sheet, and closing the sheet keeps the conversation until the app is closed. Without these two values the chat says exactly which setting is missing. If the server is missing a secret, the chat replies that it isn't set up and the function's 503 response lists the missing names.
 
 ## 5. Deploy the website
 

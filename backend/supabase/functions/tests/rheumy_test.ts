@@ -12,6 +12,7 @@ import {
   speechText,
   ssml,
   urgencyOf,
+  VOICES,
 } from "../_shared/rheumy.ts";
 
 const passage = (n: number, kind: "lesson" | "source" = "lesson"): Passage => ({
@@ -75,6 +76,11 @@ Deno.test("citationsFor returns only the passages the answer cites, in order", (
   const cites = citationsFor("PsA affects joints [2]. Skin too [1][2]. Bogus [9].", [passage(1), passage(2)]);
   assertEquals(cites.map((c) => c.n), [1, 2]);
   assertEquals(cites[1].sourceId, "psa-dx-02");
+});
+
+Deno.test("five voices: three Azure, two Kokoro", () => {
+  assertEquals(Object.keys(VOICES), ["ava", "jenny", "emma", "heart", "bella"]);
+  assertEquals(Object.values(VOICES).map((v) => v.engine), ["azure", "azure", "azure", "kokoro", "kokoro"]);
 });
 
 Deno.test("speechText and ssml prepare safe text for Azure", () => {

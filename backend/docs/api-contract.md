@@ -201,9 +201,9 @@ Up to the last 8 turns are used; the last must be the user's, at most 600 charac
 
 `[n]` marks in `answer` refer to `citations[].n`. `kind: "lesson"` cites a lesson the app can open (`sourceId` is the lesson id); `kind: "source"` cites a clinician document (not openable in the app). `urgency` is `"urgent"` (with a `notice` to show) or `"emergency"` (then `answer` is a fixed "call 911" message and no LLM is called).
 
-### 9.2 Read aloud: `GET /rheumy-tts?voice=<ava|jenny|emma>&text=<answer>&apikey=<publishable key>`
+### 9.2 Read aloud: `GET /rheumy-tts?voice=<ava|jenny|emma|heart|bella>&text=<answer>&apikey=<publishable key>`
 
-Returns `audio/mpeg` (Azure AI Speech: Ava = `en-US-AvaMultilingualNeural`, Jenny = `en-US-JennyNeural`, Emma = `en-US-EmmaNeural`). Usable directly as an audio source URL; the key in it is the public one. Text up to 1500 characters; citation marks are dropped. `POST` with `{ "voice", "text" }` also works.
+Returns `audio/mpeg` (Azure AI Speech: Ava = `en-US-AvaMultilingualNeural`, Jenny = `en-US-JennyNeural`, Emma = `en-US-EmmaNeural`; our Kokoro service: Heart = `af_heart`, Bella = `af_bella`). Kokoro is slower, so the app requests Heart and Bella one sentence at a time. Usable directly as an audio source URL; the key in it is the public one. Text up to 1500 characters; citation marks are dropped. `POST` with `{ "voice", "text" }` also works.
 
 ### 9.3 Errors (both functions)
 

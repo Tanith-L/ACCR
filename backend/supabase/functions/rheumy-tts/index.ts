@@ -4,9 +4,12 @@
 // POST /functions/v1/rheumy-tts  { "voice": "jenny", "text": "..." }  headers: apikey
 // 200 audio/mpeg (24 kHz mono MP3)
 //
-// Voices: ava (en-US-AvaMultilingualNeural), jenny (en-US-JennyNeural), emma (en-US-EmmaNeural).
+// Voices: ava (en-US-AvaMultilingualNeural), jenny (en-US-JennyNeural), emma (en-US-EmmaNeural)
+// through Azure; heart (af_heart) and bella (af_bella) through our Kokoro service
+// (services/kokoro-tts), which this function calls with a shared key.
 // The Azure key stays here: the function swaps it for a 10-minute token (reused for 9).
-// Settings: AZURE_SPEECH_KEY, AZURE_SPEECH_REGION (e.g. eastus), RHEUMY_ALLOWED_ORIGINS.
+// Settings: AZURE_SPEECH_KEY, AZURE_SPEECH_REGION (e.g. eastus) for the Azure voices;
+// KOKORO_TTS_URL, KOKORO_TTS_KEY for Heart and Bella; RHEUMY_ALLOWED_ORIGINS.
 import {
   callerKey,
   corsHeaders,
@@ -21,9 +24,14 @@ import {
 } from "../_shared/http.ts";
 import { MAX_SPEECH_CHARS, speechText, ssml, VOICES } from "../_shared/rheumy.ts";
 
-const REQUIRED = ["AZURE_SPEECH_KEY", "AZURE_SPEECH_REGION"];
-const startupMissing = missingSettings(REQUIRED);
-if (startupMissing.length) console.error(`rheumy-tts: missing settings: ${startupMissing.join(", ")}`);
+const REQUIRED = {
+  azure: ["AZURE_SPEECH_KEY", "AZURE_SPEECH_REGION"],
+  kokoro: ["KOKORO_TTS_URL", "KOKORO_TTS_KEY"],
+};
+for (const [engine, names] of Object.entries(REQUIRED)) {
+  const missing = missingSettings(names);
+  if (missing.length) console.error(`rheumy-tts: ${engine} voices unavailable, missing settings: ${missing.join(", ")}`);
+}
 
 const allow = rateLimiter(20); // the F0 tier allows 20 requests per 60 seconds in total
 let token: { value: string; until: number } | null = null;
@@ -45,6 +53,18 @@ async function azureToken(): Promise<string> {
   return token.value;
 }
 
+async function kokoro(text: string, voice: string): Promise<{ audio: ArrayBuffer; type: string }> {
+  const res = await fetch(`${Deno.env.get("KOKORO_TTS_URL")!.trim().replace(/\/+$/, "")}/tts`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-Kokoro-Key": Deno.env.get("KOKORO_TTS_KEY")!.trim() },
+    body: JSON.stringify({ voice, text }),
+    signal: AbortSignal.timeout(60_000),
+  });
+  if (res.status === 401) throw Object.assign(new Error("kokoro_auth"), { status: 502 });
+  if (!res.ok) throw new Error(`Kokoro service answered ${res.status}`);
+  return { audio: await res.arrayBuffer(), type: res.headers.get("content-type") ?? "audio/mpeg" };
+}
+
 async function synthesize(text: string, voice: string): Promise<ArrayBuffer> {
   const send = async () =>
     fetch(`https://${region()}.tts.speech.microsoft.com/cognitiveservices/v1`, {
@@ -55,7 +75,7 @@ async function synthesize(text: string, voice: string): Promise<ArrayBuffer> {
         "X-Microsoft-OutputFormat": "audio-24khz-48kbitrate-mono-mp3",
         "User-Agent": "rheumnotes-rheumy",
       },
-      body: ssml(text, VOICES[voice]),
+      body: ssml(text, VOICES[voice].name),
       signal: AbortSignal.timeout(30_000),
     });
   let res = await send();
@@ -74,8 +94,6 @@ Deno.serve(async (req) => {
   if (originRejected(req)) return json(req, { error: "origin_not_allowed" }, 403);
   if (req.method !== "GET" && req.method !== "POST") return json(req, { error: "method_not_allowed" }, 405);
 
-  const missing = missingSettings(REQUIRED);
-  if (missing.length) return notConfigured(req, missing);
   if (!keyIsOneOf(callerKey(req), publishableKeys())) {
     return json(req, { error: "unauthorized", message: "Send the project's publishable (anon) key." }, 401);
   }
@@ -97,6 +115,9 @@ Deno.serve(async (req) => {
     }
   }
   if (!(voice in VOICES)) return json(req, { error: "bad_request", message: `voice must be one of: ${Object.keys(VOICES).join(", ")}` }, 400);
+  const engine = VOICES[voice].engine;
+  const missing = missingSettings(REQUIRED[engine]);
+  if (missing.length) return notConfigured(req, missing);
   const text = speechText(raw);
   if (!text) return json(req, { error: "bad_request", message: "text is required" }, 400);
   if (text.length > MAX_SPEECH_CHARS) {
@@ -104,16 +125,19 @@ Deno.serve(async (req) => {
   }
 
   try {
-    const audio = await synthesize(text, voice);
+    const { audio, type } = engine === "kokoro"
+      ? await kokoro(text, voice)
+      : { audio: await synthesize(text, voice), type: "audio/mpeg" };
     return new Response(audio, {
-      headers: { ...corsHeaders(req), "Content-Type": "audio/mpeg", "Cache-Control": "private, max-age=3600" },
+      headers: { ...corsHeaders(req), "Content-Type": type, "Cache-Control": "private, max-age=3600" },
     });
   } catch (e) {
     const status = (e as { status?: number }).status;
     if (status === 429) return json(req, { error: "busy", message: "The voice service is busy. Please try again in a minute." }, 503);
     if (status === 502) {
-      console.error("rheumy-tts: Azure rejected AZURE_SPEECH_KEY or region");
-      return json(req, { error: "tts_auth", message: "The voice service rejected the key. Check AZURE_SPEECH_KEY and AZURE_SPEECH_REGION." }, 502);
+      const names = engine === "kokoro" ? "KOKORO_TTS_KEY" : "AZURE_SPEECH_KEY and AZURE_SPEECH_REGION";
+      console.error(`rheumy-tts: the ${engine} voice service rejected the key`);
+      return json(req, { error: "tts_auth", message: `The voice service rejected the key. Check ${names}.` }, 502);
     }
     console.error("rheumy-tts:", e instanceof Error ? e.message : e);
     return json(req, { error: "server_error", message: "Couldn't make the audio just now." }, 500);

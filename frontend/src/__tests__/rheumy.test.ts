@@ -1,4 +1,4 @@
-import { askRheumy, readRheumyConfig, RheumyError, speechUrl, type RheumyConfig } from '@/rheumy/client';
+import { askRheumy, plainSpeech, readRheumyConfig, RheumyError, speechParts, speechUrl, VOICES, type RheumyConfig } from '@/rheumy/client';
 
 const ok = readRheumyConfig('https://abc.supabase.co/', 'sb_publishable_123') as Extract<RheumyConfig, { ok: true }>;
 
@@ -80,8 +80,31 @@ describe('speechUrl', () => {
     const url = new URL(speechUrl('PsA can affect skin [1] and nails [2].', 'jenny', ok)!);
     expect(url.origin + url.pathname).toBe('https://abc.supabase.co/functions/v1/rheumy-tts');
     expect(url.searchParams.get('voice')).toBe('jenny');
-    expect(url.searchParams.get('text')).toBe('PsA can affect skin and nails .');
+    expect(url.searchParams.get('text')).toBe('PsA can affect skin and nails.');
     expect(url.searchParams.get('apikey')).toBe('sb_publishable_123');
     expect(speechUrl('x', 'ava', readRheumyConfig('', ''))).toBeNull();
+  });
+});
+
+describe('voices and reading aloud', () => {
+  it('offers the five voices; Heart and Bella are read sentence by sentence', () => {
+    expect(VOICES.map((v) => v.id)).toEqual(['ava', 'jenny', 'emma', 'heart', 'bella']);
+    expect(VOICES.filter((v) => v.sentenceBySentence).map((v) => v.id)).toEqual(['heart', 'bella']);
+  });
+
+  it('plainSpeech drops citation marks, Markdown and bullets', () => {
+    expect(plainSpeech('PsA can affect **skin** [1].\n- Nails [2]\n- Joints\n1. Morning stiffness')).toBe('PsA can affect skin. Nails. Joints. Morning stiffness.');
+  });
+
+  it('speechParts starts with one short sentence, then groups sentences without losing any text', () => {
+    const answer = 'First sentence here [1]. Second one is a bit longer. Third! Fourth? ' + 'Word '.repeat(60).trim() + '.';
+    const parts = speechParts(answer, 120);
+    expect(parts[0]).toBe('First sentence here.');
+    expect(parts[1]).toBe('Second one is a bit longer. Third! Fourth?');
+    expect(parts.join(' ').replace(/\s+/g, ' ')).toBe(plainSpeech(answer).replace(/\s+/g, ' '));
+    expect(speechParts('')).toEqual([]);
+    const long = speechParts('Psoriatic arthritis is a long-term condition that affects the joints, the places where tendons attach to bone, and often the skin and nails. It varies.');
+    expect(long[0]).toBe('Psoriatic arthritis is a long-term condition that affects the joints, the places where tendons attach to bone,');
+    expect(long[1]).toBe('and often the skin and nails. It varies.');
   });
 });

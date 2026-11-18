@@ -70,10 +70,17 @@ export class RheumyError extends Error {
   }
 }
 
+/**
+ * The five narration voices, as in the lesson videos. Ava, Jenny and Emma come from Azure
+ * Speech and read a whole answer at once; Heart and Bella come from our Kokoro service,
+ * which is slower, so answers are read sentence by sentence (see speechParts).
+ */
 export const VOICES = [
-  { id: 'ava', label: 'Ava' },
-  { id: 'jenny', label: 'Jenny' },
-  { id: 'emma', label: 'Emma' },
+  { id: 'ava', label: 'Ava', sentenceBySentence: false },
+  { id: 'jenny', label: 'Jenny', sentenceBySentence: false },
+  { id: 'emma', label: 'Emma', sentenceBySentence: false },
+  { id: 'heart', label: 'Heart', sentenceBySentence: true },
+  { id: 'bella', label: 'Bella', sentenceBySentence: true },
 ] as const;
 export type VoiceId = (typeof VOICES)[number]['id'];
 
@@ -132,10 +139,55 @@ export async function askRheumy(
   throw new RheumyError('server', message ?? 'Rheumy couldn’t answer just now. Please try again.');
 }
 
+/**
+ * Answer text as it should be spoken: no citation marks or Markdown symbols, and each list
+ * item ending like a sentence, so the voice pauses between items.
+ */
+export function plainSpeech(text: string): string {
+  return text
+    .replace(/\[\d{1,2}\]/g, '')
+    .replace(/[*_#`>]+/g, '')
+    .split('\n')
+    .map((line) => line.replace(/^\s*(?:[-•]|\d+[.)])\s+/, '').trim())
+    .filter(Boolean)
+    .map((line) => (/[.!?:;]$/.test(line) ? line : `${line}.`))
+    .join(' ')
+    .replace(/\s+([.,;:!?])/g, '$1')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
+const FIRST_PART_MAX = 110;
+
+/**
+ * The answer in parts to read one after another: the first sentence on its own so speech
+ * starts quickly, then sentences grouped up to about `max` characters.
+ */
+export function speechParts(text: string, max = 220): string[] {
+  const sentences =
+    plainSpeech(text)
+      .match(/[^.!?]+[.!?]+["')\]]*|[^.!?]+$/g)
+      ?.map((s) => s.trim())
+      .filter(Boolean) ?? [];
+  // A long first sentence is cut at a comma or semicolon, so the first part is quick to make.
+  const first = sentences[0];
+  if (first && first.length > FIRST_PART_MAX) {
+    const cut = Math.max(first.lastIndexOf(', ', FIRST_PART_MAX), first.lastIndexOf('; ', FIRST_PART_MAX));
+    if (cut > 25) sentences.splice(0, 1, first.slice(0, cut + 1), first.slice(cut + 2));
+  }
+  const parts: string[] = [];
+  for (const sentence of sentences) {
+    const last = parts.length > 1 ? parts[parts.length - 1] : undefined;
+    if (last !== undefined && last.length + 1 + sentence.length <= max) parts[parts.length - 1] = `${last} ${sentence}`;
+    else parts.push(sentence);
+  }
+  return parts;
+}
+
 /** An audio URL for the answer read aloud (rheumy-tts). The key in it is the public one. */
 export function speechUrl(text: string, voice: VoiceId, config: RheumyConfig = rheumyConfig): string | null {
   if (!config.ok) return null;
-  const spoken = text.replace(/\[\d{1,2}\]/g, '').replace(/\s{2,}/g, ' ').trim().slice(0, 1500);
+  const spoken = plainSpeech(text).slice(0, 1500);
   const q = new URLSearchParams({ voice, text: spoken, apikey: config.key });
   return `${config.functionsUrl}/rheumy-tts?${q.toString()}`;
 }
