@@ -1,0 +1,1544 @@
+﻿lesson_id,version,title,page_text,images,video_script,sources,fk_grade,flags,accuracy,completeness,readability,safety,terminology,decision,comment
+psa-contact-01,1,Sharing changes with your care team,"[page 1] Tell the care team about symptoms that are new, keep returning, or are getting worse. A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. Mention fatigue and changes in walking, sleep, work, or self-care. A useful message says where the problem is, when it began, and what has changed. You can say, for example, that new knee pain makes stairs harder.
+
+Before the visit, write your main question and the change that worries you most. Bring your notes so the team can help you decide the next step.
+
+[page 2] A body map cannot tell you how urgent a symptom is. The next lesson explains eye and gut changes to report. Medicine concerns and repeated flares are also reasons to contact the prescribing team. Ask your clinic for its phone number and office hours. Ask about expected response times and how to get help when it is closed. Keep your own care plan available. For urgent symptoms, use urgent medical services rather than waiting for a routine app message.
+
+A sleep record can make the visit more useful. Bring notes on when you sleep, what wakes you, and daytime tiredness. List any recent medicine changes so the team can look for patterns.","1. Page 1: A clinician and a patient discuss care. Use a visit to share symptoms, priorities, and questions. Illustrative photo; this is not an ACCR clinic or a confirmed PsA visit.
+   Credit: National Cancer Institute, National Institutes of Health. Public domain, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Doctor_talking_with_a_patient.jpg. Attribution from the existing supplementary-media manifest; copied without further changes.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/supp-doctor-patient.jpg","Scene 1: Welcome
+- Let’s practice how to share changes with your care team. [framing]
+
+Scene 2: What to report
+- Tell your care team about symptoms that are new, keep coming back, or are getting worse. [lesson-text]
+
+Scene 3: Name the area
+- A body map can help you name the area: skin, nails, hands, wrists, shoulders, elbows, back, hips, knees, ankles, or feet. [lesson-text]
+
+Scene 4: Daily life too
+- Also mention tiredness, and changes in walking, sleep, work, or self-care. [lesson-text]
+
+Scene 5: A useful message
+- A useful message says where the problem is, when it began, and what has changed. [lesson-text]
+- For example: new knee pain makes stairs harder. [lesson-text]
+
+Scene 6: Urgency
+- A body map cannot tell you how urgent a symptom is. [lesson-text]
+
+Scene 7: Medicines and flares
+- Medicine concerns, and repeated flares, are also reasons to contact your prescribing team. [lesson-text]
+
+Scene 8: Know how to reach them
+- Ask your clinic for its phone number, office hours, and how fast they reply. [lesson-text]
+- Plan ahead, and ask how to get help when the clinic is closed. [src-murphys-laws-of-arthritis-preface]
+
+Scene 9: Urgent symptoms
+- For urgent symptoms, use urgent medical services. Don’t wait for a routine app message. [lesson-text]
+
+Scene 10: Quick review
+- Great job! Let’s review. [framing]
+- A useful message says where the problem is, when it began, and what has changed. [key-takeaway]
+- A body map cannot tell you how urgent a symptom is. [key-takeaway]","Sources used
+1. PsA & AS Symptoms (lesson p. 1, 2)
+   Where: Body labels and footer: talk to your healthcare provider if you notice symptoms
+   Contributed: Body-map labels as a reference for describing symptom location and reporting changes; the poster is not displayed.
+   Limits: Explicitly label that the poster covers both PsA and AS; not an urgency scale.
+2. Clinical manifestations of PsA (lesson p. 1)
+   Where: All body-area cards
+   Contributed: Alternative readable body-area labels for a symptom message.
+   Limits: Specific message examples are editorial teaching aids.
+3. Murphy’s Laws of Arthritis Preface (lesson p. 2)
+   Where: Paragraph 11: monitoring and contingency plans
+   Contributed: Ask for contact routes and an out-of-hours plan.
+   Limits: Clinic phone numbers, hours and response times must come from the patient's clinic.
+4. RheumNotes Sleep Restore White Paper (lesson p. 2)
+   Where: PDF pp. 25–26, 29: sleep diary and medicine notes
+   Contributed: Prepare observations for a visit without changing medicine.
+   Limits: General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending.
+5. A doctor talking with a patient in a clinic room. (lesson p. 1)
+   Where: Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Doctor_talking_with_a_patient.jpg
+   Contributed: Friendly picture for lessons about talking with the care team.
+   Limits: Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff.
+
+References
+- NHS: Psoriatic arthritis - https://www.nhs.uk/conditions/psoriatic-arthritis/
+- National Psoriasis Foundation: Care Path, Keep Thriving - https://www.psoriasis.org/care-path-thrive/
+- NHLBI: Sleep Diary - https://www.nhlbi.nih.gov/resources/sleep-diary",6.057,,,,,,,,
+psa-contact-02,1,Eye and gut changes to report,"[page 1] Eye symptoms can need prompt attention. New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment. Guidance for possible acute eye inflammation calls for a same-day eye assessment. Seek emergency care for a loss of vision. These symptoms have several possible causes. An examination is needed to find the cause; the app cannot diagnose uveitis from symptoms.
+
+[page 2] Tell the care team about ongoing gut pain, bloating, or changes in bowel habits. Inflammatory bowel disease can occur alongside PsA, but a bowel change does not prove that it is the cause. Describe what changed and when. Your team can decide whether another assessment is needed. If symptoms are severe or you feel acutely unwell, seek urgent medical help. Do not wait for a routine visit to discuss an urgent eye problem.
+
+The reporting guide helps you prepare a clear message. It cannot tell you the cause of a symptom. Use the care guidance above and the instructions from your own team.","1. Page 1: New eye pain, marked redness, light sensitivity or blurred sight need urgent assessment; possible acute eye inflammation needs same-day eye assessment. Loss of vision needs emergency care. Report ongoing gut changes and seek urgent help if severely unwell.
+   Credit: Original editorial diagram summarizing the lesson and its cited sources, not a source screenshot. Clinical review pending.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-diagram-eye-gut-reporting.jpg","Scene 1: Welcome
+- This lesson covers eye and gut changes that you should report. [framing]
+
+Scene 2: Eye warning signs
+- Eye symptoms can need fast attention. [lesson-text]
+- Watch for eye pain, very red eyes, light sensitivity, or blurred or changing vision. [nhs-uveitis]
+
+Scene 3: Same day
+- These need urgent assessment, the same day. [lesson-text]
+- Do not wait for a routine visit. [lesson-text]
+
+Scene 4: Loss of vision
+- Seek emergency care for a loss of vision. [lesson-text]
+
+Scene 5: Only an exam can tell
+- These symptoms have several possible causes. [lesson-text]
+- An eye exam is needed. The app cannot diagnose uveitis. [lesson-text]
+
+Scene 6: Early treatment
+- Getting treated early helps avoid long-term problems, like vision loss. [nhs-uveitis]
+
+Scene 7: Gut changes
+- Tell your care team about ongoing gut pain, bloating, or changes in bowel habits. [lesson-text]
+
+Scene 8: Describe it
+- IBD can happen alongside PsA, but a bowel change does not prove it is the cause. [lesson-text]
+- Describe what changed, and when. [lesson-text]
+
+Scene 9: When it is urgent
+- If symptoms are severe, or you feel very unwell, get urgent medical help. [lesson-text]
+
+Scene 10: Quick review
+- Great job! Let’s review. [framing]
+- New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment. [key-takeaway]
+- Seek emergency care for a loss of vision. [key-takeaway]","Sources used
+1. PsA One-Pager Intro (lesson p. 1, 2)
+   Where: Box B related conditions; Box C eyes and gut
+   Contributed: Identifies eye and bowel concerns alongside PsA.
+   Limits: Same-day assessment and emergency advice come from NHS/NICE, not the source poster.
+2. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: Eyes and gut cards; editorial diagram: eye-gut-reporting
+   Contributed: Plain-language eye and bowel symptoms to describe. Displays a lesson-specific editorial summary.
+   Limits: Symptoms have multiple causes; poster cannot diagnose uveitis or IBD. Urgency wording in the editorial diagram follows the lesson NHS/NICE references, not the poster.
+
+References
+- NHS: Uveitis - https://www.nhs.uk/conditions/uveitis/
+- NICE NG65, recommendation 1.1.12: same-day eye assessment - https://www.nice.org.uk/guidance/ng65/chapter/recommendations",7.78,,,,,,,,
+psa-dx-01,1,How doctors assess possible PsA,"[page 1] There is no single test for PsA. A doctor looks at the whole pattern. This is often a rheumatologist, a doctor for joint and immune system diseases. They ask about your symptoms. They ask if psoriasis or PsA runs in your family. They check your joints, skin, and nails. Swollen or tender joints, psoriasis, and nail changes are important signs.
+
+[page 2] Blood tests help rule out other conditions, such as rheumatoid arthritis. X-rays, ultrasound, or MRI can show changes in joints, the spine, or where tendons attach to bone. See a doctor if joint pain, stiffness, or swelling keeps coming back. Bring a short list of your changes to the visit.","1. Page 2: Side-view X-ray of the mid and lower back. An arrow points to changes in the spine from PsA.
+   Credit: Helliwell P, Coates LC, Gladman D. ""Psoriatic Arthritis."" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, chap. 8. © Springer Nature Switzerland AG 2023. Used with permission.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-spine-xray.jpg
+
+2. Page 2: An MRI scanner, one of the tests a clinician may use. Not everyone needs an MRI, and an image alone does not diagnose PsA.
+   Credit: Blausen Medical Communications, Inc. CC BY 3.0, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Blausen_0654_MRI_01.png. License: https://creativecommons.org/licenses/by/3.0. Attribution from the existing supplementary-media manifest; copied without further changes.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/supp-mri-scan.jpg","Scene 1: Welcome
+- Hi there, and welcome! Today, let’s find out how doctors check for possible psoriatic arthritis, or PsA. [framing]
+
+Scene 2: When to get checked
+- See a doctor if you have joint pain, stiffness, and swelling that keeps coming back. [nhs-psa]
+- Go even if you do not have psoriasis. These symptoms need to be checked. [nhs-psa]
+
+Scene 3: Meet the rheumatologist
+- If your doctor thinks you may have PsA, they will send you to a specialist called a rheumatologist. [nhs-psa]
+- A rheumatologist is a doctor who treats joint and immune system diseases. [lesson-text]
+
+Scene 4: No single test
+- There is no single test that can prove you have PsA. [niams-care]
+- Instead, the doctor puts several clues together: your story, an exam, and some tests. [niams-care]
+
+Scene 5: Your symptoms
+- First, the doctor talks with you about your symptoms. [niams-care]
+- For example, PsA symptoms can be worse first thing in the morning, and may get better with exercise. [nhs-psa]
+
+Scene 6: Family and skin history
+- The doctor will ask if anyone in your family has psoriasis or psoriatic arthritis. [niams-care]
+- PsA can sometimes start after a person has had psoriasis for many years. [nhs-psa]
+
+Scene 7: The physical exam
+- Next comes a physical exam. [niams-care]
+- Swollen or tender joints, psoriasis on the skin, and nail changes are important signs. [niams-care]
+
+Scene 8: Checking the skin
+- If you have never been told you have psoriasis, the doctor may check your skin for it. [niams-care]
+
+Scene 9: Where PsA can show up
+- PsA can affect the joints, the spine, the skin, and the nails. [src-psa-one-pager-intro]
+- It can also affect places where a tendon or ligament attaches to bone, like the back of the heel. [src-psa-one-pager-intro]
+- Some people get a whole finger or toe that swells up, like a little sausage. [src-psa-one-pager-intro]
+
+Scene 10: Nail changes
+- Nail changes can include tiny dents, called pitting, or a nail that lifts away from the skin underneath. [src-psa-one-pager-intro]
+
+Scene 11: Blood tests
+- A blood test helps check for other conditions, such as rheumatoid arthritis. [niams-care]
+- Other conditions can also cause joint pain, stiffness, and swelling. Examples are osteoarthritis, rheumatoid arthritis, and gout. [nhs-psa]
+
+Scene 12: Joint fluid test
+- Sometimes, a little fluid is taken from a sore joint and tested. [nhs-psa]
+
+Scene 13: Pictures of the inside
+- X-rays, ultrasound, or MRI scans can show changes in the joints, the spine, or where tendons attach to bone. [niams-care]
+
+Scene 14: Putting the clues together
+- Each test is just one clue. [lesson-text]
+- The doctor looks at all the clues together to see the whole pattern. [lesson-text]
+
+Scene 15: Be prepared
+- It pays to be prepared. [src-murphys-laws-of-arthritis-preface]
+- Problems like a delay in diagnosis can happen, unless we plan ahead. [src-murphys-laws-of-arthritis-preface]
+- So bring a short list of your changes, even if they come and go. And note how long stiffness lasts after you wake up. [lesson-text]
+
+Scene 16: Quick review
+- Great job! Let’s review. [framing]
+- There is no single test for PsA. [key-takeaway]
+- Your doctor puts together your story, an exam, and tests. [key-takeaway]
+- See a doctor if joint pain, stiffness, or swelling keeps coming back. [key-takeaway]","Sources used
+1. PsA One-Pager Intro (lesson p. 1, 2)
+   Where: Box A: inflammatory joint/spine/enthesis entry; Box B: skin/nail signs
+   Contributed: Which findings a clinician checks; psoriasis history and multi-area examination.
+   Limits: The testing workflow, the no-single-test statement, the blood-test purpose and the see-a-doctor advice come from NIAMS and NHS, not this poster.
+2. Murphy’s Laws of Arthritis Preface (lesson p. 1)
+   Where: Paragraph 11: preparation and proactive monitoring
+   Contributed: Bring a concise symptom history to the visit.
+   Limits: Only the preparation idea is used. Diagnostic shortcuts in paragraphs 16-18 are not taught.
+3. Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8) (lesson p. 2)
+   Where: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)
+   Contributed: Spine X-ray: shows what an X-ray of the spine looks like.
+   Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
+4. Picture of a person lying on the table of an MRI scanner. (lesson p. 2)
+   Where: Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Blausen_0654_MRI_01.png
+   Contributed: Shows what one of the imaging tests looks like.
+   Limits: Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff.
+
+References
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take
+- NHS: Psoriatic arthritis - https://www.nhs.uk/conditions/psoriatic-arthritis/",5.333,,,,,,,,
+psa-dx-02,1,Understanding the CASPAR framework,"[page 1] CASPAR is a set of rules doctors use to classify PsA. First, there must be inflammation in a joint, the spine, or a tendon attachment. Then other signs are added. Psoriasis you have now counts the most. Psoriasis in the past, or in your family, also counts.
+
+[page 2] Nail changes count. So does a whole finger or toe that is swollen, now or in the past. A negative test for rheumatoid factor (RF) counts. So does new bone next to a joint on an X-ray. A heel spur alone does not count. A score is not a home diagnosis.","1. Page 2: Photos of dactylitis: a whole little toe swollen like a sausage, and a swollen little finger with a swollen wrist.
+   Credit: Helliwell P, Coates LC, Gladman D. ""Psoriatic Arthritis."" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, p. 99, fig. 8.2. © Springer Nature Switzerland AG 2023. Used with permission.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-dactylitis.jpg
+
+2. Page 2: CASPAR overview: inflammation first, then psoriasis history, nail and digit changes, and test findings. A doctor interprets the findings; this is not a scoring tool.
+   Credit: Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/caspar-framework.svg. Clinical review pending.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-diagram-caspar-framework.jpg
+
+3. Page 2: Photo of fingernails with tiny dents (pitting) and a nail lifting away from the nail bed.
+   Credit: Helliwell P, Coates LC, Gladman D. ""Psoriatic Arthritis."" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, fig. 8.1. © Springer Nature Switzerland AG 2023. Used with permission.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-nail-changes.jpg","Scene 1: What is CASPAR?
+- Hi again! Let’s learn about CASPAR. [framing]
+- CASPAR stands for Classification criteria for Psoriatic Arthritis. [src-psa-one-pager-intro]
+- It comes from a study published in 2006. [src-psa-one-pager-intro]
+
+Scene 2: Sorting the signs
+- Doctors use it to sort the signs of PsA into groups. [lesson-text]
+
+Scene 3: Step one is a must
+- Step one is a must. [src-mindmap]
+- There has to be inflammation in a joint, in the spine, or where a tendon attaches to bone. [src-mindmap]
+
+Scene 4: Step two adds points
+- Step two adds points for other signs. [src-mindmap]
+- There are five groups of signs. [src-mindmap]
+
+Scene 5: Group 1: Psoriasis
+- Group one is psoriasis. [src-psa-one-pager-intro]
+- Psoriasis on your skin or scalp right now counts the most. [src-psa-one-pager-intro]
+- If you don’t have it now, having had it in the past counts. If you never had it, psoriasis in a close family member counts. [src-psa-one-pager-intro]
+
+Scene 6: Group 2: Nail changes
+- Group two is nail changes you have now. [src-psa-one-pager-intro]
+- Examples are tiny dents called pitting, a nail lifting off the skin underneath, or thick buildup under the nail. [src-psa-one-pager-intro]
+
+Scene 7: Group 3: The RF blood test
+- Group three is a blood test called rheumatoid factor, or RF. [src-psa-one-pager-intro]
+- Here, a negative result is the one that counts. [src-psa-one-pager-intro]
+
+Scene 8: Group 4: A swollen finger or toe
+- Group four is a whole finger or toe that is swollen, sometimes called a sausage digit. [src-psa-one-pager-intro]
+- It counts if it is swollen now, or if a doctor wrote it down in the past. [src-psa-one-pager-intro]
+
+Scene 9: Group 5: New bone on an X-ray
+- Group five is new bone forming right next to a joint, seen on an X-ray. [src-mindmap]
+- A heel spur alone is not that finding. [lesson-text]
+
+Scene 10: Points are not a home test
+- The reference adds up these points. [lesson-text]
+- But a score is not a home diagnosis. [lesson-text]
+- A doctor must look at all the findings and check for other causes. [lesson-text]
+
+Scene 11: Talk it through
+- Knowing CASPAR can help you follow the conversation with your care team. [lesson-text]
+
+Scene 12: Quick review
+- Nice work! Let’s review. [framing]
+- First, there must be inflammation in a joint, the spine, or a tendon attachment. [key-takeaway]
+- Psoriasis, nail changes, a negative RF test, a swollen finger or toe, and new bone near a joint can add points. [key-takeaway]
+- A score is not a home diagnosis. [key-takeaway]","Sources used
+1. Handwritten PsA mind map (lesson p. 1, 2)
+   Where: Right-hand CASPAR branch: entry criterion and five feature groups; Editorial diagram based on the located source sections and current lesson; diagram spec: caspar-framework
+   Contributed: Inflammation first (mandatory); then psoriasis (current weighted most; personal or family history), nail dystrophy, negative RF, dactylitis and juxta-articular new bone. Displays a plain-language teaching summary; original diagram, not a source screenshot.
+   Limits: Handwritten heading says CASPER; use CASPAR. Do not turn this into a self-diagnosis score. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions.
+2. PsA One-Pager Intro (lesson p. 1, 2)
+   Where: Box A: CASPAR table
+   Contributed: Current, personal or family psoriasis; nail dystrophy (pitting, onycholysis, hyperkeratosis); negative RF; current or past dactylitis.
+   Limits: Lower table rows are obscured by Box C. Use the mindmap and original CASPAR paper for the new-bone feature.
+3. Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8) (lesson p. 2)
+   Where: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)
+   Contributed: Nail changes and dactylitis photos: two of the signs CASPAR counts.
+   Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
+
+References
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take
+- Taylor et al. (2006): original CASPAR classification study - https://pubmed.ncbi.nlm.nih.gov/16871531/",5.362,,,,,,,,
+psa-education-01,1,The four pillars of daily care,"[page 1] Four pillars can help organize daily life with arthritis: Nourishment, Motion, Mastery, and Repose. In plain words, these mean food, movement, coping, and rest. They are a way to plan a discussion about everyday needs. They do not replace medical treatment. This framework is a guide to daily habits. It is not a test of how well your disease is controlled.
+
+The four panels are equal parts of a daily-care plan. Start with the part that matters most to you now.
+
+[page 2] Think about which part of daily life is hardest right now. Food choices, activity, mood, and sleep may each raise different questions. A practical plan can focus on a small change that fits your needs and abilities. The care team can help tailor it. Bring up barriers such as pain, cost, fatigue, or poor sleep. Daily care works best as part of a shared plan, rather than as a test of willpower. Start with one small step you choose with your team. For example, plan a short walk that fits your joints, or set aside time to wind down before bed. Notice how the step fits into your day. You can adjust it as your needs change.
+
+You can plan, choose what matters most, break tasks into smaller parts, and use tools or positions that ease strain. For example, split chores across the week and sit for a task when standing is hard.","1. Page 1: Four equal pillars support daily care: food, movement, coping, and rest. Choose a manageable step with your team; daily habits do not replace medical treatment.
+   Credit: Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/four-pillars.svg. Clinical review pending.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-diagram-four-pillars.jpg","Scene 1: Welcome
+- Let’s explore four pillars that can support your daily life. [framing]
+
+Scene 2: Four pillars
+- Four pillars can help you organize daily life with arthritis: Nourishment, Motion, Mastery, and Repose. [src-the-four-pillars-of-arthritis]
+- In plain words: food, movement, coping, and rest. [lesson-text]
+
+Scene 3: A guide, not a cure
+- They are a way to plan a talk about everyday needs. [lesson-text]
+- They do not replace medical treatment. [lesson-text]
+
+Scene 4: They work together
+- The pillars work best together. Each one supports the others. [src-the-four-pillars-of-arthritis]
+- For example, better sleep can give you more energy to move, and a calmer mind can make healthy habits easier. [src-the-four-pillars-of-arthritis]
+
+Scene 5: Not a test
+- This framework is a guide to daily habits. [lesson-text]
+- It is not a test of how well your disease is controlled. [lesson-text]
+
+Scene 6: Where to start
+- Think about which part of daily life is hardest right now. [lesson-text]
+
+Scene 7: Name the barriers
+- Bring up barriers, like pain, cost, tiredness, or poor sleep. [lesson-text]
+
+Scene 8: Small steps
+- Start small. Small, steady steps add up over time. [src-the-four-pillars-of-arthritis]
+- For example, a short walk that fits your joints, or time to wind down before bed. [lesson-text]
+
+Scene 9: A shared plan
+- Daily care works best as part of a shared plan, not as a test of willpower. [lesson-text]
+- Your care team can help tailor it, and you can adjust it as your needs change. [lesson-text]
+
+Scene 10: Quick review
+- Great job! Let’s review. [framing]
+- They do not replace medical treatment. [key-takeaway]
+- The care team can help tailor it. [key-takeaway]","Sources used
+1. The Four Pillars of Arthritis (lesson p. 1, 2)
+   Where: Paragraph 8; headings at 10, 48, 65, 75; synthesis 83-85; Editorial diagram based on the located source sections and current lesson; diagram spec: four-pillars
+   Contributed: Four named pillars, plain-language meanings and choosing one small step. Displays a plain-language teaching summary; original diagram, not a source screenshot.
+   Limits: A daily-care framework, not validated PsA disease scoring or a replacement for treatment. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions.
+2. Murphy’s Laws of Arthritis Preface (lesson p. 2)
+   Where: Paragraphs 11, 18 and 21: preparation, foundations and partnership
+   Contributed: Simple habits and shared planning.
+   Limits: Historical anecdotes and diagnostic parsimony are not taught as clinical rules.
+3. RheumNotes Motion White Paper (lesson p. 2)
+   Where: PDF pp. 21–22: pacing and small goals
+   Contributed: Practical pacing examples without an exercise dose.
+   Limits: General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending.
+
+References
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",4.966,,,,,,,,
+psa-education-02,1,"Movement, coping, and support","[page 1] Motion means finding ways to move that fit your joints and current health. Activity plans may include gentle movement, strength, and daily tasks. A physical therapist can help adapt a plan when pain or reduced movement gets in the way. An occupational therapist can suggest ways to protect joints during tasks. Ask your team how to balance activity and rest when symptoms change. Walking, swimming, or cycling may be options. Ask your team which activities fit you before you start. The source also describes strength work and tai chi. You do not need to try every type of exercise.
+
+Try to avoid doing all your chores on a good day and then needing days to recover. Break a large task into short parts, with rest between them. A seated option may help when standing is hard. Ask your therapist to show you a version that fits your joints.
+
+[page 2] Mastery means building ways to cope with the demands of a long-term condition. It does not mean controlling every symptom by thinking differently. Pain, fatigue, and uncertainty can affect mood and confidence. Support from trusted people, a support group, or a trained counselor may help. Tell the care team when worry or low mood affects daily life. Asking for support is part of care, not a sign of failure. A quiet pause or slow breathing may help you make space for stress. These are coping tools. They do not mean that pain is your fault or that you should skip medical care.
+
+Choose a coping step that feels right to you, such as music, writing, or a call to someone you trust. Make a short plan for a hard day while you feel calm. A counselor can also teach skills for coping with pain and worry. Ask for help if low mood affects sleep, work, or taking your medicines.","1. Page 2: A quiet moment outdoors. Reflection or prayer can be a personal coping choice.
+   Credit: Ben White; CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Source: https://commons.wikimedia.org/wiki/File:Praying_woman_in_a_park_(Unsplash).jpg. Extracted from supplied RheumNotes PDF p. 16; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-quiet-pause.jpg","Scene 1: Welcome
+- Let’s talk about moving your body, coping with stress, and getting support. [framing]
+
+Scene 2: Motion
+- Motion means finding ways to move that fit your joints, and your current health. [lesson-text]
+
+Scene 3: Low-impact options
+- Low-impact activities, like walking, cycling, swimming, yoga, or tai chi, may be especially helpful. [niams-care]
+- Talk with your doctor before starting any exercise program. [niams-care]
+
+Scene 4: Water and bikes
+- Water can take weight off sore joints while you move. [src-the-four-pillars-of-arthritis]
+- A stationary bike supports your weight, and you can keep the resistance low. [src-the-four-pillars-of-arthritis]
+
+Scene 5: Strength
+- Strength work, with your body weight, bands, or light weights, builds muscle that supports your joints. [src-the-four-pillars-of-arthritis]
+- You do not need to try every type of exercise. [lesson-text]
+
+Scene 6: Therapists can help
+- A physical therapist can help improve how your joints work. [niams-care]
+- An occupational therapist can teach ways to protect your joints and save energy. [niams-care]
+
+Scene 7: Balance
+- Ask your team how to balance activity and rest when symptoms change. [lesson-text]
+
+Scene 8: Mastery
+- Mastery means building ways to cope with a long-term condition. [lesson-text]
+- Pain and mood affect each other. Worry and low mood can make pain feel worse. [src-the-four-pillars-of-arthritis]
+
+Scene 9: Coping tools
+- Practices like slow breathing, a quiet pause, or a body scan may help you make space for stress. [src-the-four-pillars-of-arthritis]
+- These are coping tools. They do not mean that pain is your fault. [lesson-text]
+
+Scene 10: Support
+- Reach out for support. A support group, or counseling, can help. [niams-care]
+- Asking for support is part of care, not a sign of failure. [lesson-text]
+
+Scene 11: Tell your team
+- Tell your care team when worry or low mood affects daily life. [lesson-text]
+
+Scene 12: Quick review
+- Great job! Let’s review. [framing]
+- Ask your team how to balance activity and rest when symptoms change. [key-takeaway]
+- Asking for support is part of care, not a sign of failure. [key-takeaway]","Sources used
+1. The Four Pillars of Arthritis (lesson p. 1, 2)
+   Where: Motion paragraphs 49-50, 61-63; Mastery paragraphs 67-68 and 74
+   Contributed: Adapting movement, water/cycling options, strength and coping practices.
+   Limits: Many study claims concern RA/OA, not PsA; do not promise equal benefits or prescribe an exercise dose. NIAMS corroborates general PsA activity options.
+2. RheumNotes Motion White Paper (lesson p. 1)
+   Where: PDF pp. 9, 17, 21–22: therapy, seated options and pacing
+   Contributed: Add task pacing and adapted movement.
+   Limits: No fixed exercise dose, unsupervised exercise routine or RA/OA effect size is prescribed for PsA.
+3. RheumNotes Mind Mastery White Paper (lesson p. 2)
+   Where: PDF pp. 19, 21–26: thinking skills, connection and a stress plan; PDF p. 16: displayed illustration; Image Credits appendix
+   Contributed: Add coping choices and reasons to seek support. Display the selected source image with attribution.
+   Limits: No claim that stress causes PsA, that coping controls inflammation, or that positive thinking replaces treatment.
+
+References
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",5.354,,,,,,,,
+psa-education-03,1,"Food, sleep, and recovery","[page 1] Nourishment focuses on food and nutrition needs. Food choices need to fit your own health and life. Food does not replace your prescribed PsA care. A dietitian can help with choices that fit your health, budget, and preferences. Ask about supplements or major diet changes before adding them to your care plan. The food chapter discusses vegetables, fruit, and sources of protein. Use these as topics to discuss with your team. It does not mean one food can switch off PsA. The lesson does not ask you to fast or follow a strict diet.
+
+Meals can include a mix of vegetables, fruit, whole grains, and protein foods such as beans, fish, or poultry. The new food tables group meats as Land, Sea, and Sky; poultry and eggs are in Sky. These labels help find foods, not rank them as treatments. Choose foods that fit your needs, allergies, budget, and culture.
+
+[page 2] Repose focuses on rest and sleep. Pain or worry may make sleep harder, and poor sleep can make the next day feel harder to manage. Bring ongoing sleep problems to the care team. Describe whether pain, waking at night, or daytime tiredness is the main concern. Plans for meals, movement, coping, and rest should fit together. The aim is a manageable routine, rather than a strict rule for every day. Try to keep a steady time for bed and waking. A quiet, dark room and a calm wind-down routine may help. Let the team know if pain keeps waking you. Ask for help with sleep rather than changing your medicine on your own.
+
+Keep a short sleep record to share at a visit. Note bedtime, wake time, waking in the night, pain, and how you feel the next day. Tell the team about loud snoring, gasping, or trouble staying awake by day. Good sleep habits may help, but ongoing sleep problems may need more care.","1. Page 1: Include fruit as part of varied meals, alongside vegetables, whole grains, and protein foods. Choose options that fit your needs and budget.
+   Credit: Abhijit Tembhekar; CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/). Source: https://commons.wikimedia.org/wiki/File:Red_Apple.jpg. Downloaded original 2418 x 2192 photograph; resized to 1400 x 1269 and JPEG-compressed. No crop or added labels.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-fruit.jpg
+
+2. Page 2: Try to go to bed and wake up at about the same time each day. If pain keeps waking you, tell your care team.
+   Credit: Ales Krivec; CC0 (https://creativecommons.org/publicdomain/zero/1.0/). Source: https://commons.wikimedia.org/wiki/File:Roman_numerals_on_alarm_clock_(Unsplash).jpg. Extracted from supplied RheumNotes PDF p. 19; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-sleep-routine.jpg","Scene 1: Welcome
+- Let’s talk about food, sleep, and recovery. [framing]
+
+Scene 2: Nourishment
+- Nourishment is about food and nutrition needs. [lesson-text]
+- Food choices need to fit your own health and life. [lesson-text]
+
+Scene 3: Food is not a cure
+- Food does not replace your prescribed PsA care, and no single food can switch off PsA. [lesson-text]
+
+Scene 4: Topics to discuss
+- The source suggests meals built around color and protein: vegetables, fruit like berries or citrus, olive oil, and a good protein source. [src-the-four-pillars-of-arthritis]
+- Use these as topics to discuss with your team. [lesson-text]
+
+Scene 5: A dietitian can help
+- A dietitian can teach you about nutrition, and keeping a healthy weight. [niams-care]
+- Ask before adding supplements, or making big diet changes. [lesson-text]
+
+Scene 6: Repose
+- Repose is about rest and sleep. [lesson-text]
+- Pain or worry can make sleep harder, and poor sleep can make the next day’s pain feel worse. [src-the-four-pillars-of-arthritis]
+
+Scene 7: Steady sleep
+- Good sleep helps your body recover. [src-the-four-pillars-of-arthritis]
+- Try to keep a steady time for bed, and for waking. [lesson-text]
+
+Scene 8: A calm bedtime
+- A dark, cool room, and a calm wind-down routine, may help. [src-the-four-pillars-of-arthritis]
+- Avoid late caffeine, alcohol, and heavy meals before bed. [src-the-four-pillars-of-arthritis]
+
+Scene 9: Ask for help
+- Bring ongoing sleep problems to your care team. Say if pain, waking at night, or daytime tiredness is the main problem. [lesson-text]
+- Ask for help, rather than changing your medicine on your own. [lesson-text]
+
+Scene 10: It all fits together
+- Meals, movement, coping, and rest should fit together, into a routine you can manage. [lesson-text]
+
+Scene 11: Quick review
+- Great job! Let’s review. [framing]
+- Food does not replace your prescribed PsA care. [key-takeaway]
+- Bring ongoing sleep problems to the care team. [key-takeaway]","Sources used
+1. The Four Pillars of Arthritis (lesson p. 1, 2)
+   Where: Nourishment paragraphs 10-38; Repose paragraphs 76-80; practical steps 85
+   Contributed: Food discussions, steady sleep timing and a calm bedtime routine.
+   Limits: No fasting, supplement doses, food-cure claims or extrapolated RA/OA treatment effects.
+2. RheumNotes Nutrition White Paper 2026-11-17 (lesson p. 1)
+   Where: PDF pp. 4, 10, 17-24: food groups and Land, Sea and Sky
+   Contributed: Use the November 17 revision for food examples and protein table labels. The displayed apple is now sourced directly from the original photograph, not extracted from this PDF.
+   Limits: RA diet trials, OA weight-loss effects, gout restrictions, nutrient doses and unverified guideline targets are not presented as PsA advice.
+3. RheumNotes Sleep Restore White Paper (lesson p. 2)
+   Where: PDF pp. 19–21, 25–26, 29: sleep habits, help and diary; PDF p. 19: displayed illustration; Image Credits appendix
+   Contributed: Add a simple sleep diary and concerns to report. Display the selected source image with attribution.
+   Limits: No self-diagnosis, sleep restriction program, sleep medicine advice or rigid sleep target.
+4. Red Apple ? original high-resolution photograph (lesson p. 1)
+   Where: Complete high-resolution Red Apple photograph; Wikimedia Commons file page
+   Contributed: A clear example of fruit in a varied eating pattern; replaces the 241 x 180 PDF thumbnail.
+   Limits: Illustrative food photo only; no claim that an apple treats PsA.
+
+References
+- NHLBI: Sleep Diary - https://www.nhlbi.nih.gov/resources/sleep-diary
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",4.643,,,,,,,,
+psa-overview-01,1,What PsA is,"[page 1] Psoriatic arthritis, or PsA, is a long-term condition linked to inflammation. The immune system becomes overactive. This can cause pain and swelling in joints and where tendons attach to bone. Psoriasis is a related skin condition that can cause scaly patches. Psoriasis and PsA are linked, but they are not the same condition. Many people have skin psoriasis before joint symptoms begin. Some notice joint symptoms first.
+
+A joint is a place where bones meet. Smooth cartilage covers the bone ends. A thin lining makes fluid that helps the joint move. Tendons join muscle to bone. Ligaments join bone to bone. Knowing these parts can help you describe where you hurt.
+
+[page 2] The next lesson groups PsA into six areas, called domains. These are skin, nails, joints away from the spine, the spine, swollen fingers or toes, and tendon attachment sites. You may have changes in some areas and not others. Not everyone has changes in all six areas. Skin and joint changes may follow different patterns. These areas describe the disease. They are not the six topics in this course.","1. Page 1: Body areas where symptoms may appear.
+   Credit: Source: supplied RHEUMNOTES poster.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-symptoms-body-map.jpg","Scene 1: Welcome
+- Hi there! In this lesson, let’s find out what psoriatic arthritis, or PsA, really is. [framing]
+
+Scene 2: A long-term condition
+- PsA is a long-term condition that causes inflammation in the joints, and in the places where tendons and ligaments attach to bone. [niams-overview]
+- Those attachment places are called entheses. [niams-overview]
+
+Scene 3: An overactive immune system
+- In PsA, the immune system becomes overactive, for reasons no one fully understands. [niams-overview]
+- This creates inflammation, which leads to pain and swelling. [niams-overview]
+
+Scene 4: Linked to psoriasis
+- Psoriasis is a related skin condition that can cause scaly patches. [lesson-text]
+- Most people with PsA already have psoriasis when they are diagnosed. [niams-overview]
+
+Scene 5: Which comes first?
+- On average, PsA starts about 7 to 10 years after skin symptoms begin. [niams-overview]
+- But a small group of people notice joint pain before any skin rash. [niams-overview]
+
+Scene 6: Linked, not the same
+- So psoriasis and PsA are linked, but they are not the same condition. [lesson-text]
+
+Scene 7: Who gets PsA?
+- Anyone can get PsA. It is most common in adults, and it affects men and women equally. [niams-overview]
+- Genes play a part. Many people with PsA have family members with the disease. [niams-overview]
+
+Scene 8: Possible triggers
+- Things like obesity, infection, injury, or stress may help trigger it. [niams-overview]
+
+Scene 9: Six areas
+- Doctors group PsA into six areas, called domains. [src-grappa-domains-in-psa-poster]
+- They are skin, nails, joints away from the spine, the spine, swollen fingers or toes, and tendon attachment sites. [lesson-text]
+
+Scene 10: Everyone is different
+- You may have changes in some areas and not others. Not everyone has all six. [lesson-text]
+- Symptoms vary a lot from person to person. [niams-overview]
+
+Scene 11: Treatment helps
+- There is no cure yet, but treatment can slow the disease, ease pain, and protect your joints. [niams-overview]
+- Early treatment is linked to better results, and less damage. [niams-overview]
+
+Scene 12: Quick review
+- Great job! Let’s review. [framing]
+- Psoriasis and PsA are linked, but they are not the same condition. [key-takeaway]
+- Not everyone has changes in all six areas. [key-takeaway]","Sources used
+1. PsA One-Pager Intro (lesson p. 1, 2)
+   Where: Central PsA title and Box B six core domains
+   Contributed: Introduces PsA and separates the disease domains from the six course topics.
+   Limits: Immune-system explanation and timing of skin/joint symptoms are supplemented by NIAMS.
+2. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: Subtitle and body-area cards
+   Contributed: Introduces PsA across the body; the complete supplied poster is displayed on lesson page 1 as a general overview.
+   Limits: Not everyone has every manifestation. Eye and gut conditions can occur alongside PsA; the poster is not a diagnostic tool.
+3. GRAPPA domains in PsA (lesson p. 2)
+   Where: All six domain headings
+   Contributed: Names the six domains in plain language.
+   Limits: Domain labels are not course topic labels.
+4. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF pp. 5?6: joint types and tissues
+   Contributed: Plain-language definitions of joint tissues; no detailed anatomy image in this introductory lesson.
+   Limits: General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis",6.01,,,,,,,,
+psa-overview-02,1,PsA across the body,"[page 1] The six card labels describe different parts of PsA. Skin psoriasis means scaly skin patches. Nail psoriasis can cause pits or lifting of the nail. Peripheral arthritis affects joints away from the spine, such as those in the hands or knees. Axial disease affects the spine and may involve the joints that join the spine to the pelvis. These are called sacroiliac, or SI, joints.
+
+[page 2] Dactylitis means swelling of a whole finger or toe. Enthesitis means inflammation where a tendon or ligament joins bone. The back or bottom of the heel may be affected. These six domains can help guide treatment discussions. They do not name a drug that is right for you. Eye or bowel inflammation can also occur alongside PsA. These are separate from the six domains. Heart health, blood sugar, weight, and mood can also matter in care. The symptoms topic covers these concerns and changes over time.
+
+The anatomy chart groups the body into nine regions. These are places in the body, not the six PsA domains. For example, the hand has bones, joints, tendons, and nerves. Pain in one area can involve more than one type of tissue.","1. Page 1: Six areas of PsA: skin, nails, joints, back, swollen fingers or toes, and tendon sites.
+   Credit: Source: supplied RHEUMNOTES poster.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-overview-grappa-domains.jpg","Scene 1: Welcome
+- Welcome back! Let’s take a tour of the six areas of PsA. [framing]
+
+Scene 2: 1. Skin psoriasis
+- First, skin psoriasis: raised, scaly patches on the skin. [src-grappa-domains-in-psa-poster]
+- They often show up on the scalp, the elbows, or the knees. [niams-overview]
+
+Scene 3: 2. Nail psoriasis
+- Second, nail psoriasis. [src-grappa-domains-in-psa-poster]
+- Nails can get tiny dents called pits, crumble, or lift away from the nail bed. [niams-overview]
+
+Scene 4: 3. Peripheral arthritis
+- Third, peripheral arthritis. This means joints away from the spine, like the hands or the knees. [lesson-text]
+- Joints may feel stiff, painful, or swollen. Stiffness is often worse in the morning, or after resting. [niams-overview]
+
+Scene 5: 4. Axial disease
+- Fourth, axial disease. This affects the spine, and may involve the sacroiliac, or SI, joints, where the spine meets the pelvis. [lesson-text]
+- It can cause stiffness in the neck, the lower back, and the hips. [niams-overview]
+
+Scene 6: 5. Dactylitis
+- Fifth, dactylitis: a whole finger or toe that swells up, like a little sausage. [lesson-text]
+- It can be painful. [niams-overview]
+
+Scene 7: 6. Enthesitis
+- Sixth, enthesitis: inflammation where a tendon or ligament joins bone. [lesson-text]
+- The back of the heel and the sole of the foot are common spots. [niams-overview]
+
+Scene 8: Why the six areas matter
+- These six domains can help guide treatment talks with your team. [lesson-text]
+- But they do not name a drug that is right for you. [lesson-text]
+
+Scene 9: Eyes and gut
+- Eye or bowel inflammation can also happen alongside PsA. [lesson-text]
+- Eye inflammation, called uveitis, must be treated quickly to avoid vision loss. [niams-overview]
+- These are separate from the six domains. [lesson-text]
+
+Scene 10: Your whole health
+- People with PsA also have a higher risk of other health conditions, like heart disease, diabetes, and obesity. [npf-related]
+- Mood matters, too. [lesson-text]
+- Treating PsA well can lower the risk of some of these. [npf-related]
+
+Scene 11: Quick review
+- Nice work! Let’s review. [framing]
+- Dactylitis means swelling of a whole finger or toe. [key-takeaway]
+- These six domains can help guide treatment discussions. [key-takeaway]","Sources used
+1. GRAPPA domains in PsA (lesson p. 1, 2)
+   Where: Six domain cards, including axial disease, dactylitis and enthesitis
+   Contributed: Defines the six disease domains; displayed on page 1.
+   Limits: Technical poster wording is explained in the lesson; not a drug selection tool.
+2. PsA One-Pager Intro (lesson p. 2)
+   Where: Box B: related conditions and comorbidities below six core domains
+   Contributed: Separates eye/bowel conditions and broader health needs from core domains.
+   Limits: Drug preferences in the poster are not copied into a personal treatment plan.
+3. Common PsA comorbidities (lesson p. 2)
+   Where: Card headings: cardiovascular disease, diabetes, obesity, depression
+   Contributed: Introduces heart health, blood sugar, weight and mood.
+   Limits: Numerical prevalence claims are not used; no study population is identified on the image.
+4. RheumNotes Anatomy Chart (lesson p. 2)
+   Where: PDF p. 1: nine-region anatomy chart
+   Contributed: Distinguish anatomical regions from disease domains.
+   Limits: General anatomy or daily-care education, not a diagnostic test or a claim of PsA treatment efficacy. Clinical review pending.
+
+References
+- National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis - https://www.psoriasis.org/psa-related-conditions/
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis",5.337,,,,,,,,
+psa-symptoms-01,1,Skin and psoriasis,"[page 1] Psoriasis can cause raised skin patches with scales. The skin card on the map shows one example. Patches may appear on the elbows or other parts of the body. Skin changes are one part of PsA care. A skin patch alone cannot show whether a person has joint disease.
+
+[page 2] Tell your care team about new or changing patches and any joint symptoms. Skin and joint changes do not always happen at the same time.","1. Page 2: Raised patches with scales on an elbow.
+   Credit: Supplied educational illustration.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-skin-psoriasis.jpg","Scene 1: Welcome
+- Let’s look at the skin, and how psoriasis can show up. [framing]
+
+Scene 2: What it looks like
+- Psoriasis can cause raised, scaly, inflamed patches of skin. [niams-overview]
+- They often appear on the scalp, the elbows, or the knees. [niams-overview]
+
+Scene 3: More than skin
+- Psoriasis shows on the skin as plaques and scales. [npf-related]
+- But it is an inflammatory disease that can affect other parts of the body, too. [npf-related]
+
+Scene 4: Not always first
+- Most people with PsA had psoriasis first. [niams-overview]
+- But not everyone with PsA has, or will get, psoriasis. [npf-related]
+
+Scene 5: A patch is one clue
+- A skin patch alone cannot show whether a person has joint disease. [lesson-text]
+- And skin and joint changes do not always happen at the same time. [lesson-text]
+
+Scene 6: Your skin is yours
+- Your skin may look different from the pictures you see. [lesson-text]
+
+Scene 7: Skin checks
+- If you have never been diagnosed with psoriasis, a doctor can check your skin for signs of it. [niams-care]
+- A dermatologist is a doctor for skin, hair, and nail conditions. [niams-care]
+
+Scene 8: Tell your team
+- Tell your care team about new or changing patches, and about any joint symptoms. [lesson-text]
+
+Scene 9: Quick review
+- Great job! Let’s review. [framing]
+- Skin changes are one part of PsA care. [key-takeaway]
+- Your skin may look different. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: skin card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. GRAPPA domains in PsA (lesson p. 1)
+   Where: skin / corresponding core domain card
+   Contributed: Defines the disease domain in plain words.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. PsA & AS Symptoms (lesson p. 1)
+   Where: skin body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+4. Plaque psoriasis of the elbow (lesson p. 2)
+   Where: PSA1 caption and elbow
+   Contributed: Skin patches and scales.
+   Limits: Supplied educational illustration; does not diagnose a patient.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",4.861,,,,,,,,
+psa-symptoms-02,1,Eyes and symptoms that need prompt care,"[page 1] The eyes card describes inflammation inside the eye. One name for this is uveitis. It can cause eye pain, redness, blurred sight, or trouble with bright light. These symptoms can have other causes, too. A body map cannot tell which cause is present.
+
+The picture shows the uvea, a layer inside the eye. It includes the iris, the colored part at the front. Uveitis may affect other parts of the eye, too. The picture shows normal parts, so you cannot use it to judge whether an eye is inflamed.
+
+[page 2] New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment. Possible acute eye inflammation needs a same-day eye assessment. Seek emergency care for a loss of vision. Do not wait for your next routine visit or a reply in the app. An eye exam is needed to find the cause.","1. Page 1: The eye seen from the side. The uvea includes the iris, ciliary body, and choroid. This anatomy diagram cannot show whether your eye is inflamed.
+   Credit: Courtesy: National Eye Institute, National Institutes of Health (NEI/NIH). Public domain, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:EyeDiagramUveitis_0.jpg. Attribution from the existing supplementary-media manifest; copied without further changes.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/supp-eye-uveitis.jpg","Scene 1: Welcome
+- This lesson is about your eyes. It is short, but very important. [framing]
+
+Scene 2: Inflammation in the eye
+- Sometimes, inflammation can happen inside the eye. One name for this is uveitis. [lesson-text]
+- It usually affects one eye, but it can affect both. [nhs-uveitis]
+
+Scene 3: Signs to know
+- Signs include eye pain, red or watery eyes, blurred vision, and being bothered by bright light. [nhs-uveitis]
+- Some people also see flashes, or floating dark spots. [nhs-uveitis]
+
+Scene 4: Fast or slow
+- Symptoms can come on quickly, over hours or days, or more slowly, over weeks. [nhs-uveitis]
+
+Scene 5: Many causes
+- These symptoms can have other causes, too. [lesson-text]
+- A body map cannot tell which cause is present. [lesson-text]
+
+Scene 6: Same-day help
+- New eye pain, marked redness, light sensitivity, or blurred sight need urgent assessment, the same day. [lesson-text]
+- Do not wait for your next routine visit, or a reply in the app. [lesson-text]
+
+Scene 7: Loss of vision
+- Seek emergency care for any loss of vision. [lesson-text]
+
+Scene 8: Treatment works best early
+- An eye specialist can find the cause and start treatment quickly. [nhs-uveitis]
+- Treating it early helps prevent long-term problems, like vision loss. [nhs-uveitis]
+- It usually gets better with treatment, but it can come back. [nhs-uveitis]
+
+Scene 9: Quick review
+- Great job! Let’s review. [framing]
+- A body map cannot tell which cause is present. [key-takeaway]
+- Seek emergency care for a loss of vision. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: eyes card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. PsA One-Pager Intro (lesson p. 1)
+   Where: Box B and Box C: eyes
+   Contributed: Cross-checks domain or related-condition terminology.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. PsA & AS Symptoms (lesson p. 1)
+   Where: eyes body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+4. Diagram of the eye with the part called the uvea labeled. (lesson p. 1)
+   Where: Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:EyeDiagramUveitis_0.jpg
+   Contributed: Shows the part of the eye where uveitis happens. Explains the labeled uvea and iris; the NEI reference supplements the diagram.
+   Limits: Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff.
+
+References
+- NHS: Uveitis - https://www.nhs.uk/conditions/uveitis/
+- NICE NG65, recommendation 1.1.12: same-day eye assessment - https://www.nice.org.uk/guidance/ng65/chapter/recommendations
+- National Eye Institute: Uveitis — eye anatomy and symptoms - https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/uveitis",6.133,,,,,,,,
+psa-symptoms-03,1,Related health and changes over time,"[page 1] The statement above the body map says PsA may lead to lasting damage. Disease activity can rise and fall. A flare is a time when symptoms return or worsen. A flare and lasting joint damage are different. A flare describes activity now; damage refers to changes that may persist. There is no fixed sequence that everyone follows. Treatment aims to control symptoms and limit harm. Tell the team about changes in pain, swelling, fatigue, or daily tasks.
+
+[page 2] A comorbidity means another health condition alongside PsA. This is not the same as joint damage. Your team may discuss heart health, blood pressure, blood sugar, cholesterol, weight, or mood. Some people also have eye or bowel inflammation. Ask which health checks fit your history. A higher risk does not mean you will get another condition. A number on a general poster does not tell you your own risk. Share concerns so the care plan can address your whole health.
+
+The diagram groups health topics you can bring to a visit. It does not rank them or give a personal risk score.","1. Page 2: Related health topics: heart health and blood pressure, blood sugar and weight, and mood. Discuss checks that fit your own history. No risk percentages or ranking are shown.
+   Credit: Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/whole-health.svg. Clinical review pending.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-diagram-whole-health.jpg","Scene 1: Welcome
+- Let’s talk about how PsA can change over time, and about your whole health. [framing]
+
+Scene 2: Why treatment matters
+- PsA inflammation may lead to lasting damage if it is not treated. [src-clinical-manifestations-of-psa-poster]
+- Treatment can slow the disease and protect your joints. [niams-overview]
+
+Scene 3: Ups and downs
+- Disease activity can rise and fall. [lesson-text]
+- A flare is a time when symptoms come back, or get worse. [lesson-text]
+
+Scene 4: Flare or damage?
+- A flare and lasting joint damage are different. [lesson-text]
+- A flare describes activity now. Damage means changes that may stay. [lesson-text]
+
+Scene 5: Flares and your plan
+- Flares should not happen often when your disease is treated well. [npf-flares]
+- If flares happen often, talk with your provider about changing your plan. [npf-flares]
+
+Scene 6: Tell your team
+- There is no fixed path that everyone follows. [lesson-text]
+- Tell your team about changes in pain, swelling, tiredness, or daily tasks. [lesson-text]
+
+Scene 7: Other health conditions
+- A comorbidity means another health condition alongside PsA. [lesson-text]
+- These can include high blood pressure, high blood sugar, high cholesterol, heart disease, weight, and low mood. [src-poster-of-the-comorbidities-seen-in-psa]
+
+Scene 8: Regular check-ups
+- Some of these may have no symptoms you notice, so regular check-ups with your primary care provider matter. [npf-related]
+- Caught early, many can be treated with lifestyle changes or medicine. [npf-related]
+
+Scene 9: Risk is not destiny
+- Having a higher risk does not mean you will get another condition. [npf-flares]
+- And a number on a general poster does not tell you your own risk. [lesson-text]
+
+Scene 10: Ask and share
+- Ask which health checks fit your history, and share your concerns. [lesson-text]
+
+Scene 11: Quick review
+- Great job! Let’s review. [framing]
+- A flare and lasting joint damage are different. [key-takeaway]
+- A number on a general poster does not tell you your own risk. [key-takeaway]","Sources used
+1. Common PsA comorbidities (lesson p. 2)
+   Where: Blood pressure, metabolic, heart disease, obesity and depression headings; Editorial diagram based on the located source sections and current lesson; diagram spec: whole-health
+   Contributed: Names related health concerns to discuss with the care team. Displays a plain-language teaching summary; original diagram, not a source screenshot.
+   Limits: Do not reproduce percentages, rankings, or imply these are inevitable. Lung, thyroid and non-IBD gut statistics await evidence review. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions.
+2. Clinical manifestations of PsA (lesson p. 1)
+   Where: Subtitle: possible lasting damage
+   Contributed: Introduces possible long-term harm.
+   Limits: Flare definition and activity-versus-damage distinction require the separate NPF/NIAMS references.
+3. PsA & AS Symptoms (lesson p. 1)
+   Where: Subtitle: possible long-term damage
+   Contributed: Cross-checks that the source discusses possible damage, not a fixed progression.
+   Limits: Does not support a timetable, stages or an individual prediction.
+
+References
+- National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis - https://www.psoriasis.org/psa-related-conditions/
+- National Psoriasis Foundation: Care Path, Keep Thriving - https://www.psoriasis.org/care-path-thrive/
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis",5.634,,,,,,,,
+psa-symptoms-04,1,Gut and bowel changes,"[page 1] The gut card describes pain, bloating, and changes in bowel habits. Inflammatory bowel disease, or IBD, can occur alongside PsA. This is a condition that causes inflammation in the gut. A bowel change does not prove that you have IBD or that PsA is the cause.
+
+Use the picture to locate the stomach and the small and large intestine. It shows normal body parts. It cannot show what is causing a change in your bowel habits.
+
+[page 2] Tell your care team about gut symptoms that keep happening. Note what changed, when it started, and how it affects your day. Your team may ask about your medicines and decide whether you need more tests. If symptoms are severe or you feel acutely unwell, seek urgent medical help.","1. Page 1: The digestive tract includes the stomach, small intestine, and large intestine. This is a normal anatomy diagram, not an image of bowel disease.
+   Credit: Blausen.com staff (2014). ""Medical gallery of Blausen Medical 2014"". WikiJournal of Medicine 1(2). CC BY 3.0, via Wikimedia Commons. Resized. Source: https://commons.wikimedia.org/wiki/File:Blausen_0316_DigestiveSystem.png. License: https://creativecommons.org/licenses/by/3.0. Attribution from the existing supplementary-media manifest; copied without further changes.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/supp-digestive-system.jpg","Scene 1: Welcome
+- Let’s talk about your gut, and changes in your bowels. [framing]
+
+Scene 2: What to notice
+- The gut card describes pain, bloating, and changes in bowel habits. [src-clinical-manifestations-of-psa-poster]
+
+Scene 3: IBD
+- Inflammatory bowel disease, or IBD, can happen in some people with PsA. [niams-overview]
+- IBD means inflammation of the digestive tract. [npf-related]
+
+Scene 4: Not proof
+- But a bowel change does not prove that you have IBD, or that PsA is the cause. [lesson-text]
+
+Scene 5: Tell your team
+- Tell your care team about gut symptoms that keep happening. [lesson-text]
+- Note what changed, when it started, and how it affects your day. [lesson-text]
+
+Scene 6: Your team decides
+- Your team may ask about your medicines, and decide whether you need more tests. [lesson-text]
+
+Scene 7: When it is urgent
+- If symptoms are severe, or you feel very unwell, get urgent medical help. [lesson-text]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- A bowel change does not prove that you have IBD or that PsA is the cause. [key-takeaway]
+- Tell your care team about gut symptoms that keep happening. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: gut card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. PsA One-Pager Intro (lesson p. 1)
+   Where: Box B and Box C: gut
+   Contributed: Cross-checks domain or related-condition terminology.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. PsA & AS Symptoms (lesson p. 1)
+   Where: gut body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+4. Diagram of the digestive system, including the small and large intestine. (lesson p. 1)
+   Where: Complete supplied supplementary image; https://commons.wikimedia.org/wiki/File:Blausen_0316_DigestiveSystem.png
+   Contributed: Shows where the gut is for lessons on bowel changes. Names the stomach and intestines shown in the diagram.
+   Limits: Illustration only; not diagnostic evidence or proof of treatment effect. Photo subjects are not identified as PsA patients or ACCR staff.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- National Psoriasis Foundation: Related Conditions of Psoriatic Arthritis - https://www.psoriasis.org/psa-related-conditions/",5.563,,,,,,,,
+psa-symptoms-05,1,Shoulders and reaching,"[page 1] The shoulders card shows that PsA can affect a shoulder joint and nearby tissues. Pain may make it hard to reach up or put on a shirt. A sore shoulder can have more than one cause. The body map shows a place to discuss, not a diagnosis.
+
+The shoulder is a ball in a shallow socket. A group of muscles and tendons called the rotator cuff helps hold it steady as you lift your arm. Small fluid-filled sacs help tissues glide. The picture shows normal parts, not damage from PsA.
+
+[page 2] Tell your team which shoulder hurts and when the pain began. Describe a task that has become harder, such as reaching a shelf. Mention stiffness, swelling, or a change in how far you can move. Your team can check the joint and the tissues around it.","1. Page 1: Normal shoulder parts, including the ball, socket and nearby tendons.
+   Credit: OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:914_Shoulder_Joint.jpg. Extracted from supplied RheumNotes PDF p. 20; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-shoulder.jpg","Scene 1: Welcome
+- Let’s look at the shoulders, and how they help you reach. [framing]
+
+Scene 2: The shoulder
+- PsA can affect a shoulder joint, and the tissues around it. [src-clinical-manifestations-of-psa-poster]
+- The shoulder can become inflamed and painful. [src-clinical-manifestations-of-psa-poster]
+
+Scene 3: Everyday reaching
+- Pain may make it hard to reach up, or to put on a shirt. [lesson-text]
+
+Scene 4: Stiffness
+- Joints may feel stiff, and stiffness is often worse in the morning, or after resting. [niams-overview]
+
+Scene 5: More than one cause
+- A sore shoulder can have more than one cause. [lesson-text]
+- The body map shows a place to discuss, not a diagnosis. [lesson-text]
+
+Scene 6: Tell your team
+- Tell your team which shoulder hurts, and when the pain began. [lesson-text]
+- Describe a task that has become harder, such as reaching a shelf. [lesson-text]
+- Mention stiffness, swelling, or a change in how far you can move. [lesson-text]
+
+Scene 7: Help from your team
+- Your team can check the joint, and the tissues around it. [lesson-text]
+- A physical therapist can help improve how a joint works. [niams-care]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- A sore shoulder can have more than one cause. [key-takeaway]
+- Describe a task that has become harder, such as reaching a shelf. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: shoulders card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. PsA & AS Symptoms (lesson p. 1)
+   Where: shoulders body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF p. 20: normal regional anatomy; PDF p. 20: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",3.875,,,,,,,,
+psa-symptoms-06,1,"Wrists, hands, fingers, and nails","[page 1] This card groups several changes in the hands. A wrist or finger joint may hurt, swell, or feel stiff. Swelling of a whole finger is called dactylitis. It is different from swelling around just one joint. These changes can make tasks such as holding a cup or using buttons harder.
+
+The wrist has small bones between the forearm and hand. Tendons help bend and straighten the fingers. Each finger has a knuckle, middle joint, and end joint. Point to the exact joint or part of the finger that has changed.
+
+[page 2] Nail psoriasis may cause small pits, yellow spots, or a nail lifting from its bed. The photo shows examples of nail changes. Nail changes and joint symptoms do not always happen together. Tell your team whether the change is in a nail, a joint, or the whole finger. Mention any trouble with daily tasks.","1. Page 1: Photos of dactylitis: a whole little toe swollen like a sausage, and a swollen little finger with a swollen wrist.
+   Credit: Helliwell P, Coates LC, Gladman D. ""Psoriatic Arthritis."" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, p. 99, fig. 8.2. © Springer Nature Switzerland AG 2023. Used with permission.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-dactylitis.jpg
+
+2. Page 1: Bones of the hand and wrist. Use the picture to point to a painful area.
+   Credit: OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:806_Hand_and_Wrist.jpg. Extracted from supplied RheumNotes PDF p. 33; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-hand.jpg
+
+3. Page 2: Photo of fingernails with tiny dents (pitting) and a nail lifting away from the nail bed.
+   Credit: Helliwell P, Coates LC, Gladman D. ""Psoriatic Arthritis."" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, fig. 8.1. © Springer Nature Switzerland AG 2023. Used with permission.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-nail-changes.jpg
+
+4. Page 2: Small pits and yellow spots on the nails.
+   Credit: Supplied educational illustration.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-nail-psoriasis.jpg","Scene 1: Welcome
+- Let’s look at your wrists, hands, fingers, and nails. [framing]
+
+Scene 2: Hand joints
+- A wrist or finger joint may hurt, swell, or feel stiff. [lesson-text]
+
+Scene 3: Dactylitis
+- Swelling of a whole finger is called dactylitis. [lesson-text]
+- It is a painful, sausage-like swelling. [niams-overview]
+- It is different from swelling around just one joint. [lesson-text]
+
+Scene 4: Daily tasks
+- These changes can make tasks like holding a cup, or doing buttons, harder. [lesson-text]
+
+Scene 5: Nail psoriasis
+- Nail psoriasis may cause small pits, yellow spots, or a nail lifting from its bed. [lesson-text]
+- Nails can also crumble. [niams-overview]
+
+Scene 6: Not always together
+- Nail changes and joint symptoms do not always happen together. [lesson-text]
+
+Scene 7: Protecting your hands
+- An occupational therapist can teach ways to protect your joints, and to do daily tasks. [niams-care]
+
+Scene 8: Tell your team
+- Tell your team whether the change is in a nail, a joint, or the whole finger. [lesson-text]
+- And mention any trouble with daily tasks. [lesson-text]
+
+Scene 9: Quick review
+- Great job! Let’s review. [framing]
+- Swelling of a whole finger is called dactylitis. [key-takeaway]
+- Nail changes and joint symptoms do not always happen together. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: hands card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. GRAPPA domains in PsA (lesson p. 1)
+   Where: hands / corresponding core domain card
+   Contributed: Defines the disease domain in plain words.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. PsA One-Pager Intro (lesson p. 1)
+   Where: Box B and Box C: hands
+   Contributed: Cross-checks domain or related-condition terminology.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+4. PsA & AS Symptoms (lesson p. 1)
+   Where: hands body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+5. Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8) (lesson p. 1, 2)
+   Where: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)
+   Contributed: Dactylitis photo (page 1) and nail-change photo (page 2).
+   Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
+6. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF p. 33: normal regional anatomy; PDF p. 33: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+7. Nail psoriasis (lesson p. 2)
+   Where: PSA2 caption and nails
+   Contributed: Pits, yellow spots and nail lifting.
+   Limits: Supplied educational illustration; does not diagnose a patient.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",5.62,,,,,,,,
+psa-symptoms-07,1,"Feet, heel pain, and tendon attachments","[page 1] Enthesitis means inflammation where a tendon or ligament joins bone. The feet card shows this type of change. The Achilles tendon joins the back of the heel. The plantar fascia attaches at the bottom of the heel. These sites can feel sore or tender. The two pictures show the difference in location.
+
+The foot has a heel region, a middle region, and the toes and long bones at the front. A strong band under the foot helps support the arch. Use these landmarks to show whether pain is under the heel, at the back, or near the toes.
+
+[page 2] Tell your team if pain is at the back or bottom of the heel, in a toe, or elsewhere in the foot. Mention whether walking has become harder. Heel pain can have several causes. A symptom picture cannot tell you the cause on its own. Your team can examine the area and decide what to check next.","1. Page 1: Swelling at the back of a heel.
+   Credit: Supplied educational illustration.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-achilles-enthesitis.jpg
+
+2. Page 1: Pain at the bottom of a heel.
+   Credit: Supplied educational illustration.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-plantar-fasciitis.jpg
+
+3. Page 2: Normal foot bones seen from above; this picture does not show inflammation.
+   Credit: Henry Vandyke Carter (Gray's Anatomy); Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Source: https://commons.wikimedia.org/wiki/File:Gray268.png. Extracted from supplied RheumNotes PDF p. 63; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-foot.jpg","Scene 1: Welcome
+- Let’s look at the feet, and heel pain. [framing]
+
+Scene 2: Enthesitis
+- Enthesitis means inflammation where a tendon or ligament joins bone. [lesson-text]
+
+Scene 3: Two heel spots
+- The Achilles tendon joins the back of the heel. [lesson-text]
+- The plantar fascia attaches at the bottom of the heel. [lesson-text]
+- These are common sore spots in PsA. [niams-overview]
+
+Scene 4: Toes too
+- A whole toe can also swell up, like a sausage. [niams-overview]
+
+Scene 5: Tell your team
+- Tell your team if pain is at the back or bottom of the heel, in a toe, or somewhere else in the foot. [lesson-text]
+- Mention whether walking has become harder. [lesson-text]
+
+Scene 6: Many causes
+- Heel pain can have several causes. [lesson-text]
+- A picture cannot tell you the cause on its own. [lesson-text]
+
+Scene 7: Checking it
+- Your team can examine the area, and decide what to check next. [lesson-text]
+- Imaging, like X-rays, ultrasound, or MRI, can show changes where tendons attach to bone. [niams-care]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- Heel pain can have several causes. [key-takeaway]
+- A symptom picture cannot tell you the cause on its own. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: feet card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. GRAPPA domains in PsA (lesson p. 1)
+   Where: feet / corresponding core domain card
+   Contributed: Defines the disease domain in plain words.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. PsA One-Pager Intro (lesson p. 1)
+   Where: Box B and Box C: feet
+   Contributed: Cross-checks domain or related-condition terminology.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+4. PsA & AS Symptoms (lesson p. 1)
+   Where: feet body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+5. RheumNotes Anatomy White Paper (lesson p. 1, 2)
+   Where: PDF p. 63: normal regional anatomy; PDF p. 63: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+6. Achilles enthesitis (lesson p. 1)
+   Where: PSA3 caption and heel backs
+   Contributed: Back-of-heel tendon attachment location.
+   Limits: Supplied educational illustration; does not diagnose a patient.
+7. Plantar fasciitis (lesson p. 1)
+   Where: PSA5 caption and sole
+   Contributed: Bottom-of-heel attachment location.
+   Limits: Supplied educational illustration; does not diagnose a patient.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",4.189,,,,,,,,
+psa-symptoms-08,1,Spine and SI joints,"[page 1] Axial disease means PsA affects the spine. It may also affect the sacroiliac, or SI, joints. These joints link the lower spine to the pelvis. Inflammation in these areas can cause back pain and stiffness. The spine card shows where these changes may occur.
+
+The spine is a stack of bones called vertebrae. Discs sit between many of them. The sacrum is the bone at the base of the spine. The SI joints link it to the pelvis. The picture shows normal spine regions; it cannot show the cause of your pain.
+
+[page 2] Tell your care team where your back feels sore or stiff. Note when it happens and how it affects sleep or movement. Back pain can have many causes. This map cannot show which cause you have. A clinician uses your story, an exam, and sometimes tests to understand the pattern.","1. Page 1: Normal spine regions from the neck to the sacrum and tailbone.
+   Credit: OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:715_Vertebral_Column.jpg. Extracted from supplied RheumNotes PDF p. 13; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-spine.jpg
+
+2. Page 1: Side-view X-ray of the mid and lower back. An arrow points to changes in the spine from PsA.
+   Credit: Helliwell P, Coates LC, Gladman D. ""Psoriatic Arthritis."" In: Stone JH, ed. A Clinician's Pearls & Myths in Rheumatology, 2nd ed. Springer Nature, 2023, chap. 8. © Springer Nature Switzerland AG 2023. Used with permission.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-spine-xray.jpg","Scene 1: Welcome
+- Let’s look at the spine, and the SI joints. [framing]
+
+Scene 2: Axial disease
+- Axial disease means PsA affects the spine. [lesson-text]
+- It may also affect the sacroiliac, or SI, joints, which link the lower spine to the pelvis. [lesson-text]
+
+Scene 3: How it feels
+- Inflammation here can cause stiffness in the neck, the lower back, and the hips. [niams-overview]
+- Stiffness is often worse in the morning, or after resting. [niams-overview]
+- And it may get better with exercise. [nhs-psa]
+
+Scene 4: Tell your team
+- Tell your care team where your back feels sore or stiff. [lesson-text]
+- Note when it happens, and how it affects sleep or movement. [lesson-text]
+
+Scene 5: Many causes
+- Back pain can have many causes, and a map cannot show which one you have. [lesson-text]
+
+Scene 6: Finding the pattern
+- A clinician uses your story, an exam, and sometimes tests, to understand the pattern. [lesson-text]
+- Imaging can show changes in the spine. [niams-care]
+
+Scene 7: Moving helps
+- Low-impact exercise, like walking, swimming, yoga, or tai chi, may help. [niams-care]
+- Talk with your doctor before you start. [niams-care]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- Back pain can have many causes. [key-takeaway]
+- These joints link the lower spine to the pelvis. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: spine card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. GRAPPA domains in PsA (lesson p. 1)
+   Where: spine / corresponding core domain card
+   Contributed: Defines the disease domain in plain words.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. PsA One-Pager Intro (lesson p. 1)
+   Where: Box B and Box C: spine
+   Contributed: Cross-checks domain or related-condition terminology.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+4. PsA & AS Symptoms (lesson p. 1)
+   Where: spine body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+5. Psoriatic Arthritis: Clinical Images (A Clinician's Pearls & Myths in Rheumatology, ch. 8) (lesson p. 1)
+   Where: Clinical images PDF, slides 2-4 (figs. 8.1, 8.2 and the chapter 8 spine X-ray)
+   Contributed: Spine X-ray with spondylitis changes.
+   Limits: Example photos from a textbook; a person's own signs may look different. Not a self-diagnosis tool.
+6. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF p. 13: normal regional anatomy; PDF p. 13: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",3.65,,,,,,,,
+psa-symptoms-09,1,Elbows and nearby tendons,"[page 1] PsA can cause pain or tenderness in an elbow joint or nearby tendons. The elbow card shows these areas. Bending your arm or lifting an object may feel harder. Pain near an elbow and a skin patch on the elbow are different types of change.
+
+The elbow acts as a hinge when you bend your arm. A nearby pivot lets you turn your palm up and down. Tendons attach near the bony bumps on each side. A small fluid-filled sac cushions the tip of the elbow.
+
+[page 2] Tell your team whether the problem is in the skin, inside the joint, or around it. You do not have to know the medical name. Describe where it hurts, when it started, and what you find hard to do. An exam can help the team work out which tissues are involved.","1. Page 1: Normal elbow bones, supporting bands and the small sac at its tip.
+   Credit: OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:915_Elbow_Joint.jpg. Extracted from supplied RheumNotes PDF p. 27; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-elbow.jpg","Scene 1: Welcome
+- Let’s look at the elbows, and the tendons nearby. [framing]
+
+Scene 2: The elbow
+- PsA can cause pain or tenderness in an elbow joint, or in the tendons nearby. [src-clinical-manifestations-of-psa-poster]
+
+Scene 3: Everyday moves
+- Bending your arm, or lifting things, may feel harder. [lesson-text]
+
+Scene 4: Skin or joint?
+- Pain near the elbow and a skin patch on the elbow are different kinds of change. [lesson-text]
+- Psoriasis patches often show up on the elbows. [niams-overview]
+
+Scene 5: Describe it your way
+- Tell your team whether the problem is in the skin, inside the joint, or around it. [lesson-text]
+- You do not have to know the medical name. [lesson-text]
+
+Scene 6: What to say
+- Describe where it hurts, when it started, and what you find hard to do. [lesson-text]
+
+Scene 7: Exam and joint care
+- An exam can help the team work out which tissues are involved. [lesson-text]
+- One tip to protect your joints: push a door open with your whole body, not just your fingers. [niams-care]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- You do not have to know the medical name. [key-takeaway]
+- Pain near an elbow and a skin patch on the elbow are different types of change. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: elbows card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. PsA & AS Symptoms (lesson p. 1)
+   Where: elbows body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF p. 27: normal regional anatomy; PDF p. 27: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",3.97,,,,,,,,
+psa-symptoms-10,1,Hips and daily movement,"[page 1] The hips card shows that a hip joint can be affected by PsA. Pain or stiffness may limit movement. You may notice that steps, walking, or getting up from a chair are harder. These examples help you describe a problem; they do not prove that PsA is the cause.
+
+The hip is a ball-and-socket joint. The top of the thigh bone fits into a deep cup in the pelvis. Nearby muscles help keep the pelvis level as you walk. The picture shows the bones and bands that support a normal hip.
+
+[page 2] Tell your team which side hurts and what has changed. Explain how the pain affects your daily routine. Mention a new limp or trouble doing a task you could do before. The team can check the hip and nearby areas. Do not use the map to decide the cause on your own.","1. Page 1: Front view of the pelvis and the bands that support the hip joints.
+   Credit: Johannes Sobotta (Atlas, 1909); Public domain (https://creativecommons.org/publicdomain/mark/1.0/). Source: https://commons.wikimedia.org/wiki/File:Sobo_1909_208.png. Extracted from supplied RheumNotes PDF p. 41; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-hip.jpg","Scene 1: Welcome
+- Let’s look at the hips, and how they help you move every day. [framing]
+
+Scene 2: The hip
+- A hip joint can be affected by PsA, causing pain, and making it harder to move. [src-clinical-manifestations-of-psa-poster]
+
+Scene 3: Daily movement
+- You may notice that steps, walking, or getting up from a chair are harder. [lesson-text]
+
+Scene 4: Clues, not proof
+- These examples help you describe a problem. [lesson-text]
+- They do not prove that PsA is the cause. [lesson-text]
+
+Scene 5: Tell your team
+- Tell your team which side hurts, and what has changed. [lesson-text]
+- Mention a new limp, or trouble with a task you could do before. [lesson-text]
+
+Scene 6: Healthy weight
+- Keeping a healthy weight lowers the strain on your joints. [niams-care]
+- And it may help your medicines work better. [niams-care]
+
+Scene 7: Let your team check
+- The team can check the hip, and the areas nearby. [lesson-text]
+- Do not use the map to decide the cause on your own. [lesson-text]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- Pain or stiffness may limit movement. [key-takeaway]
+- Tell your team which side hurts and what has changed. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: hips card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. PsA & AS Symptoms (lesson p. 1)
+   Where: hips body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF p. 41: normal regional anatomy; PDF p. 41: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",3.888,,,,,,,,
+psa-symptoms-11,1,"Knees, swelling, and stiffness","[page 1] The knees card describes swelling, warmth, and stiffness from inflammation. A knee may also hurt. Bending the knee, using stairs, or getting out of a chair may be harder. Knee symptoms can have more than one cause. A picture is only a guide to the area.
+
+The knee joins the thigh bone and shin bone. The kneecap sits at the front. Pads of cartilage help spread the load, while strong bands hold the bones steady. A swollen knee needs an exam; a picture of normal parts cannot show why it is swollen.
+
+[page 2] Tell your care team when the knee problem began and whether one or both knees are affected. Note any swelling and the tasks that have changed. The team may examine how the knee moves and check for other causes. Seek urgent medical help if symptoms are severe or you feel acutely unwell.","1. Page 1: Normal knee structures from several views, including cartilage pads and supporting bands.
+   Credit: OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:917_Knee_Joint.jpg. Extracted from supplied RheumNotes PDF p. 49; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-knee.jpg","Scene 1: Welcome
+- Let’s look at the knees. [framing]
+
+Scene 2: What can happen
+- Knee inflammation can cause swelling, warmth, and stiffness. [src-clinical-manifestations-of-psa-poster]
+- A knee may also hurt. [lesson-text]
+
+Scene 3: Everyday tasks
+- Bending the knee, using stairs, or getting out of a chair may be harder. [lesson-text]
+
+Scene 4: Other causes
+- Knee symptoms can have more than one cause. [lesson-text]
+- Other conditions, like osteoarthritis or gout, can also cause joint pain and swelling. [nhs-psa]
+- A picture is only a guide to the area. [lesson-text]
+
+Scene 5: Tell your team
+- Tell your team when the knee problem began, and whether one or both knees are affected. [lesson-text]
+- Note any swelling, and the tasks that have changed. [lesson-text]
+
+Scene 6: Checks and movement
+- The team may check how the knee moves, and look for other causes. [lesson-text]
+- Low-impact activities, like cycling or swimming, may help. Ask your team first. [niams-care]
+
+Scene 7: When it is urgent
+- Get urgent medical help if symptoms are severe, or you feel very unwell. [lesson-text]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- Knee symptoms can have more than one cause. [key-takeaway]
+- A picture is only a guide to the area. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: knees card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. PsA & AS Symptoms (lesson p. 1)
+   Where: knees body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF p. 49: normal regional anatomy; PDF p. 49: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",5.592,,,,,,,,
+psa-symptoms-12,1,Ankles and the middle of the foot,"[page 1] The ankles card describes inflammation in the ankle and middle of the foot. Pain or swelling here can make walking harder. This is different from pain where a tendon joins the heel bone. The Feet and heel lesson explains those attachment sites.
+
+The main ankle joint moves the foot up and down. A joint below it helps the foot tilt on uneven ground. Strong bands on both sides support the ankle. Tell the team whether pain is at the ankle, heel, or middle of the foot.
+
+[page 2] Use the map to show where the problem is. Tell your team if it is around the ankle, across the middle of the foot, or at the heel. Mention when it began and any change in walking. The location helps guide an exam. It does not show the cause by itself.","1. Page 1: Inner and outer views of normal ankle bones and supporting bands.
+   Credit: OpenStax; CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Source: https://commons.wikimedia.org/wiki/File:919_Ankle_Feet_Joints.jpg. Extracted from supplied RheumNotes PDF p. 57; resized and JPEG-compressed, no new crop or labels. Attribution transcribed from the supplied image appendix.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-rheumnotes-ankle.jpg","Scene 1: Welcome
+- Let’s look at the ankles, and the middle of the foot. [framing]
+
+Scene 2: Ankle and mid-foot
+- The ankle and the middle of the foot can become inflamed. [src-clinical-manifestations-of-psa-poster]
+- This can cause pain, and make walking harder. [src-clinical-manifestations-of-psa-poster]
+
+Scene 3: Not the heel
+- This is different from pain where a tendon joins the heel bone. [lesson-text]
+- The feet and heel lesson covers those spots. [lesson-text]
+
+Scene 4: Show where
+- Use the map to show where the problem is: around the ankle, across the middle of the foot, or at the heel. [lesson-text]
+
+Scene 5: Tell your team
+- Mention when it began, and any change in walking. [lesson-text]
+
+Scene 6: Location is a clue
+- The location helps guide an exam. [lesson-text]
+- But it does not show the cause by itself. [lesson-text]
+
+Scene 7: Your helpers
+- Physical therapists help improve joint function. [niams-care]
+- Occupational therapists teach ways to protect your joints, and save energy. [niams-care]
+
+Scene 8: Quick review
+- Great job! Let’s review. [framing]
+- Pain or swelling here can make walking harder. [key-takeaway]
+- It does not show the cause by itself. [key-takeaway]","Sources used
+1. Clinical manifestations of PsA (lesson p. 1, 2)
+   Where: ankles card on the clinical manifestations body map
+   Contributed: Body location and symptom description for this lesson. Daily-task and reporting examples are editorial explanations.
+   Limits: The image is not a diagnostic or urgency tool; use the external references for clinical assessment and eye urgency.
+2. PsA & AS Symptoms (lesson p. 1)
+   Where: ankles body label
+   Contributed: Cross-checks the original body location; the source includes both PsA and AS.
+   Limits: No drug choices, risk percentages or self-diagnosis rules are inferred.
+3. RheumNotes Anatomy White Paper (lesson p. 1)
+   Where: PDF p. 57: normal regional anatomy; PDF p. 57: displayed illustration; Image Credits appendix
+   Contributed: Explain normal structures and help locate symptoms. Display the selected source image with attribution.
+   Limits: Normal anatomy only. OA/RA/gout images, exam maneuvers and range-of-motion targets are not used as PsA self-tests.
+
+References
+- NIAMS: Psoriatic Arthritis - https://www.niams.nih.gov/health-topics/psoriatic-arthritis
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take",3.97,,,,,,,,
+psa-treatment-01,1,How treatment goals are chosen,"[page 1] Treatment discussions start with what is active and what matters to you. The six disease domains help describe this. They include skin, nails, joints away from the spine, the spine, whole-digit swelling, and attachment sites. The care team considers these domains together.
+
+[page 2] Goals may include easing symptoms, protecting joints, and making daily tasks easier. Eye or bowel disease and other health conditions also matter. The team asks what you have tried before. They review your other medicines, side effects, and what matters to you. A treatment plan is chosen for a person, rather than from one symptom alone. A medicine that helps one domain may not cover every concern equally. Ask which parts of your disease the plan addresses and how progress will be checked.
+
+Bring one task you want to do more easily, such as getting dressed or walking to a shop. This gives the team a clear goal to discuss with you.","1. Page 2: Shared treatment goals: describe what matters to you, review symptoms and other health needs, and agree how to check benefits, side effects and progress.
+   Credit: Original editorial diagram summarizing the lesson and its cited sources, not a source screenshot. Clinical review pending.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-diagram-shared-treatment-goals.jpg","Scene 1: Welcome
+- Let’s find out how you and your team choose treatment goals. [framing]
+
+Scene 2: Where it starts
+- Treatment talks start with what is active, and what matters to you. [lesson-text]
+
+Scene 3: The six domains
+- The six disease domains help describe what is active. [lesson-text]
+- The care team looks at these domains together. [lesson-text]
+
+Scene 4: A plan for your pattern
+- Your treatment plan depends on the pattern of your symptoms, and how severe they are. [niams-care]
+- You may need to try different medicines, or a mix, to find what works. [niams-care]
+
+Scene 5: Goals
+- Goals may include easing symptoms, protecting joints, and making daily tasks easier. [lesson-text]
+- Treatment can slow the disease, lessen pain, and protect the joints. [niams-overview]
+
+Scene 6: Your whole health counts
+- Eye or bowel disease, and other health conditions, like heart health or weight, can also change which treatment fits. [src-psa-one-pager-intro]
+- So the team asks what you have tried before. [lesson-text]
+
+Scene 7: Matched to you
+- They review your other medicines, side effects, and what matters to you. [lesson-text]
+- Treatment is matched to each person, watched closely, and changed if it is not working well enough. [src-management-guidelines-of-arthritis-and-autoimmune-diseases]
+
+Scene 8: A person, not a symptom
+- A plan is chosen for a person, not from one symptom alone. [lesson-text]
+- A medicine that helps one domain may not cover every concern equally. [lesson-text]
+
+Scene 9: If goals are not met
+- If you do not reach your goal, your provider may suggest changing the dose, adding a treatment, or switching. [npf-flares]
+
+Scene 10: Ask about your plan
+- Ask which parts of your disease the plan covers, and how progress will be checked. [lesson-text]
+
+Scene 11: Quick review
+- Great job! Let’s review. [framing]
+- The care team considers these domains together. [key-takeaway]
+- A treatment plan is chosen for a person, rather than from one symptom alone. [key-takeaway]","Sources used
+1. PsA One-Pager Intro (lesson p. 1, 2)
+   Where: Box B domains; related conditions; comorbidities that steer the drug
+   Contributed: Choice considers active domains plus eye, bowel and other health needs.
+   Limits: Do not copy the abbreviated drug rules as patient instructions.
+2. GRAPPA domains in PsA (lesson p. 1)
+   Where: Six GRAPPA treatment domain cards
+   Contributed: Names the six areas considered in goal setting; the poster is not displayed.
+   Limits: Domain overview only, not a ranked treatment pathway.
+3. Management Guidelines of Arthritis and Autoimmune Diseases (lesson p. 2)
+   Where: Paragraphs 33, 38 and 95: matching therapy, monitoring and partnership; editorial diagram: shared-treatment-goals
+   Contributed: Individual response, other illnesses and follow-up shape the plan. Displays a lesson-specific editorial summary.
+   Limits: This broad arthritis chapter includes RA, lupus and OA. Those disease-specific regimens are not treated as PsA guidance.
+
+References
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take
+- GRAPPA 2021 domain-based treatment recommendations (published 2022) - https://www.nature.com/articles/s41584-022-00798-0",6.486,,,,,,,,
+psa-treatment-02,1,Understanding treatment groups,"[page 1] Medicines have different jobs. Some help ease pain and swelling. Others aim to control the disease process. These are called DMARDs. Conventional DMARDs act broadly on the immune system. Biologic drugs target selected immune signals. Targeted synthetic drugs act on pathways inside cells. These are names for groups. They do not rank drugs from good to bad. Some drugs are pills. Others are given by a shot or through a vein. How a drug enters the body does not tell you how well it will work for you.
+
+The diagram groups care by its role. The groups can be part of the same plan; they are not steps you move through on your own.
+
+[page 2] A drug is not right for every person or every disease domain. Some plans also include skin care, physical therapy, or help with daily tasks. The benefits, risks, and checks depend on the drug. This lesson does not give doses or tell you to start, stop, or change a medicine. Ask the prescribing team what your drug is for. Ask which checks go with it, too. Make a list of all your drugs and supplements. Ask about blood tests, infection checks, and vaccines that may go with your plan. Keep follow-up visits even when you feel better.","1. Page 1: Treatment roles include symptom relief, disease control with DMARD groups, and support such as skin care and physical therapy. These are not ranked treatment steps.
+   Credit: Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/treatment-groups.svg. Clinical review pending.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-diagram-treatment-groups.jpg","Scene 1: Welcome
+- Let’s learn about the main groups of PsA medicines. [framing]
+
+Scene 2: Different jobs
+- Medicines have different jobs. [lesson-text]
+- Some, like over-the-counter anti-inflammatory and pain medicines, help ease pain and swelling. [niams-care]
+
+Scene 3: Steroid shots
+- For milder disease, a steroid shot may be given into a sore joint. [niams-care]
+- Doctors use the lowest dose that helps. [niams-care]
+
+Scene 4: DMARDs
+- Other medicines aim to control the disease process. These are called DMARDs. [lesson-text]
+- That means they work to slow or stop damage, not just to ease pain. [src-management-guidelines-of-arthritis-and-autoimmune-diseases]
+
+Scene 5: Conventional DMARDs
+- Conventional DMARDs are pills that calm the immune system in a broad way. [niams-care]
+
+Scene 6: Biologics
+- Biologics target specific immune messages, and interrupt the signal. [niams-care]
+- They are usually given as a shot, or through a vein. [src-management-guidelines-of-arthritis-and-autoimmune-diseases]
+
+Scene 7: Targeted synthetic drugs
+- Targeted synthetic drugs act on pathways inside cells. [lesson-text]
+- These are taken by mouth. [src-management-guidelines-of-arthritis-and-autoimmune-diseases]
+
+Scene 8: Groups, not rankings
+- These are names for groups. They do not rank drugs from good to bad. [lesson-text]
+- And how a drug enters the body does not tell you how well it will work for you. [lesson-text]
+
+Scene 9: Fits the person
+- A drug is not right for every person or every domain. [lesson-text]
+- Some plans also include skin care, physical therapy, or help with daily tasks. [lesson-text]
+
+Scene 10: Safety checks
+- Some of these medicines need infection checks before and during treatment. [src-management-guidelines-of-arthritis-and-autoimmune-diseases]
+- Ask about blood tests, infection checks, and vaccines that go with your plan. [lesson-text]
+
+Scene 11: Don’t change on your own
+- This lesson does not tell you to start, stop, or change a medicine. [lesson-text]
+- Stopping treatment because you feel well could lead to a flare, so always ask your provider first. [npf-flares]
+- Keep your follow-up visits, even when you feel better. [lesson-text]
+
+Scene 12: Know your medicines
+- Make a list of all your medicines and supplements, and ask what each one is for. [lesson-text]
+
+Scene 13: Quick review
+- Great job! Let’s review. [framing]
+- Medicines have different jobs. [key-takeaway]
+- They do not rank drugs from good to bad. [key-takeaway]","Sources used
+1. Management Guidelines of Arthritis and Autoimmune Diseases (lesson p. 1, 2)
+   Where: Paragraphs 29, 38-39, 47 and 51: DMARDs, biologics, targeted oral drugs and monitoring; Editorial diagram based on the located source sections and current lesson; diagram spec: treatment-groups
+   Contributed: Explains drug group roles, routes and questions about follow-up checks. Displays a plain-language teaching summary; original diagram, not a source screenshot.
+   Limits: No doses, new approval claims, investigational therapies or RA/OA treatments imported. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions.
+2. PsA One-Pager Intro (lesson p. 2)
+   Where: Box B: why domains and related conditions change therapy
+   Contributed: Explains why a drug is not right for every domain or person.
+   Limits: No individual drug choice is inferred from one poster row.
+3. Handwritten PsA mind map (lesson p. 1)
+   Where: Bottom treatment branches: DMARDs, biologic DMARDs, PDE4 and JAK pathways
+   Contributed: Connects the original treatment map to the three plain-language group descriptions.
+   Limits: Do not reproduce brand lists, truncated TYK2 branch or a prescribing sequence.
+
+References
+- NIAMS: Diagnosis, Treatment, and Steps to Take - https://www.niams.nih.gov/health-topics/psoriatic-arthritis/diagnosis-treatment-and-steps-to-take
+- GRAPPA 2021 domain-based treatment recommendations (published 2022) - https://www.nature.com/articles/s41584-022-00798-0",4.549,,,,,,,,
+psa-treatment-03,1,Tracking progress and planning for flares,"[page 1] Follow-up visits look at more than one sign of disease activity. The team may check sore or swollen joints, skin, and tendon sites. They also ask about daily tasks. Your view of pain and health matters, too. Minimal disease activity, or MDA, uses several measures together. It helps track care. It is not a stage of disease. A quiet skin patch alone does not show the whole picture.
+
+[page 2] If symptoms return or worsen, discuss a flare plan with the care team. A short record can note what changed, when it began, and how it affects daily tasks. Ask which changes need a call, which contact route to use, and what to do outside office hours. Repeated flares may mean the plan needs review. Use instructions agreed with your prescribing team for medicine questions. This general lesson does not replace your own flare plan. A useful record can include pain, sleep, energy, mood, and one task that was hard that day. Share patterns at follow-up visits. This can help the team see changes that a single visit may miss.
+
+Use the diagram to plan a short record. You do not need to give yourself a disease score. Ask the team how they want you to share changes.","1. Page 2: A symptom record includes what changed and when, sleep and energy, mood and daily tasks. Discuss contact routes and a personal flare plan with the care team.
+   Credit: Original editorial diagram summarizing the lesson and its cited source material; not a reproduced source figure. Editable SVG: assisted-input/diagrams/flare-record.svg. Clinical review pending.
+   https://alpetpnxseatkdudqpue.supabase.co/storage/v1/object/public/media/psa-diagram-flare-record.jpg","Scene 1: Welcome
+- Let’s talk about tracking your progress, and planning for flares. [framing]
+
+Scene 2: More than one sign
+- Follow-up visits look at more than one sign of disease activity. [lesson-text]
+- The team may check sore or swollen joints, skin, and tendon sites. [lesson-text]
+
+Scene 3: Your view matters
+- They also ask about daily tasks, and your own view of your pain and health. [lesson-text]
+
+Scene 4: MDA
+- Minimal disease activity, or MDA, uses several measures together. [src-mindmap]
+- It helps track care. It is not a stage of disease. [lesson-text]
+
+Scene 5: The whole picture
+- A quiet skin patch alone does not show the whole picture. [lesson-text]
+
+Scene 6: About flares
+- Flares are often part of living with psoriatic disease, but they should not happen often when treatment is working. [npf-flares]
+- Keeping a record of symptoms and triggers can help you see flares coming. [npf-flares]
+
+Scene 7: A useful record
+- A useful record tracks more than pain: also energy, mood, sleep, and how easy daily tasks feel. [src-the-four-pillars-of-arthritis]
+- Write down what changed, when it began, and how it affects your day. [lesson-text]
+
+Scene 8: Make a flare plan
+- Make a flare plan with your care team. [lesson-text]
+- Ask which changes need a call, which contact route to use, and what to do after hours. [lesson-text]
+
+Scene 9: Plan ahead
+- It pays to plan ahead for what could go wrong. [src-murphys-laws-of-arthritis-preface]
+- Repeated flares may mean the plan needs a review. [lesson-text]
+
+Scene 10: Follow-up visits
+- Follow the medicine instructions agreed with your prescribing team. [lesson-text]
+- Share patterns at follow-up visits. They can show changes that one visit might miss. [lesson-text]
+
+Scene 11: Quick review
+- Great job! Let’s review. [framing]
+- Follow-up visits look at more than one sign of disease activity. [key-takeaway]
+- If symptoms return or worsen, discuss a flare plan with the care team. [key-takeaway]","Sources used
+1. Handwritten PsA mind map (lesson p. 1)
+   Where: Lower-middle MDA branch: joints, entheses, skin, pain, patient view and function
+   Contributed: Explains multi-measure follow-up rather than judging control from skin alone.
+   Limits: No self-scoring cutoffs; does not represent a disease stage.
+2. Murphy’s Laws of Arthritis Preface (lesson p. 1, 2)
+   Where: Paragraphs 11 and 17: contingency plans and PsA MDA
+   Contributed: Preparation for flares and clinician-led disease activity review.
+   Limits: Does not supply exact clinic response times or a personal flare plan.
+3. The Four Pillars of Arthritis (lesson p. 2)
+   Where: Paragraph 85: tracking pain, energy, mood, sleep and daily tasks; Editorial diagram based on the located source sections and current lesson; diagram spec: flare-record
+   Contributed: Adds a practical multi-part symptom record. Displays a plain-language teaching summary; original diagram, not a source screenshot.
+   Limits: No fasting advice or guaranteed symptom improvement. Diagram omits scoring cutoffs, drug doses, prevalence estimates and individual predictions.
+
+References
+- National Psoriasis Foundation: Care Path, Keep Thriving - https://www.psoriasis.org/care-path-thrive/",6.298,,,,,,,,
