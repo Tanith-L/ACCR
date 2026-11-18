@@ -90,7 +90,7 @@ npx supabase@2 secrets set --env-file backend/supabase/functions/.env --workdir 
 # 4. Deploy the three functions
 npx supabase@2 functions deploy rheumy-chat rheumy-tts rheumy-ingest --workdir backend
 
-# 5. Load the passages (819 from 24 lessons and 9 source documents)
+# 5. Load the passages (813 from 24 lessons and 9 source documents)
 backend/.venv/bin/python backend/scripts/rheumy_ingest.py --dry-run
 backend/.venv/bin/python backend/scripts/rheumy_ingest.py
 
