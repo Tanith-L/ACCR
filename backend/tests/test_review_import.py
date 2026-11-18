@@ -1,5 +1,6 @@
 import copy
 import csv
+import json
 
 import pytest
 
@@ -238,3 +239,51 @@ def test_format_sources_lists_each_source_with_where_contribution_and_limits():
 
 def test_format_sources_is_empty_without_provenance():
     assert rev.format_sources([], {}) == "" and rev.format_sources(None, {}) == ""
+
+
+# --- images and video scripts ------------------------------------------------
+
+def test_public_url_and_format_images():
+    assert rev.public_url("https://x.supabase.co/", "a.jpg") == "https://x.supabase.co/storage/v1/object/public/media/a.jpg"
+    assert rev.public_url("", "a.jpg") == "a.jpg"  # no project URL: show the storage path
+    images = [{"page": 1, "alt_text": "A hand", "credit": "Lyra", "path": "hand.jpg"},
+              {"page": 2, "alt_text": "A knee", "credit": "NIH", "path": "knee.png"}]
+    text = rev.format_images(images, "https://x.supabase.co")
+    assert text.startswith("1. Page 1: A hand\n   Credit: Lyra\n   https://x.supabase.co/storage/v1/object/public/media/hand.jpg")
+    assert "\n\n2. Page 2: A knee" in text
+    assert rev.format_images([], "https://x.supabase.co") == ""
+
+
+VIDEO = {"scenes": [
+    {"name": "Welcome", "lines": [{"source": "framing", "text": "Hi there."}]},
+    {"name": "When to get checked", "lines": [{"source": "nhs-psa", "text": "See a doctor."},
+                                              {"source": "key-takeaway", "text": "Ask early."}]}]}
+
+
+def test_format_video_script_lists_scenes_with_line_sources():
+    assert rev.format_video_script(VIDEO) == (
+        "Scene 1: Welcome\n- Hi there. [framing]\n\n"
+        "Scene 2: When to get checked\n- See a doctor. [nhs-psa]\n- Ask early. [key-takeaway]")
+    assert rev.format_video_script(None) == "" and rev.format_video_script({}) == ""
+
+
+def test_load_video_scripts_finds_lessons_anywhere_and_rejects_bad_files(tmp_path):
+    src = tmp_path / "all-topics.json"
+    src.write_text(json.dumps({"topics": [{"subtopics": [{"lessons": [
+        {"id": "psa-dx-01", "video": VIDEO}, {"id": "psa-dx-02"}]}]}]}), encoding="utf-8")
+    assert rev.load_video_scripts(src) == {"psa-dx-01": VIDEO}
+    src.write_text("not json", encoding="utf-8")
+    with pytest.raises(rev.SheetRejected, match="cannot read video scripts"):
+        rev.load_video_scripts(src)
+
+
+@pytest.mark.db
+def test_sheet_has_image_links_and_video_scripts(db, imported):
+    base = "https://x.supabase.co"
+    rows = {r["lesson_id"]: r for r in mine(rev.make_sheet_rows(db, base, {"zzt-dx-01": VIDEO}))}
+    with_images = [r for r in rows.values() if r["images"]]
+    assert with_images and "/storage/v1/object/public/media/" in with_images[0]["images"]
+    assert "Credit:" in with_images[0]["images"]
+    assert rows["zzt-dx-01"]["video_script"].startswith("Scene 1: Welcome")
+    assert rows["zzt-dx-02"]["video_script"] == ""  # no script for that lesson
+    assert all(r["video_script"] == "" for r in mine(rev.make_sheet_rows(db, base)))

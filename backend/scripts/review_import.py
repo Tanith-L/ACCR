@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import sys
 from pathlib import Path
 
@@ -23,8 +24,9 @@ import psycopg
 from import_content import load_settings
 
 SCORES = ("accuracy", "completeness", "readability", "safety", "terminology")
-SHEET_COLUMNS = ["lesson_id", "version", "title", "page_text", "sources", "fk_grade", "flags",
+SHEET_COLUMNS = ["lesson_id", "version", "title", "page_text", "images", "video_script", "sources", "fk_grade", "flags",
                  *SCORES, "decision", "comment"]
+DEFAULT_VIDEO_SCRIPTS = Path(__file__).resolve().parents[2] / "data" / "psa" / "assisted-input" / "all-topics.json"
 REQUIRED_COLUMNS = ["lesson_id", "version", *SCORES, "comment"]
 
 
@@ -50,16 +52,69 @@ def format_sources(provenance: list[dict], titles: dict[str, str]) -> str:
     return "\n\n".join("\n".join(s) for s in sections)
 
 
-def make_sheet_rows(conn) -> list[dict]:
-    """One row per `checked` lesson version, with the evidence the reviewer needs."""
+def public_url(base: str, path: str) -> str:
+    """Public Storage URL for a path in the `media` bucket (just the path when no project URL is known)."""
+    return f"{base.rstrip('/')}/storage/v1/object/public/media/{path}" if base else path
+
+
+def format_images(images: list[dict], base: str) -> str:
+    """One numbered block per image: page, what it shows, credit, and a link the reviewer can open."""
+    return "\n\n".join(
+        f"{n}. Page {i['page']}: {i['alt_text']}\n   Credit: {i['credit']}\n   {public_url(base, i['path'])}"
+        for n, i in enumerate(images, start=1))
+
+
+def load_video_scripts(path: Path) -> dict[str, dict]:
+    """lesson id -> its `video` object, read from the Data Lead's all-topics.json (not stored in the database)."""
+    found: dict[str, dict] = {}
+
+    def walk(node):
+        if isinstance(node, dict):
+            if "id" in node and isinstance(node.get("video"), dict):
+                found[node["id"]] = node["video"]
+            for v in node.values():
+                walk(v)
+        elif isinstance(node, list):
+            for v in node:
+                walk(v)
+
+    try:
+        walk(json.loads(path.read_text(encoding="utf-8")))
+    except (OSError, ValueError) as e:
+        raise SheetRejected([f"cannot read video scripts from {path}: {e}"]) from e
+    return found
+
+
+def format_video_script(video: dict | None) -> str:
+    """The narration a reviewer would hear, scene by scene, each line tagged with the source it came from."""
+    scenes = (video or {}).get("scenes", [])
+    return "\n\n".join(
+        "\n".join([f"Scene {n}: {s['name']}", *(f"- {l['text']} [{l['source']}]" for l in s["lines"])])
+        for n, s in enumerate(scenes, start=1))
+
+
+def make_sheet_rows(conn, base_url: str = "", video_scripts: dict | None = None) -> list[dict]:
+    """One row per `checked` lesson version, with the evidence the reviewer needs.
+
+    base_url: the Supabase project URL, used to build image links.
+    video_scripts: lesson id -> video object (see load_video_scripts); fills the video_script column.
+    """
     lessons = conn.execute(
         "select id, version, title, pages, checks, provenance from lessons "
         "where status = 'checked' order by id, version"
     ).fetchall()
     titles = dict(conn.execute("select id, title from sources").fetchall())
+    images: dict[tuple, list[dict]] = {}
+    for lid, ver, page, alt, credit, path in conn.execute(
+            "select lm.lesson_id, lm.lesson_version, lm.page, m.alt_text, m.credit, m.storage_path "
+            "from lesson_media lm join media m on m.id = lm.media_id order by lm.page, m.id").fetchall():
+        images.setdefault((lid, ver), []).append({"page": page, "alt_text": alt, "credit": credit, "path": path})
+
     return [{
         "lesson_id": lesson_id, "version": version, "title": title,
         "page_text": "\n\n".join(f"[page {p['order']}] {p['body']}" for p in pages),
+        "images": format_images(images.get((lesson_id, version), []), base_url),
+        "video_script": format_video_script((video_scripts or {}).get(lesson_id)),
         "sources": format_sources(provenance, titles),
         "fk_grade": checks.get("fk_grade", ""),
         "flags": "; ".join(checks.get("safety_flags") or []),
@@ -166,6 +221,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("scores", nargs="?", type=Path, help="CSV with the reviewer's scores")
     ap.add_argument("--reviewer", help="name recorded with every review (required when importing scores)")
     ap.add_argument("--make-sheet", type=Path, metavar="OUT.csv", help="write the review sheet and exit")
+    ap.add_argument("--video-scripts", type=Path, default=DEFAULT_VIDEO_SCRIPTS, metavar="ALL_TOPICS.json",
+                    help="all-topics.json to read each lesson's video narration from (default: the repo's copy, if present)")
     ap.add_argument("--dry-run", action="store_true", help="run the real SQL, then roll back")
     args = ap.parse_args(argv)
     if bool(args.make_sheet) == bool(args.scores):
@@ -173,14 +230,16 @@ def main(argv: list[str] | None = None) -> int:
     if args.scores and not (args.reviewer or "").strip():
         ap.error("--reviewer is required when importing scores")
 
-    url = load_settings(Path(__file__).resolve().parent).get("SUPABASE_DB_URL")
+    settings = load_settings(Path(__file__).resolve().parent)
+    url = settings.get("SUPABASE_DB_URL")
     if not url:
         print("ERROR: missing settings (environment or .env): SUPABASE_DB_URL", file=sys.stderr)
         return 2
     try:
         if args.make_sheet:
             with open_connection(url) as conn:
-                rows = make_sheet_rows(conn)
+                scripts = load_video_scripts(args.video_scripts) if args.video_scripts and args.video_scripts.exists() else {}
+                rows = make_sheet_rows(conn, settings.get("SUPABASE_URL", ""), scripts)
             if not rows:
                 print("No checked lessons to review; no sheet written.")
                 return 0
