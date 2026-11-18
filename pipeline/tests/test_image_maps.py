@@ -25,7 +25,7 @@ class ImageMapTests(unittest.TestCase):
     def test_real_library_has_all_registered_lessons_and_reachable_maps(self):
         self.assertEqual([], validate_export(self.library, self.schema))
         self.assertEqual(24, len(self.library["lessons"]))
-        self.assertTrue(all(l["status"] == "draft" for l in self.library["lessons"]))
+        self.assertTrue(all(l["status"] == "checked" for l in self.library["lessons"]))
         self.assertTrue(all(l["checks"]["fk_grade"] < 8 for l in self.library["lessons"]))
         for topic in self.library["topics"]:
             if "image_map" not in topic:

@@ -23,7 +23,7 @@ import psycopg
 from import_content import load_settings
 
 SCORES = ("accuracy", "completeness", "readability", "safety", "terminology")
-SHEET_COLUMNS = ["lesson_id", "version", "title", "page_text", "claims_with_quotes", "fk_grade", "flags",
+SHEET_COLUMNS = ["lesson_id", "version", "title", "page_text", "sources", "fk_grade", "flags",
                  *SCORES, "decision", "comment"]
 REQUIRED_COLUMNS = ["lesson_id", "version", *SCORES, "comment"]
 
@@ -36,27 +36,36 @@ class SheetRejected(Exception):
 
 # --- the review sheet -------------------------------------------------------
 
+def format_sources(provenance: list[dict], titles: dict[str, str]) -> str:
+    """Readable source correspondence for one lesson: what each source gave, where, and its limits."""
+    blocks, links = [], []
+    for record in provenance or []:
+        for u in record.get("source_usage", []):
+            pages = ", ".join(str(p) for p in u["pages"])
+            name = titles.get(u["source_id"], u["source_id"])
+            blocks.append(f"{len(blocks) + 1}. {name} (lesson p. {pages})\n   Where: {u['locator']}\n"
+                          f"   Contributed: {u['contribution']}\n   Limits: {u['limits']}")
+        links += [f"- {r['title']} - {r['url']}" for r in record.get("references", [])]
+    sections = ([["Sources used", *blocks]] if blocks else []) + ([["References", *links]] if links else [])
+    return "\n\n".join("\n".join(s) for s in sections)
+
+
 def make_sheet_rows(conn) -> list[dict]:
     """One row per `checked` lesson version, with the evidence the reviewer needs."""
     lessons = conn.execute(
-        "select id, version, title, pages, checks from lessons where status = 'checked' order by id, version"
+        "select id, version, title, pages, checks, provenance from lessons "
+        "where status = 'checked' order by id, version"
     ).fetchall()
-    rows = []
-    for lesson_id, version, title, pages, checks in lessons:
-        claims = conn.execute(
-            "select c.id, c.text, c.page, s.title, c.source_page, c.source_quote from lesson_claims c "
-            "join sources s on s.id = c.source_id where c.lesson_id = %s and c.lesson_version = %s order by c.id",
-            (lesson_id, version)).fetchall()
-        rows.append({
-            "lesson_id": lesson_id, "version": version, "title": title,
-            "page_text": "\n\n".join(f"[page {p['order']}] {p['body']}" for p in pages),
-            "claims_with_quotes": "\n".join(
-                f"{cid} (p.{page}): {text}  <- {src} p.{sp}: \"{quote}\"" for cid, text, page, src, sp, quote in claims),
-            "fk_grade": checks.get("fk_grade", ""),
-            "flags": "; ".join(checks.get("safety_flags") or []),
-            **{s: "" for s in SCORES}, "decision": "", "comment": "",
-        })
-    return rows
+    titles = dict(conn.execute("select id, title from sources").fetchall())
+    return [{
+        "lesson_id": lesson_id, "version": version, "title": title,
+        "page_text": "\n\n".join(f"[page {p['order']}] {p['body']}" for p in pages),
+        "sources": format_sources(provenance, titles),
+        "fk_grade": checks.get("fk_grade", ""),
+        "flags": "; ".join(checks.get("safety_flags") or []),
+        **{s: "" for s in SCORES}, "decision": "", "comment": "",
+    } for lesson_id, version, title, pages, checks, provenance in lessons]
+
 
 
 def write_sheet(path: Path, rows: list[dict]) -> None:

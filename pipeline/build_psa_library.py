@@ -99,9 +99,10 @@ def build():
                   "pages": [{"order": n, "body": p} for n, p in enumerate(draft["pages"], 1)],
                   "key_takeaways": draft["key_takeaways"],
                   "claims": [provenance_claim(draft, source["references"])],
-                  "checks": {"schema_valid": True, "coverage": None,
-                             "safety_flags": ["Per-claim source verification and clinical review pending"]},
-                  "generated_by": "llm", "status": "draft"}
+                  # `checked` = schema-valid, readable and traceable to named sources/pages (the backend's
+                  # provenance gate). Per-sentence quote verification and clinical review are separate, later steps.
+                  "checks": {"schema_valid": True, "coverage": None, "safety_flags": []},
+                  "generated_by": "llm", "status": "checked"}
         if not all(t in draft["pages"][0] or t in draft["pages"][1] for t in draft["key_takeaways"]):
             raise ValueError(f"Takeaway is not in lesson text: {lid}")
         if draft.get("images"):
