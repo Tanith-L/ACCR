@@ -180,6 +180,7 @@
   function h(tag, props) {
     var el = document.createElement(tag);
     for (var k in (props || {})) {
+      if (props[k] == null) continue;
       if (k === "class") el.className = props[k]; else if (k === "text") el.textContent = props[k];
       else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), props[k]); else el.setAttribute(k, props[k]);
     }
