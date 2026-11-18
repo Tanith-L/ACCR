@@ -12,10 +12,11 @@ type TabBarProps = Parameters<NonNullable<ComponentProps<typeof Tabs>['tabBar']>
 const TABS: Record<string, { label: string; icon: IconName }> = {
   care: { label: 'Care Team', icon: 'user-plus' },
   '(home)': { label: 'Home', icon: 'home' },
+  rheumy: { label: 'Rheumy', icon: 'message-circle' },
   settings: { label: 'Settings', icon: 'settings' },
 };
 
-/** Care Team · Home · Settings, with a soft pill behind the active tab. */
+/** Care Team · Home · Rheumy · Settings, with a soft pill behind the active tab. */
 export function TabBar({ state, navigateToTab }: TabBarProps) {
   const insets = useSafeAreaInsets();
   return (

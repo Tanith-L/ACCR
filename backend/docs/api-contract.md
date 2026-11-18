@@ -173,3 +173,48 @@ Mock response: `mind_map_dx.json`. The backend decides every node and every pare
 - Only published content appears: a subtopic or topic with no published lessons is left out, and nodes appear and disappear as lessons are published or rolled back.
 - `[]` means nothing is published for that disease (`empty.json`). There is no `root` node in that case.
 - There are no nodes other than the content hierarchy. The map shows no clinical text beyond the topic, subtopic and lesson names.
+
+## 9. Proposed (PR `feature/rheumy-chatbot`): Rheumy chatbot Edge Functions
+
+Requires migration `0009_rheumy_rag.sql` and the Edge Functions in `backend/supabase/functions/` (setup: `docs/rheumy-chatbot.md`). **Demo only**: answers draw on draft lessons and clinician source documents that are not clinically reviewed, so this is an exception to rule §1 ("published content only") that the team must approve before any patient use. Nothing the user types is stored.
+
+Base: `{SUPABASE_URL}/functions/v1`. Header: `apikey: <publishable or anon key>` (a legacy JWT anon key may also be sent as `Authorization: Bearer`). Browsers must be on an origin listed in the `RHEUMY_ALLOWED_ORIGINS` secret (unset = any).
+
+### 9.1 Ask: `POST /rheumy-chat`
+
+```json
+{ "messages": [ { "role": "user", "content": "Why can PsA cause heel pain?" } ] }
+```
+
+Up to the last 8 turns are used; the last must be the user's, at most 600 characters. Personal details (emails, phone numbers, dates, long numbers, street addresses) are removed on the server before anything is sent to the LLM.
+
+```json
+{
+  "answer": "PsA can inflame the places where tendons attach to bone [1]...",
+  "citations": [ { "n": 1, "kind": "lesson", "sourceId": "psa-symptoms-07", "title": "Feet, heel pain, and tendon attachments", "locator": "Page 1" } ],
+  "urgency": null,
+  "notice": null,
+  "reviewed": false,
+  "model": "openai/gpt-oss-120b"
+}
+```
+
+`[n]` marks in `answer` refer to `citations[].n`. `kind: "lesson"` cites a lesson the app can open (`sourceId` is the lesson id); `kind: "source"` cites a clinician document (not openable in the app). `urgency` is `"urgent"` (with a `notice` to show) or `"emergency"` (then `answer` is a fixed "call 911" message and no LLM is called).
+
+### 9.2 Read aloud: `GET /rheumy-tts?voice=<ava|jenny|emma>&text=<answer>&apikey=<publishable key>`
+
+Returns `audio/mpeg` (Azure AI Speech: Ava = `en-US-AvaMultilingualNeural`, Jenny = `en-US-JennyNeural`, Emma = `en-US-EmmaNeural`). Usable directly as an audio source URL; the key in it is the public one. Text up to 1500 characters; citation marks are dropped. `POST` with `{ "voice", "text" }` also works.
+
+### 9.3 Errors (both functions)
+
+| Status | `error` | App behavior |
+|---|---|---|
+| 400 | `bad_request` | Show `message` (e.g. question too long) |
+| 401 | `unauthorized` | "Not set up correctly" + `console.warn` |
+| 403 | `origin_not_allowed` | Same; add the site's origin to `RHEUMY_ALLOWED_ORIGINS` |
+| 429 / 503 | `rate_limited` / `busy` | "Busy, try again in a minute" |
+| 502 | `llm_auth` / `tts_auth` | "Not set up correctly" (server key rejected) |
+| 503 | `not_configured` | "Not set up correctly"; `missing` lists the secret names |
+| 500 | `server_error` | Generic retry message |
+
+`POST /rheumy-ingest` exists too but accepts only the secret key; it is called by `backend/scripts/rheumy_ingest.py`, never by the app.

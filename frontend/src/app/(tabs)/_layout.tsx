@@ -28,6 +28,7 @@ export default function TabsLayout() {
     >
       <Tabs.Screen name="care" />
       <Tabs.Screen name="(home)" />
+      <Tabs.Screen name="rheumy" />
       <Tabs.Screen name="settings" />
     </Tabs>
   );

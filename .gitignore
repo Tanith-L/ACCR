@@ -1,5 +1,9 @@
-# Secrets
+# Secrets (every .env except the committed *.env.example templates)
 .env
+.env.*
+!.env.example
+!**/.env.example
+**/functions/.env
 
 # Python
 __pycache__/
@@ -7,6 +11,8 @@ __pycache__/
 
 # Supabase CLI
 supabase/.temp/
+backend/supabase/.temp/
+backend/supabase/.branches/
 
 # Generated exports (may hold content that is not ready to share)
 backend/exports/
