@@ -2,6 +2,7 @@
 import { assert, assertEquals, assertStringIncludes } from "jsr:@std/assert@1";
 
 import {
+  balancePassages,
   buildModelMessages,
   citationsFor,
   keywordQuery,
@@ -96,4 +97,13 @@ Deno.test("normalizeCitations turns the model's citation variants into [n]", () 
   assertEquals(normalizeCitations("See [3†L1-L4] and [1, 2]."), "See [3] and [1][2].");
   assertEquals(normalizeCitations("Already fine [1] [2]."), "Already fine [1][2].");
   assertEquals(citationsFor(normalizeCitations("x 【2】"), [passage(1), passage(2)]).map((c) => c.n), [2]);
+});
+
+Deno.test("balancePassages mixes lessons and source documents, best first", () => {
+  const p = (id: string, kind: "lesson" | "source", score: number): Passage => ({ ...passage(1, kind), id, score });
+  const found = [p("l1", "lesson", .9), p("l2", "lesson", .8), p("l3", "lesson", .7), p("l4", "lesson", .6), p("l5", "lesson", .5),
+    p("s1", "source", .4), p("s2", "source", .3), p("s3", "source", .2), p("s4", "source", .1)];
+  assertEquals(balancePassages(found).map((x) => x.id), ["l1", "l2", "l3", "s1", "s2", "s3"]);
+  const fewSources = [p("l1", "lesson", .9), p("l2", "lesson", .8), p("l3", "lesson", .7), p("l4", "lesson", .6), p("s1", "source", .5)];
+  assertEquals(balancePassages(fewSources).map((x) => x.id), ["l1", "l2", "l3", "l4", "s1"]);
 });

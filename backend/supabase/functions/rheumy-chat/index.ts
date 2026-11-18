@@ -24,6 +24,7 @@ import {
   secretKeys,
 } from "../_shared/http.ts";
 import {
+  balancePassages,
   buildModelMessages,
   citationsFor,
   EMERGENCY_REPLY,
@@ -53,10 +54,10 @@ async function search(question: string): Promise<Passage[]> {
   const { data, error } = await db.rpc("rheumy_search", {
     query_embedding: JSON.stringify(Array.from(embedding as number[])),
     keywords: keywordQuery(question),
-    match_count: 6,
+    match_count: 12, // then balanced down to 6 (balancePassages)
   });
   if (error) throw new Error(`search failed: ${error.message}`);
-  return (data ?? []) as Passage[];
+  return balancePassages((data ?? []) as Passage[]);
 }
 
 async function complete(messages: unknown[]): Promise<string> {

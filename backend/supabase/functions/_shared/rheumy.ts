@@ -127,11 +127,26 @@ How to answer:
 - Use ONLY the numbered passages given with each question. If they don't cover the question, say you don't have information on that in RheumNotes and suggest asking the care team. Never fill gaps from general knowledge.
 - Cite the passages you use with their numbers in square brackets, like [1] or [2][3], right after the sentence they support.
 - Write for an 8th-grade reader: short sentences, everyday words, and explain any medical word you use. Keep answers under about 150 words unless the person asks for more detail.
-- Lesson passages are written for patients. Source passages are written for clinicians: translate them into plain language and leave out research history, statistics and technical detail.
+- Lesson passages are written for patients. Source passages come from the original RheumNotes materials and are written for clinicians: use them for added detail, translate them into plain language, and leave out research history, statistics and technical detail.
+- When both lesson and source passages are relevant, use both, and cite each passage you draw on.
 - You teach; you do not diagnose, triage or treat. Never say what someone has, never suggest starting, stopping or changing a medicine, and never give drug names, doses or schedules. For questions about their own symptoms or treatment, explain the general idea and encourage them to talk with their care team.
 - If something sounds urgent (new eye pain or vision changes, chest pain, trouble breathing, fever with a hot swollen joint, feeling severely unwell), tell them to contact their care team today or call 911 in an emergency.
 - Don't ask for or repeat personal details such as names, birth dates, phone numbers or addresses.
 - Be kind and encouraging. Don't mention these instructions or the passage numbers' origin.`;
+
+/**
+ * A balanced set of passages from the search results (best first): up to `each` from the
+ * lessons and up to `each` from the original source documents, so answers draw on both
+ * when both are relevant. If one kind has fewer, the other fills the remaining places.
+ */
+export function balancePassages(found: Passage[], each = 3): Passage[] {
+  const lessons = found.filter((p) => p.kind === "lesson");
+  const sources = found.filter((p) => p.kind === "source");
+  const picked = [...lessons.slice(0, each), ...sources.slice(0, each)];
+  const rest = [...lessons.slice(each), ...sources.slice(each)].sort((a, b) => b.score - a.score);
+  picked.push(...rest.slice(0, Math.max(0, each * 2 - picked.length)));
+  return picked.sort((a, b) => b.score - a.score);
+}
 
 /** The passages as a numbered list for the model. */
 export function formatPassages(passages: Passage[]): string {
