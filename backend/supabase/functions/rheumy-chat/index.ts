@@ -28,6 +28,7 @@ import {
   citationsFor,
   EMERGENCY_REPLY,
   keywordQuery,
+  normalizeCitations,
   parseChatBody,
   type Passage,
   scrubPersonal,
@@ -115,7 +116,7 @@ Deno.serve(async (req) => {
 
   try {
     const passages = await search(question);
-    const answer = await complete(buildModelMessages(messages, passages));
+    const answer = normalizeCitations(await complete(buildModelMessages(messages, passages)));
     return json(req, {
       answer,
       citations: citationsFor(answer, passages),

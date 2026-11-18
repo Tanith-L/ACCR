@@ -157,6 +157,19 @@ export function buildModelMessages(history: ChatMessage[], passages: Passage[]) 
   ];
 }
 
+/**
+ * Puts citation marks in one form, [n]. The model sometimes writes 【2】, [2†L3] or (2)-style
+ * variants; the app and citationsFor read only [n]. Also tidies "[1] [2]" spacing.
+ */
+export function normalizeCitations(answer: string): string {
+  return answer
+    .replace(/【\s*(\d{1,2})(?:†[^】]*)?\s*】/g, "[$1]")
+    .replace(/\[(\d{1,2})†[^\]]*\]/g, "[$1]")
+    .replace(/\[(\d{1,2})\s*,\s*(\d{1,2})\]/g, "[$1][$2]")
+    .replace(/(\[\d{1,2}\])\s+(?=\[\d{1,2}\])/g, "$1")
+    .replace(/[\u202f\u00a0]+(?=\[\d)/g, " ");
+}
+
 /** The passages an answer cites, numbered as in the answer. */
 export function citationsFor(answer: string, passages: Passage[]): Citation[] {
   const used = new Set<number>();

@@ -63,7 +63,7 @@ SOURCES = [
 TARGET_CHARS = 1100   # about 250 words; gte-small reads up to 512 tokens
 MAX_CHARS = 1600
 OVERLAP_CHARS = 200
-BATCH = 16            # passages per request (the function embeds one by one)
+BATCH = 4             # passages per request: embedding uses CPU time, which the free plan limits per call
 ID_RE = re.compile(r"^[a-z0-9-]+#\d+$")
 
 
@@ -217,17 +217,36 @@ def post(url: str, key: str, body: dict, timeout: int = 150) -> dict:
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         detail = e.read().decode("utf-8", "replace")[:500]
+        if e.code == 546:
+            raise ResourceLimit(detail) from None
         raise RuntimeError(f"rheumy-ingest answered {e.code}: {detail}") from None
+
+
+class ResourceLimit(RuntimeError):
+    """The Edge Function ran out of CPU time (HTTP 546)."""
+
+
+def upsert(url: str, key: str, batch: list[dict]) -> dict:
+    """Send a batch; if the function runs out of CPU time, send it again in halves."""
+    try:
+        return post(url, key, {"action": "upsert", "chunks": batch})
+    except ResourceLimit:
+        if len(batch) == 1:
+            raise RuntimeError(f"rheumy-ingest ran out of compute even for one passage ({batch[0]['id']})") from None
+        half = len(batch) // 2
+        a, b = upsert(url, key, batch[:half]), upsert(url, key, batch[half:])
+        return {k: a.get(k, 0) + b.get(k, 0) for k in ("embedded", "unchanged")}
 
 
 def upload(chunks: list[dict], supabase_url: str, key: str) -> dict:
     url = supabase_url.rstrip("/") + "/functions/v1/rheumy-ingest"
     totals = {"embedded": 0, "unchanged": 0}
     for i in range(0, len(chunks), BATCH):
-        result = post(url, key, {"action": "upsert", "chunks": chunks[i:i + BATCH]})
+        result = upsert(url, key, chunks[i:i + BATCH])
         totals["embedded"] += result.get("embedded", 0)
         totals["unchanged"] += result.get("unchanged", 0)
-        print(f"  {min(i + BATCH, len(chunks))}/{len(chunks)} passages sent")
+        if (i // BATCH) % 10 == 0 or i + BATCH >= len(chunks):
+            print(f"  {min(i + BATCH, len(chunks))}/{len(chunks)} passages sent")
     result = post(url, key, {"action": "prune", "keep_ids": [c["id"] for c in chunks]})
     totals["deleted"] = result.get("deleted", 0)
     return totals

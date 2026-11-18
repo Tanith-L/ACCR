@@ -120,7 +120,7 @@ export function RheumyChat({ onClose, onOpenLesson }: { onClose: () => void; onO
     setDraft('');
   };
 
-  const listen = (m: RheumyMessage) => {
+  const listen = async (m: RheumyMessage) => {
     setAudioError(null);
     if (speakingId === m.id) {
       player.pause();
@@ -133,11 +133,33 @@ export function RheumyChat({ onClose, onOpenLesson }: { onClose: () => void; onO
       .map((t) => speechUrl(t, voice))
       .filter((u): u is string => !!u);
     if (!urls.length) return;
+    setSpeaking(m.id);
+    if (bySentence) {
+      // Heart and Bella come from our own Kokoro service. Ask for the first sentence first, so a
+      // missing or failing service shows a message instead of an endless "Loading…". The service
+      // keeps the clip it just made, so playing it next costs nothing extra.
+      try {
+        const res = await fetch(urls[0]);
+        if (!res.ok) {
+          const body = await res.json().catch(() => ({}));
+          setAudioError(
+            body?.error === 'not_configured'
+              ? 'Heart and Bella aren’t available yet: their voice service isn’t set up. Try Ava, Jenny or Emma.'
+              : 'This voice can’t read aloud right now. Try another voice.',
+          );
+          setSpeaking(null);
+          return;
+        }
+      } catch {
+        setAudioError('This voice can’t be reached right now. Try another voice.');
+        setSpeaking(null);
+        return;
+      }
+    }
     try {
       queue.current = { urls, index: 0, fetchedAhead: 0 };
       player.replace({ uri: urls[0] });
       player.play();
-      setSpeaking(m.id);
     } catch {
       queue.current = null;
       setAudioError('The answer can’t be read aloud right now.');

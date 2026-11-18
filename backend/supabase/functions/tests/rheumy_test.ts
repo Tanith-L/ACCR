@@ -6,6 +6,7 @@ import {
   citationsFor,
   keywordQuery,
   MAX_CHARS,
+  normalizeCitations,
   parseChatBody,
   type Passage,
   scrubPersonal,
@@ -88,4 +89,11 @@ Deno.test("speechText and ssml prepare safe text for Azure", () => {
   const doc = ssml(`Tom & Jerry <say> "hi"`, "en-US-JennyNeural");
   assertStringIncludes(doc, 'voice name="en-US-JennyNeural"');
   assertStringIncludes(doc, "Tom &amp; Jerry &lt;say&gt; &quot;hi&quot;");
+});
+
+Deno.test("normalizeCitations turns the model's citation variants into [n]", () => {
+  assertEquals(normalizeCitations("Heel pain is common\u202f【2】【4】."), "Heel pain is common [2][4].");
+  assertEquals(normalizeCitations("See [3†L1-L4] and [1, 2]."), "See [3] and [1][2].");
+  assertEquals(normalizeCitations("Already fine [1] [2]."), "Already fine [1][2].");
+  assertEquals(citationsFor(normalizeCitations("x 【2】"), [passage(1), passage(2)]).map((c) => c.n), [2]);
 });
